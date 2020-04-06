@@ -18,11 +18,10 @@ $primary-color: mat-color($nwk-primary-colors);
 $accent-color: mat-color($nwk-accent-colors);
 $warn-color: mat-color($nwk-warn-colors);
 
-$nwk-sidebar-width: 450px;
 $nwk-font-family: 'Segoe UI',
 'Open Sans',
 sans-serif;
-
+$nwk-sidebar-width: 25vw;
 $grey: rgba(0, 0, 0, 0.2);
 $transition-time: 0.2s;
 $transition: padding-left $transition-time,

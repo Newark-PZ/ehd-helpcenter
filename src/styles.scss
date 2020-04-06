@@ -1,1 +1,59 @@
-/* You can add global styles to this file, and also import other style files */
+@use "assets/styles/variables"as *;
+@import "assets/styles/fonts";
+@import "assets/styles/material";
+
+:host {
+    font-family: $nwk-font-family;
+}
+
+html,
+body {
+    font-family: $nwk-font-family;
+    margin: 0 !important;
+}
+
+.mat-sidenav-container {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+
+    @media screen and (max-width: 500px) {
+        width: 100vw;
+    }
+
+    .mat-sidenav {
+        padding: 0px;
+        width: $nwk-sidebar-width;
+        box-shadow: 0 8px 10px -5px rgba(0, 0, 0, .2), 0 16px 24px 2px rgba(0, 0, 0, .14), 0 6px 30px 5px rgba(0, 0, 0, .12);
+
+        @media only screen and (max-width: 576px) {
+            width: 100vw;
+        }
+
+        @media only screen and (min-width: 576px) and (max-width: 768px) {
+            width: 66vw;
+        }
+
+        @media only screen and (min-width: 576px) and (max-width: 768px) {
+            width: 50vw;
+        }
+
+        @media only screen and (min-width: 768px) and (max-width: 1200px) {
+            width: 33vw;
+        }
+
+        @media only screen and (min-width: 1200px) {
+            width: 25vw;
+        }
+
+        .mat-drawer-content {
+            background-color: white;
+        }
+    }
+
+    .mat-sidenav-content {
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+}

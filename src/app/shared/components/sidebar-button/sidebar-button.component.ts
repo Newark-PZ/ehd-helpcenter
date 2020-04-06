@@ -1,0 +1,37 @@
+import { Component, OnInit, Input } from '@angular/core';
+import { Store } from '@ngrx/store';
+import { Observable } from 'rxjs';
+
+import {
+  shownStateTrigger,
+  sidebarButtonStateTrigger
+} from '../../animations';
+import * as fromStore from '../../../store/store.reducers';
+import * as SidebarActions from './../../../store/sidebar/sidebar.actions';
+import * as RightSidebarActions from './../../../store/sidebarRight/sidebar.actions';
+
+@Component({
+  selector: 'app-sidebar-button',
+  templateUrl: './sidebar-button.component.html',
+  styleUrls: ['./sidebar-button.component.scss'],
+  animations: [sidebarButtonStateTrigger, shownStateTrigger]
+})
+export class SidebarButtonComponent implements OnInit {
+  @Input() iconName;
+  sidebarOpened$: Observable<boolean>;
+  sidebarRightOpened$: Observable<boolean>;
+
+  constructor(private store: Store<fromStore.StoreState>) {
+    this.sidebarOpened$ = this.store.select(state => state.sidebar.opened);
+    this.sidebarRightOpened$ = this.store.select(state => state.sidebarRight.opened);
+  }
+
+  ngOnInit() {}
+
+  toggleSidebar() {
+    this.store.dispatch(new SidebarActions.Toggle());
+  }
+  toggleRightSidebar() {
+    this.store.dispatch(new RightSidebarActions.Toggle());
+  }
+}

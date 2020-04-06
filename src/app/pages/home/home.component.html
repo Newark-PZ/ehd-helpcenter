@@ -1,0 +1,20 @@
+<mat-grid-list cols="4" rowHeight="30vh" class="page-els">
+    <mat-grid-tile colspan="4" [rowspan]="2" class="splash-tile">
+        <div style="flex: 1 1 33%; padding-top: 2rem">
+          <span class="toolbar-spacer left-icon"></span>
+          <span class="splash-title"><h2>EHD is Here to Help</h2></span>
+          <span class="toolbar-spacer right-icon"></span>
+        </div>
+        <div style="flex: 1 1 66%">
+            <span class="toolbar-spacer left-icon"></span>
+            <span class="splash-subtitle">
+                <h3>We have several programs to make sure Newarkers find some economic stability in these trying times</h3>
+            </span>
+            <span class="toolbar-spacer right-icon"></span>
+        </div>
+    </mat-grid-tile>
+    <mat-grid-tile *ngFor="let tile of tiles" [colspan]="tile.cols" [rowspan]="tile.rows"
+        [style.background]="tile.color">
+        {{tile.text}}
+    </mat-grid-tile>
+</mat-grid-list>

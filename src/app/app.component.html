@@ -1,7 +1,65 @@
-<mat-drawer-container class="root-container">
-  <mat-drawer mode="side" opened></mat-drawer>
-  <mat-drawer-content>
-    <router-outlet>
-    </router-outlet>
-  </mat-drawer-content>
-</mat-drawer-container>
+<!-- [disableClose]="(sidebarMode$ | async) === 'side' ? true : false" -->
+<mat-sidenav-container hasBackdrop="false" >
+  <mat-sidenav #sidebar fixedInViewport="true" fixedTopGap="96" (click)="sidebar.close()" *ngIf="hasSidebar$ | async" [opened]="sidebarOpened$ | async" [mode]="'over'"
+       (openedChange)="onOpenedChange($event)">
+      <mat-grid-list cols="4" rowHeight="3rem" gutterSize="1rem">
+        <mat-grid-tile colspan="4" rowspan="2" class="sidebar-tile">
+              <img src="assets/img/city-of-newark-logo-white.png" class="sidebar-logo" style="filter: invert(1)"/>
+        </mat-grid-tile>
+        <mat-grid-tile *ngFor="let link of links" colspan="4" rowspan="1" class="sidebar-links">
+          <button [routerLink]="link.link">
+            <mat-icon style="margin-right: 1rem">{{ link.icon }}</mat-icon>
+            <span>{{ link.name }}</span>
+          </button>
+        </mat-grid-tile>
+        <mat-grid-tile colspan="2" rowspan="1" class="sidebar-tile">
+            <button mat-flat-button color="accent">
+              <mat-icon>help</mat-icon>
+            </button>
+        </mat-grid-tile>
+        <mat-grid-tile colspan="2" rowspan="1" class="sidebar-tile">
+          <button mat-flat-button color="accent" (click)="sidebar.close()">
+            <mat-icon>close</mat-icon>
+          </button>
+        </mat-grid-tile>
+      </mat-grid-list>
+  </mat-sidenav>
+  <mat-sidenav #sidebarRight position="end" *ngIf="hasSidebarRight$ | async" [opened]="sidebarRightOpened$ | async"
+      [mode]="sidebarRightMode$ | async" [disableClose]="(sidebarRightMode$ | async) === 'side' ? true : false"
+      (openedChange)="onRightOpenedChange($event)">
+      <mat-grid-list cols="4" rowHeight="3rem" gutterSize="1rem">
+        <mat-grid-tile colspan="4" rowspan="2">
+          <h2>Important Links</h2>
+        </mat-grid-tile>
+        <mat-grid-tile *ngFor="let link of rightlinks" colspan="4" rowspan="1" class="sidebar-links">
+          <button [routerLink]="link.link">
+            <mat-icon style="margin-right: 1rem">{{ link.icon }}</mat-icon>
+            <span>{{ link.name }}</span>
+          </button>
+        </mat-grid-tile>
+        <mat-grid-tile colspan="2" rowspan="1" class="sidebar-tile">
+          <button mat-flat-button color="accent" (click)="toggleRightSidebar()">
+            <mat-icon>close</mat-icon>
+          </button>
+        </mat-grid-tile>
+      </mat-grid-list>
+    </mat-sidenav>
+  <mat-sidenav-content>
+    <mat-toolbar>
+      <mat-toolbar-row class="header">
+          <span class="toolbar-spacer left-icon"><app-sidebar-button [iconName]="'menu'"></app-sidebar-button></span>
+          <span class="newark-title">City of Newark<span class="mayorText" [style.display]="mayorDisplay === true ? 'none' : 'inline'"> | Mayor Ras Baraka</span></span>
+          <span class="toolbar-spacer right-icon"><app-sidebar-button [iconName]="'info'"></app-sidebar-button></span>
+    </mat-toolbar-row>
+      <mat-toolbar-row class="sub-header">
+          <span class="toolbar-spacer"></span>
+          <span class="dept-title"><span [style.display]="deptDisplay === true ? 'none' : 'inline'">Department of </span>Economic & Housing Development</span>
+          <span class="toolbar-spacer"></span>
+      </mat-toolbar-row>
+    </mat-toolbar>
+    <section class="main-content">
+      <router-outlet>
+      </router-outlet>
+    </section>
+  </mat-sidenav-content>
+</mat-sidenav-container>

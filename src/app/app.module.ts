@@ -1,18 +1,44 @@
+import { LayoutModule } from '@angular/cdk/layout';
+import { CommonModule } from '@angular/common';
+import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
-
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+// Universal Imports
 import { AppRoutingModule } from './app-routing.module';
+import { SharedModule } from './shared/shared.module';
+// Component Imports
 import { AppComponent } from './app.component';
+import { pageComponents } from './pages';
+// Store Imports and Clear State Effect
+import { MetaReducer, StoreModule } from '@ngrx/store';
+import { StoreService } from './store/store.service';
+import { StoreState, clearState, StoreReducers } from './store/store.reducers';
+export const metaReducers: Array<MetaReducer<StoreState>> = [clearState];
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    pageComponents
   ],
   imports: [
+    CommonModule,
     BrowserModule,
-    AppRoutingModule
+    BrowserAnimationsModule,
+    AppRoutingModule,
+    LayoutModule,
+    SharedModule,
+    StoreModule.forRoot(StoreReducers, {
+      metaReducers,
+      runtimeChecks: {
+        strictStateImmutability: false,
+        strictActionImmutability: false,
+        strictStateSerializability: false,
+        strictActionSerializability: false
+      }
+    })
   ],
-  providers: [],
-  bootstrap: [AppComponent]
+  providers: [StoreService],
+  bootstrap: [AppComponent],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
 export class AppModule { }

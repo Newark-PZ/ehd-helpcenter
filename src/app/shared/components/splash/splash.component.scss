@@ -1,0 +1,12 @@
+@use '../../../../assets/styles/variables' as *;
+
+:host {
+    display: flex;
+    width: 90%;
+    height: 90%;
+    font-family: $nwk-font-family;
+    .mat-card {
+    width: 100%;
+    height: 100%; 
+    }
+}

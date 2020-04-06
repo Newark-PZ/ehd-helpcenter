@@ -1,0 +1,15 @@
+<mat-card>
+  <mat-card-header>
+    <mat-card-title><h1 [innerHTML]="splashOptions.title"></h1></mat-card-title>
+    <mat-card-subtitle><h2 [innerHTML]="splashOptions.subtitle"></h2></mat-card-subtitle>
+  </mat-card-header>
+  <mat-card-content [innerHTML]="splashOptions.content"></mat-card-content>
+  <mat-card-actions>
+    <button *ngFor="let action of splashOptions.actions" mat-button (click)="action.action">
+      <mat-icon>{{ action.icon }}</mat-icon>
+      <span>{{ action.name }}</span>
+    </button>
+  </mat-card-actions>
+    <img style="object-fit:cover" mat-card-image *ngIf="splashOptions.imageSize" src="{{ splashOptions.image.src }}"
+      alt="{{ splashOptions.image.description }}">
+</mat-card>
