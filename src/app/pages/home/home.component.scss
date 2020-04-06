@@ -1,87 +1,152 @@
+@use '../.../../../../assets/styles/variables' as *;
 @import '../../app.component.scss';
 
-.splash-buttons {
-    flex-basis: content;
-
-    .btn {
-        display: flex;
-        box-shadow: .1rem .1rem .25rem black;
-        border-color: transparent;
-        font-size: .9rem;
-        align-items: center;
-        justify-content: space-between;
-    }
+.button-card {
+  display: flex;
+  flex-direction: row;
+  align-self: stretch;
 }
-
-.splash-title,
-.splash-subtitle {
+.splash-header {
+  flex: 1 1 33%;
+  @media only screen and (max-width: 768px) {
+    flex: 1 1 25%;
+  }
+}
+.splash-body {
+  flex: 1 1 66%;
+  @media only screen and (max-width: 768px) {
+    flex: 1 1 75%;
+  }
+}
+.splash-title {
     display: flex;
     flex-direction: row;
     line-height: normal;
     color: #fff;
     -webkit-text-fill-color: #fff;
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 1.5rem;
     border-radius: .5rem;
     margin: unset !important;
     flex: 1 1 70%;
 
     h2 {
-        font-size: 2rem;
+        font-size: 1.5rem;
         margin: unset;
         font-weight: bold;
         display: flex;
         background: rgb(100, 100, 100, .9);
-        padding: .15rem 2rem;
+        padding: .15rem 1rem;
         box-shadow: .2rem .2rem 0px rgba(260, 260, 260, 0.9);
         border-radius: .2rem;
+        @media only screen and (max-width: 768px) {
+          font-size: 1.1rem;
+          padding: .15rem 1rem;
     }
-
-    h3 {
-        background: rgba(95, 158, 160, 0.9);
-        font-size: 2rem;
-        margin: unset;
-        font-weight: bold;
+ }
+}
+.splash-subtitle {
+    display: flex;
+    flex-direction: row;
+    line-height: normal;
+    padding: 1rem;
+    color: #fff;
+    -webkit-text-fill-color: #fff;
+    border-radius: .2rem;
+    margin: unset !important;
+    flex: 1 1 70%;
+    background: rgba(0,0,0, 0.8);
+    font-size: 1.15rem;
+    font-weight: lighter;
+    box-shadow: .2rem .2rem 0px rgba(260, 260, 260, 0.9);
+    div {
         display: flex;
-        padding: .15rem 2rem;
-        box-shadow: .2rem .2rem 0px rgba(260, 260, 260, 0.9);
-        border-radius: .2rem;
-
+        flex-direction: column;
+        align-self: center;
+        padding: 0;
+        p {padding: 0;margin:0}
+        h4 {font-weight: 600;margin: 0; margin-left: auto; }
+        span {
+          font-weight: 500;
+          font-size: 1.5rem;
+          margin:0;
+          margin-left: auto;
+          line-height: 0;
+          img {
+            width: 5rem;
+            vertical-align: text-bottom;
+            filter: invert(1)
+          }
+        }
+        @media only screen and (max-width: 768px) {
+          font-size: 1rem;
+      }
     }
+  .baraka {
+    margin-left:1rem;
+    max-width: 8rem;
+    border-radius: .25rem;
+    object-fit: contain;
+    object-position: center;
+    @media only screen and (max-width: 768px) {
+      display:none;
+  }
+  }
+}
+.content-intro {
+  color: white;
+  -webkit-text-fill-color: white;
+  text-align: center;
+  h3 {
+    @media only screen and (max-width: 768px) {
+      font-size: 1rem !important;
+    }
+  }
+  mat-icon {
+    vertical-align: middle;
+  }
+}
+.program-cards {
+  width: 80%;
+  height: 50%;
+  display: flex !important;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  cursor: pointer;
+  &:hover {
+    background-color: $primary-color !important;
+    box-shadow: none;
+    color: white;
+    -webkit-text-fill-color: white;
 }
 
+  &:active {
+      background-color: $accent-color !important;
+      box-shadow: none;
+      color: lightslategray;
+      -webkit-text-fill-color: lightslategray;
+  }
+}
 .page-els {
-    .splash-tile {
+  background-color: seagreen;
+  .splash-tile {
+        display: flex;
+        flex-direction: column;
         background-image: url('../../../assets/img/NwkCitySky.png');
         background-size: cover;
         background-attachment: fixed;
         background-blend-mode: lighten;
         background-color: #0d47a1;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .mat-grid-tile:nth-of-type(3) {
-        color: white;
-        -webkit-text-fill-color: white;
-        background: #0d47a1 none repeat scroll 0% 0% !important;
-        box-shadow: 5px -5px 8px rgba(0, 0, 0, .3);
-    }
-
-    .mat-grid-tile:nth-of-type(2) {
-        box-shadow: 5px -5px 8px rgba(0, 0, 0, .3);
-    }
-
+      }
     .mat-grid-tile:nth-of-type(2),
     .mat-grid-tile:nth-of-type(4),
     .mat-grid-tile:nth-of-type(5) {
         color: black;
         -webkit-text-fill-color: black;
-        background: white none repeat scroll 0% 0% !important;
-    }
-
-    .mat-grid-tile:nth-of-type(4) {
-        background: #fdcb06 none repeat scroll 0% 0% !important;
     }
 }
 
@@ -99,4 +164,23 @@
     div:nth-of-type(2) {
         align-items: flex-start;
     }
+}
+@media only screen and (max-width: 768px) {
+  .splash-title,
+  .splash-subtitle {
+    flex: 1 1 90%;
+  }
+  .toolbar-spacer {
+    display: flex;
+    flex: 1 1 5%;
+    align-items: center;
+
+      &.right-icon {
+          justify-content: flex-end;
+      }
+
+      &.left-icon {
+          justify-content: flex-start;
+      }
+  }
 }

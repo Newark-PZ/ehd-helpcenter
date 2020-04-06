@@ -3,7 +3,7 @@
   <mat-sidenav #sidebar fixedInViewport="true" fixedTopGap="96" (click)="sidebar.close()" *ngIf="hasSidebar$ | async" [opened]="sidebarOpened$ | async" [mode]="'over'"
        (openedChange)="onOpenedChange($event)">
       <mat-grid-list cols="4" rowHeight="3rem" gutterSize="1rem">
-        <mat-grid-tile colspan="4" rowspan="2" class="sidebar-tile">
+        <mat-grid-tile colspan="4" rowspan="1" class="sidebar-tile">
               <img src="assets/img/city-of-newark-logo-white.png" class="sidebar-logo" style="filter: invert(1)"/>
         </mat-grid-tile>
         <mat-grid-tile *ngFor="let link of links" colspan="4" rowspan="1" class="sidebar-links">

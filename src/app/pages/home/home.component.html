@@ -1,20 +1,47 @@
-<mat-grid-list cols="4" rowHeight="30vh" class="page-els">
-    <mat-grid-tile colspan="4" [rowspan]="2" class="splash-tile">
-        <div style="flex: 1 1 33%; padding-top: 2rem">
+<mat-grid-list [cols]="colNum" rowHeight="15vh" class="page-els">
+    <mat-grid-tile [colspan]="colNum" [rowspan]="4" class="splash-tile">
+        <div class="splash-header">
           <span class="toolbar-spacer left-icon"></span>
-          <span class="splash-title"><h2>EHD is Here to Help</h2></span>
+          <span class="splash-title"><h2>Covid-19 Housing and Economic Help for Residents and Small Businesses</h2></span>
           <span class="toolbar-spacer right-icon"></span>
         </div>
-        <div style="flex: 1 1 66%">
+        <div class="splash-body">
             <span class="toolbar-spacer left-icon"></span>
             <span class="splash-subtitle">
-                <h3>We have several programs to make sure Newarkers find some economic stability in these trying times</h3>
+              <div>
+                <p>
+                  “The City of Newark is investing more than $6 million in a growing list of initiatives to keep Newark’s most impacted residents safe, healthy, and financially secure. Together with thousands of volunteers, We are collaborating with the state and federal governments, philanthropies and non-profits, businesses, and faith-based organizations to weather this health emergency and continue to thrive once we are on the other side of it.”
+                </p>
+                <span>Mayor Ras J. Baraka <img style="filter:invert(1)" src="assets/img/barakaSign.png"></span>
+                <h4>Deputy Mayor and Director Allison Ladd</h4>
+            </div>
+              <img src="assets/img/rasBaraka.jpeg" class="baraka">
             </span>
             <span class="toolbar-spacer right-icon"></span>
         </div>
     </mat-grid-tile>
-    <mat-grid-tile *ngFor="let tile of tiles" [colspan]="tile.cols" [rowspan]="tile.rows"
-        [style.background]="tile.color">
-        {{tile.text}}
+    <mat-grid-tile [colspan]="colNum" rowspan="1">
+          <span class="toolbar-spacer left-icon"></span>
+          <span class="content-intro">
+              <h3>City, State and Federal Programs to Help You.</h3>
+              <h4>
+                <mat-icon>arrow_downward</mat-icon>
+              </h4>
+          </span>
+          <span class="toolbar-spacer right-icon"></span>
+  </mat-grid-tile>
+    <mat-grid-tile *ngFor="let card of cards" colspan="1" rowspan="1">
+      <mat-card class="program-cards">
+        <div class="button-card">
+          <mat-icon style="margin-right: .5rem">{{ card.icon }}</mat-icon>
+          <h4 style="margin: auto">{{ card.title }}</h4>
+          <mat-icon style="margin-left: .5rem">exit_to_app</mat-icon>
+        </div>
+        <mat-card-content>
+          {{card.content}}
+        </mat-card-content>
+      </mat-card>
+    </mat-grid-tile>
+    <mat-grid-tile [colspan]="colNum" rowspan="1">
     </mat-grid-tile>
 </mat-grid-list>
