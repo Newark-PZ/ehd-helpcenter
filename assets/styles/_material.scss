@@ -19,6 +19,9 @@ $custom-typography: mat-typography-config(
 
 // Override typography for all Angular Material, including mat-base-typography and all components.
 @include angular-material-typography($custom-typography);
+.mat-drawer-container {
+  color: unset !important;
+}
 .general-button {
     span {
         display: flex;
