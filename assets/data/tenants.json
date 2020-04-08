@@ -1,0 +1,135 @@
+[
+  {
+    "name": "Lockouts01",
+    "category": "Lockouts",
+    "question": "Can I be locked out of my home during the COVID-19 emergency?",
+    "answer": "No. On March 19, 2020, New Jersey Governor Philip Murphy issued Executive Order 106, which immediately suspends evictions throughout the state. This is called an “eviction moratorium,” and it means that, except in rare circumstances, no tenant may be removed from his or her home as a result of an eviction proceeding. The eviction moratorium does not affect court proceedings; instead, it prevents lockouts and removals. The New Jersey Supreme Court controls court proceedings related to eviction, which are suspended for now. More information is below."
+  },
+  {
+    "name": "Lockouts02",
+    "category": "Lockouts",
+    "question": "How long will the eviction moratorium last?",
+    "answer": "The eviction moratorium began on March 19, 2020, and it will last until two months after Governor Murphy declares an end to the COVID-19 health crisis, unless the Governor issues another Executive Order to end it sooner."
+  },
+  {
+    "name": "Lockouts03",
+    "category": "Lockouts",
+    "question": "Do I still need to pay my rent?",
+    "answer": "Yes. Rent is still due, and you should pay if you can. If you do not pay, your landlord can still demand the rent and file an action against you in court. The court will schedule the case once the suspension of court hearings is lifted (see below). If you need guidance on how to address your rent situation with your landlord during this time, you can call the New Jersey Housing and Mortgage Finance Agency for free counseling over the phone. Visit https://njhousing.gov/foreclosure for a list of counselors by county."
+  },
+  {
+    "name": "Lockouts04",
+    "category": "Lockouts",
+    "question": "If I can’t afford to pay my rent and fall behind, will I still owe the money?",
+    "answer": "Yes. Any payments you miss now will become back-rent that you owe. One way or another, you will probably have to pay later whatever you cannot pay now, or you will ultimately face possible eviction. If you fall behind on your rent payments, you can try speaking with your landlord to work out a payment plan to avoid having an eviction action filed against you. Additional help may become available for tenants who miss rent payments because of COVID-19-related financial hardship. Check the state’s COVID-19 website and the website of New Jersey Housing and Mortgage Finance Agency for updates."
+  },
+  {
+    "name": "Lockouts05",
+    "category": "Lockouts",
+    "question": "What if I live in a hotel/motel? Can I be evicted while the Executive Order is in place?",
+    "answer": "Maybe. Executive Order 106 excludes hotels, motels, and guest houses rented to a “transient guest or seasonal tenant.” If you are temporarily living in a hotel, motel, or vacation rental that you booked and paid for on your own, you are probably not protected. However, the Executive Order may protect you from eviction if: (1) you are homeless or at risk of becoming homeless and a social services agency has a contract with the hotel or motel to provide you with temporary housing, or (2) you live in the hotel or motel on a long-term basis under a lease or other contract. Contact a legal services organization such as Legal Services of New Jersey, Volunteer Lawyers for Justice – New Jersey, Community Health Law Project, Essex County Legal Aid Association, or City of Newark Office of Tenant Services to discuss your individual circumstances."
+  },
+  {
+    "name": "Lockouts06",
+    "category": "Lockouts",
+    "question": "What if a lockout notice or warrant of removal has already been issued?",
+    "answer": "The moratorium applies to all pre-existing orders for removal. Any previously issued order for removal is suspended, and you cannot be removed from your home during the moratorium."
+  },
+  {
+    "name": "Lockouts07",
+    "category": "Lockouts",
+    "question":"What if my landlord locks me out illegally?",
+    "answer": "It is a crime for your landlord to lock you out. Under New Jersey law, only the courts can order evictions, and only government officials can remove you from your home. If your landlord locks you out, call the local police right away."
+  },
+  {
+    "name": "Lockouts08",
+    "category": "Lockouts",
+    "question": "What happens when the eviction moratorium ends?",
+    "answer": "Unless he lifts it sooner, the moratorium will end two months after Governor Murphy declares that the emergency is over. Local officials will then resume removing tenants who are subject to final court orders of eviction."
+  },
+  {
+    "name": "Court01",
+    "category": "Court Hearings",
+    "question": "What about court? Can my landlord still take me to court for not paying my rent?",
+    "answer": "Not right now. On March 27, the New Jersey Supreme Court ordered that landlord-tenant court be suspended until April 26. This means there will be no eviction hearings anywhere in the state until April 26 at the earliest, and the Supreme Court may announce further postponements. Check the New Jersey Courts website for updates."
+  },
+  {
+    "name": "Courts02",
+    "category": "Court Hearings",
+    "question": "Can my landlord still file a complaint against me in court for not paying my rent?",
+    "answer": "Yes. Landlords may still file new cases against tenants, but tenants do not have to go to court for the time being."
+  },
+  {
+    "name": "Courts03",
+    "category":"Court Hearings",
+    "question": "What should I do if I receive court papers?",
+    "answer": "Find assistance from a legal services organization. For example: Legal Services of New Jersey, Volunteer Lawyers for Justice -- New Jersey, Community Health Law Project, Essex County Legal Aid Association, and City of Newark Office of Tenant Services"
+  },
+  {
+    "name": "Courts04",
+    "category":"Court Hearings",
+    "question": "What if my landlord has already started an eviction proceeding against me in housing court and I have an upcoming court date?",
+    "answer": "If your court date is scheduled during the suspension, the court will mail you a notice with your new court date. While landlord-tenant court is suspended, you should not go to court, no cases will move forward, and you will not be penalized for not going to court."
+  },
+  {
+    "name": "Courts05",
+    "category":"Court Hearings",
+    "question": "Can I still get emergency repairs in my apartment?",
+    "answer": "You always have a right to safe and decent housing. If you have concerns about issues such as inadequate heat, exposure to lead, infestations, leaks, crumbling walls and ceilings, or other hazardous conditions, you should ask your landlord in writing to make repairs (keep a copy). If repairs are not made quickly, you can call 2-1-1, contact the state Bureau of Housing Inspection, or call your municipality to report the problem. Or, if you can manage the repairs on your own, you can make them or pay someone to make them. You can then withhold the money you spent on repairs from your rent (save all receipts for the repairs!). Due to closures, enforcement agencies may be working with limited staff and it may take longer to get repairs or inspections."
+  },
+  {
+    "name": "Courts06",
+    "category":"Court Hearings",
+    "question": "What if I already have a court date scheduled for a hearing about emergency repairs?",
+    "answer": "All landlord/tenant court proceedings, including those for emergency repairs, have been suspended for the time being. You can find updates on the dates of the suspensions at the New Jersey Courts website. You should not go to housing court during the suspension. Instead, you should wait for notice of a rescheduled court date."
+  },
+  {
+    "name": "Subsidized01",
+    "category": "Subsidized Tenants",
+    "question": "Is the Department of Community Affairs still open for business?",
+    "answer": "Yes. The Department of Community Affairs (DCA) housing assistance programs continue to operate and do all their basic work, including paying rents to landlords and setting the amount of rent subsidized tenants must pay. DCA encourages subsidized tenants to use the online portal at assistancecheck.com to submit documents, or to send documents through the mail (keep copies!). Subsidized tenants who have questions can contact the field offices or use the main customer service line: 609-292-4080 or customer.service@dca.nj.gov. DCA has announced that it has taken a number of actions to meet the ongoing needs of its clients and to curb evictions and homelessness during the state of emergency. For example, DCA has suspended termination of subsidies in the Section 8 Housing Choice Voucher and State Rental Assistance Programs, unless the tenant has engaged in violence or threats against others. DCA is also accepting through its online portal interim income re-certifications for tenants who have lost income because of the pandemic."
+  },
+  {
+    "name": "Subsidized02",
+    "category":"Subsidized Tenants",
+    "question": "Is the Newark Housing Authority allowed to evict me now?",
+    "answer": "No. If the Newark Housing Authority manages your rental subsidy, you are also covered by city-level anti-eviction protections. On March 15, Newark’s Mayor Baraka announced a 60-day moratorium on residential evictions for Newark residents who cannot afford to pay their rent due to the financial impact of COVID-19."
+  },
+  {
+    "name": "Addtl01",
+    "category":"Additional Housing Assistance",
+    "question": "Where can I learn more about state housing assistance programs?",
+    "answer": "Visit www.nj.gov/dca/dcaid to see if you are eligible for any of the state's housing assistance programs. These include temporary assistance to households who are being evicted due to a short- term loss of income and temporary financial assistance to help pay for housing and case management and services to maintain housing. There are also programs available to help veterans, low-income families, the elderly, single-parents, and more."
+  },
+  {
+    "name": "Addtl02",
+    "category":"Additional Housing Assistance",
+    "question": "Are there resources to help me discuss these issues with my landlord or bank?",
+    "answer": "To further aid both homeowners and renters facing hardship, the New Jersey Housing and Mortgage Finance Agency is expanding its Foreclosure Mediation Assistance Program (FMAP) to include renter and pre-foreclosure counseling through a network of housing counselors in each county. Counseling is free, available now, and can be provided remotely. Counselors will provide assistance to help homeowners avoid potential foreclosure. At the same time, the counseling made available to renters will guide them on how to approach discussions with their landlords on dealing with their rent situation. For a list of housing counselors participating in FMAP, visit: https://njhousing.gov/foreclosure"
+  },
+  {
+    "name": "Emmerg01",
+    "category": "Emergency Assistance",
+    "question": "What can I do if I need emergency housing assistance?",
+    "answer": "Call 2-1-1 for resources. To find out if you are eligible to apply for any of DCA’s housing assistance programs, visit DCA’s online anonymous screening tool: www.nj.gov/dca/dcaid."
+  },
+  {
+    "name": "Utility01",
+    "category": "Electricity, Gas, Water",
+    "question": "Can my utilities be shut off during the COVID-19 crisis?",
+    "answer": "No. New Jersey’s electric and gas utilities have voluntarily suspended utility shut-offs during the crisis. Check New Jersey Board of Public Utilities website for updates.",
+    "info": "In addition, on March 23, the state legislature introduced a bill that would prohibit shutoffs of electricity, gas, or water public utility services to residential customers during epidemics such as COVID-19. Check the state’s COVID-19 website or the New Jersey Legislature website to stay informed as new laws are enacted."
+  },
+  {
+    "name": "Utility02",
+    "category":"Electricity, Gas, Water",
+    "question": "Are there extra protections in Newark?",
+    "answer": "Yes. Mayor Baraka’s Executive Order No. MEO-20-0001 extends a 60-day grace period for the nonpayment of water, sewer, solid waste collection, and tax collection charges for Newark residents financially impacted by COVID-19."
+  },
+  {
+    "name": "Utility03",
+    "category":"Electricity, Gas, Water",
+    "question": "Do I still have to pay for utilities and water?",
+    "answer": "Yes. You still have to pay whatever electric, gas, or water bills you normally pay. If you cannot pay now, you will have to pay later. The utilities and water companies are not cancelling debts; they are just postponing shutoffs for the time being. DCA offers low-income tenants assistance with some utility bills."
+  }
+]
