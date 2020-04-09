@@ -15,7 +15,7 @@
     "name": "Lockouts03",
     "category": "Lockouts",
     "question": "Do I still need to pay my rent?",
-    "answer": "Yes. Rent is still due, and you should pay if you can. If you do not pay, your landlord can still demand the rent and file an action against you in court. The court will schedule the case once the suspension of court hearings is lifted (see below). If you need guidance on how to address your rent situation with your landlord during this time, you can call the New Jersey Housing and Mortgage Finance Agency for free counseling over the phone. Visit https://njhousing.gov/foreclosure for a list of counselors by county."
+    "answer": "Yes. Rent is still due, and you should pay if you can. If you do not pay, your landlord can still demand the rent and file an action against you in court. The court will schedule the case once the suspension of court hearings is lifted (see below). If you need guidance on how to address your rent situation with your landlord during this time, you can call the New Jersey Housing and Mortgage Finance Agency for free counseling over the phone. Visit <a href='https://njhousing.gov/foreclosure'>njhousing.gov/foreclosure</a> for a list of counselors by county."
   },
   {
     "name": "Lockouts04",
@@ -87,7 +87,7 @@
     "name": "Subsidized01",
     "category": "Subsidized Tenants",
     "question": "Is the Department of Community Affairs still open for business?",
-    "answer": "Yes. The Department of Community Affairs (DCA) housing assistance programs continue to operate and do all their basic work, including paying rents to landlords and setting the amount of rent subsidized tenants must pay. DCA encourages subsidized tenants to use the online portal at assistancecheck.com to submit documents, or to send documents through the mail (keep copies!). Subsidized tenants who have questions can contact the field offices or use the main customer service line: 609-292-4080 or customer.service@dca.nj.gov. DCA has announced that it has taken a number of actions to meet the ongoing needs of its clients and to curb evictions and homelessness during the state of emergency. For example, DCA has suspended termination of subsidies in the Section 8 Housing Choice Voucher and State Rental Assistance Programs, unless the tenant has engaged in violence or threats against others. DCA is also accepting through its online portal interim income re-certifications for tenants who have lost income because of the pandemic."
+    "answer": "Yes. The Department of Community Affairs (DCA) housing assistance programs continue to operate and do all their basic work, including paying rents to landlords and setting the amount of rent subsidized tenants must pay. DCA encourages subsidized tenants to use the online portal at assistancecheck.com to submit documents, or to send documents through the mail (keep copies!). Subsidized tenants who have questions can contact the field offices or use the main customer service line: <a href='tel:6092924080'>609-292-4080</a> or <a href='mailto:customer.service@dca.nj.gov'>customer.service@dca.nj.gov</a>. DCA has announced that it has taken a number of actions to meet the ongoing needs of its clients and to curb evictions and homelessness during the state of emergency. For example, DCA has suspended termination of subsidies in the Section 8 Housing Choice Voucher and State Rental Assistance Programs, unless the tenant has engaged in violence or threats against others. DCA is also accepting through its online portal interim income re-certifications for tenants who have lost income because of the pandemic."
   },
   {
     "name": "Subsidized02",
@@ -99,19 +99,19 @@
     "name": "Addtl01",
     "category":"Additional Housing Assistance",
     "question": "Where can I learn more about state housing assistance programs?",
-    "answer": "Visit www.nj.gov/dca/dcaid to see if you are eligible for any of the state's housing assistance programs. These include temporary assistance to households who are being evicted due to a short- term loss of income and temporary financial assistance to help pay for housing and case management and services to maintain housing. There are also programs available to help veterans, low-income families, the elderly, single-parents, and more."
+    "answer": "Visit <a href='https://www.nj.gov/dca/dcaid'>nj.gov/dca/dcaid</a> to see if you are eligible for any of the state's housing assistance programs. These include temporary assistance to households who are being evicted due to a short- term loss of income and temporary financial assistance to help pay for housing and case management and services to maintain housing. There are also programs available to help veterans, low-income families, the elderly, single-parents, and more."
   },
   {
     "name": "Addtl02",
     "category":"Additional Housing Assistance",
     "question": "Are there resources to help me discuss these issues with my landlord or bank?",
-    "answer": "To further aid both homeowners and renters facing hardship, the New Jersey Housing and Mortgage Finance Agency is expanding its Foreclosure Mediation Assistance Program (FMAP) to include renter and pre-foreclosure counseling through a network of housing counselors in each county. Counseling is free, available now, and can be provided remotely. Counselors will provide assistance to help homeowners avoid potential foreclosure. At the same time, the counseling made available to renters will guide them on how to approach discussions with their landlords on dealing with their rent situation. For a list of housing counselors participating in FMAP, visit: https://njhousing.gov/foreclosure"
+    "answer": "To further aid both homeowners and renters facing hardship, the New Jersey Housing and Mortgage Finance Agency is expanding its Foreclosure Mediation Assistance Program (FMAP) to include renter and pre-foreclosure counseling through a network of housing counselors in each county. Counseling is free, available now, and can be provided remotely. Counselors will provide assistance to help homeowners avoid potential foreclosure. At the same time, the counseling made available to renters will guide them on how to approach discussions with their landlords on dealing with their rent situation. For a list of housing counselors participating in FMAP, visit: <a href='https://njhousing.gov/foreclosure'>njhousing.gov/foreclosure</a>"
   },
   {
     "name": "Emmerg01",
     "category": "Emergency Assistance",
     "question": "What can I do if I need emergency housing assistance?",
-    "answer": "Call 2-1-1 for resources. To find out if you are eligible to apply for any of DCA’s housing assistance programs, visit DCA’s online anonymous screening tool: www.nj.gov/dca/dcaid."
+    "answer": "Call 2-1-1 for resources. To find out if you are eligible to apply for any of DCA’s housing assistance programs, visit DCA’s online anonymous screening tool: <a href='https://www.nj.gov/dca/dcaid'>nj.gov/dca/dcaid</a>."
   },
   {
     "name": "Utility01",
