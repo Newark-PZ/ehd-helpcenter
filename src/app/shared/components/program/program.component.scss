@@ -1,0 +1,114 @@
+.mat-toolbar {
+  h2 {font-weight: 600;}
+  h3 {font-size: 1.2rem;}
+  .title {height: 2.5rem;}
+  .subtitle {
+    height: 2rem !important;
+    line-height: 0;
+    margin: 0;
+    padding-left: 4rem;
+    color: gray;
+    -webkit-text-fill-color: gray;
+  }
+  background: rgba(253, 203, 6, 0.15)
+}
+
+.intro {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin: unset !important;
+  max-width: 100vw;
+  height: 100%;
+  font: inherit;
+}
+
+.intro-card {
+  display: flex !important;
+  justify-content: space-evenly;
+  flex-direction: column;
+  font: inherit !important;
+  height: 100%;
+  .mat-card {width: 100%;   box-shadow: none;}
+  .card-body {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+    margin-top: 0px;
+  }
+  .card-content {
+    flex: 1 1 50%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    margin: 1em;
+    justify-content: space-between;
+    a {  width: 100%;}
+    p {  margin: 0;}
+  }
+}
+.intro-cards {
+margin: auto;
+display: flex;
+flex-direction: column;
+}
+.mat-card {
+width: 90%;
+margin: 1rem auto;
+}
+.mat-card-header {
+border: solid .1rem rgba(46, 139, 87, 0.66);
+color: rgba(46, 139, 87);
+-webkit-text-fill-color: rgb(46, 139, 87);
+border-radius: 0.5rem;
+padding: 0.2rem;
+margin-bottom: 1rem;
+border-width: .1rem 0;
+}
+.info-buttons {
+color: rgba(46, 139, 87);
+-webkit-text-fill-color: rgb(46, 139, 87);
+border-color: rgb(46, 139, 87);
+}
+.content-intro {
+color: white;
+-webkit-text-fill-color: white;
+height: 100%;
+display: flex;
+flex-direction: column;
+background-color: seagreen;
+text-align: center;
+font-size: 1.5rem;
+h3 {
+  @media only screen and (max-width: 768px) {
+    font-size: 1.25rem !important;
+  }
+}
+mat-icon {
+  margin: .85rem auto;
+  vertical-align: middle;
+}
+}
+.page-bottom {height: 4rem; width: 100%; margin-top: 3rem; display: flex; background-color: black;}
+.logos {
+  display: flex;
+  flex-direction: row;
+  max-height: 27vh;
+  width: auto;
+  background: rgba(0,0,0,.1);
+  border-radius: .25rem;
+  align-items: center;
+  justify-content: space-evenly;
+  img {
+      display: flex;
+      flex: 1 1 25%;
+      max-height: 25vh;
+      max-width: 25vw;
+      object-fit: contain;
+      padding: 1rem;
+  }
+ }

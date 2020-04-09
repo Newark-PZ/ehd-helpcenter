@@ -1,0 +1,49 @@
+<mat-toolbar>
+  <mat-toolbar-row class="title">
+    <mat-icon style="margin-right: .5rem">{{ programPage.icon }}</mat-icon>
+    <h2>{{ programPage.title }}</h2>
+  </mat-toolbar-row>
+  <mat-toolbar-row class="subtitle">
+    <h3>{{ programPage.subtitle }}</h3>
+  </mat-toolbar-row>
+</mat-toolbar>
+<mat-list class="intro-cards">
+  <mat-list-item class="intro-card">
+    <mat-card>
+      <mat-card-content [innerHtml]="programPage.introText"></mat-card-content>
+      <mat-card-actions align="end" *ngIf="programPage.infoButtons">
+        <a mat-stroked-button *ngFor="let button of programPage.infoButtons" class="info-buttons" type="button" target="_self" [href]="button.link">
+          <span *ngIf="button.linkText; else standardText">{{ button.linkText }}</span>
+          <ng-template #standardText>Apply</ng-template>
+          <mat-icon>double_arrow</mat-icon>
+        </a>
+      </mat-card-actions>
+    </mat-card>
+  </mat-list-item>
+</mat-list>
+<section class="content-intro" *ngIf="programPage.purpose.body">
+  <h3>{{ programPage.purpose.header }}</h3>
+  <h3 [innerHtml]='programPage.purpose.body'></h3>
+  <mat-icon>arrow_downward</mat-icon>
+</section>
+<mat-list class="program-cards">
+  <mat-list-item class="program-card" *ngFor="let card of programPage.sections">
+    <mat-card>
+      <mat-card-header *ngIf="card.header">
+        <mat-card-title>{{ card.header }}</mat-card-title>
+      </mat-card-header>
+      <mat-card-content [innerHtml]="card.text"></mat-card-content>
+      <div class="logos" *ngIf="card.logos">
+        <img *ngFor="let logo of card.logos" [src]="'assets/img/logos/logo_' + logo + '.png'">
+      </div>
+      <mat-card-actions align="end" *ngIf="card.buttons">
+        <a mat-stroked-button *ngFor="let button of card.buttons" class="info-buttons" type="button" target="_self" [href]="button.link">
+          <span *ngIf="button.linkText; else standardText">{{ button.linkText }}</span>
+          <ng-template #standardText>Apply</ng-template>
+          <mat-icon>double_arrow</mat-icon>
+        </a>
+      </mat-card-actions>
+    </mat-card>
+  </mat-list-item>
+</mat-list>
+<span class="page-bottom"></span>

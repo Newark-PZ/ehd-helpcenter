@@ -1,44 +1,26 @@
-import { Component, OnInit, ViewEncapsulation } from '@angular/core';
-import { BreakpointObserver } from '@angular/cdk/layout';
-
-interface Tile {
-  color: string;
-  cols: number;
-  rows: number;
-  text: string;
-  img?: { src: string; alt: string; };
-}
+import { Component, ViewEncapsulation } from '@angular/core';
 
 @Component({
-  encapsulation: ViewEncapsulation.None,
   selector: 'app-home',
   styleUrls: ['./home.component.scss'],
   templateUrl: './home.component.html'
 })
 
-export class HomeComponent implements OnInit {
-  widthchanger;
+export class HomeComponent {
   colNum;
   gridRowNum;
-  breakpoint;
   cards = [
-    {icon: 'business_center', title: 'Newark Small Business Emergency Grants'},
-    {icon: 'house', title: 'Forgiveable Loans For Homeowners And First-Time Buyers'},
-    {icon: 'people', title: 'Fund For Artists And Arts Organizations'},
-    {icon: 'color_lens', title: 'Safe Housing For Homeless'},
-    {icon: 'person', title: 'Help For Commercial Tenants And Property Owners'},
-    {icon: 'person', title: 'Tenant Eviction Moritorium And Tenant F.A.Q.S'},
-    {icon: 'person', title: 'Homeowners Mortage Relief And Foreclosure F.A.Q.S'},
-    {icon: 'person', title: 'N.J. Financial Help For Small Businesses'},
-    {icon: 'person', title: 'Eligibility For Unemployment Benefits'},
-    {icon: 'person', title: 'Finding An Essential Job During Crisis'},
-    {icon: 'person', title: 'Help From Federal “US CARES” Stimulus Package'}
+    {icon: 'business_center', title: 'Newark Small Business Emergency Grants', link: 'small-business-grants', parent: '/program' },
+    {icon: 'house', title: 'Forgiveable Loans For Homeowners And First-Time Buyers', link: 'homeowner-relief', parent: '/program'},
+    {icon: 'color_lens', title: 'Fund For Artists And Arts Organizations', link: 'arts-fund', parent: '/program'},
+    {icon: 'people', title: 'Safe Housing For Homeless', link: 'safe-housing', parent: '/program'},
+    {icon: 'business_center', title: 'Help For Commercial Tenants And Property Owners', link: 'commercial-prop', parent: '/program'},
+    {icon: 'people', title: 'Tenant Eviction Moratorium', link: 'eviction-moratorium', parent: '/program' },
+    {icon: 'people', title: 'Tenant F.A.Q.S', link: 'tenants', parent: '/faqs' },
+    {icon: 'house', title: 'Homeowners Mortgage Relief And Foreclosure F.A.Q.S', link: 'homeowners', parent: '/faqs'},
+    {icon: 'business_center', title: 'N.J. Financial Help For Small Businesses', link: 'nj-small-business-help', parent: '/resources'},
+    {icon: 'person', title: 'Eligibility For Unemployment Benefits', link: 'unemployment-benefits', parent: '/resources'},
+    {icon: 'person', title: 'Finding An Essential Job During Crisis', link: 'finding-essential-jobs', parent: '/resources'},
+    {icon: 'people', title: 'Help From Federal “US CARES” Stimulus Package', link: 'federal-us-cares', parent: '/resources'}
   ];
-  constructor(public breakpointObserver: BreakpointObserver) { }
-
-  ngOnInit(): void {
-    this.breakpoint = this.breakpointObserver.isMatched('(max-width: 767px)');
-    this.colNum = this.breakpoint ? '1' : '3';
-    this.gridRowNum = this.breakpoint ? '1' : '2';
-  }
 }

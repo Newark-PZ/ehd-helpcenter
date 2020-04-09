@@ -13,8 +13,10 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatTooltipModule } from '@angular/material/tooltip';
 import { MatDividerModule } from '@angular/material/divider';
 import { MatExpansionModule } from '@angular/material/expansion';
+import { MatTreeModule } from '@angular/material/tree';
 
 import * as fromComponents from './';
+import { FaqCatPipe } from './services/filter.pipe';
 
 const matModules = [
     MatButtonModule,
@@ -23,6 +25,7 @@ const matModules = [
     MatExpansionModule,
     MatGridListModule,
     MatIconModule,
+    MatTreeModule,
     MatSidenavModule,
     MatTabsModule,
     MatToolbarModule,
@@ -31,7 +34,8 @@ const matModules = [
 
 @NgModule({
     declarations: [
-        ...fromComponents.components
+        ...fromComponents.components,
+        FaqCatPipe
     ],
     exports: [
         FormsModule,

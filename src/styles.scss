@@ -5,10 +5,13 @@
 :host {
     font-family: $nwk-font-family;
 }
-
+* {
+  box-sizing: border-box;
+}
 html,
 body {
     font-family: $nwk-font-family;
+    font-size: 14px;
     margin: 0 !important;
 }
 
@@ -55,5 +58,20 @@ body {
         height: 100%;
         align-items: center;
         justify-content: center;
+    }
+}
+.intro-pic {
+  display: flex;
+  float: left;
+  width: 40%;
+  height: 43vh;
+  margin: 0 2rem 0 2rem;
+  margin-top: 0px;
+  border-radius: 0.2rem;
+  box-shadow: .1rem .1rem .15rem gray;
+  @media screen and (max-width: 769px) {
+    width: 45%;
+    height: 25vh;
+    margin-right: 1rem;
     }
 }

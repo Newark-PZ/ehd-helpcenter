@@ -9,8 +9,10 @@ import * as RightSidebarActions from './store/sidebarRight/sidebar.actions';
 import * as ConfigActions from './store/config/config.actions';
 import { take } from 'rxjs/operators';
 import { SidebarLink } from './shared/interfaces/other.interface';
-import { BreakpointObserver } from '@angular/cdk/layout';
-import {routes} from './app-routing.module';
+import { BreakpointObserver, BreakpointState } from '@angular/cdk/layout';
+import {routes} from './app-routing';
+import { NestedTreeControl } from '@angular/cdk/tree';
+import { MatTreeNestedDataSource } from '@angular/material/tree';
 
 @Component({
   selector: 'app-root',
@@ -18,7 +20,6 @@ import {routes} from './app-routing.module';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnDestroy, OnInit {
-  title = 'ehd-emergency-mgmt';
   storeConfig: StoreConfig;
   sidebarOpenedSubscription: Subscription;
   deptDisplay: boolean;
@@ -35,9 +36,12 @@ export class AppComponent implements OnDestroy, OnInit {
   sidebarRightMode$: Observable<string>;
   links: Array<SidebarLink> = [];
   rightlinks: Array<SidebarLink> = [
-    { name: 'Important Link 1', icon: 'info', link: '' },
-    { name: 'Important link 2', icon: 'info', link: '' }
+    { title: 'Important Link 1', icon: 'info', link: '' },
+    { title: 'Important link 2', icon: 'info', link: '' }
   ];
+  treeControl = new NestedTreeControl<SidebarLink>(node => node.children);
+  dataSource = new MatTreeNestedDataSource<SidebarLink>();
+  hasChild = (_: number, node: SidebarLink) => !!node.children && node.children.length > 0;
   constructor(private store: Store<fromStore.StoreState>, public breakpointObserver: BreakpointObserver) {
     this.selectedModule$ = this.store.select(
       state => state.sidebar.selectedModule
@@ -52,10 +56,18 @@ export class AppComponent implements OnDestroy, OnInit {
   }
 
   ngOnInit() {
-    routes.forEach(r => r.title ? this.links.push({ name: r.title, icon: r.icon, link: r.path }) : null);
+    this.breakpointObserver
+      .observe(['(max-width: 767px)'])
+      .subscribe((state: BreakpointState) => {
+        if (state.matches) {this.mayorDisplay = true; this.deptDisplay = true;
+        } else {this.mayorDisplay = false; this.deptDisplay = false; }
+    });
+    routes.forEach(r => r.title
+      ? this.links.push({title: r.title, icon: r.icon, parentFragment: r.parentFragment, path: r.path,
+        children: r.children ? r.children.filter(route => route.title) : undefined, isChild: r.isChild })
+      : null
+      );
     this.store.dispatch(new fromStoreActions.ClearState());
-    this.deptDisplay = this.breakpointObserver.isMatched('(max-width: 801px)');
-    this.mayorDisplay = this.breakpointObserver.isMatched('(max-width: 767px)');
     this.storeConfig = {
       sidebar: {
         collapsible: true,

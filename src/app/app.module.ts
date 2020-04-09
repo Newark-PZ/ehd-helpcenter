@@ -3,8 +3,9 @@ import { CommonModule } from '@angular/common';
 import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { RouterModule } from '@angular/router';
 // Universal Imports
-import { AppRoutingModule } from './app-routing.module';
+import { routes } from './app-routing';
 import { SharedModule } from './shared/shared.module';
 // Component Imports
 import { AppComponent } from './app.component';
@@ -24,7 +25,11 @@ export const metaReducers: Array<MetaReducer<StoreState>> = [clearState];
     CommonModule,
     BrowserModule,
     BrowserAnimationsModule,
-    AppRoutingModule,
+    RouterModule.forRoot(routes, {
+      anchorScrolling: 'enabled',
+      initialNavigation: 'enabled',
+      scrollPositionRestoration: 'enabled'
+    }),
     LayoutModule,
     SharedModule,
     StoreModule.forRoot(StoreReducers, {

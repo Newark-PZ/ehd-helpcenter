@@ -2,6 +2,7 @@
 
 .mat-toolbar {
     color: white;
+    -webkit-text-fill-color: white;
     background-color: #0d47a1;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, .5);
     position: fixed;
@@ -9,7 +10,10 @@
 }
 
 .main-content {
-    margin-top: 6rem !important;
+    margin-top: 6.6rem !important;
+    @media only screen and (max-width: 768px) {
+      margin-top: 6rem !important;
+    }
 }
 
 .sidebar-logo {
@@ -17,20 +21,56 @@
     max-height: 95%;
 }
 
-.sidebar-tile:first-of-type .mat-figure {
-    background: #FDCB06 !important;
-    margin: 0;
-}
+.link-tree {margin-top: 1rem;}
+.router-tree-child-node {
+  span {
+      display: flex;
+      flex-direction: row;
+  }
 
-.sidebar-links button {
-    span {
+  mat-icon {
+      font-size: 1.5rem;
+      margin: auto;
+  }
+  background: none;
+  font-family: 'Segoe UI', 'Open Sans', sans-serif;
+  font-size: 1rem;
+  border: none;
+  list-style: none !important;
+  cursor: pointer;
+  &:before {
+    content: "\200B";
+  }
+
+  &:hover {
+      background-color: $primary-color !important;
+      box-shadow: none;
+      color: white;
+      -webkit-text-fill-color: white;
+  }
+
+  &:active {
+      background-color: $accent-color !important;
+      box-shadow: none;
+      color: lightslategray;
+      -webkit-text-fill-color: lightslategray;
+  }
+}
+.mat-nested-tree-node {
+  li {min-height: 48px !important; width: 100%;}
+}
+.router-tree-node {
+    .mat-button-wrapper {
         display: flex;
         flex-direction: row;
         margin-left: .5rem;
+        width: 100%;
+        justify-content: space-between;
     }
 
     mat-icon {
         font-size: 1.5rem;
+        margin: auto 0;
     }
 
     background: none;
@@ -38,7 +78,7 @@
     'Open Sans',
     sans-serif;
     display: flex;
-    margin: 1vh 0;
+    margin: 1rem 5%;
     height: 2.75rem;
     text-align: center;
     justify-content: space-between;
@@ -47,24 +87,29 @@
     border: none;
     border-top: 2px solid !important;
     border-radius: .25rem;
-    box-shadow: 0px 3px 10px lightgray;
-    width: 80%;
-    padding: 0 .5em;
+    box-shadow: 0px 2px 0px rgba(0,0,0,.25) !important;
+    width: 90%;
+    padding: 0 .5rem;
+    list-style: none !important;
     cursor: pointer;
 
     &:hover {
         background-color: $primary-color !important;
         box-shadow: none;
         color: white;
+        -webkit-text-fill-color: white;
     }
 
     &:active {
         background-color: $accent-color !important;
         box-shadow: none;
         color: lightslategray;
+        -webkit-text-fill-color: lightslategray;
     }
 }
-
+.tree-invisible {
+  display: none;
+}
 .newark-title {
     font-family: 'Segoe UI', sans-serif;
     font-size: 2rem;
@@ -85,18 +130,22 @@
 
 .dept-title {
     font-family: 'Segoe UI', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
+    line-height: 1.3rem;
+    font-weight: 600;
     background-color: #FDCB06 !important;
     color: black;
+    -webkit-text-fill-color: black;
     flex: 1 1 70%;
     text-align: left;
     text-indent: 1rem;
     border-radius: .25rem .25rem 0 0;
-
+    .directorText {font-weight: 300;}
     @media only screen and (max-width: 768px) {
         font-size: 1rem;
         text-align: center;
         text-indent: unset;
+        line-height: unset;
         padding: 0 1rem;
     }
 }
@@ -121,6 +170,9 @@
     }
 
     &.sub-header {
-        height: 2rem;
+      height: 2.6rem;
+    @media only screen and (max-width: 768px) {
+      height: 2rem;
     }
+  }
 }
