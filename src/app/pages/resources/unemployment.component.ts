@@ -14,7 +14,7 @@ export class UnemploymentBenefitsComponent {
     introContent: [{
       header: 'You may be eligible for benefits, if you are unable to work or have had your hours reduced for the following reasons:',
       text: `<img class="intro-pic" src="assets/img/pagePhotos/unemploymentBenefits.jpg">
-      <ul>
+      <ul class="intro-list">
         <li>You tested positive for COVID-19 or have symptoms of COVID-19</li>
         <li>Your place of work was ordered closed by a public official due to COVID-19</li>
         <li>Your employer voluntarily closed due to COVID-19</li>

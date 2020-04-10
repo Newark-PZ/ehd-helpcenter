@@ -8,7 +8,7 @@
       <mat-card-header *ngIf="card.header">
         <mat-card-title>{{ card.header }}</mat-card-title>
       </mat-card-header>
-      <mat-card-content [innerHtml]="card.text"></mat-card-content>
+      <div class="card-body" [innerHtml]="card.text"></div>
       <mat-card-actions align="end" *ngIf="card.link">
         <a mat-stroked-button class="info-buttons" type="button" target="_self" [href]="card.link">
           <mat-icon>info</mat-icon>
@@ -29,7 +29,7 @@
         <mat-card-header *ngIf="card.header">
           <mat-card-title>{{ card.header }}</mat-card-title>
         </mat-card-header>
-        <mat-card-content [innerHtml]="card.text"></mat-card-content>
+        <div class="card-body" [innerHtml]="card.text"></div>
         <mat-card-footer *ngIf="card.footer">
           <span [innerHtml]="card.footer"></span>
         </mat-card-footer>

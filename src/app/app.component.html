@@ -4,7 +4,7 @@
        (openedChange)="onOpenedChange($event)">
        <mat-tree [dataSource]="links" [treeControl]="treeControl" class="link-tree">
         <!-- This is the tree node template for leaf nodes -->
-        <mat-tree-node *matTreeNodeDef="let node" (click)="sidebar.close()" matTreeNodeToggle [routerLink]="(node.parentFragment === undefined) ? ['/', node.path] : [node.parentFragment, node.path]">
+        <mat-tree-node *matTreeNodeDef="let node" (click)="sidebar.close()" matTreeNodeToggle routerLinkActive="router-link-active" [routerLink]="(node.parentFragment === undefined) ? ['/', node.path] : [node.parentFragment, node.path]">
           <li [ngClass]="node.isChild ? 'router-tree-child-node' : 'router-tree-node'">
             <button mat-icon-button><mat-icon>{{ node.icon }}</mat-icon></button>
             {{node.title}}

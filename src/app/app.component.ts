@@ -164,6 +164,7 @@ export class AppComponent implements OnDestroy, OnInit {
       .subscribe(opened => {
         if (opened !== evt) {
           this.store.dispatch(new SidebarActions.Toggle());
+          this.treeControl.collapseAll();
         }
       });
   }

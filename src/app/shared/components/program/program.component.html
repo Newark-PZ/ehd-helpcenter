@@ -10,7 +10,7 @@
 <mat-list class="intro-cards">
   <mat-list-item class="intro-card">
     <mat-card>
-      <mat-card-content [innerHtml]="programPage.introText"></mat-card-content>
+      <div class="card-body" [innerHtml]="programPage.introText"></div>
       <mat-card-actions align="end" *ngIf="programPage.infoButtons">
         <a mat-stroked-button *ngFor="let button of programPage.infoButtons" class="info-buttons" type="button" target="_self" [href]="button.link">
           <span *ngIf="button.linkText; else standardText">{{ button.linkText }}</span>
@@ -32,7 +32,7 @@
       <mat-card-header *ngIf="card.header">
         <mat-card-title>{{ card.header }}</mat-card-title>
       </mat-card-header>
-      <mat-card-content [innerHtml]="card.text"></mat-card-content>
+      <div class="card-body" [innerHtml]="card.text"></div>
       <div class="logos" *ngIf="card.logos">
         <img *ngFor="let logo of card.logos" [src]="'assets/img/logos/logo_' + logo + '.png'">
       </div>

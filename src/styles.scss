@@ -42,11 +42,11 @@ body {
         }
 
         @media only screen and (min-width: 768px) and (max-width: 1200px) {
-            width: 33vw;
+            width: 40vw;
         }
 
         @media only screen and (min-width: 1200px) {
-            width: 25vw;
+            width: 30vw;
         }
 
         .mat-drawer-content {
@@ -69,9 +69,10 @@ body {
   margin-top: 0px;
   border-radius: 0.2rem;
   box-shadow: .1rem .1rem .15rem gray;
-  @media screen and (max-width: 769px) {
+  @media screen and (max-width: 768px) {
     width: 45%;
     height: 25vh;
     margin-right: 1rem;
+    margin-left: 0;
     }
 }
