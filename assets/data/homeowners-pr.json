@@ -1,0 +1,84 @@
+[
+    {
+        "name": "Removals01",
+        "category": "Remoções",
+        "question": "Posso ser removido de minha casa como resultado de um processo de encerramento durante a emergência COVID-19?",
+        "answer": "<b> Não </b>. Em 19 de março de 2020, o governador de Nova Jersey, Philip Murphy, emitiu <a href='https://nj.gov/infobank/eo/056murphy/pdf/EO-106.pdf'> Ordem Executiva 106 </a>, que imediatamente suspende despejos e remoções em todo o estado. Isso é chamado de \"moratória de despejo\" e significa que, exceto em raras circunstâncias, <b> nenhum proprietário pode ser removido de sua casa como resultado de uma execução hipotecária neste momento <b>. Você não pode ser removido, mesmo que um <a href='https://www.lsnjlaw.org/Housing/Home-Ownership/Foreclosure/Pages/Foreclosure-Process.aspx'> julgamento final de encerramento </a> tenha sido inserido e <a href='https://www.lsnjlaw.org/Housing/Home-Ownership/Foreclosure/Pages/Foreclosure-Process.aspx'> a venda de um xerife de sua propriedade ocorreu.",
+        "info": "A moratória de despejo <b> não </b> afeta os processos judiciais; em vez disso, evita remoções. Mais informações estão abaixo."
+    },
+    {
+        "name": "Remoções02",
+        "category": "Remoções",
+        "question": "Quanto tempo durará a moratória de despejo?",
+        "answer": "A moratória de despejo começou em 19 de março de 2020 e durará até dois meses após o governador Murphy declarar o fim da crise de saúde COVID-19, a menos que o governador emita outra ordem executiva para finalizá-la mais cedo.",
+        "info": ""
+    },
+    {
+        "name": "Remoções03",
+        "category": "Remoções",
+        "question": "Ainda preciso pagar minha hipoteca?",
+        "answer": "<b> Sim </b>. Mas os credores podem ser flexíveis se você estiver com dificuldades. O governador pediu que as instituições hipotecárias trabalhassem com os proprietários para evitar a execução duma hipoteca ou inadimplência causada pelo COVID- 19 pandemia. Por exemplo, o Governador solicitou às instituições hipotecárias que relaxassem as datas de vencimento dos pagamentos dos empréstimos, estendessem períodos de carência, modifiquem os termos dos empréstimos existentes e renunciem a taxas atrasadas. Se você precisar de ajuda para evitar um possível encerramento, poderá ligar para a Agência de Financiamento de Habitação e Crédito Imobiliário de Nova Jersey para obter aconselhamento gratuito por telefone.",
+        "info": "Visite <a href='https://njhousing.gov/foreclosure'> njhousing.gov/foreclosure </a> para acessar uma lista de conselheiros por município."
+    },
+    {
+        "name": "Remoções04",
+        "category": "Remoções",
+        "question": "Se eu não puder pagar minha hipoteca e ficar para trás, ainda devo o dinheiro?",
+        "answer": "<b> Sim </b>. Quaisquer pagamentos que você perder agora se tornarão parte do que você deve. De uma forma ou de outra, você provavelmente terá que pagar mais tarde, o que não puder pagar agora, ou acabará enfrentando uma possível exclusão e remoção de sua casa. No entanto, o governador Murphy <a href='https://nj.gov/governor/news/news/562020/approved/20200328c.shtml'> anunciou algum alívio importante </a> para os proprietários com hipotecas. Se você entrar em contato com o credor, poderá ser elegível para: (1) um período de carência de 90 dias para pagamentos de hipotecas (o que significa que você pode adiar o pagamento por até 90 dias); (2) garantia de que o credor não reportará pagamentos atrasados ​​ou perdidos durante esse período às agências de crédito; (3) uma moratória de 60 dias sobre o início dos credores das vendas ou despejos de execução duma hipoteca; e (4) isenção de determinadas taxas e encargos por pelo menos 90 dias.",
+        "info": "Para obter mais informações, consulte as <a href='https://www.state.nj.us/dobi/covid/mortgagerelief.html'> FAQs </a> emitidas pelo estado. Você também pode consultar o site da <a href='https://njhousing.gov/foreclosure'> Agência de financiamento imobiliário e de hipotecas de Nova Jersey </a> para obter atualizações sobre a ajuda disponível."
+    },
+    {
+        "name": "Remoções05",
+        "category": "Remoções",
+        "question": "Qual é o período de carência de 90 dias para pagamentos de hipoteca?",
+        "answer": "O governador Murphy anunciou no sábado, 28 de março de 2020 que Nova Jersey trabalhará com os seguintes bancos: Citi-Bank, Chase, USBank, Wells Fargo, Bank of America, juntamente com outras 40 instituições financeiras, incluindo cooperativas de crédito dia de carência para pagamentos de hipotecas para mutuários, que foram economicamente impactados pela crise da COVID-19. Essa é uma indulgência, o que significa que os mutuários que precisam do período de carência devem fazer os pagamentos mensais perdidos da hipoteca em uma data posterior.",
+        "extraInfo": ["I. Qualificação: <br> <ul> <li> Os mutuários devem entrar em contato com a empresa de hipotecas e verificar se são uma das instituições financeiras participantes. </li> <li> Isso se aplica apenas a hipotecas residenciais, não a empresas. < / li> </ul>",
+        "II. Requisitos para os mutuários que se qualificarem: <br> <ul> <li> Os mutuários deverão fornecer prova de documentação de seu impacto econômico do COVID-19. Esta documentação não estava listada em nenhuma fonte, incluindo o site do estado de Nova Jersey <a href='https://www.state.nj.us/dobi/covid/mortgagerelief.html'> www.state.nj.us/dobi / covid / mortgagerelief </a>. As instituições financeiras informarão seus mutuários o que é necessário caso a caso. </li> </ul>",
+        "III. Os mutuários não enfrentarão as seguintes penalidades: <br> <ul> <li> Nenhum impacto negativo em sua pontuação de crédito </li> <li> Todas as taxas atrasadas serão dispensadas pela instituição financeira </li> <li> Nenhum processo de execução duma hipoteca ou as vendas serão iniciadas pelas instituições financeiras por pelo menos 60 dias </li> <li> Nenhum processo de despejo será iniciado pelas instituições financeiras por pelo menos 60 dias </li> </ul>",
+        "IV. Pós período de carência de 90 dias: <br> <ul> <li> As instituições financeiras oferecerão aos mutuários a chance de pedir mais alívio, se continuarem a mostrar que estão enfrentando dificuldades relacionadas à crise do COVID-19. </li> </ul>"
+      ],
+        "info": ""
+    },
+    {
+        "name": "Remoções06",
+        "category": "Remoções",
+        "question": "Existe uma moratória nacional sobre despejos?",
+        "answer": "<b> Sim, para alguns proprietários </b>. Em 18 de março, o Departamento de Habitação e Desenvolvimento Urbano (HUD) dos EUA anunciou uma <a href='https://www.hud.gov/sites/dfiles/OCHCO/documents/20-04hsgml.pdf'> execução duma hipoteca e despejo moratória </a> que se aplica a proprietários de residências unifamiliares com hipotecas seguradas pela Federal Housing Authority (FHA) por 60 dias. <a href='https://www.fhfa.gov/Media/PublicAffairs/Pages/FHFA-Suspends-Foreclosures-and-Evictions-for-Enterprise-Backed-Mortgages.aspx'> Fannie Mae e Freddie Mac </ a > também suspenderá execuções hipotecárias e despejos por pelo menos 60 dias para os proprietários atrasados ​​em suas hipotecas.",
+        "info": "Os desenvolvimentos federais estão sendo rastreados no site da <a href='https://nlihc.org/coronavirus-and-housing-homelessness'> Coalizão Nacional de Habitações de Baixa Renda. <a>"
+    },
+    {
+        "name": "Court01",
+        "category": "Audiências em Tribunal",
+        "question": "Os credores ainda podem iniciar o processo de encerramento durante esse período?",
+        "answer": "<b> Sim </b>. A <a href='https://nj.gov/infobank/eo/056murphy/pdf/EO-106.pdf'> Ordem Executiva </a> e <a href = 'https: //www.njleg.state .nj.us / 2020 / Bills / A4000 / 3859_I1.PDF '> legislação relacionada </a> especifica especificamente que os credores podem intentar ações de exclusão durante o tempo em que o pedido estiver em vigor. Entendemos que o Tribunal Superior <a href='https://www.njcourts.gov/courts/superior/foreclosure.html?lang=eng'> Gabinete de Foreclosure </a> ainda está aceitando novos casos e arquivamentos eletrônicos em casos existentes. Sob <a href='https://nj.gov/governor/news/news/562020/approved/20200328c.shtml'> um acordo com o estado </a>, no entanto, muitos credores suspenderam as vendas e despejos de execução hipotecária até 27 de maio (60 dias a partir de 28 de março).",
+        "info": ""
+    },
+    {
+        "name": "Court02",
+        "category": "Audiências em Tribunal",
+        "question": "O Gabinete de Execução duma hipoteca processará casos durante este período?",
+        "answer": "<b> Isso depende </b>. O Gabinete de Execução duma hipoteca administra partes da maioria dos casos de execução duma hipoteca e gerencia a maior parte do processo quando uma execução duma hipoteca é \"incontestada\", significando que o proprietário não apresentou uma resposta à queixa. De acordo com uma ordem de 27 de março emitida pelo Supremo Tribunal de Nova Jersey, no entanto, o Gabinete de Execução duma hipoteca não analisará ou atuará em moções ou julgamentos recebidos após 1 de março de 2020. Portanto, se o credor solicitar ao Gabinete de execução duma hipoteca após 1 de março que entre uma sentença final contra o proprietário ou buscar outra ação para adiantar a execução duma hipoteca, o Escritório manterá esses pedidos por enquanto. A ordem da Suprema Corte permanecerá em vigor até que a Corte a levante. Consulte o site dos Tribunais de Nova Jersey para obter atualizações sobre as ordens judiciais que afetam como e quando os processos de encerramento não contestados continuarão. Se você tiver dúvidas sobre um processo de encerramento não contestado que está pendente, também pode tentar entrar em contato com o Escritório de encerramento, em <a href='tel:6094216100'> 609-421-6100 </a> ou <a href = 'mailto: Scco.Mailbox@njcourts.gov '> Scco.Mailbox@njcourts.gov </a>.",
+        "info": ""
+    },
+    {
+        "name": "Tribunal03",
+        "category": "Audiências em Tribunal",
+        "question": "Os tribunais ouvirão os casos de encerramento durante esse período?",
+        "answer": "<b> Sim </b>. Até o momento, não há ordem para suspender as audiências nos casos de execução judicial contestados (nos quais o proprietário respondeu à queixa). Observe, no entanto, que os tribunais estão fechados e as audiências presenciais são suspensas até 26 de abril sob esta ordem da Suprema Corte. Se você tiver uma audiência marcada entre agora e 26 de abril, ela será realizada por vídeo ou conferência telefônica ou será adiada. Por favor, verifique com o tribunal onde o caso está pendente se você tiver dúvidas. Verifique também o site dos Tribunais de Nova Jersey para saber se o Tribunal estende a suspensão das audiências pessoalmente.",
+        "info": ""
+    },
+    {
+        "name": "Tribunal04",
+        "category": "Audiências em Tribunal",
+        "question": "Meus utilitários podem ser desligados durante a crise do COVID-19?",
+        "answer": "<b> Não </b>. As concessionárias de energia e gás de Nova Jersey suspenderam voluntariamente as paralisações durante a crise. Consulte o site do Conselho de Serviços Públicos de Nova Jersey para obter atualizações.",
+        "info": "Além disso, em 23 de março, a legislatura do estado apresentou um projeto de lei que proibia o desligamento de serviços públicos de eletricidade, gás ou água para clientes residenciais durante epidemias como a COVID-19. Verifique o site da COVID-19 do estado ou o Legislativo de Nova Jersey. site para se manter informado à medida que novas leis são promulgadas."
+    },
+    {
+        "name": "Tribunal05",
+        "category": "Audiências em Tribunal",
+        "question": "Ainda tenho que pagar por serviços públicos e água?",
+        "answer": "<b> Sim </b>. Você ainda precisa pagar suas contas de energia elétrica, gás e água. Se você não puder pagar agora, terá que pagar mais tarde. As empresas de serviços públicos e de água não estão cancelando dívidas; eles estão apenas adiando as interrupções por enquanto. O DCA oferece assistência aos proprietários de baixa renda com algumas contas de serviços públicos.",
+        "info": ""
+    }
+]
