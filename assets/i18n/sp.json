@@ -26,7 +26,7 @@
     "recruiting-essential-workers": "Reclutamiento de trabajadores esenciales",
     "measuring-covid-impact": "Medición del impacto de COVID-19",
     "stay-at-home": "Stay at Home Orders",
-    "be-still-mondays": "Be-Still Mondays"
+    "be-still-mondays": "Be Still Mondays"
   },
   "HOME": {
     "title": "Covid-19 Ayuda integral para residentes y pequeñas empresas",
@@ -51,7 +51,9 @@
       "health-info": "Información de salud",
       "eligibility-benefits": "Elegibilidad para beneficios",
       "recruiting-essential-workers": "Reclutamiento de trabajadores esenciales",
-      "measuring-covid-impact": "Medición del impacto de COVID-19"
+      "measuring-covid-impact": "Medición del impacto de COVID-19",
+      "stay-at-home": "Stay at Home Orders",
+      "be-still-mondays": "Be Still Mondays"
     }
   },
   "FAQ": {
