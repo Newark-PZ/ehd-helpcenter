@@ -62,10 +62,14 @@
         padding: .15rem 1rem;
         box-shadow: .2rem .2rem 0px rgba(260, 260, 260, 0.9);
         border-radius: .2rem;
-        @media only screen and (max-width: 768px) {
+        @media screen and (max-width: 576px) {
           font-size: 1.1rem;
           padding: .15rem 1rem;
-    }
+        }
+        @media screen and (min-width: 576px) and (max-width: 768px) {
+          font-size: 1.25rem;
+          padding: .15rem 1rem;
+      }
  }
 }
 .splash-subtitle {
@@ -89,6 +93,8 @@
         align-self: center;
         padding: 0;
         p {padding: 0;margin:0}
+        P:before {content: '"';}
+        P:after {content: '"';}
         h4 {font-weight: 600;margin: 0; margin-left: auto; }
         span {
           font-weight: 500;
@@ -103,8 +109,13 @@
             -webkit-filter: invert(1);
           }
         }
-        @media only screen and (max-width: 768px) {
+        @media screen and (max-width: 576px) {
           font-size: 1rem;
+          padding: .15rem 1rem;
+        }
+        @media screen and (min-width: 576px) and (max-width: 768px) {
+          font-size: 1.25rem;
+          padding: .15rem 1rem;
       }
     }
   .baraka {
@@ -123,29 +134,84 @@
   -webkit-text-fill-color: white;
   height: 100%;
   display: flex;
-  flex-direction: column;
-  background-color: seagreen;
+  flex-direction: row;
+  background-color: #0d47a1;
+  align-items: center;
   text-align: center;
-  font-size: 1.5rem;
-  h3 {
-    @media only screen and (max-width: 768px) {
-      font-size: 1.25rem !important;
+  height: 30vh;
+  padding: 0;
+  font-size: 1.4rem !important;
+  &.left {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 66%;
+    background-color: #0d47a1;
+    padding: 1.5rem;
+    flex: 1 1 66%;
+    justify-content: space-between;
+    h4 {margin: .5rem 1rem; }
+    a {
+      color: black;
+      -webkit-text-fill-color: black;
+      display: inline-flex;
+      font-size: 1.5rem;
+      margin: 0;
+      margin-left: .5rem;
+    }
+    p {margin: 0 5%;}
+    img {
+      width: 2.15rem;
+      vertical-align: middle;
+      margin: -0.5rem .5rem 0 0;
     }
   }
-  mat-icon {
-    margin: .85rem auto;
-    vertical-align: middle;
+  &.right {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 33%;
+    height: 100%;
+    justify-content: space-between;
+    background-color: #fdcb06;
+    margin: 0;
+    padding: 0 1rem;
+    flex-direction: column;
+    padding: 1.5rem;
+    h3 {
+      display: flex;
+      margin: 0;
+      @media only screen and (max-width: 768px) {
+        font-size: 1.25rem !important;
+      }
+    }
+    mat-icon {
+      display: inline-flex;
+      margin: .85rem auto;
+      font-size: 3rem;
+      vertical-align: middle;
+    }
+  }
+}
+.program-cats {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+  mat-list-item {
+    font-size: 1.15rem;
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    margin: auto;
+    h3 {text-align: left; font-size: 2rem;}
   }
 }
 .program-cards {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
-  background-color: seagreen;
 }
 .program-card {
   flex: 1 1 30%;
   height: 6rem;
-  width: 100%;
   margin: .5rem;
   display: flex !important;
   flex-direction: column;
@@ -153,28 +219,28 @@
   user-select: none;
   -moz-user-select: none;
   -webkit-user-select: none;
-  cursor: pointer;
-  mat-card {
-    height: 6rem;
-    width: 100%;
-  }
-  &:hover mat-card {
+  height: 6rem;
+  box-shadow: none;
+  border: .85px black solid;
+  &:hover {
     background-color: $primary-color !important;
     box-shadow: none;
     color: white;
     -webkit-text-fill-color: white;
+    cursor: pointer;
 }
 
-  &:active mat-card {
+  &:active {
       background-color: $accent-color !important;
       box-shadow: none;
       color: lightslategray;
       -webkit-text-fill-color: lightslategray;
+      cursor: pointer;
   }
 }
 .page-bottom {height: 5rem; width: 100%; display: flex; background-color: black;}
 
-@media only screen and (max-width: 768px) {
+@media screen and (min-width: 576px) and (max-width: 768px) {
   .splash-title,
   .splash-subtitle {
     flex: 1 1 90%;
@@ -195,9 +261,25 @@
   .program-card {
     flex: 1 1 45%;
   }
+  .content-intro {
+    font-size: 1rem;
+    h4 {margin: .3rem}
+  }
 }
-@media only screen and (max-width: 576px) {
+@media screen and (max-width: 576px) {
   .program-card {
     flex: 1 1 90%;
+  }
+  .content-intro {
+    font-size: 1rem;
+    h4 {margin: .1rem}
+  }
+  .splash-title,
+  .splash-subtitle {
+    flex: 1 1 90%;
+  }
+  .splash-subtitle {
+    max-height: 25rem;
+    font-size: 1.15rem;
   }
 }

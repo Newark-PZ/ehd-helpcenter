@@ -6,14 +6,23 @@
   font-size: 16px;
 }
 .mat-toolbar {
-  color: initial;
-  -webkit-text-fill-color: initial;
-  background: rgba(253, 203, 6, 0.15);
-  box-shadow: unset;
-  position: unset;
-  z-index: unset;
-  text-align: left;
+  h2 {font-weight: 600;}
+  h3 {font-size: 1.2rem; }
+  .mat-icon {margin-top: .25rem;}
+  .title {display: flex; height: 2.5rem;}
+  padding: .5rem 0 .5rem 15vw !important;
+  align-items: flex-start;
+  background: linear-gradient(rgba(253, 203, 6, 0.15) 0%, white 100%);
+  @media screen and (max-width: 769px) {
+    padding: .5rem 1rem !important;
+    height: unset !important;
+    flex-direction: row;
+    white-space: normal !important;
+    line-height: normal !important;
+    h2 {font-size: 1.15rem;}
+  }
 }
+
 h2 {font-weight: 600;}
 mat-list-item {
   font-size: 1.15rem;

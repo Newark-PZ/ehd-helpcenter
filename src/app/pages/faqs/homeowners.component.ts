@@ -10,6 +10,6 @@ export class HomeownersFAQComponent {
   faqPage: FaqPage = {
     type: 'homeowners',
     icon: 'house',
-    title: 'Homeowners Mortgage Relief And Foreclosure F.A.Q.S'
+    title: 'Homeowners Mortgage Relief And Foreclosure FAQs'
   };
 }

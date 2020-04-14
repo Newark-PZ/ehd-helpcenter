@@ -1,5 +1,10 @@
 import { Component, OnInit, Input } from '@angular/core';
+import { Store } from '@ngrx/store';
 import { FaqPage, TenantFaq, HomeownerFaq } from '../../interfaces/other.interface';
+import * as fromStore from '../../../store/store.reducers';
+import * as i18nActions from './../../../store/i18n/i18n.actions';
+import { Observable } from 'rxjs';
+import { take } from 'rxjs/operators';
 
 @Component({
   selector: 'app-faq',
@@ -12,31 +17,64 @@ export class FaqComponent implements OnInit {
   @Input() faqPage: FaqPage;
   @Input() faqText: Array<TenantFaq | HomeownerFaq>;
   faqCategories = [];
-  constructor() { }
-
+  currentLanguage$: Observable<string>;
+  constructor(private store: Store<fromStore.StoreState>) {
+    this.currentLanguage$ = this.store.select(state => state.i18n.currentLanguage);
+  }
   ngOnInit(): void {
-    this.getFaq(this.faqPage.type);
-    this.faqCategories = this.getCategories(this.faqPage.type);
+    this.store
+      .select(state => state.i18n.currentLanguage)
+      .subscribe((lang: string) => {
+        this.store
+        .select(state => state.i18n.currentLanguage)
+        .pipe(take(1))
+        .subscribe(currentLang => {
+          if (currentLang) {
+            this.getFaq(this.faqPage.type, lang);
+            this.faqCategories = this.getCategories(this.faqPage.type, lang);
+          }
+        });
+      });
   }
 
-  getFaq(faq: string) {
-    fetch(`assets/data/${faq}.json`)
+  getFaq(faq: string, language: string) {
+    fetch(`assets/data/${faq}-${language}.json`)
       .then(response => response.json())
       .then((data) => this.faqText = data);
   }
-  getCategories(faq: string) {
-    switch (faq) {
-      case 'tenants':
-        return [
-          'Lockout', 'Court Hearings',
+  getCategories(faq: string, language: string): Array<string> {
+    let categories = [];
+    switch (language) {
+      case 'fr':
+        (faq === 'tenants')
+        ? categories = ['Lockout', 'Audiences judiciaires',
+          'Locataires subventionnés', 'Aide au logement supplémentaire',
+          `Assistance d'urgence`, 'Électricité, gaz, eau']
+        : categories = ['Déménagements', 'Audiences judiciaires'];
+        break;
+      case 'pr':
+        (faq === 'tenants')
+        ? categories = ['Bloqueio', 'Audiências em Tribunal',
+        'Inquilinos subsidiados', 'Assistência Adicional à Habitação',
+        'Assistência emergencial', 'Eletricidade, Gás, Água']
+        : categories = ['Remoções', 'Audiências em Tribunal'];
+        break;
+      case 'sp':
+        (faq === 'tenants')
+        ? categories = ['Cierres patronales', 'Audiencias judiciales',
+        'Inquilinos subsidiados', 'Asistencia de vivienda adicional',
+        'Asistencia de emergencia', 'Electricidad, Gas, Agua']
+        : categories = ['Mudanzas', 'Audiencias judiciales'];
+        break;
+      default:
+        (faq === 'tenants')
+        ? categories = ['Lockout', 'Court Hearings',
           'Subsidized Tenants', 'Additional Housing Assistance',
           'Emergency Assistance', 'Electricity, Gas, Water'
-        ];
-      default:
-        return [
-          'Removals', 'Court Hearings'
-        ];
+        ]
+        : categories = ['Removals', 'Court Hearings'];
     }
+    return categories;
   }
   filterCat(cat) {
     return cat;

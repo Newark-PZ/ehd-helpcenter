@@ -1,7 +1,12 @@
 .mat-toolbar {
   h2 {font-weight: 600;}
-  h3 {font-size: 1.2rem;}
-  .title {height: 2.5rem;}
+  h3 {
+    font-size: 1.2rem;
+    white-space: normal !important;
+    line-height: normal !important;
+  }
+  .mat-icon {margin-top: .25rem;}
+  .title {display: flex; height: 2.5rem;}
   .subtitle {
     height: 2rem !important;
     line-height: 0;
@@ -9,8 +14,24 @@
     padding-left: 4rem;
     color: gray;
     -webkit-text-fill-color: gray;
+    @media only screen and (max-width: 769px) {
+      padding-left: .5rem;
+    }
   }
-  background: rgba(253, 203, 6, 0.15)
+  flex-direction: column;
+  align-items: flex-start;
+  background: linear-gradient(rgba(253, 203, 6, 0.15) 0%, white 100%);
+  padding: .5rem 0 .5rem 15vw !important;
+  @media only screen and (max-width: 769px) {
+    padding: .5rem 0 .5rem 1rem !important;
+    h2 {font-size: 1.2rem;}
+    h3 {font-size: 1rem;}
+  }
+  @media only screen and (max-width: 576px) {
+    padding: .5rem 0 .5rem 1rem !important;
+    h2 {font-size: 1.15rem;}
+    h3 {font-size: 1rem;}
+  }
 }
 
 .intro {
@@ -49,10 +70,13 @@ width: 90%;
 margin: 1rem auto;
 font-size: 1.3rem !important;
 }
+.mat-card-actions {
+  flex-wrap: wrap;
+}
 .mat-card-header {
-border: solid .1rem rgba(46, 139, 87, 0.66);
-color: rgba(46, 139, 87);
--webkit-text-fill-color: rgb(46, 139, 87);
+border: solid .1rem rgba(13, 71, 161, 0.66);
+color: rgb(13, 71, 161);
+-webkit-text-fill-color: rgb(13, 71, 161);
 border-radius: 0.5rem;
 padding: 0.2rem;
 margin-bottom: 1rem;
@@ -64,9 +88,9 @@ border-width: .1rem 0;
   margin: 1rem auto;
 }
 .info-buttons {
-color: rgba(46, 139, 87);
--webkit-text-fill-color: rgb(46, 139, 87);
-border-color: rgb(46, 139, 87);
+color: rgb(13, 71, 161) !important;
+-webkit-text-fill-color: rgb(13, 71, 161) !important;
+border-color: rgba(13, 71, 161, 0.66);
  width: 100%;
 margin: unset !important;
 display: flex;
@@ -74,13 +98,25 @@ flex: 1 1 30%;
 justify-content: space-evenly;
 margin: auto .5rem !important;
 }
+.full-width-button {
+  color: rgb(13, 71, 161) !important;
+  -webkit-text-fill-color: rgb(13, 71, 161) !important;
+  border-color: rgba(13, 71, 161, 0.66);
+  width: 100% !important;
+  margin: 1% !important;
+  display: flex;
+  flex: 1 1 95%;
+  justify-content: center;
+  box-shadow: .1px .1px 4px rgba(0,0,260,.4);
+  font-weight: 600;
+  }
 .content-intro {
 color: white;
 -webkit-text-fill-color: white;
 height: 100%;
 display: flex;
 flex-direction: column;
-background-color: seagreen;
+background-color: rgb(13, 71, 161);
 text-align: center;
 font-size: 1.2rem;
 padding: 0 2rem;

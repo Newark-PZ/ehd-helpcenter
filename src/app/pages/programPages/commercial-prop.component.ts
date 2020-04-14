@@ -29,6 +29,11 @@ export class CommercialPropComponent {
       {
         link: 'assets/docs/Tax Relief Certifications.pdf',
         linkText: 'Download Certification'
+      },
+      {
+        link: `mailto:ehd@ci.newark.nj.us?subject=${encodeURIComponent('Application for Commercial Property Tax Relief')}`,
+        linkText: 'Apply via Email',
+        fullWidth: true
       }
     ],
     purpose: {
@@ -56,6 +61,11 @@ export class CommercialPropComponent {
         {
           link: 'assets/docs/Tax Relief Certifications.pdf',
           linkText: 'Download Certification'
+        },
+        {
+          link: `mailto:ehd@ci.newark.nj.us?subject=${encodeURIComponent('Application for Commercial Property Tax Relief')}`,
+          linkText: 'Apply via Email',
+          fullWidth: true
         }
       ],
     }

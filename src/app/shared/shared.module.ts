@@ -8,6 +8,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatIconModule } from '@angular/material/icon';
+import { MatMenuModule } from '@angular/material/menu';
 import { MatTabsModule } from '@angular/material/tabs';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatTooltipModule } from '@angular/material/tooltip';
@@ -17,6 +18,7 @@ import { MatTreeModule } from '@angular/material/tree';
 
 import * as fromComponents from './';
 import { FaqCatPipe } from './services/filter.pipe';
+import { TranslateModule } from '@ngx-translate/core';
 
 const matModules = [
     MatButtonModule,
@@ -26,6 +28,7 @@ const matModules = [
     MatGridListModule,
     MatIconModule,
     MatTreeModule,
+    MatMenuModule,
     MatSidenavModule,
     MatTabsModule,
     MatToolbarModule,
@@ -41,12 +44,14 @@ const matModules = [
         FormsModule,
         ReactiveFormsModule,
         matModules,
+        FaqCatPipe,
         ...fromComponents.components
     ],
     imports: [
         CommonModule,
         FormsModule,
         ReactiveFormsModule,
+        TranslateModule.forChild(),
         RouterModule,
         matModules
     ],

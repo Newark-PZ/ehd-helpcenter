@@ -1,20 +1,21 @@
 <mat-toolbar>
-  <mat-toolbar-row class="title">
+  <div class="title">
     <mat-icon style="margin-right: .5rem">{{ programPage.icon }}</mat-icon>
     <h2>{{ programPage.title }}</h2>
-  </mat-toolbar-row>
-  <mat-toolbar-row class="subtitle">
+  </div>
+  <div class="subtitle">
     <h3>{{ programPage.subtitle }}</h3>
-  </mat-toolbar-row>
+  </div>
 </mat-toolbar>
 <mat-list class="intro-cards">
   <mat-list-item class="intro-card">
     <mat-card>
       <div class="card-body" [innerHtml]="programPage.introText"></div>
       <mat-card-actions align="end" *ngIf="programPage.infoButtons">
-        <a mat-stroked-button *ngFor="let button of programPage.infoButtons" class="info-buttons" type="button" target="_self" [href]="button.link">
-          <span *ngIf="button.linkText; else standardText">{{ button.linkText }}</span>
-          <ng-template #standardText>Apply</ng-template>
+        <a mat-stroked-button *ngFor="let button of programPage.infoButtons"
+          [ngClass]="button.fullWidth === true ? 'full-width-button' : 'info-buttons'" type="button" target="_self" [href]="button.link">
+          <span *ngIf="button.linkText; else standardText0">{{ button.linkText }}</span>
+          <ng-template #standardText0>Apply</ng-template>
           <mat-icon>double_arrow</mat-icon>
         </a>
       </mat-card-actions>
@@ -37,11 +38,12 @@
         <img *ngFor="let logo of card.logos" [src]="'assets/img/logos/logo_' + logo + '.png'">
       </div>
       <mat-card-actions align="end" *ngIf="card.buttons">
-        <a mat-stroked-button *ngFor="let button of card.buttons" class="info-buttons" type="button" target="_self" [href]="button.link">
-          <span *ngIf="button.linkText; else standardText">{{ button.linkText }}</span>
-          <ng-template #standardText>Apply</ng-template>
-          <mat-icon>double_arrow</mat-icon>
-        </a>
+        <a mat-stroked-button *ngFor="let button of card.buttons"
+        [ngClass]="button.fullWidth === true ? 'full-width-button' : 'info-buttons'" type="button" target="_self" [href]="button.link">
+        <span *ngIf="button.linkText; else standardText0">{{ button.linkText }}</span>
+        <ng-template #standardText0>Apply</ng-template>
+        <mat-icon>double_arrow</mat-icon>
+      </a>
       </mat-card-actions>
     </mat-card>
   </mat-list-item>

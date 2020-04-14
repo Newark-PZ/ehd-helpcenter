@@ -13,6 +13,7 @@ import { BreakpointObserver, BreakpointState } from '@angular/cdk/layout';
 import {routes} from './app-routing';
 import { NestedTreeControl } from '@angular/cdk/tree';
 import { MatTreeNestedDataSource } from '@angular/material/tree';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-root',
@@ -27,7 +28,6 @@ export class AppComponent implements OnDestroy, OnInit {
   selectedModule$: Observable<string>;
 
   title$: Observable<string>;
-
   hasSidebar$: Observable<boolean>;
   sidebarOpened$: Observable<boolean>;
   sidebarMode$: Observable<string>;
@@ -35,14 +35,16 @@ export class AppComponent implements OnDestroy, OnInit {
   sidebarRightOpened$: Observable<boolean>;
   sidebarRightMode$: Observable<string>;
   links: Array<SidebarLink> = [];
-  rightlinks: Array<SidebarLink> = [
-    { title: 'Important Link 1', icon: 'info', link: '' },
-    { title: 'Important link 2', icon: 'info', link: '' }
-  ];
   treeControl = new NestedTreeControl<SidebarLink>(node => node.children);
   dataSource = new MatTreeNestedDataSource<SidebarLink>();
   hasChild = (_: number, node: SidebarLink) => !!node.children && node.children.length > 0;
-  constructor(private store: Store<fromStore.StoreState>, public breakpointObserver: BreakpointObserver) {
+  constructor(
+    private store: Store<fromStore.StoreState>,
+    public breakpointObserver: BreakpointObserver,
+    public  translate: TranslateService
+    ) {
+    translate.setDefaultLang('en');
+    translate.use('en');
     this.selectedModule$ = this.store.select(
       state => state.sidebar.selectedModule
     );
@@ -177,5 +179,8 @@ export class AppComponent implements OnDestroy, OnInit {
           this.store.dispatch(new RightSidebarActions.Toggle());
         }
       });
+  }
+  goTo(url) {
+    window.open(url, '_self');
   }
 }

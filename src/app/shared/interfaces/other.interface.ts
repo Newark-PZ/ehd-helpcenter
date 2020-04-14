@@ -1,16 +1,19 @@
 import { Route } from '@angular/router';
 
+export interface StoreConfigI18n {
+  currentLanguage?: 'en' | 'fr' | 'sp' | 'pr';
+}
 export interface SidebarLink extends Route {
-    title?: string;
-    icon?: string;
-    link?: string;
-    children?: Array<SidebarLink>;
-    parentFragment?: string;
-    isChild?: boolean;
-    fullPath?: string;
+  title?: string;
+  icon?: string;
+  link?: string;
+  children?: Array<SidebarLink>;
+  parentFragment?: string;
+  isChild?: boolean;
+  fullPath?: string;
 }
 export interface ProgramPage {
-  icon: 'business_center' | 'people' | 'person' | 'house' | 'color_lens';
+  icon: 'business_center' | 'people' | 'person' | 'house' | 'color_lens' | 'local_dining' | 'local_hospital';
   title: string;
   subtitle: string;
   introText: string;
@@ -19,6 +22,7 @@ export interface ProgramPage {
   infoButtons?: Array<{
     link?: string;
     linkText?: string;
+    fullWidth?: boolean;
   }>;
   purposeHeader?: string;
   purpose?: {
@@ -31,6 +35,7 @@ export interface ProgramPage {
     buttons?: Array<{
       link?: string;
       linkText?: string;
+      fullWidth?: boolean;
     }>;
     text: string;
     logos?: Array<string>;
@@ -38,7 +43,7 @@ export interface ProgramPage {
 }
 export interface FaqPage {
   type: 'tenants' | 'homeowners';
-  icon: 'business_center' | 'people' | 'person' | 'house' | 'color_lens';
+  icon: 'business_center' | 'people' | 'person' | 'house' | 'color_lens' | 'local_dining' | 'local_hospital';
   title: string;
 }
 export interface FaqCategory {
@@ -68,7 +73,7 @@ export interface HomeownerFaq {
 }
 export interface ResourcePage {
     title: string;
-    icon: 'business_center' | 'people' | 'person' | 'house' | 'color_lens';
+    icon: 'business_center' | 'people' | 'person' | 'house' | 'color_lens' | 'local_dining' | 'local_hospital';
     introPic?: string;
     introContent?: Array<{
       header?: string;
@@ -85,4 +90,11 @@ export interface ResourcePage {
         footer?: string;
       }>;
     hideBottomBar?: boolean;
+}
+export interface HomeCard {
+  title: string;
+  icon: 'business_center' | 'people' | 'person' | 'house' | 'color_lens' | 'local_dining' | 'local_hospital';
+  link?: string;
+  parent: string;
+  category: 'Small Business' | 'Housing' | 'Employment & Wellness';
 }

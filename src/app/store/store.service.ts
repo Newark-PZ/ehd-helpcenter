@@ -10,6 +10,8 @@ import * as RightSidebarActions from './sidebarRight/sidebar.actions';
 import * as fromRightSidebar from './sidebarRight/sidebar.reducers';
 import * as SidebarActions from './sidebar/sidebar.actions';
 import * as fromSidebar from './sidebar/sidebar.reducers';
+import * as i18nActions from './i18n/i18n.actions';
+import * as fromI18n from './i18n/i18n.reducers';
 
 @Injectable({
     providedIn: 'root'
@@ -18,11 +20,13 @@ export class StoreService {
     configState$: Observable<fromConfig.State>;
     sidebarState$: Observable<fromSidebar.State>;
     rightSidebarState$: Observable<fromRightSidebar.State>;
+    i18nState$: Observable<fromI18n.State>;
 
     constructor(private store: Store<fromStore.StoreState>) {
         this.configState$ = this.store.select(state => state.config);
         this.sidebarState$ = this.store.select(state => state.sidebar);
         this.rightSidebarState$ = this.store.select(state => state.sidebarRight);
+        this.i18nState$ = this.store.select(state => state.i18n);
     }
     /**
      * Resets the Store State
@@ -85,5 +89,9 @@ export class StoreService {
     }
     setRightSidebarSelectedModule(module: string): void {
         this.store.dispatch(new RightSidebarActions.SetSelectedModule(module));
+    }
+    // i18n language
+    setLanguage(language: string): void {
+      this.store.dispatch(new i18nActions.SetLanguage(language));
     }
 }

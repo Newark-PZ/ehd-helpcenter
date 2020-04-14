@@ -1,0 +1,156 @@
+[
+ {
+   "name": "Lockouts01",
+   "category": "Lockouts",
+   "question": "Puis-je être exclu de mon domicile pendant l'urgence COVID-19?",
+   "answer": "Non. Le 19 mars 2020, le gouverneur du New Jersey, Philip Murphy, a émis un décret exécutif 106, qui suspend immédiatement les expulsions dans tout l'État. C'est ce qu'on appelle un «moratoire sur l'expulsion» et cela signifie que, sauf dans de rares circonstances, aucun locataire ne peut être renvoyé de son domicile à la suite d'une procédure d'expulsion. Le moratoire d'expulsion n'affecte pas les procédures judiciaires; au lieu de cela, il empêche les blocages et les suppressions. La Cour suprême du New Jersey contrôle les procédures judiciaires liées à l'expulsion, qui sont suspendues pour l'instant. Plus d'informations ci-dessous.",
+   "info": ""
+ },
+ {
+   "name": "Lockouts02",
+   "category": "Lockouts",
+   "question": "Combien de temps durera le moratoire d'expulsion?",
+   "answer": "Le moratoire sur l'expulsion a commencé le 19 mars 2020 et durera jusqu'à deux mois après que le gouverneur Murphy a déclaré la fin de la crise sanitaire du COVID-19, à moins que le gouverneur n'émette un autre décret pour y mettre fin plus tôt.",
+   "info": ""
+ },
+ {
+   "name": "Lockouts03",
+   "category": "Lockouts",
+   "question": "Dois-je encore payer mon loyer?",
+   "answer": "Oui. Le loyer est toujours dû et vous devez payer si vous le pouvez. Si vous ne payez pas, votre propriétaire peut toujours exiger le loyer et intenter une action contre vous devant le tribunal. Le tribunal inscrira le dossier une fois la suspension des audiences levée (voir ci-dessous). Si vous avez besoin de conseils sur la façon de régler votre situation de loyer avec votre propriétaire pendant cette période, vous pouvez appeler la New Jersey Housing and Mortgage Finance Agency pour obtenir des conseils gratuits par téléphone. Consultez <a href='https://njhousing.gov/foreclosure'> njhousing.gov/foreclosure </a> pour obtenir la liste des conseillers par comté.",
+   "info": ""
+ },
+ {
+   "name": "Lockouts04",
+   "category": "Lockouts",
+   "question": "Si je n'ai pas les moyens de payer mon loyer et de prendre du retard, devrai-je quand même l'argent?",
+   "answer": "Oui. Tous les paiements que vous manquez maintenant deviendront des loyers que vous devez. D'une manière ou d'une autre, vous devrez probablement payer plus tard tout ce que vous ne pouvez pas payer maintenant, ou vous risquez finalement d'être expulsé. Si vous êtes en retard sur vos paiements de loyer, vous pouvez essayer de parler avec votre propriétaire pour établir un plan de paiement afin d'éviter qu'une action d'expulsion ne soit intentée contre vous. Une aide supplémentaire peut devenir disponible pour les locataires qui manquent de payer leur loyer en raison de difficultés financières liées à COVID-19. Consultez le site Web COVID-19 de l'État et le site Web de la New Jersey Housing and Mortgage Finance Agency pour les mises à jour.",
+   "info": ""
+ },
+ {
+   "name": "Lockouts05",
+   "category": "Lockouts",
+   "question": "Et si je vis dans un hôtel / motel? Puis-je être expulsé pendant que le décret est en vigueur?",
+   "answer": "Peut être. Le décret exécutif 106 exclut les hôtels, les motels et les maisons d'hôtes loués à un «locataire transitoire ou saisonnier». Si vous vivez temporairement dans un hôtel, un motel ou une location de vacances que vous avez réservé et payé par vous-même, vous n'êtes probablement pas protégé. Cependant, le décret peut vous protéger contre l'expulsion si: (1) vous êtes sans-abri ou à risque de le devenir et une agence de services sociaux a un contrat avec l'hôtel ou le motel pour vous fournir un logement temporaire, ou (2) vous vivez à l'hôtel ou au motel à long terme en vertu d'un bail ou d'un autre contrat. Contactez une organisation de services juridiques telle que Legal Services of New Jersey, Volunteer Lawyers for Justice - New Jersey, Community Health Law Project, Essex County Legal Aid Association ou City of Newark Office of Tenant Services pour discuter de votre situation personnelle.",
+   "info": ""
+ },
+ {
+   "name": "Lockouts06",
+   "category": "Lockouts",
+   "question": "Que faire si un avis de verrouillage ou un mandat de retrait a déjà été émis?",
+   "answer": "Le moratoire s'applique à toutes les ordonnances de renvoi préexistantes. Tout ordre de renvoi précédemment délivré est suspendu et vous ne pouvez pas être renvoyé de votre domicile pendant le moratoire.",
+   "info": ""
+ },
+ {
+   "name": "Lockouts07",
+   "category": "Lockouts",
+   "question": "Et si mon propriétaire me met en lock-out illégalement?",
+   "answer": "C'est un crime pour votre propriétaire de vous enfermer. En vertu de la loi du New Jersey, seuls les tribunaux peuvent ordonner des expulsions et seuls les représentants du gouvernement peuvent vous expulser de votre domicile. Si votre propriétaire vous met en lock-out, appelez immédiatement la police locale.",
+   "info": ""
+ },
+ {
+   "name": "Lockouts08",
+   "category": "Lockouts",
+   "question": "Que se passe-t-il à la fin du moratoire d'expulsion?",
+   "answer": "À moins qu'il ne le lève plus tôt, le moratoire prendra fin deux mois après que le gouverneur Murphy aura déclaré la fin de l'urgence. Les autorités locales reprendront ensuite le renvoi des locataires qui sont soumis aux ordonnances définitives d'expulsion du tribunal.",
+   "info": ""
+ },
+ {
+   "name": "Court01",
+   "category": "Audiences judiciaires",
+   "question": "Et le tribunal? Mon propriétaire peut-il encore me poursuivre en justice pour ne pas avoir payé mon loyer?",
+   "answer": "Pas tout de suite. Le 27 mars, la Cour suprême du New Jersey a ordonné la suspension du tribunal des propriétaires-locataires jusqu'au 26 avril. Cela signifie qu'il n'y aura pas d'audience d'expulsion nulle part dans l'État jusqu'au 26 avril au plus tôt, et la Cour suprême peut annoncer de nouveaux reports. Consultez le site Web des tribunaux du New Jersey pour les mises à jour.",
+   "info": ""
+ },
+ {
+   "name": "Tribunaux02",
+   "category": "Audiences judiciaires",
+   "question": "Mon propriétaire peut-il encore déposer une plainte contre moi devant le tribunal pour ne pas avoir payé mon loyer?",
+   "answer": "Oui. Les propriétaires peuvent toujours déposer de nouvelles affaires contre les locataires, mais les locataires n'ont pas à aller en justice pour le moment.",
+   "info": ""
+ },
+ {
+   "name": "Tribunaux03",
+   "category": "Audiences judiciaires",
+   "question": "Que dois-je faire si je reçois des documents judiciaires?",
+   "answer": "Trouvez l'aide d'une organisation de services juridiques. Par exemple: Legal Services of New Jersey, Volunteer Lawyers for Justice - New Jersey, Community Health Law Project, Essex County Legal Aid Association et City of Newark Office of Tenant Services",
+   "info": ""
+ },
+ {
+   "name": "Tribunaux04",
+   "category": "Audiences judiciaires",
+   "question": "Que se passe-t-il si mon propriétaire a déjà entamé une procédure d'expulsion contre moi devant le tribunal du logement et que j'ai une prochaine date d'audience?",
+   "answer": "Si votre date d'audience est prévue pendant la suspension, le tribunal vous enverra un avis avec votre nouvelle date d'audience. Bien que le tribunal propriétaire-locataire soit suspendu, vous ne devez pas vous présenter devant un tribunal, aucune affaire n'ira de l'avant et vous ne serez pas pénalisé pour ne pas être allé en justice.",
+   "info": ""
+ },
+ {
+   "name": "Tribunaux05",
+   "category": "Audiences judiciaires",
+   "question": "Puis-je quand même obtenir des réparations d'urgence dans mon appartement?",
+   "answer": "Vous avez toujours droit à un logement sûr et décent. Si vous avez des préoccupations concernant des problèmes tels qu'une chaleur insuffisante, une exposition au plomb, des infestations, des fuites, des murs et des plafonds en ruine ou d'autres conditions dangereuses, vous devriez demander par écrit à votre propriétaire de faire des réparations (en conserver une copie). Si les réparations ne sont pas effectuées rapidement, vous pouvez appeler le 2-1-1, contacter le Bureau national d'inspection du logement ou appeler votre municipalité pour signaler le problème. Ou, si vous pouvez gérer les réparations par vous-même, vous pouvez les faire ou payer quelqu'un pour les faire. Vous pouvez alors retenir l'argent que vous avez dépensé pour les réparations de votre loyer (conservez tous les reçus pour les réparations!). En raison de fermetures, les organismes d'application de la loi peuvent travailler avec un personnel limité et cela peut prendre plus de temps pour obtenir des réparations ou des inspections.",
+   "info": ""
+ },
+ {
+   "name": "Tribunaux06",
+   "category": "Audiences judiciaires",
+   "question": "Que faire si j'ai déjà une date d'audience prévue pour une audience sur les réparations d'urgence?",
+   "answer": "Toutes les procédures judiciaires des propriétaires / locataires, y compris celles concernant les réparations d'urgence, ont été suspendues pour le moment. Vous pouvez trouver des mises à jour sur les dates des suspensions sur le site Web des tribunaux du New Jersey. Vous ne devez pas vous adresser au tribunal du logement pendant la suspension. Au lieu de cela, vous devez attendre l'avis d'une date d'audience reportée.",
+   "info": ""
+ },
+ {
+   "name": "Subsidized01",
+   "category": "Locataires subventionnés",
+   "question": "Le ministère des Affaires communautaires est-il toujours ouvert aux affaires?",
+   "answer": "Oui. Les programmes d'aide au logement du Département des affaires communautaires (DCA) continuent de fonctionner et font tout leur travail de base, y compris le paiement de loyers aux propriétaires et la fixation du montant du loyer que les locataires subventionnés doivent payer. DCA encourage les locataires subventionnés à utiliser le portail en ligne sur assistancecheck.com pour soumettre des documents ou envoyer des documents par la poste (conservez des copies!). Les locataires subventionnés qui ont des questions peuvent contacter les bureaux extérieurs ou utiliser la principale ligne de service client: <a href='tel:6092924080'> 609-292-4080 </a> ou <a href = 'mailto: customer.service@dca .nj.gov '> customer.service@dca.nj.gov </a>. DCA a annoncé avoir pris un certain nombre de mesures pour répondre aux besoins continus de ses clients et pour limiter les expulsions et les sans-abri pendant l'état d'urgence. Par exemple, DCA a suspendu la cessation des subventions dans le cadre du programme de bons de logement et des programmes d'aide au loyer de l'État, à moins que le locataire n'ait commis des violences ou des menaces contre d'autres personnes. DCA accepte également, via son portail en ligne, des recertifications de revenus provisoires pour les locataires qui ont perdu des revenus en raison de la pandémie.",
+   "info": ""
+ },
+ {
+   "name": "Subventionné02",
+   "category": "Locataires subventionnés",
+   "question": "La Newark Housing Authority est-elle autorisée à m'expulser maintenant?",
+   "answer": "Non. Si la Newark Housing Authority gère votre subvention au loyer, vous êtes également couvert par des protections anti-expulsion au niveau de la ville. Le 15 mars, le maire de Newark, Baraka, a annoncé un moratoire de 60 jours sur les expulsions résidentielles pour les résidents de Newark qui ne peuvent pas payer leur loyer en raison de l'impact financier de COVID-19.",
+   "info": ""
+ },
+ {
+   "name": "Addtl01",
+   "category": "Aide au logement supplémentaire",
+   "question": "Où puis-je en savoir plus sur les programmes d'aide au logement de l'État?",
+   "answer": "Visitez <a href='https://www.nj.gov/dca/dcaid'> nj.gov/dca/dcaid </a> pour voir si vous êtes éligible à l'un des programmes d'aide au logement de l'État. Il s'agit notamment d'une aide temporaire aux ménages qui sont expulsés en raison d'une perte de revenu à court terme et d'une aide financière temporaire pour aider à payer le logement et la gestion des cas et des services pour entretenir le logement. Il existe également des programmes pour aider les anciens combattants, les familles à faible revenu, les personnes âgées, les parents seuls et plus encore.",
+   "info": ""
+ },
+ {
+   "name": "Addtl02",
+   "category": "Aide au logement supplémentaire",
+   "question": "Existe-t-il des ressources pour m'aider à discuter de ces problèmes avec mon propriétaire ou ma banque?",
+   "answer": "Pour aider davantage les propriétaires et les locataires confrontés à des difficultés, la New Jersey Housing and Mortgage Finance Agency élargit son programme d'aide à la médiation en cas de forclusion (FMAP) pour inclure les conseils aux locataires et à la pré-forclusion par le biais d'un réseau de conseillers en logement dans chaque comté. Le conseil est gratuit, disponible dès maintenant et peut être fourni à distance. Les conseillers fourniront une assistance pour aider les propriétaires à éviter les saisies potentielles. Dans le même temps, les conseils mis à la disposition des locataires les guideront sur la manière d'aborder les discussions avec leurs propriétaires sur la gestion de leur situation de loyer. Pour une liste des conseillers en logement participant au FMAP, visitez: <a href='https://njhousing.gov/foreclosure'> njhousing.gov/foreclosure </a>",
+   "info": ""
+ },
+ {
+   "name": "Emmerg01",
+   "category": "Assistance d'urgence",
+   "question": "Que puis-je faire si j'ai besoin d'une aide d'urgence au logement?",
+   "answer": "Appelez le 2-1-1 pour les ressources. Pour savoir si vous pouvez demander l'un des programmes d'aide au logement de DCA, visitez l'outil de dépistage anonyme en ligne de DCA: <a href='https://www.nj.gov/dca/dcaid'> nj.gov/dca/ dcaid </a>.",
+   "info": ""
+ },
+ {
+   "name": "Utility01",
+   "category": "Électricité, gaz, eau",
+   "question": "Mes services publics peuvent-ils être fermés pendant la crise COVID-19?",
+   "answer": "Non. Les services publics d'électricité et de gaz du New Jersey ont volontairement suspendu leurs fermetures pendant la crise. Consultez le site Web du New Jersey Board of Public Utilities pour les mises à jour.",
+   "info": "En outre, le 23 mars, la législature de l'État a présenté un projet de loi qui interdirait la fermeture des services publics d'électricité, de gaz ou d'eau aux clients résidentiels lors d'épidémies telles que COVID-19. Consultez le site Web COVID-19 de l'État ou le site Web de l'Assemblée législative du New Jersey pour rester informé des nouvelles lois promulguées."
+ },
+ {
+   "name": "Utility02",
+   "category": "Électricité, gaz, eau",
+   "question": "Y a-t-il des protections supplémentaires à Newark?",
+   "answer": "Oui. L'ordonnance exécutive n ° MEO-20-0001 du maire Baraka prolonge un délai de grâce de 60 jours pour le non-paiement de l'eau, des égouts, de la collecte des déchets solides et des redevances pour les résidents de Newark touchés financièrement par COVID-19.",
+   "info": ""
+ },
+ {
+   "name": "Utility03",
+   "category": "Électricité, gaz, eau",
+   "question": "Dois-je quand même payer les services publics et l'eau?",
+   "answer": "Oui. Vous devez toujours payer les factures d'électricité, de gaz ou d'eau que vous payez normalement. Si vous ne pouvez pas payer maintenant, vous devrez payer plus tard. Les services publics et les compagnies des eaux n'annulent pas les dettes; ils ne font que reporter les fermetures pour le moment. DCA offre aux locataires à faible revenu une assistance pour certaines factures de services publics.",
+   "info": ""
+ }
+]

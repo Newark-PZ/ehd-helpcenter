@@ -1,39 +1,54 @@
 <section class="splash">
   <div class="splash-header">
-    <span class="toolbar-spacer left-icon"></span>
-    <span class="splash-title"><h2>Covid-19 Housing and Economic Help for Residents and Small Businesses</h2></span>
-    <span class="toolbar-spacer right-icon"></span>
+    <span class="toolbar-spacer left-space"></span>
+    <span class="splash-title"><h2  [translate]="'HOME.title'">COVID-19 Comprehensive Help for Residents and Small Businesses</h2></span>
+    <span class="toolbar-spacer right-space"></span>
   </div>
   <div class="splash-body">
-      <span class="toolbar-spacer left-icon"></span>
+      <span class="toolbar-spacer left-space"></span>
       <span class="splash-subtitle">
         <div style="color: white;-webkit-text-fill-color: white !important;">
-          <p>
-            “The City of Newark is investing more than $6 million in a growing list of initiatives to keep Newark’s most impacted residents safe, healthy, and financially secure. Together with thousands of volunteers, We are collaborating with the state and federal governments, philanthropies and non-profits, businesses, and faith-based organizations to weather this health emergency and continue to thrive once we are on the other side of it.”
+          <p [translate]="'HOME.mayor-blurb'">
+            The City of Newark is investing more than $6 million in a growing list of initiatives to keep Newark’s most impacted residents safe, healthy, and financially secure. Together with thousands of volunteers, we are collaborating with the state and federal governments, philanthropies and non-profits, businesses, and faith-based organizations to weather this health emergency and continue to thrive once we are on the other side of it.
           </p>
           <span>Mayor Ras J. Baraka <img src="assets/img/barakaSign.png"></span>
       </div>
         <img src="assets/img/rasBaraka.jpeg" class="baraka">
       </span>
-      <span class="toolbar-spacer right-icon"></span>
+      <span class="toolbar-spacer right-space"></span>
   </div>
 </section>
 <section class="content-intro">
-    <h3>City, State and Federal Programs to Help You.</h3>
+  <div class="content-intro left">
+    <h4>Daily Facebook Live Updates from Mayor Baraka</h4>
+    <p>Every Weekday get the latest from the Mayor on how COVID-19 is affecting Newark and how you can keep you and your family safe.</p>
+    <h4>Weekdays @ 5pm on
+      <a mat-raised-button href="https://facebook.com/cityofnewark"><img src="assets/img/logos/logo_fb_black.png">cityofnewark</a>
+    </h4>
+  </div>
+  <div class="content-intro right">
+    <h3  [translate]="'HOME.content-intro'">City, State and Federal Programs to Help You.</h3>
     <mat-icon>arrow_downward</mat-icon>
+  </div>
 </section>
-  <mat-list class="program-cards">
-    <mat-list-item class="program-card" *ngFor="let card of cards">
-      <mat-card  [routerLink]="[card.parent, card.link]">
+<mat-list class="program-cats">
+  <mat-list-item *ngFor="let cat of categories">
+    <h3 mat-list-item>
+      <mat-divider style="margin: 1rem 0;"></mat-divider>
+      Information for your {{ cat }}
+    </h3>
+    <div class="program-cards">
+      <mat-card  [routerLink]="[card.parent, card.link]" class="program-card" *ngFor="let card of cards | FaqCat:filterCat(cat)">
         <div class="button-card">
           <mat-icon style="margin-right: .5rem">{{ card.icon }}</mat-icon>
-          <h4 style="margin: auto">{{ card.title }}</h4>
+          <h4 style="margin: auto" [translate]="'HOME.buttons.' + card.link">{{ card.title }}</h4>
           <mat-icon style="margin-left: .5rem">exit_to_app</mat-icon>
         </div>
         <mat-card-content>
           {{card.content}}
         </mat-card-content>
       </mat-card>
-    </mat-list-item>
-  </mat-list>
+    </div>
+  </mat-list-item>
+</mat-list>
   <span class="page-bottom"></span>

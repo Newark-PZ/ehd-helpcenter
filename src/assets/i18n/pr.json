@@ -1,0 +1,61 @@
+{
+  "LANG":"Mudar Idioma",
+  "MENU": {
+    "home": "Casa",
+    "help": "Ayuda",
+    "program": "Nuestros programas",
+    "small-business-grants": "Subvenciones de emergencia para pequeñas empresas",
+    "homeowner-relief": "Préstamos perdonables para propietarios de viviendas",
+    "arts-fund": "Fondo de Organización de Artistas y Artes",
+    "safe-housing": "Vivienda segura para personas sin hogar",
+    "commercial-prop": "Ayuda para propiedades comerciales",
+    "eviction-moratorium": "Moratoria de desalojo del inquilino",
+    "faqs": "Preguntas frecuentes",
+    "tenants": "Preguntas frecuentes de inquilinos",
+    "homeowners": "Preguntas frecuentes sobre alivio hipotecario y ejecución hipotecaria",
+    "resources": "Otros recursos",
+    "nj-small-business-help": "Ayuda financiera de NJ para pequeñas empresas",
+    "unemployment-benefits": "Elegibilidad para beneficios de desempleo",
+    "finding-essential-jobs": "Encontrar un trabajo esencial durante la crisis",
+    "federal-us-cares": "Paquete de estímulo federal 'US Cares'",
+    "nha-tenants": "Para inquilinos da Autoridade de Habitação",
+    "food-dist-school-lunches": "Distribuição de Alimentos e Almoços Escolares",
+    "invest-newark": "Invista Newark para empresas",
+    "health-info": "Informação de saúde",
+    "elgibility-benefits": "Elegibilidade para benefícios"
+  },
+  "HOME": {
+    "title": "Ajuda abrangente da Covid-19 para residentes e pequenas empresas",
+    "mayor-blurb": "A cidade de Newark está investindo mais de US $ 6 milhões em uma lista crescente de iniciativas para manter os residentes mais afetados de Newark em segurança, saúde e segurança financeira. Juntamente com milhares de voluntários, estamos colaborando com os governos estaduais e federais, filantropos e organizações sem fins lucrativos, empresas e organizações religiosas para enfrentar essa emergência de saúde e continuar a prosperar quando estamos do outro lado.",
+    "content-intro": "Programas municipais, estaduais e federais para ajudá-lo.",
+    "buttons": {
+      "small-business-grants": "Subsídios de emergência para pequenas empresas de Newark",
+      "homeowner-relief": "Empréstimos perdoáveis ​​para proprietários e compradores de primeira viagem",
+      "arts-fund": "Fundo para organizações de artistas e artes",
+      "safe-housing": "Habitação segura para os sem-teto",
+      "commercial-prop": "Ajuda para inquilinos comerciais e proprietários",
+      "eviction-moratorium": "Moratória de Despejo de Inquilinos",
+      "tenants": "Perguntas frequentes sobre inquilino",
+      "homeowners": "Perguntas frequentes sobre alívio e encerramento de hipotecas",
+      "nj-small-business-help": "NJ Ajuda Financeira para Pequenas Empresas",
+      "unemployment-benefits": "Elegibilidade para benefícios de desemprego",
+      "finding-essential-jobs": "Encontrando um trabalho essencial durante a crise",
+      "federal-us-cares": "Ajuda do pacote federal de estímulo 'US CARES'",
+      "nha-tenants": "Para inquilinos da Autoridade de Habitação",
+      "food-dist-school-lunches": "Distribuição de Alimentos e Almoços Escolares",
+      "invest-newark": "Invista Newark para empresas",
+      "health-info": "Informação de saúde",
+      "elgibility-benefits": "Elegibilidade para benefícios"
+    }
+  },
+  "FAQ": {
+    "title": {
+      "tenants": "Perguntas frequentes sobre inquilinos de Newark",
+      "homeowners": "Perguntas freqüentes sobre alívio e execução hipotecária de proprietários"
+    },
+    "clickText": {
+      "tenants": "Clique na categoria abaixo para saber mais sobre os problemas que afetam os inquilinos",
+      "homeowners": "Clique na categoria abaixo para saber mais sobre os problemas que afetam os proprietários"
+    }
+  }
+}

@@ -1,5 +1,6 @@
 import * as pageComponents from './pages';
 import { SidebarLink } from './shared/interfaces/other.interface';
+import { RedirectComponent } from './shared';
 
 export const routes: Array<SidebarLink> = [
   {
@@ -22,7 +23,7 @@ export const routes: Array<SidebarLink> = [
   },
   {
     path: 'program',
-    title: 'EHD Programs',
+    title: 'Our Programs',
     children: [
       {
         path: '',
@@ -80,7 +81,7 @@ export const routes: Array<SidebarLink> = [
   },
   {
     path: 'faqs',
-    title: 'EHD FAQs',
+    title: 'FAQs',
     children: [
       {
         path: '',
@@ -144,6 +145,30 @@ export const routes: Array<SidebarLink> = [
         parentFragment: '/resources',
         icon: 'subdirectory_arrow_right',
         title: 'Federal “US Cares” Stimulus Package',
+        isChild: true
+      },
+      {
+        component: pageComponents.NHAComponent,
+        path: 'nha-tenants',
+        parentFragment: '/resources',
+        icon: 'subdirectory_arrow_right',
+        title: 'Info for NHA Tenants',
+        isChild: true
+      },
+      {
+        component: pageComponents.FoodComponent,
+        path: 'food-dist-school-lunches',
+        parentFragment: '/resources',
+        icon: 'subdirectory_arrow_right',
+        title: 'Food Distribution & School Lunches',
+        isChild: true
+      },
+      {
+        component: pageComponents.HealthComponent,
+        path: 'health-info',
+        parentFragment: '/resources',
+        icon: 'subdirectory_arrow_right',
+        title: 'Health Information',
         isChild: true
       }
     ]

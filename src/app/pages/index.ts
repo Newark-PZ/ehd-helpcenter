@@ -12,6 +12,9 @@ import { UnemploymentBenefitsComponent } from './resources/unemployment.componen
 import { NJSupportComponent } from './resources/nj-support.component';
 import { FederalUSCaresComponent } from './resources/federal-us-cares.component';
 import { EssentialJobsComponent } from './resources/essential-jobs.component';
+import { FoodComponent } from './resources/food.component';
+import { NHAComponent } from './resources/nha.component';
+import { HealthComponent } from './resources/health.component';
 
 export const pageComponents = [
     HomeComponent,
@@ -27,6 +30,9 @@ export const pageComponents = [
     UnemploymentBenefitsComponent,
     FederalUSCaresComponent,
     EssentialJobsComponent,
+    FoodComponent,
+    NHAComponent,
+    HealthComponent,
     HelpComponent
 ];
 
@@ -47,3 +53,6 @@ export * from './resources/unemployment.component';
 export * from './resources/nj-support.component';
 export * from './resources/essential-jobs.component';
 export * from './resources/federal-us-cares.component';
+export * from './resources/food.component';
+export * from './resources/nha.component';
+export * from './resources/health.component';

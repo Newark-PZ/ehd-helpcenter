@@ -1,11 +1,20 @@
 <!-- [disableClose]="(sidebarMode$ | async) === 'side' ? true : false" -->
+<mat-toolbar class="header">
+      <span class="toolbar-spacer left-icon"><app-sidebar-button [iconName]="'menu'"></app-sidebar-button></span>
+      <div class="newark-title" [routerLink]="['/']"><span>City of<br>Newark</span></div>
+      <span class="toolbar-spacer right-icon">
+        <span class="mayorText" [style.display]="mayorDisplay === true ? 'none' : 'inline'">Mayor Ras J. Baraka</span>
+        <app-sidebar-button [iconName]="'settings'" style="margin-right: 1.5rem"></app-sidebar-button>
+        <app-sidebar-button [iconName]="'info'"></app-sidebar-button>
+      </span>
+</mat-toolbar>
 <mat-sidenav-container hasBackdrop="false">
-  <mat-sidenav #sidebar fixedInViewport="true" fixedTopGap="92" *ngIf="hasSidebar$ | async" [opened]="sidebarOpened$ | async" [mode]="'over'"
+  <mat-sidenav #sidebar fixedInViewport="true" fixedTopGap="64" *ngIf="hasSidebar$ | async" [opened]="sidebarOpened$ | async" [mode]="'over'"
        (openedChange)="onOpenedChange($event)">
        <mat-tree [dataSource]="links" [treeControl]="treeControl" class="link-tree">
         <!-- This is the tree node template for leaf nodes -->
         <mat-tree-node *matTreeNodeDef="let node" (click)="sidebar.close()" matTreeNodeToggle routerLinkActive="router-link-active" [routerLink]="(node.parentFragment === undefined) ? ['/', node.path] : [node.parentFragment, node.path]">
-          <li [ngClass]="node.isChild ? 'router-tree-child-node' : 'router-tree-node'">
+          <li [ngClass]="node.isChild ? 'router-tree-child-node' : 'router-tree-node'" [translate]="'MENU.'+node.path">
             <button mat-icon-button><mat-icon>{{ node.icon }}</mat-icon></button>
             {{node.title}}
           </li>
@@ -17,7 +26,7 @@
               <mat-icon class="mat-icon-rtl-mirror">
                 {{treeControl.isExpanded(node) ? 'expand_more' : 'chevron_right'}}
               </mat-icon>
-              {{node.title}}
+              <span [translate]="'MENU.' + node.path">{{node.title}}</span>
             </button>
             <ul [class.tree-invisible]="!treeControl.isExpanded(node)">
               <ng-container matTreeNodeOutlet></ng-container>
@@ -34,42 +43,36 @@
         </button>
       </div>
   </mat-sidenav>
-  <mat-sidenav #sidebarRight position="end" *ngIf="hasSidebarRight$ | async" [opened]="sidebarRightOpened$ | async"
+  <mat-sidenav #sidebarRight fixedInViewport="true" fixedTopGap="64" position="end" *ngIf="hasSidebarRight$ | async" [opened]="sidebarRightOpened$ | async"
       [mode]="sidebarRightMode$ | async" [disableClose]="(sidebarRightMode$ | async) === 'side' ? true : false"
       (openedChange)="onRightOpenedChange($event)">
-      <mat-grid-list cols="4" rowHeight="3rem" gutterSize="1rem">
-        <mat-grid-tile colspan="4" rowspan="2">
-          <h2>Important Links</h2>
-        </mat-grid-tile>
-        <mat-grid-tile *ngFor="let link of rightlinks" colspan="4" rowspan="1" class="sidebar-links">
-          <button [routerLink]="link.link">
-            <mat-icon style="margin-right: 1rem">{{ link.icon }}</mat-icon>
-            <span>{{ link.title }}</span>
+      <mat-list>
+        <h3 mat-list-item style="text-align:center; font-size: 2rem;">Department Links</h3>
+        <li mat-list-item (click)='goTo("https://www.newarknj.gov/departments/economichousing")' class="router-tree-node"><button mat-icon-button><mat-icon>launch</mat-icon></button>Economic & Housing Development</li>
+        <mat-expansion-panel mat-list-item style="margin: auto;width: 90%">
+          <mat-expansion-panel-header>
+            <mat-panel-title style="font-weight: bold;">
+              Economic & Housing Dev. Divisions
+            </mat-panel-title>
+          </mat-expansion-panel-header>
+          <li (click)='goTo("https://www.newarknj.gov/departments/affordable-housing")' class="router-tree-child-node"><button mat-icon-button><mat-icon>launch</mat-icon></button>Housing</li>
+          <li (click)='goTo("https://www.newarknj.gov/departments/opportunity-zones")' class="router-tree-child-node"><button mat-icon-button><mat-icon>launch</mat-icon></button>Opportunity Zones</li>
+          <li (click)='goTo("https://www.newarknj.gov/departments/planning")' class="router-tree-child-node"><button mat-icon-button><mat-icon>launch</mat-icon></button>Planning & Zoning</li>
+          <li (click)='goTo("https://www.newarknj.gov/departments/economichousing")' class="router-tree-child-node"><button mat-icon-button><mat-icon>launch</mat-icon></button>Property Management</li>
+          <li (click)='goTo("https://www.newarknj.gov/departments/rentcontrol")' class="router-tree-child-node"><button mat-icon-button><mat-icon>launch</mat-icon></button>Rent Control</li>
+          <li (click)='goTo("https://www.newarknj.gov/departments/economichousing")' class="router-tree-child-node"><button mat-icon-button><mat-icon>launch</mat-icon></button>Tenant Legal Services</li>
+        </mat-expansion-panel>
+        <div mat-list-item style="width: 100%; display: flex; flex-direction: row;justify-content: space-around; margin-top: 2rem">
+          <!-- <button mat-flat-button color="accent" [routerLink]="['/help']">
+            <mat-icon>help</mat-icon>
+          </button> -->
+          <button mat-flat-button color="accent" (click)="sidebarRight.close()">
+          <mat-icon>close</mat-icon>
           </button>
-        </mat-grid-tile>
-        <mat-grid-tile colspan="2" rowspan="1" class="sidebar-tile">
-          <button mat-flat-button color="accent" (click)="toggleRightSidebar()">
-            <mat-icon>close</mat-icon>
-          </button>
-        </mat-grid-tile>
-      </mat-grid-list>
+        </div>
+      </mat-list>
     </mat-sidenav>
   <mat-sidenav-content>
-    <mat-toolbar>
-      <mat-toolbar-row class="header">
-          <span class="toolbar-spacer left-icon"><app-sidebar-button [iconName]="'menu'"></app-sidebar-button></span>
-          <span class="newark-title">City of Newark<span class="mayorText" [style.display]="mayorDisplay === true ? 'none' : 'inline'"> | Mayor Ras J. Baraka</span></span>
-          <span class="toolbar-spacer right-icon">
-            <!-- <app-sidebar-button [iconName]="'info'"></app-sidebar-button> -->
-          </span>
-    </mat-toolbar-row>
-      <mat-toolbar-row class="sub-header">
-          <span class="toolbar-spacer"></span>
-          <span class="dept-title">
-            <span [style.display]="deptDisplay === true ? 'none' : 'inline'">Department of </span>Economic & Housing Development<span class="directorText" [style.display]="deptDisplay === true ? 'none' : 'block'">Deputy Mayor and Director Allison Ladd</span></span>
-          <span class="toolbar-spacer"></span>
-      </mat-toolbar-row>
-    </mat-toolbar>
     <section class="main-content">
       <router-outlet>
       </router-outlet>
