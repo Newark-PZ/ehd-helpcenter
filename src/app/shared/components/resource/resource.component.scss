@@ -5,7 +5,7 @@
   .title {display: flex; height: 2.5rem;}
   padding: .5rem 0 .5rem 15vw !important;
   align-items: flex-start;
-  background: linear-gradient(rgba(253, 203, 6, 0.15) 0%, white 100%);
+  background: linear-gradient(rgba(183, 28, 28, 0.15) 0%, white 100%);
   @media screen and (max-width: 769px) {
     padding: .5rem 1rem !important;
     height: unset !important;
@@ -70,12 +70,23 @@ border-width: .1rem 0;
   -webkit-text-fill-color: rgb(13, 71, 161) !important;
   border-color: rgba(13, 71, 161, 0.66);
    width: 100%;
-   max-width: 33vw;
   margin: unset !important;
   display: flex;
   flex: 1 1 30%;
   justify-content: space-evenly;
   margin: auto .5rem !important;
+  }
+  .full-width-button {
+    color: rgb(13, 71, 161) !important;
+    -webkit-text-fill-color: rgb(13, 71, 161) !important;
+    border-color: rgba(13, 71, 161, 0.66);
+    width: 100% !important;
+    margin: 1% !important;
+    display: flex;
+    flex: 1 1 95%;
+    justify-content: center;
+    box-shadow: .1px .1px 4px rgba(0,0,260,.4);
+    font-weight: 600;
   }
   .content-intro {
   color: white;

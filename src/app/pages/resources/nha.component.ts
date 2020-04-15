@@ -12,7 +12,7 @@ export class NHAComponent implements OnInit {
     icon: 'people',
     introContent: [{
       text:
-      `<p><img class="intro-pic" src='assets/img/pagePhotos/nj small business grants.png'>The Newark Housing Authority has extensive information for tenants on its website.</p>
+      `<p><img class="intro-pic" src='assets/img/pagePhotos/Housing Authority.jpg'>The Newark Housing Authority has extensive information for tenants on its website.</p>
       <p>Residents of senior buildings and townhouses and Section 8 participants can find answers to questions about rent payments, visiting, deliveries, hours, service changes, repairs, community rooms, recertifications, inspections and more.<p>`,
       link: 'http://www.newarkha.org/coronavirus',
       linkText: `Learn More at NHA's Website`

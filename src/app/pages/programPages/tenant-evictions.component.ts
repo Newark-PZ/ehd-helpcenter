@@ -19,10 +19,10 @@ export class TenantEvictionsComponent {
       link: `mailto:OTLS@ci.newark.nj.us?subject=${encodeURIComponent('Tenant Eviction Moratorium Question')}`,
       linkText: 'Email EHD To Learn More'
     }],
-    purpose: {
+    purpose: [{
       header: 'Statewide',
       body: 'Pursuant to Governor Murphy’s March 19, 2020 Executive Order, removal of individuals from residential properties through the eviction or foreclosure processes are prohibited until the Governor declares that the public health crisis is officially over.',
-    },
+    }],
     sections: [
       {
         header: 'Newark',

@@ -31,11 +31,11 @@ export class UnemploymentBenefitsComponent {
       {
         header: 'More info about eligibility',
         link: 'https://www.nj.gov/labor/worker-protections/earnedsick/covid.shtml',
-        text: `<p>Those impacted personally or by the situation of a family member may be eligible for a range of benefits including federal emergency paid sick leave, federal emergency childcare FMLA, earned sick leave, workers' compensation; unemployment insurance, temporary disability or family leave insurance.<p>To see if you are eligible and to apply for state benefits, visit the New Jersey Department of Labor. There you will also find a helpful chart clarifying the different scenarios and the available benefits in English and Spanish.</p>
-          <p>Residents eligible for unemployment will receive an additional $600 per week through July 31 through additional Federal Pandemic Unemployment Assistance.</p>
-          <p>In addition, freelancers, gig workers, and independent contractors - who are typically not eligible for unemployment insurance -- are able to apply for the $600 Federal Pandemic Unemployment Assistance. They should apply for unemployment now. This claim likely will be denied, but your ineligibility for regular unemployment is a prerequisite for receiving benefits due to COVID-19.</p>
-          <p>In addition, Governor Murphy has signed a new law expanding the State's Temporary Disability Insurance (TDI) and Family Leave Insurance (FLI) programs to provide more workers with access to paid leave benefits during public health emergencies.</p>
-        `
+        text: `<p>Those affected personally by COVID-19 or by its impact on a family member may be eligible for a range of benefits including federal emergency paid sick leave, federal emergency childcare FMLA, earned sick leave, workers' compensation; unemployment insurance, temporary disability or family leave insurance.</p>
+        <p>To find out if you are eligible and to apply for state benefits, visit the <a href="https://www.nj.gov/labor/">New Jersey Department of Labor’s website</a>. There you will also find a helpful chart clarifying the different scenarios and the available benefits in English and Spanish.</p>
+        <p>Residents eligible for unemployment will receive an additional $600 per week through July 31 through additional Federal Pandemic Unemployment Assistance.</p>
+        <p>In addition, freelancers, gig workers, and independent contractors - who are typically not eligible for unemployment insurance -- are able to apply for the $600 Federal Pandemic Unemployment Assistance. They should apply for unemployment now. This claim likely will be denied, but your ineligibility for regular unemployment is a prerequisite for receiving benefits due to COVID-19.</p>
+        <p>In addition, Governor Murphy has signed a new law expanding the State's Temporary Disability Insurance (TDI) and Family Leave Insurance (FLI) programs to provide more workers with access to paid leave benefits during public health emergencies.</p>`
       },
       {
         link: 'https://www.nj.gov/labor/worker-protections/earnedsick/covid.shtm',

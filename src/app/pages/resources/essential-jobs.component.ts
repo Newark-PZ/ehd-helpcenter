@@ -8,7 +8,7 @@ import { ResourcePage } from '../../shared/interfaces/other.interface';
 // tslint:disable: max-line-length
 export class EssentialJobsComponent {
   resourceContent: ResourcePage = {
-    title: '  Finding a Job During the COVID-19 Crisis',
+    title: 'Finding a Job During the COVID-19 Crisis',
     icon: 'person',
     introContent: [{
       linkText: 'Link to Jobs Portal',

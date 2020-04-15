@@ -1,5 +1,10 @@
-import { Component, ViewEncapsulation } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { HomeCard } from 'src/app/shared/interfaces/other.interface';
+import { BreakpointObserver, BreakpointState } from '@angular/cdk/layout';
+import * as fromStore from '../../store/store.reducers';
+import { Observable } from 'rxjs';
+import { Store } from '@ngrx/store';
+import * as HomePanelActions from 'src/app/store/home-panels/home-panels.actions';
 
 @Component({
   selector: 'app-home',
@@ -7,10 +12,13 @@ import { HomeCard } from 'src/app/shared/interfaces/other.interface';
   templateUrl: './home.component.html'
 })
 
-export class HomeComponent {
+export class HomeComponent implements OnInit {
   colNum;
   gridRowNum;
-  categories = ['Small Business', 'Housing', 'Employment & Wellness'];
+  expansionOpen$: Observable<boolean>;
+  expansionMulti$: Observable<boolean>;
+  expansionDisabled$: Observable<boolean>;
+  categories = ['Save Lives. Stay Safe.', 'Small Business', 'Housing', 'Employment & Wellness'];
   cards: Array<HomeCard> = [
     {
       icon: 'business_center', title: 'Newark Small Business Emergency Grants',
@@ -48,7 +56,7 @@ export class HomeComponent {
       link: 'nj-small-business-help', parent: '/resources', category: 'Small Business'
     },
     {
-      icon: 'person', title: 'Eligibility for Unemployment Benefits',
+      icon: 'person', title: 'Unemployment Benefits',
       link: 'unemployment-benefits', parent: '/resources', category: 'Employment & Wellness'
     },
     {
@@ -68,17 +76,56 @@ export class HomeComponent {
       link: 'food-dist-school-lunches', parent: '/resources', category: 'Employment & Wellness'
     },
     {
-      icon: 'business_center', title: 'Invest Newark for Businesses',
+      icon: 'business_center', title: 'INVEST NEWARK for Businesses',
       link: 'invest-newark', parent: '/resources', category: 'Small Business'
     },
     {
       icon: 'local_hospital', title: 'Health Information', link: 'health-info', parent: '/resources', category: 'Employment & Wellness'
     },
     {
-      icon: 'people', title: 'Eligibility for Benefits', link: 'elgibility-benefits',
+      icon: 'people', title: 'Benefit Eligibility Chart', link: 'eligibility-benefits',
       parent: '/resources',  category: 'Employment & Wellness'
+    },
+    {
+      icon: 'people', title: 'Recruiting Essential Workers', link: 'recruiting-essential-workers',
+      parent: '/program',  category: 'Small Business'
+    },
+    {
+      icon: 'people', title: 'Measuring COVID-19 Impact', link: 'measuring-covid-impact',
+      parent: '/program',  category: 'Employment & Wellness'
+    },
+    {
+      icon: 'local_hospital', title: 'Stay at Home Orders', link: 'stay-at-home',
+      parent: '/stayingin', category: 'Save Lives. Stay Safe.'
+    },
+    {
+      icon: 'local_hospital', title: 'Be Still Mondays', link: 'be-still-mondays',
+      parent: '/stayingin',  category: 'Save Lives. Stay Safe.'
     }
   ];
+  constructor(
+    public breakpointObserver: BreakpointObserver,
+    private store: Store<fromStore.StoreState>,
+    ) {
+    this.expansionOpen$ = this.store.select(state => state.homePanel.open);
+    this.expansionMulti$ = this.store.select(state => state.homePanel.multi);
+    this.expansionDisabled$ = this.store.select(state => state.homePanel.toggleDisabled);
+  }
+  ngOnInit() {
+    this.breakpointObserver
+    .observe(['(max-width: 767px)'])
+    .subscribe((state: BreakpointState) => {
+      if (state.matches) {
+        this.store.dispatch(new HomePanelActions.SetMulti(false));
+        this.store.dispatch(new HomePanelActions.SetOpen(false));
+        this.store.dispatch(new HomePanelActions.SetToggle(false));
+      } else {
+        this.store.dispatch(new HomePanelActions.SetMulti(true));
+        this.store.dispatch(new HomePanelActions.SetOpen(true));
+        this.store.dispatch(new HomePanelActions.SetToggle(true));
+      }
+    });
+  }
   filterCat(category) {
     return category;
   }

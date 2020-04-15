@@ -36,10 +36,10 @@ export class CommercialPropComponent {
         fullWidth: true
       }
     ],
-    purpose: {
+    purpose: [{
       header: 'Provides property tax reductions passed along to tenants',
       body: 'If commercial tenants are no longer able to pay their full rent during the Covid-19 crisis, property owners will be hard-pressed to pay their property taxes and be in danger of losing their buildings. This initiative will help avoid a massive surge in vacancies that could seriously damage the city’s culture, character, economic stability and reverse the extraordinary progress Newark has been making.',
-    },
+    }],
     sections: [
     {
       header: 'How It Works',
@@ -48,7 +48,7 @@ export class CommercialPropComponent {
     },
     {
       header: 'Inquire Today',
-      text: 'To learn more, e-mail the Newark Department of Economic Housing and Development at <a href="mailto:ehd@ci.newark.nj.us">ehd@ci.newark.nj.us</a>.<br>Or fill out the forms from the link below.',
+      text: `To learn more, you can contact Newark's Tax Assesor Aaron Wilson by email at <a href="mailto:wilsonaa@ci.newark.nj.us?subject=${encodeURIComponent('Application for Commercial Property Tax Relief')}">wilsonaa@ci.newark.nj.us</a> or by phone at <a href="tel:9737338509">(973) 733-8509</a>. To apply include the completed application and documentation as attachments.`,
       buttons: [
         {
           link: 'assets/docs/Tax Relief applicataion.pdf',
@@ -63,7 +63,7 @@ export class CommercialPropComponent {
           linkText: 'Download Certification'
         },
         {
-          link: `mailto:ehd@ci.newark.nj.us?subject=${encodeURIComponent('Application for Commercial Property Tax Relief')}`,
+          link: `mailto:wilsonaa@ci.newark.nj.us?subject=${encodeURIComponent('Application for Commercial Property Tax Relief')}`,
           linkText: 'Apply via Email',
           fullWidth: true
         }

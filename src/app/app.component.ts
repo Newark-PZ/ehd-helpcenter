@@ -23,6 +23,7 @@ import { TranslateService } from '@ngx-translate/core';
 export class AppComponent implements OnDestroy, OnInit {
   storeConfig: StoreConfig;
   sidebarOpenedSubscription: Subscription;
+  window: Window;
   deptDisplay: boolean;
   mayorDisplay: boolean;
   selectedModule$: Observable<string>;

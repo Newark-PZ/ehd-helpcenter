@@ -1,7 +1,7 @@
 <!-- [disableClose]="(sidebarMode$ | async) === 'side' ? true : false" -->
 <mat-toolbar class="header">
-      <span class="toolbar-spacer left-icon"><app-sidebar-button [iconName]="'menu'"></app-sidebar-button></span>
-      <div class="newark-title" [routerLink]="['/']"><span>City of<br>Newark</span></div>
+      <span class="toolbar-spacer left-icon"><app-sidebar-button [iconName]="'menu'" [treeControl]="treeControl"></app-sidebar-button></span>
+      <div class="newark-title" (click)="goTo('https://newarknj.gov')"><span>City of<br>Newark</span></div>
       <span class="toolbar-spacer right-icon">
         <span class="mayorText" [style.display]="mayorDisplay === true ? 'none' : 'inline'">Mayor Ras J. Baraka</span>
         <app-sidebar-button [iconName]="'settings'" style="margin-right: 1.5rem"></app-sidebar-button>

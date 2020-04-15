@@ -1,9 +1,28 @@
 @use '../.../../../../assets/styles/variables' as *;
-@import '../../app.component.scss';
 
 :host {
   font-family: "Segoe UI", "Open Sans", sans-serif;
   font-size: 16px;
+}
+.page-alert {
+  a.subtitle-link {all: unset; text-decoration: none; font-weight: 600; font-size: 1.5rem !important;}
+  .mat-icon {margin-top: .25rem;}
+  position: absolute;
+  padding: .5rem 0 .5rem 15vw !important;
+  align-items: flex-start;
+  background: rgba(0,0,0,0);
+  box-shadow: none;
+  color: white !important;
+  -webkit-text-fill-color: white !important;
+  cursor: pointer;
+  @media screen and (max-width: 769px) {
+    padding: .5rem 1rem !important;
+    height: unset !important;
+    flex-direction: row;
+    white-space: normal !important;
+    line-height: normal !important;
+    a.subtitle-link {font-size: 1.1rem !important;}
+  }
 }
 .splash {
   display: flex;
@@ -45,29 +64,30 @@
     display: flex;
     flex-direction: row;
     line-height: normal;
+    align-self: flex-end;
     color: #fff;
     -webkit-text-fill-color: #fff;
     font-weight: bold;
-    font-size: 1.5rem;
     border-radius: .5rem;
     margin: unset !important;
+    margin-bottom: 2rem !important;
     flex: 1 1 70%;
 
     h2 {
-        font-size: 1.5rem;
+        font-size: 1.85rem;
         margin: unset;
         font-weight: bold;
         display: flex;
-        background: rgb(100, 100, 100, .9);
+        background: rgb(183, 28, 28, .9);
         padding: .15rem 1rem;
         box-shadow: .2rem .2rem 0px rgba(260, 260, 260, 0.9);
         border-radius: .2rem;
         @media screen and (max-width: 576px) {
-          font-size: 1.1rem;
+          font-size: 1.25rem;
           padding: .15rem 1rem;
         }
         @media screen and (min-width: 576px) and (max-width: 768px) {
-          font-size: 1.25rem;
+          font-size: 1.5rem;
           padding: .15rem 1rem;
       }
  }
@@ -171,7 +191,7 @@
     flex: 1 1 33%;
     height: 100%;
     justify-content: space-between;
-    background-color: #fdcb06;
+    background-color: rgb(183, 28, 28);
     margin: 0;
     padding: 0 1rem;
     flex-direction: column;
@@ -200,17 +220,38 @@
     display: flex;
     flex-direction: column;
     width: 85%;
-    margin: auto;
-    h3 {text-align: left; font-size: 2rem;}
+    margin: 1rem auto;
+    h3 {text-align: left; font-size: 1.5rem;}
+    .mat-expansion-panel {
+      border-top: 2px solid !important;
+      border-radius: 0.25rem;
+      box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.25) !important;
+      margin: 1rem auto;
+    }
+    .mat-expansion-panel-header {
+      flex-direction: row-reverse;
+      height: 5rem !important;
+      font-size: 1.25rem !important;
+      padding-right: .1rem !important;
+    }
+    .mat-expansion-panel-header-title {
+      font-weight: 500 !important;
+      margin-right: .1rem !important;
+      justify-content: center !important;
+      @media screen and (max-width: 769px) {
+        justify-content: flex-end !important;
+      }
+    }
   }
 }
 .program-cards {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .program-card {
-  flex: 1 1 30%;
+  flex: 0 1 30%;
   height: 6rem;
   margin: .5rem;
   display: flex !important;
@@ -222,6 +263,7 @@
   height: 6rem;
   box-shadow: none;
   border: .85px black solid;
+  padding: .75rem;
   &:hover {
     background-color: $primary-color !important;
     box-shadow: none;
@@ -263,7 +305,11 @@
   }
   .content-intro {
     font-size: 1rem;
+    height: 25vh !important;
     h4 {margin: .3rem}
+    .left {
+      p {display: none;  }
+    }
   }
 }
 @media screen and (max-width: 576px) {
@@ -272,7 +318,15 @@
   }
   .content-intro {
     font-size: 1rem;
+    height: 25vh !important;
     h4 {margin: .1rem}
+    .left {
+      padding: .5rem;
+      p {display: none;}
+    }
+    .right {
+      padding: .5rem;
+    }
   }
   .splash-title,
   .splash-subtitle {

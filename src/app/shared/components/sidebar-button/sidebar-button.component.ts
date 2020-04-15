@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { Store } from '@ngrx/store';
 import { Observable } from 'rxjs';
 
@@ -18,8 +18,9 @@ import { TranslateService } from '@ngx-translate/core';
   styleUrls: ['./sidebar-button.component.scss'],
   animations: [sidebarButtonStateTrigger, shownStateTrigger]
 })
-export class SidebarButtonComponent implements OnInit {
+export class SidebarButtonComponent {
   @Input() iconName;
+  @Input() treeControl;
   sidebarOpened$: Observable<boolean>;
   sidebarRightOpened$: Observable<boolean>;
 
@@ -27,11 +28,9 @@ export class SidebarButtonComponent implements OnInit {
     this.sidebarOpened$ = this.store.select(state => state.sidebar.opened);
     this.sidebarRightOpened$ = this.store.select(state => state.sidebarRight.opened);
   }
-
-  ngOnInit() {}
-
   toggleSidebar() {
     this.store.dispatch(new SidebarActions.Toggle());
+    this.treeControl.collapseAll();
   }
   toggleRightSidebar() {
     this.store.dispatch(new RightSidebarActions.Toggle());

@@ -1,6 +1,7 @@
 import * as pageComponents from './pages';
 import { SidebarLink } from './shared/interfaces/other.interface';
 import { RedirectComponent } from './shared';
+import { HomeComponent } from './pages';
 
 export const routes: Array<SidebarLink> = [
   {
@@ -20,6 +21,33 @@ export const routes: Array<SidebarLink> = [
     path: 'help',
     icon: 'help',
     isChild: false
+  },
+  {
+    path: 'stayingin',
+    title: 'Staying In',
+    children: [
+      {
+        path: '',
+        pathMatch: 'full',
+        redirectTo: 'stay-at-home'
+      },
+      {
+        component: pageComponents.StayHomeComponent,
+        path: 'stay-at-home',
+        parentFragment: '/stayingin',
+        icon: 'subdirectory_arrow_right',
+        title: 'Stay at Home Orders',
+        isChild: true
+      },
+      {
+        component: pageComponents.MondaysComponent,
+        path: 'be-still-mondays',
+        parentFragment: '/stayingin',
+        icon: 'subdirectory_arrow_right',
+        title: 'Be-Still Mondays',
+        isChild: true
+      }
+    ]
   },
   {
     path: 'program',
@@ -77,7 +105,24 @@ export const routes: Array<SidebarLink> = [
         icon: 'subdirectory_arrow_right',
         title: 'Tenant Eviction Moratorium',
         isChild: true
-      }]
+      },
+      {
+        component: pageComponents.RecruitingComponent,
+        path: 'recruiting-essential-workers',
+        parentFragment: '/program',
+        icon: 'subdirectory_arrow_right',
+        title: 'Recruiting Essential Workers',
+        isChild: true
+      },
+      {
+        component: pageComponents.MeasuringImpactComponent,
+        path: 'measuring-covid-impact',
+        parentFragment: '/program',
+        icon: 'subdirectory_arrow_right',
+        title: 'Measuring COVID-19 Impact',
+        isChild: true
+      }
+    ]
   },
   {
     path: 'faqs',
@@ -170,7 +215,27 @@ export const routes: Array<SidebarLink> = [
         icon: 'subdirectory_arrow_right',
         title: 'Health Information',
         isChild: true
+      },
+      {
+        component: pageComponents.EligibilityComponent,
+        path: 'eligibility-benefits',
+        parentFragment: '/resources',
+        icon: 'subdirectory_arrow_right',
+        title: 'Benefit Eligibility Chart',
+        isChild: true
+      },
+      {
+        component: pageComponents.InvestNWKComponent,
+        path: 'invest-newark',
+        parentFragment: '/resources',
+        icon: 'subdirectory_arrow_right',
+        title: 'Invest Newark for Businesses',
+        isChild: true
       }
     ]
-  }
+    },
+    {
+      path: '**',
+      redirectTo: 'home'
+    }
  ];

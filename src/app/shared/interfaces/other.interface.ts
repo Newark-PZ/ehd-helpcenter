@@ -3,6 +3,11 @@ import { Route } from '@angular/router';
 export interface StoreConfigI18n {
   currentLanguage?: 'en' | 'fr' | 'sp' | 'pr';
 }
+export interface StoreConfigHomePanels {
+  open: boolean;
+  multi: boolean;
+  toggleDisabled: boolean;
+}
 export interface SidebarLink extends Route {
   title?: string;
   icon?: string;
@@ -25,11 +30,11 @@ export interface ProgramPage {
     fullWidth?: boolean;
   }>;
   purposeHeader?: string;
-  purpose?: {
+  purpose?: Array<{
     header?: string;
-    body: string;
+    body?: string;
     rows?: '1' | string;
-  };
+  }>;
   sections?: Array<{
     header?: string;
     buttons?: Array<{
@@ -96,5 +101,5 @@ export interface HomeCard {
   icon: 'business_center' | 'people' | 'person' | 'house' | 'color_lens' | 'local_dining' | 'local_hospital';
   link?: string;
   parent: string;
-  category: 'Small Business' | 'Housing' | 'Employment & Wellness';
+  category: 'Small Business' | 'Housing' | 'Employment & Wellness' | 'Save Lives. Stay Safe.';
 }

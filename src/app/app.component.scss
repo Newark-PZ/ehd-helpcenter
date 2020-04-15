@@ -38,12 +38,12 @@
   cursor: pointer;
   transition: background-color  0.15s ease-in;
   &:hover {
-    background-color: #FDCB06  !important;
-    color: black;
-    -webkit-text-fill-color: black;
-    border-color: black;
+    background-color: rgb(183, 28, 28)  !important;
+    color: #FDCB06;
+    -webkit-text-fill-color: #FDCB06;
+    border-color: #FDCB06;
     transition: background-color  0.15s ease-out;
-    span { border-bottom: 3px solid black; }
+    span { border-bottom: 3px solid #FDCB06; }
   }
   &:active {
     background-color: $primary-color  !important;
@@ -68,7 +68,7 @@
   }
 }
 .mayorText {
-  font-size: 1.85;
+  font-size: 1.85rem !important;
   font-weight: 500;
   margin-left: 1rem;
   margin-right: auto;
@@ -100,48 +100,6 @@
   }
 }
 
-.toolbar-spacer {
-display: flex;
-align-items: center;
-
-&.right-icon {
-justify-content: flex-end;
-flex: 1 1 85%;
-}
-
-&.left-icon {
-  justify-content: flex-start;
-  flex: 1 1 auto;
-  margin-top: .5rem;
-  @media screen and (max-width: 576px) {
-    flex: 1 1 15%;
-  }
-  @media screen and (min-width: 576px) and (max-width: 769px) {
-    flex: 1 1 6%;
-  }
-}
-&.right-space {
-  justify-content: flex-end;
-  flex: 1 1 15%;
-  @media screen and (max-width: 576px) {
-    flex: 1 1 5%;
-  }
-  @media screen and (min-width: 576px) and (max-width: 769px) {
-    flex: 1 1 10%;
-  }
-}
-
-&.left-space {
-  justify-content: flex-start;
-  flex: 1 1 15%;
-  @media screen and (max-width: 576px) {
-    flex: 1 1 5%;
-  }
-  @media screen and (min-width: 576px) and (max-width: 769px) {
-    flex: 1 1 10%;
-  }
-}
-}
 .link-tree {
   &::before {
     background: #0d47a1;
@@ -243,9 +201,9 @@ flex: 1 1 85%;
 
 .intro-list li {list-style-position: inside !important;}
 .router-link-active {
-  text-decoration: underline #fdcb06 3px;
+  text-decoration: underline rgb(183, 28, 28) 3px;
   font-weight: 600;
-  mat-icon {color: #fdcb06; -webkit-text-fill-color: #fdcb06}
+  mat-icon {color: rgb(183, 28, 28); -webkit-text-fill-color: rgb(183, 28, 28)}
 }
 .mat-expansion-panel {
   border-top: 2px solid !important;
@@ -263,3 +221,5 @@ flex: 1 1 85%;
   font-weight: 500 !important;
   margin-right: .1rem !important;
 }
+
+

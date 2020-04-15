@@ -19,9 +19,9 @@ export class ArtsFundComponent {
     infoButtons: [{
       link: 'https://newarkarts.org/creative-catalyst-fund/'
     }],
-    purpose: {
+    purpose: [{
       body: 'In collaboration with Newark Arts, the Fund will support the local community of artists as well as small-to-midsize arts and cultural organizations, all of which provide social and economic value to Newark by revitalizing neighborhoods, inspiring students, and improving the quality of life for city residents. The Fund will provide up to $1 million dollars annually for at least the next three years, beginning with $750,000 provided by the City to seed the initiative.',
-    },
+    }],
     sections: [
     {
       header: 'Prospective applicants can choose between two grant streams, based on eligibility:',
@@ -36,9 +36,11 @@ export class ArtsFundComponent {
     },
     {
       header: 'Acknowledgments',
-      text: `The Fund aligns with <a href="https://newarkarts.org/newark-creates/">Newark Creates</a>, a cultural plan researched and developed by Newark Arts, and made final in 2019. Newark Creates is a collaborative plan on behalf of the City. The plan, funded by Prudential and The Geraldine R. Dodge Foundation, details an 18-month organized initiative of community members, nonprofit, for-profit, and governmental stakeholders working together to advance an equitable foundation for Newark to thrive with arts and culture.`,
+      text: `<p>The Fund aligns with <a href="https://newarkarts.org/newark-creates/">Newark Creates</a>, a cultural plan researched and developed by Newark Arts, and made final in 2019. Newark Creates is a collaborative plan on behalf of the City. The plan, funded by Prudential and The Geraldine R. Dodge Foundation, details an 18-month organized initiative of community members, nonprofit, for-profit, and governmental stakeholders working together to advance an equitable foundation for Newark to thrive with arts and culture.</p>
+      <p>Newark Arts is a 39-year-old, non-profit arts organization with a proven track record and experience with serving as a fund administrator for other grants from the City of Newark and reputable regional and national foundations.</p>`,
       logos: [
         'nwkCity',
+        'nwkArts',
         'prudential',
         'dodgeFoundation'
       ]

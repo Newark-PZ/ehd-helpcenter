@@ -32,23 +32,30 @@
   </div>
 </section>
 <mat-list class="program-cats">
-  <mat-list-item *ngFor="let cat of categories">
-    <h3 mat-list-item>
-      <mat-divider style="margin: 1rem 0;"></mat-divider>
-      Information for your {{ cat }}
-    </h3>
-    <div class="program-cards">
-      <mat-card  [routerLink]="[card.parent, card.link]" class="program-card" *ngFor="let card of cards | FaqCat:filterCat(cat)">
-        <div class="button-card">
-          <mat-icon style="margin-right: .5rem">{{ card.icon }}</mat-icon>
-          <h4 style="margin: auto" [translate]="'HOME.buttons.' + card.link">{{ card.title }}</h4>
-          <mat-icon style="margin-left: .5rem">exit_to_app</mat-icon>
-        </div>
-        <mat-card-content>
-          {{card.content}}
-        </mat-card-content>
-      </mat-card>
-    </div>
+  <mat-list-item>
+    <mat-accordion [multi]="expansionMulti$ | async" >
+      <mat-expansion-panel *ngFor="let cat of categories" [expanded]="expansionOpen$ | async" [hideToggle]="expansionDisabled$ | async">
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+            <h3>
+              {{ cat }}
+            </h3>
+          </mat-panel-title>
+        </mat-expansion-panel-header>
+        <div class="program-cards">
+        <mat-card  [routerLink]="[card.parent, card.link]" class="program-card" *ngFor="let card of cards | FaqCat:filterCat(cat)">
+          <div class="button-card">
+            <mat-icon style="margin-right: .5rem">{{ card.icon }}</mat-icon>
+            <h4 style="margin: auto" [translate]="'HOME.buttons.' + card.link">{{ card.title }}</h4>
+            <mat-icon style="margin-left: .5rem">exit_to_app</mat-icon>
+          </div>
+          <mat-card-content>
+            {{card.content}}
+          </mat-card-content>
+        </mat-card>
+      </div>
+      </mat-expansion-panel>
+    </mat-accordion>
   </mat-list-item>
 </mat-list>
   <span class="page-bottom"></span>

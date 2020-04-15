@@ -69,10 +69,82 @@ body {
   margin-top: 0px;
   border-radius: 0.2rem;
   box-shadow: .1rem .1rem .15rem gray;
+  &.card {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    float: unset;
+    box-shadow: none;
+  }
+  &.card-img {
+    height: unset;
+    max-height: 43vh;
+  }
+  &.logo {
+    background: seagreen;
+    object-fit: contain;
+    padding: 3rem;
+  }
+  &.logo-sm {
+  width: 10rem;
+  height: auto;
+  float: left;
+  }
+  &.hide-sm {
+    display: flex;
+    }
   @media screen and (max-width: 768px) {
     width: 45%;
     height: 25vh;
     margin-right: 1rem;
     margin-left: 0;
+    &.card {
+      width: 100%;
+    }
+    &.hide-sm {
+      display: none !important;
+      }
     }
 }
+.toolbar-spacer {
+  display: flex;
+  align-items: center;
+
+  &.right-icon {
+  justify-content: flex-end;
+  flex: 1 1 85%;
+  }
+
+  &.left-icon {
+    justify-content: flex-start;
+    flex: 1 1 auto;
+    margin-top: .5rem;
+    @media screen and (max-width: 576px) {
+      flex: 1 1 15%;
+    }
+    @media screen and (min-width: 576px) and (max-width: 769px) {
+      flex: 1 1 6%;
+    }
+  }
+  &.right-space {
+    justify-content: flex-end;
+    flex: 1 1 15%;
+    @media screen and (max-width: 576px) {
+      flex: 1 1 5%;
+    }
+    @media screen and (min-width: 576px) and (max-width: 769px) {
+      flex: 1 1 10%;
+    }
+  }
+
+  &.left-space {
+    justify-content: flex-start;
+    flex: 1 1 15%;
+    @media screen and (max-width: 576px) {
+      flex: 1 1 5%;
+    }
+    @media screen and (min-width: 576px) and (max-width: 769px) {
+      flex: 1 1 10%;
+    }
+  }
+  }

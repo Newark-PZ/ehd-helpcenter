@@ -12,6 +12,8 @@ import * as SidebarActions from './sidebar/sidebar.actions';
 import * as fromSidebar from './sidebar/sidebar.reducers';
 import * as i18nActions from './i18n/i18n.actions';
 import * as fromI18n from './i18n/i18n.reducers';
+import * as homePanelActions from './home-panels/home-panels.actions';
+import * as fromHomePanel from './home-panels/home-panels.reducers';
 
 @Injectable({
     providedIn: 'root'
@@ -21,12 +23,14 @@ export class StoreService {
     sidebarState$: Observable<fromSidebar.State>;
     rightSidebarState$: Observable<fromRightSidebar.State>;
     i18nState$: Observable<fromI18n.State>;
+    homePanelsState$: Observable<fromHomePanel.State>;
 
     constructor(private store: Store<fromStore.StoreState>) {
         this.configState$ = this.store.select(state => state.config);
         this.sidebarState$ = this.store.select(state => state.sidebar);
         this.rightSidebarState$ = this.store.select(state => state.sidebarRight);
         this.i18nState$ = this.store.select(state => state.i18n);
+        this.homePanelsState$ = this.store.select(state => state.homePanel);
     }
     /**
      * Resets the Store State
@@ -93,5 +97,15 @@ export class StoreService {
     // i18n language
     setLanguage(language: string): void {
       this.store.dispatch(new i18nActions.SetLanguage(language));
+    }
+    // homepanels state
+    setHomePanelOpen(open: boolean): void {
+      this.store.dispatch(new homePanelActions.SetOpen(open));
+    }
+    setHomePanelMulti(multi: boolean): void {
+      this.store.dispatch(new homePanelActions.SetMulti(multi));
+    }
+    setHomePanelToggle(toggle: boolean): void {
+      this.store.dispatch(new homePanelActions.SetToggle(toggle));
     }
 }

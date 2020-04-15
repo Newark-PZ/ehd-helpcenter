@@ -22,9 +22,9 @@
     </mat-card>
   </mat-list-item>
 </mat-list>
-<section class="content-intro" *ngIf="programPage.purpose.body">
-  <h3>{{ programPage.purpose.header }}</h3>
-  <h3 [innerHtml]='programPage.purpose.body'></h3>
+<section class="content-intro" *ngFor="let purpose of programPage.purpose">
+  <h3>{{ purpose.header }}</h3>
+  <h3 [innerHtml]='purpose.body'></h3>
   <mat-icon>arrow_downward</mat-icon>
 </section>
 <mat-list class="program-cards">
