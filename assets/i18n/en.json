@@ -27,8 +27,7 @@
     "measuring-covid-impact": "Measuring COVID-19 Impact",
     "stayingin": "Staying In",
     "stay-at-home": "Stay at Home Orders",
-    "be-still-mondays": "Be Still Mondays",
-    "self-employed": "Unemployment Benefits for Self-Employed"
+    "be-still-mondays": "Be Still Mondays"
   },
   "HOME": {
     "title": "COVID-19 Comprehensive Help for Residents and Small Businesses",
@@ -57,7 +56,8 @@
       "stay-at-home": "Stay at Home Orders",
       "be-still-mondays": "Be Still Mondays",
       "nj-testing": "How to Get Tested",
-      "newark-news": "More Newark News"
+      "newark-news": "More Newark News",
+      "self-employed": "Unemployment Benefits for Self-Employed"
     }
   },
   "FAQ": {

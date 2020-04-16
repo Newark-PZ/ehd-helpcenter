@@ -27,8 +27,7 @@
     "measuring-covid-impact": "Mesurer l'impact du COVID-19",
     "stayingin": "Staying In",
     "stay-at-home": "Stay at Home Orders",
-    "be-still-mondays": "Be Still Mondays",
-    "self-employed": "Unemployment Benefits for Self-Employed"
+    "be-still-mondays": "Be Still Mondays"
   },
   "HOME": {
     "title": "Aide complète Covid-19 pour les résidents et les petites entreprises",
@@ -55,7 +54,8 @@
       "recruiting-essential-workers": "Recrutement des travailleurs essentiels",
       "measuring-covid-impact": "Mesurer l'impact du COVID-19",
       "stay-at-home": "Stay at Home Orders",
-      "be-still-mondays": "Be Still Mondays"
+      "be-still-mondays": "Be Still Mondays",
+      "self-employed": "Unemployment Benefits for Self-Employed"
     }
   },
   "FAQ": {
