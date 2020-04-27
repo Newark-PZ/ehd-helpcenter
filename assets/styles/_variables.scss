@@ -33,3 +33,13 @@ color $transition-time;
     height: $size;
     width: $size;
 }
+$breakpoints: ("xs": 0,"sm": 576px, "md": 768px, "lg": 992px, "xl": 1200px);
+
+@each $size, $point in $breakpoints {
+  .hide-above-#{$size} {
+    @media screen and (min-width: $point) { display: none; }
+  }
+  .hide-below-#{$size} {
+    @media screen and (max-width: $point) { display: none; }
+  }
+}
