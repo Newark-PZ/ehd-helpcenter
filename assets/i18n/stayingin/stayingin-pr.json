@@ -1,0 +1,40 @@
+[
+  {
+    "category": "Salve vidas. Fique seguro.",
+    "link": "be-still-mondays",
+    "parent": "/stayingin",
+    "title": "Seja ainda segundas-feiras",
+    "icon": "local_hospital",
+    "introContent": [
+        {
+          "text": "<h3> <img class='intro-pic' src='assets/img/pagePhotos/mondays.jpg'> O prefeito Baraka pediu a “todos que fiquem em casa” para um desligamento quase completo da cidade de Newark às segundas-feiras chamar a atenção para a gravidade da propagação do COVID-19 na comunidade e ajudar a retardar a disseminação. Fique quieto às segundas-feiras ”acontecerá toda semana no próximo mês. </h3> <h3> Se você não é um policial, bombeiro, enfermeiro ou outro profissional de saúde, fique em casa. </h3>"
+        }
+    ],
+    "programs": [
+        {
+          "header": "Exceções",
+          "text": "<p> \"Seja ainda segunda-feira\" na cidade de Newark não é uma ordem executiva, mas é uma solicitação que desencoraja todas as empresas, exceto os serviços de emergência de saúde, segurança e bem-estar. Por exemplo, empresas que fornecem comida e abrigo para a população de rua podem operar, mas a cidade está pedindo que as cozinhas de sopa limitem suas operações das 11h30 às 14h. </p> <p> A cidade gostaria que as empresas fossem consideradas \"essenciais\" por ordens executivas anteriores, como lojas de alimentos e farmácias, para fechar também, assim como empresas do centro e empresas de manufatura. </p> <p> A idéia é mostrar solidariedade em toda a comunidade diante do agressivo COVID-19 vírus que está devastando especialmente as comunidades de negros e marrons em todo o país. </p> <p> Importante: Clique abaixo para obter mais informações sobre as Regras",
+          "linkText": "NJ Fique em Casa e Regras Essenciais de Negócios",
+          "link": "https://covid19.nj.gov/faqs/nj-information/general-public/what-are-the-“stay-at-home”-rules-in-new-jersey-what-businesses-are-closed"
+        }
+    ]
+  },
+      {
+        "category": "Salve vidas. Fique seguro.",
+        "link": "stay-at-home",
+        "parent": "/stayingin",
+        "title": "Pedido de abrigo no local",
+        "icon": "local_hospital",
+        "introContent": [
+           {
+              "text": "<h3> <img class='intro-pic' src='assets/img/pagePhotos/shelter-in-place.jpg'> Para proteger os moradores contra a propagação do COVID-19, o prefeito Ras J. Baraka anunciou uma rigorosa Mandato de “abrigo no local” em toda a cidade e quarentena em todas as cidades que serão rigorosamente cumpridas pela lei. </h3> <p> As pessoas devem ficar em casa e não sair a menos que seja uma emergência. </p>"
+           }
+        ],
+        "programs": [
+           {
+              "header": "Exceções",
+              "text": "<p> Você ainda pode ir ao supermercado, loja local para itens essenciais, farmácia, médico, passear com cães, sair e tomar ar fresco na frente ou atrás de casa/porta/varanda/terraço ou se for um funcionário essencial. Além disso, as crianças precisam estar acompanhadas por um adulto e as pessoas devem deixar suas casas em pares. </p> <p> Enquanto estiver fora, você deve manter a recomendação do Centro de Controle de Doenças (CDC) de manter um metro e meio de distância.</p><p><b>Os residentes devem chamar a polícia se virem grupos de pessoas saindo e violando esse mandato. </b> </p>"
+           }
+        ]
+     }
+]

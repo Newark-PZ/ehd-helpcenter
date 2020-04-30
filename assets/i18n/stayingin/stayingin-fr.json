@@ -1,0 +1,40 @@
+[
+    {
+      "category": "Sauver des vies. Restez en sécurité.",
+      "link": "be-still-mondays",
+      "parent": "/stayingin",
+      "title": "Soyez tranquille le lundi",
+      "icon": "local_hospital",
+      "introContent": [
+          {
+            "text": "<h3> <img class='intro-pic' src='assets/img/pagePhotos/mondays.jpg'> Le maire Baraka a demandé à 'tout le monde de rester à la maison' pour un arrêt presque complet de la ville de Newark le lundi attirer l'attention sur la gravité de la propagation du COVID-19 dans la communauté et aider à ralentir la propagation. Soyez tranquille le lundi »se produira chaque semaine pour le mois prochain. </h3> <h3> Si vous n'êtes pas un policier, un pompier, une infirmière ou un autre travailleur médical de première ligne, restez à la maison. </h3>"
+          }
+      ],
+      "programs": [
+          {
+            "header": "Exceptions",
+            "text": "<p> Le «Be Still Mondays» de la ville de Newark n'est pas un décret, mais c'est une demande qui décourage toutes les entreprises à l'exception des services d'urgence de santé, de sécurité et de bien-être à fermer. Par exemple, les entreprises qui fournissent de la nourriture et un abri à la population sans-abri peuvent fonctionner, mais la Ville demande aux soupes populaires de limiter leurs opérations de 11 h 30 à 14 h. </p> <p> La Ville souhaite que les entreprises soient jugées «essentielles» par des ordres exécutifs antérieurs, tels que les magasins d'alimentation et les pharmacies, à fermer, ainsi que les sociétés du centre-ville et les entreprises manufacturières. </p> <p> L'idée est de faire preuve de solidarité à l'échelle de la communauté face à l'agressif COVID-19 virus qui ravage particulièrement les communautés noires et brunes à l'échelle nationale. </p> <p> Important: cliquez ci-dessous pour plus d'informations sur les règles",
+            "linkText": "NJ Reste à la Maison et Règles Commerciales Essentielles",
+            "link": "https://covid19.nj.gov/faqs/nj-information/general-public/what-are-the-“stay-at-home”-rules-in-new-jersey-what-businesses-are-closed"
+          }
+      ]
+    },
+        {
+          "category": "Sauver des vies. Restez en sécurité.",
+          "link": "stay-at-home",
+          "parent": "/stayingin",
+          "title": "Arrêté sur place",
+          "icon": "local_hospital",
+          "introContent": [
+             {
+                "text": "<h3> <img class='intro-pic' src='assets/img/pagePhotos/shelter-in-place.jpg'> Pour protéger les résidents contre la propagation du COVID-19, le maire Ras J. Baraka a annoncé une stricte Mandat «refuge sur place» à l'échelle de la ville et mise en quarantaine dans toute la ville qui sera strictement appliquée par les forces de l'ordre. </h3> <p> Les gens doivent rester chez eux et ne pas sortir sauf en cas d'urgence. </p>"
+             }
+          ],
+          "programs": [
+             {
+                "header": "Exceptions",
+                "text": "<p> Vous pouvez toujours aller au supermarché, au magasin local d'articles de première nécessité, à la pharmacie, au médecin, promener les chiens, sortir et prendre l'air frais devant ou derrière la maison/le pas de la porte/le porche/la terrasse, ou si vous êtes un employé essentiel. En outre, les enfants doivent être accompagnés d'un adulte et les gens ne doivent quitter leur domicile que par paires. </p> <p> Pendant votre absence, vous devez respecter la recommandation du Center for Disease Control (CDC) de garder six pieds de distance. </p> <p> <b> Les résidents sont priés d'appeler la police s'ils voient des groupes de personnes traîner et violer ce mandat. </b> </p>"
+             }
+          ]
+       }
+]

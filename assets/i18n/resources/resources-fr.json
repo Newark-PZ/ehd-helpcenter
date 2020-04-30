@@ -1,0 +1,186 @@
+[
+  {
+    "category": "Emploi et bien-être",
+		"icon": "person",
+		"link": "eligibility-benefits",
+		"parent": "/resources",
+		"programs": [{
+				"link": "https://nj.gov/labor",
+				"linkText": "apprendre encore plus",
+				"text": "<img class='intro-pic card' src='assets/img/pagePhotos/Covid-19 scenarios.jpg' #img (click)='expandImg(img)'>"
+			}],
+		"sectionHeader": "Le ministère du Travail du New Jersey a préparé ce tableau avec des informations sur les avantages pour les personnes ayant différentes situations liées à Covid-19. Il s'agit notamment des congés de maladie acquis, de l'assurance chômage, de l'assurance invalidité/congé familial et de l'indemnisation des accidents du travail.",
+		"title": "Scénarios et avantages COVID-19 disponibles"
+	},{
+		"category": "Emploi et bien-être",
+		"icon": "person",
+		"introContent": [{
+				"link": "https://jobs.covid19.nj.gov/index.html?Facets.filterbox.filter0=%5B%5D&Facets.filterbox.filter1=%5B%5D",
+				"linkText": "Lien vers le portail des emplois",
+				"text": "<p> <img class='intro-pic' src='assets/img/pagePhotos/Finding a job.jpg' style='height: 100%;'> Certains résidents de Newark ont perdu leur emploi ou ont vu leurs heures réduites un résultat de COVID-19. Pendant cette crise, les entreprises du New Jersey ont besoin de milliers de travailleurs pour une embauche immédiate. Visitez le portail de l'emploi NJ Covid-19 pour savoir quelles entreprises embauchent dans la région de Newark. </p>"
+			}],
+		"link": "finding-essential-jobs",
+		"parent": "/resources",
+		"title": "Trouver un emploi pendant la crise du COVID-19"
+	},{
+		"category": "Petite entreprise",
+		"icon": "people",
+		"link": "federal-us-cares",
+		"parent": "/resources",
+		"programs": [{
+				"header": "Paiements directs aux particuliers et aux ménages",
+				"link": "https://www.irs.gov/newsroom/economic-impact-payments-what-you-need-to-know",
+				"text": "<p> <img class='intro-pic' src='assets/img/pagePhotos/us-cares.jpeg'> Les paiements d’impact économique débuteront au cours des trois prochaines semaines et seront distribués automatiquement, sans aucune action requise pour la plupart gens. Cependant, certaines personnes âgées et d'autres qui ne produisent pas de déclaration devront soumettre une simple déclaration de revenus pour recevoir le paiement de relance. </p> <p> Les contribuables éligibles qui ont produit des déclarations de revenus pour 2019 ou 2018 recevront automatiquement un paiement d'impact économique jusqu'à 1 200 $ pour les particuliers ou 2 400 $ pour les couples mariés. Les parents reçoivent également 500 $ pour chaque enfant admissible. </p> <p> Les déclarants dont le revenu brut ajusté peut atteindre 75 000 $ pour les particuliers et jusqu'à 150 000 $ pour les couples mariés qui produisent des déclarations conjointes recevront le paiement intégral. Pour les déclarants dont le revenu est supérieur à ces montants, le montant du paiement est réduit de 5 $ pour chaque tranche de 100 $ supérieure aux seuils de 75 000 $/150 000 $. Les déclarants célibataires dont le revenu dépasse 99 000 $ et 198 000 $ pour les déclarants conjoints sans enfant ne sont pas éligibles. </p> <p> Le revenu est basé sur les <a href='https://www.irs.gov/e-file-providers/definition-of-adjusted-gross-income'> revenu brut ajusté </a> de votre déclaration de revenus 2019 (ou 2018 si vous n'avez pas déposé vos déclarations de revenus 2019). Si vous recevez des prestations de sécurité sociale mais n'avez pas produit de déclaration de revenus, vous êtes toujours éligible à recevoir ces paiements directs sur la base des informations fournies par la Social Security Administration. </p> <p> Plus d'informations peuvent être trouvées sur la ressource IRS Economic impact des paiements: <a href='https://www.irs.gov/newsroom/economic-impact-payments-what-you-need-to-know'> Ce que vous devez savoir </a> </p>"
+			},{
+				"header": "Augmentation des paiements, de la durée et de l'admissibilité à l'assurance-chômage",
+				"text": "<p> Ceux qui reçoivent déjà des prestations d'assurance-chômage recevront 600 $ de plus par semaine. </p> <p> Dans le cadre d'un nouveau programme d'aide en cas de pandémie de chômage, les individus généralement non éligibles à l'indemnisation du chômage, tels que les entrepreneurs indépendants, les travailleurs indépendants, ou ceux qui ont des antécédents professionnels limités, pourront recevoir des prestations de chômage pendant une période allant jusqu'à 39 semaines jusqu'à la fin de 2020. </p> <p> De plus, les travailleurs qui ont quitté leur emploi pour prodiguer des soins liés au coronavirus à eux-mêmes, à leur famille , ou d'autres membres de la famille, seront éligibles aux allocations de chômage. </p> <p> Ventilation des indemnités de chômage: </p> <ul> <li> 600 $ en allocations de chômage supplémentaires pour les personnes actuellement éligibles à l'assurance chômage </li> <li> Une contrepartie fédérale de l'assurance-chômage de l'État + 600 $ pour les chômeurs qui sont généralement inéligibles </li> <li> Une prolongation de 13 semaines de l'indemnisation du chômage au-delà de la durée par défaut de l'État </li> </ul>"
+			},{
+				"header": "Impôts fédéraux et comptes de retraite",
+				"text": "<p> Le délai de dépôt des taxes fédérales a été prolongé jusqu'au 15 juillet. Si vous l'avez déjà fait, vous pouvez toujours vous attendre à recevoir un remboursement si vous avez droit à un. </p> <p> De plus, les 10% habituels pénalité sur les distributions anticipées de l'IRA et des régimes à cotisations définies (comme les régimes 401 (k)) a été annulée pour les distributions éligibles aux coronavirus jusqu'à 100 000 $. </p>"
+			},{
+				"header": "Soutien aux petites entreprises",
+				"link": "https://www.congress.gov/bill/116th-congress/senate-bill/3548/text",
+				"linkText": "Voir Bill",
+				"text": "<ul><li> <b> Subventions d'urgence </b>: Dans le cadre du programme de prêt en cas de catastrophe économique (EIDL), les entreprises éligibles peuvent demander des subventions allant jusqu'à 10 000 $ pour couvrir les coûts de fonctionnement immédiats. </li> <li> <b> Prêts remboursables </b>: les entreprises de moins de 500 employés peuvent être admissibles à des prêts pouvant atteindre 10 millions de dollars. Les coûts associés à la masse salariale, aux intérêts hypothécaires, aux services publics et au loyer sont pardonnables. </li> <li> <b> Crédits d'impôt </b>: Les employeurs qui ont fermé partiellement ou entièrement leurs activités peuvent avoir droit à un crédit d'impôt d'un pourcentage des salaires versés aux employés pendant l'urgence de santé publique liée au coronavirus. </li> <li> <b> Programme d'extension de la fabrication </b>: les petites et moyennes entreprises éligibles peuvent recevoir un financement pour soutenir la réduction des coûts, le développement de la main-d'œuvre, le développement de produits, et initiatives de croissance. </li> </ul> <a href='https://www.irs.gov/newsroom/economic-impact-payments-what-you-need-to-know'> <cite style='margin-left: 1rem! important'> source: irs.gov/newsroom/economic-impact-payments-what-you-need-to-know </cite> </a>"
+			}],
+		"sectionHeader": "La loi fédérale sur les coronavirus concernant l'aide, les secours et la sécurité économique (loi CARES), promulguée le 27 mars, contient des dispositions qui soutiennent les particuliers et les petites entreprises de plusieurs manières.",
+		"title": "Comment le programme de relance fédéral «Nous nous soucions» peut vous aider"
+	},{
+		"category": "Emploi et bien-être",
+		"icon": "local_dining",
+		"introContent": [{
+				"link": "https://www.nps.k12.nj.us/covid-19-resources/breakfast-lunch-program-locations/",
+				"linkText": "En savoir plus sur le programme Petit-déjeuner et prêt",
+				"text": "<p> <img class='intro-pic' src='assets/img/pagePhotos/Food.png'> Les résidents peuvent appeler <a href='tel:9737335728'> (973) 733-5728 </a> depuis 9 h à 17 h pour des informations sur la distribution de nourriture. La Ville a des cartes-cadeaux ShopRite pour les résidents, mais fera les courses pour eux par les coordonnateurs des achats chez ShopRite. Lorsque les gens appellent, on leur posera une série de questions pour voir s'ils sont admissibles aux cartes-cadeaux. Admissible, ce qui signifie qu'ils n'ont pas les moyens financiers de se procurer de la nourriture chez eux ou s'ils sont des personnes âgées. </p> <p> Nous n'avons qu'un montant limité pour le moment, nous allons donc nous concentrer sur les personnes âgées et celles qui en ont besoin. le plus. À mesure que les ressources augmenteront, nous aurons la possibilité d'obtenir plus de cartes. Nous remercions le National Action Network, la Newark Housing Authority et Neil Greenstein de ShopRite pour leur partenariat avec nous afin de fournir la nourriture à ceux qui en ont le plus besoin. <p>"
+			}],
+		"link": "food-dist-school-lunches",
+		"parent": "/resources",
+		"programs": [{
+				"header": "Lieux du programme de petit-déjeuner et de déjeuner à l'école",
+				"link": "https://www.nps.k12.nj.us/covid-19-resources/breakfast-lunch-program-locations/",
+				"linkText": "En savoir plus sur le programme Petit-déjeuner et prêt",
+				"text": "<p> Le programme de petit-déjeuner et de déjeuner est disponible pour tous les élèves des écoles désignées du lundi au vendredi de 9 h 30 à 11 h 30. L'élève peut aller chercher de la nourriture dans n'importe quel site NPS le plus proche de son domicile. </p>"
+			}],
+		"title": "Distribution de nourriture aux résidents touchés par COVID-19"
+	},{
+		"category": "Emploi et bien-être",
+		"icon": "local_hospital",
+		"introContent": [{
+				"link": "https://www.newarknj.gov/card/coronavirus-information",
+				"linkText": "En savoir plus sur la façon de rester en bonne santé",
+				"text": "<p> <img class='intro-pic' src='assets/img/pagePhotos/17288_wnxjouke.png'> Le ministère de la Santé et du Bien-être communautaire de Newark dispose de nombreuses informations sur la façon de protéger la santé de votre famille contre le virus. Vous trouverez des informations telles que: <ul> <li> Foire aux questions (FAQ) </li> <li> Faits en bref </li> <li> Comment arrêter la propagation des germes </li> <li> Que À faire si vous êtes malade </li> <li> Symptômes </li> <li> Distanciation sociale </li> <li> Préparation à l'auto-isolement et plus encore </li> </ul> </p>"
+			}],
+		"link": "health-info",
+		"parent": "/resources",
+		"programs": [{
+				"header": "Heures d'ouverture révisées pendant la crise du COVID-19",
+				"text": "<p> Para sua segurança e a segurança da equipe, todos os serviços do Departamento de Saúde de Newark continuarão restritos e limitados devido ao coronavírus. Abaixo está uma lista de programas e horários de operação. Observe que esta programação está sujeita a alterações. </p> <ul> <li> <h3> Mary Eliza Mahoney - Centro de Saúde Federal Qualificado (FQHC) </h3> <ul> <li> De segunda a sexta-feira </li> <li> 8:30 às 16:30 </li> <li> Disponível 24/7 em <a href='tel:+18007347083'> 1 (800) 734-7083 </a>, Consulta recomendada </li> </ul> </li> <li> <h3> Programa WIC </h3> <ul> <li> De segunda a sexta-feira </li> <li> das 8h30 às 16h30 </li> <li> Ligue para <a href='tel:9737337604'> (973) 733-7604 </a> ou <a href='tel:9737338198'> (973) 733-8198 </a>, aberto ao público às terças e quintas-feiras - Consulta recomendada </li> </ul> </li> <li> <h3> Clínica de imunização </h3> <ul> <li> Segunda a sexta-feira </li> <li> 8: 30:00 às 16:30 </li> <li> Ligue para <a href='tel:9737337580'> (973) 733-7580 </a> para agendar um horário. Aberto ao público às quintas-feiras - consulta recomendada. </li> </ul> </li> <li> <h3> Estatísticas vitais </h3> <ul> <li> Segunda a sexta-feira </li> <li> 8:30 às 16:30 </li> <li> Ligue para <a href='tel:9737336510'> (973) 733-6510 </a> para agendar um compromisso. Aberto ao público às quintas-feiras, das 8:30 às 16:00; Apenas compromisso. </li></ul></li><li> <h3> Centro Shani Baraka </h3> <ul> <li> De segunda a sexta-feira </li> <li> das 8:30 às 15:00 </li> <li> Ligue para <a href='tel:9737337538'> (973) 733-7538 </a> ou <a href='tel:9737337377> (973) 733-7377 </a> para obter assistência. Aberto ao público cinco dias por semana </li> <li> Número após o horário de atendimento: <a href='tel:9734180735> (973) 418-0735 </a> </li> </ul> </li> <li> <h3> Serviços sociais </h3> <ul> <li> De segunda a sexta-feira </li> <li> das 8h30 às 16h30 </li> <li> Ligue para <a href='tel: 9737339481'> (973) 733-9481 </a> para obter assistência. </li> </ul> </li> <li> <h3> Vigilância e prevenção </h3> <ul> <li> Segunda-feira até domingo </li> <li> 24/7 </li> <li> Você pode ligar para <a href='tel:9737337592'> (973) 733-9481 </a> apenas para perguntas do COVID-19. </li> </ul> </li> <li> <h3> Serviços para sem-teto </h3> <ul> <li> De segunda a sexta-feira </li> <li> das 8:30 às 16:30 </li> <li> Você pode ligar para <a href='tel:9738779481'> (973) 877-9481 </a> apenas para perguntas do COVID-19. </li> </ul> </li> </ul> <br> <h3> NOMEAÇÕES RECOMENDADAS PARA GARANTIR CUIDADOS ESPERADOS E DISTÂNCIA SOCIAL. </h3> <p> Nota: Trabalhando na instalação de um serviço de atendimento ao vivo 24/7 por operador. </p>"
+			}],
+		"title": "Protégez votre santé contre COVID-19"
+	},{
+		"category": "Petite entreprise",
+		"icon": "business_center",
+		"introContent": [{
+				"link": "https://investnewark.org/covid-19/",
+				"linkText": "Info pour les petites entreprises",
+				"text": "<p> <img class='intro-pic logo' src='assets/img/logos/logo_investNWK.png'> Invest Newark propulse l'économie forte et diversifiée de la ville, construit des communautés dynamiques et crée des opportunités pour tous les Newarkers. Il s'agit d'une équipe dédiée de planificateurs experts, d'économistes et d'innovateurs qui sont déterminés à garantir que tous les Newarkers disposent des ressources nécessaires pour prospérer. Invest Newark n'est pas une agence de développement typique: elle va au-delà pour soutenir les petites entreprises appartenant à des minorités, investir dans des services Internet de classe mondiale et maintenir un accent intense sur la durabilité. Il œuvre pour produire de la croissance économique, générer des emplois et créer de la richesse pour les habitants de Newark. </p> <p> Invest Newark a ajouté une section Covid-19 à son site Web. Il contient des informations et des liens vers des ressources fédérales, étatiques et locales pour les entreprises touchées par Covid-19 </p>"
+			}],
+    "parent": "/resources",
+    "link": "invest-newark",
+		"title": "Investir dans des initiatives Newark pour les petites entreprises"
+	},{
+		"category": "Logement",
+		"icon": "people",
+		"introContent": [{
+				"link": "http://www.newarkha.org/coronavirus",
+				"linkText": "En savoir plus sur le site Web de la NHA",
+				"text": "<p> <img class='intro-pic' src='assets/img/pagePhotos/Housing Authority.jpg'> La Newark Housing Authority a de nombreuses informations pour les locataires sur son site Web. </p> <p> Résidents des seniors les bâtiments et les maisons en rangée et les participants à la section 8 peuvent trouver des réponses aux questions sur les paiements de loyer, les visites, les livraisons, les heures, les changements de service, les réparations, les salles communautaires, les recertifications, les inspections et plus encore. <p>"
+			}],
+		"link": "nha-tenants",
+		"parent": "/resources",
+		"title": ""
+	},{
+		"category": "Petite entreprise",
+		"icon": "business_center",
+		"introContent": [{
+				"text": "<p> <img class='intro-pic' src='assets/img/pagePhotos/nj small business grants.png'> Un ensemble de nouvelles initiatives de la New Jersey Economic Development Authority comprend un programme de subventions pour les petites entreprises, un programme de prêts à taux zéro pour les entreprises de taille moyenne, soutien aux prêteurs du secteur privé et aux institutions financières de développement communautaire (CDFI), financement pour les entrepreneurs et diverses ressources fournissant un soutien technique et des informations sur le marché. Ensemble, ils fourniront plus de 75 millions de dollars de soutien financier public et privé, avec la possibilité de passer à plus de 100 millions de dollars si des ressources philanthropiques, étatiques et fédérales supplémentaires deviennent disponibles. Les initiatives soutiendront entre 3 000 et 5 000 petites et moyennes entreprises et visent à compléter les initiatives fédérales de relance économique récemment annoncées. </p> <p> Les entreprises et les organisations à but non lucratif peuvent trouver les conditions d'éligibilité pour tous les programmes sur le centre d'informations commerciales COVID-19 ou utilisez l'Assistant d'éligibilité pour identifier les programmes d'assistance d'urgence qu'ils peuvent envisager pour les besoins spécifiques de leur entreprise. Des informations complètes sur la réponse du New Jersey à la nouvelle épidémie de coronavirus sont disponibles ici: <a href='https://covid19.nj.gov/'> covid19.nj.gov/</a>. <p>"
+			}],
+		"link": "nj-small-business-help",
+		"parent": "/resources",
+		"programs": [{
+				"header": "Programme de subventions d'aide d'urgence aux petites entreprises",
+				"link": "https://faq.business.nj.gov/en/articles/3835237-what-grants-are-available-for-small-and-medium-sized-businesses-via-the-njeda-small-business-emergency-assistance-grant",
+				"text": "Un programme de 5 millions de dollars qui accordera des subventions allant jusqu'à 5 000 $ aux petites entreprises dans les domaines du commerce de détail, des arts, du divertissement, des loisirs, de l'hébergement, de la restauration et d'autres services - tels que les services de réparation, d'entretien, personnels et de blanchisserie - pour stabiliser leurs opérations et réduire la nécessité de licenciements ou de congés. Les demandes pour le programme de subvention d'aide d'urgence aux petites entreprises de la NJEDA sont actuellement disponibles et les demandes pour d'autres programmes NJEDA COVID-19, y compris le soutien à l'entrepreneuriat et l'assistance technique pour les entreprises qui demandent des prêts de la US Small Business Administration, seront disponibles dans les prochaines semaines."
+			},{
+				"header": "Programme de prêts d'aide d'urgence aux petites entreprises",
+				"link": "https://faq.business.nj.gov/en/articles/3835238-what-loans-are-available-to-small-businesses-via-the-njeda-small-business-emergency-assistance-loan",
+				"text": "Le programme d'aide aux petites entreprises en cas d'urgence est un programme de 10 millions de dollars qui fournira des prêts de fonds de roulement pouvant atteindre 100 000 $ aux petites et moyennes entreprises disposant d'un emplacement commercial physique dans le New Jersey. Pour être admissibles, les entreprises doivent avoir moins de 5 millions de dollars de revenus annuels et être en mesure de montrer un impact négatif résultant de l'épidémie de COVID-19. Les prêts consentis dans le cadre du programme auront une durée de dix ans avec un intérêt de zéro pour cent pour les cinq premières années, puis reviendront au taux plancher en vigueur de la NJEDA pour les cinq années restantes, avec un plafond de trois pour cent."
+			},{
+				"header": "Institution de financement du développement communautaire (CDFI) Fonds de réserve pour pertes sur prêts d'urgence",
+				"link": "https://faq.business.nj.gov/en/articles/3835240-what-state-assistance-is-available-for-community-development-finance-institutions-cdfis-to-support-small-businesses",
+				"text": "Un fonds de réserve de capital de 10 millions de dollars pour prendre une position de première perte sur les prêts du CDFI qui fournissent un fonds de roulement à faible taux d'intérêt aux micro-entreprises. Cela permettra aux CDFI de résister aux défauts de paiement dus à l'épidémie, ce qui leur permettra d'accorder davantage de prêts à des taux d'intérêt plus bas aux microentreprises touchées par l'épidémie."
+			},{
+				"header": "Programme de soutien aux entrepreneurs du New Jersey",
+				"link": "https://faq.business.nj.gov/en/articles/3835239-what-assistance-is-available-for-startup-investors-or-entrepreneurs-via-the-njeda-entrepreneur-guarantee-program",
+				"text": "Un programme de 5 millions de dollars qui encouragera les flux de capitaux continus vers les nouvelles entreprises, souvent dans l'économie de l'innovation, et soutiendra temporairement un marché fragile en offrant des garanties de prêt de 80% pour les prêts de fonds de roulement aux entrepreneurs."
+			},{
+				"header": "Programme de garantie d'aide d'urgence aux petites entreprises",
+				"link": "https://faq.business.nj.gov/en/articles/3835236-how-is-the-state-backing-small-business-loans-via-the-njeda-small-business-emergency-assistance-guarantee-program",
+				"text": "Un programme de 10 millions de dollars qui fournira des garanties de 50% sur les prêts de fonds de roulement et supprimera les frais sur les prêts accordés par les institutions participant aux programmes Premier Lender ou Premier CDFI existants de la NJEDA."
+			},{
+				"header": "Programme d'assistance technique d'urgence",
+				"link": "https://faq.business.nj.gov/en/articles/3835241-can-i-get-help-applying-to-federal-or-state-programs-via-the-njeda-emergency-technical-assistance-program",
+				"text": "Un programme de 150 000 $ qui soutiendra l'assistance technique aux entreprises basées dans le New Jersey qui postulent pour des programmes d'État et de gestion des petites entreprises américaines. Les organisations sous contrat seront rémunérées sur la base des soumissions de demandes SBA appuyées par l'assistance technique qu'elles fournissent."
+			}],
+		"sectionHeader": "Haga clic en cada programa a continuación para obtener más información, incluidos los criterios de elegibilidad completos.",
+		"title": "Soutien financier de l'État du N.J. aux petites entreprises pendant la crise du COVID-19"
+	},{
+		"category": "Emploi et bien-être",
+		"icon": "people",
+		"introContent": [{
+				"header": "Vous pouvez être admissible à des prestations si vous ne pouvez pas travailler ou si vos heures ont été réduites pour les raisons suivantes:",
+				"text": "<img class='intro-pic' src='assets/img/pagePhotos/chômageBenefits.jpg'> <ul class='intro-list'> <li> Vous avez été testé positif au COVID-19 ou présentez des symptômes du COVID-19 </li> <li> Votre lieu de travail a été fermé par un fonctionnaire en raison de COVID-19 </li> <li> Votre employeur a fermé volontairement en raison de COVID-19 </li> <li> Vous avez été exposé à COVID-19 au cours de votre travail et vous a dit de vous mettre en quarantaine </li> <li> On vous a dit de vous mettre en quarantaine en raison d'une exposition possible au COVID-19 en dehors de votre lieu de travail </li> <li> Vos soins de santé le fournisseur a déclaré que vous étiez plus à risque de complications de santé liées au COVID-19 en raison d'un problème de santé préexistant et dit que vous ne devriez pas travailler (et le télétravail n'est pas possible) </li> <li> L'école ou la garderie de votre enfant a été commandée fermé par un fonctionnaire en raison de COVID-19 </li> <li> Vous prenez soin d'un membre de la famille ou du ménage avec COVID-19 ou des symptômes de COVID-19 </li> <li> Vous perdez des heures de travail en raison de une réduction de la force liée à COVID-19 </li> </ul>"
+			}],
+		"introPic": "assets/img/pagePhotos/unemploymentBenefits.jpg",
+		"link": "unemployment-benefits",
+		"parent": "/resources",
+		"programs": [{
+				"header": "Plus d'informations sur l'éligibilité",
+				"link": "https://www.nj.gov/labor/worker-protections/earnedsick/covid.shtml",
+				"text": "<p> Les personnes touchées personnellement par COVID-19 ou par son impact sur un membre de la famille peuvent être éligibles à une gamme d'avantages, notamment un congé de maladie payé fédéral d'urgence, un service fédéral de garde d'urgence FMLA, un congé de maladie acquis, une indemnisation des accidents du travail; une assurance chômage, une assurance invalidité temporaire ou un congé familial. </p> <p> Pour savoir si vous êtes éligible et pour demander des prestations de l’État, visitez le <a href='https://www.nj.gov/labor/'> Site Web du Département du travail du New Jersey </a>. Vous y trouverez également un tableau utile clarifiant les différents scénarios et les prestations disponibles en anglais et en espagnol. </p> <p> Les résidents éligibles au chômage recevront 600 $ de plus par semaine jusqu'au 31 juillet grâce à une aide fédérale supplémentaire en cas de pandémie. </p> <p> De plus, les pigistes, les employés de concerts et les entrepreneurs indépendants - qui ne sont généralement pas admissibles à l'assurance-chômage - peuvent demander une aide fédérale en cas de pandémie de 600 $. Ils devraient demander le chômage maintenant. Cette demande sera probablement refusée, mais votre inéligibilité au chômage régulier est une condition préalable pour recevoir des prestations en raison de COVID-19. </p> <p> En outre, le gouverneur Murphy a signé une nouvelle loi étendant l'assurance invalidité temporaire (TDI) de l'État ) et des programmes d'assurance-congés familiaux (FLI) pour permettre à davantage de travailleurs d'avoir accès à des congés payés pendant les urgences de santé publique. </p>"
+			},{
+				"link": "https://www.nj.gov/labor/worker-protections/earnedsick/covid.shtm",
+				"text": "<p> La loi permet aux individus d'accéder aux prestations TDI et FLI lors d'une urgence de santé publique s'ils doivent s'absenter du travail parce qu'ils sont diagnostiqués ou soupçonnés d'être exposés à une maladie transmissible ou pour prendre soin d'un membre de la famille diagnostiqué ou soupçonné d'être exposé à une maladie transmissible. </p> <p> Le projet de loi étend également la loi sur les congés de maladie du New Jersey pour permettre l'utilisation du temps de maladie gagné pour l'isolement ou la quarantaine recommandé ou ordonné par un fournisseur ou un responsable de la santé publique. d'une exposition présumée à une maladie transmissible, ou pour soigner un membre de la famille sous isolement ou mise en quarantaine recommandé ou ordonné. </p> <p> Plus d'informations sont disponibles sur <a href='https://www.nj.gov/labor/worker-protections/earnedsick/covid.shtm'> www.nj.gov/labor/worker-protections/earnedsick/covid </a>. </p>"
+			},{
+				"link": "https://covid19.nj.gov/faqs/nj-information/get-assistance/am-i-eligible-for-benefits-or-unemployment-if-i-or-a-family-member-have-been-impacted-by-the-outbreak",
+				"text": "<p> Pour aider les employeurs à garder les employés sur la liste de paie tout au long de cette crise, le gouvernement fédéral permet aux employeurs de bénéficier de programmes de congés payés protégés contre les maladies et les services de garde d'urgence, rendus possibles par les projets de loi fédéraux récemment adoptés. Si les employeurs le font, ils seront éligibles à un crédit d'impôt sur la masse salariale d'un dollar pour chaque dollar contre ces coûts - celui-ci est disponible pour 99,8% de toutes les entreprises du New Jersey, et tous sauf nos plus grands employeurs. </p>"
+			}],
+		"sectionHeader": "Plus d'informations",
+		"title": "Admissibilité aux prestations de chômage"
+  },
+  {
+    "title": "Mises à jour du programme de protection des chèques de paie SBA et du programme de prêt en cas de catastrophe économique",
+    "category": "Emploi et bien-être",
+    "icon": "business_center",
+    "link": "federal-ppp-sba-update",
+    "sectionHeader": "Le Congrès a approuvé un financement supplémentaire pour le programme de protection des chèques de paie SBA et le programme de prêt en cas de catastrophe économique, mais vous devez agir rapidement.",
+    "programs": [
+      {
+        "link": "http://r20.rs6.net/tn.jsp?f=001qYdPIzJct37HyUS-Y5K5bVAhv2MHM9WXTDqLhn5aw8t_IJldK571x3m1MRE6Yy4rmFzdObeRtAHWsjf5SZOwlbnlV9JFRZLLRD0-EjtpPTKUm0D_LWusJE3OkjyRaHnjtftMorJZ9QfuoSujhmdN2MnqUImFMIZzfUofKaGK6tGqibFXPgeelGhLHfrT-9uUNP6FQuY3v0oQJR0X3hFxk4trR3Phf9tj&c=wKZsJi0ywWhW_fgin60XTK8hqDgxFgQkKHD47T-eJYvD1JjT58X64A==&ch=F6dLbyCcyX5Ul67IAUYiSe01VHOEfuje_JFa3zoVP0S0aJ5y65xqMQ==",
+        "linkText": "Comment obtenir du financement",
+        "text": "<p><img class='intro-pic' src='assets/img/pagePhotos/capitolbuilding.jpg'>Une fois que ces programmes auront rouvert le processus de demande, ils manqueront rapidement de financement. Visitez le<a href='http://r20.rs6.net/tn.jsp?f=001qYdPIzJct37HyUS-Y5K5bVAhv2MHM9WXTDqLhn5aw8t_IJldK571x3m1MRE6Yy4rmFzdObeRtAHWsjf5SZOwlbnlV9JFRZLLRD0-EjtpPTKUm0D_LWusJE3OkjyRaHnjtftMorJZ9QfuoSujhmdN2MnqUImFMIZzfUofKaGK6tGqibFXPgeelGhLHfrT-9uUNP6FQuY3v0oQJR0X3hFxk4trR3Phf9tj&c=wKZsJi0ywWhW_fgin60XTK8hqDgxFgQkKHD47T-eJYvD1JjT58X64A==&ch=F6dLbyCcyX5Ul67IAUYiSe01VHOEfuje_JFa3zoVP0S0aJ5y65xqMQ=='>États-Unis Site Web du Trésor </a> pour une description de ces programmes pour les petites entreprises, y compris des instructions. Si vous avez déjà demandé un prêt PPP auprès de votre banque, nous vous recommandons de contacter votre banque pour confirmer que la demande est complète et sera envoyée une fois le programme rouvert. Il est d'une importance vitale que nos petites entreprises basées à Newark profitent de ces programmes fédéraux pour sortir ensemble plus forts de la crise COVID-19.</p>"
+      },
+      {
+        "header": "Programme de protection des chèques de paie (PPP)",
+        "text": "<p><p> Si vous êtes éligible, vous pourriez recevoir un prêt égal à 2½ fois votre masse salariale mensuelle, et ce montant peut être éligible à une remise si vous remplissez les conditions SBA sur l'utilisation des fonds pour maintenir ou réembaucher des employés. Votre banque et le site Web PPP de la SBA peuvent fournir plus de détails. </p> <ul> <li> Contactez immédiatement votre banque (où vous avez un compte chèque d'entreprise ou un prêt) pour confirmer l'admissibilité et demander à soumettre une demande PPP lorsque ce programme Réouverture avec des fonds supplémentaires dans les prochaines 24-48 heures</li><li><a href='http://r20.rs6.net/tn.jsp?f=001qYdPIzJct37HyUS-Y5K5bVAhv2MHM9WXTDqLhn5aw8t_IJldK571x3m1MRE6Yy4rxuJFgth08U-4GcTkc1pmVOo18ISHSV5ok07_MQ_1wP28NcgszQKUmIM2M6UbUZrwLi8cR4YjzqPUXk_XMIr6sxgEvJIcR2ZEW-egmATuAhsjYiZvaQbz0P_SYOffkW1WunzhLkh00Gd0viEferE5gEqucmtPjclIPbvyvP0JiAE=&c=wKZsJi0ywWhW_fgin60XTK8hqDgxFgQkKHD47T-eJYvD1JjT58X64A==&ch=F6dLbyCcyX5Ul67IAUYiSe01VHOEfuje_JFa3zoVP0S0aJ5y65xqMQ=='>Liste de contrôle PPP et calcul du prêt</a></li><li><a href='http://r20.rs6.net/tn.jsp?f=001qYdPIzJct37HyUS-Y5K5bVAhv2MHM9WXTDqLhn5aw8t_IJldK571x3m1MRE6Yy4rFmEHAxruhrQfbyrV2_BBHBEfh5yB55H1eHGms2pScwL_Nqt7Uun6N590iwVWabMnXKc_Ve23RIvZ95LtLoeldkIxWNErIMj6fJKE4TLs1YyKrLOkERiYIZ9JaPFgR2iA2qewpdIFKVdtMTATJ2xnjqtl0tlCv9jfTr6_wZe20FY=&c=wKZsJi0ywWhW_fgin60XTK8hqDgxFgQkKHD47T-eJYvD1JjT58X64A==&ch=F6dLbyCcyX5Ul67IAUYiSe01VHOEfuje_JFa3zoVP0S0aJ5y65xqMQ=='>Application PPP</a></li></ul>"
+      },
+      {
+        "header": "Programme de prêt en cas de catastrophe économique (EIDL)",
+        "text": "<p> Accédez au <a href='http://r20.rs6.net/tn.jsp?f=001qYdPIzJct37HyUS-Y5K5bVAhv2MHM9WXTDqLhn5aw8t_IJldK571x3m1MRE6Yy4rah3ZvPhG30CaySdXVkJFe-eKHicSLtzUIDTRkyYgoVkjwFNzZ6BAd9eiANXihT73xjYCDRskiogM5IISbWv9P7oELb1kl4CqyO64miE6RLBFvG21cWMuoVGSl8nr-EMbKTEq0VOOQpbXa6BYH26wZvgNy-eUjffg--lsLARwdY6jNR709msNQvdzYMunZh8eI0EGvo-hAKvA_7BA8OWA0A==&c=wKZsJi0ywWhW_fgin60XTK8hqDgxFgQkKHD47T-eJYvD1JjT58X64A==&ch=F6dLbyCcyX5Ul67IAUYiSe01VHOEfuje_JFa3zoVP0S0aJ5y65xqMQ=='>Le site Web EIDL de SBA </a> pour remplir une demande lorsque le programme rouvrira avec un financement supplémentaire dans les prochaines 24 à 48 heures. Le programme EIDL peut vous fournir une AVANCE DE PRÊT JUSQU'À 10 000 $ qui n'a pas besoin d'être remboursée tant que le SBA vérifie que les fonds sont utilisés pour la paie, l'achat de matériel, les paiements de loyer ou d'hypothèque ou le remboursement d'obligations qui ne peuvent pas être respectées en raison des revenus. </p> <p> Veuillez contacter le programme d’investissement Invest Newark Small Business avec Audible et Newark Venture Partners au <a href='mailto:CapitalConsulting@investnewark.org?subject=Questions About Federal Small Busines Aid Programs'>CapitalConsulting@investnewark.org</a> si vous avez des questions ou souhaitez de l'aide pour faire une demande à ces programmes fédéraux d'aide économique! </p> <p> Si vous n'avez pas de relation bancaire, contactez le <a href='http://r20.rs6.net/tn.jsp?f=001qYdPIzJct37HyUS-Y5K5bVAhv2MHM9WXTDqLhn5aw8t_IJldK571x3m1MRE6Yy4r6PBP8df-wBivmD-xA4dCoAmXLJNseQteY0pdYyJiorzK4inAQfwxQ8TG8kjVZDWKuEv1AgHb_JzHkGrDChyJXg==&c=wKZsJi0ywWhW_fgin60XTK8hqDgxFgQkKHD47T-eJYvD1JjT58X64A==&ch=F6dLbyCcyX5Ul67IAUYiSe01VHOEfuje_JFa3zoVP0S0aJ5y65xqMQ=='>Chambre de commerce afro-américaine du New Jersey </a> et la<a href='http://r20.rs6.net/tn.jsp?f=001qYdPIzJct37HyUS-Y5K5bVAhv2MHM9WXTDqLhn5aw8t_IJldK571x3m1MRE6Yy4rmQsP3Jglf9YstbrN-kmUzy4am20mnA-3NYwtzgp7j69LvZOFTW6C2f2KM104ZcxZTmUcStSCDHE=&c=wKZsJi0ywWhW_fgin60XTK8hqDgxFgQkKHD47T-eJYvD1JjT58X64A==&ch=F6dLbyCcyX5Ul67IAUYiSe01VHOEfuje_JFa3zoVP0S0aJ5y65xqMQ=='>Chambre de commerce hispanique de l'État du New Jersey </a>. Ils ont un prêteur auprès duquel vous pouvez postuler. </p> <p> Soyez bien et soyez en sécurité.</p>",
+        "link": "mailto:CapitalConsulting@investnewark.org?subject=Questions About Federal Small Busines Aid Programs",
+        "linkText": "Envoyez un e-mail à Invest Newark pour plus d'informations"
+      }
+    ]
+  }
+]
+

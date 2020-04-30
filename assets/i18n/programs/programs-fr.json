@@ -1,0 +1,425 @@
+[
+    {
+        "category": "Petite entreprise",
+        "icon": "color_lens",
+        "infoButtons": [
+            {
+                "link": "https://newarkarts.org/creative-catalyst-fund/"
+            }
+        ],
+        "introText": "<p> <img class='intro-pic' src='assets/img/pagePhotos/arts.jpg'> Le maire Ras J. Baraka a lancé le Creative Catalyst Fund pour offrir aux artistes et aux groupes artistiques un soutien financier flexible pendant la crise du coronavirus et au-delà. En janvier 2020, le maire Baraka a annoncé une vision globale du secteur culturel de la ville pour encourager un financement équitable pour les arts qui soutienne la communauté créative et les organisations artistiques de base. Depuis lors, la Ville a lancé son premier programme de subventions aux arts, le Creative Catalyst Fund, afin de veiller à ce que les arts continuent de prospérer. À la lumière de la crise du COVID-19, la Ville a agi pour rationaliser les opérations, augmentant la flexibilité dans la façon dont les bénéficiaires peuvent utiliser les fonds attribués.",
+        "link": "arts-fund",
+        "parent": "/program",
+        "purpose": [
+            {
+                "body": "En collaboration avec Newark Arts, le Fonds soutiendra la communauté locale d'artistes ainsi que les organisations artistiques et culturelles de petite et moyenne taille, qui offrent toutes une valeur sociale et économique à Newark en revitalisant les quartiers, en inspirant les étudiants et en améliorant la qualité des la vie des citadins. Le Fonds fournira jusqu'à 1 million de dollars annuellement pendant au moins les trois prochaines années, à commencer par 750 000 $ fournis par la Ville pour amorcer l'initiative."
+            }
+        ],
+        "sections": [
+            {
+                "buttons": [
+                    {
+                        "link": "https://newarkarts.org/creative-catalyst-fund/"
+                    }
+                ],
+                "header": "Les candidats potentiels peuvent choisir entre deux volets de subvention, en fonction de l'éligibilité:",
+                "text": "<ul> <li> Soutien général au fonctionnement </li> <p> pour les organismes artistiques et culturels sans but lucratif basés à Newark avec des budgets de fonctionnement annuels pouvant atteindre 2 millions de dollars. La fourchette de subvention est de 2 500 $ à 50 000 $. Les subventions de plus de 5 000 $ doivent être égalées par des fonds recueillis auprès d’autres sources. <p> <li> Bourses d’artistes </li> <p> pour les artistes individuels basés à Newark ou les collectifs d’artistes non constitués en société travaillant dans n’importe quelle discipline artistique. La fourchette de subvention est de 1 000 $ à 10 000 $. Il n'y a pas d'exigence de correspondance. </p> </ul> <p> Pour les demandes de subvention et plus d'informations, cliquez sur Appliquer. Les candidatures seront acceptées jusqu'au vendredi 1er mai 2020. </p>"
+            },
+            {
+                "header": "Remerciements",
+                "logos": [
+                    "nwkCity",
+                    "nwkArts",
+                    "prudential",
+                    "dodgeFoundation"
+                ],
+                "text": "<p> Le Fonds s'aligne sur <a href='https://newarkarts.org/newark-creates/'> Newark Creates </a>, un plan culturel recherché et développé par Newark Arts, et rendu définitif en 2019. Newark Crée est un plan de collaboration au nom de la Ville. Le plan, financé par Prudential et The Geraldine R. Dodge Foundation, détaille une initiative organisée de 18 mois de membres de la communauté, d'organismes sans but lucratif, à but lucratif et gouvernementaux travaillant ensemble pour faire avancer une fondation équitable pour que Newark prospère avec les arts et la culture. </p> <p> Newark Arts est une organisation artistique à but non lucratif de 39 ans qui a fait ses preuves et possède une expérience en tant qu'administrateur de fonds pour d'autres subventions de la ville de Newark et de fondations régionales et nationales réputées. </p>"
+            }
+        ],
+        "subtitle": "Pour les artistes et les organismes artistiques touchés par COVID-19",
+        "title": "Fonds catalyseur créatif"
+    },
+    {
+        "category": "Petite entreprise",
+        "icon": "business_center",
+        "infoButtons": [
+            {
+                "link": "https://www.surveymonkey.com/r/NewarkSmallBusinessCOVID19Grant"
+            }
+        ],
+        "introText": "<p> <img class='intro-pic' src='assets/img/pagePhotos/Newark small business emergency grants.jpeg'> Les entreprises du pays subissent d'énormes répercussions liées à COVID-19. Pour aider les entreprises touchées et les familles de Newark, le maire Ras J. Baraka a pris l'initiative de fournir une aide financière à ceux qui sont admissibles. Pour atténuer les obstacles au capital pour les petites entreprises les plus vulnérables de Newark, la ville de Newark a engagé un financement de 2 millions de dollars. Ce programme peut être utilisé conjointement avec d'autres aides d'urgence fournies par l'État du New Jersey et le gouvernement fédéral. </p>",
+        "link": "small-business-grants",
+        "parent": "/program",
+        "purpose": [
+            {
+                "body": "Cette subvention aide les petites entreprises aux pertes qu'elles ont subies en raison d'une perte de revenu, d'une perte de masse salariale, de ventes, etc. Ce fonds d'urgence fournira des subventions de fonds de roulement d'un montant allant jusqu'à dix mille dollars (10 000 $) aux petites entreprises admissibles."
+            }
+        ],
+        "sections": [
+            {
+                "header": "Les usages",
+                "text": "Le produit peut être utilisé pour la plupart des articles liés aux entreprises, y compris, mais sans s'y limiter, les comptes créditeurs, la paie, l'inventaire, l'équipement, la conformité commerciale, le renouvellement des licences, les services publics, la capacité commerciale, les services juridiques, financiers, le loyer, l'assurance, les taxes professionnelles ou fournitures, sous réserve de disponibilité des fonds."
+            },
+            {
+                "header": "Exigences",
+                "text": "<p> Si vous représentez une petite entreprise ou une organisation à but non lucratif dans la ville de Newark, vous pouvez être éligible si vous remplissez les conditions suivantes: </p> <ul> <li> Un établissement physique situé dans la ville de Newark </li> <li> Ont dix (10) employés ou moins </li> <li> ont subi une perte de revenu directe en raison de COVID-19 </li> </ul>"
+            },
+            {
+                "buttons": [
+                    {
+                        "link": "https://www.surveymonkey.com/r/NewarkSmallBusinessCOVID19Grant"
+                    }
+                ],
+                "header": "les autres informations",
+                "text": "<ul> <li> La date limite pour postuler est le 30 avril 2020 </li> <li> Les candidats seront informés dans les 14 jours suivant la présentation de leur candidature s'ils ont été sélectionnés pour recevoir une subvention </li> <li> Les candidats sélectionnés recevront leur bourse dans les 30 jours suivant la soumission de leur candidature. </li> <li> Pour plus d'informations sur les documents nécessaires à soumettre et pour remplir une candidature, cliquez sur \"POSTULER MAINTENANT\" ci-dessous. </li> </ul>"
+            },
+            {
+                "header": "Remerciements",
+                "logos": [
+                    "nwkCity",
+                    "prudential",
+                    "unitedWay",
+                    "investNWK"
+                ],
+                "text": "<p> Sous la direction du maire Baraka, le département du développement économique et du logement de la ville de Newark collabore en partenariat avec Prudential, United Way of Greater Newark et Invest Newark dans cet effort pour atténuer les impacts économiques de COVID-19. sur notre communauté des petites entreprises. </p>"
+            }
+        ],
+        "subtitle": "Gravement touché par l'urgence COVID-19",
+        "title": "Aider les propriétaires et les locataires de propriétés commerciales"
+    },
+    {
+        "category": "Logement",
+        "icon": "house",
+        "infoButtons": [
+            {
+                "link": "https://www.newarknj.gov/departments/economichousing",
+                "linkText": "En savoir plus et postuler"
+            }
+        ],
+        "introText": "<p> <img class='intro-pic' src='assets/img/pagePhotos/Forgivable loan.jpg'> Dans le cadre de son plan de relance financière COVID-19 en cours, le maire Ras J. Baraka a annoncé que Newark ajoutera un 1 million de dollars supplémentaires dans son programme «Live Newark», conçu pour donner aux résidents de la ville l'accès à la propriété. L'accession à la propriété stabilise les quartiers. C'est un élément clé de la vision de croissance équitable du maire Baraka pour la ville, en termes de sécurité, d'éducation et de prospérité économique. Lorsque les gens sont propriétaires de leur maison, ils investissent davantage dans le bien-être de leur quartier. Le financement supplémentaire de 1 million de dollars rendra les programmes existants accessibles à davantage de résidents, à un moment où l'accession à la propriété est menacée par la crise de Covid-19. </p>",
+        "link": "homeowner-relief",
+        "parent": "/program",
+        "purpose": [
+            {
+                "body": "Le programme accorde 5 000 $ d'acomptes remboursables aux acheteurs d'une première maison et jusqu'à 15 000 $ aux propriétaires effectuant des réparations externes. Il y a également 5 000 $ d'acomptes remboursables aux employés de la Ville. Les conditions de prêt pardonnables exigent toutes que le bénéficiaire vive dans la maison pendant au moins cinq ans.",
+                "header": "Prêts pardonnables",
+                "rows": "1"
+            }
+        ],
+        "sections": [
+            {
+                "buttons": [
+                    {
+                        "link": "https://www.newarknj.gov/departments/economichousing",
+                        "linkText": "En savoir plus et postuler"
+                    }
+                ],
+                "header": "Programmes",
+                "text": "<ul> <h3> Programme des frais de clôture </h3> <li> Fournit 5 000 $ sans intérêt aux acheteurs d'une première maison pour acheter une maison à Newark. Le prêt est annulé après que le bénéficiaire a vécu dans la maison pendant cinq ans. </li> <h3> Programme d'amélioration de la façade </h3> <li> Crée la fierté de la propriété, préserve ou augmente la valeur des propriétés résidentielles, embellit les quartiers en aidant à financer la réparation des façades et d'autres améliorations externes telles que les réparations ou le remplacement des toits, porches, allées, fenêtres et portes; peinture ou revêtement; l'aménagement paysager, etc. Il offre jusqu'à 15 000 $ de prêt sans intérêt pour les maisons occupées par le propriétaire. </li> <h3> Programme d'aide au logement des employés municipaux </h3> <li> Fournit 5 000 $ sans intérêt aux employés de la Ville à acheter une maison en tant que nouveaux acheteurs à Newark. Le prêt est annulé après que le bénéficiaire a vécu dans la maison pendant cinq ans. </li> </ul> <p> Cliquez sur \"En savoir plus\" ci-dessous pour trouver des applications pour les programmes Live Newark et des informations plus détaillées </p>"
+            },
+            {
+                "header": "Remerciements",
+                "logos": [
+                    "nwkCity",
+                    "usHUD"
+                ],
+                "text": "<p> Les fonds proviennent du Département américain du logement et du développement urbain (HUD) dans le cadre de son programme de partenariat pour l'investissement résidentiel, conçu pour aider les États et les villes à fournir des logements décents et abordables aux Américains des zones urbaines. </p>"
+            }
+        ],
+        "subtitle": "Pour les propriétaires et les nouveaux acheteurs",
+        "title": "Programme de secours COVID-19"
+    },
+    {
+        "category": "Logement",
+        "icon": "people",
+        "infoButtons": [
+            {
+                "link": "mailto:EHD@ci.newark.nj.us?subject=Short Term Rapid Housing",
+                "linkText": "Courriel EHD"
+            }
+        ],
+        "introText": "<p> <img class='intro-pic' src='assets/img/pagePhotos/Homeless.jpg'> Conformément à l'ordre agressif du refuge du maire Ras J. Baraka à l'échelle de la ville, un programme de 1 million de dollars pour héberger immédiatement des personnes ayant besoin d'un abri ont été mises en place. La Ville a négocié avec des fournisseurs de logements et de logements pour obtenir un abri d'urgence temporaire pour environ 300 personnes sans logement permanent et d'autres personnes qui pourraient autrement ne pas être en mesure de s'auto-mettre en quarantaine, telles que les personnes âgées dans des logements pour personnes âgées qui ont été testées positives pour le COVID-19 et le risque infecter les autres. Ces abris d'urgence temporaires sont situés à Newark et sont dotés de services médicaux et alimentaires sur place. </p>",
+        "link": "safe-housing",
+        "parent": "/program",
+        "purpose": [
+            {
+                "body": "Il s'agit d'une politique de santé publique. Nous savons également que beaucoup de nos résidents sans adresse permanente sont particulièrement vulnérables en ce moment car ils n'ont pas de résidence sûre et sécurisée pour pratiquer la distanciation sociale. Il y a environ 400 à 500 personnes chroniquement non abritées dans la ville de Newark. Cette intervention est non seulement nécessaire pour assurer leur santé et leur sécurité grâce à la mise à disposition d'un domicile sûr équipé de services médicaux et de nourriture sur place, mais elle est également une mesure cruciale dans l'objectif agressif de la ville de Newark d'aplanir la courbe."
+            }
+        ],
+        "sections": [
+            {
+                "header": "Les usages",
+                "text": "<p> Le maire Baraka a placé toute la ville de Newark sur l'ordre d'hébergement le plus restrictif de l'État, obligeant toutes les personnes à rester à l'intérieur, sauf pour les sorties nécessaires, telles que les achats de nourriture et de médicaments, la consultation d'un médecin, la promenade de chiens ou pour une brève bouffée d'air frais juste à l'extérieur de la maison, tout en maintenant une distance d'au moins six pieds les uns des autres. </p> <p> Une fois que la décision d'abri sur place a été émise, les responsables de la ville ont rapidement obtenu logement pour les résidents sans options intérieures. La Ville a contacté plus d'une douzaine de fournisseurs de logements et a pu garantir l'accès à plus de 200 unités ou chambres pour héberger des personnes ayant besoin d'un abri pendant une période pouvant aller jusqu'à 90 jours. </p> <p> La fourniture de services d'urgence temporaires le logement d'une population autrement sans abri les protège, ainsi que tous les autres résidents, et ralentit la transmission du COVID-19. Cet effort se poursuivra jusqu'à ce que tous les citoyens soient protégés en toute sécurité. </p>"
+            },
+            {
+                "buttons": [
+                    {
+                        "link": "mailto:EHD@ci.newark.nj.us?subject=Short Term Rapid Housing",
+                        "linkText": "Courriel EHD"
+                    }
+                ],
+                "header": "Information",
+                "text": "<p>Pour plus de détails sur le programme de logement rapide à court terme, veuillez envoyer un e-mail à <a href='mailto:EHD@ci.newark.nj.us?subject=Short Term Rapid Housing'>EHD@ci.newark.nj.us<a> et mettre \"Short Term Rapid Housing\" dans la ligne d'objet.</p>"
+            }
+        ],
+        "subtitle": "Pendant l'application de COVID-19 «Shelter in Place»",
+        "title": "Logement sûr pour les sans-abri"
+    },
+    {
+        "category": "Petite entreprise",
+        "icon": "business_center",
+        "infoButtons": [
+            {
+                "link": "assets/docs/Tax Relief applicataion.pdf",
+                "linkText": "Téléchargez l'application"
+            },
+            {
+                "link": "assets/docs/Tax Liability Relief  Agreement 4.8.20 (002).pdf",
+                "linkText": "Télécharger l'accord"
+            },
+            {
+                "link": "assets/docs/Tax Relief Certifications.pdf",
+                "linkText": "Télécharger la certification"
+            },
+            {
+                "link": "mailto:ehd@ci.newark.nj.us?subject=Application for Commercial Property Tax Relief",
+                "linkText": "Postulez par e-mail"
+            }
+        ],
+        "introText": "<p> <img class='intro-pic' src='assets/img/pagePhotos/help for commercial tenants.jpg'> Le maire Ras J. Baraka a lancé un programme pour aider les propriétaires de propriétés commerciales et leurs locataires qui ont chacun perdu des revenus importants pendant la crise du COVID-19 pour rester solvables et éviter les expulsions et les saisies. Avec ce programme, Newark cherche à prévenir la perte d'emplois et de rangées de vitrines vides qui causent la brûlure et démoralisent ceux qui vivent et travaillent ici. Le programme contribuera à éviter que les locataires commerciaux soient expulsés et que les propriétaires commerciaux ne soient saisis. </p>",
+        "link": "commercial-prop",
+        "parent": "/program",
+        "purpose": [
+            {
+                "body": "Si les locataires commerciaux ne sont plus en mesure de payer leur loyer intégral pendant la crise de Covid-19, les propriétaires auront du mal à payer leurs impôts fonciers et risquent de perdre leurs immeubles. Cette initiative permettra d’éviter une augmentation massive des postes vacants qui pourrait gravement nuire à la culture, au caractère et à la stabilité économique de la ville et inverser les progrès extraordinaires accomplis par Newark.",
+                "header": "Fournit des réductions d'impôt foncier transmises aux locataires"
+            }
+        ],
+        "sections": [
+            {
+                "header": "Comment ça marche",
+                "text": "<p> Dans le cadre du programme, les propriétaires fonciers et les locataires demanderaient conjointement un allégement fiscal important en proportion de la perte de revenus du propriétaire. En échange de l'allégement de la taxe foncière, le propriétaire accepterait de ne pas expulser un locataire pour non-paiement du loyer pendant un an à compter de la date d'approbation de l'allégement. </p> <p> La perte de revenus due à COVID-19 pour le propriétaire et le locataire doivent être supérieurs à 33 pour cent du revenu régulier pour l'espace locataire et l'entreprise respective afin de se qualifier. La Ville réduira considérablement la taxe foncière de l'espace du locataire, par voie d'annulation, selon les détails de l'entente entre le locataire et le propriétaire. Selon la durée de la fermeture et l'étendue de la perte de revenu, le locataire et le propriétaire peuvent présenter une nouvelle demande après 12 mois. </p>"
+            },
+            {
+                "buttons": [
+                    {
+                        "link": "assets/docs/Tax Relief applicataion.pdf",
+                        "linkText": "Téléchargez l'application"
+                    },
+                    {
+                        "link": "assets/docs/Tax Liability Relief  Agreement 4.8.20 (002).pdf",
+                        "linkText": "Télécharger l'accord"
+                    },
+                    {
+                        "link": "assets/docs/Tax Relief Certifications.pdf",
+                        "linkText": "Télécharger la certification"
+                    },
+                    {
+                        "link": "mailto:wilsonaa@ci.newark.nj.us?subject=Application for Commercial Property Tax Relief",
+                        "linkText": "Postulez par e-mail"
+                    }
+                ],
+                "header": "Renseignez-vous aujourd'hui",
+                "text": "Pour en savoir plus, vous pouvez contacter l'assistant fiscal de Newark Aaron Wilson par e-mail à <a href='mailto:wilsonaa@ci.newark.nj.us?subject=Application for Commercial Property Tax Relief'> wilsonaa@ci.newark.nj.us </a> ou par téléphone au <a href='tel:9737338509'> (973) 733-8509 </a>. Pour postuler, veuillez joindre la candidature et la documentation complétées en pièces jointes."
+            }
+        ],
+        "subtitle": "Gravement touché par l'urgence COVID-19",
+        "title": "Aider les propriétaires et les locataires de propriétés commerciales"
+    },
+    {
+        "category": "Logement",
+        "icon": "people",
+        "infoButtons": [
+            {
+                "link": "mailto:OTLS@ci.newark.nj.us?subject=Tenant Eviction Moratorium Question",
+                "linkText": "Envoyez un e-mail à EHD pour en savoir plus"
+            }
+        ],
+        "introText": "<p> <img class='intro-pic' src='assets/img/pagePhotos/eviction moritorium.jpg'>La suspension temporaire des expulsions ne correspond pas à un loyer, mais permet simplement aux locataires de rester chez eux pendant la crise sanitaire. On rappelle aux locataires leur obligation continue de payer le loyer. Le programme contribuera à éviter que les locataires commerciaux soient expulsés et que les propriétaires commerciaux ne soient saisis. </p>",
+        "link": "eviction-moratorium",
+        "parent": "/program",
+        "purpose": [
+            {
+                "body": "<p> Conformément au décret exécutif du gouverneur Murphy du 19 mars 2020, le retrait de personnes des propriétés résidentielles par le biais des processus d'expulsion ou de verrouillage est interdit jusqu'à ce que le gouverneur déclare que la crise de santé publique est officiellement terminée. </p> <p> Les locataires peuvent utilisez maintenant des dépôts de garantie pour couvrir le loyer tant que le propriétaire est informé. </p>",
+                "header": "Dans tout l'État"
+            }
+        ],
+        "sections": [
+            {
+                "buttons": [
+                    {
+                        "link": "https://covid19.nj.gov/forms/renter",
+                        "linkText": "Plus d'informations sur le moratoire sur les expulsions d'État"
+                    }
+                ],
+                "header": "Dépôts de sécurité",
+                "text": "Les locataires peuvent désormais demander aux propriétaires d'utiliser leurs dépôts de garantie pour compenser le loyer ou le loyer. Les locataires ne seront pas obligés de verser un autre dépôt de garantie relatif à leur contrat de location en cours, mais seraient toujours responsables de tout argent dépensé par les propriétaires qui aurait été remboursable via le dépôt de garantie, comme les dommages à la propriété. Ce décret sera en vigueur jusqu'à 60 jours après la fin de l'urgence de santé publique."
+            },
+            {
+                "header": "Newark",
+                "text": "Le maire Baraka a imposé un moratoire sur les expulsions pour non-paiement du loyer. Cela signifie que le locataire peut citer le moratoire comme défense à une action d'expulsion basée sur le non-paiement du loyer qui devient exigible pendant le moratoire, à condition que le locataire puisse démontrer que le non-paiement résulte des difficultés financières causées par la pandémie de COVID-19. De plus, le bureau du shérif du comté d'Essex a confirmé qu'il n'exécutera pas de mandats de renvoi («lock-out») pendant la crise d'urgence de santé publique actuelle."
+            },
+            {
+                "header": "Demandes des tribunaux d'urgence",
+                "text": "La Cour supérieure d'Essex a un juge d'urgence disponible pour entendre les demandes d'urgence des locataires. Le locataire doit se rendre à la salle 201 (Service à la clientèle) au Hall des archives pour déposer la demande avant 16h30. Après 16 h 30, le locataire doit se rendre au service du shérif, au palais de justice des anciens combattants."
+            },
+            {
+                "buttons": [
+                    {
+                        "link": "mailto:OTLS@ci.newark.nj.us?subject=Tenant Eviction Moratorium Question",
+                        "linkText": "Envoyez un e-mail à EHD pour en savoir plus"
+                    }
+                ],
+                "header": "Des questions",
+                "text": "Les locataires qui ont des questions au sujet de l'un des éléments susmentionnés peuvent envoyer un courriel au Bureau des services juridiques des locataires de la ville de Newark à OTLS@ci.newark.nj.us. Toutes les autres demandes doivent être adressées au service juridique de la ville de Newark en composant le 973-733-3880."
+            }
+        ],
+        "subtitle": "Pendant l'urgence COVID-19",
+        "title": "Moratoire sur l'expulsion des locataires"
+    },
+    {
+        "category": "Petite entreprise",
+        "icon": "business_center",
+        "infoButtons": [
+            {
+                "link": "https://bit.ly/CityofNewarkERSU",
+                "linkText": "En savoir plus et postuler"
+            }
+        ],
+        "introText": "<p> <img class='intro-pic hide-sm' src='assets/img/pagePhotos/Essential Workers.jpg'> <img class='intro-pic logo-sm' src='assets/img/logos/logo_nwkAlliance.png'> L'unité de dotation en cas d'urgence de la ville de Newark est un effort de recrutement collectif de Newark 2020, du Newark Workforce Development Board et de l'écosystème de la main-d'œuvre de la ville de Newark en réponse au besoin urgent de personnel essentiel dans la ville de Newark. Cela comprend les professionnels de la santé, les travailleurs des services alimentaires, les artisans du bâtiment, les chauffeurs, les travailleurs sociaux, les professionnels de la santé mentale, le personnel de conciergerie et d'entretien. </p>",
+        "link": "recruiting-essential-workers",
+        "parent": "/program",
+        "purpose": [
+            {
+                "body": "L'objectif est d'aider à réduire la pression sur nos professionnels de la santé en augmentant le nombre de travailleurs dans les hôpitaux et en formant nos talents locaux dans la ville. Nous sommes dans le même bateau!"
+            }
+        ],
+        "sections": [
+            {
+                "buttons": [
+                    {
+                        "link": "https://bit.ly/CityofNewarkERSU",
+                        "linkText": "En savoir plus et postuler"
+                    }
+                ],
+                "header": "Sur le site de l'unité de dotation en personnel d'intervention d'urgence de la ville de Newark:",
+                "text": "<ul> <li> Les demandeurs d'emploi peuvent: <ul> <li> s'inscrire et télécharger leur curriculum vitae pour être connecté à un employeur d'embauche </li> <li> accéder à des ressources sur la technologie virtuelle, les tendances du travail, les outils en ligne et les ressources en santé mentale </li> <li> S'inscrire aux séances de coaching de carrière individuelles et en groupe </li> </ul> </li> <li> Les employeurs peuvent: <ul> <li> Enregistrer leur entreprise et identifier les besoins en personnel </li> <li> Connectez-vous avec un développeur d'emploi ou un gestionnaire de compte pour discuter de stratégies d'approvisionnement spécifiques pour répondre aux demandes liées à COVID-19 </li> <li> Connectez les travailleurs en congé à des postes temporaires au sein d'autres entreprises </li> <li> Accédez aux ressources dans les domaines suivants (sur une base rotative pour l'instant): <ul> <li> Ressources gouvernementales </li> <li> COVID-19, Gestion des crises et leadership pendant la crise </li> <li> RH et Recrutement pendant une crise </li> <li> Ressources en santé mentale pour les organisations </li> <li> Ressources et services financiers pendant COVID-19 </li> <li> Gestion des équipes virtuelles, des outils et des meilleures pratiques </li> <li> Ventes et relations clients ips </li> <li> Stimuler le moral </li> <li> Marketing, image de marque et médias sociaux </li> <li> Mises à jour juridiques </li> </ul> </li> </ul> </ul>"
+            },
+            {
+                "header": "Remerciements",
+                "logos": [
+                    "nwkAlliance",
+                    "NRBP",
+                    "nwkCity"
+                ],
+                "text": "<p>Ce programme a été rendu possible grâce à la collaboration de la Newark Alliance, du Workforce Development Board du Newark Regional Business Partnership et de la ville de Newark</p>"
+            }
+        ],
+        "subtitle": "Unité de dotation en personnel d'intervention d'urgence de la ville de Newark",
+        "title": "Recrutement de travailleurs essentiels supplémentaires"
+    },
+    {
+        "category": "Emploi et bien-être",
+        "icon": "business_center",
+        "infoButtons": [
+            {
+                "link": "https://bit.ly/Newark2020COVIDimpacysurvey",
+                "linkText": "Enquête sur l'impact sur les entreprises"
+            },
+            {
+                "link": "https://bit.ly/CandidateNeedsSurvey1",
+                "linkText": "Enquête sur les besoins des résidents de Newark"
+            }
+        ],
+        "introText": "<p> <img class='intro-pic hide-sm' src='assets/img/pagePhotos/Measuring Impact.jpeg'> <img class='intro-pic logo-sm' src='assets/img/logos/logo_nwkAlliance.png'>Newark Alliance est dédiée à la revitalisation économique en cours de Newark, s'efforçant de transformer notre ville en un endroit meilleur et plus sûr pour travailler, vivre, apprendre, jouer et faire des affaires. Soutenue par des entreprises et des partenaires communautaires, l'Alliance a réussi à tirer parti des atouts concurrentiels de Newark pour générer une croissance économique pour la ville, l'État, la région et au-delà. Grâce à des partenariats innovants avec les parties prenantes, l'Alliance assure une croissance équitable aux résidents et aux visiteurs, faisant avancer la renaissance de Newark dans l'une des grandes villes américaines. Il travaille actuellement à l'étude de l'impact de la crise du COVID-19. Si vous êtes un employeur ou un résident, veuillez remplir le questionnaire approprié ci-dessous. </p>",
+        "link": "measuring-covid-impact",
+        "parent": "/program",
+        "purpose": [
+            {
+                "body": "Il est important de mesurer l'impact de COVID-19 sur les résidents et les entreprises de Newark afin que les futurs programmes d'emploi soient basés sur des besoins réels et non sur des hypothèses."
+            }
+        ],
+        "sections": [
+            {
+                "buttons": [
+                    {
+                        "link": "https://bit.ly/Newark2020COVIDimpacysurvey",
+                        "linkText": "Enquête sur l'impact sur les entreprises"
+                    }
+                ],
+                "header": "Enquête auprès des employeurs COVID-19 sur l'impact sur les entreprises",
+                "text": "<h3> Part des employeurs sur l’impact de COVID-19 sur votre entreprise </h3> <p> Nous reconnaissons la gravité de la pandémie et les nombreux défis sans précédent auxquels nos partenaires employeurs sont confrontés. Nous sondons les employeurs pour évaluer l'impact de COVID-19 sur nos entreprises localement, afin que nous puissions fournir des connexions aux informations et aux ressources nécessaires et ajuster nos stratégies de recherche de talents pour répondre aux besoins changeants de nos partenaires employeurs, et former des candidats avec de nouveaux virtuels compétences et technologies en milieu de travail pour s'adapter à cette «prochaine normalité». </p> <p> En plus de l'enquête de haut niveau ci-dessous, veuillez nous indiquer comment nous pouvons vous aider au mieux pendant cette période. </p>"
+            },
+            {
+                "buttons": [
+                    {
+                        "link": "https://bit.ly/CandidateNeedsSurvey1",
+                        "linkText": "Enquête sur les besoins des résidents de Newark"
+                    }
+                ],
+                "header": "Évaluation des besoins personnels et professionnels à l'échelle de la ville",
+                "text": "<h3> Résidents de Newark, votre contribution est nécessaire! </h3> <p> Nous enquêtons sur les résidents de Newark pour déterminer vos besoins personnels et professionnels en réponse à COVID-19 afin que nous puissions offrir des services qui sont les plus demandés. Veuillez prendre 3 minutes pour répondre au sondage. </p>"
+            }
+        ],
+        "subtitle": "Sur les entreprises et les résidents de Newark",
+        "title": "Mesurer l'impact de COVID-19"
+    },
+    {
+      "icon": "business_center",
+      "title": "Fonds d'urgence pour 501 (c) 3 sans but lucratif",
+      "link": "non-profit",
+      "subtitle":  "Aider les résidents de Newark touchés par Covid-19",
+      "introText": "<p><img class='intro-pic' src='assets/img/pagePhotos/Nonprofit.jpg'> En cette période de crise, les communautés du pays subissent d'énormes impacts liés au COVID-19. La ville de Newark a la chance d'avoir de nombreuses organisations à but non lucratif qui se sont attelées à la tâche de fournir des services vitaux à la communauté locale en réponse à la détresse du marché et aux bouleversements causés par la pandémie de COVID-19. Le maire Ras J. Baraka, dans un efforts pour renforcer et stabiliser ces organisations à but non lucratif, a créé un fonds d'urgence visant à fournir un allégement financier aux organisations à but non lucratif éligibles basées à Newark 501(c)(3) qui fournissent un service direct lié à COVID-19 et / ou ont dépensé des fonds supplémentaires pour créer de nouveaux programmes ou étendre des programmes existants au profit de l'économie et de la communauté locales de Newark. Pour postuler, cliquez sur le lien ci-dessous et envoyez un e-mail pour demander une candidature </p>",
+      "infoButtons": [
+        { "link": "mailto:nonprofitgrant@ci.newark.nj.us?subject=Request for Emergency Non-Profit Grant Application", "linkText": "Demande de demande de fonds"}
+      ],
+      "purpose": [{
+          "body": "Ce fonds d'urgence, qui sera administré par le Département du développement économique et du logement de la ville de Newark, fournira un million de dollars (1 000 000 $) avec des subventions allant de 5 000 $ à 50 000 $ aux 501(c)(3) non admissibles La demande sera mise à la disposition des organismes sans but lucratif 501(c)(3) admissibles du lundi 20 avril 2020 au vendredi 22 mai 2020. Pendant ces 30 jours, la ville accordera des subventions sur une base continue afin de répondre aux besoins financiers des organisations. "
+      }],
+      "sections": [
+        {
+          "header": "Exigences du demandeur pour demander cette subvention",
+          "text": "<ul> <li> Doit fournir la preuve du statut d'organisation à but non lucratif 501(c)(3); </li> <li> Avoir un emplacement physique à Newark; </li> <li> Avoir des services / programmes directement fournis propres à la pandémie de COVID-19 aux résidents / communautés de Newark OU élargi leurs services / programmes pour répondre aux besoins de leur base communautaire habituelle; </li> <li> Fournir une copie du plus récent audit; </ li > <li> Fournir une copie du formulaire IRS 990; </li> <li> Fournir la documentation de leur budget annuel; </li> <li> Au moment de la soumission de la demande, vous devez également fournir une lettre sur papier à en-tête de votre organisation avec le montant du financement que vous demandez pour la réalisation de vos services pendant cette pandémie; </li> <li> Fournissez une lettre avec une ventilation des coûts par poste du montant total du financement demandé avec des pièces justificatives des dépenses: factures qui ont été payé et non payé; </li> <li> Et enfin, une lettre avec une description des bénéficiaires servis, qui comprend: (a) nom et adresse, (b) origine ethnique, (c) pourcentage d'AMI o f personnes desservies, (d) senior / non senior, et (e) nombre total de personnes servies dans les ménages. </li> </ul> <p> Cliquez sur le lien ci-dessous pour envoyer un e-mail demandant la candidature. Inclure des informations sur votre organisme sans but lucratif. </p> ",
+          "buttons": [{ "link": "mailto:nonprofitgrant@ci.newark.nj.us?subject=Request for Emergency Non-Profit Grant Application", "linkText": "Demande de demande de fonds"}]
+        }
+      ]
+    },
+    {
+        "category": "Sauver des vies. Restez en sécurité.",
+        "link": "be-still-mondays",
+        "parent": "/stayingin",
+        "title": "Soyez tranquille le lundi",
+        "icon": "local_hospital",
+        "introContent": [
+            {
+                "text": "<h3> <img class='intro-pic' src='assets/img/pagePhotos/mondays.jpg'> Le maire Baraka a demandé à 'tout le monde de rester à la maison' pour un arrêt presque complet de la ville de Newark le lundi attirer l'attention sur la gravité de la propagation du COVID-19 dans la communauté et aider à ralentir la propagation. Soyez tranquille le lundi »se produira chaque semaine pour le mois prochain. </h3> <h3> Si vous n'êtes pas un policier, un pompier, une infirmière ou un autre travailleur médical de première ligne, restez à la maison. </h3>"
+            }
+        ],
+        "programs": [
+            {
+                "header": "Exceptions",
+                "text": "<p> Le «Be Still Mondays» de la ville de Newark n'est pas un décret, mais c'est une demande qui décourage toutes les entreprises à l'exception des services d'urgence de santé, de sécurité et de bien-être à fermer. Par exemple, les entreprises qui fournissent de la nourriture et un abri à la population sans-abri peuvent fonctionner, mais la Ville demande aux soupes populaires de limiter leurs opérations de 11 h 30 à 14 h. </p> <p> La Ville souhaite que les entreprises soient jugées «essentielles» par des ordres exécutifs antérieurs, tels que les magasins d'alimentation et les pharmacies, à fermer, ainsi que les sociétés du centre-ville et les entreprises manufacturières. </p> <p> L'idée est de faire preuve de solidarité à l'échelle de la communauté face à l'agressif COVID-19 virus qui ravage particulièrement les communautés noires et brunes à l'échelle nationale. </p> <p> Important: cliquez ci-dessous pour plus d'informations sur les règles",
+                "linkText": "NJ Reste à la Maison et Règles Commerciales Essentielles",
+                "link": "https://covid19.nj.gov/faqs/nj-information/general-public/what-are-the-“stay-at-home”-rules-in-new-jersey-what-businesses-are-closed"
+            }
+        ]
+    },
+    {
+        "category": "Sauver des vies. Restez en sécurité.",
+        "link": "stay-at-home",
+        "parent": "/stayingin",
+        "title": "Arrêté sur place",
+        "icon": "local_hospital",
+        "introContent": [
+            {
+                "text": "<h3> <img class='intro-pic' src='assets/img/pagePhotos/refuge-en-place.jpg'> Pour protéger les résidents contre la propagation du COVID-19, le maire Ras J. Baraka a annoncé une stricte Mandat «refuge sur place» à l'échelle de la ville et mise en quarantaine dans toute la ville qui sera strictement appliquée par les forces de l'ordre. </h3> <p> Les gens doivent rester chez eux et ne pas sortir sauf en cas d'urgence. </p>"
+            }
+        ],
+        "programs": [
+            {
+                "header": "Exceptions",
+                "text": "<p> Vous pouvez toujours aller au supermarché, au magasin local d'articles de première nécessité, à la pharmacie, au médecin, promener les chiens, sortir et prendre l'air frais devant ou derrière la maison/le pas de la porte/le porche/la terrasse, ou si vous êtes un employé essentiel. En outre, les enfants doivent être accompagnés d'un adulte et les gens ne doivent quitter leur domicile que par paires. </p> <p> Pendant votre absence, vous devez respecter la recommandation du Center for Disease Control (CDC) de garder six pieds de distance. </p> <p> <b> Les résidents sont priés d'appeler la police s'ils voient des groupes de personnes traîner et violer ce mandat. </b> </p>"
+            }
+        ]
+    }
+]

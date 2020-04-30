@@ -1,79 +1,102 @@
 {
-  "LANG":"Change Language",
-  "MENU": {
-    "home": "Home",
-    "data": "Data Dashboard",
-    "help":	"Help",
-    "program": "Our Programs",
-    "small-business-grants":	"Small Business Emergency Grants",
-    "homeowner-relief": "Forgivable Loans for Homeowners",
-    "arts-fund": "Artists & Arts Organization Fund",
-    "safe-housing": "Safe Housing for Homeless",
-    "commercial-prop": "Aid for Commercial Properties",
-    "eviction-moratorium": "Tenant Eviction Moratorium",
-    "faqs": "FAQs",
-    "tenants": "Tenant FAQS",
-    "homeowners": "Mortgage Relief & Foreclosure FAQ",
-    "resources": "Other Resources",
-    "nj-small-business-help": "NJ Financial Help for Small Business",
-    "unemployment-benefits": "Unemployment Benefits",
-    "finding-essential-jobs": "Finding an Essential Job During Crisis",
-    "federal-us-cares": "Federal 'US Cares' Stimulus Package",
-    "nha-tenants":"For Housing Authority Tenants",
-    "food-dist-school-lunches": "Food Distribution and School Lunches",
-    "invest-newark": "Invest Newark for Businesses",
-    "health-info": "Health Information",
-    "eligibility-benefits": "Eligibility for Benefits",
-    "recruiting-essential-workers": "Recruiting Essential Workers",
-    "measuring-covid-impact": "Measuring COVID-19 Impact",
-    "stayingin": "Staying In",
-    "stay-at-home": "Stay at Home Orders",
-    "be-still-mondays": "Be Still Mondays",
-    "non-profit": "Emergency Fund For 501(c)3 Nonprofits",
-    "federal-ppp-sba-update": "Info on Federal PPP & SBA Programs"
-  },
-  "HOME": {
-    "title": "COVID-19 Comprehensive Help for Residents and Small Businesses",
-    "mayor-blurb": "The City of Newark is investing more than $6 million in a growing list of initiatives to keep Newark’s most impacted residents safe, healthy, and financially secure. Together with thousands of volunteers, we are collaborating with the state and federal governments, philanthropies and non-profits, businesses, and faith-based organizations to weather this health emergency and continue to thrive once we are on the other side of it",
-    "content-intro": "City, State and Federal Programs to Help You.",
-    "buttons": {
-      "small-business-grants":"Newark Small Business Emergency Grants",
-      "homeowner-relief": "Forgiveable Loans for Homeowners and First-Time Buyers",
-      "arts-fund": "Fund for Artists and Arts Organizations",
-      "safe-housing":"Safe Housing for Homeless",
-      "commercial-prop": "Help for Commercial Tenants and Property Owners",
-      "eviction-moratorium": "Tenant Eviction Moratorium",
-      "tenants": "Tenant FAQs",
-      "homeowners": "Homeowners Mortgage Relief and Foreclosure FAQs",
-      "nj-small-business-help": "N.J. Financial Help for Small Businesses",
-      "unemployment-benefits": "Unemployment Benefits",
-      "finding-essential-jobs":"Finding an Essential Job During Crisis",
-      "federal-us-cares": "Help from Federal “US CARES” Stimulus Package",
-      "nha-tenants":"For Housing Authority Tenants",
-      "food-dist-school-lunches": "Food Distribution and School Lunches",
-      "invest-newark": "INVEST NEWARK for Businesses",
-      "health-info": "Health Information",
-      "eligibility-benefits": "Eligibility for Benefits",
-      "recruiting-essential-workers": "Recruiting Essential Workers",
-      "measuring-covid-impact": "Measuring COVID-19 Impact",
-      "stay-at-home": "Stay at Home Orders",
-      "be-still-mondays": "Be Still Mondays",
-      "nj-testing": "How to Get Tested",
-      "newark-news": "More Newark News",
-      "self-employed": "Unemployment Benefits for Self-Employed",
-      "non-profit": "Emergency Fund For 501(c)3 Nonprofits",
-      "federal-ppp-sba-update": "Updates on Federal PPP & SBA Programs",
-      "updated-list-essential": "Updates to List of Essential Businesses Permitted to Operate"
-    }
-  },
-  "FAQ": {
-    "title": {
-      "tenants": "Newark Tenants FAQs",
-      "homeowners": "Homeowners Mortgage Relief And Foreclosure FAQs"
+	"FAQ": {
+		"clickText": {
+			"homeowners": "Click on a category below to learn more about issues affecting Homeowners",
+			"tenants": "Click on a category below to learn more about issues affecting Tenants"
+		},
+		"title": {
+			"homeowners": "Homeowners Mortgage Relief And Foreclosure FAQs",
+			"tenants": "Newark Tenants FAQs"
     },
-    "clickText": {
-      "tenants": "Click on a category below to learn more about issues affecting Tenants",
-      "homeowners": "Click on a category below to learn more about issues affecting Homeowners"
+    "blurb": {
+      "title": "Mortgage Relief and Forbearance",
+      "text": "Many financial institutions will provide mortgage forbearance and financial protections for New Jerseyans facing economic hardship as a result of COVID-19. More than 150 federal and state-chartered banks, credit unions, and servicers are participating. Contact and work directly with your mortgage servicer to learn about and apply for available relief. Lenders participating in the state's voluntary mortgage modification program are expected to extend the terms of these loans to allow for repayment at the end of the loan period.",
+      "button": "More Information About Mortgage Relief"
     }
+	},
+	"HOME": {
+		"buttons": {
+			"arts-fund": "Fund for Artists and Arts Organizations",
+			"be-still-mondays": "Be Still Mondays",
+			"commercial-prop": "Help for Commercial Tenants and Property Owners",
+			"eligibility-benefits": "Eligibility for Benefits",
+			"eviction-moratorium": "Tenant Eviction Moratorium",
+			"federal-ppp-sba-update": "Updates on Federal PPP & SBA Programs",
+			"federal-us-cares": "Help from Federal “US CARES” Stimulus Package",
+			"finding-essential-jobs": "Finding an Essential Job During Crisis",
+			"food-dist-school-lunches": "Food Distribution and School Lunches",
+			"health-info": "Health Information",
+			"homeowner-relief": "Forgiveable Loans for Homeowners and First-Time Buyers",
+			"homeowners": "Homeowners Mortgage Relief and Foreclosure FAQs",
+			"invest-newark": "INVEST NEWARK for Businesses",
+			"measuring-covid-impact": "Measuring COVID-19 Impact",
+			"newark-news": "More Newark News",
+			"nha-tenants": "For Housing Authority Tenants",
+			"nj-small-business-help": "N.J. Financial Help for Small Businesses",
+			"nj-testing": "How to Get Tested",
+			"non-profit": "Emergency Fund For 501(c)3 Nonprofits",
+			"recruiting-essential-workers": "Recruiting Essential Workers",
+			"safe-housing": "Safe Housing for Homeless",
+			"self-employed": "Unemployment Benefits for Self-Employed",
+			"small-business-grants": "Newark Small Business Emergency Grants",
+			"stay-at-home": "Stay at Home Orders",
+			"tenants": "Tenant FAQs",
+			"unemployment-benefits": "Unemployment Benefits",
+			"updated-list-essential": "Updates to List of Essential Businesses Permitted to Operate"
+		},
+		"mayor-blurb": "The City of Newark is investing more than $6 million in a growing list of initiatives to keep Newark’s most impacted residents safe, healthy, and financially secure. Together with thousands of volunteers, we are collaborating with the state and federal governments, philanthropies and non-profits, businesses, and faith-based organizations to weather this health emergency and continue to thrive once we are on the other side of it",
+    "title": "COVID-19 Comprehensive Help for Residents and Small Businesses",
+    "categories": {
+      "Save": "Save Lives. Stay Safe.",
+      "Small": "Small Business",
+      "Housi": "Housing",
+      "Emplo": "Employment & Wellness"
+    },
+    "fb": {
+      "title": "Daily Facebook Live Updates from Mayor Baraka",
+      "text": "Every Weekday get the latest from the Mayor on how COVID-19 is affecting Newark and how you can keep you and your family safe",
+      "event": "Weekdays @ 5pm"
+    },
+    "godown": "City, State and Federal Programs to Help You.",
+    "data": {
+      "title": "Newark COVID-19 by the Numbers",
+      "text": "Real-time Data Dashboard of COVID-19 Impact by Gender, Race, and Ward"
+    }
+	},
+	"LANG": "Change Language",
+	"MENU": {
+		"arts-fund": "Artists & Arts Organization Fund",
+		"be-still-mondays": "Be Still Mondays",
+		"commercial-prop": "Aid for Commercial Properties",
+		"data": "Data Dashboard",
+		"eligibility-benefits": "Eligibility for Benefits",
+		"eviction-moratorium": "Tenant Eviction Moratorium",
+		"faqs": "FAQs",
+		"federal-ppp-sba-update": "Info on Federal PPP & SBA Programs",
+		"federal-us-cares": "Federal 'US Cares' Stimulus Package",
+		"finding-essential-jobs": "Finding an Essential Job During Crisis",
+		"food-dist-school-lunches": "Food Distribution and School Lunches",
+		"health-info": "Health Information",
+		"help": "Help",
+		"home": "Home",
+		"homeowner-relief": "Forgivable Loans for Homeowners",
+		"homeowners": "Mortgage Relief & Foreclosure FAQ",
+		"invest-newark": "Invest Newark for Businesses",
+		"measuring-covid-impact": "Measuring COVID-19 Impact",
+		"nha-tenants": "For Housing Authority Tenants",
+		"nj-small-business-help": "NJ Financial Help for Small Business",
+		"non-profit": "Emergency Fund For 501(c)3 Nonprofits",
+		"programs": "Our Programs",
+		"recruiting-essential-workers": "Recruiting Essential Workers",
+		"resources": "Other Resources",
+		"safe-housing": "Safe Housing for Homeless",
+		"small-business-grants": "Small Business Emergency Grants",
+		"stay-at-home": "Stay at Home Orders",
+		"stayingin": "Staying In",
+		"tenants": "Tenant FAQS",
+		"unemployment-benefits": "Unemployment Benefits"
+  },
+  "DATA": {
+    "title": "Real time Information by Gender, Race, and Ward of COVID-19 impact"
   }
 }
