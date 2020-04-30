@@ -7,7 +7,7 @@
                 "link": "https://newarkarts.org/creative-catalyst-fund/"
             }
         ],
-        "introText": "<p><img class='intro-pic src='assets/img/pagePhotos/arts.jpg'>Mayor Ras J. Baraka launched the Creative Catalyst Fund to provide artists and art groups with flexible grant support during the Coronavirus crisis and beyond. In January 2020, Mayor Baraka announced a broad vision for the City’s cultural sector to encourage equitable funding for the arts that sustains the creative community and grassroots arts organizations. Since then, the City launched its first arts grant program, the Creative Catalyst Fund, to ensure that the arts continue to thrive. In light of the COVID-19 crisis, the City acted to streamline operations, increasing the flexibility in how grantees may use awarded funds.",
+        "introText": "<p><img class='intro-pic' src='assets/img/pagePhotos/arts.jpg'>Mayor Ras J. Baraka launched the Creative Catalyst Fund to provide artists and art groups with flexible grant support during the Coronavirus crisis and beyond. In January 2020, Mayor Baraka announced a broad vision for the City’s cultural sector to encourage equitable funding for the arts that sustains the creative community and grassroots arts organizations. Since then, the City launched its first arts grant program, the Creative Catalyst Fund, to ensure that the arts continue to thrive. In light of the COVID-19 crisis, the City acted to streamline operations, increasing the flexibility in how grantees may use awarded funds.",
         "link": "arts-fund",
         "parent": "/program",
         "purpose": [
