@@ -48,8 +48,14 @@
     "question": "If I can’t afford to pay my rent and fall behind, will I still owe the money?",
     "answer": "<b>Yes.</b>Any payments you miss now will become back-rent that you owe.One way or another, you will probably have to pay later whatever you cannot pay now, or you will ultimately face possible eviction.If you fall behind on your rent payments, you can try speaking with your landlord to work out a payment plan to avoid having an eviction action filed against you. Additional help may become available for tenants who miss rent payments because of COVID-19-related financial hardship.Check the states <a href='https://covid19.nj.gov/'>COVID-19</a> website and the website of <a href='https://njhousing.gov/foreclosure'>New Jersey Housing and Mortgage Finance Agency</a> for updates."
   },
-  {
+   {
     "name": "Rent03",
+    "category": "Rent Payments",
+    "question": "Can I use my security deposit to cover some of the rent I owe?",
+    "answer": "<b>Yes</b>. Any payments you miss now will become back-rent that you owe.One way or another, you will probably have to pay later whatever you cannot pay now, or you will ultimately face possible eviction.If you fall behind on your rent payments, you can try speaking with your landlord to work out a payment plan to avoid having an eviction action filed against you. Additional help may become available for tenants who miss rent payments because of COVID-19-related financial hardship.Check the states <a href='https://covid19.nj.gov/'>COVID-19</a> website and the website of <a href='https://njhousing.gov/foreclosure'>New Jersey Housing and Mortgage Finance Agency</a> for updates."
+  },
+  {
+    "name": "Rent04",
     "category": "Rent Payments",
     "question": "Can my landlord increase my rent during the COVID crisis?",
     "answer": "<<b>Maybe.</b>So far, the government has not banned rent increases during the crisis.Tenants living in housing supported or regulated by the New Jersey Housing and Mortgage Finance Agency (NJHMFA) have special protections, however.On April 16, <a href='https://www.nj.gov/dca/hmfa/media/news/2020/approved/20200416.html'>Governor Murphy announced</a> that the NJHMFA had voted to prohibit rent increases for the duration of the Public Health Emergency in the 36,000 rental units the agency oversees.After the emergency ends, landlords in NJHMFA-regulated properties may raise rents up to 1.4% on 30 daysnotice to tenants.Tenants who live in non-NJHMFA properties still have whatever protections may already have applied, including lease provisions and rent control ordinances, which normally permit rent increases only once a year."
