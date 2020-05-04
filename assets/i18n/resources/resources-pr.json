@@ -49,15 +49,15 @@
 		"icon": "local_dining",
 		"introContent": [{
 				"link": "https://www.nps.k12.nj.us/covid-19-resources/breakfast-lunch-program-locations/",
-				"linkText": "Aprenda sobre o programa de café da manhã e empréstimo",
-				"text": "<p> <img class='intro-pic' src='assets/img/pagePhotos/Food.png'> Os moradores podem ligar para <a href='tel:9737335728'> (973) 733-5728 </a> de 9:00 às 17:00 para obter informações sobre distribuição de alimentos. A cidade possui cartões de presente do ShopRite para os residentes, mas fará as compras pelos coordenadores de compras do ShopRite. Quando as pessoas telefonam, são feitas uma série de perguntas para ver se são elegíveis para os cartões-presente. Qualificação elegível de que eles não têm meios financeiros para obter comida em suas casas ou se são idosos. </p> <p> Temos apenas uma quantidade limitada no momento, então vamos nos concentrar nos idosos e naqueles que precisam o mais. Quanto mais recursos surgirem, teremos a capacidade de obter mais cartões. Agradecemos à Rede Nacional de Ação, à Newark Housing Authority e a Neil Greenstein, da ShopRite, por fazer parceria conosco para levar a comida a quem mais precisa. <p>"
+        "linkText": "Aprenda sobre o programa de café da manhã e almoço",
+				"text": "<p> <img class='intro-pic' src='assets/img/pagePhotos/Food.png'>A cidade obteve um número limitado de cartões-presente ShopRite para residentes qualificados. Qualificação elegível de que eles não têm meios financeiros para obter comida em suas casas ou se são idosos. </p> <p> Temos apenas uma quantidade limitada no momento, então vamos nos concentrar nos idosos e naqueles que precisam o mais. Quanto mais recursos surgirem, teremos a capacidade de obter mais cartões. Agradecemos à Rede Nacional de Ação, à Newark Housing Authority e a Neil Greenstein, da ShopRite, por fazer parceria conosco para levar a comida a quem mais precisa. <p>"
 			}],
 		"link": "food-dist-school-lunches",
 		"parent": "/resources",
 		"programs": [{
 				"header": "Local do programa para café da manhã e almoço escolar",
 				"link": "https://www.nps.k12.nj.us/covid-19-resources/breakfast-lunch-program-locations/",
-				"linkText": "Aprenda sobre o programa de café da manhã e empréstimo",
+        "linkText": "Aprenda sobre o programa de café da manhã e almoço",
 				"text": "<p> O Programa de Café da Manhã e Almoço está disponível para todos os alunos de escolas designadas de segunda a sexta-feira, das 9h30 às 11h30. O aluno pode pegar comida em qualquer local do NPS mais próximo de sua casa. </p>"
 			}],
 		"title": "Distribución de alimentos a los residentes afectados por COVID-19"

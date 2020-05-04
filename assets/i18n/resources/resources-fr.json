@@ -50,16 +50,16 @@
 		"icon": "local_dining",
 		"introContent": [{
 				"link": "https://www.nps.k12.nj.us/covid-19-resources/breakfast-lunch-program-locations/",
-				"linkText": "En savoir plus sur le programme Petit-déjeuner et prêt",
-				"text": "<p> <img class='intro-pic' src='assets/img/pagePhotos/Food.png'> Les résidents peuvent appeler <a href='tel:9737335728'> (973) 733-5728 </a> depuis 9 h à 17 h pour des informations sur la distribution de nourriture. La Ville a des cartes-cadeaux ShopRite pour les résidents, mais fera les courses pour eux par les coordonnateurs des achats chez ShopRite. Lorsque les gens appellent, on leur posera une série de questions pour voir s'ils sont admissibles aux cartes-cadeaux. Admissible, ce qui signifie qu'ils n'ont pas les moyens financiers de se procurer de la nourriture chez eux ou s'ils sont des personnes âgées. </p> <p> Nous n'avons qu'un montant limité pour le moment, nous allons donc nous concentrer sur les personnes âgées et celles qui en ont besoin. le plus. À mesure que les ressources augmenteront, nous aurons la possibilité d'obtenir plus de cartes. Nous remercions le National Action Network, la Newark Housing Authority et Neil Greenstein de ShopRite pour leur partenariat avec nous afin de fournir la nourriture à ceux qui en ont le plus besoin. <p>"
+        "linkText": "En savoir plus sur le programme petit-déjeuner et déjeuner",
+        "text": "<p> <img class='intro-pic' src='assets/img/pagePhotos/Food.png'> La Ville a obtenu un nombre limité de cartes-cadeaux ShopRite pour les résidents admissibles. Admissible, ce qui signifie qu'ils n'ont pas les moyens financiers de se procurer de la nourriture chez eux ou s'ils sont des personnes âgées. </p> <p> Nous n'avons qu'un montant limité pour le moment, nous allons donc nous concentrer sur les personnes âgées et celles qui en ont besoin. le plus. À mesure que les ressources augmenteront, nous aurons la possibilité d'obtenir plus de cartes. Nous remercions le National Action Network, la Newark Housing Authority et Neil Greenstein de ShopRite pour leur partenariat avec nous afin de fournir la nourriture à ceux qui en ont le plus besoin. <p>"
 			}],
 		"link": "food-dist-school-lunches",
 		"parent": "/resources",
 		"programs": [{
 				"header": "Lieux du programme de petit-déjeuner et de déjeuner à l'école",
 				"link": "https://www.nps.k12.nj.us/covid-19-resources/breakfast-lunch-program-locations/",
-				"linkText": "En savoir plus sur le programme Petit-déjeuner et prêt",
-				"text": "<p> Le programme de petit-déjeuner et de déjeuner est disponible pour tous les élèves des écoles désignées du lundi au vendredi de 9 h 30 à 11 h 30. L'élève peut aller chercher de la nourriture dans n'importe quel site NPS le plus proche de son domicile. </p>"
+        "linkText": "En savoir plus sur le programme petit-déjeuner et déjeuner",
+        "text": "<p> Le programme de petit-déjeuner et de déjeuner est disponible pour tous les élèves des écoles désignées du lundi au vendredi de 9 h 30 à 11 h 30. L'élève peut aller chercher de la nourriture dans n'importe quel site NPS le plus proche de son domicile. </p>"
 			}],
 		"title": "Distribution de nourriture aux résidents touchés par COVID-19"
 	},{

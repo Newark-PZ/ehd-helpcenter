@@ -52,16 +52,16 @@
 		"introContent": [
 			{
 				"link": "https://www.nps.k12.nj.us/covid-19-resources/breakfast-lunch-program-locations/",
-				"linkText": "Aprenda sobre el programa de desayuno y préstamo",
-				"text": "<p> <img class='intro-pic' src='assets/img/pagePhotos/Food.png'> Los residentes pueden llamar a <a href='tel:9737335728'> (973) 733-5728 </a> desde 9 am a 5 pm para información sobre distribución de alimentos. La ciudad tiene tarjetas de regalo ShopRite para los residentes, pero los coordinadores de compras en ShopRite las comprarán. Cuando la gente llame, se les hará una serie de preguntas para ver si son elegibles para las tarjetas de regalo. Elegible, lo que significa que no tienen los medios financieros para obtener alimentos en sus hogares o si son personas mayores. </p> <p> Solo tenemos una cantidad limitada en este momento, así que nos centraremos en las personas mayores y aquellos que necesitan Es lo más. A medida que lleguen más recursos, tendremos la capacidad de obtener más tarjetas. Agradecemos a la Red de Acción Nacional, la Autoridad de Vivienda de Newark y a Neil Greenstein de ShopRite por asociarse con nosotros para llevar la comida a quienes más la necesitan. <p>"
+        "linkText": "Aprenda sobre el programa de desayuno y préstamo",
+				"text": "<p> <img class='intro-pic' src='assets/img/pagePhotos/Food.png'>La Ciudad ha obtenido un número limitado de tarjetas de regalo ShopRite para residentes elegibles. Elegible, lo que significa que no tienen los medios financieros para obtener alimentos en sus hogares o si son personas mayores. </p> <p> Solo tenemos una cantidad limitada en este momento, así que nos centraremos en las personas mayores y aquellos que necesitan Es lo más. A medida que lleguen más recursos, tendremos la capacidad de obtener más tarjetas. Agradecemos a la Red de Acción Nacional, la Autoridad de Vivienda de Newark y a Neil Greenstein de ShopRite por asociarse con nosotros para llevar la comida a quienes más la necesitan. <p>"
 			}],
 		"link": "food-dist-school-lunches",
 		"parent": "/resources",
 		"programs": [{
 				"header": "Ubicaciones del programa de desayuno y almuerzo escolar",
 				"link": "https://www.nps.k12.nj.us/covid-19-resources/breakfast-lunch-program-locations/",
-				"linkText": "Aprenda sobre el programa de desayuno y préstamo",
-				"text": "<p> El programa de desayuno y almuerzo está disponible para todos los estudiantes en las escuelas designadas de lunes a viernes de 9:30 a.m. a 11:30 a.m. El estudiante puede recoger comida en cualquier sitio de NPS más cercano a su hogar. </p>"
+        "linkText": "Aprenda sobre el programa de desayuno y préstamo",
+        "text": "<p> El programa de desayuno y almuerzo está disponible para todos los estudiantes en las escuelas designadas de lunes a viernes de 9:30 a.m. a 11:30 a.m. El estudiante puede recoger comida en cualquier sitio de NPS más cercano a su hogar. </p>"
 			}],
 		"title": "Distribución de alimentos a los residentes afectados por COVID-19"
 	},{

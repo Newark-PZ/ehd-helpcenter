@@ -84,8 +84,8 @@
                 "text": "<p>Under the guidance of Mayor Baraka’s, the City of Newark’s Department of Economic and Housing Development Department is collaborating in partnership with Prudential, the United Way of Greater Newark, and Invest Newark in this effort to alleviate the economic impacts of COVID-19 on our small business community.</p>"
             }
         ],
-        "subtitle": "Seriously Harmed by COVID-19 Emergency",
-        "title": "Helping Commercial Property Owners & Tenants"
+        "title": "Newark 2020 Emergency Fund",
+        "subtitle": "For Small Businesses Impacted by COVID-19"
     },
     {
         "category": "Housing",
@@ -415,5 +415,67 @@
         "header": "Exceptions",
         "text": "<p>You can still go to the supermarket, local store for essentials, pharmacy, doctor, walk dogs, step out and get fresh air in front or back of home/doorstep/porch/terrace, or if an essential employee. Also, children need to be accompanied by an adult and people should only leave their homes in pairs.</p><p>While out, you must maintain the Center for Disease Control’s (CDC) recommendation of keeping six feet apart.</p><p><b>Residents are urged to call police if they see groups of people hanging out and violating this mandate.</b></p>"
       }]
-    }
+    },
+    {
+      "icon": "business_center",
+      "title": "Emergency Fund For 501(c)3 Nonprofits",
+      "link": "non-profit",
+      "subtitle": "Aiding Newark Residents Impacted By Covid-19",
+      "introText": "<p><img class='intro-pic' src='assets/img/pagePhotos/Nonprofit.jpg'> In this time of crisis, communities nationwide are suffering enormous impacts related to COVID-19. The City of Newark is fortunate to have numerous non-profit organizations that have risen to the task of providing vital services to the local community in response to the market distress and upheaval caused by the COVID-19 pandemic. Mayor Ras J. Baraka, in an effort to strengthen and stabilize these non-profit organizations, has created an emergency fund aimed at providing financial relief to eligible Newark-based 501(c)(3) non-profit organizations that provide a direct service related to COVID-19 and/or have expended extra funds in creating new programs or in expanding existing programs to the benefit of Newark’s local economy and community. To apply click the link below and send the email to request an application</p>",
+      "infoButtons": [
+        { "link": "mailto:nonprofitgrant@ci.newark.nj.us?subject=Request for Emergency Non-Profit Grant Application", "linkText": "Request Application for Funds"}
+      ],
+      "purpose": [{
+          "body": "This emergency fund, which will be administered by the City of Newark’s Department of Economic and Housing Development, will provide One Million Dollars ($1,000,000) with grants ranging from $5,000 to $50,000 to qualifying 501(c)(3) non-profit organizations. The application will be made available for qualifying 501(c)(3) non-profit organizations on Monday, April 20, 2020 through Friday, May 22, 2020. During these 30 days the city will provide grants on an ongoing basis in order to meet the financial need of organizations."
+      }],
+      "sections": [
+        {
+          "header": "Applicant Requirements to Apply for this Grant",
+          "text": "<ul><li>Must provide proof of 501(c)(3) non-profit organization status;</li><li>Have a physical location in Newark;</li><li>Have directly provided services/programs unique to the COVID-19 pandemic to Newark residents/communities OR expanded their services/programs to meet the needs of their usual community base;</li><li>Provide copy of most recent audit;</li><li>Provide copy of IRS Form 990;</li><li>Provide documentation of their annual budget;</li><li>At time of submittal of application, you must also provide a letter on your organization’s letterhead with the amount of funding you’re requesting for the fulfillment of your services during this pandemic;</li><li>Provide a letter with a line item cost breakdown of total requested amount of funding with supporting documents of expenses: invoices that have been paid and not paid;</li><li>And finally, a letter with description of beneficiaries served, which includes: (a) name and address, (b) ethnicity, (c) percentage of AMI of individuals served, (d) senior/non senior, and (e) total number of individuals served in households.</li></ul><p>Click the link below to send an email requesting the application. Include information about your non-profit.</p>",
+          "buttons": [{ "link": "mailto:nonprofitgrant@ci.newark.nj.us?subject=Request for Emergency Non-Profit Grant Application", "linkText": "Request Application for Funds"}]
+        }
+      ]
+    },
+    {
+      "category": "Save Lives. Stay Safe. Reopen.",
+      "link": "testing",
+      "parent": "/programs",
+      "title": "How & Where to Get Tested in Newark",
+      "icon": "local_hospital",
+      "introText": "<p><img class='intro-pic' src='assets/img/pagePhotos/Coronavirus-test.jpg'>At this time, testing is prioritized for individuals who are close contacts of confirmed COVID-19 cases, individuals who traveled to/from highly affected areas, individuals without symptoms who come from racial and ethnic minority groups disproportionately affected by adverse COVID-19 outcomes, or those who are sick and experiencing <b>at least three</b> of the <a href='https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html'>nine CDC-recognized symptoms</a> of COVID-19:</p><b> 1) </b> Cough      <b> 2) </b> Shortness of breath or difficulty breathing<b> 3) </b> Fever (at or above 99.6°F)<b> 4) </b> Chills<b> 5) </b> Repeated shaking with chills<b> 6) </b> Headache<b> 7) </b> Sore throat<b> 8) </b> Muscle pain<b> 9) </b> New loss of taste or smell",
+      "infoButtons": [{
+        "link": "https://g.page/bbpskating?share",
+        "linkText": "Weequahic Drive-Thru Location"
+        },
+        {
+          "link": "https://goo.gl/maps/Aqx7HPDxeqtLmbXR6",
+          "linkText": "Branch Brook Testing Location"
+        }
+        ],
+        "purpose": [{
+        "header": "There are presently two testing sites in Newark open to the public",
+        "body": "If you do not have symptoms, testing is not recommended"
+      }],
+      "sections": [
+        {
+          "header": "1.   Branch Brook Testing Center:",
+          "text": "<img class='intro-pic card' src='assets/img/pagePhotos/BranchBrookTestingFlyer.jpeg'>",
+          "buttons": [{
+            "link": "https://g.page/bbpskating?share",
+            "linkText": "Get Directions"
+            }]
+        },
+        {
+          "header": "2. Weequahic Park Drive-Thru Testing",
+          "text": "<h3>Weequahic Park - Drive-Thru - BY APPOINTMENT ONLY</h3><ul><li>Elizabeth Ave & Meeker Ave</li><li>Newark, NJ 07112</li><li>Testing is by appointment only.</li></ul>",
+          "buttons": [{
+          "link": "https://goo.gl/maps/Aqx7HPDxeqtLmbXR6",
+          "linkText": "Get Directions"
+          }]
+        },
+        {
+          "text": "<p>To make an appointment, residents can visit <a href='http://www.essexcovid.org/'>www.EssexCOVID.org</a> or call the Essex County Office of Emergency Management at <a href='tel:9733249950'>973-324-9950</a>. (The call-in center will be open from 7 a.m. to 11 p.m.) Appointments will be scheduled from 9 a.m. to 12 noon. Anyone making an appointment will receive a confirmation number; residents must bring the confirmation number with them to their appointment.</p><p>Tests are being offered free of charge. Having health insurance is not a requirement. Follow up contact will be made to assess the continuing health of the person who completed the screening.</p><p>Medical personnel from RWJBarnabas Health System, Newark Beth Israel Medical Center, University Hospital, Hackensack Hospital, Essex County Hospital and nurses from public schools in Essex County are staffing the testing sites and call-in center.</p><p>Residents must arrive to testing site by car. For the safety of residents and workers, residents who arrive on foot will not be tested.</p>"
+        }
+      ]
+   }
 ]
