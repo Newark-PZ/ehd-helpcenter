@@ -1,0 +1,33 @@
+[
+    {
+      "category": "Salva vidas. Mantenerse a salvo.",
+      "link": "be-still-mondays",
+      "parent": "/stayingin",
+      "title": "Estar Quieto los Lunes",
+      "icon": "local_hospital",
+      "introContent": [{
+        "text": "<h3> <img class='intro-pic' src='assets/img/pagePhotos/mondays.jpg'> El alcalde Baraka ha pedido a 'todos que se queden en casa' para un cierre casi completo de la ciudad de Newark los lunes para llamar la atención sobre la gravedad de la propagación de COVID-19 en la comunidad y ayudar a reducir la propagación. 'Estar Quieto los Lunes' ocurrirá cada semana durante el próximo mes. </h3> <h3> Si no eres un oficial de policía, un bombero, una enfermera u otro trabajador médico de primera línea, quédate en casa. </h3>"
+      }],
+      "programs": [{
+        "header": "Excepciones",
+        "text": "<p> El 'Estar Quieto los Lunes' de la Ciudad de Newark no es una orden ejecutiva, pero es una solicitud que desalienta a todos los negocios, excepto los servicios de emergencia de salud, seguridad y asistencia social a cerrar. Por ejemplo, las empresas que proporcionan alimentos y refugio para la población sin hogar pueden operar, pero la Ciudad está pidiendo a los comedores populares que limiten sus operaciones de 11:30 a.m. a 2 p.m. </p> <p> La Ciudad desea que las empresas se consideren 'esenciales' por órdenes ejecutivas previas, como tiendas de alimentos y farmacias, para cerrar también, así como corporaciones del centro y compañías manufactureras. </p> <p> La idea es mostrar solidaridad en toda la comunidad frente al agresivo COVID-19 virus que está devastando especialmente las comunidades negras y marrones en todo el país. </p> <p> Importante: haga clic a continuación para obtener más información sobre las Reglas</p>",
+        "linkText": "NJ Stay at Home y reglas comerciales esenciales",
+        "link": "https://covid19.nj.gov/faqs/nj-information/general-public/what-are-the-“stay-at-home”-rules-in-new-jersey-what-businesses-are-closed"
+      }]
+    },
+    {
+      "category": "Salva vidas. Mantenerse a salvo.",
+      "link": "stay-at-home",
+      "parent": "/stayingin",
+      "title": "Orden de refugio en el lugar",
+      "icon": "local_hospital",
+      "introContent": [{
+        "text":"<h3> <img class='intro-pic' src='assets/img/pagePhotos/shelter-in-place.jpg'> Para proteger a los residentes contra la propagación de COVID-19, el alcalde Ras J. Baraka ha anunciado un estricto Mandato de 'refugio en el lugar' en toda la ciudad y cuarentena en toda la ciudad que se hará cumplir estrictamente por la policía. </h3> <p> La gente debe quedarse en casa y no salir a menos que sea una emergencia. </p>"
+      }],
+      "programs": [
+      {
+        "header": "Excepciones",
+        "text": "<p> Todavía puede ir al supermercado, a la tienda local de artículos esenciales, a la farmacia, al médico, pasear perros, salir y tomar aire fresco en la parte delantera o trasera de la casa/puerta/porche/terraza, o si es un empleado esencial. Además, los niños deben estar acompañados por un adulto y las personas solo deben salir de sus hogares en parejas. </p> <p> Mientras estén fuera, deben mantener la recomendación del Centro para el Control de Enfermedades (CDC) de mantenerse a seis pies de distancia. </p> <p> <b> Se insta a los residentes a llamar a la policía si ven grupos de personas pasando el rato y violando este mandato. </b> </p>"
+      }]
+    }
+]

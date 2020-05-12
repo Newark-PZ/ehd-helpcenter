@@ -8,12 +8,13 @@ import * as SidebarActions from './store/sidebar/sidebar.actions';
 import * as RightSidebarActions from './store/sidebarRight/sidebar.actions';
 import * as ConfigActions from './store/config/config.actions';
 import { take } from 'rxjs/operators';
-import { SidebarLink } from './shared/interfaces/other.interface';
 import { BreakpointObserver, BreakpointState } from '@angular/cdk/layout';
 import {routes} from './app-routing';
 import { NestedTreeControl } from '@angular/cdk/tree';
 import { MatTreeNestedDataSource } from '@angular/material/tree';
 import { TranslateService } from '@ngx-translate/core';
+import { LinkService } from './shared/services/link.service';
+import { Link } from './shared/interfaces/link.class';
 
 @Component({
   selector: 'app-root',
@@ -35,14 +36,15 @@ export class AppComponent implements OnDestroy, OnInit {
   hasSidebarRight$: Observable<boolean>;
   sidebarRightOpened$: Observable<boolean>;
   sidebarRightMode$: Observable<string>;
-  links: Array<SidebarLink> = [];
-  treeControl = new NestedTreeControl<SidebarLink>(node => node.children);
-  dataSource = new MatTreeNestedDataSource<SidebarLink>();
-  hasChild = (_: number, node: SidebarLink) => !!node.children && node.children.length > 0;
+  links: Array<Link> = [];
+  treeControl = new NestedTreeControl<Link>(node => node.children);
+  dataSource = new MatTreeNestedDataSource<Link>();
+  hasChild = (_: number, node: Link) => !!node.children && node.children.length > 0;
   constructor(
     private store: Store<fromStore.StoreState>,
     public breakpointObserver: BreakpointObserver,
-    public  translate: TranslateService
+    public  translate: TranslateService,
+    readonly linker: LinkService
     ) {
     translate.setDefaultLang('en');
     translate.use('en');
@@ -65,11 +67,15 @@ export class AppComponent implements OnDestroy, OnInit {
         if (state.matches) {this.mayorDisplay = true; this.deptDisplay = true;
         } else {this.mayorDisplay = false; this.deptDisplay = false; }
     });
-    routes.forEach(r => r.title
-      ? this.links.push({title: r.title, icon: r.icon, parentFragment: r.parentFragment, path: r.path,
-        children: r.children ? r.children.filter(route => route.title) : undefined, isChild: r.isChild })
-      : null
-      );
+    this.links = [
+      new Link('home', 'Home', false, 'house'),
+      new Link('data', 'Data Dashboard', false, 'assessment'),
+      new Link('reopening', 'The Road Back for NJ', false, 'info'),
+      new Link('stayingin', 'Staying In', 'stayingin', undefined, this.linker.stayingin),
+      new Link('programs', 'Our Programs', 'programs',  undefined, this.linker.programs),
+      new Link('faqs', 'FAQs', 'faqs',  undefined, this.linker.faqs),
+      new Link('resources', 'Other Resources', 'resources',  undefined, this.linker.resources)
+    ];
     this.store.dispatch(new fromStoreActions.ClearState());
     this.storeConfig = {
       sidebar: {

@@ -4,7 +4,7 @@
       <div class="newark-title" (click)="goTo('https://newarknj.gov')"><span>City of<br>Newark</span></div>
       <span class="toolbar-spacer right-icon">
         <span class="mayorText" [style.display]="mayorDisplay === true ? 'none' : 'inline'">Mayor Ras J. Baraka</span>
-        <app-sidebar-button [iconName]="'settings'" style="margin-right: 1.5rem"></app-sidebar-button>
+        <app-sidebar-button [iconName]="'language'" style="margin-right: 1.5rem"></app-sidebar-button>
         <app-sidebar-button [iconName]="'info'"></app-sidebar-button>
       </span>
 </mat-toolbar>
@@ -13,9 +13,9 @@
        (openedChange)="onOpenedChange($event)">
        <mat-tree [dataSource]="links" [treeControl]="treeControl" class="link-tree">
         <!-- This is the tree node template for leaf nodes -->
-        <mat-tree-node *matTreeNodeDef="let node" (click)="sidebar.close()" matTreeNodeToggle routerLinkActive="router-link-active" [routerLink]="(node.parentFragment === undefined) ? ['/', node.path] : [node.parentFragment, node.path]">
-          <li [ngClass]="node.isChild ? 'router-tree-child-node' : 'router-tree-node'" [translate]="'MENU.'+node.path">
-            <button mat-icon-button><mat-icon>{{ node.icon }}</mat-icon></button>
+        <mat-tree-node *matTreeNodeDef="let node" (click)="sidebar.close()" matTreeNodeToggle routerLinkActive="router-link-active" [routerLink]="(node.group === false) ? ['/', node.id] : ['/' + node.group, node.id]">
+          <li [ngClass]="node.isChild ? 'router-tree-child-node' : 'router-tree-node'" [translate]="'MENU.'+node.id">
+            <button mat-icon-button><mat-icon>{{node.icon}}</mat-icon></button>
             {{node.title}}
           </li>
         </mat-tree-node>
@@ -26,7 +26,7 @@
               <mat-icon class="mat-icon-rtl-mirror">
                 {{treeControl.isExpanded(node) ? 'expand_more' : 'chevron_right'}}
               </mat-icon>
-              <span [translate]="'MENU.' + node.path">{{node.title}}</span>
+              <span [translate]="'MENU.' + node.id">{{node.title}}</span>
             </button>
             <ul [class.tree-invisible]="!treeControl.isExpanded(node)">
               <ng-container matTreeNodeOutlet></ng-container>

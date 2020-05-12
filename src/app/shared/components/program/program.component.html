@@ -1,18 +1,18 @@
 <mat-toolbar>
   <div class="title">
-    <mat-icon style="margin-right: .5rem">{{ programPage.icon }}</mat-icon>
-    <h2>{{ programPage.title }}</h2>
+    <mat-icon style="margin-right: .5rem">{{ (programPage$ | async).icon }}</mat-icon>
+    <h2>{{ (programPage$ | async).title }}</h2>
   </div>
   <div class="subtitle">
-    <h3>{{ programPage.subtitle }}</h3>
+    <h3>{{ (programPage$ | async).subtitle }}</h3>
   </div>
 </mat-toolbar>
 <mat-list class="intro-cards">
   <mat-list-item class="intro-card">
     <mat-card>
-      <div class="card-body" [innerHtml]="programPage.introText"></div>
-      <mat-card-actions align="end" *ngIf="programPage.infoButtons">
-        <a mat-stroked-button *ngFor="let button of programPage.infoButtons"
+      <div class="card-body" [innerHtml]="(programPage$ | async).introText"></div>
+      <mat-card-actions align="end" *ngIf="(programPage$ | async).infoButtons">
+        <a mat-stroked-button *ngFor="let button of (programPage$ | async).infoButtons"
           [ngClass]="button.fullWidth === true ? 'full-width-button' : 'info-buttons'" type="button" target="_self" [href]="button.link">
           <span *ngIf="button.linkText; else standardText0">{{ button.linkText }}</span>
           <ng-template #standardText0>Apply</ng-template>
@@ -22,13 +22,13 @@
     </mat-card>
   </mat-list-item>
 </mat-list>
-<section class="content-intro" *ngFor="let purpose of programPage.purpose">
+<section class="content-intro" *ngFor="let purpose of (programPage$ | async).purpose">
   <h3>{{ purpose.header }}</h3>
   <h3 [innerHtml]='purpose.body'></h3>
   <mat-icon>arrow_downward</mat-icon>
 </section>
 <mat-list class="program-cards">
-  <mat-list-item class="program-card" *ngFor="let card of programPage.sections">
+  <mat-list-item class="program-card" *ngFor="let card of (programPage$ | async).sections">
     <mat-card>
       <mat-card-header *ngIf="card.header">
         <mat-card-title>{{ card.header }}</mat-card-title>

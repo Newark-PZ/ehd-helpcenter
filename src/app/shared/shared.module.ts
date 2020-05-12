@@ -15,14 +15,17 @@ import { MatTooltipModule } from '@angular/material/tooltip';
 import { MatDividerModule } from '@angular/material/divider';
 import { MatExpansionModule } from '@angular/material/expansion';
 import { MatTreeModule } from '@angular/material/tree';
+import { MatDialogModule } from '@angular/material/dialog';
 
 import * as fromComponents from './';
 import { FaqCatPipe } from './services/filter.pipe';
 import { TranslateModule } from '@ngx-translate/core';
+import { LinkService } from './services/link.service';
 
 const matModules = [
     MatButtonModule,
     MatCardModule,
+    MatDialogModule,
     MatDividerModule,
     MatExpansionModule,
     MatGridListModule,
@@ -55,6 +58,7 @@ const matModules = [
         RouterModule,
         matModules
     ],
+    providers: [LinkService],
     schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
 export class SharedModule { }

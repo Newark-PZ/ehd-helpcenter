@@ -11,9 +11,63 @@
 html,
 body {
     font-family: $nwk-font-family;
-    font-size: 14px;
     margin: 0 !important;
+    font-size: calc(6px + .33vw + .85vh) !important;
+    line-height: calc(1rem + 1.15vh) !important;
 }
+
+.mat-expansion-panel-content {
+  font: 500 1rem/2rem Segoe UI,sans-serif !important;
+}
+
+.mat-toolbar, .mat-toolbar h1, .mat-toolbar h2, .mat-toolbar h3, .mat-toolbar h4, .mat-toolbar h5, .mat-toolbar h6 {
+  font: 500 1.3rem/2rem Segoe UI, sans-serif !important;
+}
+.mat-button, .mat-fab, .mat-flat-button, .mat-icon-button, .mat-mini-fab, .mat-raised-button, .mat-stroked-button {
+  font-size: 1rem !important;
+}
+
+.mat-expansion-panel-header {
+  font-size: 1rem !important;
+}
+.mat-button-toggle, .mat-card {
+  line-height: 1.5rem !important;
+}
+.program-card {
+  margin: 0.33rem !important;
+  border-width: .1rem !important;
+  padding: .5rem !important;
+}
+.mat-toolbar-row, .mat-toolbar-single-row {
+  padding: 0 1rem !important;
+  height: 4.6rem !important;
+}
+.newark-title {
+  border-bottom: .2rem solid #fff;
+  padding: 1.3rem .85rem
+}
+.mat-raised-button {
+  min-width: 5rem !important;
+  line-height: 2.5rem !important;
+  padding: 0 1rem !important;
+  border-radius: .2rem !important;
+}
+.mat-expansion-panel-header {
+  padding: 0 2rem;
+  border-radius: .2rem;
+}
+.mat-expansion-panel-body {
+  padding: 0 1.5rem 1rem;
+}
+.mat-card {
+  padding: 1rem;
+  border-radius: .2rem;
+}
+.material-icons {
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+}
+
 
 .mat-sidenav-container {
     width: 100%;
@@ -64,26 +118,30 @@ body {
   display: flex;
   float: left;
   width: 40%;
-  height: 43vh;
-  margin: 0 2rem 0 2rem;
+  height: 46vh;
+  margin: 1.2rem;
   margin-top: 0px;
   border-radius: 0.2rem;
   box-shadow: .1rem .1rem .15rem gray;
   &.card {
-    width: 80%;
-    height: auto;
-    margin: auto;
-    float: unset;
-    box-shadow: none;
+    width: 100% !important;
+    height: auto !important;
+    float: unset !important;
+    box-shadow: none !important;
+    margin: auto !important;
+    max-width: 1000px !important;
+    object-fit: contain !important;
+    min-height: 80vh !important;
   }
   &.card-img {
     height: unset;
     max-height: 43vh;
   }
   &.logo {
-    background: seagreen;
+    background: white;
     object-fit: contain;
     padding: 3rem;
+    border: .5rem solid #fcd504;
   }
   &.logo-sm {
   width: 10rem;
@@ -94,10 +152,12 @@ body {
     display: flex;
     }
   @media screen and (max-width: 768px) {
-    width: 45%;
-    height: 25vh;
-    margin-right: 1rem;
-    margin-left: 0;
+    width: 100%;
+    max-height: 40vh;
+    object-fit: cover;
+    margin: 1rem auto !important;
+    float: none;
+    background: linear-gradient(to right, rgba(0,0,0,.25) 0%, rgba(260,260,260,.25) 25%, rgba(260,260,260,.5) 75%, rgba(0,0,0,.25) 100%);
     &.card {
       width: 100%;
     }

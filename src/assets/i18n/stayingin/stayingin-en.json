@@ -1,0 +1,53 @@
+[
+  {
+    "category": "Save Lives. Stay Safe. Reopen.",
+    "link": "newark-reopening-recovery",
+    "parent": "/stayingin",
+    "title": "Newark Reopening and Recovery Strikeforce",
+    "icon": "local_hospital",
+    "introContent": [{
+      "text":
+      "<h3><img class='intro-pic' src='assets/img/pagePhotos/Work from home.jpg'>Mayor Ras J. Baraka has announced the collaboration of city leaders to create policies and strategies on how to continue to move Newark forward when the COVID-19 threat lessens.</h3><p>Called the <b>Newark Reopening and Recovery Strikeforce</b>, the task force will build off the unprecedented cooperation between government, the private sector and organizations during the COVID-19 crisis and continue to work collectively to solve problems.</p>"
+    }],
+    "programs": [
+    {
+      "text": "<p>Mayor Baraka, a strong advocate of guaranteed income policies, is especially interested in ways to help people escape economic insecurity, and, as an educator, for ways to implement the newfound educational technology and resources for our children to use when they return to school and are no longer sheltered in place.</p><p><blockquote>The way we live, the way we do business, the way we teach and how we interact have changed because of this crisis,” the Mayor said.  “New industries will emerge and there will be opportunities to innovate that we must embark on. This is an opportune time to be innovative and accomplish things that we have never done before, and we can do this and much more through comprehensive planning and pragmatic solutions.</blockquote></p>"
+    },
+    {
+      "text": "<p>The co-chairs of the Newark Reopening and Recovery Strikeforce are City of Newark Chief of Staff Amiri Baraka, Jr. and Newark Alliance CEO Aisha Glover.  Committees within the strikeforce focus on public health, economic recovery, data collection and analysis, education, arts, community outreach and engagement, and communications (list of chairpersons below):</p><ul><li><b>Public Health Committee</b>, co-led by Dr. Perry N. Halkitis, <i>Dean of the Rutgers School of Public Health</i> and Michellene Davis, <i>Executive Vice President and Chief Corporate Affairs Officer of RWJBarnabas Health</i></li><li><b>Economic Recovery Committee</b>, led by Lata Reddy, <i>Senior Vice President of Diversity, Inclusion & Impact at Prudential</i></li><li><b>Data Collection and Analysis Committee</b>, led by Phil Scott, <i>Director of Engineering for the City of Newark</i></li><li><b>Education Committee</b>, led by Ron Chaluisán Batlle, <i>Director of the Newark Trust for Education</i></li><li><b>Arts, Recreation and Culture Committee</b>, led by Linda Harrison, <i>Director and CEO of Newark Museum</i></li><li><b>Community Outreach and Engagement Committee</b>, led by the Honorable Mildred C. Crump, <i>President of the City of Newark Municipal Council</i></li><li><b>Communications Committee</b>, led by Kay Sarlin Wright, <i>Director of Corporate Affairs and Communications for Audible</i></li></ul><p>Due to the city’s composition and needs, Mayor Baraka and the Newark Reopening and Recovery Strikeforce are taking direct action to adapt to the necessary challenges to prepare for life after COVID-19, including what recovery will mean to the community.</p>"
+    }
+  ]
+  },
+    {
+      "category": "Save Lives. Stay Safe.",
+      "link": "be-still-mondays",
+      "parent": "/stayingin",
+      "title": "Be Still Mondays",
+      "icon": "local_hospital",
+      "introContent": [{
+        "text": "<h3><img class='intro-pic' src='assets/img/pagePhotos/mondays.jpg'>Mayor Baraka has asked “everyone to stay home” for a nearly complete shut-down of the City of Newark on Mondays to bring attention to the severity of the COVID-19 spread in the community and help slow the spread. Be Still Mondays” will happen each week for the next month.</h3><h3>If you’re not a police officer, a fireman, a nurse or other frontline medical worker, stay home.</h3>"
+      }],
+      "programs": [{
+        "header": "Exceptions",
+        "text": "<p>The City of Newark’s “Be Still Mondays” is not an executive order, but it’s a request that discourages all businesses except for health, safety, and welfare emergency services to close. For instance, businesses that provide food and shelter for the homeless population may operate but the City is asking soup kitchens to limit their operations from 11:30 a.m. to 2 p.m.</p><p>The City would like businesses deemed “essential” by prior executive orders, such as food stores and pharmacies, to also close, as well as downtown corporations and manufacturing companies.</p><p>The idea is to show community-wide solidarity in the face of the aggressive COVID-19 virus that is especially ravaging black and brown communities nationwide.</p><p>Important: Click below for more information about the Rules",
+        "linkText": "NJ Stay at Home and Essential Business Rules",
+        "link": "https://covid19.nj.gov/faqs/nj-information/general-public/what-are-the-“stay-at-home”-rules-in-new-jersey-what-businesses-are-closed"
+      }]
+    },
+    {
+      "category": "Save Lives. Stay Safe.",
+      "link": "stay-at-home",
+      "parent": "/stayingin",
+      "title": "Shelter-in-Place Order",
+      "icon": "local_hospital",
+      "introContent": [{
+        "text":
+        "<h3><img class='intro-pic' src='assets/img/pagePhotos/shelter-in-place.jpg'>To protect residents against the spread of COVID-19, Mayor Ras J. Baraka has announced a strict City-wide “shelter-in-place” mandate and all-city quarantine that will be strictly enforced by law enforcement.</h3><p>People must stay home and not come out unless it’s an emergency.</p>"
+      }],
+      "programs": [
+      {
+        "header": "Exceptions",
+        "text": "<p>You can still go to the supermarket, local store for essentials, pharmacy, doctor, walk dogs, step out and get fresh air in front or back of home/doorstep/porch/terrace, or if an essential employee. Also, children need to be accompanied by an adult and people should only leave their homes in pairs.</p><p>While out, you must maintain the Center for Disease Control’s (CDC) recommendation of keeping six feet apart.</p><p><b>Residents are urged to call police if they see groups of people hanging out and violating this mandate.</b></p>"
+      }]
+    }
+]

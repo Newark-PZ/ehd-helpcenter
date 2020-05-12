@@ -1,70 +1,104 @@
 {
-  "LANG":"Mudar Idioma",
-  "MENU": {
-    "home": "Casa",
-    "help": "Ayuda",
-    "program": "Nuestros programas",
-    "small-business-grants": "Subvenciones de emergencia para pequeñas empresas",
-    "homeowner-relief": "Préstamos perdonables para propietarios de viviendas",
-    "arts-fund": "Fondo de Organización de Artistas y Artes",
-    "safe-housing": "Vivienda segura para personas sin hogar",
-    "commercial-prop": "Ayuda para propiedades comerciales",
-    "eviction-moratorium": "Moratoria de desalojo del inquilino",
-    "faqs": "Preguntas frecuentes",
-    "tenants": "Preguntas frecuentes de inquilinos",
-    "homeowners": "Preguntas frecuentes sobre alivio hipotecario y ejecución hipotecaria",
-    "resources": "Otros recursos",
-    "nj-small-business-help": "Ayuda financiera de NJ para pequeñas empresas",
-    "unemployment-benefits": "Elegibilidad para beneficios de desempleo",
-    "finding-essential-jobs": "Encontrar un trabajo esencial durante la crisis",
-    "federal-us-cares": "Paquete de estímulo federal 'US Cares'",
-    "nha-tenants": "Para inquilinos da Autoridade de Habitação",
-    "food-dist-school-lunches": "Distribuição de Alimentos e Almoços Escolares",
-    "invest-newark": "Invista Newark para empresas",
-    "health-info": "Informação de saúde",
-    "eligibility-benefits": "Elegibilidade para benefícios",
-    "recruiting-essential-workers": "Recrutamento de trabalhadores essenciais",
-    "measuring-covid-impact": "Medindo o impacto do COVID-19",
-    "stayingin": "Staying In",
-    "stay-at-home": "Stay at Home Orders",
-    "be-still-mondays": "Be Still Mondays"
-  },
-  "HOME": {
-    "title": "Ajuda abrangente da Covid-19 para residentes e pequenas empresas",
-    "mayor-blurb": "A cidade de Newark está investindo mais de US $ 6 milhões em uma lista crescente de iniciativas para manter os residentes mais afetados de Newark em segurança, saúde e segurança financeira. Juntamente com milhares de voluntários, estamos colaborando com os governos estaduais e federais, filantropos e organizações sem fins lucrativos, empresas e organizações religiosas para enfrentar essa emergência de saúde e continuar a prosperar quando estamos do outro lado.",
-    "content-intro": "Programas municipais, estaduais e federais para ajudá-lo.",
-    "buttons": {
-      "small-business-grants": "Subsídios de emergência para pequenas empresas de Newark",
-      "homeowner-relief": "Empréstimos perdoáveis ​​para proprietários e compradores de primeira viagem",
-      "arts-fund": "Fundo para organizações de artistas e artes",
-      "safe-housing": "Habitação segura para os sem-teto",
-      "commercial-prop": "Ajuda para inquilinos comerciais e proprietários",
-      "eviction-moratorium": "Moratória de Despejo de Inquilinos",
-      "tenants": "Perguntas frequentes sobre inquilino",
-      "homeowners": "Perguntas frequentes sobre alívio e encerramento de hipotecas",
-      "nj-small-business-help": "NJ Ajuda Financeira para Pequenas Empresas",
-      "unemployment-benefits": "Elegibilidade para benefícios de desemprego",
-      "finding-essential-jobs": "Encontrando um trabalho essencial durante a crise",
-      "federal-us-cares": "Ajuda do pacote federal de estímulo 'US CARES'",
-      "nha-tenants": "Para inquilinos da Autoridade de Habitação",
-      "food-dist-school-lunches": "Distribuição de Alimentos e Almoços Escolares",
-      "invest-newark": "Invista Newark para empresas",
-      "health-info": "Informação de saúde",
-      "eligibility-benefits": "Elegibilidade para benefícios",
-      "recruiting-essential-workers": "Recrutamento de trabalhadores essenciais",
-      "measuring-covid-impact": "Medindo o impacto do COVID-19",
-      "stay-at-home": "Stay at Home Orders",
-      "be-still-mondays": "Be Still Mondays"
-    }
-  },
-  "FAQ": {
-    "title": {
-      "tenants": "Perguntas frequentes sobre inquilinos de Newark",
-      "homeowners": "Perguntas freqüentes sobre alívio e execução hipotecária de proprietários"
+	"FAQ": {
+		"clickText": {
+			"homeowners": "Clique na categoria abaixo para saber mais sobre os problemas que afetam os proprietários",
+			"tenants": "Clique na categoria abaixo para saber mais sobre os problemas que afetam os inquilinos"
+		},
+		"title": {
+			"homeowners": "Perguntas freqüentes sobre alívio e execução hipotecária de proprietários",
+			"tenants": "Perguntas frequentes sobre inquilinos de Newark"
     },
-    "clickText": {
-      "tenants": "Clique na categoria abaixo para saber mais sobre os problemas que afetam os inquilinos",
-      "homeowners": "Clique na categoria abaixo para saber mais sobre os problemas que afetam os proprietários"
+    "blurb": {
+      "title": "Alívio e tolerância hipotecários",
+      "text": "Muitas instituições financeiras fornecerão tolerância a hipotecas e proteções financeiras para os nova-iorquinos que enfrentam dificuldades econômicas como resultado do COVID-19. Mais de 150 bancos federais e estaduais, cooperativas de crédito e funcionários estão participando. diretamente com o seu prestador de serviços de hipoteca para obter informações e solicitar alívio disponível. Espera-se que os credores que participam do programa de modificação voluntária da hipoteca do Estado estendam os termos desses empréstimos para permitir o reembolso no final do período do empréstimo. ",
+      "button": "Mais informações sobre alívio hipotecário"
     }
+	},
+	"HOME": {
+		"buttons": {
+			"arts-fund": "Fundo para organizações de artistas e artes",
+			"be-still-mondays": "Seja ainda segundas-feiras",
+			"commercial-prop": "Ajuda para inquilinos comerciais e proprietários",
+			"eligibility-benefits": "Elegibilidade para benefícios",
+			"eviction-moratorium": "Moratória de Despejo de Inquilinos",
+			"federal-ppp-sba-update": "Atualizações nos programas federais de PPP e SBA",
+			"federal-us-cares": "Ajuda do pacote federal de estímulo 'US CARES'",
+			"finding-essential-jobs": "Encontrando um trabalho essencial durante a crise",
+			"food-dist-school-lunches": "Distribuição de Alimentos e Almoços Escolares",
+			"health-info": "Informação de saúde",
+			"homeowner-relief": "Empréstimos perdoáveis ​​para proprietários e compradores de primeira viagem",
+			"homeowners": "Perguntas frequentes sobre alívio e encerramento de hipotecas",
+			"invest-newark": "Invista Newark para empresas",
+      "measuring-covid-impact": "Medindo o impacto do COVID-19",
+      "newark-municipal-court": "Tribunal Municipal de Newark aceita pagamentos on-line, audiências em vídeo",
+			"newark-news": "Mais notícias de Newark",
+			"nha-tenants": "Para inquilinos da Autoridade de Habitação",
+			"nj-small-business-help": "NJ Ajuda Financeira para Pequenas Empresas",
+			"nj-testing": "Como ser testado",
+			"non-profit": "Fundo de Emergência para organizações sem fins lucrativos 501 (c) 3",
+			"recruiting-essential-workers": "Recrutamento de trabalhadores essenciais",
+			"safe-housing": "Habitação segura para os sem-teto",
+			"self-employed": "Benefícios de Desemprego para Trabalhadores Independentes",
+			"small-business-grants": "Subsídios de emergência para pequenas empresas de Newark",
+			"stay-at-home": "Pedidos de estadia em casa",
+			"tenants": "Perguntas frequentes sobre inquilino",
+			"unemployment-benefits": "Elegibilidade para benefícios de desemprego",
+			"updated-list-essential": "Atualizações na lista de negócios essenciais autorizados a operar"
+		},
+		"content-intro": "Programas municipais, estaduais e federais para ajudá-lo.",
+		"mayor-blurb": "A cidade de Newark está investindo mais de US $ 6 milhões em uma lista crescente de iniciativas para manter os residentes mais afetados de Newark em segurança, saúde e segurança financeira. Juntamente com milhares de voluntários, estamos colaborando com os governos estaduais e federais, filantropos e organizações sem fins lucrativos, empresas e organizações religiosas para enfrentar essa emergência de saúde e continuar a prosperar quando estamos do outro lado.",
+    "title": "Ajuda abrangente da COVID-19 para residentes e pequenas empresas",
+    "categories": {
+      "Save": "Salvar vidas. Mantenha-se seguro.",
+      "Small": "Pequenas empresas",
+      "Housi": "Habitação",
+      "Emplo": "Emprego e bem-estar"
+    },
+    "fb": {
+      "title": "Atualizações diárias do Facebook do prefeito Baraka",
+      "text": "Todo dia da semana recebe as informações mais recentes do prefeito sobre como o COVID-19 está afetando Newark e como você pode manter você e sua família em segurança",
+      "event": "Dias da semana às 17:00"
+    },
+    "godown": "Programas municipais, estaduais e federais para ajudá-lo.",
+    "data": {
+      "title": "Newark COVID-19 pelos números",
+      "text": "Painel de dados em tempo real do impacto do COVID-19 por gênero, raça e divisão"
+    }
+	},
+	"LANG": "Mudar Idioma",
+	"MENU": {
+		"arts-fund": "Fondo de Organización de Artistas y Artes",
+		"be-still-mondays": "Seja ainda segundas-feiras",
+		"commercial-prop": "Ayuda para propiedades comerciales",
+		"data": "Painel de dados",
+		"eligibility-benefits": "Elegibilidade para benefícios",
+		"eviction-moratorium": "Moratoria de desalojo del inquilino",
+		"faqs": "Preguntas frecuentes",
+		"federal-ppp-sba-update": "Informações sobre programas federais de PPP e SBA",
+		"federal-us-cares": "Paquete de estímulo federal 'US Cares'",
+		"finding-essential-jobs": "Encontrar un trabajo esencial durante la crisis",
+		"food-dist-school-lunches": "Distribuição de Alimentos e Almoços Escolares",
+		"health-info": "Informação de saúde",
+		"help": "Ayuda",
+		"home": "Casa",
+		"homeowner-relief": "Préstamos perdonables para propietarios de viviendas",
+		"homeowners": "Preguntas frecuentes sobre alivio hipotecario y ejecución hipotecaria",
+		"invest-newark": "Invista Newark para empresas",
+		"measuring-covid-impact": "Medindo o impacto do COVID-19",
+		"nha-tenants": "Para inquilinos da Autoridade de Habitação",
+		"nj-small-business-help": "Ayuda financiera de NJ para pequeñas empresas",
+		"non-profit": "Fundo de Emergência para organizações sem fins lucrativos 501 (c) 3",
+		"programs": "Nuestros programas",
+		"recruiting-essential-workers": "Recrutamento de trabalhadores essenciais",
+		"resources": "Otros recursos",
+		"safe-housing": "Vivienda segura para personas sin hogar",
+		"small-business-grants": "Subvenciones de emergencia para pequeñas empresas",
+		"stay-at-home": "Pedidos de estadia em casa",
+		"stayingin": "Ficando",
+		"tenants": "Preguntas frecuentes de inquilinos",
+		"unemployment-benefits": "Elegibilidad para beneficios de desempleo"
+  },
+  "DATA": {
+    "title": "Informações em tempo real por gênero, raça e divisão de impacto do COVID-19"
   }
 }

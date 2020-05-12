@@ -6,6 +6,8 @@ import * as ConfigActions from './config/config.actions';
 import * as fromConfig from './config/config.reducers';
 import * as StoreActions from '../store/store.actions';
 import * as fromStore from '../store/store.reducers';
+import * as PageActions from './page/page.actions';
+import * as fromPage from './page/page.reducers';
 import * as RightSidebarActions from './sidebarRight/sidebar.actions';
 import * as fromRightSidebar from './sidebarRight/sidebar.reducers';
 import * as SidebarActions from './sidebar/sidebar.actions';
@@ -14,6 +16,7 @@ import * as i18nActions from './i18n/i18n.actions';
 import * as fromI18n from './i18n/i18n.reducers';
 import * as homePanelActions from './home-panels/home-panels.actions';
 import * as fromHomePanel from './home-panels/home-panels.reducers';
+import { ProgramPage, ResourcePage } from '../shared/interfaces/other.interface';
 
 @Injectable({
     providedIn: 'root'
@@ -24,6 +27,7 @@ export class StoreService {
     rightSidebarState$: Observable<fromRightSidebar.State>;
     i18nState$: Observable<fromI18n.State>;
     homePanelsState$: Observable<fromHomePanel.State>;
+    pageState$: Observable<fromPage.State>;
 
     constructor(private store: Store<fromStore.StoreState>) {
         this.configState$ = this.store.select(state => state.config);
@@ -31,6 +35,7 @@ export class StoreService {
         this.rightSidebarState$ = this.store.select(state => state.sidebarRight);
         this.i18nState$ = this.store.select(state => state.i18n);
         this.homePanelsState$ = this.store.select(state => state.homePanel);
+        this.pageState$ = this.store.select(state => state.page);
     }
     /**
      * Resets the Store State
@@ -107,5 +112,12 @@ export class StoreService {
     }
     setHomePanelToggle(toggle: boolean): void {
       this.store.dispatch(new homePanelActions.SetToggle(toggle));
+    }
+    // page state
+    setPageProgram(program: ProgramPage): void {
+      this.store.dispatch(new PageActions.SetPageProgramContent(program));
+    }
+    setPageResource(resource: ResourcePage): void {
+      this.store.dispatch(new PageActions.SetPageResourceContent(resource));
     }
 }

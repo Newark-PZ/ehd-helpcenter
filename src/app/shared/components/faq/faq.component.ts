@@ -2,9 +2,9 @@ import { Component, OnInit, Input } from '@angular/core';
 import { Store } from '@ngrx/store';
 import { FaqPage, TenantFaq, HomeownerFaq } from '../../interfaces/other.interface';
 import * as fromStore from '../../../store/store.reducers';
-import * as i18nActions from './../../../store/i18n/i18n.actions';
 import { Observable } from 'rxjs';
 import { take } from 'rxjs/operators';
+// import { PopulateService } from '../../services/populate.service';
 
 @Component({
   selector: 'app-faq',
@@ -18,7 +18,9 @@ export class FaqComponent implements OnInit {
   @Input() faqText: Array<TenantFaq | HomeownerFaq>;
   faqCategories = [];
   currentLanguage$: Observable<string>;
-  constructor(private store: Store<fromStore.StoreState>) {
+  constructor(
+    private store: Store<fromStore.StoreState>
+    ) {
     this.currentLanguage$ = this.store.select(state => state.i18n.currentLanguage);
   }
   ngOnInit(): void {
@@ -29,7 +31,7 @@ export class FaqComponent implements OnInit {
         .select(state => state.i18n.currentLanguage)
         .pipe(take(1))
         .subscribe(currentLang => {
-          if (currentLang) {
+          if (currentLang && this.faqPage.type) {
             this.getFaq(this.faqPage.type, lang);
             this.faqCategories = this.getCategories(this.faqPage.type, lang);
           }
@@ -38,37 +40,40 @@ export class FaqComponent implements OnInit {
   }
 
   getFaq(faq: string, language: string) {
-    fetch(`assets/data/${faq}-${language}.json`)
+    fetch(`assets/i18n/faqs/${faq.toLowerCase()}-${language}.json`)
       .then(response => response.json())
       .then((data) => this.faqText = data);
   }
+  // getFaq(faq: 'Tenant' | 'Homeowners', language?: string) {
+  //   this.getdb.getFaqs(faq).then(resp => this.faqText = resp as Array<HomeownerFaq | TenantFaq>).catch(err => console.error(err));
+  // }
   getCategories(faq: string, language: string): Array<string> {
     let categories = [];
     switch (language) {
       case 'fr':
-        (faq === 'tenants')
-        ? categories = ['Lockout', 'Audiences judiciaires',
+        (faq === 'Tenant')
+        ? categories = ['Lockout', 'Paiements de loyer', 'Audiences judiciaires',
           'Locataires subventionnés', 'Aide au logement supplémentaire',
           `Assistance d'urgence`, 'Électricité, gaz, eau']
         : categories = ['Déménagements', 'Audiences judiciaires'];
         break;
       case 'pr':
-        (faq === 'tenants')
-        ? categories = ['Bloqueio', 'Audiências em Tribunal',
+        (faq === 'Tenant')
+        ? categories = ['Bloqueio', 'Pagamentos de aluguel', 'Audiências em Tribunal',
         'Inquilinos subsidiados', 'Assistência Adicional à Habitação',
         'Assistência emergencial', 'Eletricidade, Gás, Água']
         : categories = ['Remoções', 'Audiências em Tribunal'];
         break;
       case 'sp':
-        (faq === 'tenants')
-        ? categories = ['Cierres patronales', 'Audiencias judiciales',
+        (faq === 'Tenant')
+        ? categories = ['Cierres patronales', 'Pago de renta', 'Audiencias judiciales',
         'Inquilinos subsidiados', 'Asistencia de vivienda adicional',
         'Asistencia de emergencia', 'Electricidad, Gas, Agua']
         : categories = ['Mudanzas', 'Audiencias judiciales'];
         break;
       default:
-        (faq === 'tenants')
-        ? categories = ['Lockout', 'Court Hearings',
+        (faq === 'Tenant')
+        ? categories = ['Lockout', 'Rent Payments', 'Court Hearings',
           'Subsidized Tenants', 'Additional Housing Assistance',
           'Emergency Assistance', 'Electricity, Gas, Water'
         ]
@@ -84,5 +89,8 @@ export class FaqComponent implements OnInit {
     setTimeout(() => {
       window.scrollBy({top: -100, left: 0, behavior: 'smooth'});
       }, 500);
+  }
+  goTo(url?: string): void {
+    if (url) {window.open(url, '_self'); }
   }
 }

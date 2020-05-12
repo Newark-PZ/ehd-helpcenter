@@ -1,0 +1,61 @@
+[
+	{
+		"answer": "<b> No </b>. El 19 de marzo de 2020, el gobernador de Nueva Jersey, Philip Murphy, emitió <a href='https://nj.gov/infobank/eo/056murphy/pdf/EO-106.pdf'> Orden ejecutiva 106 </a>, que inmediatamente suspende desalojos y mudanzas en todo el estado. Esto se llama una \"moratoria de desalojo\" y significa que, excepto en circunstancias excepcionales, <b> ningún propietario puede ser removido de su hogar como resultado de un proceso de ejecución hipotecaria en este momento <b>. No puede ser eliminado incluso si se ha introducido un <a href='https://www.lsnjlaw.org/Housing/Home-Ownership/Foreclosure/Pages/Foreclosure-Process.aspx'> juicio final de ejecución hipotecaria </a> y <a href='https://www.lsnjlaw.org/Housing/Home-Ownership/Foreclosure/Pages/Foreclosure-Process.aspx'> se ha realizado la venta de un sheriff </a> de su propiedad.",
+		"category": "Mudanzas",
+		"info": "La moratoria de desalojo <b> no </b> afecta los procedimientos judiciales; en cambio, evita las mudanzas. Más información a continuación.",
+		"name": "Removals01",
+		"question": "¿Me pueden sacar de mi casa como resultado de un proceso de ejecución hipotecaria durante la emergencia de COVID-19?"
+	},
+	{
+		"answer": "La moratoria de desalojo comenzó el 19 de marzo de 2020, y durará hasta dos meses después de que el gobernador Murphy declare el final de la crisis de salud de COVID-19, a menos que el gobernador emita otra orden ejecutiva para terminarla antes.",
+		"category": "Mudanzas",
+		"name": "Removals02",
+		"question": "¿Cuánto durará la moratoria de desalojo?"
+	},
+	{
+		"answer": "<p> <b> Sí. </b> Tendrá que hacer los pagos de su hipoteca tarde o temprano. Sin embargo, si necesita más tiempo, hay ayuda disponible. </p> <p> Si tiene una hipoteca respaldada por el gobierno federal, tiene derecho a pedirle a su administrador hipotecario indulgencia (una pausa en los pagos) para aliviar las dificultades financieras derivadas de La pandemia. La <a href='https://www.congress.gov/116/bills/hr748/BILLS-116hr748eas.pdf'> Ley CARES </a> recientemente adoptada requiere que los administradores de hipotecas respaldadas por el gobierno federal le den 180 Período de gracia de un día para los pagos. El prestatario puede solicitar una extensión de hasta 180 días. Durante el período de gracia, el administrador no puede cobrarle honorarios, multas o intereses distintos de los que debería si hubiera pagado a tiempo. </p> <p> Además, el gobernador Murphy ha anunciado algunos <a href='https://nj.gov/governor/news/news/562020/approved/20200328c.shtml'> alivio importante para propietarios de viviendas con hipotecas </a>, incluidos aquellos que no están respaldados por el gobierno federal. Si contacta a su administrador hipotecario, puede ser elegible para: (1) un período de gracia de 90 días para pagos de hipoteca; (2) garantía de que el administrador no informará los pagos atrasados ​​o atrasados ​​durante este período a las agencias de crédito; (3) una moratoria de 60 días para el inicio de ventas o desalojos por parte de los administradores; y (4) alivio de ciertas tarifas y cargos por al menos 90 días. </p>",
+		"category": "Mudanzas",
+		"info": "Para obtener más información, consulte las <a href='https://www.state.nj.us/dobi/covid/mortgagerelief.html'> Preguntas frecuentes </a> emitidas por el estado. También puede consultar el sitio web de <a href='https://njhousing.gov/foreclosure'> Agencia de Financiamiento de Hipotecas y Vivienda de Nueva Jersey </a> para obtener actualizaciones sobre la ayuda disponible y acceder a una lista de asesores por condado.",
+		"name": "Removals03",
+		"question": "¿Todavía necesito pagar mi hipoteca?"
+	},
+	{
+		"answer": "<b> Sí </b>. Cualquier pago que pierda ahora formará parte de lo que debe. De una forma u otra, probablemente tendrá que pagar más tarde lo que no pueda pagar ahora, o finalmente enfrentará una posible ejecución hipotecaria y expulsión de su hogar. Sin embargo, el gobernador Murphy ha <a href='https://nj.gov/governor/news/news/562020/approved/20200328c.shtml'> anunció un alivio importante </a> para los propietarios de viviendas con hipotecas. Si contacta a su prestamista hipotecario, puede ser elegible para: (1) un período de gracia de 90 días para los pagos de la hipoteca (lo que significa que puede posponer el pago de hasta 90 días); (2) garantía de que el prestamista no informará los pagos atrasados ​​o atrasados ​​durante este período a las agencias de crédito; (3) una moratoria de 60 días sobre el inicio por parte de los prestamistas de ventas de ejecución hipotecaria o desalojos; y (4) alivio de ciertas tarifas y cargos por al menos 90 días.",
+		"category": "Mudanzas",
+		"info": "Para obtener más información, consulte las <a href='https://www.state.nj.us/dobi/covid/mortgagerelief.html'> Preguntas frecuentes </a> emitidas por el estado. También puede consultar el sitio web de <a href='https://njhousing.gov/foreclosure'> Agencia de Financiamiento de Hipotecas y Vivienda de Nueva Jersey </a> para obtener actualizaciones sobre la ayuda disponible.",
+		"name": "Removals04",
+		"question": "Si no puedo pagar mi hipoteca y me atraso, ¿tendré que pagar el dinero?"
+	},
+	{
+		"answer": "<b> No si tiene una hipoteca respaldada por el gobierno federal. </b> La Ley CARES federal establece que es ilegal que el administrador de un préstamo hipotecario respaldado por el gobierno federal comience o avance con los procedimientos de ejecución hipotecaria durante sesenta días a partir del 18 de marzo (hasta el 17 de mayo ) Para actualizaciones, visite el sitio web de la <a href='https://nlihc.org/coronavirus-and-housing-homelessness'> National Low Income Housing Housing Coalition </a>.",
+		"category": "Audiencias judiciales",
+		"info": "<b> Sí, si no tiene una hipoteca respaldada por el gobierno federal. </b> El estado <a href='https://nj.gov/infobank/eo/056murphy/pdf/EO-106.pdf'> Orden ejecutiva </a> y <a href='https://www.njleg.state.nj.us/2020/Bills/A4000/3859_I1.PDF'> legislación relacionada </a> establecen específicamente que los prestamistas pueden iniciar acciones de ejecución hipotecaria durante la hora en que la orden está vigente. Entendemos que el Tribunal Superior <a href='https://www.njcourts.gov/courts/superior/foreclosure.html?lang=eng'> Oficina de Ejecución Hipotecaria </a> todavía acepta nuevos casos y presentaciones electrónicas en casos existentes Bajo <a href='https://nj.gov/governor/news/news/562020/approved/20200328c.shtml'> un acuerdo con el estado </a>, sin embargo, muchos prestamistas han suspendido las ventas de ejecuciones hipotecarias y los desalojos hasta 27 de mayo (60 días a partir del 28 de marzo).",
+		"name": "Court01",
+		"question": "¿Pueden los prestamistas comenzar los procedimientos de ejecución hipotecaria durante este período?"
+	},
+	{
+		"answer": "<b> Eso depende. </b> La Oficina de Ejecución Hipotecaria administra partes de la mayoría de los casos de ejecución hipotecaria y gestiona la mayor parte del proceso cuando una ejecución hipotecaria no está impugnada, lo que significa que el propietario no presentó una respuesta a la queja. Bajo una <a href='https://njcourts.gov/notices/2020/n200424a.pdf'> orden del 24 de abril </a> emitida por la Corte Suprema de Nueva Jersey, sin embargo, la Oficina de Ejecución Hipotecaria no revisará ni actuará sobre las mociones o sentencias que recibió después del 1 de marzo de 2020. Por lo tanto, si el prestamista solicita a la Oficina de Ejecución Hipotecaria después del 1 de marzo que presente un juicio final contra el propietario de la vivienda o busque otras medidas para adelantar la ejecución hipotecaria, la Oficina mantendrá esas solicitudes por ahora. La orden de los Tribunales Supremos seguirá vigente hasta que la Corte la levante. Consulte el <a href='https://www.njcourts.gov/public/covid19.html'> sitio web de los Tribunales de Nueva Jersey </a> para obtener actualizaciones sobre las órdenes judiciales que afectan cómo y cuándo procederán los casos de ejecución hipotecaria no disputados. Si tiene preguntas sobre un caso de ejecución hipotecaria no disputado que está pendiente, también puede intentar comunicarse con la Oficina de Ejecución Hipotecaria al <a href='tel:6094216100'> 609-421-6100 </a> o <a href='mailto: SCCO.Mailbox@njcourts.gov'> Scco.Mailbox@njcourts.gov </a>.",
+		"category": "Audiencias judiciales",
+		"info": "Además, la Ley federal CARES establece que es ilegal que el administrador de un préstamo hipotecario respaldado por el gobierno federal lo desaloje por 60 días a partir del 18 de marzo (en otras palabras, hasta el 17 de mayo). Este período podría extenderse. La <a href='https://nlihc.org/coronavirus-and-housing-homelessness'> National Low Income Housing Coalition <a> está rastreando los desarrollos federales.",
+		"name": "Court02",
+		"question": "¿La Oficina de Ejecución Hipotecaria procesará casos durante este período?"
+	},
+	{
+		"answer": "<b> Sí. </b> Hasta la fecha, no hay orden de suspender las audiencias judiciales en los casos de ejecución hipotecaria controvertidos (en los que el propietario respondió a la queja). Sin embargo, tenga en cuenta que las apariciones en persona se permiten solo en emergencias bajo <a href='https://njcourts.gov/notices/2020/n200424a.pdf'> esta orden de la Corte Suprema </a>. Hasta que el Tribunal levante o modifique la orden, se llevarán a cabo audiencias, conferencias y argumentos por video o teléfono. Si tiene alguna pregunta, consulte con el tribunal donde está pendiente el caso. Consulte también el <a href='https://www.njcourts.gov/public/covid19.html'> sitio web de los Tribunales de Nueva Jersey </a> para obtener actualizaciones sobre cómo y cuándo se llevarán a cabo los procedimientos.",
+		"category": "Audiencias judiciales",
+		"name": "Court03",
+		"question": "¿Los tribunales escucharán los casos de ejecución hipotecaria durante este período?"
+	},
+	{
+		"answer": "<b> No. </b> <a href='https://www.bpu.state.nj.us/bpu/newsroom/2020/approved/20200313.html'> servicios públicos de electricidad y gas de Nueva Jersey </a> han suspendido voluntariamente los cortes de servicios públicos durante la crisis. Consulte <a href='https://www.bpu.state.nj.us/bpu/newsroom/index.shtml'> sitio web de la Junta de Servicios Públicos de Nueva Jersey </a> para obtener actualizaciones.",
+		"category": "Audiencias judiciales",
+		"name": "Court04",
+		"question": "¿Se pueden cerrar mis utilidades durante la crisis de COVID-19?"
+	},
+	{
+		"answer": "<b> Sí. </b> Todavía tiene que pagar sus facturas de electricidad, gas y agua. Si no puede pagar ahora, tendrá que pagar más tarde. Las empresas de servicios públicos y de agua no están cancelando deudas; solo están posponiendo los cierres por el momento. DCA ofrece a los propietarios de bajos ingresos <a href='https://www.nj.gov/dca/divisions/dhcr/offices/hea.html'> asistencia con algunas facturas de servicios públicos </a>",
+		"category": "Audiencias judiciales",
+		"name": "Court05",
+		"question": "¿Todavía tengo que pagar los servicios públicos y el agua?"
+	}
+]

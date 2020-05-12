@@ -2,6 +2,7 @@ import { ActionReducer, ActionReducerMap } from '@ngrx/store';
 
 import * as fromConfig from './config/config.reducers';
 import * as StoreActions from './store.actions';
+import * as fromPage from './page/page.reducers';
 import * as fromSidebar from './sidebar/sidebar.reducers';
 import * as fromSidebarRight from './sidebarRight/sidebar.reducers';
 import * as fromI18n from './i18n/i18n.reducers';
@@ -13,6 +14,7 @@ export interface StoreState {
   sidebarRight: fromSidebarRight.State;
   i18n: fromI18n.State;
   homePanel: fromHomePanels.State;
+  page: fromPage.State;
 }
 
 export const StoreReducers: ActionReducerMap<StoreState> = {
@@ -20,7 +22,8 @@ export const StoreReducers: ActionReducerMap<StoreState> = {
   sidebar: fromSidebar.sidebarReducer,
   sidebarRight: fromSidebarRight.sidebarRightReducer,
   i18n: fromI18n.i18nReducer,
-  homePanel: fromHomePanels.HomePanelReducer
+  homePanel: fromHomePanels.HomePanelReducer,
+  page: fromPage.pageReducer
 };
 
 export function clearState(

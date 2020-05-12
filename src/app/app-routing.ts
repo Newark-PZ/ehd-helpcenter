@@ -1,236 +1,108 @@
 import * as pageComponents from './pages';
-import { SidebarLink } from './shared/interfaces/other.interface';
-import { RedirectComponent } from './shared';
-import { HomeComponent } from './pages';
+import { Routes } from '@angular/router';
+import { ResourceComponent, ProgramComponent, FaqComponent, StayinginComponent } from './shared';
+import { HomeownersFAQComponent, TenantFAQComponent } from './pages';
 
-export const routes: Array<SidebarLink> = [
+export const routes: Routes = [
   {
     path: '',
     pathMatch: 'full',
     redirectTo: 'home'
   },
   {
-    component: pageComponents.HomeComponent,
-    path: 'home',
-    icon: 'home',
-    title: 'Home',
-    isChild: false
+    path: 'home/',
+    pathMatch: 'full',
+    redirectTo: '/home'
   },
   {
-    component: pageComponents.HelpComponent,
-    path: 'help',
-    icon: 'help',
-    isChild: false
+    component: pageComponents.HomeComponent,
+    path: 'home',
+    data: {
+      icon: 'home',
+      title: 'Home'
+    }
+  },
+  {
+    component: pageComponents.DataComponent,
+    path: 'data',
+    data: {
+      icon: 'assessment',
+      title: 'Data Dashboard'
+    }
+  },
+  {
+    component: pageComponents.DocViewComponent,
+    path: 'reopening',
+    data: {
+      icon: 'assessment',
+      title: 'NJ Reopening Principles'
+    }
   },
   {
     path: 'stayingin',
-    title: 'Staying In',
     children: [
       {
+        component: StayinginComponent,
         path: '',
-        pathMatch: 'full',
-        redirectTo: 'stay-at-home'
+        data: {
+          title: 'Staying In'
+        }
       },
       {
-        component: pageComponents.StayHomeComponent,
-        path: 'stay-at-home',
-        parentFragment: '/stayingin',
-        icon: 'subdirectory_arrow_right',
-        title: 'Stay at Home Orders',
-        isChild: true
-      },
-      {
-        component: pageComponents.MondaysComponent,
-        path: 'be-still-mondays',
-        parentFragment: '/stayingin',
-        icon: 'subdirectory_arrow_right',
-        title: 'Be-Still Mondays',
-        isChild: true
+        component: StayinginComponent,
+        path: ':id'
       }
     ]
   },
   {
-    path: 'program',
-    title: 'Our Programs',
+    path: 'programs',
     children: [
       {
+        component: ProgramComponent,
         path: '',
-        pathMatch: 'full',
-        redirectTo: 'small-business-grants'
+        data: {
+          title: 'Our Programs'
+        }
       },
       {
-        component: pageComponents.SmallBisGrantsComponent,
-        path: 'small-business-grants',
-        parentFragment: '/program',
-        icon: 'subdirectory_arrow_right',
-        title: 'Small Business Emergency Grants',
-        isChild: true
-      },
-      {
-        component: pageComponents.HomeownerLoansComponent,
-        path: 'homeowner-relief',
-        parentFragment: '/program',
-        icon: 'subdirectory_arrow_right',
-        title: 'Forgivable Loans for Homeowners',
-        isChild: true,
-      },
-      {
-        component: pageComponents.ArtsFundComponent,
-        path: 'arts-fund',
-        parentFragment: '/program',
-        icon: 'subdirectory_arrow_right',
-        title: 'Artists & Arts Organization Fund',
-        isChild: true
-      },
-      {
-        component: pageComponents.SafeHousingComponent,
-        path: 'safe-housing',
-        parentFragment: '/program',
-        icon: 'subdirectory_arrow_right',
-        title: 'Safe Housing for Homeless',
-        isChild: true
-      },
-      {
-        component: pageComponents.CommercialPropComponent,
-        path: 'commercial-prop',
-        parentFragment: '/program',
-        icon: 'subdirectory_arrow_right',
-        title: 'Aid for Commercial Properties',
-        isChild: true
-      },
-      {
-        component: pageComponents.TenantEvictionsComponent,
-        path: 'eviction-moratorium',
-        parentFragment: '/program',
-        icon: 'subdirectory_arrow_right',
-        title: 'Tenant Eviction Moratorium',
-        isChild: true
-      },
-      {
-        component: pageComponents.RecruitingComponent,
-        path: 'recruiting-essential-workers',
-        parentFragment: '/program',
-        icon: 'subdirectory_arrow_right',
-        title: 'Recruiting Essential Workers',
-        isChild: true
-      },
-      {
-        component: pageComponents.MeasuringImpactComponent,
-        path: 'measuring-covid-impact',
-        parentFragment: '/program',
-        icon: 'subdirectory_arrow_right',
-        title: 'Measuring COVID-19 Impact',
-        isChild: true
+        component: ProgramComponent,
+        path: ':id'
       }
     ]
   },
   {
     path: 'faqs',
-    title: 'FAQs',
     children: [
       {
+        component: FaqComponent,
         path: '',
-        pathMatch: 'full',
-        redirectTo: 'tenants'
+        data: {
+          title: 'FAQs',
+        }
       },
       {
-        component: pageComponents.TenantFAQComponent,
-        path: 'tenants',
-        parentFragment: '/faqs',
-        icon: 'subdirectory_arrow_right',
-        title: 'Tenant FAQS',
-        isChild: true
+        component: HomeownersFAQComponent,
+        path: 'homeowners'
       },
       {
-        component: pageComponents.HomeownersFAQComponent,
-        path: 'homeowners',
-        parentFragment: '/faqs',
-        icon: 'subdirectory_arrow_right',
-        title: 'Mortgage Relief & Foreclosure FAQ',
-        isChild: true
+        component: TenantFAQComponent,
+        path: 'tenants'
       }
     ]
   },
   {
     path: 'resources',
-    title: 'Other Resources',
     children: [
       {
+        component: ResourceComponent,
         path: '',
-        pathMatch: 'full',
-        redirectTo: 'nj-small-business-help'
+        data: {
+          title: 'Other Resources',
+        }
       },
       {
-        component: pageComponents.NJSupportComponent,
-        path: 'nj-small-business-help',
-        parentFragment: '/resources',
-        icon: 'subdirectory_arrow_right',
-        title: 'NJ Financial Help for Small Business',
-        isChild: true
-      },
-      {
-        component: pageComponents.UnemploymentBenefitsComponent,
-        path: 'unemployment-benefits',
-        parentFragment: '/resources',
-        icon: 'subdirectory_arrow_right',
-        title: 'Eligibility for Unemployment Benefits',
-        isChild: true
-      },
-      {
-        component: pageComponents.EssentialJobsComponent,
-        path: 'finding-essential-jobs',
-        parentFragment: '/resources',
-        icon: 'subdirectory_arrow_right',
-        title: 'Finding an Essential Job During Crisis',
-        isChild: true
-      },
-      {
-        component: pageComponents.FederalUSCaresComponent,
-        path: 'federal-us-cares',
-        parentFragment: '/resources',
-        icon: 'subdirectory_arrow_right',
-        title: 'Federal “US Cares” Stimulus Package',
-        isChild: true
-      },
-      {
-        component: pageComponents.NHAComponent,
-        path: 'nha-tenants',
-        parentFragment: '/resources',
-        icon: 'subdirectory_arrow_right',
-        title: 'Info for NHA Tenants',
-        isChild: true
-      },
-      {
-        component: pageComponents.FoodComponent,
-        path: 'food-dist-school-lunches',
-        parentFragment: '/resources',
-        icon: 'subdirectory_arrow_right',
-        title: 'Food Distribution & School Lunches',
-        isChild: true
-      },
-      {
-        component: pageComponents.HealthComponent,
-        path: 'health-info',
-        parentFragment: '/resources',
-        icon: 'subdirectory_arrow_right',
-        title: 'Health Information',
-        isChild: true
-      },
-      {
-        component: pageComponents.EligibilityComponent,
-        path: 'eligibility-benefits',
-        parentFragment: '/resources',
-        icon: 'subdirectory_arrow_right',
-        title: 'Benefit Eligibility Chart',
-        isChild: true
-      },
-      {
-        component: pageComponents.InvestNWKComponent,
-        path: 'invest-newark',
-        parentFragment: '/resources',
-        icon: 'subdirectory_arrow_right',
-        title: 'Invest Newark for Businesses',
-        isChild: true
+        component: ResourceComponent,
+        path: ':id'
       }
     ]
     },

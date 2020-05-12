@@ -10,8 +10,13 @@ export class FaqCatPipe implements PipeTransform {
     if (!items || !filter) {
         return items;
     }
+
     // filter items array, items which match and return true will be
     // kept, false will be filtered out
-    return items.filter(item => item.category.indexOf(filter) !== -1);
-}
+    return items.filter(
+        item => (item as any).category
+        ? (item as HomeCard).category.indexOf(filter) !== -1
+        : (item as TenantFaq | HomeownerFaq).Categories.indexOf(filter) !== -1
+        );
+    }
 }

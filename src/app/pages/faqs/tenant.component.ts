@@ -8,7 +8,7 @@ import {FaqPage} from '../../shared/interfaces/other.interface';
 
 export class TenantFAQComponent {
   faqPage: FaqPage = {
-    type: 'tenants',
+    type: 'Tenant',
     icon: 'people',
     title: 'Newark Tenants FAQs'
   };

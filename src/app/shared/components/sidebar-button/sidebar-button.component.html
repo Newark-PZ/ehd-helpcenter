@@ -6,13 +6,10 @@
   <mat-icon [@sidebarButtonState]="(sidebarRightOpened$ | async) ? 'closed' : 'opened'">
     {{(sidebarRightOpened$ | async) ? 'highlight_off' : 'info'}}</mat-icon>
 </button>
-<button *ngIf="iconName === 'settings'" color="primary" @shownState
-  [matMenuTriggerFor]="menu" aria-label="Opens Settings">
-  <mat-icon>settings</mat-icon>
+<button *ngIf="iconName === 'language'" color="primary" @shownState
+  [matMenuTriggerFor]="languages" aria-label="Opens Language Settings">
+  <mat-icon>language</mat-icon>
 </button>
-<mat-menu #menu="matMenu">
-    <button mat-menu-item [matMenuTriggerFor]="languages" [translate]="'LANG'">Change Language</button>
-</mat-menu>
 <mat-menu #languages="matMenu">
   <button mat-menu-item (click)="switchLanguage('en')">English</button>
   <button mat-menu-item (click)="switchLanguage('sp')">Español</button>

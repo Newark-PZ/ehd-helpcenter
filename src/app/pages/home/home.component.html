@@ -1,7 +1,7 @@
 <section class="splash">
   <div class="splash-header">
     <span class="toolbar-spacer left-space"></span>
-    <span class="splash-title"><h2  [translate]="'HOME.title'">COVID-19 Comprehensive Help for Residents and Small Businesses</h2></span>
+    <span class="splash-title"><h2  [translate]="'HOME.title'"></h2></span>
     <span class="toolbar-spacer right-space"></span>
   </div>
   <div class="splash-body">
@@ -19,16 +19,21 @@
   </div>
 </section>
 <section class="content-intro">
-  <div class="content-intro left">
-    <h4>Daily Facebook Live Updates from Mayor Baraka</h4>
-    <p>Every Weekday get the latest from the Mayor on how COVID-19 is affecting Newark and how you can keep you and your family safe.</p>
-    <h4>Weekdays @ 5pm on
+  <div class="left">
+    <h4 [translate]="'HOME.fb.title'">Daily Facebook Live Updates from Mayor Baraka</h4>
+    <p [translate]="'HOME.fb.text'">Every Weekday get the latest from the Mayor on how COVID-19 is affecting Newark and how you can keep you and your family safe.</p>
+    <h4 [translate]="'HOME.fb.event'">Weekdays @ 5pm
       <a mat-raised-button href="https://facebook.com/cityofnewark"><img src="assets/img/logos/logo_fb_black.png">cityofnewark</a>
     </h4>
   </div>
-  <div class="content-intro right">
-    <h3  [translate]="'HOME.content-intro'">City, State and Federal Programs to Help You.</h3>
+  <div class="middle">
+    <h3 [translate]="'HOME.godown'">City, State and Federal Programs to Help You.</h3>
     <mat-icon>arrow_downward</mat-icon>
+  </div>
+  <div class="right" [routerLink]="['/','data']">
+    <h4 [translate]="'HOME.data.title'">Newark COVID-19 by the Numbers</h4>
+    <p class="hide-below-md" [translate]="'HOME.data.text'">Real-time Data Dashboard of COVID-19 Impact by Gender, Race, and Ward.</p>
+    <img class="mat-icon" src="../../../assets/img/pagePhotos/exit_to_app_assessment-black.svg">
   </div>
 </section>
 <mat-list class="program-cats">
@@ -37,16 +42,16 @@
       <mat-expansion-panel *ngFor="let cat of categories" [expanded]="expansionOpen$ | async" [hideToggle]="expansionDisabled$ | async">
         <mat-expansion-panel-header>
           <mat-panel-title>
-            <h3>
+            <h3 [translate]="'HOME.categories.' + cat.slice(0,5).trim()">
               {{ cat }}
             </h3>
           </mat-panel-title>
         </mat-expansion-panel-header>
         <div class="program-cards">
-        <mat-card  [routerLink]="[card.parent, card.link]" class="program-card" *ngFor="let card of cards | FaqCat:filterCat(cat)">
+        <mat-card [ngStyle]="card.style ? card.style : ''" [routerLink]="[card.parent, card.link]" (click)="goTo(card.extUrl)" class="program-card" *ngFor="let card of cards | FaqCat:filterCat(cat)">
           <div class="button-card">
             <mat-icon style="margin-right: .5rem">{{ card.icon }}</mat-icon>
-            <h4 style="margin: auto" [translate]="'HOME.buttons.' + card.link">{{ card.title }}</h4>
+            <h4 style="margin: auto" [translate]="'HOME.buttons.' + (card.link ? card.link : card.id)">{{ card.title }}</h4>
             <mat-icon style="margin-left: .5rem">exit_to_app</mat-icon>
           </div>
           <mat-card-content>

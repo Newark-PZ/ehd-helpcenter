@@ -6,11 +6,10 @@
   font-size: 16px;
 }
 .mat-toolbar {
-  h2 {font-weight: 600;}
-  h3 {font-size: 1.2rem; }
-  .mat-icon {margin-top: .25rem;}
+  h2 {font-weight: 600; font-size: 1.5rem !important;}
+  .mat-icon {margin-top: .25rem; font-size: 2rem !important;}
   .title {display: flex; height: 2.5rem;}
-  padding: .5rem 0 .5rem 15vw !important;
+  padding: .5rem 0 .5rem 12.5rem !important;
   align-items: flex-start;
   background: linear-gradient(rgba(183, 28, 28, 0.15) 0%, white 100%);
   @media screen and (max-width: 769px) {
@@ -52,9 +51,36 @@ margin: .5rem;
 .categories-card {
   background-color: black;
   width: 90%;
-  margin: .5rem auto;
+  margin: 2rem auto 0 auto;
   .mat-card-subtitle {color: white; -webkit-text-fill-color: white; }
   .categories {display: flex; flex-wrap: wrap; button {border-color: white; margin: .25rem .5rem}}
 }
 .categories-item {flex: 1 1 33% !important;}
 .page-bottom {height: 5rem;margin-top: 2rem; width: 100%; display: flex; background-color: whitesmoke;}
+
+.content-intro {
+  color: white;
+  -webkit-text-fill-color: white;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #0d47a1;
+  align-items: center;
+  text-align: left;
+  height: auto;
+  padding: 2vh 5vw;
+  font-size: 1.1rem !important;
+  h4 {margin: auto auto 1.5rem 0; font-size: 1.4rem !important}
+  p {margin: .5rem 0; line-height: normal;}
+  button {
+    border-color: white;
+    font-size: 1rem !important;
+    flex: 1 1 auto;
+    margin: auto 0 auto auto;
+    .mat-icon {line-height: 1.25rem !important;}
+    .mat-button-wrapper {
+    padding: 0 .5rem !important;
+    height: 2rem !important;
+    }
+  }
+}

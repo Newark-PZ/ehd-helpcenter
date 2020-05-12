@@ -1,0 +1,184 @@
+[{
+		"category": "Emprego e Bem-Estar",
+		"icon": "person",
+		"link": "eligibility-benefits",
+		"parent": "/resources",
+		"programs": [{
+				"link": "https://nj.gov/labor",
+				"linkText": "Saber mais",
+				"text": "<img class='intro-pic card' src='assets/img/pagePhotos/Covid-19 scenarios.jpg' #img (click)='expandImg(img)'>"
+			}],
+		"sectionHeader": "O Departamento do Trabalho de Nova Jersey preparou este gráfico com informações sobre os benefícios para as pessoas com diversas situações relacionadas ao Covid-19. Isso inclui licença médica, seguro desemprego, seguro de invalidez/licença familiar e remuneração dos trabalhadores.",
+		"title": "Cenários e benefícios COVID-19 disponíveis"
+	},{
+		"category": "Emprego e Bem-Estar",
+		"icon": "person",
+		"introContent": [{
+				"link": "https://jobs.covid19.nj.gov/index.html?Facets.filterbox.filter0=%5B%5D&Facets.filterbox.filter1=%5B%5D",
+				"linkText": "Link para o Portal de Empregos",
+				"text": "<p> <img class='intro-pic' src='assets/img/pagePhotos/Encontrando um emprego.jpg' style='height: 100%;'> Alguns moradores de Newark perderam o emprego ou tiveram seu horário reduzido como resultado do COVID-19. Durante essa crise, as empresas de Nova Jersey precisam de milhares de trabalhadores para contratação imediata. Visite o Portal de Emprego NJ Covid-19 para saber o que as empresas estão contratando na área de Newark. </p>"
+			}],
+		"link": "finding-essential-jobs",
+		"parent": "/resources",
+		"title": "Encontrar um emprego durante a crise do COVID-19"
+	},{
+		"category": "Pequenos negócios",
+		"icon": "people",
+		"link": "federal-us-cares",
+		"parent": "/resources",
+		"programs": [{
+				"header": "Pagamentos diretos a indivíduos e famílias",
+				"link": "https://www.irs.gov/newsroom/economic-impact-payments-what-you-need-to-know",
+				"text": "<p> <img class='intro-pic' src='assets/img/pagePhotos/us-cares.jpeg'> Os pagamentos de impacto econômico começarão nas próximas três semanas e serão distribuídos automaticamente, sem a necessidade de ação para a maioria pessoas. No entanto, alguns idosos e outros que não apresentarem declarações precisarão enviar uma declaração fiscal simples para receber o pagamento do estímulo. </p> <p> Os contribuintes qualificados que apresentaram declarações fiscais em 2019 ou 2018 receberão automaticamente um pagamento por impacto econômico de até US $ 1.200 para indivíduos ou US $ 2.400 para casais. Os pais também recebem US $ 500 por cada criança qualificada. </p> <p> Os contribuintes com renda bruta ajustada de até US $ 75.000 para indivíduos e até US $ 150.000 para casais que apresentarem declarações conjuntas receberão o pagamento integral. Para arquivadores com renda acima desses valores, o valor do pagamento é reduzido em US $ 5 para cada US $ 100 acima dos limites de US $ 75.000/US $ 150.000. Arquivadores únicos com renda superior a US $ 99.000 e US $ 198.000 para arquivadores conjuntos sem filhos não são elegíveis. </p> <p> A renda é baseada no <a href='https://www.irs.gov/e-file-providers/definition-of-adjusted-gross-income'> renda bruta ajustada </a> do seu depósito de imposto de 2019 (ou 2018, se você não tiver apresentado seus impostos de 2019). Se você receber benefícios do Seguro Social, mas não tiver apresentado uma declaração fiscal, ainda poderá receber esses pagamentos diretos com base nas informações fornecidas pela Administração do Seguro Social. </p> <p> Mais informações podem ser encontradas no recurso econômico do IRS pagamentos de impacto: <a href='https://www.irs.gov/newsroom/economic-impact-payments-what-you-need-to-know'> O que você precisa saber </a> </p>"
+			},{
+				"header": "Pagamentos, duração e elegibilidade aumentados do seguro-desemprego",
+				"text": "<p> Aqueles que já recebem benefícios de seguro-desemprego receberão US $ 600 adicionais por semana. </p> <p> No âmbito de um novo programa de assistência ao desemprego pandêmico, os indivíduos normalmente não são elegíveis à indenização por desemprego, como contratados independentes, trabalhadores independentes, ou aqueles com histórico limitado de emprego, poderão receber benefícios de desemprego por até 39 semanas até o final de 2020. </p> <p> Além disso, os trabalhadores que deixaram o emprego para prestar assistência relacionada ao coronavírus para si mesmos, sua família , ou outros parentes, serão elegíveis para receber subsídios de desemprego. </p> <p> Repartição da indemnização por desemprego: </p> <ul> <li> $ 600 em subsídios de desemprego adicionais para indivíduos atualmente qualificados pelo Seguro Desemprego </li> <li> Uma correspondência federal do seguro de desemprego estadual + US $ 600 para trabalhadores desempregados que normalmente não são elegíveis </li> <li> Uma extensão de 13 semanas da compensação do desemprego além da duração padrão do estado </li> </ul>"
+			},{
+				"header": "Impostos federais e contas de aposentadoria",
+				"text": "<p> O prazo para apresentação de impostos federais foi prorrogado até 15 de julho. Se você já entrou com o processo, ainda poderá receber um reembolso se tiver direito a um. </p> <p> Além disso, os 10% usuais a penalidade nas distribuições antecipadas do IRA e nos planos de contribuições definidas (como os planos 401 (k)) foi dispensada para distribuições elegíveis para coronavírus de até US $ 100.000. </p>"
+			},{
+				"header": "Suporte para pequenas empresas",
+				"link": "https://www.congress.gov/bill/116th-congress/senate-bill/3548/text",
+				"linkText": "Veja Bill",
+				"text": "<ul><li> <b> Subsídios de emergência </b>: No programa EIDL, as empresas elegíveis podem buscar subsídios de até US $ 10.000 para cobrir custos operacionais imediatos. </li> <li> <b> Empréstimos perdoáveis ​​</b>: Empresas com menos de 500 funcionários podem ser elegíveis para empréstimos de até US $ 10 milhões. Custos associados a folha de pagamento, juros de hipotecas, serviços públicos e aluguel são perdoáveis. </li> <li> <b> Créditos tributários </b>: Os empregadores que fecharam parcial ou totalmente o encerramento podem ser elegíveis para um crédito tributário de uma porcentagem dos salários pagos aos funcionários durante a emergência de saúde pública do coronavírus. </li> <li> <b> Programa de extensão de fabricação </b>: Pequenos e médios fabricantes qualificados podem receber financiamento para apoiar a redução de custos, desenvolvimento da força de trabalho, desenvolvimento de produtos, e iniciativas de crescimento. </li> </ul> <a href='https://www.irs.gov/newsroom/economic-impact-payments-what-you-need-to-know'> <cite style='margin-left: 1rem! important'> fonte: irs.gov/newsroom/economic-impact-payments-what-you-need-to-know </cite> </a>"
+			}],
+		"sectionHeader": "A Lei Federal de Ajuda, Ajuda e Assistência Econômica a Coronavírus (Lei CARES), assinada em 27 de março, contém disposições que apoiam indivíduos e pequenas empresas de várias maneiras.",
+		"title": "Como o pacote federal de estímulo 'Nós nos importamos' pode ajudá-lo"
+	},{
+		"category": "Emprego e Bem-Estar",
+		"icon": "local_dining",
+		"introContent": [{
+				"link": "https://www.nps.k12.nj.us/covid-19-resources/breakfast-lunch-program-locations/",
+        "linkText": "Aprenda sobre o programa de café da manhã e almoço",
+				"text": "<p> <img class='intro-pic' src='assets/img/pagePhotos/Food.png'>A cidade obteve um número limitado de cartões-presente ShopRite para residentes qualificados. Qualificação elegível de que eles não têm meios financeiros para obter comida em suas casas ou se são idosos. </p> <p> Temos apenas uma quantidade limitada no momento, então vamos nos concentrar nos idosos e naqueles que precisam o mais. Quanto mais recursos surgirem, teremos a capacidade de obter mais cartões. Agradecemos à Rede Nacional de Ação, à Newark Housing Authority e a Neil Greenstein, da ShopRite, por fazer parceria conosco para levar a comida a quem mais precisa. <p>"
+			}],
+		"link": "food-dist-school-lunches",
+		"parent": "/resources",
+		"programs": [{
+				"header": "Local do programa para café da manhã e almoço escolar",
+				"link": "https://www.nps.k12.nj.us/covid-19-resources/breakfast-lunch-program-locations/",
+        "linkText": "Aprenda sobre o programa de café da manhã e almoço",
+				"text": "<p><img class='intro-pic card' src='assets/img/pagePhotos/schoolLunchUpdates.jpg'> O Programa de Café da Manhã e Almoço está disponível para todos os alunos de escolas designadas de segunda a sexta-feira, das 9h30 às 11h30. O aluno pode pegar comida em qualquer local do NPS mais próximo de sua casa. </p>"
+			}],
+		"title": "Distribución de alimentos a los residentes afectados por COVID-19"
+	},{
+		"category": "Emprego e Bem-Estar",
+		"icon": "local_hospital",
+		"introContent": [{
+				"link": "https://www.newarknj.gov/card/coronavirus-information",
+				"linkText": "Saiba mais sobre como se manter saudável",
+				"text": "<p> <img class='intro-pic' src='assets/img/pagePhotos/17288_wnxjouke.png'> O Departamento de Saúde e Bem-Estar da Comunidade de Newark possui informações abrangentes sobre como proteger a saúde de sua família contra o vírus. Você encontrará informações como: <ul> <li> Perguntas frequentes </li> <li> Fatos rápidos </li> <li> Como parar a propagação de germes </li> <li> O que Fazer se você estiver doente </li> <li> Sintomas </li> <li> Distanciamento social </li> <li> Preparando-se para o auto-isolamento e muito mais </li> </ul> </p>"
+			}],
+		"link": "health-info",
+		"parent": "/resources",
+		"programs": [{
+				"header": "Horário de funcionamento revisado durante a crise COVID-19",
+				"text": "<p> Para sua segurança e a segurança da equipe, todos os serviços do Departamento de Saúde de Newark continuarão restritos e limitados devido ao coronavírus. Abaixo está uma lista de programas e horários de operação. Observe que esta programação está sujeita a alterações. </p> <ul> <li> <h3> Mary Eliza Mahoney - Centro de Saúde Federal Qualificado (FQHC) </h3> <ul> <li> De segunda a sexta-feira </li> <li> 8:30 às 16:30 </li> <li> Disponível 24/7 em <a href='tel:+18007347083'> 1 (800) 734-7083 </a>, Consulta recomendada </li> </ul> </li> <li> <h3> Programa WIC </h3> <ul> <li> De segunda a sexta-feira </li> <li> das 8h30 às 16h30 </li> <li> Ligue para <a href='tel:9737337604 '> (973) 733-7604 </a> ou <a href='tel:9737338198'> (973) 733-8198 </a>, aberto ao público às terças e quintas-feiras - Consulta recomendada </li> </ul> </li> <li> <h3> Clínica de imunização </h3> <ul> <li> Segunda a sexta-feira </li> <li> 8: 30:00 às 16:30 </li> <li> Ligue para <a href='tel:9737337580'> (973) 733-7580 </a> para agendar um horário. Aberto ao público às quintas-feiras - consulta recomendada. </li> </ul> </li> <li> <h3> Estatísticas vitais </h3> <ul> <li> Segunda a sexta-feira </li> <li> 8:30 às 16:30 </li> <li> Ligue para <a href='tel:9737336510'> (973) 733-6510 </a> para agendar um compromisso. Aberto ao público às quintas-feiras, das 8:30 às 16:00; Apenas compromisso. </li></ul></li><li> <h3> Centro Shani Baraka </h3> <ul> <li> De segunda a sexta-feira </li> <li> das 8:30 às 15:00 </li> <li> Ligue para <a href='tel:9737337538'> (973) 733-7538 </a> ou <a href='tel:9737337377> (973) 733-7377 </a> para obter assistência. Aberto ao público cinco dias por semana </li> <li> Número após o horário de atendimento: <a href='tel:9734180735> (973) 418-0735 </a> </li> </ul> </li> <li> <h3> Serviços sociais </h3> <ul> <li> De segunda a sexta-feira </li> <li> das 8h30 às 16h30 </li> <li> Ligue para <a href='tel: 9737339481 '> (973) 733-9481 </a> para obter assistência. </li> </ul> </li> <li> <h3> Vigilância e prevenção </h3> <ul> <li> Segunda-feira até domingo </li> <li> 24/7 </li> <li> Você pode ligar para <a href='tel:9737337592'> (973) 733-7592 </a> apenas para perguntas do COVID-19. </li> </ul> </li> <li> <h3> Serviços para sem-teto </h3> <ul> <li> De segunda a sexta-feira </li> <li> das 8:30 às 16:30 </li> <li> Você pode ligar para <a href='tel:9738779481'> (973) 877-9481 </a> apenas para perguntas do COVID-19. </li> </ul> </li> </ul> <br> <h3> NOMEAÇÕES RECOMENDADAS PARA GARANTIR CUIDADOS ESPERADOS E DISTÂNCIA SOCIAL. </h3> <p> Nota: Trabalhando na instalação de um serviço de atendimento ao vivo 24/7 por operador. </p>"
+			}],
+		"title": "Proteja sua saúde do COVID-19"
+	},{
+		"category": "Pequenos negócios",
+		"icon": "business_center",
+		"introContent": [{
+				"link": "https://investnewark.org/covid-19/",
+				"linkText": "Informações para pequenas empresas",
+				"text": "<p> <img class='intro-pic logo' src='assets/img/logos/logo_investNWK.png'> Invest Newark impulsiona a economia forte e diversificada da cidade, constrói comunidades vibrantes e cria oportunidades para todos os Newarkers. É uma equipe dedicada de planejadores, economistas e inovadores especializados, orientados a garantir que todos os Newarkers tenham recursos para prosperar. A Invest Newark não é uma agência de desenvolvimento típica: vai além do apoio às pequenas e pequenas empresas, investe em serviços de Internet de classe mundial e mantém um foco intenso na sustentabilidade. Ele trabalha para produzir crescimento econômico, gerar empregos e criar riqueza para o povo de Newark. A Invest Newark adicionou uma seção do Covid-19 ao seu site. Possui informações e links para recursos federais, estaduais e locais para empresas afetadas pelo Covid-19 </p>"
+			}],
+    "parent": "/resources",
+    "link": "invest-newark",
+		"title": "Invista nas iniciativas da Newark para pequenas empresas"
+	},{
+		"category": "Habitação",
+		"icon": "people",
+		"introContent": [{
+				"link": "http://www.newarkha.org/coronavirus",
+				"linkText": "Saiba mais no site da NHA",
+				"text": "<p> <img class='intro-pic' src='assets/img/pagePhotos/Housing Authority.jpg'> A Newark Housing Authority possui extensas informações para inquilinos em seu site. </p> <p> Residentes de idosos edifícios e moradias e os participantes da Seção 8 podem encontrar respostas para perguntas sobre pagamentos de aluguel, visitas, entregas, horas, alterações de serviços, reparos, salas comunitárias, recertificações, inspeções e muito mais. <p>"
+			}],
+		"link": "nha-tenants",
+		"parent": "/resources",
+		"title": ""
+	},{
+		"category": "Pequenos negócios",
+		"icon": "business_center",
+		"introContent": [{
+				"text": "<p> <img class='intro-pic' src='assets/img/pagePhotos/nj small business grant.png'> Um pacote de novas iniciativas da Autoridade de Desenvolvimento Econômico de Nova Jersey inclui um programa de doações para pequenas empresas, um programa de empréstimos com juros zero para empresas de médio porte, apoio a credores do setor privado e instituições financeiras de desenvolvimento comunitário (CDFIs), financiamento para empreendedores e uma variedade de recursos que fornecem suporte técnico e informações de mercado. Juntos, eles fornecerão mais de US $ 75 milhões em apoio financeiro estatal e privado, com a oportunidade de aumentar para mais de US $ 100 milhões se houver recursos filantrópicos, estaduais e federais disponíveis. As iniciativas apoiarão entre 3.000 e 5.000 pequenas e médias empresas e devem complementar as iniciativas federais de recuperação econômica anunciadas recentemente. </p> <p> Empresas e organizações sem fins lucrativos podem encontrar requisitos de elegibilidade para todos os programas no Centro de Informações de Negócios COVID-19 ou use o Assistente de elegibilidade para identificar quais programas de assistência de emergência eles podem querer considerar para as necessidades específicas de seus negócios. Informações abrangentes sobre a resposta de Nova Jersey ao novo surto de coronavírus estão disponíveis aqui: <a href='https://covid19.nj.gov/'> covid19.nj.gov/</a>. <p>"
+			}],
+		"link": "nj-small-business-help",
+		"parent": "/resources",
+		"programs": [{
+				"header": "Programa de Subsídios para Assistência a Emergências para Pequenas Empresas",
+				"link": "https://faq.business.nj.gov/en/articles/3835237-what-grants-are-available-for-small-and-medium-sized-businesses-via-the-njeda-small-business-emergency-assistance-grant",
+				"text": "Um programa de US $ 5 milhões que fornecerá doações de até US $ 5.000 a pequenas empresas de varejo, artes, entretenimento, recreação, acomodação, serviços de alimentação e outros serviços - como reparo, manutenção, serviços pessoais e de lavanderia - para estabilizar suas operações e reduzir a necessidade de demissões ou licenças. As inscrições para o Programa de Auxílio à Emergência para Pequenas Empresas da NJEDA estão atualmente disponíveis e as inscrições para outros programas da NJEDA COVID-19, incluindo suporte ao empreendedorismo e assistência técnica para empresas que solicitam empréstimos da Administração para Pequenas Empresas dos EUA, estarão disponíveis nas próximas semanas."
+			},{
+				"header": "Programa de empréstimo para assistência a emergências para pequenas empresas",
+				"link": "https://faq.business.nj.gov/en/articles/3835238-what-loans-are-available-to-small-businesses-via-the-njeda-small-business-emergency-assistance-loan",
+				"text": "O Programa de Empréstimo para Assistência a Emergências para Pequenas Empresas é um programa de US $ 10 milhões que fornecerá empréstimos de capital de giro de até US $ 100.000 a pequenas e médias empresas com uma localização comercial física em Nova Jersey. Para se qualificar, as empresas devem ter menos de US $ 5 milhões em receita anual e poder mostrar um impacto negativo resultante do surto de COVID-19. Os empréstimos concedidos por meio do programa terão prazos de dez anos com juros de zero por cento nos primeiros cinco anos e, em seguida, serão redefinidos para a taxa mínima predominante da NJEDA nos cinco anos restantes, com um limite de três por cento."
+			},{
+				"header": "Fundo de Reserva para Perdas de Empréstimos de Emergência da Instituição Financeira de Desenvolvimento da Comunidade (CDFI)",
+				"link": "https://faq.business.nj.gov/en/articles/3835240-what-state-assistance-is-available-for-community-development-finance-institutions-cdfis-to-support-small-businesses",
+				"text": "Um fundo de reserva de capital de US $ 10 milhões para assumir uma posição de primeira perda em empréstimos CDFI que fornecem capital de giro com juros baixos para microempresas. Isso permitirá que os CDFIs resistam às inadimplências de empréstimos devido ao surto, o que lhes permitirá conceder mais empréstimos a taxas de juros mais baixas às microempresas afetadas pelo surto."
+			},{
+				"header": "Programa de Apoio ao Empreendedor de NJ",
+				"link": "https://faq.business.nj.gov/en/articles/3835239-what-assistance-is-available-for-startup-investors-or-entrepreneurs-via-the-njeda-entrepreneur-guarantee-program",
+				"text": "Um programa de US $ 5 milhões que incentivará fluxos contínuos de capital para novas empresas, geralmente na economia da inovação, e apoiará temporariamente um mercado instável, fornecendo 80% de garantias de empréstimos para empréstimos de capital de giro a empreendedores."
+			},{
+				"header": "Programa de Garantia de Assistência de Emergência para Pequenas Empresas",
+				"link": "https://faq.business.nj.gov/en/articles/3835236-how-is-the-state-backing-small-business-loans-via-the-njeda-small-business-emergency-assistance-guarantee-program",
+				"text": "Um programa de US $ 10 milhões que fornecerá garantias de 50% em empréstimos para capital de giro e isenção de taxas sobre empréstimos feitos por instituições participantes dos programas Premier Lender ou Premier CDFI existentes da NJEDA."
+			},{
+				"header": "Programa de Assistência Técnica de Emergência",
+				"link": "https://faq.business.nj.gov/en/articles/3835241-can-i-get-help-applying-to-federal-or-state-programs-via-the-njeda-emergency-technical-assistance-program",
+				"text": "Um programa de US $ 150.000 que apoiará a assistência técnica às empresas de Nova Jersey que se candidatam aos programas estaduais e dos EUA de Administração de Pequenas Empresas. As organizações contratadas serão pagas com base nos envios de aplicativos SBA, suportados pela assistência técnica que eles fornecem."
+			}],
+		"sectionHeader": "Clique em cada programa abaixo para obter mais informações, incluindo critérios completos de elegibilidade.",
+		"title": "N.J. Apoio financeiro estatal a pequenas empresas durante a crise do COVID-19"
+	},{
+		"category": "Emprego e Bem-Estar",
+		"icon": "people",
+		"introContent": [{
+				"header": "Você pode ter direito a benefícios, se não puder trabalhar ou tiver seu horário reduzido pelas seguintes razões:",
+				"text": "<img class='intro-pic' src='assets/img/pageFotos/desempregoBenefits.jpg'> <ul class='intro-list'> <li> Você testou positivo para COVID-19 ou tem sintomas de COVID-19 </li> <li> Seu local de trabalho foi fechado por um funcionário público devido ao COVID-19 </li> <li> Seu empregador foi fechado voluntariamente devido ao COVID-19 </li> <li> Você foi exposto a COVID-19 durante o curso do seu trabalho e foi orientado a se colocar em quarentena </li> <li> Você foi orientado a colocar em quarentena devido a uma possível exposição ao COVID-19 fora do local de trabalho </li> <li> Seus cuidados de saúde O provedor disse que você estava em maior risco de complicações de saúde relacionadas ao COVID-19 devido a uma condição de saúde preexistente e diz que você não deve trabalhar (e o teletrabalho não é possível) </li> <li> A escola ou a creche do seu filho foram solicitadas fechado por um funcionário público devido ao COVID-19 </li> <li> Você está cuidando de um membro da família ou do agregado familiar com COVID-19 ou sintomas de COVID-19 </li> <li> Você está perdendo horas de trabalho devido a redução da força relacionada ao COVID-19 </li> </ul>"
+			}],
+		"introPic": "assets/img/pagePhotos/unemploymentBenefits.jpg",
+		"link": "unemployment-benefits",
+		"parent": "/resources",
+		"programs": [{
+				"header": "Mais informações sobre elegibilidade",
+				"link": "https://www.nj.gov/labor/worker-protections/earnedsick/covid.shtml",
+				"text": "<p> Os afetados pessoalmente pelo COVID-19 ou por seu impacto sobre um membro da família podem ser elegíveis para uma série de benefícios, incluindo licença médica federal de emergência paga por assistência médica, FMLA federal de assistência à infância em emergência, licença médica por doença obtida, licença por doença; seguro desemprego, invalidez temporária ou seguro de licença familiar. </p> <p> Para descobrir se você é elegível e solicitar benefícios do estado, visite o <a href='https://www.nj.gov/labor/'> Site do Departamento de Trabalho de Nova Jersey </a>. Lá você também encontrará um gráfico útil esclarecendo os diferentes cenários e os benefícios disponíveis em inglês e espanhol. </p> <p> Os residentes elegíveis para o desemprego receberão US $ 600 adicionais por semana até 31 de julho por meio de assistência federal adicional ao desemprego da pandemia. </p> <p> Além disso, freelancers, assistentes sociais e prestadores de serviços independentes - que normalmente não são elegíveis para o seguro-desemprego - podem solicitar a Assistência Federal de Desemprego Pandêmica Federal de US $ 600. Eles devem solicitar o desemprego agora. Essa alegação provavelmente será negada, mas sua inelegibilidade para o desemprego regular é um pré-requisito para receber benefícios devido ao COVID-19. </p> <p> Além disso, o governador Murphy assinou uma nova lei expandindo o Seguro de Incapacidade Temporária do Estado (TDI) ) e seguro de licença familiar (FLI) para fornecer a mais trabalhadores acesso a benefícios de licença remunerada durante emergências de saúde pública. </p>"
+			},{
+				"link": "https://www.nj.gov/labor/worker-protections/earnedsick/covid.shtm",
+				"text": "<p> A lei permite que os indivíduos acessem os benefícios de TDI e FLI durante uma emergência de saúde pública, se tiverem um tempo fora do trabalho porque são diagnosticados com ou suspeitos de exposição a uma doença transmissível ou cuidam de um membro da família com diagnóstico ou suspeita de exposição a uma doença transmissível. </p> <p> O projeto de lei também expande a lei de licença médica adquirida em Nova Jersey para permitir o uso do tempo de assistência médica para isolamento ou quarentena recomendado ou ordenado por um provedor ou oficial de saúde pública como resultado suspeita de exposição a uma doença transmissível ou para cuidar de um membro da família sob isolamento ou quarentena recomendado ou ordenado. </p> <p> Mais informações estão disponíveis em <a href='www.nj.gov/labor/worker-protections/earnedsick/covid.shtm '> www.nj.gov/labor/worker-protections/earnedsick/covid </a>. </p>"
+			},{
+				"link": "https://covid19.nj.gov/faqs/nj-information/get-assistance/am-i-eligible-for-benefits-or-unemployment-if-i-or-a-family-member-have-been-impacted-by-the-outbreak",
+				"text": "<p> Para ajudar os empregadores a manter os funcionários na folha de pagamento durante toda a crise, o governo federal está permitindo que os empregadores se beneficiem de programas expandidos de licença remunerada, protegidos por assistência médica e assistência médica prestados por emergências, possibilitados pelas contas federais recentemente aprovadas. Se os empregadores fizerem isso, serão elegíveis para receber um crédito fiscal por folha de pagamento dólar por dólar contra esses custos - isso está disponível para 99,8% de todas as empresas em Nova Jersey e todos, exceto nossos maiores empregadores. </p>"
+			}],
+		"sectionHeader": "Mais informações",
+		"title": "Elegibilidade para benefícios de desemprego"
+  },
+  {
+    "title": "Atualizações sobre o programa de proteção de salário da SBA e o programa de empréstimo econômico para desastres por lesões",
+    "category": "Emprego e Bem-Estar",
+    "icon": "business_center",
+    "link": "federal-ppp-sba-update",
+    "sectionHeader": "O Congresso aprovou fundos adicionais para o Programa de proteção de pagamento da SBA e o Programa de empréstimo para desastres econômicos, mas você precisa agir rapidamente.",
+    "programs": [
+      {
+        "link": "http://r20.rs6.net/tn.jsp?f=001qYdPIzJct37HyUS-Y5K5bVAhv2MHM9WXTDqLhn5aw8t_IJldK571x3m1MRE6Yy4rmFzdObeRtAHWsjf5SZOwlbnlV9JFRZLLRD0-EjtpPTKUm0D_LWusJE3OkjyRaHnjtftMorJZ9QfuoSujhmdN2MnqUImFMIZzfUofKaGK6tGqibFXPgeelGhLHfrT-9uUNP6FQuY3v0oQJR0X3hFxk4trR3Phf9tj&c=wKZsJi0ywWhW_fgin60XTK8hqDgxFgQkKHD47T-eJYvD1JjT58X64A==&ch=F6dLbyCcyX5Ul67IAUYiSe01VHOEfuje_JFa3zoVP0S0aJ5y65xqMQ==",
+        "linkText": "Como obter financiamento",
+        "text": "<p><img class='intro-pic' src='assets/img/pagePhotos/capitolbuilding.jpg'>Depois que esses programas reabrirem o processo de inscrição, eles ficarão sem fundos rapidamente. Visite a <a href='http://r20.rs6.net/tn.jsp?f=001qYdPIzJct37HyUS-Y5K5bVAhv2MHM9WXTDqLhn5aw8t_IJldK571x3m1MRE6Yy4rmFzdObeRtAHWsjf5SZOwlbnlV9JFRZLLRD0-EjtpPTKUm0D_LWusJE3OkjyRaHnjtftMorJZ9QfuoSujhmdN2MnqUImFMIZzfUofKaGK6tGqibFXPgeelGhLHfrT-9uUNP6FQuY3v0oQJR0X3hFxk4trR3Phf9tj&c=wKZsJi0ywWhW_fgin60XTK8hqDgxFgQkKHD47T-eJYvD1JjT58X64A==&ch=F6dLbyCcyX5Ul67IAUYiSe01VHOEfuje_JFa3zoVP0S0aJ5y65xqMQ=='>Site do Tesouro dos EUA </a> para obter descrições desses programas para pequenas empresas, incluindo instruções. Se você já solicitou um empréstimo de PPP ao seu banco, recomendamos que você entre em contato com seu banco para confirmar que a inscrição está completa e será enviada assim que o programa for reaberto. É extremamente importante que nossas pequenas empresas com sede em Newark se beneficiem desses programas federais para que saímos da crise do COVID-19 juntos. </p> "
+      },
+      {
+        "header": "Programa de proteção de cheques de pagamento (PPP)",
+        "text": "<p> Se você se qualificar, poderá receber um empréstimo igual a 2½ vezes sua folha de pagamento mensal, e esse valor poderá ser perdoado se você cumprir as condições da SBA de usar os fundos para manter ou recrutar funcionários. Seu banco e o site de PPP da SBA podem fornecer mais detalhes. </p> <ul> <li> Entre em contato com seu banco (onde você tem uma conta corrente ou empréstimo) imediatamente para confirmar a elegibilidade e perguntar sobre o envio de uma solicitação de PPP quando este programa reabre com financiamento adicional nas próximas 24 a 48 horas.</li><li><a href='http://r20.rs6.net/tn.jsp?f=001qYdPIzJct37HyUS-Y5K5bVAhv2MHM9WXTDqLhn5aw8t_IJldK571x3m1MRE6Yy4rxuJFgth08U-4GcTkc1pmVOo18ISHSV5ok07_MQ_1wP28NcgszQKUmIM2M6UbUZrwLi8cR4YjzqPUXk_XMIr6sxgEvJIcR2ZEW-egmATuAhsjYiZvaQbz0P_SYOffkW1WunzhLkh00Gd0viEferE5gEqucmtPjclIPbvyvP0JiAE=&c=wKZsJi0ywWhW_fgin60XTK8hqDgxFgQkKHD47T-eJYvD1JjT58X64A==&ch=F6dLbyCcyX5Ul67IAUYiSe01VHOEfuje_JFa3zoVP0S0aJ5y65xqMQ=='>Lista de verificação de PPP e cálculo de empréstimo</a></li><li><a href='http://r20.rs6.net/tn.jsp?f=001qYdPIzJct37HyUS-Y5K5bVAhv2MHM9WXTDqLhn5aw8t_IJldK571x3m1MRE6Yy4rFmEHAxruhrQfbyrV2_BBHBEfh5yB55H1eHGms2pScwL_Nqt7Uun6N590iwVWabMnXKc_Ve23RIvZ95LtLoeldkIxWNErIMj6fJKE4TLs1YyKrLOkERiYIZ9JaPFgR2iA2qewpdIFKVdtMTATJ2xnjqtl0tlCv9jfTr6_wZe20FY=&c=wKZsJi0ywWhW_fgin60XTK8hqDgxFgQkKHD47T-eJYvD1JjT58X64A==&ch=F6dLbyCcyX5Ul67IAUYiSe01VHOEfuje_JFa3zoVP0S0aJ5y65xqMQ=='>Aplicação PPP</a></li></ul>"
+      },
+      {
+        "header": "Programa de empréstimo econômico para desastres por ferimentos (EIDL)",
+        "text": "<p> Vá para o <a href='http://r20.rs6.net/tn.jsp?f=001qYdPIzJct37HyUS-Y5K5bVAhv2MHM9WXTDqLhn5aw8t_IJldK571x3m1MRE6Yy4rah3ZvPhG30CaySdXVkJFe-eKHicSLtzUIDTRkyYgoVkjwFNzZ6BAd9eiANXihT73xjYCDRskiogM5IISbWv9P7oELb1kl4CqyO64miE6RLBFvG21cWMuoVGSl8nr-EMbKTEq0VOOQpbXa6BYH26wZvgNy-eUjffg--lsLARwdY6jNR709msNQvdzYMunZh8eI0EGvo-hAKvA_7BA8OWA0A==&c=wKZsJi0ywWhW_fgin60XTK8hqDgxFgQkKHD47T-eJYvD1JjT58X64A==&ch=F6dLbyCcyX5Ul67IAUYiSe01VHOEfuje_JFa3zoVP0S0aJ5y65xqMQ=='>Site do EIDL da SBA </a> para preencher uma inscrição quando o programa reabrir com financiamento adicional nas próximas 24 a 48 horas. O programa EIDL pode fornecer um adiantamento de empréstimo de até US $ 10.000 que não precisa ser reembolsado desde que o SBA verifique se os fundos são usados para folha de pagamento, compra de materiais, pagamentos de aluguel ou hipoteca ou pagamento de obrigações que não podem ser cumpridas devido à receita perda. </p> <p> Entre em contato com o Programa de Orientação para Pequenas Empresas da Invest Newark com a equipe Audible e Newark Venture Partners em <a href='mailto:CapitalConsulting@investnewark.org?subject=Questions About Federal Small Busines Aid Programs'>CapitalConsulting@investnewark.org</a>se você tiver alguma dúvida ou quiser ajuda para se inscrever nesses programas federais de assistência econômica! </p> <p> Se você não tem um relacionamento bancário, entre em contato com o<a href='http://r20.rs6.net/tn.jsp?f=001qYdPIzJct37HyUS-Y5K5bVAhv2MHM9WXTDqLhn5aw8t_IJldK571x3m1MRE6Yy4r6PBP8df-wBivmD-xA4dCoAmXLJNseQteY0pdYyJiorzK4inAQfwxQ8TG8kjVZDWKuEv1AgHb_JzHkGrDChyJXg==&c=wKZsJi0ywWhW_fgin60XTK8hqDgxFgQkKHD47T-eJYvD1JjT58X64A==&ch=F6dLbyCcyX5Ul67IAUYiSe01VHOEfuje_JFa3zoVP0S0aJ5y65xqMQ=='>Câmara de Comércio Afro-Americana de Nova Jersey </a> e os <a href='http://r20.rs6.net/tn.jsp?f=001qYdPIzJct37HyUS-Y5K5bVAhv2MHM9WXTDqLhn5aw8t_IJldK571x3m1MRE6Yy4rmQsP3Jglf9YstbrN-kmUzy4am20mnA-3NYwtzgp7j69LvZOFTW6C2f2KM104ZcxZTmUcStSCDHE=&c=wKZsJi0ywWhW_fgin60XTK8hqDgxFgQkKHD47T-eJYvD1JjT58X64A==&ch=F6dLbyCcyX5Ul67IAUYiSe01VHOEfuje_JFa3zoVP0S0aJ5y65xqMQ=='>Câmara de Comércio Hispânica de Nova Jersey </a>. Eles têm um credor pelo qual você pode se candidatar. </p> <p> Esteja bem e esteja seguro.</p>",
+        "link": "mailto:CapitalConsulting@investnewark.org?subject=Questions About Federal Small Busines Aid Programs",
+        "linkText": "Envie um email para Invest Newark para obter mais informações"
+      }
+    ]
+  }
+]

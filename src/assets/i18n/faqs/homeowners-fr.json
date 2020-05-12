@@ -1,0 +1,61 @@
+[
+	{
+		"answer": "<b> Non </b>. Le 19 mars 2020, le gouverneur du New Jersey, Philip Murphy, a publié le <a href='https://nj.gov/infobank/eo/056murphy/pdf/EO-106.pdf'> Executive Order 106 </a>, qui a immédiatement suspend les expulsions et les renvois dans tout l'État. C'est ce qu'on appelle un «moratoire sur l'expulsion» et cela signifie que, sauf dans de rares circonstances, <b> aucun propriétaire ne peut être expulsé de son domicile à la suite d'une procédure de saisie en ce moment <b>. Vous ne pouvez pas être supprimé même si un <a href='https://www.lsnjlaw.org/Housing/Home-Ownership/Foreclosure/Pages/Foreclosure-Process.aspx'> jugement final de forclusion </a> a été saisi et <a href='https://www.lsnjlaw.org/Housing/Home-Ownership/Foreclosure/Pages/Foreclosure-Process.aspx'> la vente par un shérif </a> de votre propriété a eu lieu.",
+		"category": "Déménagements",
+		"info": "Le moratoire sur l'expulsion n'affecte <b> pas </b> les procédures judiciaires; au lieu de cela, il empêche les suppressions. Plus d'informations ci-dessous.",
+		"name": "Removals01",
+		"question": "Puis-je être retiré de ma maison à la suite d'une procédure de forclusion pendant l'urgence COVID-19?"
+	},
+	{
+		"answer": "Le moratoire sur l'expulsion a commencé le 19 mars 2020 et durera jusqu'à deux mois après que le gouverneur Murphy a déclaré la fin de la crise sanitaire du COVID-19, à moins que le gouverneur n'émette un autre décret pour y mettre fin plus tôt.",
+		"category": "Déménagements",
+		"name": "Removals02",
+		"question": "Combien de temps durera le moratoire d'expulsion?"
+	},
+	{
+		"answer": "<p> <b> Oui. </b> Vous devrez effectuer vos versements hypothécaires tôt ou tard. Si vous avez besoin de plus de temps, cependant, de l'aide est disponible. </p> <p> Si vous avez une hypothèque soutenue par le gouvernement fédéral, vous avez le droit de demander à votre agent hypothécaire une abstention (une pause sur les paiements) pour soulager les difficultés financières résultant de la pandémie. La <a href='https://www.congress.gov/116/bills/hr748/BILLS-116hr748eas.pdf'> loi CARES </a> récemment adoptée par le gouvernement fédéral exige que les gestionnaires de prêts hypothécaires garantis par le gouvernement fédéral accordent aux emprunteurs en difficulté un 180 de grâce de 10 jours pour les paiements. L'emprunteur peut demander une prolongation pouvant aller jusqu'à 180 jours. Pendant la période de grâce, l'agent ne peut vous facturer des frais, pénalités ou intérêts autres que ceux que vous auriez dûs si vous aviez payé à temps. </p> <p> En outre, le gouverneur Murphy a annoncé certains <a href = 'https://nj.gov/governor/news/news/562020/approved/20200328c.shtml '> allègement important pour les propriétaires ayant des hypothèques </a>, y compris ceux qui ne sont pas soutenus par le gouvernement fédéral. Si vous communiquez avec votre agent hypothécaire, vous pourriez être admissible à: (1) un délai de grâce de 90 jours pour les versements hypothécaires; (2) l'assurance que l'agent de service ne signalera pas les paiements en retard ou manqués au cours de cette période aux agences de crédit; (3) un moratoire de 60 jours sur le début des ventes de forclusion ou des expulsions par les agents; et (4) l'exonération de certains frais et charges pendant au moins 90 jours. </p>",
+		"category": "Déménagements",
+		"info": "Pour plus d'informations, consultez les <a href='https://www.state.nj.us/dobi/covid/mortgagerelief.html'> FAQ </a> publiées par l'État. Vous pouvez également consulter le site Web de <a href='https://njhousing.gov/foreclosure'> Agence de financement du logement et des hypothèques du New Jersey </a> pour obtenir des mises à jour sur l'aide disponible et pour accéder à une liste de conseillers par comté.",
+		"name": "Removals03",
+		"question": "Dois-je toujours payer mon hypothèque?"
+	},
+	{
+		"answer": "<b> Oui </b>. Tout paiement que vous manquez maintenant fera partie de ce que vous devez. D'une manière ou d'une autre, vous devrez probablement payer plus tard tout ce que vous ne pouvez pas payer maintenant, ou vous serez éventuellement confronté à une éventuelle forclusion et un retrait de votre maison. Cependant, le gouverneur Murphy a <a href='https://nj.gov/governor/news/news/562020/approved/20200328c.shtml'> annoncé un soulagement important </a> pour les propriétaires hypothécaires. Si vous communiquez avec votre prêteur hypothécaire, vous pourriez être admissible à: (1) un délai de grâce de 90 jours pour les versements hypothécaires (ce qui signifie que vous pouvez reporter le paiement jusqu'à 90 jours); (2) l'assurance que le prêteur ne signalera pas les paiements en retard ou manqués au cours de cette période aux agences de crédit; (3) un moratoire de 60 jours sur l'initiation par les prêteurs de ventes de forclusion ou d'expulsions; et (4) l'exonération de certains frais et charges pendant au moins 90 jours.",
+		"category": "Déménagements",
+		"info": "Pour plus d'informations, consultez les <a href='https://www.state.nj.us/dobi/covid/mortgagerelief.html'> FAQ </a> publiées par l'État. Vous pouvez également consulter le site Web de <a href='https://njhousing.gov/foreclosure'> Agence de financement du logement et des hypothèques du New Jersey </a> pour obtenir des mises à jour sur l'aide disponible.",
+		"name": "Removals04",
+		"question": "Si je n'ai pas les moyens de payer mon hypothèque et que je prends du retard, devrai-je quand même payer l'argent?"
+	},
+	{
+		"answer": "<b> Pas si vous détenez une hypothèque garantie par le gouvernement fédéral. </b> La loi fédérale CARES rend illégal pour le service d'un prêt hypothécaire garanti par le gouvernement fédéral de commencer ou de poursuivre les procédures de forclusion pendant soixante jours à partir du 18 mars (jusqu'au 17 mai ). Pour les mises à jour, consultez le site Web de la <a href='https://nlihc.org/coronavirus-and-housing-homelessness'> National Low Income Housing Coalition </a>.",
+		"category": "Audiences judiciaires",
+		"info": "<b> Oui, si vous ne détenez pas d'hypothèque garantie par le gouvernement fédéral. </b> L'État <a href='https://nj.gov/infobank/eo/056murphy/pdf/EO-106.pdf'> Décret exécutif </a> et la <a href='https://www.njleg.state.nj.us/2020/Bills/A4000/3859_I1.PDF'> législation connexe </a> stipulent spécifiquement que les prêteurs peuvent engager des actions de forclusion pendant l'heure à laquelle la commande est en vigueur. Nous comprenons que la <a href='https://www.njcourts.gov/courts/superior/foreclosure.html?lang=eng'> Office of Foreclosure </a> de la Cour supérieure </a> accepte toujours de nouveaux cas et dépôts électroniques dans cas existants. En vertu d'un <a href='https://nj.gov/governor/news/news/562020/approved/20200328c.shtml'> accord avec l'État </a>, cependant, de nombreux prêteurs ont suspendu les ventes de saisies et les expulsions jusqu'à 27 mai (60 jours à partir du 28 mars).",
+		"name": "Court01",
+		"question": "Les prêteurs peuvent-ils encore entamer une procédure de saisie au cours de cette période?"
+	},
+	{
+		"answer": "<b> Cela dépend. </b> Le bureau de forclusion gère certaines parties de la plupart des cas de forclusion et gère la majeure partie du processus lorsqu'une forclusion n'est pas contestée, ce qui signifie que le propriétaire n'a pas déposé de réponse à la plainte. En vertu d'une <a href='https://njcourts.gov/notices/2020/n200424a.pdf'> ordonnance du 24 avril </a> rendue par la Cour suprême du New Jersey, cependant, le Bureau de forclusion ne révisera ni n'agira sur les requêtes ou jugements reçus après le 1er mars 2020. Ainsi, si le prêteur demande au Bureau de forclusion après le 1er mars de rendre un jugement définitif contre le propriétaire ou cherche une autre action pour faire avancer la forclusion, le Bureau retiendra ces demandes pour l'instant. L'ordonnance de la Cour suprême restera en vigueur jusqu'à ce que la Cour la lève. Veuillez consulter le <a href='https://www.njcourts.gov/public/covid19.html'> site Web des tribunaux du New Jersey </a> pour obtenir des mises à jour sur les ordonnances judiciaires affectant comment et quand les cas de forclusion non contestés se dérouleront. Si vous avez des questions sur un cas de forclusion non contesté en cours, vous pouvez également essayer de contacter le Bureau de forclusion au <a href='tel:6094216100'> 609-421-6100 </a> ou <a href = 'mailto: SCCO.Mailbox@njcourts.gov '> Scco.Mailbox@njcourts.gov </a>.",
+		"category": "Audiences judiciaires",
+		"info": "De plus, la loi fédérale CARES rend illégal pour le service d'un prêt hypothécaire garanti par le gouvernement fédéral de vous expulser pendant 60 jours à partir du 18 mars (en d'autres termes, jusqu'au 17 mai). Cette période pourrait être prolongée. La <a href='https://nlihc.org/coronavirus-and-housing-homelessness'> National Low Income Housing Coalition <a> suit les développements fédéraux.",
+		"name": "Court02",
+		"question": "Le Bureau de forclusion traitera-t-il les cas pendant cette période?"
+	},
+	{
+		"answer": "<b> Oui. </b> À ce jour, il n'y a pas d'ordonnance suspendant les audiences du tribunal dans les affaires de forclusion contestées (dans lesquelles le propriétaire a répondu à la plainte). Veuillez noter, cependant, que les comparutions en personne ne sont autorisées qu'en cas d'urgence en vertu de <a href='https://njcourts.gov/notices/2020/n200424a.pdf'> cette ordonnance de la Cour suprême </a>. Jusqu'à ce que la Cour lève ou modifie l'ordonnance, les audiences, les conférences et les plaidoiries se tiendront par vidéo ou par téléphone. Veuillez vérifier auprès du tribunal où l'affaire est pendante si vous avez des questions. Veuillez également consulter le <a href='https://www.njcourts.gov/public/covid19.html'> site Web des tribunaux du New Jersey </a> pour savoir comment et quand les procédures auront lieu.",
+		"category": "Audiences judiciaires",
+		"name": "Court03",
+		"question": "Les tribunaux entendront-ils les cas de forclusion au cours de cette période?"
+	},
+	{
+		"answer": "<b> Non </b> Les <a href='https://www.bpu.state.nj.us/bpu/newsroom/2020/approved/20200313.html'> services publics d'électricité et de gaz du New Jersey </ a > ont volontairement suspendu les fermetures de réseaux pendant la crise. Consultez le <a href='https://www.bpu.state.nj.us/bpu/newsroom/index.shtml'> site Web du New Jersey Board of Public Utilities </a> pour les mises à jour.",
+		"category": "Audiences judiciaires",
+		"name": "Court04",
+		"question": "Mes services publics peuvent-ils être fermés pendant la crise COVID-19?"
+	},
+	{
+		"answer": "<b> Oui. </b> Vous devez toujours payer vos factures d'électricité, de gaz et d'eau. Si vous ne pouvez pas payer maintenant, vous devrez payer plus tard. Les services publics et les compagnies des eaux n'annulent pas les dettes; ils ne font que reporter les fermetures pour le moment. DCA offre aux propriétaires à faible revenu <a href='https://www.nj.gov/dca/divisions/dhcr/offices/hea.html'> une assistance pour certaines factures de services publics </a>",
+		"category": "Audiences judiciaires",
+		"name": "Court05",
+		"question": "Dois-je quand même payer les services publics et l'eau?"
+	}
+]
