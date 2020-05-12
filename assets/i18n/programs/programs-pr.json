@@ -421,5 +421,59 @@
                 "text": "<p> Você ainda pode ir ao supermercado, loja local para itens essenciais, farmácia, médico, passear com cães, sair e tomar ar fresco na frente ou atrás de casa/porta/varanda/terraço ou se for um funcionário essencial. Além disso, as crianças precisam estar acompanhadas por um adulto e as pessoas devem deixar suas casas em pares. </p> <p> Enquanto estiver fora, você deve manter a recomendação do Centro de Controle de Doenças (CDC) de manter um metro e meio de distância.</p><p><b>Os residentes devem chamar a polícia se virem grupos de pessoas saindo e violando esse mandato. </b> </p>"
              }
           ]
-       }
+       },
+       {
+        "category": "Salve vidas. Fique seguro.",
+        "link": "testing",
+        "parent": "/programs",
+        "title": "Como e onde fazer o teste em Newark",
+        "icon": "local_hospital",
+        "introText": "<p><img class='intro-pic' src='assets/img/pagePhotos/Coronavirus-test.jpg'>No momento, o teste é priorizado para indivíduos que são contatos próximos de casos confirmados de COVID-19, indivíduos que viajaram para/de áreas altamente afetadas, indivíduos sem sintomas provenientes de minorias raciais e étnicas desproporcionalmente afetados por resultados adversos do COVID-19, ou aqueles que estão doentes e com <b> pelo menos três </b> dos <a href='https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html'> nove Sintomas reconhecidos pelo CDC </a> de COVID-19: </p> <b> 1) </b> Tosse <b> 2) </b> Falta de ar ou dificuldade em respirar <b> 3) </b> Febre (igual ou superior a 99,6 ° F) <b> 4) </b> Calafrios <b> 5) </b> Agitação repetida com calafrios <b> 6) </b> Dor de cabeça <b> 7) </b> Dor de garganta <b> 8) </b> Dor muscular <b> 9) </b> Nova perda de paladar ou olfato ",
+        "infoButtons": [{
+            "linkText": "Cityplex 12 Location",
+            "link": "https://goo.gl/maps/wukXJVPEx7WXdUJL7"
+          },
+          {
+            "linkText": "Mt Pleasant Location",
+            "link": "https://goo.gl/maps/TLqdHV7mneeXtLdW8"
+          },
+          {
+          "link": "https://g.page/bbpskating?share",
+          "linkText": "Branch Brook Location"
+          }],
+          "purpose": [{
+            "header": "Atualmente, existem dois locais de teste em Newark abertos ao público",
+            "body": "Se você não tem sintomas, o teste não é recomendado"
+        }],
+        "sections": [
+          {
+            "header": "1. Testando sites disponíveis agora ou em breve:",
+            "text": "<img class='intro-pic card' src='assets/img/Newark COVID-19 Testing Sites.png'>",
+            "buttons": [
+              {
+                "linkText": "Cityplex 12 Location",
+                "link": "https://goo.gl/maps/wukXJVPEx7WXdUJL7"
+              },
+              {
+                "linkText": "Mt Pleasant Location",
+                "link": "https://goo.gl/maps/TLqdHV7mneeXtLdW8"
+              },
+              {
+              "link": "https://g.page/bbpskating?share",
+              "linkText": "Branch Brook Location"
+              }]
+          },
+          {
+            "header": "2. Weequahic Park Drive-Thru Testing",
+            "text": "<h3>Weequahic Park - Drive-Thru - BY APPOINTMENT ONLY</h3><ul><li>Elizabeth Ave & Meeker Ave</li><li>Newark, NJ 07112</li><li>Testing is by appointment only.</li></ul>",
+            "buttons": [{
+            "link": "https://goo.gl/maps/Aqx7HPDxeqtLmbXR6",
+            "linkText": "Get Directions"
+            }]
+          },
+          {
+            "text": "<p> Para marcar uma consulta, os residentes podem visitar <a href='http://www.essexcovid.org/'> www.EssexCOVID.org </a> ou ligar para o Escritório de Gerenciamento de Emergências do Condado de Essex em <a href = 'tel: 9733249950'> 973-324-9950 </a>. (O centro de atendimento estará aberto das 7h às 23h.) As consultas serão agendadas das 9h às 12h. Quem marcar uma consulta receberá um número de confirmação; os residentes devem levar o número de confirmação com eles para a consulta. </p> <p> Os testes estão sendo oferecidos gratuitamente. Ter seguro de saúde não é um requisito. Será feito um contato de acompanhamento para avaliar a saúde continuada da pessoa que completou a triagem. </p> <p> Pessoal médico do Sistema de Saúde RWJBarnabas, Centro Médico Newark Beth Israel, Hospital Universitário, Hospital Hackensack, Hospital do Condado de Essex e enfermeiros das escolas públicas do Condado de Essex estão trabalhando nos locais de teste e no centro de atendimento. </p> <p> Os residentes devem chegar ao local de teste de carro. Para a segurança dos residentes e trabalhadores, os residentes que chegarem a pé não serão testados. </p>"
+          }
+        ]
+     }
 ]

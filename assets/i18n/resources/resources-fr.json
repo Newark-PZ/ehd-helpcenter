@@ -59,7 +59,7 @@
 				"header": "Lieux du programme de petit-déjeuner et de déjeuner à l'école",
 				"link": "https://www.nps.k12.nj.us/covid-19-resources/breakfast-lunch-program-locations/",
         "linkText": "En savoir plus sur le programme petit-déjeuner et déjeuner",
-        "text": "<p> Le programme de petit-déjeuner et de déjeuner est disponible pour tous les élèves des écoles désignées du lundi au vendredi de 9 h 30 à 11 h 30. L'élève peut aller chercher de la nourriture dans n'importe quel site NPS le plus proche de son domicile. </p>"
+        "text": "<p> <img class='intro-pic card' src='assets/img/pagePhotos/schoolLunchUpdates.jpg'>Le programme de petit-déjeuner et de déjeuner est disponible pour tous les élèves des écoles désignées du lundi au vendredi de 9 h 30 à 11 h 30. L'élève peut aller chercher de la nourriture dans n'importe quel site NPS le plus proche de son domicile. </p>"
 			}],
 		"title": "Distribution de nourriture aux résidents touchés par COVID-19"
 	},{

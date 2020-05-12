@@ -444,25 +444,37 @@
       "icon": "local_hospital",
       "introText": "<p><img class='intro-pic' src='assets/img/pagePhotos/Coronavirus-test.jpg'>At this time, testing is prioritized for individuals who are close contacts of confirmed COVID-19 cases, individuals who traveled to/from highly affected areas, individuals without symptoms who come from racial and ethnic minority groups disproportionately affected by adverse COVID-19 outcomes, or those who are sick and experiencing <b>at least three</b> of the <a href='https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html'>nine CDC-recognized symptoms</a> of COVID-19:</p><b> 1) </b> Cough      <b> 2) </b> Shortness of breath or difficulty breathing<b> 3) </b> Fever (at or above 99.6°F)<b> 4) </b> Chills<b> 5) </b> Repeated shaking with chills<b> 6) </b> Headache<b> 7) </b> Sore throat<b> 8) </b> Muscle pain<b> 9) </b> New loss of taste or smell",
       "infoButtons": [{
-        "link": "https://g.page/bbpskating?share",
-        "linkText": "Weequahic Drive-Thru Location"
+          "linkText": "Cityplex 12 Location",
+          "link": "https://goo.gl/maps/wukXJVPEx7WXdUJL7"
         },
         {
-          "link": "https://goo.gl/maps/Aqx7HPDxeqtLmbXR6",
-          "linkText": "Branch Brook Testing Location"
-        }
-        ],
+          "linkText": "Mt Pleasant Location",
+          "link": "https://goo.gl/maps/TLqdHV7mneeXtLdW8"
+        },
+        {
+        "link": "https://g.page/bbpskating?share",
+        "linkText": "Branch Brook Location"
+        }],
         "purpose": [{
         "header": "There are presently two testing sites in Newark open to the public",
         "body": "If you do not have symptoms, testing is not recommended"
       }],
       "sections": [
         {
-          "header": "1.   Branch Brook Testing Center:",
-          "text": "<img class='intro-pic card' src='assets/img/pagePhotos/BranchBrookTestingFlyer.jpeg'>",
-          "buttons": [{
+          "header": "1. Testing Sites Available Now or Coming Soon:",
+          "text": "<img class='intro-pic card' src='assets/img/Newark COVID-19 Testing Sites.png'>",
+          "buttons": [
+            {
+              "linkText": "Cityplex 12 Location",
+              "link": "https://goo.gl/maps/wukXJVPEx7WXdUJL7"
+            },
+            {
+              "linkText": "Mt Pleasant Location",
+              "link": "https://goo.gl/maps/TLqdHV7mneeXtLdW8"
+            },
+            {
             "link": "https://g.page/bbpskating?share",
-            "linkText": "Get Directions"
+            "linkText": "Branch Brook Location"
             }]
         },
         {

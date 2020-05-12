@@ -414,5 +414,59 @@
         "header": "Excepciones",
         "text": "<p> Todavía puede ir al supermercado, a la tienda local de artículos esenciales, a la farmacia, al médico, pasear perros, salir y tomar aire fresco en la parte delantera o trasera de la casa/puerta/porche/terraza, o si es un empleado esencial. Además, los niños deben estar acompañados por un adulto y las personas solo deben salir de sus hogares en parejas. </p> <p> Mientras estén fuera, deben mantener la recomendación del Centro para el Control de Enfermedades (CDC) de mantenerse a seis pies de distancia. </p> <p> <b> Se insta a los residentes a llamar a la policía si ven grupos de personas pasando el rato y violando este mandato. </b> </p>"
       }]
-    }
+    },
+    {
+      "category": "Salve vidas. Fique seguro. Reabrir.",
+      "link": "testing",
+      "parent": "/programs",
+      "title": "Cómo y dónde tomar el examen en Newark",
+      "icon": "local_hospital",
+      "introText": "<p><img class='intro-pic' src='assets/img/pagePhotos/Coronavirus-test.jpg'>En este momento, las pruebas tienen prioridad para las personas que son contactos cercanos de casos confirmados de COVID-19, personas que viajaron a/desde áreas altamente afectadas, personas sin síntomas que provienen de grupos minoritarios raciales y étnicos afectados desproporcionadamente por resultados adversos de COVID-19, o aquellos que están enfermos y experimentan <b> al menos tres </b> de los <a href='https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html'> nueve Síntomas reconocidos por los CDC </a> de COVID-19: </p> <b> 1) </b> Tos <b> 2) </b> Falta de aliento o dificultad para respirar <b> 3) </b> Fiebre (a 99.6 ° F o más) <b> 4) </b> Escalofríos <b> 5) </b> Sacudidas repetidas con escalofríos <b> 6) </b> Dolor de cabeza <b> 7) </b> Dolor de garganta <b> 8) </b> Dolor muscular <b> 9) </b> Nueva pérdida de sabor u olfato",
+      "infoButtons": [{
+          "linkText": "Cityplex 12 Location",
+          "link": "https://goo.gl/maps/wukXJVPEx7WXdUJL7"
+        },
+        {
+          "linkText": "Mt Pleasant Location",
+          "link": "https://goo.gl/maps/TLqdHV7mneeXtLdW8"
+        },
+        {
+        "link": "https://g.page/bbpskating?share",
+        "linkText": "Branch Brook Location"
+        }],
+        "purpose": [{
+          "header": "Actualmente hay dos sitios de prueba en Newark abiertos al público",
+          "body": "Si no tiene síntomas, no se recomiendan las pruebas"
+      }],
+      "sections": [
+        {
+          "header": "1. Sitios de prueba disponibles ahora o próximamente:",
+          "text": "<img class='intro-pic card' src='assets/img/Newark COVID-19 Testing Sites.png'>",
+          "buttons": [
+            {
+              "linkText": "Cityplex 12 Location",
+              "link": "https://goo.gl/maps/wukXJVPEx7WXdUJL7"
+            },
+            {
+              "linkText": "Mt Pleasant Location",
+              "link": "https://goo.gl/maps/TLqdHV7mneeXtLdW8"
+            },
+            {
+            "link": "https://g.page/bbpskating?share",
+            "linkText": "Branch Brook Location"
+            }]
+        },
+        {
+          "header": "2. Weequahic Park Drive-Thru Testing",
+          "text": "<h3>Weequahic Park - Drive-Thru - BY APPOINTMENT ONLY</h3><ul><li>Elizabeth Ave & Meeker Ave</li><li>Newark, NJ 07112</li><li>Testing is by appointment only.</li></ul>",
+          "buttons": [{
+          "link": "https://goo.gl/maps/Aqx7HPDxeqtLmbXR6",
+          "linkText": "Get Directions"
+          }]
+        },
+        {
+          "text": "<p> Para hacer una cita, los residentes pueden visitar <a href='http://www.essexcovid.org/'> www.EssexCOVID.org </a> o llamar a la Oficina de Emergencia del Condado de Essex Gestión en <a href='tel:9733249950'> 973-324-9950 </a>. (El centro de atención telefónica estará abierto de 7 a.m. a 11 p.m.) Las citas se programarán de 9 a.m. a 12 a.m. hacer una cita recibirá un número de confirmación; los residentes deben traer el número de confirmación con ellos a su cita. </p> <p> Las pruebas se ofrecen de forma gratuita. Tener seguro de salud no es un requisito. Se hará un contacto de seguimiento para evaluar la salud continua de la persona que completó la evaluación. </p> <p> Personal médico del Sistema de Salud RWJBarnabas, Centro Médico Newark Beth Israel, Hospital Universitario, Hospital Hackensack, Hospital del Condado de Essex y enfermeras de escuelas públicas en el Condado de Essex están dotando de personal a los sitios de prueba y al centro de atención telefónica. </p> <p> Los residentes deben llegar al sitio de prueba en automóvil. Por la seguridad de la residencia ts y trabajadores, los residentes que lleguen a pie no serán evaluados. </p> "
+        }
+      ]
+   }
 ]

@@ -58,7 +58,7 @@
 				"header": "Local do programa para café da manhã e almoço escolar",
 				"link": "https://www.nps.k12.nj.us/covid-19-resources/breakfast-lunch-program-locations/",
         "linkText": "Aprenda sobre o programa de café da manhã e almoço",
-				"text": "<p> O Programa de Café da Manhã e Almoço está disponível para todos os alunos de escolas designadas de segunda a sexta-feira, das 9h30 às 11h30. O aluno pode pegar comida em qualquer local do NPS mais próximo de sua casa. </p>"
+				"text": "<p><img class='intro-pic card' src='assets/img/pagePhotos/schoolLunchUpdates.jpg'> O Programa de Café da Manhã e Almoço está disponível para todos os alunos de escolas designadas de segunda a sexta-feira, das 9h30 às 11h30. O aluno pode pegar comida em qualquer local do NPS mais próximo de sua casa. </p>"
 			}],
 		"title": "Distribución de alimentos a los residentes afectados por COVID-19"
 	},{

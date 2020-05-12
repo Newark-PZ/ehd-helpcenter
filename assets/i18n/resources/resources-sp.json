@@ -61,7 +61,7 @@
 				"header": "Ubicaciones del programa de desayuno y almuerzo escolar",
 				"link": "https://www.nps.k12.nj.us/covid-19-resources/breakfast-lunch-program-locations/",
         "linkText": "Aprenda sobre el programa de desayuno y préstamo",
-        "text": "<p> El programa de desayuno y almuerzo está disponible para todos los estudiantes en las escuelas designadas de lunes a viernes de 9:30 a.m. a 11:30 a.m. El estudiante puede recoger comida en cualquier sitio de NPS más cercano a su hogar. </p>"
+        "text": "<p><img class='intro-pic card' src='assets/img/pagePhotos/schoolLunchUpdates.jpg'> El programa de desayuno y almuerzo está disponible para todos los estudiantes en las escuelas designadas de lunes a viernes de 9:30 a.m. a 11:30 a.m. El estudiante puede recoger comida en cualquier sitio de NPS más cercano a su hogar. </p>"
 			}],
 		"title": "Distribución de alimentos a los residentes afectados por COVID-19"
 	},{

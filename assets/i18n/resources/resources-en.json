@@ -8,7 +8,7 @@
             {
                 "link": "https://nj.gov/labor",
                 "linkText": "Learn More",
-                "text": "<img class='intro-pic card' src='assets/img/pagePhotos/Covid-19 scenarios.jpg' #img (click)='expandImg(img)'>"
+                "text": "<img class='intro-pic card' src='assets/img/pagePhotos/Covid-19 scenarios.jpg'>"
             }
         ],
         "sectionHeader": "The New jersey Department of Labor prepared this chart with information about what benefits for people with a variety of different Covid-19 related situations. These include earned sick leave, unemployment insurance, disability/family leave insurance, and workers compensation.",
@@ -74,7 +74,7 @@
                 "header": "School Breakfast and Lunch Program Locations",
                 "link": "https://www.nps.k12.nj.us/covid-19-resources/breakfast-lunch-program-locations/",
                 "linkText": "Learn About the Breakfast & Lunch Program",
-                "text": "<p>The Breakfast and Lunch Program is available for all students at designated schools from Monday to Friday between the hours of 9:30 am - 11:30 am. Student can pick up food at any NPS site nearest to their home.</p>"
+                "text": "<p><img class='intro-pic card' src='assets/img/pagePhotos/schoolLunchUpdates.jpg'>The Breakfast and Lunch Program is available for all students at designated schools from Monday to Friday between the hours of 9:30 am - 11:30 am. Student can pick up food at any NPS site nearest to their home.</p>"
             }
         ],
         "title": "Food Distribution to Newarkers Impacted by COVID-19"

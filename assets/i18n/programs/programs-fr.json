@@ -421,5 +421,59 @@
                 "text": "<p> Vous pouvez toujours aller au supermarché, au magasin local d'articles de première nécessité, à la pharmacie, au médecin, promener les chiens, sortir et prendre l'air frais devant ou derrière la maison/le pas de la porte/le porche/la terrasse, ou si vous êtes un employé essentiel. En outre, les enfants doivent être accompagnés d'un adulte et les gens ne doivent quitter leur domicile que par paires. </p> <p> Pendant votre absence, vous devez respecter la recommandation du Center for Disease Control (CDC) de garder six pieds de distance. </p> <p> <b> Les résidents sont priés d'appeler la police s'ils voient des groupes de personnes traîner et violer ce mandat. </b> </p>"
             }
         ]
-    }
+    },
+    {
+      "category": "Sauver des vies. Restez en sécurité.",
+      "link": "testing",
+      "parent": "/programs",
+      "title": "Comment et où se faire tester à Newark",
+      "icon": "local_hospital",
+      "introText": "<p><img class='intro-pic' src='assets/img/pagePhotos/Coronavirus-test.jpg'>À l'heure actuelle, le dépistage est prioritaire pour les personnes qui sont des contacts étroits des cas confirmés de COVID-19, les personnes qui ont voyagé vers / depuis des zones très touchées, les personnes sans symptômes qui proviennent de groupes raciaux et ethniques minoritaires affectés de manière disproportionnée par les résultats défavorables de COVID-19, ou ceux qui sont malades et éprouvent <b> au moins trois </b> des <a href='https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html'> neuf Symptômes reconnus par les CDC </a> de COVID-19: </p> <b> 1) </b> Toux <b> 2) </b> Essoufflement ou difficulté à respirer <b> 3) </ b > Fièvre (à 99,6 ° F ou plus) <b> 4) </b> Frissons <b> 5) </b> Secousses répétées avec frissons <b> 6) </b> Maux de tête <b> 7) </ b> Maux de gorge <b> 8) </b> Douleurs musculaires <b> 9) </b> Nouvelle perte de goût ou d'odeur",
+      "infoButtons": [{
+          "linkText": "Cityplex 12 Location",
+          "link": "https://goo.gl/maps/wukXJVPEx7WXdUJL7"
+        },
+        {
+          "linkText": "Mt Pleasant Location",
+          "link": "https://goo.gl/maps/TLqdHV7mneeXtLdW8"
+        },
+        {
+        "link": "https://g.page/bbpskating?share",
+        "linkText": "Branch Brook Location"
+        }],
+        "purpose": [{
+          "header": "Il existe actuellement deux sites de test à Newark ouverts au public",
+          "body": "Si vous ne présentez pas de symptômes, le test n'est pas recommandé"
+      }],
+      "sections": [
+        {
+          "header": "1. Sites de test disponibles maintenant ou à venir:",
+          "text": "<img class='intro-pic card' src='assets/img/Newark COVID-19 Testing Sites.png'>",
+          "buttons": [
+            {
+              "linkText": "Cityplex 12 Location",
+              "link": "https://goo.gl/maps/wukXJVPEx7WXdUJL7"
+            },
+            {
+              "linkText": "Mt Pleasant Location",
+              "link": "https://goo.gl/maps/TLqdHV7mneeXtLdW8"
+            },
+            {
+            "link": "https://g.page/bbpskating?share",
+            "linkText": "Branch Brook Location"
+            }]
+        },
+        {
+          "header": "2. Essais au volant du parc Weequahic",
+          "text": "<h3>Weequahic Park - Drive-Thru -Les tests se font uniquement sur rendez-vous.</h3><ul><li>Elizabeth Ave & Meeker Ave</li><li>Newark, NJ 07112</li><li>Les tests se font uniquement sur rendez-vous.</li></ul>",
+          "buttons": [{
+          "link": "https://goo.gl/maps/Aqx7HPDxeqtLmbXR6",
+          "linkText": "Get Directions"
+          }]
+        },
+        {
+          "text": "<p> Pour prendre rendez-vous, les résidents peuvent visiter <a href='http://www.essexcovid.org/'> www.EssexCOVID.org </a> ou appeler le bureau d'urgence du comté d'Essex Gestion à <a href='tel:9733249950'> 973-324-9950 </a>. (Le centre d'appel sera ouvert de 7 h à 23 h) Les rendez-vous seront fixés de 9 h à 12 h. prendre rendez-vous recevra un numéro de confirmation; les résidents doivent apporter le numéro de confirmation avec eux à leur rendez-vous. </p> <p> Les tests sont offerts gratuitement. Avoir une assurance maladie n'est pas une exigence. Un contact de suivi sera établi pour évaluer la santé continue de la personne qui a terminé le dépistage. </p> <p> Personnel médical du RWJBarnabas Health System, Newark Beth Israel Medical Center, University Hospital, Hackensack Hospital, Essex County Hospital et infirmières des écoles publiques du comté d'Essex emploient les sites de test et le centre d'appel. </p> <p> Les résidents doivent arriver au site de test en voiture. ts et travailleurs, les résidents qui arrivent à pied ne seront pas testés. </p> "
+        }
+      ]
+   }
 ]
