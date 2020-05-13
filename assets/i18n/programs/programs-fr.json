@@ -465,6 +465,7 @@
         },
         {
           "header": "2. Essais au volant du parc Weequahic",
+          "emphasizeHeader": true,
           "text": "<h3>Weequahic Park - Drive-Thru -Les tests se font uniquement sur rendez-vous.</h3><ul><li>Elizabeth Ave & Meeker Ave</li><li>Newark, NJ 07112</li><li>Les tests se font uniquement sur rendez-vous.</li></ul>",
           "buttons": [{
           "link": "https://goo.gl/maps/Aqx7HPDxeqtLmbXR6",

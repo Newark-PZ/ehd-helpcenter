@@ -456,7 +456,7 @@
         "linkText": "Branch Brook Location"
         }],
         "purpose": [{
-        "header": "There are presently two testing sites in Newark open to the public",
+        "header": "There are a growing number of testing sites in Newark open to the public",
         "body": "If you do not have symptoms, testing is not recommended"
       }],
       "sections": [
@@ -479,6 +479,7 @@
         },
         {
           "header": "2. Weequahic Park Drive-Thru Testing",
+          "emphasizeHeader": true,
           "text": "<h3>Weequahic Park - Drive-Thru - BY APPOINTMENT ONLY</h3><ul><li>Elizabeth Ave & Meeker Ave</li><li>Newark, NJ 07112</li><li>Testing is by appointment only.</li></ul>",
           "buttons": [{
           "link": "https://goo.gl/maps/Aqx7HPDxeqtLmbXR6",

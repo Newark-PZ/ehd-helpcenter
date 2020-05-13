@@ -458,6 +458,7 @@
         },
         {
           "header": "2. Weequahic Park Drive-Thru Testing",
+          "emphasizeHeader": true,
           "text": "<h3>Weequahic Park - Drive-Thru - BY APPOINTMENT ONLY</h3><ul><li>Elizabeth Ave & Meeker Ave</li><li>Newark, NJ 07112</li><li>Testing is by appointment only.</li></ul>",
           "buttons": [{
           "link": "https://goo.gl/maps/Aqx7HPDxeqtLmbXR6",
