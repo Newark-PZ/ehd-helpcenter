@@ -31,19 +31,22 @@
 			"invest-newark": "Investissez Newark pour les entreprises",
       "measuring-covid-impact": "Mesurer l'impact du COVID-19",
       "newark-municipal-court": "Le tribunal municipal de Newark accepte les paiements en ligne et les audiences vidéo",
-			"newark-news": "Plus de nouvelles de Newark",
+      "newark-news": "Plus de nouvelles de Newark",
+      "newark-reopening-recovery": "Réouverture et récupération Strikeforce",
 			"nha-tenants": "Pour les locataires de l'administration du logement",
 			"nj-small-business-help": "Aide financière NJ pour les petites entreprises",
 			"nj-testing": "Comment se faire tester",
-			"non-profit": "Fonds d'urgence pour 501 (c) 3 sans but lucratif",
-			"recruiting-essential-workers": "Recrutement des travailleurs essentiels",
+      "non-profit": "Fonds d'urgence pour 501 (c) 3 sans but lucratif",
+      "recruiting-essential-workers": "Recrutement des travailleurs essentiels",
+      "reopening": "La route du retour pour le New Jersey",
 			"safe-housing": "Logement sûr pour les sans-abri",
 			"self-employed": "Prestations de chômage pour les travailleurs indépendants",
 			"small-business-grants": "Subventions d'urgence aux petites entreprises de Newark",
 			"stay-at-home": "Rester à la maison",
 			"tenants": "FAQ du locataire",
 			"unemployment-benefits": "Admissibilité aux prestations de chômage",
-			"updated-list-essential": "Mises à jour de la liste des entreprises essentielles autorisées à fonctionner"
+      "updated-list-essential": "Mises à jour de la liste des entreprises essentielles autorisées à fonctionner",
+      "web-housing-seminar": "Séminaire web pour locataires et propriétaires"
 		},
 		"mayor-blurb": "La ville de Newark investit plus de 6 millions de dollars dans une liste croissante d’initiatives pour assurer la sécurité, la santé et la sécurité financière des résidents les plus touchés de Newark. Avec des milliers de bénévoles, nous collaborons avec les gouvernements étatiques et fédéraux, les philanthropies et les organisations à but non lucratif, les entreprises et les organisations confessionnelles pour surmonter cette urgence sanitaire et continuer à prospérer une fois que nous serons de l'autre côté.",
     "title": "Aide complète COVID-19 pour les résidents et les petites entreprises",
@@ -84,20 +87,27 @@
 		"homeowners": "FAQ sur l'allégement et la forclusion hypothécaire",
 		"invest-newark": "Investissez Newark pour les entreprises",
 		"measuring-covid-impact": "Mesurer l'impact du COVID-19",
-		"nha-tenants": "Pour les locataires de l'administration du logement",
+    "nha-tenants": "Pour les locataires de l'administration du logement",
+    "newark-reopening-recovery": "Réouverture et récupération Strikeforce",
 		"nj-small-business-help": "Aide financière NJ pour les petites entreprises",
 		"non-profit": "Fonds d'urgence pour 501 (c) 3 sans but lucratif",
 		"programs": "Nos programmes",
-		"recruiting-essential-workers": "Recrutement des travailleurs essentiels",
+    "recruiting-essential-workers": "Recrutement des travailleurs essentiels",
+    "reopening": "La route du retour pour le New Jersey",
 		"resources": "Autres ressources",
 		"safe-housing": "Logement sûr pour les sans-abri",
 		"small-business-grants": "Subventions d'urgence aux petites entreprises",
 		"stay-at-home": "Rester à la maison",
 		"stayingin": "Rester à la maison",
 		"tenants": "FAQ du locataire",
-		"unemployment-benefits": "Admissibilité aux prestations de chômage"
+    "unemployment-benefits": "Admissibilité aux prestations de chômage",
+    "web-housing-seminar": "Séminaire web pour locataires et propriétaires"
   },
   "DATA": {
     "title": "Informations en temps réel par sexe, race et quartier d'impact COVID-19"
+  },
+  "DOCVIEW": {
+    "reopening": "La route du retour pour le New Jersey",
+    "web-housing-seminar": "Séminaire web pour locataires et propriétaires"
   }
 }
