@@ -139,7 +139,7 @@
   },
   "Categories": "Rent Payments",
   "Question": "Can my landlord increase my rent during the COVID crisis?",
-  "Answer": "<b>Maybe</b>. So far, the government has not banned rent increases during the crisis.Tenants living in housing supported or regulated by the New Jersey Housing and Mortgage Finance Agency (NJHMFA) have special protections, however.On April 16, <a href='https://www.nj.gov/dca/hmfa/media/news/2020/approved/20200416.html'>Governor Murphy announced</a> that the NJHMFA had voted to prohibit rent increases for the duration of the Public Health Emergency in the 36,000 rental units the agency oversees.After the emergency ends, landlords in NJHMFA-regulated properties may raise rents up to 1.4% on 30 daysnotice to tenants.Tenants who live in non-NJHMFA properties still have whatever protections may already have applied, including lease provisions and rent control ordinances, which normally permit rent increases only once a year.",
+  "Answer": "<p>It depends on what type of housing you have. On May 13, 2020, City of Newark Mayor Baraka issued an Executive Order placing a temporary stay on rent increases for all City of Newark residential rental units covered by the City's rent control ordinance.</p><p>If you are a Newark tenant who wants to know if your housing is covered by the City's rent control ordinance, then please visit Newark’s Office of Rent Control’s website at <a href='https://www.newarknj.gov/departments/rentcontrol'>https://www.newarknj.gov/departments/rentcontrol</a>; you may also contact the Office of Rent Control by email at <a href='mailto:rentcontrol@ci.newark.nj.us'>rentcontrol@ci.newark.nj.us</a> or by phone at <a href='tel:9737333675'>973-733-3675</a>.</p><p>During the State eviction moratorium, rent increases and late fees are suspended at all NJ HMFA properties. Tenants are encouraged to visit <a href='consultnjhousing.gov/foreclosure'>consultnjhousing.gov/foreclosure</a> for a complete list of these properties or to call <a href='tel:+18006546873'>1-800-NJHOUSE</a> to speak to a housing counselor for free.</p><p>Federally subsidized tenants are protected from any rent increases and late fees (including attorney's fees).</p>",
   "createdAt": {
     "$date": "2020-05-01T01:26:14Z"
   },
@@ -365,6 +365,22 @@
   "Categories": "Electricity, Gas, Water",
   "Question": "Do I still have to pay for utilities and water?",
   "Answer": "<b>Yes</b>. You still have to pay whatever electric, gas, or water bills you normally pay.If you cannot pay now, you will have to pay later.The utilities and water companies are not cancelling debts; they are just postponing shutoffs for the time being. DCA offers low-income tenants <a href='https://www.nj.gov/dca/divisions/dhcr/offices/hea.html'>assistance with some utility bills</a>.",
+  "createdAt": {
+    "$date": "2020-05-01T01:26:14Z"
+  },
+  "updatedAt": {
+    "$date": "2020-05-01T01:26:14Z"
+  },
+  "__v": 0,
+  "Type": "Tenant"
+},
+{
+  "_id": {
+    "$oid": "5eab7c47695972f5c084ed26"
+  },
+  "Categories": "Sexual Harrassment in Housing",
+  "Question": "My landlord knows I am unable to pay rent due to lost income from the COVID-19 crisis and is now pressuring me to engage in sexual conduct in exchange for the rent. What should I do?",
+  "Answer": "<p>Sexual harassment in housing — which includes demands for sex or sexual acts in order to buy, rent, or continue renting a home — is <b>ILLEGAL</b> under the federal Fair Housing Act and other laws. If your landlord is sexually harassing you, you can file a complaint with HUD at <a href='hud.gov/program_offices/fair_housing_equal_opp/online-complaint'>hud.gov/program_offices/fair_housing_equal_opp/online-complaint</a>.</p><p>You may also call the Fair Housing & Equal Opportunity office at <a href='tel:+18006699777'>1-800-669-9777</a> or <a href='tel:+18008778339'>1-800-877-8339</a>.</p>",
   "createdAt": {
     "$date": "2020-05-01T01:26:14Z"
   },
