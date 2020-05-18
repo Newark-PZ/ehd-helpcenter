@@ -504,12 +504,9 @@
     "infoButtons": [
         {
           "linkText": "Conceder inscrição e perguntas frequentes",
-          "link": "http://newarkha.org/Housing/Covid19-Emergency-Rental-Assistance"
-      },
-      {
-        "linkText": "Conceder inscrição e perguntas frequentes",
-        "link": "http://newarkha.org/Housing/Covid19-Emergency-Rental-Assistance"
-    }],
+          "link": "http://newarkha.org/Housing/Covid19-Emergency-Rental-Assistance",
+          "extraClass": "important"
+      }],
       "purpose": [
         {
           "body": "Os aplicativos estão abertos agora, clique em qualquer botão acima ou abaixo para começar."

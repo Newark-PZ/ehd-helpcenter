@@ -504,12 +504,10 @@
     "infoButtons": [
       {
         "linkText": "Demande de subvention et FAQ",
-        "link": "http://newarkha.org/Housing/Covid19-Emergency-Rental-Assistance"
-      },
-      {
-        "linkText": "Demande de subvention et FAQ",
-        "link": "http://newarkha.org/Housing/Covid19-Emergency-Rental-Assistance"
-    }],
+        "link": "http://newarkha.org/Housing/Covid19-Emergency-Rental-Assistance",
+        "extraClass": "important"
+      }
+    ],
     "purpose": [
       {
         "body": "Les applications sont ouvertes maintenant, cliquez sur n'importe quel bouton au-dessus ou en dessous pour commencer."

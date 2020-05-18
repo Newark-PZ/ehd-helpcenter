@@ -504,12 +504,9 @@
     "infoButtons": [
       {
       "linkText": "Solicitud de subvención y preguntas frecuentes",
-      "link": "http://newarkha.org/Housing/Covid19-Emergency-Rental-Assistance"
-    },
-      {
-      "linkText": "Solicitud de subvención y preguntas frecuentes",
-      "link": "http://newarkha.org/Housing/Covid19-Emergency-Rental-Assistance"
-      }],
+      "link": "http://newarkha.org/Housing/Covid19-Emergency-Rental-Assistance",
+      "extraClass": "important"
+    }],
     "purpose": [
       {
         "body": "Las aplicaciones están abiertas ahora, haga clic en cualquier botón arriba o abajo para comenzar"
