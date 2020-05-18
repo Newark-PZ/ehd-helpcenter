@@ -530,17 +530,30 @@
     "parent": "/programs",
     "title": "Emergency Grants of Up To $1,000 for Housing Assistance",
     "icon": "house",
-    "introText": "<p><img class='intro-pic' src='assets/img/pagePhotos/rentdue.jpg'>Newark is a city of renters with only 22 percent of us owning our own homes. The COVID-19 crisis has left many tenants struggling to pay rent. Mayor Baraka created this One Million Dollar Emergency Housing Assistance Fund to supplement his moratorium on evictions and to enable tenants to keep their homes.</p><p>To help Newark residents and their families having difficulty paying rent as a result of COVID-19, the City will provide grants to those who fall under 60 percent of Area Median Income. For example, a single individual with an income of up to $44,520 and a family of 4 with an income up to $63,600 would be eligible to receive help with rental payments.</p>",
-    "infoButtons": [],
+    "introText": "<p><img class='intro-pic' src='assets/img/pagePhotos/rentdue.jpg'>Newark is a city of renters with only 22 percent of us owning our own homes. The COVID-19 crisis has left many tenants struggling to pay rent. Mayor Baraka created this One Million Dollar Emergency Housing Assistance Fund to supplement his moratorium on evictions and to enable tenants to keep their homes.</p><p>To help Newark residents and their families having difficulty paying rent as a result of COVID-19, the City will provide grants to those who fall under 60 percent of Area Median Income. For example, a single individual with an income of up to $42,300 and a family of 4 with an income up to $60,360 would be eligible to receive help with rental payments.</p>",
+    "infoButtons": [{
+      "linkText": "Grant Application & FAQs",
+      "link": "http://newarkha.org/Housing/Covid19-Emergency-Rental-Assistance"
+    },
+    {
+    "linkText": "Grant Application & FAQs",
+    "link": "http://newarkha.org/Housing/Covid19-Emergency-Rental-Assistance"
+  }],
     "purpose": [
       {
-        "body": "Applications will be available here starting <b>today, May 18th, at 2:00pm</b>"
+        "body": "Applications are open now, click any button above or below to get started."
       }
     ],
     "sections": [
       {
         "header": "More Info",
-        "text": "The City of Newark’s Economic Housing Development Department in partnership with Newark Housing Authority will coordinate this effort. The up to $1,000 grant will help Newark renters that have experienced loss of income, decrease of regular working hours, lay-off, or furlough, etc."
+        "text": "The City of Newark’s Economic Housing Development Department in partnership with Newark Housing Authority will coordinate this effort. The up to $1,000 grant will help Newark renters that have experienced loss of income, decrease of regular working hours, lay-off, or furlough, etc.",
+        "buttons": [
+          {
+            "link": "http://newarkha.org/Housing/Covid19-Emergency-Rental-Assistance",
+            "linkText": "Grant Application & FAQs"
+          }
+        ]
       }
     ]
   }
