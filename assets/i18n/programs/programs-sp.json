@@ -501,16 +501,29 @@
     "title": "Subvenciones de emergencia de hasta $ 1,000 para asistencia de vivienda",
     "icon": "house",
     "introText": "<p><img class='intro-pic' src='assets/img/pagePhotos/rentdue.jpg'>Newark es una ciudad de inquilinos con solo el 22 por ciento de nosotros propietarios de nuestras propias casas. El COVID La crisis de 19 dejó a muchos inquilinos luchando para pagar el alquiler. El Alcalde Baraka creó este Fondo de Asistencia de Vivienda de Emergencia de Un Millón de Dólares para complementar su moratoria sobre los desalojos y permitir a los inquilinos conservar sus hogares. </p> <p> Para ayudar a los residentes de Newark y Como sus familias tienen dificultades para pagar el alquiler como resultado de COVID-19, la Ciudad otorgará subvenciones a aquellos que caigan por debajo del 60 por ciento del Ingreso Medio del Área. Por ejemplo, una persona soltera con un ingreso de hasta $ 44,520 y una familia de 4 con un ingreso de hasta $ 63,600 sería elegible para recibir ayuda con los pagos de alquiler. </p> ",
-    "infoButtons": [],
+    "infoButtons": [
+      {
+      "linkText": "Solicitud de subvención y preguntas frecuentes",
+      "link": "http://newarkha.org/Housing/Covid19-Emergency-Rental-Assistance"
+    },
+      {
+      "linkText": "Solicitud de subvención y preguntas frecuentes",
+      "link": "http://newarkha.org/Housing/Covid19-Emergency-Rental-Assistance"
+      }],
     "purpose": [
       {
-        "body": "Las solicitudes estarán disponibles aquí a partir del <b> hoy, 18 de mayo a las 2:00 p. m. </b>"
+        "body": "Las aplicaciones están abiertas ahora, haga clic en cualquier botón arriba o abajo para comenzar"
       }
     ],
     "sections": [
       {
         "header": "Más información",
-        "texto": "El Departamento de Desarrollo de Viviendas Económicas de la Ciudad de Newark, en colaboración con la Autoridad de Vivienda de Newark, coordinará este esfuerzo. La subvención de hasta $ 1,000 ayudará a los inquilinos de Newark que han experimentado pérdida de ingresos, disminución de las horas de trabajo regulares, despido, o permiso, etc. "
+        "text": "El Departamento de Desarrollo de Viviendas Económicas de la Ciudad de Newark, en colaboración con la Autoridad de Vivienda de Newark, coordinará este esfuerzo. La subvención de hasta $ 1,000 ayudará a los inquilinos de Newark que han experimentado pérdida de ingresos, disminución de las horas de trabajo regulares, despido, o permiso, etc. ",
+        "buttons": [
+        {
+          "linkText": "Solicitud de subvención y preguntas frecuentes",
+          "link": "http://newarkha.org/Housing/Covid19-Emergency-Rental-Assistance"
+        }]
       }
     ]
   }

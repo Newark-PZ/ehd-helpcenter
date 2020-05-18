@@ -500,17 +500,31 @@
     "parent": "/programs",
     "title": "Subventions d'urgence pouvant atteindre $1,000 pour l'aide au logement",
     "icon": "house",
-    "introText": "<p><img class='intro-pic' src='assets/img/pagePhotos/rentdue.jpg'>Newark est une ville de locataires avec seulement 22 pour cent d'entre nous possédant notre propre maison. Le COVID -19 crise a laissé de nombreux locataires du mal à payer le loyer. Le maire Baraka a créé ce Fonds d'aide au logement d'urgence d'un million de dollars pour compléter son moratoire sur les expulsions et pour permettre aux locataires de garder leurs maisons. </p> <p> Pour aider les résidents de Newark et leurs familles ayant des difficultés à payer leur loyer en raison de COVID-19, la Ville accordera des subventions à ceux qui tombent sous 60 pour cent du revenu médian de la région. Par exemple, une personne seule avec un revenu pouvant atteindre 44 520 $ et une famille de 4 personnes avec un revenu allant jusqu'à 63 600 $ serait admissible à recevoir de l'aide pour les paiements de location. </p> ",
-    "infoButtons": [],
+    "introText": "<p><img class='intro-pic' src='assets/img/pagePhotos/rentdue.jpg'>Newark est une ville de locataires avec seulement 22 pour cent d'entre nous possédant notre propre maison. Le COVID -19 crise a laissé de nombreux locataires du mal à payer le loyer. Le maire Baraka a créé ce Fonds d'aide au logement d'urgence d'un million de dollars pour compléter son moratoire sur les expulsions et pour permettre aux locataires de garder leurs maisons. </p> <p> Pour aider les résidents de Newark et leurs familles ayant des difficultés à payer leur loyer en raison de COVID-19, la Ville accordera des subventions à ceux qui tombent sous 60 pour cent du revenu médian de la région. Par exemple, une personne seule avec un revenu pouvant atteindre 42 300 $ et une famille de 4 personnes avec un revenu allant jusqu'à 63 360 $ serait admissible à recevoir de l'aide pour les paiements de location. </p> ",
+    "infoButtons": [
+      {
+        "linkText": "Demande de subvention et FAQ",
+        "link": "http://newarkha.org/Housing/Covid19-Emergency-Rental-Assistance"
+      },
+      {
+        "linkText": "Demande de subvention et FAQ",
+        "link": "http://newarkha.org/Housing/Covid19-Emergency-Rental-Assistance"
+    }],
     "purpose": [
       {
-        "body": "Les candidatures seront disponibles ici à partir du <b> aujourd'hui 18 mai à 14h00 </b>"
+        "body": "Les applications sont ouvertes maintenant, cliquez sur n'importe quel bouton au-dessus ou en dessous pour commencer."
       }
     ],
     "sections": [
       {
         "header": "Plus d'infos",
-        "text": "Le service de développement économique du logement de la ville de Newark, en partenariat avec la Newark Housing Authority, coordonnera cet effort. La subvention pouvant atteindre 1 000 $ aidera les locataires de Newark qui ont subi une perte de revenu, une diminution des heures normales de travail, une mise à pied, ou congé, etc."
+        "text": "Le service de développement économique du logement de la ville de Newark, en partenariat avec la Newark Housing Authority, coordonnera cet effort. La subvention pouvant atteindre 1 000 $ aidera les locataires de Newark qui ont subi une perte de revenu, une diminution des heures normales de travail, une mise à pied, ou congé, etc.",
+        "buttons": [
+        {
+          "linkText": "Demande de subvention et FAQ",
+          "link": "http://newarkha.org/Housing/Covid19-Emergency-Rental-Assistance"
+          }
+        ]
       }
     ]
   }

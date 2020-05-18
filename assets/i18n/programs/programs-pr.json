@@ -500,17 +500,31 @@
     "parent": "/programs",
     "title": "Subsídios de emergência de até US $1.000 para assistência à moradia",
     "icon": "house",
-    "introText": "<p><img class='intro-pic' src='assets/img/pagePhotos/rentdue.jpg'>Newark é uma cidade de locatários, com apenas 22% de nós possuindo nossas próprias casas. O COVID A crise de -19 deixou muitos inquilinos lutando para pagar o aluguel.O prefeito Baraka criou este Fundo de Assistência de Emergência de Um Milhão de Dólares para complementar sua moratória em despejos e para permitir que os inquilinos mantenham suas casas. </p> <p> Para ajudar os residentes de Newark e suas famílias têm dificuldade em pagar aluguel como resultado do COVID-19, a cidade fornecerá subsídios para aqueles que tiverem menos de 60% da renda mediana da área.Por exemplo, um único indivíduo com uma renda de até US $ 44.520 e uma família de 4 com uma renda de até US $ 63.600 seria elegível para receber ajuda com pagamentos de aluguel. </p> ",
-    "infoButtons": [],
-    "purpose": [
+    "introText": "<p><img class='intro-pic' src='assets/img/pagePhotos/rentdue.jpg'>Newark é uma cidade de locatários, com apenas 22% de nós possuindo nossas próprias casas. O COVID A crise de -19 deixou muitos inquilinos lutando para pagar o aluguel.O prefeito Baraka criou este Fundo de Assistência de Emergência de Um Milhão de Dólares para complementar sua moratória em despejos e para permitir que os inquilinos mantenham suas casas. </p> <p> Para ajudar os residentes de Newark e suas famílias têm dificuldade em pagar aluguel como resultado do COVID-19, a cidade fornecerá subsídios para aqueles que tiverem menos de 60% da renda mediana da área.Por exemplo, um único indivíduo com uma renda de até US $ 42.300 e uma família de 4 com uma renda de até US $ 60.360 seria elegível para receber ajuda com pagamentos de aluguel. </p> ",
+    "infoButtons": [
+        {
+          "linkText": "Conceder inscrição e perguntas frequentes",
+          "link": "http://newarkha.org/Housing/Covid19-Emergency-Rental-Assistance"
+      },
       {
-        "body": "Os aplicativos estarão disponíveis aqui a partir de <b> hoje, 18 de maio, às 14:00 </b>"
-      }
-    ],
+        "linkText": "Conceder inscrição e perguntas frequentes",
+        "link": "http://newarkha.org/Housing/Covid19-Emergency-Rental-Assistance"
+    }],
+      "purpose": [
+        {
+          "body": "Os aplicativos estão abertos agora, clique em qualquer botão acima ou abaixo para começar."
+        }
+      ],
     "sections": [
       {
         "header": "Mais informações",
-        "text": "O Departamento de Desenvolvimento Econômico da Habitação da Cidade de Newark, em parceria com a Newark Housing Authority, coordenará esse esforço. A subvenção de até US $ 1.000 ajudará os locatários de Newark que sofreram perda de renda, diminuição do horário de trabalho regular, dispensa, ou licença, etc. "
+        "text": "O Departamento de Desenvolvimento Econômico da Habitação da Cidade de Newark, em parceria com a Newark Housing Authority, coordenará esse esforço. A subvenção de até US $ 1.000 ajudará os locatários de Newark que sofreram perda de renda, diminuição do horário de trabalho regular, dispensa, ou licença, etc. ",
+        "buttons": [
+          {
+            "linkText": "Conceder inscrição e perguntas frequentes",
+            "link": "http://newarkha.org/Housing/Covid19-Emergency-Rental-Assistance"
+        }
+        ]
       }
     ]
   }
