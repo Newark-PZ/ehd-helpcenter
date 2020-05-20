@@ -561,7 +561,7 @@
     "parent": "/programs",
     "title": "Mayor Baraka’s Moratorium on Rent Increases for Rent Controlled Tenants",
     "icon": "house",
-    "introText": "<p><img class='intro-pic' src='assets/img/pagePhotos/rent_control.jpg'>Mayor Baraka has issued an executive order imposeing a temporary moratorium on all rent increases until no later than two months following the end of the State of Emergency. The moratorium will prevent any increase in rent including funds for parking, pets, the use of furniture, subletting, and security, damage and cleaning deposits in any property covered by the Newark Rent Control Ordinance.</p><p>This moratorium is retroactive to April 1, 2020, and will remain in effect throughout the State of Emergency declaration in the City of Newark and for a period of two months following the end of the Emergency declaration.</p>",
+    "introText": "<p><img class='intro-pic' src='assets/img/pagePhotos/rent_control.jpg'>Mayor Baraka has issued an executive order imposing a <b>temporary moratorium on all rent increases</b> until no later than two months following the end of the State of Emergency. The moratorium will prevent any increase in rent including funds for parking, pets, the use of furniture, subletting, and security, damage and cleaning deposits in any property covered by the Newark Rent Control Ordinance.</p><p>This moratorium is <b>retroactive to April 1, 2020</b>, and will remain in effect throughout the State of Emergency declaration in the City of Newark and for a period of two months following the end of the Emergency declaration.</p>",
     "infoButtons": [
       {
       "linkText": "Full Text of Order",
