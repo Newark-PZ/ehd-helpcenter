@@ -39,6 +39,7 @@
 			"non-profit": "Emergency Fund For 501(c)3 Nonprofits",
       "recruiting-essential-workers": "Recruiting Essential Workers",
       "reopening": "NJ State Reopening Principles",
+      "rent-increase-freeze": "Rent Increase Freeze for Rent Controlled Tenants",
 			"safe-housing": "Safe Housing for Homeless",
 			"self-employed": "Unemployment Benefits for Self-Employed",
 			"small-business-grants": "Newark Small Business Emergency Grants",
@@ -97,6 +98,8 @@
 		"programs": "Our Programs",
     "recruiting-essential-workers": "Recruiting Essential Workers",
     "reopening": "The Road Back for NJ",
+    "rent-increase-freeze": "Rent Increase Freeze",
+    "rent-increase-freeze-order": "Rent Increase Freeze Order",
 		"resources": "Other Resources",
 		"safe-housing": "Safe Housing for Homeless",
 		"small-business-grants": "Small Business Emergency Grants",
@@ -112,6 +115,7 @@
   },
   "DOCVIEW": {
     "reopening": "The Road Back for New Jersey",
-    "web-housing-seminar": "Web Seminar for Tenants & Homeowners"
+    "web-housing-seminar": "Web Seminar for Tenants & Homeowners",
+    "rent-increase-freeze-order": "Rent Increase Freeze for Rent Controlled Tenants"
   }
 }
