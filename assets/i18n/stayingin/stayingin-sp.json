@@ -29,5 +29,27 @@
         "header": "Excepciones",
         "text": "<p> Todavía puede ir al supermercado, a la tienda local de artículos esenciales, a la farmacia, al médico, pasear perros, salir y tomar aire fresco en la parte delantera o trasera de la casa/puerta/porche/terraza, o si es un empleado esencial. Además, los niños deben estar acompañados por un adulto y las personas solo deben salir de sus hogares en parejas. </p> <p> Mientras estén fuera, deben mantener la recomendación del Centro para el Control de Enfermedades (CDC) de mantenerse a seis pies de distancia. </p> <p> <b> Se insta a los residentes a llamar a la policía si ven grupos de personas pasando el rato y violando este mandato. </b> </p>"
       }]
+    },
+    {
+      "category": "Salva vidas. Mantenerse a salvo.",
+      "link": "phase-one",
+      "parent": "/programs",
+      "title": "Primeros pasos en preparación para la eventual reapertura",
+      "icon": "verified_user",
+      "introText": "<p> <img class='intro-pic' src='assets/img/pagePhotos/broadmarket.jpg'> El alcalde Ras J. Baraka ha presentado la primera fase del plan para reabrir el comienzo de Newark 1 de junio. La fase uno se trata de preparar a Newarkj para abrir. Estamos avanzando, pero también nos da espacio para retirarnos si los números vuelven a subir. Nuestra principal prioridad es la salud y la seguridad de los residentes de Newark. </p> <p> La Fase Uno se basa en datos que muestran una disminución continua en los casos de COVID-19 y de las recomendaciones de la Fuerza de ataque de reapertura y recuperación de Newark. positivo ha disminuido dramáticamente, así como los casos y muertes reportados. </p> ",
+      "infoButtons": [
+        {
+          "link": "stayin/newark-reopening-recovery",
+          "linkText": "Más información sobre recuperación y reapertura de Strikeforce"
+      }],
+      "sections": [
+        {
+          "text": "<p> Como parte de la Fase Uno, la Ciudad instituirá un sistema codificado por colores para dar a las personas la información que necesitan para tomar decisiones informadas sobre los riesgos de ir a diferentes lugares. Negocios, restaurantes, parques y otros lugares públicos mostrarán letreros codificados por colores, siendo el rojo el área de mayor riesgo, el amarillo más moderado y el verde el área de menor riesgo. </p> <p> Otros componentes de la Fase Uno incluyen: <ul> <li> Centros de recreación , los parques y los parques infantiles permanecerán cerrados; las fiestas de la cuadra y los eventos especiales permanecerán en espera. Todos los servicios basados ​​en la fe se pueden realizar por teleconferencia o virtualmente. </li> <li> Se establecerán centros de información en cada barrio y 4311 ampliado para incluir una línea directa de información COVID-19. Además, se creará un grupo de trabajo de tecnología para desarrollar una estrategia sostenible en toda la ciudad para el acceso universal a Wi-Fi y el hardware necesario para el aprendizaje remoto. </li> <li> Un aislamiento y se desarrollará un plan de cuarentena para quienes no pueden crear uno ellos mismos. Se proporcionará orientación sobre obstáculos emocionales y temores relacionados con la desconfianza médica. </li> <li> Finalmente, se enviarán cartas a todas las empresas solicitando planes para garantizar la seguridad de sus empleados y del público en general. Los procesos de licencias, aprobaciones y permisos de la ciudad se ajustarán para simplificar lo que se puede acelerar y renunciar. </li> </ul> <p> La Fuerza de ataque de recuperación y reapertura de Newark, dirigida por el jefe de personal Amiri Baraka, Jr. y Newark Alliance La CEO, Aisha Glover, continuará trabajando en colaboración mientras se implementan otras fases también. </p> ",
+          "buttons": [{
+            "link":"stayingin/newark-reopening-recovery",
+            "linkText": "Más información sobre recuperación y reapertura de Strikeforce"
+            }]
+        }
+      ]
     }
 ]

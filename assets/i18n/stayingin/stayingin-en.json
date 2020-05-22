@@ -41,13 +41,36 @@
       "title": "Shelter-in-Place Order",
       "icon": "local_hospital",
       "introContent": [{
-        "text":
-        "<h3><img class='intro-pic' src='assets/img/pagePhotos/shelter-in-place.jpg'>To protect residents against the spread of COVID-19, Mayor Ras J. Baraka has announced a strict City-wide “shelter-in-place” mandate and all-city quarantine that will be strictly enforced by law enforcement.</h3><p>People must stay home and not come out unless it’s an emergency.</p>"
+        "text": "<h3><img class='intro-pic' src='assets/img/pagePhotos/shelter-in-place.jpg'>To protect residents against the spread of COVID-19, Mayor Ras J. Baraka has announced a strict City-wide “shelter-in-place” mandate and all-city quarantine that will be strictly enforced by law enforcement.</h3><p>People must stay home and not come out unless it’s an emergency.</p>"
       }],
       "programs": [
       {
         "header": "Exceptions",
         "text": "<p>You can still go to the supermarket, local store for essentials, pharmacy, doctor, walk dogs, step out and get fresh air in front or back of home/doorstep/porch/terrace, or if an essential employee. Also, children need to be accompanied by an adult and people should only leave their homes in pairs.</p><p>While out, you must maintain the Center for Disease Control’s (CDC) recommendation of keeping six feet apart.</p><p><b>Residents are urged to call police if they see groups of people hanging out and violating this mandate.</b></p>"
       }]
+    },
+    {
+      "category": "Save Lives. Stay Safe.",
+      "link": "phase-one",
+      "parent": "/stayingin",
+      "title": "First Steps in Preparation for Eventual Re-Opening",
+      "icon": "verified_user",
+      "introContent": [{
+        "text": "<p><img class='intro-pic' src='assets/img/pagePhotos/broadmarket.jpg'>Mayor Ras J. Baraka has presented the first phase of the plan to re-open Newark beginning June 1.  Phase One is about us getting Newarkj prepared to open. We’re advancing, but it also gives us room to retreat if the numbers go back up. Our top priority is the health and safety of Newark residents.</p><p>Phase One is based on data that shows a continued decline in COVID-19 cases and from the recommendations of the Newark Reopening and Recovery Strikeforce. The data collected shows while Newark has increased testing 100 percent, the percentage of people who have tested positive has dropped dramatically, as well as reported cases and deaths.</p>"
+      }],
+      "infoButtons": [
+        {
+          "link":"stayingin/newark-reopening-recovery",
+          "linkText": "More Info On Recovery & Reopening Strikeforce"
+      }],
+      "programs": [
+        {
+          "text": "<p>As part of Phase One, the City will institute a color-coded system to give people information they need to have to make informed choices about the risks of going to different places. Businesses, restaurants, parks and other public places will display color-coded signage, with red being the highest risk area, yellow more moderate, and green the lowest risk area.</p><p>Other Phase One components include:<ul><li>Recreation centers, parks and playgrounds will remain closed; block parties and special events will remain on hold. All faith-based services can be held via teleconference or virtually.</li><li>Information centers will be established in each ward and 4311 will be expanded to include a dedicated COVID-19 information hotline. Additionally, a technology task force will be created to develop a sustainable citywide strategy for universal access to Wi-Fi and the hardware necessary for remote learning.</li><li>An isolation and quarantine plan will be developed for those who cannot create one themselves. Guidance will be provided around emotional hurdles and fears related to medical mistrust.</li><li>Lastly, letters will be sent to all businesses requesting plans to ensure the safety of their employees and the general public. City licensing, approvals and permitting processes will be adjusted to streamline what can be expedited and waived.</li></ul><p>The Newark Recovery and Reopening Strikeforce, led by Chief of Staff Amiri Baraka, Jr. and Newark Alliance CEO Aisha Glover, will continue to work collaboratively while other phases are rolled out as well.</p>",
+          "buttons": [{
+            "link":"stayingin/newark-reopening-recovery",
+            "linkText": "More Info On Recovery & Reopening Strikeforce"
+          }]
+        }
+      ]
     }
 ]

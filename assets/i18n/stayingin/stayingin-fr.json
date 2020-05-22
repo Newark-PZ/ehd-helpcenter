@@ -36,5 +36,27 @@
                 "text": "<p> Vous pouvez toujours aller au supermarché, au magasin local d'articles de première nécessité, à la pharmacie, au médecin, promener les chiens, sortir et prendre l'air frais devant ou derrière la maison/le pas de la porte/le porche/la terrasse, ou si vous êtes un employé essentiel. En outre, les enfants doivent être accompagnés d'un adulte et les gens ne doivent quitter leur domicile que par paires. </p> <p> Pendant votre absence, vous devez respecter la recommandation du Center for Disease Control (CDC) de garder six pieds de distance. </p> <p> <b> Les résidents sont priés d'appeler la police s'ils voient des groupes de personnes traîner et violer ce mandat. </b> </p>"
              }
           ]
-       }
+       },
+       {
+        "category": "Sauver des vies. Restez en sécurité.",
+        "link": "phase-one",
+        "parent": "/programs",
+        "title": "Premiers pas dans la préparation d'une éventuelle réouverture",
+        "icon": "verified_user",
+        "introText": "<p> <img class='intro-pic' src='assets/img/pagePhotos/broadmarket.jpg'> Le maire Ras J. Baraka a présenté la première phase du plan de réouverture de Newark au début Le 1er juin. La première phase consiste à préparer Newarkj à ouvrir. Nous avançons, mais cela nous donne également de la place pour battre en retraite si les chiffres augmentent. Notre priorité absolue est la santé et la sécurité des résidents de Newark. </p> <p> La première phase est basée sur des données montrant une baisse continue des cas de COVID-19 et sur les recommandations de la Newark Reopening and Recovery Strikeforce. positifs a chuté de façon spectaculaire, ainsi que les cas et les décès signalés. </p> ",
+        "infoButtons": [
+          {
+            "link": "stayin/newark-reopening-recovery",
+            "linkText": "Plus d'informations sur la récupération et la réouverture de Strikeforce"
+        }],
+        "sections": [
+          {
+            "text": "<p> Dans le cadre de la phase un, la Ville mettra en place un système de code couleur pour donner aux gens les informations dont ils ont besoin pour faire des choix éclairés sur les risques d'aller à différents endroits. Entreprises, restaurants, parcs et d'autres lieux publics afficheront une signalisation codée par couleur, le rouge étant la zone à risque le plus élevé, le jaune plus modéré et le vert la zone à risque le plus faible. </p> <p> Les autres éléments de la phase un comprennent: <ul> <li> Centres de loisirs , les parcs et les terrains de jeux resteront fermés; les fêtes de quartier et les événements spéciaux resteront en suspens. Tous les services confessionnels peuvent être organisés par téléconférence ou virtuellement. </li> <li> Des centres d'information seront établis dans chaque quartier et le 4311 sera élargi pour inclure une hotline dédiée à l'information COVID-19. De plus, un groupe de travail sur la technologie sera créé pour développer une stratégie durable à l'échelle de la ville pour l'accès universel au Wi-Fi et le matériel nécessaire pour l'apprentissage à distance. </li> <li> Un isolement et plan de quarantaine sera développé pour ceux qui c ne peut pas en créer un lui-même. Des conseils seront fournis sur les obstacles émotionnels et les craintes liées à la méfiance médicale. </li> <li> Enfin, des lettres seront envoyées à toutes les entreprises demandant des plans pour assurer la sécurité de leurs employés et du grand public. Les processus d'octroi de licences, d'approbations et de permis de la ville seront ajustés pour rationaliser ce qui peut être accéléré et annulé. </li> </ul> <p> Le Newark Recovery and Reopening Strikeforce, dirigé par le chef de cabinet Amiri Baraka, Jr. et Newark Alliance La PDG Aisha Glover continuera de travailler en collaboration tandis que d'autres phases seront également déployées. </p> ",
+            "buttons": [{
+              "link":"stayingin/newark-reopening-recovery",
+              "linkText": "Plus d'informations sur la récupération et la réouverture de Strikeforce"
+              }]
+          }
+        ]
+      }
 ]
