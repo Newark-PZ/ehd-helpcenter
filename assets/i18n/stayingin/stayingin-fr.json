@@ -1,62 +1,75 @@
 [
-    {
-      "category": "Sauver des vies. Restez en sécurité.",
-      "link": "be-still-mondays",
-      "parent": "/stayingin",
-      "title": "Soyez tranquille le lundi",
-      "icon": "local_hospital",
-      "introContent": [
+  {
+    "category": "Sauver des vies. Restez en sécurité.",
+    "link": "be-still-mondays",
+    "parent": "/stayingin",
+    "title": "Soyez tranquille le lundi",
+    "icon": "local_hospital",
+    "introContent": [
+      {
+        "text": "<h3><img class='intro-pic' src='assets/img/pagePhotos/mondays.jpg'> Le maire Baraka a demandé à 'tout le monde de rester à la maison' pour un arrêt presque complet de la ville de Newark le lundi attirer l'attention sur la gravité de la propagation du COVID-19 dans la communauté et aider à ralentir la propagation. Soyez tranquille le lundi »se produira chaque semaine pour le mois prochain. </h3><h3> Si vous n'êtes pas un policier, un pompier, une infirmière ou un autre travailleur médical de première ligne, restez à la maison. </h3>"
+      }
+    ],
+    "programs": [
+      {
+        "header": "Exceptions",
+        "text": "<p> Le «Be Still Mondays» de la ville de Newark n'est pas un décret, mais c'est une demande qui décourage toutes les entreprises à l'exception des services d'urgence de santé, de sécurité et de bien-être à fermer. Par exemple, les entreprises qui fournissent de la nourriture et un abri à la population sans-abri peuvent fonctionner, mais la Ville demande aux soupes populaires de limiter leurs opérations de 11 h 30 à 14 h. </p><p> La Ville souhaite que les entreprises soient jugées «essentielles» par des ordres exécutifs antérieurs, tels que les magasins d'alimentation et les pharmacies, à fermer, ainsi que les sociétés du centre-ville et les entreprises manufacturières. </p><p> L'idée est de faire preuve de solidarité à l'échelle de la communauté face à l'agressif COVID-19 virus qui ravage particulièrement les communautés noires et brunes à l'échelle nationale. </p><p> Important: cliquez ci-dessous pour plus d'informations sur les règles",
+        "linkText": "NJ Reste à la Maison et Règles Commerciales Essentielles",
+        "link": "https://covid19.nj.gov/faqs/nj-information/general-public/what-are-the-“stay-at-home”-rules-in-new-jersey-what-businesses-are-closed"
+      }
+    ]
+  },
+  {
+    "category": "Sauver des vies. Restez en sécurité.",
+    "link": "stay-at-home",
+    "parent": "/stayingin",
+    "title": "Arrêté sur place",
+    "icon": "local_hospital",
+    "introContent": [
+      {
+        "text": "<h3><img class='intro-pic' src='assets/img/pagePhotos/shelter-in-place.jpg'> Pour protéger les résidents contre la propagation du COVID-19, le maire Ras J. Baraka a annoncé une stricte Mandat «refuge sur place» à l'échelle de la ville et mise en quarantaine dans toute la ville qui sera strictement appliquée par les forces de l'ordre. </h3><p> Les gens doivent rester chez eux et ne pas sortir sauf en cas d'urgence. </p>"
+      }
+    ],
+    "programs": [
+      {
+        "header": "Exceptions",
+        "text": "<p> Vous pouvez toujours aller au supermarché, au magasin local d'articles de première nécessité, à la pharmacie, au médecin, promener les chiens, sortir et prendre l'air frais devant ou derrière la maison/le pas de la porte/le porche/la terrasse, ou si vous êtes un employé essentiel. En outre, les enfants doivent être accompagnés d'un adulte et les gens ne doivent quitter leur domicile que par paires. </p><p> Pendant votre absence, vous devez respecter la recommandation du Center for Disease Control (CDC) de garder six pieds de distance. </p><p><b> Les résidents sont priés d'appeler la police s'ils voient des groupes de personnes traîner et violer ce mandat. </b></p>"
+      }
+    ]
+  },
+  {
+    "category": "Sauver des vies. Restez en sécurité.",
+    "link": "phase-one",
+    "parent": "/programs",
+    "title": "Premiers pas dans la préparation d'une éventuelle réouverture",
+    "icon": "verified_user",
+    "introText": "<p><img class='intro-pic' src='assets/img/pagePhotos/broadmarket.jpg'> Le maire Ras J. Baraka a présenté la première phase du plan de réouverture de Newark au début Le 1er juin. La première phase consiste à préparer Newarkj à ouvrir. Nous avançons, mais cela nous donne également de la place pour battre en retraite si les chiffres augmentent. Notre priorité absolue est la santé et la sécurité des résidents de Newark. </p><p> La première phase est basée sur des données montrant une baisse continue des cas de COVID-19 et sur les recommandations de la Newark Reopening and Recovery Strikeforce. positifs a chuté de façon spectaculaire, ainsi que les cas et les décès signalés. </p> ",
+    "infoButtons": [
+      {
+        "link": "stayin/newark-reopening-recovery",
+        "linkText": "Plus d'informations sur la récupération et la réouverture de Strikeforce"
+      }
+    ],
+    "sections": [
+      {
+        "text": "<p> Dans le cadre de la phase un, la Ville mettra en place un système de code couleur pour donner aux gens les informations dont ils ont besoin pour faire des choix éclairés sur les risques d'aller à différents endroits. Entreprises, restaurants, parcs et d'autres lieux publics afficheront une signalisation codée par couleur, le rouge étant la zone à risque le plus élevé, le jaune plus modéré et le vert la zone à risque le plus faible. </p><p> Les autres éléments de la phase un comprennent: <ul><li> Centres de loisirs , les parcs et les terrains de jeux resteront fermés; les fêtes de quartier et les événements spéciaux resteront en suspens. Tous les services confessionnels peuvent être organisés par téléconférence ou virtuellement. </li><li> Des centres d'information seront établis dans chaque quartier et le 4311 sera élargi pour inclure une hotline dédiée à l'information COVID-19. De plus, un groupe de travail sur la technologie sera créé pour développer une stratégie durable à l'échelle de la ville pour l'accès universel au Wi-Fi et le matériel nécessaire pour l'apprentissage à distance. </li><li> Un isolement et plan de quarantaine sera développé pour ceux qui c ne peut pas en créer un lui-même. Des conseils seront fournis sur les obstacles émotionnels et les craintes liées à la méfiance médicale. </li><li> Enfin, des lettres seront envoyées à toutes les entreprises demandant des plans pour assurer la sécurité de leurs employés et du grand public. Les processus d'octroi de licences, d'approbations et de permis de la ville seront ajustés pour rationaliser ce qui peut être accéléré et annulé. </li></ul><p> Le Newark Recovery and Reopening Strikeforce, dirigé par le chef de cabinet Amiri Baraka, Jr. et Newark Alliance La PDG Aisha Glover continuera de travailler en collaboration tandis que d'autres phases seront également déployées. </p> ",
+        "buttons": [
           {
-            "text": "<h3> <img class='intro-pic' src='assets/img/pagePhotos/mondays.jpg'> Le maire Baraka a demandé à 'tout le monde de rester à la maison' pour un arrêt presque complet de la ville de Newark le lundi attirer l'attention sur la gravité de la propagation du COVID-19 dans la communauté et aider à ralentir la propagation. Soyez tranquille le lundi »se produira chaque semaine pour le mois prochain. </h3> <h3> Si vous n'êtes pas un policier, un pompier, une infirmière ou un autre travailleur médical de première ligne, restez à la maison. </h3>"
-          }
-      ],
-      "programs": [
-          {
-            "header": "Exceptions",
-            "text": "<p> Le «Be Still Mondays» de la ville de Newark n'est pas un décret, mais c'est une demande qui décourage toutes les entreprises à l'exception des services d'urgence de santé, de sécurité et de bien-être à fermer. Par exemple, les entreprises qui fournissent de la nourriture et un abri à la population sans-abri peuvent fonctionner, mais la Ville demande aux soupes populaires de limiter leurs opérations de 11 h 30 à 14 h. </p> <p> La Ville souhaite que les entreprises soient jugées «essentielles» par des ordres exécutifs antérieurs, tels que les magasins d'alimentation et les pharmacies, à fermer, ainsi que les sociétés du centre-ville et les entreprises manufacturières. </p> <p> L'idée est de faire preuve de solidarité à l'échelle de la communauté face à l'agressif COVID-19 virus qui ravage particulièrement les communautés noires et brunes à l'échelle nationale. </p> <p> Important: cliquez ci-dessous pour plus d'informations sur les règles",
-            "linkText": "NJ Reste à la Maison et Règles Commerciales Essentielles",
-            "link": "https://covid19.nj.gov/faqs/nj-information/general-public/what-are-the-“stay-at-home”-rules-in-new-jersey-what-businesses-are-closed"
-          }
-      ]
-    },
-        {
-          "category": "Sauver des vies. Restez en sécurité.",
-          "link": "stay-at-home",
-          "parent": "/stayingin",
-          "title": "Arrêté sur place",
-          "icon": "local_hospital",
-          "introContent": [
-             {
-                "text": "<h3> <img class='intro-pic' src='assets/img/pagePhotos/shelter-in-place.jpg'> Pour protéger les résidents contre la propagation du COVID-19, le maire Ras J. Baraka a annoncé une stricte Mandat «refuge sur place» à l'échelle de la ville et mise en quarantaine dans toute la ville qui sera strictement appliquée par les forces de l'ordre. </h3> <p> Les gens doivent rester chez eux et ne pas sortir sauf en cas d'urgence. </p>"
-             }
-          ],
-          "programs": [
-             {
-                "header": "Exceptions",
-                "text": "<p> Vous pouvez toujours aller au supermarché, au magasin local d'articles de première nécessité, à la pharmacie, au médecin, promener les chiens, sortir et prendre l'air frais devant ou derrière la maison/le pas de la porte/le porche/la terrasse, ou si vous êtes un employé essentiel. En outre, les enfants doivent être accompagnés d'un adulte et les gens ne doivent quitter leur domicile que par paires. </p> <p> Pendant votre absence, vous devez respecter la recommandation du Center for Disease Control (CDC) de garder six pieds de distance. </p> <p> <b> Les résidents sont priés d'appeler la police s'ils voient des groupes de personnes traîner et violer ce mandat. </b> </p>"
-             }
-          ]
-       },
-       {
-        "category": "Sauver des vies. Restez en sécurité.",
-        "link": "phase-one",
-        "parent": "/programs",
-        "title": "Premiers pas dans la préparation d'une éventuelle réouverture",
-        "icon": "verified_user",
-        "introText": "<p> <img class='intro-pic' src='assets/img/pagePhotos/broadmarket.jpg'> Le maire Ras J. Baraka a présenté la première phase du plan de réouverture de Newark au début Le 1er juin. La première phase consiste à préparer Newarkj à ouvrir. Nous avançons, mais cela nous donne également de la place pour battre en retraite si les chiffres augmentent. Notre priorité absolue est la santé et la sécurité des résidents de Newark. </p> <p> La première phase est basée sur des données montrant une baisse continue des cas de COVID-19 et sur les recommandations de la Newark Reopening and Recovery Strikeforce. positifs a chuté de façon spectaculaire, ainsi que les cas et les décès signalés. </p> ",
-        "infoButtons": [
-          {
-            "link": "stayin/newark-reopening-recovery",
+            "link": "stayingin/newark-reopening-recovery",
             "linkText": "Plus d'informations sur la récupération et la réouverture de Strikeforce"
-        }],
-        "sections": [
+          }
+        ]
+      },
+      {
+        "header": "Demande de réouverture d'entreprise",
+        "text": "<ul><li> Tous les commerces de détail doivent remplir cette demande avant de rouvrir. Ces informations sont nécessaires pour savoir comment vous allez mettre en œuvre les protocoles. Ce formulaire doit être rempli et la certification signée ci-dessous. A un formulaire distinct doit être rempli pour chaque emplacement de chaque entreprise. </li><li> La ville de Newark examinera la conformité de votre demande et vous informera dans les 48 heures que votre demande a été approuvée ou refusée. Si votre demande est approuvée, un représentant de la ville de Newark organisera une inspection de votre entreprise dans les 24 heures. Si votre entreprise réussit l'inspection conformément à toutes les mesures de santé et de sécurité, conformément à votre plan soumis, votre entreprise se verra attribuer un ROUGE, JAUNE ou VERT certification et vous serez autorisé à rouvrir votre entreprise. </li><li> Si votre demande est refusée ou si votre entreprise échoue à l'inspection, vous pouvez modifier le plan ou vos protocoles d'entreprise et soumettre à nouveau votre demande. pour examen. Les délais ci-dessus s'appliqueront au processus de nouvelle soumission. </li></ul><p><a href='https://drive.google.com/file/d/1T9zem2aULZUORjN46H-71hTjA1Uvsh0x/view? Usp=drivesdk'> Cliquez ici </a> pour télécharger la demande, la remplir et la soumettre par e-mail/courrier/fax à <a href='mailto:reopeningplans@newarknj.gov'> reopeningplans@newarknj.gov </a> ",
+        "buttons": [
           {
-            "text": "<p> Dans le cadre de la phase un, la Ville mettra en place un système de code couleur pour donner aux gens les informations dont ils ont besoin pour faire des choix éclairés sur les risques d'aller à différents endroits. Entreprises, restaurants, parcs et d'autres lieux publics afficheront une signalisation codée par couleur, le rouge étant la zone à risque le plus élevé, le jaune plus modéré et le vert la zone à risque le plus faible. </p> <p> Les autres éléments de la phase un comprennent: <ul> <li> Centres de loisirs , les parcs et les terrains de jeux resteront fermés; les fêtes de quartier et les événements spéciaux resteront en suspens. Tous les services confessionnels peuvent être organisés par téléconférence ou virtuellement. </li> <li> Des centres d'information seront établis dans chaque quartier et le 4311 sera élargi pour inclure une hotline dédiée à l'information COVID-19. De plus, un groupe de travail sur la technologie sera créé pour développer une stratégie durable à l'échelle de la ville pour l'accès universel au Wi-Fi et le matériel nécessaire pour l'apprentissage à distance. </li> <li> Un isolement et plan de quarantaine sera développé pour ceux qui c ne peut pas en créer un lui-même. Des conseils seront fournis sur les obstacles émotionnels et les craintes liées à la méfiance médicale. </li> <li> Enfin, des lettres seront envoyées à toutes les entreprises demandant des plans pour assurer la sécurité de leurs employés et du grand public. Les processus d'octroi de licences, d'approbations et de permis de la ville seront ajustés pour rationaliser ce qui peut être accéléré et annulé. </li> </ul> <p> Le Newark Recovery and Reopening Strikeforce, dirigé par le chef de cabinet Amiri Baraka, Jr. et Newark Alliance La PDG Aisha Glover continuera de travailler en collaboration tandis que d'autres phases seront également déployées. </p> ",
-            "buttons": [{
-              "link":"stayingin/newark-reopening-recovery",
-              "linkText": "Plus d'informations sur la récupération et la réouverture de Strikeforce"
-              }]
+            "link": "https://seam.ly/5WK2T8hQ",
+            "linkText": "Lire et soumettre une demande en ligne"
           }
         ]
       }
+    ]
+  }
 ]

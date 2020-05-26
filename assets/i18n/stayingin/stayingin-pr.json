@@ -7,13 +7,13 @@
     "icon": "local_hospital",
     "introContent": [
         {
-          "text": "<h3> <img class='intro-pic' src='assets/img/pagePhotos/mondays.jpg'> O prefeito Baraka pediu a “todos que fiquem em casa” para um desligamento quase completo da cidade de Newark às segundas-feiras chamar a atenção para a gravidade da propagação do COVID-19 na comunidade e ajudar a retardar a disseminação. Fique quieto às segundas-feiras ”acontecerá toda semana no próximo mês. </h3> <h3> Se você não é um policial, bombeiro, enfermeiro ou outro profissional de saúde, fique em casa. </h3>"
+          "text": "<h3><img class='intro-pic' src='assets/img/pagePhotos/mondays.jpg'> O prefeito Baraka pediu a “todos que fiquem em casa” para um desligamento quase completo da cidade de Newark às segundas-feiras chamar a atenção para a gravidade da propagação do COVID-19 na comunidade e ajudar a retardar a disseminação. Fique quieto às segundas-feiras ”acontecerá toda semana no próximo mês. </h3><h3> Se você não é um policial, bombeiro, enfermeiro ou outro profissional de saúde, fique em casa. </h3>"
         }
     ],
     "programs": [
         {
           "header": "Exceções",
-          "text": "<p> \"Seja ainda segunda-feira\" na cidade de Newark não é uma ordem executiva, mas é uma solicitação que desencoraja todas as empresas, exceto os serviços de emergência de saúde, segurança e bem-estar. Por exemplo, empresas que fornecem comida e abrigo para a população de rua podem operar, mas a cidade está pedindo que as cozinhas de sopa limitem suas operações das 11h30 às 14h. </p> <p> A cidade gostaria que as empresas fossem consideradas \"essenciais\" por ordens executivas anteriores, como lojas de alimentos e farmácias, para fechar também, assim como empresas do centro e empresas de manufatura. </p> <p> A idéia é mostrar solidariedade em toda a comunidade diante do agressivo COVID-19 vírus que está devastando especialmente as comunidades de negros e marrons em todo o país. </p> <p> Importante: Clique abaixo para obter mais informações sobre as Regras",
+          "text": "<p> \"Seja ainda segunda-feira\" na cidade de Newark não é uma ordem executiva, mas é uma solicitação que desencoraja todas as empresas, exceto os serviços de emergência de saúde, segurança e bem-estar. Por exemplo, empresas que fornecem comida e abrigo para a população de rua podem operar, mas a cidade está pedindo que as cozinhas de sopa limitem suas operações das 11h30 às 14h. </p><p> A cidade gostaria que as empresas fossem consideradas \"essenciais\" por ordens executivas anteriores, como lojas de alimentos e farmácias, para fechar também, assim como empresas do centro e empresas de manufatura. </p><p> A idéia é mostrar solidariedade em toda a comunidade diante do agressivo COVID-19 vírus que está devastando especialmente as comunidades de negros e marrons em todo o país. </p><p> Importante: Clique abaixo para obter mais informações sobre as Regras",
           "linkText": "NJ Fique em Casa e Regras Essenciais de Negócios",
           "link": "https://covid19.nj.gov/faqs/nj-information/general-public/what-are-the-“stay-at-home”-rules-in-new-jersey-what-businesses-are-closed"
         }
@@ -27,13 +27,13 @@
         "icon": "local_hospital",
         "introContent": [
            {
-              "text": "<h3> <img class='intro-pic' src='assets/img/pagePhotos/shelter-in-place.jpg'> Para proteger os moradores contra a propagação do COVID-19, o prefeito Ras J. Baraka anunciou uma rigorosa Mandato de “abrigo no local” em toda a cidade e quarentena em todas as cidades que serão rigorosamente cumpridas pela lei. </h3> <p> As pessoas devem ficar em casa e não sair a menos que seja uma emergência. </p>"
+              "text": "<h3><img class='intro-pic' src='assets/img/pagePhotos/shelter-in-place.jpg'> Para proteger os moradores contra a propagação do COVID-19, o prefeito Ras J. Baraka anunciou uma rigorosa Mandato de “abrigo no local” em toda a cidade e quarentena em todas as cidades que serão rigorosamente cumpridas pela lei. </h3><p> As pessoas devem ficar em casa e não sair a menos que seja uma emergência. </p>"
            }
         ],
         "programs": [
            {
               "header": "Exceções",
-              "text": "<p> Você ainda pode ir ao supermercado, loja local para itens essenciais, farmácia, médico, passear com cães, sair e tomar ar fresco na frente ou atrás de casa/porta/varanda/terraço ou se for um funcionário essencial. Além disso, as crianças precisam estar acompanhadas por um adulto e as pessoas devem deixar suas casas em pares. </p> <p> Enquanto estiver fora, você deve manter a recomendação do Centro de Controle de Doenças (CDC) de manter um metro e meio de distância.</p><p><b>Os residentes devem chamar a polícia se virem grupos de pessoas saindo e violando esse mandato. </b> </p>"
+              "text": "<p> Você ainda pode ir ao supermercado, loja local para itens essenciais, farmácia, médico, passear com cães, sair e tomar ar fresco na frente ou atrás de casa/porta/varanda/terraço ou se for um funcionário essencial. Além disso, as crianças precisam estar acompanhadas por um adulto e as pessoas devem deixar suas casas em pares. </p><p> Enquanto estiver fora, você deve manter a recomendação do Centro de Controle de Doenças (CDC) de manter um metro e meio de distância.</p><p><b>Os residentes devem chamar a polícia se virem grupos de pessoas saindo e violando esse mandato. </b></p>"
            }
         ]
      },
@@ -51,11 +51,21 @@
       }],
       "sections": [
         {
-          "text": "<p> Como parte da Fase 1, a cidade instituirá um sistema com código de cores para fornecer às pessoas as informações necessárias para que façam escolhas informadas sobre os riscos de ir a lugares diferentes. Empresas, restaurantes, parques e outros locais públicos exibirão sinalização codificada por cores, com vermelho sendo a área de maior risco, amarelo mais moderado e verde a área de menor risco. </p> <p> Outros componentes da fase um incluem: <ul> <li> Centros de recreação parques e playgrounds permanecerão fechados; festas em bloco e eventos especiais permanecerão em espera.Todos os serviços religiosos podem ser realizados por teleconferência ou virtualmente. </li> <li> Centros de informações serão estabelecidos em cada ala e 4311 serão expandida para incluir uma linha direta de informações dedicada ao COVID-19. Além disso, uma força-tarefa tecnológica será criada para desenvolver uma estratégia sustentável na cidade para o acesso universal ao Wi-Fi e o hardware necessário para o aprendizado remoto. </li> <li> Um isolamento plano de quarentena será desenvolvido para aqueles que anotar criar um eles mesmos. Serão fornecidas orientações sobre obstáculos emocionais e medos relacionados à desconfiança médica. </li> <li> Por fim, serão enviadas cartas a todas as empresas solicitando planos para garantir a segurança de seus funcionários e do público em geral. Os processos de licenciamento, aprovação e permissão das cidades serão ajustados para otimizar o que pode ser acelerado e dispensado. </li> </ul> <p> O Strikeforce de recuperação e reabertura de Newark, liderado pelo chefe de gabinete Amiri Baraka, Jr. e Newark Alliance CEO Aisha Glover, continuará a trabalhar em colaboração enquanto outras fases são lançadas também. </p> ",
+          "text": "<p> Como parte da Fase 1, a cidade instituirá um sistema com código de cores para fornecer às pessoas as informações necessárias para que façam escolhas informadas sobre os riscos de ir a lugares diferentes. Empresas, restaurantes, parques e outros locais públicos exibirão sinalização codificada por cores, com vermelho sendo a área de maior risco, amarelo mais moderado e verde a área de menor risco. </p><p> Outros componentes da fase um incluem: <ul><li> Centros de recreação parques e playgrounds permanecerão fechados; festas em bloco e eventos especiais permanecerão em espera.Todos os serviços religiosos podem ser realizados por teleconferência ou virtualmente. </li><li> Centros de informações serão estabelecidos em cada ala e 4311 serão expandida para incluir uma linha direta de informações dedicada ao COVID-19. Além disso, uma força-tarefa tecnológica será criada para desenvolver uma estratégia sustentável na cidade para o acesso universal ao Wi-Fi e o hardware necessário para o aprendizado remoto. </li><li> Um isolamento plano de quarentena será desenvolvido para aqueles que anotar criar um eles mesmos. Serão fornecidas orientações sobre obstáculos emocionais e medos relacionados à desconfiança médica. </li><li> Por fim, serão enviadas cartas a todas as empresas solicitando planos para garantir a segurança de seus funcionários e do público em geral. Os processos de licenciamento, aprovação e permissão das cidades serão ajustados para otimizar o que pode ser acelerado e dispensado. </li></ul><p> O Strikeforce de recuperação e reabertura de Newark, liderado pelo chefe de gabinete Amiri Baraka, Jr. e Newark Alliance CEO Aisha Glover, continuará a trabalhar em colaboração enquanto outras fases são lançadas também. </p> ",
           "buttons": [{
             "link":"stayingin/newark-reopening-recovery",
             "linkText": "Mais informações sobre recuperação e reabertura do Strikeforce"
             }]
+        },
+        {
+          "header": "Aplicativo de reabertura de negócios",
+          "text": "<ul><li> Todas as empresas de varejo devem preencher este aplicativo antes da reabertura. Essas informações são necessárias para saber como você implementará os protocolos. Este formulário deve ser preenchido e a certificação assinada abaixo. deve ser preenchido um formulário separado para cada local de cada empresa. </li><li> A cidade de Newark analisará sua solicitação de conformidade e, dentro de 48 horas, notificará que sua inscrição foi aprovada ou reprovada. um representante da cidade de Newark organizará uma inspeção da sua empresa em 24 horas.Se a sua empresa passar na inspeção de acordo com todas as medidas de saúde e segurança, de acordo com o seu plano enviado, sua empresa receberá um VERMELHO, AMARELO ou VERDE certificação e você receberá a aprovação para reabrir seus negócios. </li><li> Se seu aplicativo for reprovado ou se sua empresa falhar na inspeção, você poderá modificar o plano ou seus protocolos comerciais e reenviá-lo. para consideração. As linhas de tempo acima serão aplicadas ao processo de reenvio. </li></ul><p><a href='https://drive.google.com/file/d/1T9zem2aULZUORjN46H-71hTjA1Uvsh0x/view?usp=drivesdk'> Clique aqui </a> para baixar o aplicativo, preenchê-lo e enviá-lo por e-mail/correio/fax para <a href='mailto:reopeningplans@newarknj.gov'> reopeningplans@newarknj.gov </a> ",
+          "buttons": [
+            {
+              "link": "https://seam.ly/5WK2T8hQ",
+              "linkText": "Leia e envie a inscrição on-line"
+            }
+          ]
         }
       ]
     }

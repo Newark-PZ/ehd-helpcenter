@@ -5,79 +5,95 @@
     "parent": "/stayingin",
     "title": "Newark Reopening and Recovery Strikeforce",
     "icon": "local_hospital",
-    "introContent": [{
-      "text":
-      "<h3><img class='intro-pic' src='assets/img/pagePhotos/Work from home.jpg'>Mayor Ras J. Baraka has announced the collaboration of city leaders to create policies and strategies on how to continue to move Newark forward when the COVID-19 threat lessens.</h3><p>Called the <b>Newark Reopening and Recovery Strikeforce</b>, the task force will build off the unprecedented cooperation between government, the private sector and organizations during the COVID-19 crisis and continue to work collectively to solve problems.</p>"
-    }],
+    "introContent": [
+      {
+        "text": "<h3><img class='intro-pic' src='assets/img/pagePhotos/Work from home.jpg'>Mayor Ras J. Baraka has announced the collaboration of city leaders to create policies and strategies on how to continue to move Newark forward when the COVID-19 threat lessens.</h3><p>Called the <b>Newark Reopening and Recovery Strikeforce</b>, the task force will build off the unprecedented cooperation between government, the private sector and organizations during the COVID-19 crisis and continue to work collectively to solve problems.</p>"
+      }
+    ],
     "programs": [
-    {
-      "text": "<p>Mayor Baraka, a strong advocate of guaranteed income policies, is especially interested in ways to help people escape economic insecurity, and, as an educator, for ways to implement the newfound educational technology and resources for our children to use when they return to school and are no longer sheltered in place.</p><p><blockquote>The way we live, the way we do business, the way we teach and how we interact have changed because of this crisis,” the Mayor said.  “New industries will emerge and there will be opportunities to innovate that we must embark on. This is an opportune time to be innovative and accomplish things that we have never done before, and we can do this and much more through comprehensive planning and pragmatic solutions.</blockquote></p>"
-    },
-    {
-      "text": "<p>The co-chairs of the Newark Reopening and Recovery Strikeforce are City of Newark Chief of Staff Amiri Baraka, Jr. and Newark Alliance CEO Aisha Glover.  Committees within the strikeforce focus on public health, economic recovery, data collection and analysis, education, arts, community outreach and engagement, and communications (list of chairpersons below):</p><ul><li><b>Public Health Committee</b>, co-led by Dr. Perry N. Halkitis, <i>Dean of the Rutgers School of Public Health</i> and Michellene Davis, <i>Executive Vice President and Chief Corporate Affairs Officer of RWJBarnabas Health</i></li><li><b>Economic Recovery Committee</b>, led by Lata Reddy, <i>Senior Vice President of Diversity, Inclusion & Impact at Prudential</i></li><li><b>Data Collection and Analysis Committee</b>, led by Phil Scott, <i>Director of Engineering for the City of Newark</i></li><li><b>Education Committee</b>, led by Ron Chaluisán Batlle, <i>Director of the Newark Trust for Education</i></li><li><b>Arts, Recreation and Culture Committee</b>, led by Linda Harrison, <i>Director and CEO of Newark Museum</i></li><li><b>Community Outreach and Engagement Committee</b>, led by the Honorable Mildred C. Crump, <i>President of the City of Newark Municipal Council</i></li><li><b>Communications Committee</b>, led by Kay Sarlin Wright, <i>Director of Corporate Affairs and Communications for Audible</i></li></ul><p>Due to the city’s composition and needs, Mayor Baraka and the Newark Reopening and Recovery Strikeforce are taking direct action to adapt to the necessary challenges to prepare for life after COVID-19, including what recovery will mean to the community.</p>"
-    }
-  ]
+      {
+        "text": "<p>Mayor Baraka, a strong advocate of guaranteed income policies, is especially interested in ways to help people escape economic insecurity, and, as an educator, for ways to implement the newfound educational technology and resources for our children to use when they return to school and are no longer sheltered in place.</p><p><blockquote>The way we live, the way we do business, the way we teach and how we interact have changed because of this crisis,” the Mayor said.  “New industries will emerge and there will be opportunities to innovate that we must embark on. This is an opportune time to be innovative and accomplish things that we have never done before, and we can do this and much more through comprehensive planning and pragmatic solutions.</blockquote></p>"
+      },
+      {
+        "text": "<p>The co-chairs of the Newark Reopening and Recovery Strikeforce are City of Newark Chief of Staff Amiri Baraka, Jr. and Newark Alliance CEO Aisha Glover.  Committees within the strikeforce focus on public health, economic recovery, data collection and analysis, education, arts, community outreach and engagement, and communications (list of chairpersons below):</p><ul><li><b>Public Health Committee</b>, co-led by Dr. Perry N. Halkitis, <i>Dean of the Rutgers School of Public Health</i> and Michellene Davis, <i>Executive Vice President and Chief Corporate Affairs Officer of RWJBarnabas Health</i></li><li><b>Economic Recovery Committee</b>, led by Lata Reddy, <i>Senior Vice President of Diversity, Inclusion & Impact at Prudential</i></li><li><b>Data Collection and Analysis Committee</b>, led by Phil Scott, <i>Director of Engineering for the City of Newark</i></li><li><b>Education Committee</b>, led by Ron Chaluisán Batlle, <i>Director of the Newark Trust for Education</i></li><li><b>Arts, Recreation and Culture Committee</b>, led by Linda Harrison, <i>Director and CEO of Newark Museum</i></li><li><b>Community Outreach and Engagement Committee</b>, led by the Honorable Mildred C. Crump, <i>President of the City of Newark Municipal Council</i></li><li><b>Communications Committee</b>, led by Kay Sarlin Wright, <i>Director of Corporate Affairs and Communications for Audible</i></li></ul><p>Due to the city’s composition and needs, Mayor Baraka and the Newark Reopening and Recovery Strikeforce are taking direct action to adapt to the necessary challenges to prepare for life after COVID-19, including what recovery will mean to the community.</p>"
+      }
+    ]
   },
-    {
-      "category": "Save Lives. Stay Safe.",
-      "link": "be-still-mondays",
-      "parent": "/stayingin",
-      "title": "Be Still Mondays",
-      "icon": "local_hospital",
-      "introContent": [{
+  {
+    "category": "Save Lives. Stay Safe.",
+    "link": "be-still-mondays",
+    "parent": "/stayingin",
+    "title": "Be Still Mondays",
+    "icon": "local_hospital",
+    "introContent": [
+      {
         "text": "<h3><img class='intro-pic' src='assets/img/pagePhotos/mondays.jpg'>Mayor Baraka has asked “everyone to stay home” for a nearly complete shut-down of the City of Newark on Mondays to bring attention to the severity of the COVID-19 spread in the community and help slow the spread. Be Still Mondays” will happen each week for the next month.</h3><h3>If you’re not a police officer, a fireman, a nurse or other frontline medical worker, stay home.</h3>"
-      }],
-      "programs": [{
+      }
+    ],
+    "programs": [
+      {
         "header": "Exceptions",
         "text": "<p>The City of Newark’s “Be Still Mondays” is not an executive order, but it’s a request that discourages all businesses except for health, safety, and welfare emergency services to close. For instance, businesses that provide food and shelter for the homeless population may operate but the City is asking soup kitchens to limit their operations from 11:30 a.m. to 2 p.m.</p><p>The City would like businesses deemed “essential” by prior executive orders, such as food stores and pharmacies, to also close, as well as downtown corporations and manufacturing companies.</p><p>The idea is to show community-wide solidarity in the face of the aggressive COVID-19 virus that is especially ravaging black and brown communities nationwide.</p><p>Important: Click below for more information about the Rules",
         "linkText": "NJ Stay at Home and Essential Business Rules",
         "link": "https://covid19.nj.gov/faqs/nj-information/general-public/what-are-the-“stay-at-home”-rules-in-new-jersey-what-businesses-are-closed"
-      }]
-    },
-    {
-      "category": "Save Lives. Stay Safe.",
-      "link": "stay-at-home",
-      "parent": "/stayingin",
-      "title": "Shelter-in-Place Order",
-      "icon": "local_hospital",
-      "introContent": [{
+      }
+    ]
+  },
+  {
+    "category": "Save Lives. Stay Safe.",
+    "link": "stay-at-home",
+    "parent": "/stayingin",
+    "title": "Shelter-in-Place Order",
+    "icon": "local_hospital",
+    "introContent": [
+      {
         "text": "<h3><img class='intro-pic' src='assets/img/pagePhotos/shelter-in-place.jpg'>To protect residents against the spread of COVID-19, Mayor Ras J. Baraka has announced a strict City-wide “shelter-in-place” mandate and all-city quarantine that will be strictly enforced by law enforcement.</h3><p>People must stay home and not come out unless it’s an emergency.</p>"
-      }],
-      "programs": [
+      }
+    ],
+    "programs": [
       {
         "header": "Exceptions",
         "text": "<p>You can still go to the supermarket, local store for essentials, pharmacy, doctor, walk dogs, step out and get fresh air in front or back of home/doorstep/porch/terrace, or if an essential employee. Also, children need to be accompanied by an adult and people should only leave their homes in pairs.</p><p>While out, you must maintain the Center for Disease Control’s (CDC) recommendation of keeping six feet apart.</p><p><b>Residents are urged to call police if they see groups of people hanging out and violating this mandate.</b></p>"
-      }]
-    },
-    {
-      "category": "Save Lives. Stay Safe.",
-      "link": "phase-one",
-      "parent": "/stayingin",
-      "title": "First Steps in Preparation for Eventual Re-Opening",
-      "icon": "verified_user",
-      "introContent": [{
+      }
+    ]
+  },
+  {
+    "category": "Save Lives. Stay Safe.",
+    "link": "phase-one",
+    "parent": "/stayingin",
+    "title": "First Steps in Preparation for Eventual Re-Opening",
+    "icon": "verified_user",
+    "introContent": [
+      {
         "text": "<p><img class='intro-pic' src='assets/img/pagePhotos/broadmarket.jpg'>Mayor Ras J. Baraka has presented the first phase of the plan to re-open Newark beginning June 1.  Phase One is about us getting Newarkj prepared to open. We’re advancing, but it also gives us room to retreat if the numbers go back up. Our top priority is the health and safety of Newark residents.</p><p>Phase One is based on data that shows a continued decline in COVID-19 cases and from the recommendations of the Newark Reopening and Recovery Strikeforce. The data collected shows while Newark has increased testing 100 percent, the percentage of people who have tested positive has dropped dramatically, as well as reported cases and deaths.</p>"
-      }],
-      "infoButtons": [
-        {
-          "link":"stayingin/newark-reopening-recovery",
-          "linkText": "More Info On Recovery & Reopening Strikeforce"
-      }],
-      "programs": [
-        {
-          "text": "<p>As part of Phase One, the City will institute a color-coded system to give people information they need to have to make informed choices about the risks of going to different places. Businesses, restaurants, parks and other public places will display color-coded signage, with red being the highest risk area, yellow more moderate, and green the lowest risk area.</p><p>Other Phase One components include:<ul><li>Recreation centers, parks and playgrounds will remain closed; block parties and special events will remain on hold. All faith-based services can be held via teleconference or virtually.</li><li>Information centers will be established in each ward and 4311 will be expanded to include a dedicated COVID-19 information hotline. Additionally, a technology task force will be created to develop a sustainable citywide strategy for universal access to Wi-Fi and the hardware necessary for remote learning.</li><li>An isolation and quarantine plan will be developed for those who cannot create one themselves. Guidance will be provided around emotional hurdles and fears related to medical mistrust.</li><li>Lastly, letters will be sent to all businesses requesting plans to ensure the safety of their employees and the general public. City licensing, approvals and permitting processes will be adjusted to streamline what can be expedited and waived.</li></ul><p>The Newark Recovery and Reopening Strikeforce, led by Chief of Staff Amiri Baraka, Jr. and Newark Alliance CEO Aisha Glover, will continue to work collaboratively while other phases are rolled out as well.</p>",
-          "buttons": [{
-            "link":"stayingin/newark-reopening-recovery",
+      }
+    ],
+    "infoButtons": [
+      {
+        "link": "stayingin/newark-reopening-recovery",
+        "linkText": "More Info On Recovery & Reopening Strikeforce"
+      }
+    ],
+    "programs": [
+      {
+        "text": "<p>As part of Phase One, the City will institute a color-coded system to give people information they need to have to make informed choices about the risks of going to different places. Businesses, restaurants, parks and other public places will display color-coded signage, with red being the highest risk area, yellow more moderate, and green the lowest risk area.</p><p>Other Phase One components include:<ul><li>Recreation centers, parks and playgrounds will remain closed; block parties and special events will remain on hold. All faith-based services can be held via teleconference or virtually.</li><li>Information centers will be established in each ward and 4311 will be expanded to include a dedicated COVID-19 information hotline. Additionally, a technology task force will be created to develop a sustainable citywide strategy for universal access to Wi-Fi and the hardware necessary for remote learning.</li><li>An isolation and quarantine plan will be developed for those who cannot create one themselves. Guidance will be provided around emotional hurdles and fears related to medical mistrust.</li><li>Lastly, letters will be sent to all businesses requesting plans to ensure the safety of their employees and the general public. City licensing, approvals and permitting processes will be adjusted to streamline what can be expedited and waived.</li></ul><p>The Newark Recovery and Reopening Strikeforce, led by Chief of Staff Amiri Baraka, Jr. and Newark Alliance CEO Aisha Glover, will continue to work collaboratively while other phases are rolled out as well.</p>",
+        "buttons": [
+          {
+            "link": "stayingin/newark-reopening-recovery",
             "linkText": "More Info On Recovery & Reopening Strikeforce"
-          }]
-        },
-
-{
-"header": "Business Reopening Application",
-"text": "<ul><li>All retail businesses must complete this application prior to re-opening. This information is necessary to know how you will be implementing the protocols. This form must be completed and the certification signed below. A separate form must be completed for each location of every business.</li><li>The City of Newark will review your application for compliance and within 48 hours notify you that you application has been approved or disapproved. If your application is approved, a City of Newark representative will arrange an inspection of your business within 24 hours. If your business passes the inspection in accordance with all of the health and safety measures, per your submitted plan, your business will be granted a RED, YELLOW, or GREEN certification and you will be granted approval to reopen your business.</li><li>If your application is disapproved or if your business fails the inspection, you may modify the plan or your business protocols and resubmit your application for consideration. The above timelines will apply to the resubmission process.</li></ul><p><a href='https://drive.google.com/file/d/1T9zem2aULZUORjN46H-71hTjA1Uvsh0x/view?usp=drivesdk'>Click Here</a> to Download the Application, Complete it and Submit it by Email/Mail/Fax to <a href='mailto:reopeningplans@newarknj.gov'>reopeningplans@newarknj.gov</a>",
-"buttons": [{"link": "https://seam.ly/5WK2T8hQ",
-"linkText": "Read & Submit Application Online"}]
-}
-      ]
-    }
+          }
+        ]
+      },
+      {
+        "header": "Business Reopening Application",
+        "text": "<ul><li>All retail businesses must complete this application prior to re-opening. This information is necessary to know how you will be implementing the protocols. This form must be completed and the certification signed below. A separate form must be completed for each location of every business.</li><li>The City of Newark will review your application for compliance and within 48 hours notify you that your application has been approved or disapproved. If your application is approved, a City of Newark representative will arrange an inspection of your business within 24 hours. If your business passes the inspection in accordance with all of the health and safety measures, per your submitted plan, your business will be granted a RED, YELLOW, or GREEN certification and you will be granted approval to reopen your business.</li><li>If your application is disapproved or if your business fails the inspection, you may modify the plan or your business protocols and resubmit your application for consideration. The above timelines will apply to the resubmission process.</li></ul><p><a href='https://drive.google.com/file/d/1T9zem2aULZUORjN46H-71hTjA1Uvsh0x/view?usp=drivesdk'>Click Here</a> to Download the Application, Complete and Submit it by Email/Mail/Fax to <a href='mailto:reopeningplans@newarknj.gov'>reopeningplans@newarknj.gov</a>",
+        "buttons": [
+          {
+            "link": "https://seam.ly/5WK2T8hQ",
+            "linkText": "Read & Submit Application Online"
+          }
+        ]
+      }
+    ]
+  }
 ]
