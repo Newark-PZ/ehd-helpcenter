@@ -4,10 +4,11 @@
         "icon": "person",
         "link": "eligibility-benefits",
         "parent": "/resources",
-        "programs": [
+        "sections": [
             {
+              "buttons": [{
                 "link": "https://nj.gov/labor",
-                "linkText": "Learn More",
+                "linkText": "Learn More"}],
                 "text": "<img class='intro-pic card' src='assets/img/pagePhotos/Covid-19 scenarios.jpg'>"
             }
         ],
@@ -17,12 +18,11 @@
     {
         "category": "Employment & Wellness",
         "icon": "person",
-        "introContent": [
-            {
-                "link": "https://jobs.covid19.nj.gov/index.html?Facets.filterbox.filter0=%5B%5D&Facets.filterbox.filter1=%5B%5D",
-                "linkText": "Link to Jobs Portal",
-                "text": "<p><img class='intro-pic' src='assets/img/pagePhotos/Finding a job.jpg' style='height: 100%;'>Some Newark residents have lost their job or had their hours reduced as a result of COVID-19. During this crisis, businesses across New Jersey need thousands of workers for immediate hire. Visit the NJ Covid-19 Employment Portal to about what companies are hiring in the Newark area.</p>"
-            }
+        "introText": "<p><img class='intro-pic' src='assets/img/pagePhotos/Finding a job.jpg' style='height: 100%;'>Some Newark residents have lost their job or had their hours reduced as a result of COVID-19. During this crisis, businesses across New Jersey need thousands of workers for immediate hire. Visit the NJ Covid-19 Employment Portal to about what companies are hiring in the Newark area.</p>",
+        "infoButtons": [
+          {
+          "link": "https://jobs.covid19.nj.gov/index.html?Facets.filterbox.filter0=%5B%5D&Facets.filterbox.filter1=%5B%5D",
+          "linkText": "Link to Jobs Portal"}
         ],
         "link": "finding-essential-jobs",
         "parent": "/resources",
@@ -33,10 +33,10 @@
         "icon": "people",
         "link": "federal-us-cares",
         "parent": "/resources",
-        "programs": [
+        "sections": [
             {
                 "header": "Direct Payments to Individuals and Households",
-                "link": "https://www.irs.gov/newsroom/economic-impact-payments-what-you-need-to-know",
+                "buttons": [{"link": "https://www.irs.gov/newsroom/economic-impact-payments-what-you-need-to-know"}],
                 "text": "<p><img class='intro-pic' src='assets/img/pagePhotos/us-cares.jpeg'>Economic impact payments will begin in the next three weeks and will be distributed automatically, with no action required for most people. However, some seniors and others who do not file returns will need to submit a simple tax return to receive the stimulus payment.</p><p>Eligible taxpayers who filed tax returns for either 2019 or 2018 will automatically receive an economic impact payment of up to $1,200 for individuals or $2,400 for married couples. Parents also receive $500 for each qualifying child.</p><p>Tax filers with adjusted gross income up to $75,000 for individuals and up to $150,000 for married couples filing joint returns will receive the full payment. For filers with income above those amounts, the payment amount is reduced by $5 for each $100 above the $75,000/$150,000 thresholds. Single filers with income exceeding $99,000 and $198,000 for joint filers with no children are not eligible.</p><p>Income is based on the <a href='https://www.irs.gov/e-file-providers/definition-of-adjusted-gross-income'>adjusted gross income</a> of your 2019 tax filing (or 2018 if you have not filed your 2019 taxes). If you receive Social Security benefits but did not file a tax return, you are still eligible to receive these direct payments based on information provided by the Social Security Administration.</p><p>More information can be found at the IRS resource Economic impact payments: <a href='https://www.irs.gov/newsroom/economic-impact-payments-what-you-need-to-know'>What you need to know</a></p>"
             },
             {
@@ -49,8 +49,8 @@
             },
             {
                 "header": "Small Business Support",
-                "link": "https://www.congress.gov/bill/116th-congress/senate-bill/3548/text",
-                "linkText": "See Bill",
+                "buttons": [{"link": "https://www.congress.gov/bill/116th-congress/senate-bill/3548/text",
+                "linkText": "See Bill"}],
                 "text": "<ul><li><b>Emergency grants</b>: Under the Economic Injury Disaster Loan (EIDL) program, eligible businesses may pursue grants of up to $10,000 to cover immediate operating costs.</li><li><b>Forgivable loans</b>: Businesses with less than 500 employees may be eligible for loans up to $10 million. Costs associated with payroll, mortgage interest, utilities, and rent are forgivable.</li><li><b>Tax Credits</b>: Employers who have partly or entirely shut down may be eligible for a tax credit of a percentage of wages paid to employees during the coronavirus public health emergency.</li><li><b>Manufacturing Extension Program</b>: Eligible small and medium sized manufacturers may receive funding to support cost reduction, workforce development, product development, and growth initiatives.</li></ul><a href='https://www.irs.gov/newsroom/economic-impact-payments-what-you-need-to-know'><cite style='margin-left: 1rem !important'>source: irs.gov/newsroom/economic-impact-payments-what-you-need-to-know</cite></a>"
             }
         ],
@@ -60,20 +60,20 @@
     {
         "category": "Employment & Wellness",
         "icon": "local_dining",
-        "introContent": [
-            {
-                "link": "https://www.nps.k12.nj.us/covid-19-resources/breakfast-lunch-program-locations/",
-                "linkText": "Learn About the Breakfast & Lunch Program",
-                "text": "<p><img class='intro-pic' src='assets/img/pagePhotos/Food.png'>The City has obtained a limited number of ShopRite gift cards for eligible residents. Eligible meaning that they do not have the financial means to get food in their homes or if they are seniors.</p><p>We only have a limited amount at this time so we are going to focus on seniors and those who need it the most. As more resources come, we will have the ability to get more cards. We thank the National Action Network, Newark Housing Authority, and Neil Greenstein from ShopRite for partnering with us to get the food to those who need it the most.<p>"
-            }
-        ],
+        "introText": "<p><img class='intro-pic' src='assets/img/pagePhotos/Food.png'>The City has obtained a limited number of ShopRite gift cards for eligible residents. Eligible meaning that they do not have the financial means to get food in their homes or if they are seniors.</p><p>We only have a limited amount at this time so we are going to focus on seniors and those who need it the most. As more resources come, we will have the ability to get more cards. We thank the National Action Network, Newark Housing Authority, and Neil Greenstein from ShopRite for partnering with us to get the food to those who need it the most.<p>",
+        "infoButtons": [{
+          "link": "https://www.nps.k12.nj.us/covid-19-resources/breakfast-lunch-program-locations/",
+          "linkText": "Learn About the Breakfast & Lunch Program"
+        }],
         "link": "food-dist-school-lunches",
         "parent": "/resources",
-        "programs": [
+        "sections": [
             {
                 "header": "School Breakfast and Lunch Program Locations",
+                "buttons": [{
                 "link": "https://www.nps.k12.nj.us/covid-19-resources/breakfast-lunch-program-locations/",
-                "linkText": "Learn About the Breakfast & Lunch Program",
+                "linkText": "Learn About the Breakfast & Lunch Program"
+                }],
                 "text": "<p><img class='intro-pic card' src='assets/img/pagePhotos/schoolLunchUpdates.jpg'>The Breakfast and Lunch Program is available for all students at designated schools from Monday to Friday between the hours of 9:30 am - 11:30 am. Student can pick up food at any NPS site nearest to their home.</p>"
             }
         ],
@@ -82,16 +82,14 @@
     {
         "category": "Employment & Wellness",
         "icon": "local_hospital",
-        "introContent": [
-            {
-                "link": "https://www.newarknj.gov/card/coronavirus-information",
-                "linkText": "Learn More About How to Stay Healthy",
-                "text": "<p><img class='intro-pic' src='assets/img/pagePhotos/17288_wnxjouke.png'>The Newark Department of Health and Community Wellness has extensive information about how to protect the health of your family from the virus. You will find such information as:<ul><li>Frequently Asked Questions (FAQ)</li><li>Quick Facts</li><li>How To Stop The Spread Of Germs</li><li>What To Do If You Are Sick</li><li>Symptoms</li><li>Social Distancing</li><li>Preparing For Self-Isolation And More</li></ul></p>"
-            }
-        ],
+        "introText": "<p><img class='intro-pic' src='assets/img/pagePhotos/17288_wnxjouke.png'>The Newark Department of Health and Community Wellness has extensive information about how to protect the health of your family from the virus. You will find such information as:<ul><li>Frequently Asked Questions (FAQ)</li><li>Quick Facts</li><li>How To Stop The Spread Of Germs</li><li>What To Do If You Are Sick</li><li>Symptoms</li><li>Social Distancing</li><li>Preparing For Self-Isolation And More</li></ul></p>",
+        "infoButtons": [{
+          "link": "https://www.newarknj.gov/card/coronavirus-information",
+          "linkText": "Learn More About How to Stay Healthy"
+        }],
         "link": "health-info",
         "parent": "/resources",
-        "programs": [
+        "sections": [
             {
                 "header": "Revised Hours of Operation during COVID-19 Crisis",
                 "text": "<p>For your safety and the safety of staff, all services at the Newark Health Department will continue on a restricted and limited basis due to the coronavirus. Below is a list of programs and hours of operation. Please note that this schedule is subject to change.</p><ul><li><h3>Mary Eliza Mahoney Federally Qualified Health Center (FQHC)</h3><ul><li>Monday through Friday</li><li>8:30am to 4:30pm</li><li>Available 24/7 at <a href='tel:+18007347083'>1 (800) 734-7083</a>, Apointment Recommended</li></ul></li><li><h3>The WIC Program</h3><ul><li>Monday through Friday</li><li>8:30am to 4:30pm</li><li>Please call <a href='tel:9737337604'>(973) 733-7604</a> or <a href='tel:9737338198'>(973) 733-8198</a>, open to the public on Tuesdays & Thursday – Appointment recommended</li></ul></li><li><h3>The Immunization Clinic</h3><ul><li>Monday through Friday</li><li>8:30am to 4:30pm</li><li>Please call <a href='tel:9737337580'>(973) 733-7580</a> to schedule an appointment. Open to the public on Thursdays – Appointment recommended.</li></ul></li><li><h3>Vital Statistics</h3><ul>  <li>Monday through Friday</li>  <li>8:30am to 4:30pm</li>  <li>Please call <a href='tel:9737336510'>(973) 733-6510</a> to schedule an appointment. Open to public on Thursdays from 8:30 a.m. to 4:00 p.m.; Appointment only.  </li></ul></li><li><h3>Shani Baraka Center</h3><ul>  <li>Monday through Friday</li>  <li>8:30am to 3:00pm</li>  <li>Please call <a href='tel:9737337538'>(973) 733-7538</a> or <a href='tel:9737337377>(973) 733-7377</a> for assistance. Open to public five days a week</li>  <li>After Hours Number to Call: <a href='tel:9734180735>(973) 418-0735</a></li></ul></li><li><h3>Social Services</h3><ul>  <li>Monday through Friday</li>  <li>8:30am to 4:30pm</li>  <li>Please call <a href='tel:9737339481'>(973) 733-9481</a> for assistance.</li></ul></li><li><h3>Surveillance & Prevention</h3><ul>  <li>Monday through Sunday</li>  <li>24/7</li>  <li>You can call <a href='tel:9737337592'>(973) 733-7592</a> for COVID-19 questions only.</li></ul></li><li><h3>Homeless Services</h3><ul>  <li>Monday through Friday</li>  <li>8:30 a.m. to 4:30 p.m.</li>  <li>You can call <a href='tel:9738779481'>(973) 877-9481</a> for COVID-19 questions only.</li></ul></li></ul><br><h3>APPOINTMENTS STRONGLY RECOMMENDED TO ENSURE EXPEDITED CARE AND SOCIAL DISTANCING.</h3><p>Note:  Working on installing a 24/7 live operator answering service.</p>"
@@ -103,26 +101,22 @@
         "category": "Small Business",
         "icon": "business_center",
         "link": "invest-newark",
-        "introContent": [
-            {
-                "link": "https://investnewark.org/covid-19/",
-                "linkText": "Info for Small Businesses",
-                "text": "<p><img class='intro-pic logo' src='assets/img/logos/logo_investNWK.png'>Invest Newark propels the city’s strong and diverse economy, builds vibrant communities, and creates opportunities for all Newarkers. It is a dedicated team of expert planners, economists, and innovators who are driven to ensure all Newarkers have the resources to thrive. Invest Newark is not a typical development agency: it goes above and beyond to support small and minority-owned businesses, invest in world-class internet service, and maintain an intense focus on sustainability. It works to produce economic growth, generate jobs and create wealth for the people of Newark.</p><p>Invest Newark has added a Covid-19 section to its website. It has information and links to federal, state and local resources for businesses affected by Covid-19</p>"
-            }
-        ],
+        "introText": "<p><img class='intro-pic logo' src='assets/img/logos/logo_investNWK.png'>Invest Newark propels the city’s strong and diverse economy, builds vibrant communities, and creates opportunities for all Newarkers. It is a dedicated team of expert planners, economists, and innovators who are driven to ensure all Newarkers have the resources to thrive. Invest Newark is not a typical development agency: it goes above and beyond to support small and minority-owned businesses, invest in world-class internet service, and maintain an intense focus on sustainability. It works to produce economic growth, generate jobs and create wealth for the people of Newark.</p><p>Invest Newark has added a Covid-19 section to its website. It has information and links to federal, state and local resources for businesses affected by Covid-19</p>",
+        "infoButtons": [{
+          "link": "https://investnewark.org/covid-19/",
+          "linkText": "Info for Small Businesses"
+        }],
         "parent": "/resources",
         "title": "Invest Newark Initiatives for Small Business"
     },
     {
         "category": "Housing",
         "icon": "people",
-        "introContent": [
-            {
-                "link": "http://www.newarkha.org/coronavirus",
-                "linkText": "Learn More at NHA's Website",
-                "text": "<p><img class='intro-pic' src='assets/img/pagePhotos/Housing Authority.jpg'>The Newark Housing Authority has extensive information for tenants on its website.</p><p>Residents of senior buildings and townhouses and Section 8 participants can find answers to questions about rent payments, visiting, deliveries, hours, service changes, repairs, community rooms, recertifications, inspections and more.<p>"
-            }
-        ],
+        "introText": "<p><img class='intro-pic' src='assets/img/pagePhotos/Housing Authority.jpg'>The Newark Housing Authority has extensive information for tenants on its website.</p><p>Residents of senior buildings and townhouses and Section 8 participants can find answers to questions about rent payments, visiting, deliveries, hours, service changes, repairs, community rooms, recertifications, inspections and more.<p>",
+        "infoButtons": [{
+          "link": "http://www.newarkha.org/coronavirus",
+          "linkText": "Learn More at NHA's Website"
+        }],
         "link": "nha-tenants",
         "parent": "/resources",
         "title": "Information for Newark Housing Authority Tenants"
@@ -130,42 +124,48 @@
     {
         "category": "Small Business",
         "icon": "business_center",
-        "introContent": [
-            {
-                "text": "<p><img class='intro-pic' src='assets/img/pagePhotos/nj small business grants.png'>A package of new initiatives from the New Jersey Economic Development Authority includes a grant program for small businesses, a zero-interest loan program for mid-size companies, support for private-sector lenders and Community Development Financial Institutions (CDFIs), funding for entrepreneurs, and a variety of resources providing technical support and marketplace information. Taken together, they will provide more than $75 million of State and private financial support, with the opportunity to grow to more than $100 million if additional philanthropic, State, and federal resources become available. The initiatives will support between 3,000 and 5,000 small and midsize enterprises and are meant to complement recently announced federal economic recovery initiatives.</p>      <p>Businesses and nonprofits can find eligibility requirements for all programs on the COVID-19 Business Information Hub or use the Eligibility Wizard to identify which emergency assistance programs they may want to consider for their business’s specific needs. Comprehensive information about New Jersey’s response to the novel coronavirus outbreak is available here: <a href='https://covid19.nj.gov/'>covid19.nj.gov/</a>.<p>"
-            }
-        ],
+        "introText": "<p><img class='intro-pic' src='assets/img/pagePhotos/nj small business grants.png'>A package of new initiatives from the New Jersey Economic Development Authority includes a grant program for small businesses, a zero-interest loan program for mid-size companies, support for private-sector lenders and Community Development Financial Institutions (CDFIs), funding for entrepreneurs, and a variety of resources providing technical support and marketplace information. Taken together, they will provide more than $75 million of State and private financial support, with the opportunity to grow to more than $100 million if additional philanthropic, State, and federal resources become available. The initiatives will support between 3,000 and 5,000 small and midsize enterprises and are meant to complement recently announced federal economic recovery initiatives.</p>      <p>Businesses and nonprofits can find eligibility requirements for all programs on the COVID-19 Business Information Hub or use the Eligibility Wizard to identify which emergency assistance programs they may want to consider for their business’s specific needs. Comprehensive information about New Jersey’s response to the novel coronavirus outbreak is available here: <a href='https://covid19.nj.gov/'>covid19.nj.gov/</a>.<p>",
         "link": "nj-small-business-help",
         "parent": "/resources",
-        "programs": [
+        "sections": [
             {
                 "header": "Small Business Emergency Assistance Grant Program",
-                "link": "https://faq.business.nj.gov/en/articles/3835237-what-grants-are-available-for-small-and-medium-sized-businesses-via-the-njeda-small-business-emergency-assistance-grant",
+                "buttons": [{
+                "link": "https://faq.business.nj.gov/en/articles/3835237-what-grants-are-available-for-small-and-medium-sized-businesses-via-the-njeda-small-business-emergency-assistance-grant"
+                }],
                 "text": "A $5 million program that will provide grants up to $5,000 to small businesses in retail, arts, entertainment, recreation, accommodation, food service, and other services – such as repair, maintenance, personal, and laundry services – to stabilize their operations and reduce the need for layoffs or furloughs. Applications for the NJEDA’s Small Business Emergency Assistance Grant Program are currently available and Applications for other NJEDA COVID-19 programs, including entrepreneurship support and technical assistance for businesses applying for U.S. Small Business Administration loans, will be available in the coming weeks."
             },
             {
                 "header": "Small Business Emergency Assistance Loan Program",
-                "link": "https://faq.business.nj.gov/en/articles/3835238-what-loans-are-available-to-small-businesses-via-the-njeda-small-business-emergency-assistance-loan",
+                "buttons": [{
+                "link": "https://faq.business.nj.gov/en/articles/3835238-what-loans-are-available-to-small-businesses-via-the-njeda-small-business-emergency-assistance-loan"
+                }],
                 "text": "The Small Business Emergency Assistance Loan Program is a $10 million program that will provide working capital loans of up to $100,000 to small and mid-size businesses with a physical commercial location in New Jersey. To qualify, businesses must have less than $5 million in annual revenues and be able to show a negative impact resulting from the COVID-19 outbreak. Loans made through the program will have ten-year terms with zero percent interest for the first five years, then resetting to the NJEDA’s prevailing floor rate for the remaining five years, with a three percent cap."
             },
             {
                 "header": "Community Development Finance Institution (CDFI) Emergency Loan Loss Reserve Fund",
-                "link": "https://faq.business.nj.gov/en/articles/3835240-what-state-assistance-is-available-for-community-development-finance-institutions-cdfis-to-support-small-businesses",
+                "buttons": [{
+                "link": "https://faq.business.nj.gov/en/articles/3835240-what-state-assistance-is-available-for-community-development-finance-institutions-cdfis-to-support-small-businesses"
+                }],
                 "text": "A $10 million capital reserve fund to take a first loss position on CDFI loans that provide low interest working capital to micro businesses. This will allow CDFIs to withstand loan defaults due to the outbreak, which will allow them to provide more loans at lower interest rates to microbusinesses affected by the outbreak."
             },
             {
                 "header": "NJ Entrepreneur Support Program",
-                "link": "https://faq.business.nj.gov/en/articles/3835239-what-assistance-is-available-for-startup-investors-or-entrepreneurs-via-the-njeda-entrepreneur-guarantee-program",
+                "buttons": [{
+                "link": "https://faq.business.nj.gov/en/articles/3835239-what-assistance-is-available-for-startup-investors-or-entrepreneurs-via-the-njeda-entrepreneur-guarantee-program"
+                }],
                 "text": "A $5 million program that will encourage continued capital flows to new companies, often in the innovation economy, and temporarily support a shaky market by providing 80 percent loan guarantees for working capital loans to entrepreneurs."
             },
             {
                 "header": "Small Business Emergency Assistance Guarantee Program",
-                "link": "https://faq.business.nj.gov/en/articles/3835236-how-is-the-state-backing-small-business-loans-via-the-njeda-small-business-emergency-assistance-guarantee-program",
+                "buttons": [{
+                "link": "https://faq.business.nj.gov/en/articles/3835236-how-is-the-state-backing-small-business-loans-via-the-njeda-small-business-emergency-assistance-guarantee-program"}],
                 "text": "A $10 million program that will provide 50 percent guarantees on working capital loans and waive fees on loans made through institutions participating in the NJEDA’s existing Premier Lender or Premier CDFI programs."
             },
             {
                 "header": "Emergency Technical Assistance Program",
-                "link": "https://faq.business.nj.gov/en/articles/3835241-can-i-get-help-applying-to-federal-or-state-programs-via-the-njeda-emergency-technical-assistance-program",
+                "buttons": [{
+                "link": "https://faq.business.nj.gov/en/articles/3835241-can-i-get-help-applying-to-federal-or-state-programs-via-the-njeda-emergency-technical-assistance-program"}],
                 "text": "A $150,000 program that will support technical assistance to New Jersey-based companies applying for State and US Small Business Administration programs. The organizations contracted will be paid based on SBA application submissions supported by the technical assistance they provide."
             }
         ],
@@ -175,27 +175,26 @@
     {
         "category": "Employment & Wellness",
         "icon": "people",
-        "introContent": [
-            {
-                "header": "You may be eligible for benefits, if you are unable to work or have had your hours reduced for the following reasons:",
-                "text": "<img class='intro-pic' src='assets/img/pagePhotos/unemploymentBenefits.jpg'><ul class='intro-list'><li>You tested positive for COVID-19 or have symptoms of COVID-19</li><li>Your place of work was ordered closed by a public official due to COVID-19</li><li>Your employer voluntarily closed due to COVID-19</li><li>You were exposed to COVID-19 during the course of your work and were told to self-quarantine</li><li>You were told to self-quarantine due to possible COVID-19 exposure outside your workplace</li><li>Your health care provider said you were at greater risk of COVID-19-related health complications due to a pre-existing health condition and says you should not work (and telework is not possible)</li><li>Your child's school or daycare was ordered closed by a public official due to COVID-19</li><li>You are caring for a family or household member with COVID-19 or symptoms of COVID-19</li><li>You are losing work hours due to a reduction in force related to COVID-19</li>      </ul>"
-            }
-        ],
+        "introText":"<h3>You may be eligible for benefits, if you are unable to work or have had your hours reduced for the following reasons:</h3><img class='intro-pic' src='assets/img/pagePhotos/unemploymentBenefits.jpg'><ul class='intro-list'><li>You tested positive for COVID-19 or have symptoms of COVID-19</li><li>Your place of work was ordered closed by a public official due to COVID-19</li><li>Your employer voluntarily closed due to COVID-19</li><li>You were exposed to COVID-19 during the course of your work and were told to self-quarantine</li><li>You were told to self-quarantine due to possible COVID-19 exposure outside your workplace</li><li>Your health care provider said you were at greater risk of COVID-19-related health complications due to a pre-existing health condition and says you should not work (and telework is not possible)</li><li>Your child's school or daycare was ordered closed by a public official due to COVID-19</li><li>You are caring for a family or household member with COVID-19 or symptoms of COVID-19</li><li>You are losing work hours due to a reduction in force related to COVID-19</li></ul>",
         "introPic": "assets/img/pagePhotos/unemploymentBenefits.jpg",
         "link": "unemployment-benefits",
         "parent": "/resources",
-        "programs": [
+        "sections": [
             {
                 "header": "More info about eligibility",
-                "link": "https://www.nj.gov/labor/worker-protections/earnedsick/covid.shtml",
+                "buttons": [{
+                "link": "https://www.nj.gov/labor/worker-protections/earnedsick/covid.shtml"}],
                 "text": "<p>Those affected personally by COVID-19 or by its impact on a family member may be eligible for a range of benefits including federal emergency paid sick leave, federal emergency childcare FMLA, earned sick leave, workers' compensation; unemployment insurance, temporary disability or family leave insurance.</p><p>To find out if you are eligible and to apply for state benefits, visit the <a href='https://www.nj.gov/labor/'>New Jersey Department of Labor’s website</a>. There you will also find a helpful chart clarifying the different scenarios and the available benefits in English and Spanish.</p><p>Residents eligible for unemployment will receive an additional $600 per week through July 31 through additional Federal Pandemic Unemployment Assistance.</p><p>In addition, freelancers, gig workers, and independent contractors - who are typically not eligible for unemployment insurance -- are able to apply for the $600 Federal Pandemic Unemployment Assistance. They should apply for unemployment now. This claim likely will be denied, but your ineligibility for regular unemployment is a prerequisite for receiving benefits due to COVID-19.</p><p>In addition, Governor Murphy has signed a new law expanding the State's Temporary Disability Insurance (TDI) and Family Leave Insurance (FLI) programs to provide more workers with access to paid leave benefits during public health emergencies.</p>"
             },
             {
-                "link": "https://www.nj.gov/labor/worker-protections/earnedsick/covid.shtm",
+                "buttons": [{
+                "link": "https://www.nj.gov/labor/worker-protections/earnedsick/covid.shtm"}],
                 "text": "<p>The law allows individuals access to TDI and FLI benefits during a public health emergency if they must take time off of work because they are diagnosed with or suspected of exposure to a communicable disease or to take care of a family member diagnosed with or suspected of exposure to a communicable disease.</p><p>The bill also expands New Jersey's earned sick leave law to permit the use of earned sick time for isolation or quarantine recommended or ordered by a provider or public health official as a result of suspected exposure to a communicable disease, or to care for a family member under recommended or ordered isolation or quarantine.</p><p>More information is available at <a href='https://www.nj.gov/labor/worker-protections/earnedsick/covid.shtm'>www.nj.gov/labor/worker-protections/earnedsick/covid</a>.</p>"
             },
             {
-                "link": "https://covid19.nj.gov/faqs/nj-information/get-assistance/am-i-eligible-for-benefits-or-unemployment-if-i-or-a-family-member-have-been-impacted-by-the-outbreak",
+              "buttons": [{
+                "link": "https://covid19.nj.gov/faqs/nj-information/get-assistance/am-i-eligible-for-benefits-or-unemployment-if-i-or-a-family-member-have-been-impacted-by-the-outbreak"
+                }],
                 "text": "<p>To help employers keep workers on payroll throughout this crisis, the federal government is allowing employers to benefit from expanded paid sick and emergency childcare job-protected paid leave programs made possible by the recently enacted federal response bills. If employers do so, they will be eligible for a dollar-for-dollar payroll tax credit against those costs -- this is available to 99.8 percent of all businesses in New Jersey, and all but our largest employers.</p>"
             }
         ],
@@ -208,10 +207,12 @@
     "icon": "business_center",
     "link": "federal-ppp-sba-update",
     "sectionHeader": "Congress has approved additional funding for SBA Paycheck Protection Program and the Economic Injury Disaster Loan Program, but you need to act fast.",
-    "programs": [
+    "sections": [
       {
-        "link": "http://r20.rs6.net/tn.jsp?f=001qYdPIzJct37HyUS-Y5K5bVAhv2MHM9WXTDqLhn5aw8t_IJldK571x3m1MRE6Yy4rmFzdObeRtAHWsjf5SZOwlbnlV9JFRZLLRD0-EjtpPTKUm0D_LWusJE3OkjyRaHnjtftMorJZ9QfuoSujhmdN2MnqUImFMIZzfUofKaGK6tGqibFXPgeelGhLHfrT-9uUNP6FQuY3v0oQJR0X3hFxk4trR3Phf9tj&c=wKZsJi0ywWhW_fgin60XTK8hqDgxFgQkKHD47T-eJYvD1JjT58X64A==&ch=F6dLbyCcyX5Ul67IAUYiSe01VHOEfuje_JFa3zoVP0S0aJ5y65xqMQ==",
-        "linkText": "How to Get Funding",
+        "buttons": [{
+          "link": "http://r20.rs6.net/tn.jsp?f=001qYdPIzJct37HyUS-Y5K5bVAhv2MHM9WXTDqLhn5aw8t_IJldK571x3m1MRE6Yy4rmFzdObeRtAHWsjf5SZOwlbnlV9JFRZLLRD0-EjtpPTKUm0D_LWusJE3OkjyRaHnjtftMorJZ9QfuoSujhmdN2MnqUImFMIZzfUofKaGK6tGqibFXPgeelGhLHfrT-9uUNP6FQuY3v0oQJR0X3hFxk4trR3Phf9tj&c=wKZsJi0ywWhW_fgin60XTK8hqDgxFgQkKHD47T-eJYvD1JjT58X64A==&ch=F6dLbyCcyX5Ul67IAUYiSe01VHOEfuje_JFa3zoVP0S0aJ5y65xqMQ==",
+          "linkText": "How to Get Funding"
+        }],
         "text": "<p><img class='intro-pic' src='assets/img/pagePhotos/capitolbuilding.jpg'>Once these programs reopen the application process, they will run out of funding fast. Visit the <a href='http://r20.rs6.net/tn.jsp?f=001qYdPIzJct37HyUS-Y5K5bVAhv2MHM9WXTDqLhn5aw8t_IJldK571x3m1MRE6Yy4rmFzdObeRtAHWsjf5SZOwlbnlV9JFRZLLRD0-EjtpPTKUm0D_LWusJE3OkjyRaHnjtftMorJZ9QfuoSujhmdN2MnqUImFMIZzfUofKaGK6tGqibFXPgeelGhLHfrT-9uUNP6FQuY3v0oQJR0X3hFxk4trR3Phf9tj&c=wKZsJi0ywWhW_fgin60XTK8hqDgxFgQkKHD47T-eJYvD1JjT58X64A==&ch=F6dLbyCcyX5Ul67IAUYiSe01VHOEfuje_JFa3zoVP0S0aJ5y65xqMQ=='>U.S. Treasury's website</a> for descriptions of these programs for small businesses including instructions. If you have already applied to your bank for a PPP loan, we encourage you to contact your bank to confirm the application is complete and will be submitted once the program is reopened. It is critically important that our Newark-based small businesses benefit from these federal programs so that we come out of the COVID-19 crisis stronger together.</p>"
       },
       {
@@ -221,8 +222,10 @@
       {
         "header": "Economic Injury Disaster Loan (EIDL) program",
         "text": "<p>Go to the <a href='http://r20.rs6.net/tn.jsp?f=001qYdPIzJct37HyUS-Y5K5bVAhv2MHM9WXTDqLhn5aw8t_IJldK571x3m1MRE6Yy4rah3ZvPhG30CaySdXVkJFe-eKHicSLtzUIDTRkyYgoVkjwFNzZ6BAd9eiANXihT73xjYCDRskiogM5IISbWv9P7oELb1kl4CqyO64miE6RLBFvG21cWMuoVGSl8nr-EMbKTEq0VOOQpbXa6BYH26wZvgNy-eUjffg--lsLARwdY6jNR709msNQvdzYMunZh8eI0EGvo-hAKvA_7BA8OWA0A==&c=wKZsJi0ywWhW_fgin60XTK8hqDgxFgQkKHD47T-eJYvD1JjT58X64A==&ch=F6dLbyCcyX5Ul67IAUYiSe01VHOEfuje_JFa3zoVP0S0aJ5y65xqMQ=='>SBA’s EIDL website</a> to complete an application when the program reopens with additional funding in the next 24-48 hours. The EIDL program can provide you a LOAN ADVANCE UP TO $10,000 that does not need to be repaid as long as the SBA verifies that funds are used for payroll, purchasing materials, rent or mortgage payments, or repaying obligations that cannot be met due to revenue loss.</p><p>Please reach out to the Invest Newark Small Business Guidance Program with Audible and Newark Venture Partners team at <a href='mailto:CapitalConsulting@investnewark.org?subject=Questions About Federal Small Busines Aid Programs'>CapitalConsulting@investnewark.org</a> if you have any questions or would like help in applying to these federal economic relief programs!</p><p>If you don't have a banking relationship, contact the <a href='http://r20.rs6.net/tn.jsp?f=001qYdPIzJct37HyUS-Y5K5bVAhv2MHM9WXTDqLhn5aw8t_IJldK571x3m1MRE6Yy4r6PBP8df-wBivmD-xA4dCoAmXLJNseQteY0pdYyJiorzK4inAQfwxQ8TG8kjVZDWKuEv1AgHb_JzHkGrDChyJXg==&c=wKZsJi0ywWhW_fgin60XTK8hqDgxFgQkKHD47T-eJYvD1JjT58X64A==&ch=F6dLbyCcyX5Ul67IAUYiSe01VHOEfuje_JFa3zoVP0S0aJ5y65xqMQ=='>African American Chamber of Commerce of New Jersey</a> and the <a href='http://r20.rs6.net/tn.jsp?f=001qYdPIzJct37HyUS-Y5K5bVAhv2MHM9WXTDqLhn5aw8t_IJldK571x3m1MRE6Yy4rmQsP3Jglf9YstbrN-kmUzy4am20mnA-3NYwtzgp7j69LvZOFTW6C2f2KM104ZcxZTmUcStSCDHE=&c=wKZsJi0ywWhW_fgin60XTK8hqDgxFgQkKHD47T-eJYvD1JjT58X64A==&ch=F6dLbyCcyX5Ul67IAUYiSe01VHOEfuje_JFa3zoVP0S0aJ5y65xqMQ=='>Statewide Hispanic Chamber of Commerce of New Jersey</a>. They have a lender you can apply through.</p><p>Be Well and Be Safe.</p>",
-        "link": "mailto:CapitalConsulting@investnewark.org?subject=Questions About Federal Small Busines Aid Programs",
-        "linkText": "Email Invest Newark for More Info"
+        "buttons": [{
+          "link": "mailto:CapitalConsulting@investnewark.org?subject=Questions About Federal Small Busines Aid Programs",
+          "linkText": "Email Invest Newark for More Info"
+          }]
       }
     ]
   }

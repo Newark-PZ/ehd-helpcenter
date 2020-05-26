@@ -40,6 +40,8 @@
       "phase-one": "'Phase One' Preparation for Eventual Re-Opening",
       "recruiting-essential-workers": "Recruiting Essential Workers",
       "reopening": "NJ State Reopening Principles",
+      "category": "Save Lives. Stay Safe. Eventually Re-Open.",
+      "reopen-application-requirements": "Application & Requirements to Re-Open",
       "rent-increase-freeze": "Rent Increase Freeze for Rent Controlled Tenants",
 			"safe-housing": "Safe Housing for Homeless",
 			"self-employed": "Unemployment Benefits for Self-Employed",
@@ -51,10 +53,10 @@
       "updated-list-essential": "Updates to List of Essential Businesses Permitted to Operate",
       "web-housing-seminar": "Web Seminar for Tenants & Homeowners"
 		},
-		"mayor-blurb": "The City of Newark is investing more than $6 million in a growing list of initiatives to keep Newark’s most impacted residents safe, healthy, and financially secure. Together with thousands of volunteers, we are collaborating with the state and federal governments, philanthropies and non-profits, businesses, and faith-based organizations to weather this health emergency and continue to thrive once we are on the other side of it",
+		"mayor-blurb": "We created this website to bring together what you need to get help in dealing with the problems created by COVID-19. Here you’ll find about applying for unemployment, rental assistance, small business grants and other City, State and Federal benefits. You’ll find information about housing rights, getting tested, receiving food, avoiding infection and eventual reopening. We are Newark Strong, and we will emerge from this crisis working together for an even stronger city guided by our shared commitment to social, economic and racial justice.",
     "title": "COVID-19 Comprehensive Help for Residents and Small Businesses",
     "categories": {
-      "Save": "Save Lives. Stay Safe.",
+      "Save": "Save Lives. Stay Safe. Eventually Re-Open.",
       "Small": "Small Business",
       "Housi": "Housing",
       "Emplo": "Employment & Wellness"
@@ -100,6 +102,8 @@
 		"programs": "Our Programs",
     "recruiting-essential-workers": "Recruiting Essential Workers",
     "reopening": "The Road Back for NJ",
+    "reopen-application-requirements": "Application & Requirements to Re-Open",
+    "reopen-requirements": "Requirements to Re-Open",
     "rent-increase-freeze": "Rent Increase Freeze",
     "rent-increase-freeze-order": "Rent Increase Freeze Order",
 		"resources": "Other Resources",
@@ -116,6 +120,7 @@
     "title": "Real time Information by Gender, Race, and Ward of COVID-19 impact"
   },
   "DOCVIEW": {
+    "reopen-requirements": "Curbside & In-Store Pickup Retail Guidelines for Employers and Employees",
     "reopening": "The Road Back for New Jersey",
     "web-housing-seminar": "Web Seminar for Tenants & Homeowners",
     "rent-increase-freeze-order": "Rent Increase Freeze for Rent Controlled Tenants"
