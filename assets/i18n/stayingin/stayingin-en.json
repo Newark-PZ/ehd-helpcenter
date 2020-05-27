@@ -83,7 +83,7 @@
     "sections": [
       {
         "header": "Reopening Application",
-        "text": "<p>All retail businesses must complete an application prior to re-opening. This information is necessary to know how the business will be implementing re-opening. The City of Newark will review applications and within 48 hours notify whether an application has been approved or disapproved. If approved, the business will be inspected to ensure compliance with the requirements</p><p>Apply online by clicking 'Online Re-Opening Application' below or click 'Download PDF of Application' to Download the Application, Complete and Submit it by Email to <a href='mailto:reopeningplans@newarknj.gov'>reopeningplans@newarknj.gov</a> or contact EHD to submit by Mail/Fax.</p>",
+        "text": "<p>All retail businesses must complete an application prior to re-opening. This information is necessary to know how the business will be implementing re-opening. The City of Newark will review applications and within 48 hours notify whether an application has been approved or disapproved. If approved, the business will be inspected to ensure compliance with the requirements</p><p>Apply online by clicking 'Online Re-Opening Application' below or click 'Download PDF of Application' to Download the Application, Complete and Submit it by Email to <a href='mailto:reopeningplan@newarknj.gov'>reopeningplan@newarknj.gov</a> or contact EHD to submit by Mail/Fax.</p>",
         "actionsCol": true,
         "buttons": [{
           "link":"https://seam.ly/5WK2T8hQ",
