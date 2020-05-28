@@ -26,7 +26,8 @@
         ],
         "link": "finding-essential-jobs",
         "parent": "/resources",
-        "title": "Finding a Job During the COVID-19 Crisis"
+        "title": "Finding a Job During the COVID-19 Crisis",
+        "hideBottomBar": true
     },
     {
         "category": "Small Business",
@@ -107,7 +108,8 @@
           "linkText": "Info for Small Businesses"
         }],
         "parent": "/resources",
-        "title": "Invest Newark Initiatives for Small Business"
+        "title": "Invest Newark Initiatives for Small Business",
+        "hideBottomBar": true
     },
     {
         "category": "Housing",
@@ -119,8 +121,9 @@
         }],
         "link": "nha-tenants",
         "parent": "/resources",
-        "title": "Information for Newark Housing Authority Tenants"
-    },
+        "title": "Information for Newark Housing Authority Tenants",
+        "hideBottomBar": true
+      },
     {
         "category": "Small Business",
         "icon": "business_center",
