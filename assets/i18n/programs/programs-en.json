@@ -395,74 +395,6 @@
   },
   {
     "category": "Save Lives. Stay Safe. Eventually Re-Open.",
-    "link": "be-still-mondays",
-    "parent": "/stayingin",
-    "title": "Be Still Mondays",
-    "icon": "local_hospital",
-    "introContent": [
-      {
-        "text": "<h3><img class='intro-pic' src='assets/img/pagePhotos/mondays.jpg'>Mayor Baraka has asked “everyone to stay home” for a nearly complete shut-down of the City of Newark on Mondays to bring attention to the severity of the COVID-19 spread in the community and help slow the spread. Be Still Mondays” will happen each week for the next month.</h3><h3>If you’re not a police officer, a fireman, a nurse or other frontline medical worker, stay home.</h3>"
-      }
-    ],
-    "programs": [
-      {
-        "header": "Exceptions",
-        "text": "<p>The City of Newark’s “Be Still Mondays” is not an executive order, but it’s a request that discourages all businesses except for health, safety, and welfare emergency services to close. For instance, businesses that provide food and shelter for the homeless population may operate but the City is asking soup kitchens to limit their operations from 11:30 a.m. to 2 p.m.</p><p>The City would like businesses deemed “essential” by prior executive orders, such as food stores and pharmacies, to also close, as well as downtown corporations and manufacturing companies.</p><p>The idea is to show community-wide solidarity in the face of the aggressive COVID-19 virus that is especially ravaging black and brown communities nationwide.</p><p>Important: Click below for more information about the Rules",
-        "linkText": "NJ Stay at Home and Essential Business Rules",
-        "link": "https://covid19.nj.gov/faqs/nj-information/general-public/what-are-the-“stay-at-home”-rules-in-new-jersey-what-businesses-are-closed"
-      }
-    ]
-  },
-  {
-    "category": "Save Lives. Stay Safe. Eventually Re-Open.",
-    "link": "stay-at-home",
-    "parent": "/stayingin",
-    "title": "Shelter-in-Place Order",
-    "icon": "local_hospital",
-    "introContent": [
-      {
-        "text": "<h3><img class='intro-pic' src='assets/img/pagePhotos/shelter-in-place.jpg'>To protect residents against the spread of COVID-19, Mayor Ras J. Baraka has announced a strict City-wide “shelter-in-place” mandate and all-city quarantine that will be strictly enforced by law enforcement.</h3><p>People must stay home and not come out unless it’s an emergency.</p>"
-      }
-    ],
-    "programs": [
-      {
-        "header": "Exceptions",
-        "text": "<p>You can still go to the supermarket, local store for essentials, pharmacy, doctor, walk dogs, step out and get fresh air in front or back of home/doorstep/porch/terrace, or if an essential employee. Also, children need to be accompanied by an adult and people should only leave their homes in pairs.</p><p>While out, you must maintain the Center for Disease Control’s (CDC) recommendation of keeping six feet apart.</p><p><b>Residents are urged to call police if they see groups of people hanging out and violating this mandate.</b></p>"
-      }
-    ]
-  },
-  {
-    "icon": "business_center",
-    "title": "Emergency Fund For 501(c)3 Nonprofits",
-    "link": "non-profit",
-    "subtitle": "Aiding Newark Residents Impacted By Covid-19",
-    "introText": "<p><img class='intro-pic' src='assets/img/pagePhotos/Nonprofit.jpg'> In this time of crisis, communities nationwide are suffering enormous impacts related to COVID-19. The City of Newark is fortunate to have numerous non-profit organizations that have risen to the task of providing vital services to the local community in response to the market distress and upheaval caused by the COVID-19 pandemic. Mayor Ras J. Baraka, in an effort to strengthen and stabilize these non-profit organizations, has created an emergency fund aimed at providing financial relief to eligible Newark-based 501(c)(3) non-profit organizations that provide a direct service related to COVID-19 and/or have expended extra funds in creating new programs or in expanding existing programs to the benefit of Newark’s local economy and community. To apply click the link below and send the email to request an application</p>",
-    "infoButtons": [
-      {
-        "link": "mailto:nonprofitgrant@ci.newark.nj.us?subject=Request for Emergency Non-Profit Grant Application",
-        "linkText": "Request Application for Funds"
-      }
-    ],
-    "purpose": [
-      {
-        "body": "This emergency fund, which will be administered by the City of Newark’s Department of Economic and Housing Development, will provide One Million Dollars ($1,000,000) with grants ranging from $5,000 to $50,000 to qualifying 501(c)(3) non-profit organizations. The application will be made available for qualifying 501(c)(3) non-profit organizations on Monday, April 20, 2020 through Friday, May 22, 2020. During these 30 days the city will provide grants on an ongoing basis in order to meet the financial need of organizations."
-      }
-    ],
-    "sections": [
-      {
-        "header": "Applicant Requirements to Apply for this Grant",
-        "text": "<ul><li>Must provide proof of 501(c)(3) non-profit organization status;</li><li>Have a physical location in Newark;</li><li>Have directly provided services/programs unique to the COVID-19 pandemic to Newark residents/communities OR expanded their services/programs to meet the needs of their usual community base;</li><li>Provide copy of most recent audit;</li><li>Provide copy of IRS Form 990;</li><li>Provide documentation of their annual budget;</li><li>At time of submittal of application, you must also provide a letter on your organization’s letterhead with the amount of funding you’re requesting for the fulfillment of your services during this pandemic;</li><li>Provide a letter with a line item cost breakdown of total requested amount of funding with supporting documents of expenses: invoices that have been paid and not paid;</li><li>And finally, a letter with description of beneficiaries served, which includes: (a) name and address, (b) ethnicity, (c) percentage of AMI of individuals served, (d) senior/non senior, and (e) total number of individuals served in households.</li></ul><p>Click the link below to send an email requesting the application. Include information about your non-profit.</p>",
-        "buttons": [
-          {
-            "link": "mailto:nonprofitgrant@ci.newark.nj.us?subject=Request for Emergency Non-Profit Grant Application",
-            "linkText": "Request Application for Funds"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "category": "Save Lives. Stay Safe. Eventually Re-Open.",
     "link": "testing",
     "parent": "/programs",
     "title": "How & Where to Get Tested in Newark",
@@ -485,7 +417,7 @@
     "purpose": [
       {
         "header": "There are a growing number of testing sites in Newark open to the public",
-        "body": "If you're employed by a business or organization with direct public contact, testing is available and required."
+        "body": "If you do not have symptoms, testing is not recommended"
       }
     ],
     "sections": [
@@ -527,7 +459,8 @@
     "category": "Housing",
     "link": "emergency-rent-grants",
     "parent": "/programs",
-    "title": "Emergency Grants of Up To $1,000 for Housing Assistance",
+    "title": "Emergency Grants of Up to $1,000 for Housing Assistance",
+    "subtitle":"Coming Soon: NJ State Rental Assistance Grants",
     "icon": "house",
     "introText": "<p><img class='intro-pic' src='assets/img/pagePhotos/rentdue.jpg'>Newark is a city of renters with only 22 percent of us owning our own homes. The COVID-19 crisis has left many tenants struggling to pay rent. Mayor Baraka created this One Million Dollar Emergency Housing Assistance Fund to supplement his moratorium on evictions and to enable tenants to keep their homes.</p><p>To help Newark residents and their families having difficulty paying rent as a result of COVID-19, the City will provide grants to those who fall under 60 percent of Area Median Income. For example, a single individual with an income of up to $42,300 and a family of 4 with an income up to $60,360 would be eligible to receive help with rental payments.</p>",
     "infoButtons": [
@@ -538,7 +471,7 @@
     }],
     "purpose": [
       {
-        "body": "Applications are open now, click any button above or below to get started."
+        "body": "Applications are open now, click above or below to get started."
       }
     ],
     "sections": [
@@ -549,6 +482,18 @@
           {
             "link": "http://newarkha.org/Housing/Covid19-Emergency-Rental-Assistance",
             "linkText": "Grant Application & FAQs"
+          }
+        ]
+      },
+      {
+        "emphasizeHeader": true,
+        "header": "State will Launch Short-Term Rental Assistance to Help Tenants Affected by COVID-19.",
+        "text": "<p>The new program Will Provide at least $100 Million in Temporary Rental Assistance for Low- to Moderate-Income Households, Including the Homeless or Those at Risk of Homelessness</p><p><u>The program will open for applications in July and begin paying rental assistance in September</u>. Qualifying households will be expected to pay 30 percent of their income toward rent, and the program will pay the remainder of their rent up to a fair market rent payment standard. At the three-month mark, the household budget will be reviewed to determine if assistance is still needed. Assistance that is no longer required will be used to serve additional families.</p><p>20 percent of the funding will serve those who are very low income and homeless or at risk of homelessness with up to 12 months of rental assistance. To help families reach self-sufficiency, case management, financial planning, and other assistance will be provided by the program.</p><p>For the remainder of the funding, the State DCA will administer an online lottery. When the lottery is opened, households may submit applications and participants will be selected from the overall pool of applicants through a randomized process based on eligibility and the lottery criteria. Applicants selected through the lottery will be eligible to receive up to six months of short-term rental assistance.</p>",
+        "buttons": [
+          {
+            "link": "https://urldefense.com/v3/__https:/t.e2ma.net/click/b6ct9c/j83xrcb/j051tj__;!!J30X0ZrnC1oQtbA!cEMZjd60VMS0_KmeW-ztpyQxOzL-vj0o-BmShgsWfOj-A1lad9hdlIYN83T71nxmSLw6k_5V$",
+            "linkText": "More Information about NJ Rental Assistance",
+            "extraClass": "important"
           }
         ]
       }
