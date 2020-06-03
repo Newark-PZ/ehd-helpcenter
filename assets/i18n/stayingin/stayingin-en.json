@@ -125,17 +125,20 @@
           {
             "linkText": "Gatherings",
             "link": "assets/docs/Gatherings_6.2.2020.pdf",
-            "extraClass": "important"
+            "extraClass": "important",
+            "icon": "emoji_people"
           },
           {
             "linkText": "Summer Fun",
             "link": "assets/docs/Newark Summer Fun 2020_6.1.2020.pdf",
-            "extraClass": "important"
+            "extraClass": "important",
+            "icon": "emoji_emotions"
           },
           {
             "linkText": "Summer Activities",
             "link": "assets/docs/Newark Summer Activities Guide_6.1.2020.pdf",
-            "extraClass": "important"
+            "extraClass": "important",
+            "icon": "sports_kabaddi"
           }
         ]
       },
