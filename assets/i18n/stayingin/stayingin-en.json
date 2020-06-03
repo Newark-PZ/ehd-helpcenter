@@ -5,6 +5,11 @@
     "parent": "/stayingin",
     "title": "Newark Reopening and Recovery Strikeforce",
     "icon": "local_hospital",
+    "infoButtons": [{
+      "linkText": "Strikeforce Recommendations Summary",
+      "link": "assets/docs/FINAL REOPENING RECOMMENDATIONS_6.1.2020.pdf",
+      "extraClass": "important"
+    }],
     "introText": "<h3><img class='intro-pic' src='assets/img/pagePhotos/Work from home.jpg'>Mayor Ras J. Baraka has announced the collaboration of city leaders to create policies and strategies on how to continue to move Newark forward when the COVID-19 threat lessens.</h3><p>Called the <b>Newark Reopening and Recovery Strikeforce</b>, the task force will build off the unprecedented cooperation between government, the private sector and organizations during the COVID-19 crisis and continue to work collectively to solve problems.</p>",
     "sections": [
       {
