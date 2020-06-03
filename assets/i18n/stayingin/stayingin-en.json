@@ -115,11 +115,18 @@
           "assets/docs/APPENDIX_B-ReopeningChart_6.1.2020_Page_3.png",
           "assets/docs/APPENDIX_B-ReopeningChart_6.1.2020_Page_4.png"
         ],
+        "actionsCol": true,
         "buttons": [
           {
-            "linkText": "Summary of Reopening & Recovery Strikeforce Recommendations",
+            "linkText": "Strikeforce Recommendations Summary",
             "link": "assets/docs/FINAL REOPENING RECOMMENDATIONS_6.1.2020.pdf",
-            "extraClass": "important"
+            "extraClass": "important",
+            "icon": "list_alt"
+          },
+          {
+            "linkText": "About the Reopening & Recovery Strikeforce",
+            "link": "stayingin/newark-reopening-recovery",
+            "icon": "people"
           }
         ]
       },
