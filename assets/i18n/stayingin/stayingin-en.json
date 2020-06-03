@@ -119,6 +119,27 @@
         ]
       },
       {
+        "headerIcon": "outdoor_grill",
+        "header": "Safe Summer Activities",
+        "buttons": [
+          {
+            "linkText": "Gatherings",
+            "link": "assets/docs/Gatherings_6.2.2020.pdf",
+            "extraClass": "important"
+          },
+          {
+            "linkText": "Summer Fun",
+            "link": "assets/docs/Newark Summer Fun 2020_6.1.2020.pdf",
+            "extraClass": "important"
+          },
+          {
+            "linkText": "Summer Activities",
+            "link": "assets/docs/Newark Summer Activities Guide_6.1.2020.pdf",
+            "extraClass": "important"
+          }
+        ]
+      },
+      {
         "expanded": false,
         "header": "Executive Order #MEO-20-0005 includes the following:",
         "headerIcon": "text_snippet",
