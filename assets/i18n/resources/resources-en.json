@@ -231,5 +231,18 @@
           }]
       }
     ]
+  },
+  {
+    "title": "State has Launched PPE Supplier Registry for COVID-19 Protective Gear",
+    "category": "Small Business",
+    "icon": "local_hospital",
+    "link": "ppe-program",
+    "infoButtons": [{
+      "link": "https://forms.business.nj.gov/ppevendor/list/",
+      "linkText": "PPE Supplier Registry",
+      "extraClass": "important"
+    }],
+    "introText": "<p><img class='intro-pic' src='assets/img/pagePhotos/PPE.jpg'>The new <a href='https://gcc02.safelinks.protection.outlook.com/?url=https%3A%2F%2Ft.e2ma.net%2Fclick%2Fv9838c%2F7mjmkt%2Fr20tsj&data=02%7C01%7Crgoemaat%40njeda.com%7Cde55490b3abc4f16411708d7fe790fa8%7Cdef9b6fa35984b48bb720bc384032ea3%7C0%7C0%7C637257668214694225&sdata=X7cT4heevCg3m0%2FyPu7ONk7NH9mu7K02zCSymWpalS4%3D&reserved=0'>PPE Supplier Registry</a> connects suppliers of personal protective equipment (PPE) that can prevent the spread of COVID-19 with potential buyers. Wholesale vendors with PPE inventory such as surgical or other protective masks, hospital gowns, hand sanitizer, or COVID-19 test kits can submit details on supplies they have available and hospitals, medical organizations, and private businesses can purchase.</p<<p>To date, more than 1,000 businesses have registered on the database, providing more than 2,500 products. The database is updated several times per week, and is easily filtered and sorted by product type, size, payment terms, location of supplier, and several other criteria. Suppliers who wish to be included in the Registry should fill out the <a href='https://gcc02.safelinks.protection.outlook.com/?url=https%3A%2F%2Ft.e2ma.net%2Fclick%2Fv9838c%2F7mjmkt%2F7u1tsj&data=02%7C01%7Crgoemaat%40njeda.com%7Cde55490b3abc4f16411708d7fe790fa8%7Cdef9b6fa35984b48bb720bc384032ea3%7C0%7C0%7C637257668214694225&sdata=PregAB%2BvA0Z%2FgI8S72UzM2rK%2Fbf78zQK5ocC75nxt4M%3D&reserved=0'>PPE Supplier Registry intake form</a>.</p>",
+    "hideBottomBar": true
   }
 ]
