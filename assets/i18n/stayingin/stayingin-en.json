@@ -94,6 +94,18 @@
           "linkText": "Online Re-Opening Application",
           "icon": "launch",
           "extraClass": "important"
+        },
+        {
+          "link":"https://seam.ly/W1tFoA3q",
+          "linkText": "Solicitud de reapertura en línea - Espanol",
+          "icon": "launch",
+          "extraClass": "important"
+        },
+        {
+          "link":"assets/docs/COVID-19_Business_Re-opening_Permit_Portuguese__05252020.pdf",
+          "linkText": "Pedido de reabertura online - Portuguesa",
+          "icon": "launch",
+          "extraClass": "important"
         }]
       }
     ]
