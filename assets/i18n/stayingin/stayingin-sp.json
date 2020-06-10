@@ -1,6 +1,27 @@
 [
+  {
+    "category": "Salva vidas. Mantenerse sano. Vuelva a abrir con seguridad.",
+    "link": "newark-reopening-recovery",
+    "parent": "/stayingin",
+    "title": "Newark reapertura y recuperación Strikeforce",
+    "icon": "local_hospital",
+    "infoButtons": [{
+      "linkText": "Resumen de recomendaciones de Strikeforce",
+      "link": "assets/docs/NewarkStrikeforceSummaryRecommendations.pdf",
+      "extraClass": "important"
+    }],
+    "introText": "<h3><img class='intro-pic' src='assets/img/pagePhotos/Work from home.jpg'>El alcalde Ras J. Baraka ha anunciado la colaboración de los líderes de la ciudad para crear políticas y estrategias sobre cómo seguir avanzando en Newark cuando la amenaza COVID-19 disminuya.</h3><p>Llamada la <b>Fuerza de Ataque de Reapertura y Recuperación de Newark</b>, la fuerza de trabajo construirá sobre la cooperación sin precedentes entre el gobierno, el sector privado y las organizaciones durante la crisis COVID-19 y continuará trabajando colectivamente para resolver problemas.</p>",
+    "sections": [
+      {
+        "text": "<p>El alcalde Baraka, un firme defensor de las políticas de ingresos garantizados, está especialmente interesado en formas de ayudar a las personas a escapar de la inseguridad económica y, como educador, en formas de implementar la tecnología educativa y los recursos recién descubiertos para que nuestros hijos los utilicen cuando regresen a la escuela y ya no están protegidos en su lugar.</p><p><blockquote>La forma en que vivimos, la forma en que hacemos negocios, la forma en que enseñamos y cómo interactuamos han cambiado debido a esta crisis”, dijo el alcalde. “Surgirán nuevas industrias y habrá oportunidades para innovar en las que debemos embarcarnos. Este es un momento oportuno para ser innovadores y lograr cosas que nunca antes hemos hecho, y podemos hacer esto y mucho más a través de una planificación integral y soluciones pragmáticas.</blockquote></p>"
+      },
+      {
+        "text": "<p>Los copresidentes de la Fuerza de Ataque de Reapertura y Recuperación de Newark son la Jefa de Gabinete de la Ciudad de Newark, Amiri Baraka, Jr., y la CEO de la Alianza de Newark, Aisha Glover. Los comités dentro de la fuerza de ataque se centran en la salud pública, la recuperación económica, la recopilación y el análisis de datos, la educación, las artes, el alcance comunitario y la participación, y las comunicaciones (lista de presidentes a continuación):</p<ul><li><b>Comité de Salud Pública</b> , codirigido por el Dr. Perry N. Halkitis, <i>decano de la Escuela de Salud Pública de Rutgers</i> y Michellene Davis, <i>vicepresidenta ejecutiva y directora de asuntos corporativos de RWJBarnabas Health</i></li><li><b>Comité de Recuperación Económica</b> , dirigido por Lata Reddy, <i>Vicepresidenta Senior de Diversidad, Inclusión e Impacto en Prudential</i></li><li><b>Comité de recopilación y análisis de datos</b> , dirigido por Phil Scott, <i>director de ingeniería de la ciudad de Newark</i></li><li><b>Comité de Educación</b> , dirigido por la Dra. Lauren Wells, <i>Fundadora y Presidenta, Creed Strategies</i></li><li><b>Organizaciones basadas en la fe</b> , dirigidas por la Rev. Louise Scott-Rountree, <i>Asuntos del Clero, Ciudad de Newark</i></li><li><b>Comité de Arte, Recreación y Cultura</b> , dirigido por Linda Harrison, <i>Directora y CEO del Museo de Newark</i></li><li><b>Comité de Extensión y Participación Comunitaria</b> , codirigido por el Honorable Mildred C. Crump, <i>Presidente del Consejo Municipal de la Ciudad de Newark</i> y Ron Chaluisán, <i>Director Ejecutivo del Newark Trust for Education</i></li><li><b>Comité de Comunicaciones</b> , dirigido por Kay Sarlin Wright, <i>Directora de Asuntos Corporativos y Comunicaciones para Audible</i></li></ul><p>Debido a la composición y las necesidades de la ciudad, el alcalde Baraka y la Fuerza de ataque de reapertura y recuperación de Newark están tomando medidas directas para adaptarse a los desafíos necesarios para prepararse para la vida después de COVID-19, incluido lo que la recuperación significará para la comunidad.</p>"
+      }
+    ]
+  },
     {
-      "category": "Salva vidas. Mantenerse a salvo.",
+      "category": "Salva vidas. Mantenerse sano. Vuelva a abrir con seguridad.",
       "link": "be-still-mondays",
       "parent": "/stayingin",
       "title": "Estar Quieto los Lunes",
@@ -16,7 +37,7 @@
       }]
     },
     {
-      "category": "Salva vidas. Mantenerse a salvo.",
+      "category": "Salva vidas. Mantenerse sano. Vuelva a abrir con seguridad.",
       "link": "stay-at-home",
       "parent": "/stayingin",
       "title": "Orden de refugio en el lugar",
@@ -31,7 +52,7 @@
       }]
     },
     {
-      "category": "Salva vidas. Mantenerse a salvo.",
+      "category": "Salva vidas. Mantenerse sano. Vuelva a abrir con seguridad.",
       "link": "phase-one",
       "parent": "/programs",
       "title": "Primeros pasos en preparación para la eventual reapertura",
@@ -61,5 +82,120 @@
           ]
         }
       ]
+    },
+    {
+      "category": "Salva vidas. Mantenerse sano. Vuelva a abrir con seguridad.",
+      "link": "phase-one",
+      "parent": "/stayingin",
+      "title": "First Steps in Preparation for Eventual Re-Opening",
+      "icon": "verified_user",
+      "introText": "<p><img class='intro-pic' src='assets/img/pagePhotos/broadmarket.jpg'>Mayor Ras J. Baraka has presented the first phase of the plan to re-open Newark beginning June 1.  Phase One is about us getting Newark prepared to open. We’re advancing, but it also gives us room to retreat if the numbers go back up. Our top priority is the health and safety of Newark residents.</p><p>Phase One is based on data that shows a continued decline in COVID-19 cases and from the recommendations of the Newark Reopening and Recovery Strikeforce. The data collected shows while Newark has increased testing 100 percent, the percentage of people who have tested positive has dropped dramatically, as well as reported cases and deaths.</p>",
+      "sections": [
+        {
+          "text": "<p>As part of Phase One, the City will institute a color-coded system to give people information they need to have to make informed choices about the risks of going to different places. Businesses, restaurants, parks and other public places will display color-coded signage, with red being the highest risk area, yellow more moderate, and green the lowest risk area.</p><p>Other Phase One components include:<ul><li>Recreation centers, parks and playgrounds will remain closed; block parties and special events will remain on hold. All faith-based services can be held via teleconference or virtually.</li><li>Information centers will be established in each ward and 4311 will be expanded to include a dedicated COVID-19 information hotline. Additionally, a technology task force will be created to develop a sustainable citywide strategy for universal access to Wi-Fi and the hardware necessary for remote learning.</li><li>An isolation and quarantine plan will be developed for those who cannot create one themselves. Guidance will be provided around emotional hurdles and fears related to medical mistrust.</li><li>Lastly, letters will be sent to all businesses requesting plans to ensure the safety of their employees and the general public. City licensing, approvals and permitting processes will be adjusted to streamline what can be expedited and waived.</li></ul><p>The Newark Recovery and Reopening Strikeforce, led by Chief of Staff Amiri Baraka, Jr. and Newark Alliance CEO Aisha Glover, will continue to work collaboratively while other phases are rolled out as well.</p>",
+          "buttons": [
+            {
+              "link": "stayingin/newark-reopening-recovery",
+              "linkText": "More Info On Recovery & Reopening Strikeforce"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Salva vidas. Mantenerse sano. Vuelva a abrir con seguridad.",
+      "link": "reopen-application-requirements",
+      "parent": "/stayingin",
+      "title": "Solicitud y requisitos para volver a abrir",
+      "icon": "verified_user",
+      "introText": "<p><img class='intro-pic contain' src='assets/img/pagePhotos/yellowreopeningsign.png'>Todos los negocios de Newark deben solicitar un permiso de reapertura para que la Ciudad emita un certificado de nivel de seguridad codificado por color requerido para la reapertura.</p><p>Las pautas de recolección en la acera y en la tienda incluyen distanciamiento físico obligatorio, equipo de protección, higiene y limpieza, comunicaciones y evaluación de los empleados, además de las mejores prácticas recomendadas que siguen las recomendaciones de los CDC</p>",
+      "infoButtons": [
+        {
+        "linkText": "Requisitos de reapertura",
+        "link": "docs/reopen-requirements",
+        "extraClass": "important"
+      }],
+      "sections": [
+        {
+          "header":"Instrucciones en Video para Completar la Aplicación",
+          "iframeSrc": "https://drive.google.com/file/d/19N3f30gb0rQm5-TByVOLXKDz47r1RZau/preview"
+        },
+        {
+          "header": "Complete y Envíe la Aplicación para Reabrir",
+          "text": "<p><img class='intro-pic contain' src='assets/img/pagePhotos/Flyer Newark Business Reopening Permit.png'>Todas las empresas minoristas deben completar una solicitud antes de volver a abrir. Esta información es necesaria para saber cómo implementará la empresa la reapertura. La Ciudad de Newark revisará las solicitudes y en un plazo de 72 horas notificará si una solicitud ha sido aprobada o desaprobada. Si se aprueba, la empresa será inspeccionada para garantizar el cumplimiento de los requisitos.</p><p>Solicite en línea haciendo clic en 'Solicitud de reapertura en línea' a continuación. Póngase en contacto con nosotros en <a href='mailto:reopeningplan@newarknj.gov'>reopeningplan@newarknj.gov</a> si tiene alguna pregunta o desea enviarla por correo/fax.</p>",
+          "actionsCol": true,
+          "buttons": [{
+            "link":"https://seam.ly/W1tFoA3q",
+            "linkText": "Solicitud de reapertura en línea - Espanol",
+            "icon": "launch",
+            "extraClass": "important"
+          }]
+        }
+      ]
+    },
+    {
+      "category": "Salva vidas. Mantenerse sano. Vuelva a abrir con seguridad.",
+      "link": "strikeforce-reopening-plan",
+      "parent": "/stayingin",
+      "title": "Pautas de reapertura de Newark y actividades de verano",
+      "icon": "campaign",
+      "introText": "<img class='intro-pic contain full-top' src='assets/img/pagePhotos/guidanceforreopening_es.png'>",
+      "sections": [
+        {
+          "headerIcon": "table",
+          "header": "Pautas de reapertura de Strikeforce",
+          "iframeSrc": "https://docs.google.com/spreadsheets/d/e/2PACX-1vSKznEJDHUlt1cbkzVihaXk4mSpr91HPmPqOIhobzp7ZiWt482mMW2VC4p94MgZbQEd_l926IKDmEx7/pubhtml?gid=0&single=true&widget=false&chrome=false&headers=false&rm=demo",
+          "actionsCol": true,
+          "buttons": [
+            {
+              "linkText": "Resumen de recomendaciones de Strikeforce",
+              "link": "assets/docs/NewarkStrikeforceSummaryRecommendations.pdf",
+              "extraClass": "important",
+              "icon": "list_alt"
+            },
+            {
+              "linkText": "Sobre la reapertura y recuperación Strikeforce",
+              "link": "stayingin/newark-reopening-recovery",
+              "icon": "people"
+            }
+          ]
+        },
+        {
+          "headerIcon": "outdoor_grill",
+          "header": "Actividades seguras de verano",
+          "buttons": [
+            {
+              "linkText": "Reuniones",
+              "link": "assets/docs/Gatherings_6.2.2020.pdf",
+              "extraClass": "important",
+              "icon": "emoji_people"
+            },
+            {
+              "linkText": "Verano divertido",
+              "link": "assets/docs/Newark Summer Fun 2020_6.1.2020.pdf",
+              "extraClass": "important",
+              "icon": "emoji_emotions"
+            },
+            {
+              "linkText": "Actividades de Verano",
+              "link": "assets/docs/Newark Summer Activities Guide_6.1.2020.pdf",
+              "extraClass": "important",
+              "icon": "sports_kabaddi"
+            }
+          ]
+        },
+        {
+          "expanded": false,
+          "header": "La orden ejecutiva # MEO-20-0005 incluye lo siguiente:",
+          "headerIcon": "text_snippet",
+          "text": "<ol><ol><li>Las reuniones familiares al aire libre deben limitarse a no más de diez (10) personas, pero en ningún caso más de quince (15).</li><li>Las personas deben practicar el distanciamiento social y usar equipo de protección personal (EPP), incluidas máscaras faciales y guantes mientras se reúnen y rodean a otros, especialmente si la reunión involucra a personas de la tercera edad o personas con afecciones médicas preexistentes.</li><li>No compartir utensilios, platos, tazas, platos o cualquier artículo utilizado para comer o beber donde tal uso entre individuos pueda transmitir yo propagar el virus.</li><li>No habrá fiestas en la calle o grandes reuniones de individuos en parques o en calles públicas.</li><li>Todas las reglas y regulaciones existentes de la Ciudad y el Condado para el uso del parque y la reproducción de música permanecen vigentes.</li><li>Todas las reuniones familiares al aire libre deben finalizar a las 9:00 p.m.</li></ol></ol>",
+          "buttons": [{
+            "link":"assets/docs/MEO-20-0004 Executive Order.pdf",
+            "linkText": "Lea el pedido completo aquí",
+            "icon": "launch",
+            "extraClass": "important"
+          }]
+        }
+      ]
     }
-]
+  ]

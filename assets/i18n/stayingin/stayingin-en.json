@@ -86,7 +86,11 @@
     }],
     "sections": [
       {
-        "header": "Reopening Application",
+        "header":"Video Instructions for Filling Out Application",
+        "iframeSrc": "https://drive.google.com/file/d/1dwGGp-BL8LE9VGdXYia_RtTAIistwVIK/preview"
+      },
+      {
+        "header": "Fill Out and Submit Application to Reopen",
         "text": "<p><img class='intro-pic contain' src='assets/img/pagePhotos/Flyer Newark Business Reopening Permit.png'>All retail businesses must complete an application prior to re-opening. This information is necessary to know how the business will be implementing re-opening. The City of Newark will review applications and within 72 hours notify whether an application has been approved or disapproved. If approved, the business will be inspected to ensure compliance with the requirements</p><p>Apply online by clicking 'Online Re-Opening Application' below. Contact us at <a href='mailto:reopeningplan@newarknj.gov'>reopeningplan@newarknj.gov</a> if you have questions or want to submit by Mail/Fax.</p>",
         "actionsCol": true,
         "buttons": [{
@@ -121,12 +125,7 @@
       {
         "headerIcon": "table",
         "header": "Strikeforce Reopening Guidelines",
-        "imgCarousel": [
-          "assets/docs/APPENDIX_B-ReopeningChart_6.1.2020_Page_1.png",
-          "assets/docs/APPENDIX_B-ReopeningChart_6.1.2020_Page_2.png",
-          "assets/docs/APPENDIX_B-ReopeningChart_6.1.2020_Page_3.png",
-          "assets/docs/APPENDIX_B-ReopeningChart_6.1.2020_Page_4.png"
-        ],
+        "iframeSrc": "https://docs.google.com/spreadsheets/d/e/2PACX-1vSKznEJDHUlt1cbkzVihaXk4mSpr91HPmPqOIhobzp7ZiWt482mMW2VC4p94MgZbQEd_l926IKDmEx7/pubhtml?gid=0&single=true&widget=false&chrome=false&headers=false&rm=demo",
         "actionsCol": true,
         "buttons": [
           {
