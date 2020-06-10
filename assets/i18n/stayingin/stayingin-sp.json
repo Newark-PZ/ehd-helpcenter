@@ -111,6 +111,12 @@
       "introText": "<p><img class='intro-pic contain' src='assets/img/pagePhotos/yellowreopeningsign.png'>Todos los negocios de Newark deben solicitar un permiso de reapertura para que la Ciudad emita un certificado de nivel de seguridad codificado por color requerido para la reapertura.</p><p>Las pautas de recolección en la acera y en la tienda incluyen distanciamiento físico obligatorio, equipo de protección, higiene y limpieza, comunicaciones y evaluación de los empleados, además de las mejores prácticas recomendadas que siguen las recomendaciones de los CDC</p>",
       "infoButtons": [
         {
+          "link":"https://seam.ly/W1tFoA3q",
+          "linkText": "Solicitud de reapertura en línea",
+          "icon": "launch",
+          "extraClass": "important"
+        },
+        {
         "linkText": "Requisitos de reapertura",
         "link": "docs/reopen-requirements",
         "extraClass": "important"
@@ -118,15 +124,18 @@
       "sections": [
         {
           "header":"Instrucciones en Video para Completar la Aplicación",
-          "iframeSrc": "https://drive.google.com/file/d/19N3f30gb0rQm5-TByVOLXKDz47r1RZau/preview"
+          "iframeSrc": "https://drive.google.com/file/d/19N3f30gb0rQm5-TByVOLXKDz47r1RZau/preview",
+          "iframeClass": "videoEmbed",
+          "emphasizeHeader": true
         },
         {
+          "emphasizeHeader": true,
           "header": "Complete y Envíe la Aplicación para Reabrir",
           "text": "<p><img class='intro-pic contain' src='assets/img/pagePhotos/Flyer Newark Business Reopening Permit.png'>Todas las empresas minoristas deben completar una solicitud antes de volver a abrir. Esta información es necesaria para saber cómo implementará la empresa la reapertura. La Ciudad de Newark revisará las solicitudes y en un plazo de 72 horas notificará si una solicitud ha sido aprobada o desaprobada. Si se aprueba, la empresa será inspeccionada para garantizar el cumplimiento de los requisitos.</p><p>Solicite en línea haciendo clic en 'Solicitud de reapertura en línea' a continuación. Póngase en contacto con nosotros en <a href='mailto:reopeningplan@newarknj.gov'>reopeningplan@newarknj.gov</a> si tiene alguna pregunta o desea enviarla por correo/fax.</p>",
           "actionsCol": true,
           "buttons": [{
             "link":"https://seam.ly/W1tFoA3q",
-            "linkText": "Solicitud de reapertura en línea - Espanol",
+            "linkText": "Solicitud de reapertura en línea",
             "icon": "launch",
             "extraClass": "important"
           }]

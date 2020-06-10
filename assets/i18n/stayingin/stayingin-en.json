@@ -94,6 +94,7 @@
       {
         "header":"Video Instructions for Filling Out Application",
         "iframeSrc": "https://drive.google.com/file/d/1dwGGp-BL8LE9VGdXYia_RtTAIistwVIK/preview",
+        "iframeClass": "videoEmbed",
         "emphasizeHeader": true
       },
       {
@@ -134,6 +135,7 @@
         "headerIcon": "table",
         "header": "Strikeforce Reopening Guidelines",
         "iframeSrc": "https://docs.google.com/spreadsheets/d/e/2PACX-1vSKznEJDHUlt1cbkzVihaXk4mSpr91HPmPqOIhobzp7ZiWt482mMW2VC4p94MgZbQEd_l926IKDmEx7/pubhtml?gid=0&single=true&widget=false&chrome=false&headers=false&rm=demo",
+        "iframeClass": "docEmbed",
         "actionsCol": true,
         "buttons": [
           {
