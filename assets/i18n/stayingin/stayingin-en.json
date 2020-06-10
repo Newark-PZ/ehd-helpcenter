@@ -77,8 +77,14 @@
     "parent": "/stayingin",
     "title": "Application and Requirements to Re-Open",
     "icon": "verified_user",
-    "introText": "<p><img class='intro-pic contain' src='assets/img/pagePhotos/yellowreopeningsign.png'>All Newark businesses must apply for a re-opening permit in order for the City to issue a color-coded safety-level certificate required for reopening.</p><p>The Curbside and In-Store Pickup Guidelines include mandatory physical distancing, protective equipment, hygiene and cleaning, communications, and employee screening plus recommended best practices that follow recommendations of the C.D.C.</p>",
+    "introText": "<p><img class='intro-pic contain' src='assets/img/pagePhotos/yellowreopeningsign.png'>All Newark businesses must apply for a re-opening permit in order for the City to issue a color-coded safety-level certificate required for reopening.</p><p>All retail businesses must complete an application prior to re-opening. This information is necessary to know how the business will be implementing re-opening. The City of Newark will review applications and within 72 hours notify whether an application has been approved or disapproved. If approved, the business will be inspected to ensure compliance with the requirements</p>",
     "infoButtons": [
+      {
+        "link":"https://seam.ly/2LBnzISE",
+        "linkText": "Online Reopening Application",
+        "icon": "launch",
+        "extraClass": "important"
+      },
       {
       "linkText": "Re-Opening Requirements",
       "link": "docs/reopen-requirements",
@@ -87,27 +93,29 @@
     "sections": [
       {
         "header":"Video Instructions for Filling Out Application",
-        "iframeSrc": "https://drive.google.com/file/d/1dwGGp-BL8LE9VGdXYia_RtTAIistwVIK/preview"
+        "iframeSrc": "https://drive.google.com/file/d/1dwGGp-BL8LE9VGdXYia_RtTAIistwVIK/preview",
+        "emphasizeHeader": true
       },
       {
+        "emphasizeHeader": true,
         "header": "Fill Out and Submit Application to Reopen",
-        "text": "<p><img class='intro-pic contain' src='assets/img/pagePhotos/Flyer Newark Business Reopening Permit.png'>All retail businesses must complete an application prior to re-opening. This information is necessary to know how the business will be implementing re-opening. The City of Newark will review applications and within 72 hours notify whether an application has been approved or disapproved. If approved, the business will be inspected to ensure compliance with the requirements</p><p>Apply online by clicking 'Online Re-Opening Application' below. Contact us at <a href='mailto:reopeningplan@newarknj.gov'>reopeningplan@newarknj.gov</a> if you have questions or want to submit by Mail/Fax.</p>",
+        "text": "<p><img class='intro-pic contain' src='assets/img/pagePhotos/Flyer Newark Business Reopening Permit.png'>Apply online by clicking 'Online Re-Opening Application' below. Contact us at <a href='mailto:reopeningplan@newarknj.gov'>reopeningplan@newarknj.gov</a> if you have questions or want to submit by Mail/Fax.</p>",
         "actionsCol": true,
         "buttons": [{
           "link":"https://seam.ly/2LBnzISE",
-          "linkText": "Online Re-Opening Application",
+          "linkText": "Online Reopening Application",
           "icon": "launch",
           "extraClass": "important"
         },
         {
           "link":"https://seam.ly/W1tFoA3q",
-          "linkText": "Solicitud de reapertura en línea - Espanol",
+          "linkText": "Solicitud en Espanol",
           "icon": "launch",
           "extraClass": "important"
         },
         {
           "link":"assets/docs/COVID-19_Business_Re-opening_Permit_Portuguese__05252020.pdf",
-          "linkText": "Pedido de reabertura online - Portuguesa",
+          "linkText": "Aplicação em português",
           "icon": "launch",
           "extraClass": "important"
         }]

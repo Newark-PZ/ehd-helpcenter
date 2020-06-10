@@ -1,6 +1,27 @@
 [
   {
-    "category": "Salve vidas. Fique seguro.",
+    "category": "Salve vidas. Mantenha-se saudável. Reabra com segurança.",
+    "link": "newark-reopening-recovery",
+    "parent": "/stayingin",
+    "title": "Newark reabilitação e recuperação do Strikeforce",
+    "icon": "local_hospital",
+    "infoButtons": [{
+      "linkText": "Resumo das recomendações do Strikeforce",
+      "link": "assets/docs/NewarkStrikeforceSummaryRecommendations.pdf",
+      "extraClass": "important"
+    }],
+    "introText": "<h3><img class='intro-pic' src='assets/img/pagePhotos/Work from home.jpg'O prefeito Ras J. Baraka anunciou a colaboração dos líderes da cidade para criar políticas e estratégias sobre como continuar avançando Newark quando a ameaça do COVID-19 diminuir.</h3><p>Chamada de <b>Strikeforce de reabertura e recuperação de Newark</b>, a força-tarefa desenvolverá a cooperação sem precedentes entre governo, setor privado e organizações durante a crise do COVID-19 e continuará a trabalhar coletivamente para solucionar problemas.</p>",
+    "sections": [
+      {
+        "text": "<pO prefeito Baraka, um forte defensor das políticas de renda garantida, está especialmente interessado em maneiras de ajudar as pessoas a escapar da insegurança econômica e, como educador, em maneiras de implementar as novas tecnologias e recursos educacionais para nossos filhos usarem quando voltarem à escola e não estão mais abrigados no lugar.</p><p><blockquote>A maneira como vivemos, como fazemos negócios, como ensinamos e como interagimos mudou por causa dessa crise ”, afirmou o prefeito. “Novas indústrias surgirão e haverá oportunidades para inovar nas quais devemos embarcar. É um momento oportuno para inovar e realizar coisas que nunca fizemos antes, e podemos fazer isso e muito mais através de um planejamento abrangente e de soluções pragmáticas.</blockquote></p>"
+      },
+      {
+        "text": "<p>Os copresidentes do Strikeforce de reabertura e recuperação de Newark são Amiri Baraka, Jr., chefe de gabinete da cidade de Newark e CEO da Newark Alliance, Aisha Glover. Os comitês da força de ataque se concentram na saúde pública, recuperação econômica, coleta e análise de dados, educação, artes, divulgação e envolvimento da comunidade e comunicações (lista de presidentes abaixo):</p><ul><li><b>Comitê de Saúde Pública</b> , co-liderado pelo Dr. Perry N. Halkitis, <i>decano da Escola de Saúde Pública Rutgers</i> e Michellene Davis, <i>vice-presidente executiva e diretora de assuntos corporativos da RWJBarnabas Health</i></li><li><b>Comitê de Recuperação Econômica</b> , liderado por Lata Reddy, <i>vice-presidente sênior de Diversidade, Inclusão e Impacto da Prudential</i></li><li><b>Comitê de coleta e análise de dados</b> , liderado por Phil Scott, <i>diretor de engenharia da cidade de Newark</i></li><li><b>Comitê de Educação</b> , liderado pela Dra. Lauren Wells, <i>Fundadora e Presidente da Creed Strategies</i></li><li><b>Organizações baseadas na fé</b> , lideradas por Rev. Louise Scott-Rountree, <i>Assuntos do Clero, Cidade de Newark</i></li><li><b>Comitê de Artes, Recreação e Cultura</b> , liderado por Linda Harrison, <i>diretora e CEO do Newark Museum</i></li><li><b>Comitê de Ação Comunitária e Engajamento</b> , co-liderado pelo Sr. Mildred C. Crump, <i>Presidente do Conselho Municipal da Cidade de Newark</i> e Ron Chaluisán, <i>Diretor Executivo do Newark Trust for Education</i></li><li><b>Comitê de Comunicações</b> , liderado por Kay Sarlin Wright, <i>Diretora de Assuntos Corporativos e Comunicações da Audible</i></li></ul><p>Devido à composição e às necessidades da cidade, o prefeito Baraka e o Strikeforce de reabertura e recuperação de Newark estão tomando medidas diretas para se adaptar aos desafios necessários para se preparar para a vida após o COVID-19, incluindo o que a recuperação significará para a comunidade.</p>"
+      }
+    ]
+  },
+  {
+    "category": "Salve vidas. Mantenha-se saudável. Reabra com segurança.",
     "link": "be-still-mondays",
     "parent": "/stayingin",
     "title": "Seja ainda segundas-feiras",
@@ -20,7 +41,7 @@
     ]
   },
       {
-        "category": "Salve vidas. Fique seguro.",
+        "category": "Salve vidas. Mantenha-se saudável. Reabra com segurança.",
         "link": "stay-at-home",
         "parent": "/stayingin",
         "title": "Pedido de abrigo no local",
@@ -38,7 +59,7 @@
         ]
      },
      {
-      "category": "Salve vidas. Fique seguro.",
+      "category": "Salve vidas. Mantenha-se saudável. Reabra com segurança.",
       "link": "phase-one",
       "parent": "/programs",
       "title": "Primeiros passos na preparação para a eventual reabertura",
@@ -66,6 +87,103 @@
               "linkText": "Leia e envie a inscrição on-line"
             }
           ]
+        }
+      ]
+    },
+    {
+      "category": "Save Lives. Stay Healthy. Safely Re-Open.",
+      "link": "reopen-application-requirements",
+      "parent": "/stayingin",
+      "title": "Newark reabilitação e recuperação do Strikeforce",
+      "icon": "verified_user",
+      "introText": "<p><img class='intro-pic contain' src='assets/img/pagePhotos/yellowreopeningsign.png'>Todas as empresas de Newark devem solicitar uma permissão de reabertura para que a cidade emita um certificado de nível de segurança com código de cores necessário para a reabertura.</p><p>As Diretrizes de retirada na calçada e na loja incluem distanciamento físico obrigatório, equipamentos de proteção, higiene e limpeza, comunicações e triagem de funcionários, além das melhores práticas recomendadas que seguem as recomendações do CDC</p>",
+      "infoButtons": [
+        {
+        "linkText": "Re-Opening Requirements",
+        "link": "docs/reopen-requirements",
+        "extraClass": "important"
+      }],
+      "sections": [
+        {
+          "header":"Instruções em vídeo para preencher o aplicativo",
+          "iframeSrc": "https://drive.google.com/file/d/1dwGGp-BL8LE9VGdXYia_RtTAIistwVIK/preview"
+        },
+        {
+          "header": "Preencher e enviar a solicitação para reabrir",
+          "text": "<p><img class='intro-pic contain' src='assets/img/pagePhotos/Flyer Newark Business Reopening Permit.png'>Todas as empresas de varejo devem preencher um requerimento antes da reabertura. Essas informações são necessárias para saber como a empresa implementará a reabertura. A cidade de Newark analisará as solicitações e, dentro de 72 horas, notificará se uma solicitação foi aprovada ou reprovada. Se aprovado, a empresa será inspecionada para garantir a conformidade com os requisitos.</p><p>Inscreva-se on-line clicando em 'Aplicativo de reabertura on-line' abaixo. Entre em contato conosco em <a href='mailto:reopeningplan@newarknj.gov'>reopeningplan@newarknj.gov</a>  se você tiver dúvidas ou quiser enviar por Correio/Fax.</p>",
+          "actionsCol": true,
+          "buttons": [
+          {
+            "link":"assets/docs/COVID-19_Business_Re-opening_Permit_Portuguese__05252020.pdf",
+            "linkText": "Pedido de reabertura online - Portuguesa",
+            "icon": "launch",
+            "extraClass": "important"
+          }]
+        }
+      ]
+    },
+    {
+      "category": "Save Lives. Stay Healthy. Safely Re-Open.",
+      "link": "strikeforce-reopening-plan",
+      "parent": "/stayingin",
+      "title": "Newark Reopening Guidelines and Summer Activities",
+      "icon": "campaign",
+      "introText": "<img class='intro-pic contain full-top' src='assets/img/pagePhotos/guidanceforreopening.png'>",
+      "sections": [
+        {
+          "headerIcon": "table",
+          "header": "Strikeforce Reopening Guidelines",
+          "iframeSrc": "https://docs.google.com/spreadsheets/d/e/2PACX-1vSKznEJDHUlt1cbkzVihaXk4mSpr91HPmPqOIhobzp7ZiWt482mMW2VC4p94MgZbQEd_l926IKDmEx7/pubhtml?gid=0&single=true&widget=false&chrome=false&headers=false&rm=demo",
+          "actionsCol": true,
+          "buttons": [
+            {
+              "linkText": "Strikeforce Recommendations Summary",
+              "link": "assets/docs/NewarkStrikeforceSummaryRecommendations.pdf",
+              "extraClass": "important",
+              "icon": "list_alt"
+            },
+            {
+              "linkText": "About the Reopening & Recovery Strikeforce",
+              "link": "stayingin/newark-reopening-recovery",
+              "icon": "people"
+            }
+          ]
+        },
+        {
+          "headerIcon": "outdoor_grill",
+          "header": "Safe Summer Activities",
+          "buttons": [
+            {
+              "linkText": "Gatherings",
+              "link": "assets/docs/Gatherings_6.2.2020.pdf",
+              "extraClass": "important",
+              "icon": "emoji_people"
+            },
+            {
+              "linkText": "Summer Fun",
+              "link": "assets/docs/Newark Summer Fun 2020_6.1.2020.pdf",
+              "extraClass": "important",
+              "icon": "emoji_emotions"
+            },
+            {
+              "linkText": "Summer Activities",
+              "link": "assets/docs/Newark Summer Activities Guide_6.1.2020.pdf",
+              "extraClass": "important",
+              "icon": "sports_kabaddi"
+            }
+          ]
+        },
+        {
+          "expanded": false,
+          "header": "Executive Order #MEO-20-0005 includes the following:",
+          "headerIcon": "text_snippet",
+          "text": "<ol><li>Outdoor family gatherings should be limited to no more than ten (10) individuals but in no instance more than fifteen (15).</li><li>Individuals must practice social distancing and wear Personal Protective Equipment (PPE), including facial masks and gloves while gathered and around others, especially if the gathering involves individuals the elderly or individuals with pre-existing medical conditions.</li><li>No sharing of utensils, plates, cups, dishes, or any items used for eating or drinking where such use among individuals can transmit and/or spread the virus.</li><li>There shall be no block parties or large gatherings of individuals in parks or on public streets.</li><li>All existing City and County rules and regulations for park use and playing music remain in effect.</li><li>All outdoor family gatherings must end at 9:00 P.M.</li></ol>",
+          "buttons": [{
+            "link":"assets/docs/MEO-20-0004 Executive Order.pdf",
+            "linkText": "Read the Full Order Here",
+            "icon": "launch",
+            "extraClass": "important"
+          }]
         }
       ]
     }
