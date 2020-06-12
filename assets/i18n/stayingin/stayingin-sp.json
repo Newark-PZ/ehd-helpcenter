@@ -38,21 +38,6 @@
     },
     {
       "category": "Salva vidas. Mantenerse sano. Vuelva a abrir con seguridad.",
-      "link": "stay-at-home",
-      "parent": "/stayingin",
-      "title": "Orden de refugio en el lugar",
-      "icon": "local_hospital",
-      "introContent": [{
-        "text":"<h3><img class='intro-pic' src='assets/img/pagePhotos/shelter-in-place.jpg'> Para proteger a los residentes contra la propagación de COVID-19, el alcalde Ras J. Baraka ha anunciado un estricto Mandato de 'refugio en el lugar' en toda la ciudad y cuarentena en toda la ciudad que se hará cumplir estrictamente por la policía. </h3><p> La gente debe quedarse en casa y no salir a menos que sea una emergencia. </p>"
-      }],
-      "programs": [
-      {
-        "header": "Excepciones",
-        "text": "<p> Todavía puede ir al supermercado, a la tienda local de artículos esenciales, a la farmacia, al médico, pasear perros, salir y tomar aire fresco en la parte delantera o trasera de la casa/puerta/porche/terraza, o si es un empleado esencial. Además, los niños deben estar acompañados por un adulto y las personas solo deben salir de sus hogares en parejas. </p><p> Mientras estén fuera, deben mantener la recomendación del Centro para el Control de Enfermedades (CDC) de mantenerse a seis pies de distancia. </p><p><b> Se insta a los residentes a llamar a la policía si ven grupos de personas pasando el rato y violando este mandato. </b></p>"
-      }]
-    },
-    {
-      "category": "Salva vidas. Mantenerse sano. Vuelva a abrir con seguridad.",
       "link": "phase-one",
       "parent": "/programs",
       "title": "Primeros pasos en preparación para la eventual reapertura",

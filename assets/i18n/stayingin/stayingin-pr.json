@@ -40,24 +40,6 @@
         }
     ]
   },
-      {
-        "category": "Salve vidas. Mantenha-se saudável. Reabra com segurança.",
-        "link": "stay-at-home",
-        "parent": "/stayingin",
-        "title": "Pedido de abrigo no local",
-        "icon": "local_hospital",
-        "introContent": [
-           {
-              "text": "<h3><img class='intro-pic' src='assets/img/pagePhotos/shelter-in-place.jpg'> Para proteger os moradores contra a propagação do COVID-19, o prefeito Ras J. Baraka anunciou uma rigorosa Mandato de “abrigo no local” em toda a cidade e quarentena em todas as cidades que serão rigorosamente cumpridas pela lei. </h3><p> As pessoas devem ficar em casa e não sair a menos que seja uma emergência. </p>"
-           }
-        ],
-        "programs": [
-           {
-              "header": "Exceções",
-              "text": "<p> Você ainda pode ir ao supermercado, loja local para itens essenciais, farmácia, médico, passear com cães, sair e tomar ar fresco na frente ou atrás de casa/porta/varanda/terraço ou se for um funcionário essencial. Além disso, as crianças precisam estar acompanhadas por um adulto e as pessoas devem deixar suas casas em pares. </p><p> Enquanto estiver fora, você deve manter a recomendação do Centro de Controle de Doenças (CDC) de manter um metro e meio de distância.</p><p><b>Os residentes devem chamar a polícia se virem grupos de pessoas saindo e violando esse mandato. </b></p>"
-           }
-        ]
-     },
      {
       "category": "Salve vidas. Mantenha-se saudável. Reabra com segurança.",
       "link": "phase-one",

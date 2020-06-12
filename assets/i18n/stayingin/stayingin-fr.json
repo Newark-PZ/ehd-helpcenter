@@ -21,24 +21,6 @@
   },
   {
     "category": "Sauver des vies. Restez en sécurité.",
-    "link": "stay-at-home",
-    "parent": "/stayingin",
-    "title": "Arrêté sur place",
-    "icon": "local_hospital",
-    "introContent": [
-      {
-        "text": "<h3><img class='intro-pic' src='assets/img/pagePhotos/shelter-in-place.jpg'> Pour protéger les résidents contre la propagation du COVID-19, le maire Ras J. Baraka a annoncé une stricte Mandat «refuge sur place» à l'échelle de la ville et mise en quarantaine dans toute la ville qui sera strictement appliquée par les forces de l'ordre. </h3><p> Les gens doivent rester chez eux et ne pas sortir sauf en cas d'urgence. </p>"
-      }
-    ],
-    "programs": [
-      {
-        "header": "Exceptions",
-        "text": "<p> Vous pouvez toujours aller au supermarché, au magasin local d'articles de première nécessité, à la pharmacie, au médecin, promener les chiens, sortir et prendre l'air frais devant ou derrière la maison/le pas de la porte/le porche/la terrasse, ou si vous êtes un employé essentiel. En outre, les enfants doivent être accompagnés d'un adulte et les gens ne doivent quitter leur domicile que par paires. </p><p> Pendant votre absence, vous devez respecter la recommandation du Center for Disease Control (CDC) de garder six pieds de distance. </p><p><b> Les résidents sont priés d'appeler la police s'ils voient des groupes de personnes traîner et violer ce mandat. </b></p>"
-      }
-    ]
-  },
-  {
-    "category": "Sauver des vies. Restez en sécurité.",
     "link": "phase-one",
     "parent": "/programs",
     "title": "Premiers pas dans la préparation d'une éventuelle réouverture",
