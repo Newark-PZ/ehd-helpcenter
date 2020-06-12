@@ -1,6 +1,6 @@
-import { Component,  ViewChild, ElementRef, AfterViewInit } from '@angular/core';
-import { ResourcePage } from '../../shared/interfaces/other.interface';
+import { Component,  ViewChild, ElementRef, AfterViewInit, OnInit } from '@angular/core';
 import { DomSanitizer } from '@angular/platform-browser';
+import { Page } from '../../shared/interfaces/other.interface';
 
 @Component({
   selector: 'app-data',
@@ -19,11 +19,13 @@ import { DomSanitizer } from '@angular/platform-browser';
 export class DataComponent implements AfterViewInit {
   dataLink = 'https://newark-dashboardcovid.trial.opendatasoft.com/pages/covidnewark/';
   @ViewChild('frame') frame: ElementRef;
-  resourceContent: ResourcePage = {
+  resourceContent: Page = {
     title: 'Real time Information by Gender, Race, and Ward of COVID-19 impact',
     icon: 'assessment'
   };
-  constructor(public sanitizer: DomSanitizer) {}
+  constructor(
+    public sanitizer: DomSanitizer,
+    ) {}
   ngAfterViewInit(): void {
     const framer = this.frame.nativeElement as HTMLIFrameElement;
     framer.style.height = framer.firstElementChild.scrollHeight + 'px';

@@ -1,10 +1,11 @@
 import { Link } from '../interfaces/link.class';
-import { ResourcePage, ProgramPage } from '../interfaces/other.interface';
+import { Page } from '../interfaces/other.interface';
 import { HttpClient } from '@angular/common/http';
 import { map } from 'rxjs/operators';
 import { Observable } from 'rxjs';
 import { Injectable } from '@angular/core';
-import * as pageComponents from '../../pages';
+import { HomeownersFAQComponent } from '../../pages/faqs/homeowners.component';
+import { TenantFAQComponent } from '../../pages/faqs/tenant.component';
 
 @Injectable()
 export class LinkService {
@@ -12,11 +13,15 @@ export class LinkService {
     public http: HttpClient
   ) {}
   stayingin = [
+    new Link('reopen-application-requirements', 'Application & Requirements to Re-Open', 'stayingin'),
+    new Link('strikeforce-reopening-plan', 'Newark Reopening Guidelines', 'stayingin'),
     new Link('newark-reopening-recovery', 'Reopening and Recovery', 'stayingin'),
-    new Link('stay-at-home', 'Stay at Home Orders', 'stayingin'),
+    new Link('phase-one', '"Phase One" Preparation for Eventual Re-Opening', 'stayingin'),
     new Link('be-still-mondays', 'Be-Still Mondays', 'stayingin')
   ];
   programs = [
+    new Link('emergency-rent-grants', 'Emergency Rent Grants', 'programs'),
+    new Link('rent-increase-freeze', 'Rent Increase Freeze', 'programs'),
     new Link('testing', 'How to Get Tested', 'programs'),
     new Link('small-business-grants', 'Small Business Emergency Grants', 'programs'),
     new Link('homeowner-relief', 'Forgivable Loans for Homeowners', 'programs'),
@@ -28,9 +33,15 @@ export class LinkService {
     new Link('measuring-covid-impact', 'Measuring COVID-19 Impact', 'programs'),
     new Link('non-profit', 'Emergency Fund for 501(c)3 Non-Profits', 'programs')
   ];
+  docs = [
+    new Link('reopen-requirements', 'Reopening Requirements', 'docs', 'info'),
+    new Link('reopening', 'NJ Reopening Principles', 'docs', 'info'),
+    new Link('rent-increase-freeze-order', 'Rent Increase Freeze Order', 'docs', 'info'),
+    new Link('web-housing-seminar', 'Web Seminar for Tenants & Homeowners', 'docs', 'people')
+  ];
   faqs = [
-    new Link('tenants', 'Tenant FAQS', 'faqs', undefined, undefined, pageComponents.TenantFAQComponent),
-    new Link('homeowners', 'Mortgage Relief & Foreclosure FAQ', 'faqs',  undefined, undefined, pageComponents.HomeownersFAQComponent)
+    new Link('tenants', 'Tenant FAQS', 'faqs', undefined, undefined, TenantFAQComponent),
+    new Link('homeowners', 'Mortgage Relief & Foreclosure FAQ', 'faqs',  undefined, undefined, HomeownersFAQComponent)
   ];
   resources = [
     new Link('nj-small-business-help', 'NJ Financial Help for Small Business', 'resources'),
@@ -42,13 +53,17 @@ export class LinkService {
     new Link('health-info', 'Health Information', 'resources'),
     new Link('eligibility-benefits', 'Benefit Eligibility Chart', 'resources'),
     new Link('invest-newark', 'Invest Newark for Businesses', 'resources'),
-    new Link('federal-ppp-sba-update', 'Updates on Federal PPP & SBA Programs', 'resources')
+    new Link('federal-ppp-sba-update', 'Updates on Federal PPP & SBA Programs', 'resources'),
+    new Link('ppe-program', 'Sell or Buy PPE', 'resources')
   ];
-  public getLinks(): Array<Link> {
-      return [].concat(this.stayingin, this.programs, this.faqs, this.resources);
+  getLinks(): Array<Link> {
+      return [].concat(this.stayingin, this.programs, this.faqs, this.resources, this.docs);
   }
-  public getPage(id: string, language: string, group: 'resources' | 'programs' | 'stayingin'): Observable<any> {
-    return this.http.get<Array<ResourcePage | ProgramPage>>(`assets/i18n/${group}/${group}-${language}.json`)
-    .pipe(map((p: Array<ResourcePage | ProgramPage>) => p.find(page => page.link === id)));
+  getPage(id: string, language: string, group: 'resources' | 'programs' | 'stayingin'): Observable<any> {
+    return this.http.get<Array<Page>>(`assets/i18n/${group}/${group}-${language}.json`)
+    .pipe(map((p: Array<Page>) => p.find(page => page.link === id)));
+  }
+  getDocPage(id: string, language: string, group: 'resources' | 'programs' | 'stayingin' | 'docs'): Link {
+    return this.docs.find(d => d.id === id);
   }
 }

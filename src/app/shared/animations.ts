@@ -51,3 +51,38 @@ export const shownStateTrigger: AnimationTriggerMetadata = trigger(
         ])
     ]
 );
+export const showHidePanel: AnimationTriggerMetadata = trigger(
+  'showHidePanel', [
+    state('shown', style({
+        visibility: 'visible',
+        'border-width': '.1rem',
+        margin: '0.33rem',
+        padding: '.5rem'
+    })),
+    state('hidden', style({
+        visibility: 'hidden',
+        'border-width': '0rem',
+        padding: '0rem',
+        margin: '0rem',
+        height: '0px',
+        overflow: 'hidden'
+    })),
+    transition('shown <=> hidden', [animate('150ms cubic-bezier(.1,.5,.5,.1)')])
+  ]
+);
+export const slideshowAnimation = trigger(
+  'slideInOut', [
+  state('shown', style({
+      display: 'flex',
+      opacity: 1,
+      left: 0
+  })),
+  state('hidden', style({
+      display: 'none',
+      opacity: 0,
+      left: '50%'
+  })),
+  transition('shown => hidden', [animate('500ms ease-out')]),
+  transition('hidden => shown', [animate('500ms ease-in')])
+]
+);

@@ -1,17 +1,20 @@
-<mat-toolbar>
+<mat-toolbar *ngIf="faqPage.type !== 'RentControl'">
   <mat-icon style="margin-right: .5rem">{{ faqPage.icon }}</mat-icon>
   <h2 [translate]="'FAQ.title.' + faqPage.type"></h2>
 </mat-toolbar>
 <section class="content-intro" *ngIf="faqPage.contentIntro">
-    <h4 *ngIf="faqPage.contentIntro.header" [translate]="'FAQ.blurb.title'"></h4>
-    <p *ngFor="let p of faqPage.contentIntro.paragraphs" [translate]="'FAQ.blurb.text'" [innerHtml]="p"></p>
-    <button *ngFor="let button of faqPage.contentIntro.buttons" mat-stroked-button [routerLink]="[button.parent, button.link]" (click)="goTo(button.extUrl)">
-      <mat-icon *ngIf="button.icon; else: icon">{{ button.icon }}</mat-icon>
-      <b [translate]="'FAQ.blurb.title'"></b><br>{{ button.date }}
-      <ng-template #icon><mat-icon>exit_to_app</mat-icon></ng-template>
-    </button>
+  <h4 *ngIf="faqPage.contentIntro.header" [translate]="'FAQ.blurb.title'"></h4>
+  <p *ngFor="let p of faqPage.contentIntro.paragraphs" [translate]="'FAQ.blurb.text'" [innerHtml]="p"></p>
+  <button *ngFor="let button of faqPage.contentIntro.buttons" mat-stroked-button
+    [routerLink]="[button.parent, button.link]" (click)="goTo(button.extUrl)">
+    <mat-icon *ngIf="button.icon; else: icon">{{ button.icon }}</mat-icon>
+    <b [translate]="'FAQ.blurb.title'"></b><br>{{ button.date }}
+    <ng-template #icon>
+      <mat-icon>exit_to_app</mat-icon>
+    </ng-template>
+  </button>
 </section>
-<mat-card class="categories-card">
+<mat-card class="categories-card" *ngIf="faqPage.type !== 'RentControl'">
   <mat-card-subtitle [translate]="'FAQ.clickText.'+faqPage.type"></mat-card-subtitle>
   <mat-list class="categories">
     <mat-list-item class="categories-item" *ngFor="let cat of faqCategories; let i=index">
@@ -25,20 +28,34 @@
       <mat-divider style="margin: 1rem 0;"></mat-divider>
       {{ cat }}
     </h3>
-      <mat-accordion mat-list-item>
-        <mat-expansion-panel *ngFor="let faq of faqText | FaqCat:filterCat(cat)">
-          <mat-expansion-panel-header>
-            <mat-panel-title>
-              {{ faq.Question }}
-            </mat-panel-title>
-            <mat-panel-description>
-              {{ faq.Categories }}
-            </mat-panel-description>
-          </mat-expansion-panel-header>
-              <P [innerHtml]="faq.Answer"></P>
-              <p *ngIf="faq.Postscript" [innerHtml]="faq.Postscript"></p>
-          </mat-expansion-panel>
-      </mat-accordion>
+    <mat-accordion mat-list-item>
+      <mat-expansion-panel *ngFor="let faq of faqText | FaqCat:filterCat(cat)">
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+            {{ faq.Question }}
+          </mat-panel-title>
+          <mat-panel-description>
+            {{ faq.Categories }}
+          </mat-panel-description>
+        </mat-expansion-panel-header>
+        <P [innerHtml]="faq.Answer"></P>
+        <p *ngIf="faq.Postscript" [innerHtml]="faq.Postscript"></p>
+        <mat-table *ngIf="faq.tableRows" class="faqTable" [dataSource]="faq.tableRows.slice(1)" (mouseleave)="selectedCol = undefined">
+          <ng-container *ngFor="let col of faq.tableRows[0]; let i = index" [matColumnDef]="col" [sticky]="i === 0">
+              <mat-header-cell
+                [ngClass]="selectedCol === i ? 'highlight' : ''"
+                *matHeaderCellDef>{{ col }}</mat-header-cell>
+              <mat-cell class="column-section" style="width: 3rem"
+                [ngClass]="selectedCol === i ? 'highlight' : ''"
+                *matCellDef="let row" (mouseover)="selectedCol = i">
+                <span [innerHtml]="row[i]"></span>
+              </mat-cell>
+          </ng-container>
+          <mat-header-row *matHeaderRowDef="faq.tableRows[0]; sticky: true"></mat-header-row>
+          <mat-row class="row" *matRowDef="let row; columns: faq.tableRows[0];"></mat-row>
+        </mat-table>
+      </mat-expansion-panel>
+    </mat-accordion>
   </mat-list-item>
 </mat-list>
 <span class="page-bottom"></span>

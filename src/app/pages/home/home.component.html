@@ -39,16 +39,21 @@
 <mat-list class="program-cats">
   <mat-list-item>
     <mat-accordion [multi]="expansionMulti$ | async" >
-      <mat-expansion-panel *ngFor="let cat of categories" [expanded]="expansionOpen$ | async" [hideToggle]="expansionDisabled$ | async">
+      <mat-expansion-panel *ngFor="let cat of (categories$ | async); let i = index" [expanded]="expansionOpen$ | async" [hideToggle]="expansionDisabled$ | async">
         <mat-expansion-panel-header>
           <mat-panel-title>
-            <h3 [translate]="'HOME.categories.' + cat.slice(0,5).trim()">
-              {{ cat }}
+            <h3 [translate]="'HOME.categories.' + (categories$ | async)[i].name.slice(0,5).trim()">
+              {{ (categories$ | async)[i].name }}
             </h3>
           </mat-panel-title>
         </mat-expansion-panel-header>
         <div class="program-cards">
-        <mat-card [ngStyle]="card.style ? card.style : ''" [routerLink]="[card.parent, card.link]" (click)="goTo(card.extUrl)" class="program-card" *ngFor="let card of cards | FaqCat:filterCat(cat)">
+        <mat-card
+        [@showHidePanel]="cardIndex > 5 && !cat.expanded ? 'hidden' : 'shown'"
+        [ngStyle]="card.style ? card.style : ''"
+        [routerLink]="[card.parent, card.link]"
+        (click)="goTo(card.extUrl)" class="program-card"
+        *ngFor="let card of cards | FaqCat:filterCat(cat['name']); let cardIndex = index">
           <div class="button-card">
             <mat-icon style="margin-right: .5rem">{{ card.icon }}</mat-icon>
             <h4 style="margin: auto" [translate]="'HOME.buttons.' + (card.link ? card.link : card.id)">{{ card.title }}</h4>
@@ -59,6 +64,8 @@
           </mat-card-content>
         </mat-card>
       </div>
+      <button class="expandButton"
+      mat-button (click)="expandCat(cat)">Show {{cat.expanded ? 'Less ' : 'More '}}<mat-icon>{{cat.expanded ? 'visibility_off' : 'visibility'}}</mat-icon></button>
       </mat-expansion-panel>
     </mat-accordion>
   </mat-list-item>

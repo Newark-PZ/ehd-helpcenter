@@ -1,11 +1,12 @@
 import { Route } from '@angular/router';
+import { SafeUrl, SafeResourceUrl } from '@angular/platform-browser';
 
 export interface StoreConfigI18n {
   currentLanguage?: 'en' | 'fr' | 'sp' | 'pr';
 }
 export interface StoreConfigPage {
-  currentProgram?: ProgramPage;
-  currentResource?: ResourcePage;
+  currentProgram?: Page;
+  currentResource?: Page;
 }
 export interface StoreConfigHomePanels {
   open: boolean;
@@ -21,18 +22,21 @@ export interface SidebarLink extends Route {
   isChild?: boolean;
   fullPath?: string;
 }
-export interface ProgramPage {
+export interface Page {
   link?: string;
-  icon: 'business_center' | 'people' | 'person' | 'house' | 'color_lens' | 'local_dining' | 'local_hospital';
+  icon: 'business_center' | 'people' | 'person' | 'house' | 'color_lens' | 'local_dining' | 'local_hospital' | 'assessment' | string;
   title: string;
-  subtitle: string;
-  introText: string;
+  category?: string;
+  subtitle?: string;
+  introText?: string;
   introPic?: string;
   download?: boolean;
+  introActionsCol?: boolean;
   infoButtons?: Array<{
     link?: string;
     linkText?: string;
     fullWidth?: boolean;
+    extraClass?: string;
   }>;
   purposeHeader?: string;
   purpose?: Array<{
@@ -41,18 +45,30 @@ export interface ProgramPage {
     rows?: '1' | string;
   }>;
   sections?: Array<{
+    actionsCol?: boolean;
     header?: string;
+    headerIcon?: string;
+    emphasizeHeader?: boolean | false;
+    footer?: string;
     buttons?: Array<{
       link?: string;
       linkText?: string;
       fullWidth?: boolean;
+      extraClass?: string;
+      icon?: string | 'double_arrow';
     }>;
+    iframeSrc?: string;
+    iframeClass?: string;
+    expanded?: boolean;
     text: string;
     logos?: Array<string>;
   }>;
+  parent?: string;
+  sectionHeader?: string;
+  hideBottomBar?: boolean | false;
 }
 export interface FaqPage {
-  type: 'Tenant' | 'Homeowners';
+  type: 'Tenant' | 'Homeowners' | 'RentControl';
   icon: 'business_center' | 'people' | 'person' | 'house' | 'color_lens' | 'local_dining' | 'local_hospital';
   contentIntro?: {
     right?: {text: string; };
@@ -72,78 +88,41 @@ export interface FaqPage {
 }
 export interface FaqCategory {
   name: string;
-  children?: Array<TenantFaq>;
+  children?: Array<Faq>;
 }
-export interface TenantFaq {
+export interface Faq {
   Answer: string;
-  Categories: 'Lockout'
-    | 'Court Hearings'
-    | 'Subsidized Tenants'
-    | 'Additional Housing Assistance'
-    | 'Emergency Assistance'
-    | 'Electricity, Gas, Water';
-  Postscript: string;
+  Categories: string;
+  Postscript?: string;
   Question: string;
-  Type: 'Tenant';
-  __v: number;
-  _id: {
+  tableRows?: Array<Array<string>>;
+  Type: 'Tenant' | 'Homeowner' | 'RentControl';
+  __v?: number;
+  _id?: {
     id: any
   };
-  createdAt: {
+  createdAt?: {
     $date: string;
   };
-  updatedAt: {
+  updatedAt?: {
     $date: string;
   };
-}
-export interface HomeownerFaq {
-  Answer: string;
-  Categories: 'Removals'
-  | 'Court_Hearings';
-  Postscript: string;
-  Question: string;
-  Type: 'Homeowners';
-  __v: number;
-  _id: {
-    id: any
-  };
-  createdAt: {
-    $date: string;
-  };
-  updatedAt: {
-    $date: string;
-  };
-}
-export interface ResourcePage {
-    title: string;
-    category?: string;
-    link?: string;
-    parent?: string;
-    icon: 'business_center' | 'people' | 'person' | 'house' | 'color_lens' | 'local_dining' | 'local_hospital' | 'assessment';
-    introPic?: string;
-    introContent?: Array<{
-      header?: string;
-      link?: string;
-      linkText?: string;
-      text: string;
-    }>;
-    sectionHeader?: string;
-    programs?: Array<{
-        header?: string;
-        link?: string;
-        linkText?: string;
-        text: string;
-        footer?: string;
-      }>;
-    hideBottomBar?: boolean;
 }
 export interface HomeCard {
   id?: string;
   title: string;
-  icon: 'business_center' | 'people' | 'person' | 'house' | 'color_lens' | 'local_dining' | 'local_hospital' | 'info';
+  icon: 'business_center' | 'people' | 'person' | 'house' | 'color_lens'
+  | 'local_dining' | 'local_hospital' | 'info'| 'verified_user' | 'campaign';
   link?: string;
   extUrl?: string;
   parent?: string;
   style?: object;
-  category: 'Small Business' | 'Housing' | 'Employment & Wellness' | 'Save Lives. Stay Safe. Reopen.';
+  category: 'Small Business' | 'Housing' | 'Employment & Wellness' | 'Save Lives. Stay Healthy. Safely Re-Open.';
+}
+export interface DocPage {
+  title: string;
+  category?: string;
+  icon: 'business_center' | 'people' | 'person' | 'house' | 'color_lens' | 'local_dining' | 'local_hospital' | 'assessment' | string;
+  doc?: string | SafeUrl | SafeResourceUrl;
+  type?: 'img' | 'iframe';
 }

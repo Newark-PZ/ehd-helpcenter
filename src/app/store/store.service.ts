@@ -16,7 +16,7 @@ import * as i18nActions from './i18n/i18n.actions';
 import * as fromI18n from './i18n/i18n.reducers';
 import * as homePanelActions from './home-panels/home-panels.actions';
 import * as fromHomePanel from './home-panels/home-panels.reducers';
-import { ProgramPage, ResourcePage } from '../shared/interfaces/other.interface';
+import { Page } from '../shared/interfaces/other.interface';
 
 @Injectable({
     providedIn: 'root'
@@ -114,10 +114,10 @@ export class StoreService {
       this.store.dispatch(new homePanelActions.SetToggle(toggle));
     }
     // page state
-    setPageProgram(program: ProgramPage): void {
+    setPageProgram(program: Page): void {
       this.store.dispatch(new PageActions.SetPageProgramContent(program));
     }
-    setPageResource(resource: ResourcePage): void {
+    setPageResource(resource: Page): void {
       this.store.dispatch(new PageActions.SetPageResourceContent(resource));
     }
 }

@@ -1,5 +1,6 @@
 :host {
-  display: block;
+  display: flex;
+  flex-direction: column;
 }
 .mat-toolbar {
   h2 {font-weight: 600 !important; white-space: pre-line; font-size: 2rem !important;}
@@ -20,8 +21,23 @@
 .data-dashboard {
   height: 1200px;
   width: 93vw;
-  margin: 1.5vw 2.5vw;
+  margin: auto;
+  border: none;
+  &.multipg {
+    width: 95vw !important;
+    height: 75vh !important;
+  }
   @media screen and (max-width: 576px) {
     height: 3250px !important;
   }
+}
+.pic {
+display: flex;
+width: 75vw;
+margin: auto;
+margin-top: 0px;
+border-radius: 0.2rem;
+box-shadow: 0.1rem 0.1rem 0.15rem gray;
+margin-bottom: 3rem;
+cursor: pointer;
 }

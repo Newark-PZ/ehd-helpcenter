@@ -41,6 +41,9 @@
   p {height: 35vh;}
   }
 }
+.intro-list {
+  list-style-position: inside !important;
+}
 
 .intro-cards {
 margin: auto;
@@ -55,10 +58,12 @@ margin: 1rem auto;
 color: rgb(13, 71, 161) !important;
 -webkit-text-fill-color: rgb(13, 71, 161) !important;
 border: solid .1rem rgba(13, 71, 161, 0.66);
-border-radius: 0.5rem;
 padding: 0.2rem;
 margin-bottom: 1rem;
-border-width: .1rem 0;
+border-width: 0 0 .1rem 0;
+.mat-card-title {
+  font-size: 1.5rem !important;
+  }
 }
 .card-body {
   font-size: 1.3rem !important;
@@ -75,6 +80,38 @@ border-width: .1rem 0;
   flex: 1 1 30%;
   justify-content: space-evenly;
   margin: auto .5rem !important;
+  align-content: center;
+  align-items: center;
+  white-space: normal;
+  line-height: normal;
+  &.actionsCol {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto !important;
+    .important {    width: 100% !important;  }
+    @media screen and (max-width: 576px) {
+      width: 100%;
+    }
+    @media screen and (min-width: 576px) and (max-width: 769px) {
+      width: 75%;
+    }
+    }
+  }
+  .important {
+    font-size: 2rem !important;
+    color: white !important;
+    -webkit-text-fill-color: white !important;
+    border-color: rgb(13, 71, 161);
+    background-color: rgb(13, 71, 161, .85);
+    margin: 1% !important;
+    display: flex;
+    flex: 1 1 50%;
+    justify-content: center;
+    box-shadow: .1px .1px 4px rgba(0,0,260,.4);
+    font-weight: 600;
+    height: 3rem;
+    mat-icon {font-size: 2rem; margin-left: 1rem}
   }
   .full-width-button {
     color: rgb(13, 71, 161) !important;
@@ -87,7 +124,8 @@ border-width: .1rem 0;
     justify-content: center;
     box-shadow: .1px .1px 4px rgba(0,0,260,.4);
     font-weight: 600;
-  }
+    padding: .5rem 0 !important;
+    }
   .content-intro {
   color: white;
   -webkit-text-fill-color: white;

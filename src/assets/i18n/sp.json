@@ -36,14 +36,18 @@
 			"nj-small-business-help": "Ayuda financiera de NJ para pequeñas empresas",
 			"nj-testing": "Cómo hacerse la prueba",
 			"non-profit": "Fondo de emergencia para 501 (c) 3 organizaciones sin fines de lucro",
-			"recruiting-essential-workers": "Reclutamiento de trabajadores esenciales",
+      "recruiting-essential-workers": "Reclutamiento de trabajadores esenciales",
+      "phase-one": "Preparación 'Phase One' para la eventual reapertura",
+      "reopening": "El camino de regreso a Nueva Jersey",
 			"safe-housing": "Vivienda segura para personas sin hogar",
 			"self-employed": "Beneficios de desempleo para trabajadores independientes",
 			"small-business-grants": "Subvenciones de emergencia para pequeñas empresas de Newark",
 			"stay-at-home": "Órdenes de quedarse en casa",
-			"tenants": "Preguntas frecuentes de inquilinos",
+      "tenants": "Preguntas frecuentes de inquilinos",
+      "testing": "Cómo hacerse la prueba",
 			"unemployment-benefits": "Elegibilidad para beneficios de desempleo",
-			"updated-list-essential": "Actualizaciones a la lista de negocios esenciales autorizados para operar"
+      "updated-list-essential": "Actualizaciones a la lista de negocios esenciales autorizados para operar",
+      "web-housing-seminar": "Séminaire web pour locataires et propriétaires"
 		},
 		"mayor-blurb": "La ciudad de Newark está invirtiendo más de $ 6 millones en una lista creciente de iniciativas para mantener a los residentes más afectados de Newark seguros, saludables y financieramente seguros. Junto con miles de voluntarios, estamos colaborando con los gobiernos estatales y federales, las organizaciones filantrópicas y sin fines de lucro, las empresas y las organizaciones religiosas para capear esta emergencia de salud y continuar prosperando una vez que estemos del otro lado",
     "title": "COVID-19 Ayuda integral para residentes y pequeñas empresas",
@@ -86,18 +90,26 @@
 		"measuring-covid-impact": "Medición del impacto de COVID-19",
 		"nha-tenants": "Para inquilinos de la Autoridad de Vivienda",
 		"nj-small-business-help": "Ayuda financiera de NJ para pequeñas empresas",
-		"non-profit": "Fondo de emergencia para 501 (c) 3 organizaciones sin fines de lucro",
-		"programs": "Nuestros programas",
-		"recruiting-essential-workers": "Reclutamiento de trabajadores esenciales",
+    "non-profit": "Fondo de emergencia para 501 (c) 3 organizaciones sin fines de lucro",
+    "phase-one": "Preparación 'Phase One' para la eventual reapertura",
+    "programs": "Nuestros programas",
+    "reopening": "El camino de regreso a Nueva Jersey",
+    "recruiting-essential-workers": "Reclutamiento de trabajadores esenciales",
 		"resources": "Otros recursos",
 		"safe-housing": "Vivienda segura para personas sin hogar",
 		"small-business-grants": "Subvenciones de emergencia para pequeñas empresas",
 		"stay-at-home": "Órdenes de quedarse en casa",
 		"stayingin": "Permanecer en",
-		"tenants": "Preguntas frecuentes de inquilinos",
-		"unemployment-benefits": "Elegibilidad para beneficios de desempleo"
+    "tenants": "Preguntas frecuentes de inquilinos",
+    "testing": "Cómo hacerse la prueba",
+    "unemployment-benefits": "Elegibilidad para beneficios de desempleo",
+    "web-housing-seminar": "Seminario web para inquilinos y propietarios de viviendas"
   },
   "DATA": {
     "title": "Información en tiempo real por género, raza y barrio del impacto COVID-19"
+  },
+  "DOCVIEW": {
+    "reopening": "El camino de regreso a Nueva Jersey",
+    "web-housing-seminar": "Seminario web para inquilinos y propietarios de viviendas"
   }
 }

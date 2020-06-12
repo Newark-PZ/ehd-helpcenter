@@ -287,9 +287,8 @@
 }
 .program-card {
   flex: 0 1 30%;
-  height: 6rem;
   margin: .5rem;
-  display: flex !important;
+  display: flex;
   flex-direction: column;
   justify-content: space-between;
   user-select: none;
@@ -305,7 +304,7 @@
     color: white;
     -webkit-text-fill-color: white;
     cursor: pointer;
-}
+  }
 
   &:active {
       background-color: $accent-color !important;
@@ -315,8 +314,16 @@
       cursor: pointer;
   }
 }
+.expandButton {
+  display: flex;
+  font-weight: 600;
+  color: gray;
+  -webkit-text-fill-color: gray;
+  justify-content: space-around;
+  margin: auto !important;
+  width: 62% !important;
+}
 .page-bottom {height: 5rem; width: 100%; display: flex; background-color: black;}
-
 @media screen and (min-width: 576px) and (max-width: 768px) {
   .splash-title,
   .splash-subtitle {

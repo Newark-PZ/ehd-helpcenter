@@ -1,5 +1,5 @@
 import { Component, Input, ChangeDetectionStrategy } from '@angular/core';
-import { ResourcePage } from '../../../shared/interfaces/other.interface';
+import { Page } from '../../../shared/interfaces/other.interface';
 import { take} from 'rxjs/operators';
 import { Observable } from 'rxjs';
 import { Store } from '@ngrx/store';
@@ -16,7 +16,7 @@ import { LinkService } from '../../services/link.service';
 })
 export class ResourceComponent {
   @Input() link: string;
-  resourceContent$: Observable<ResourcePage>;
+  resourceContent$: Observable<Page>;
   currentLanguage$: Observable<string>;
   id$: Observable<string>;
   constructor(

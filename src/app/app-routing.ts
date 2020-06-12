@@ -1,7 +1,7 @@
 import * as pageComponents from './pages';
 import { Routes } from '@angular/router';
 import { ResourceComponent, ProgramComponent, FaqComponent, StayinginComponent } from './shared';
-import { HomeownersFAQComponent, TenantFAQComponent } from './pages';
+import { HomeownersFAQComponent, TenantFAQComponent, ReopeningListComponent } from './pages';
 
 export const routes: Routes = [
   {
@@ -31,12 +31,18 @@ export const routes: Routes = [
     }
   },
   {
-    component: pageComponents.DocViewComponent,
-    path: 'reopening',
-    data: {
-      icon: 'assessment',
-      title: 'NJ Reopening Principles'
-    }
+    path: 'docs',
+    children: [
+      {
+        path: '',
+        pathMatch: 'full',
+        redirectTo: 'reopening'
+      },
+      {
+        path: ':id',
+        component: pageComponents.DocViewComponent
+      }
+    ]
   },
   {
     path: 'stayingin',
@@ -58,15 +64,12 @@ export const routes: Routes = [
     path: 'programs',
     children: [
       {
+        path: ':id',
         component: ProgramComponent,
-        path: '',
-        data: {
-          title: 'Our Programs'
-        }
       },
       {
-        component: ProgramComponent,
-        path: ':id'
+        path: '**',
+        component: ProgramComponent
       }
     ]
   },
@@ -105,6 +108,10 @@ export const routes: Routes = [
         path: ':id'
       }
     ]
+    },
+    {
+      path: 'reopeninglist',
+      component: ReopeningListComponent
     },
     {
       path: '**',

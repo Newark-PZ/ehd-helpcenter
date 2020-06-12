@@ -1,0 +1,169 @@
+[
+  {
+    "Categories": "Rent Increase FAQ",
+    "Type": "RentControl",
+    "Question": "Are all dwellings in the City of Newark under Rent Control?",
+    "Answer": "<ul><li><b>No</b>. All Public Housing, and existing owner-occupied 1-4 family dwellings are exempt from Rent Control but are still required to register annually.</li><li>All newly constructed multiple dwellings of <b>four or more units</b> can be exempt from Rent Control for thirty (<b>30</b>) years, as per State statute; however, the Landlord/Owner must apply for a certificate of exemption <b>prior</b> to occupancy in order to authenticate their exemption status.</li><li>Substantially rehabilitated dwellings can be exempt for five (5) years (if they were previously vacant for eighteen (18) months) OR one (1) year (initial rent) if occupied, and if the cost of rehabilitation exceeds 50% of the dwelling’s value. (Note: landlord must apply for and receive a certificate of exemption from the Rent Control Board).</li></ul>"
+  },
+  {
+    "Categories": "Rent Increase FAQ",
+    "Type": "RentControl",
+    "Question": "How much can a landlord increase rent every year?",
+    "Answer": "<b>Landlords may increase rents once every twelve (12) months</b>. Rent increases are capped utilizing the Consumer Price Index-Urban percentage (CPI-U%) published every month. For example, if your current lease ends on April 31, 2017, then your landlord will have notified you 30 days in advance in writing (required by law) on April 1, 2017 indicating that you will receive an increase on May 1st using May 2017’s Percentage 2.6%. <b>For example, $1000 x 2.6% = $26.00. Then $1000 + $26 = New Rent = $1026.00</b>",
+    "tableRows": [
+      [
+        "Year",
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May",
+        "Jun",
+        "July",
+        "Aug",
+        "Sep",
+        "Oct",
+        "Nov",
+        "Dec"
+      ],
+      [
+        "2015",
+        "1.3",
+        "0.8",
+        "0.3",
+        "0",
+        "0.1",
+        "0",
+        "0",
+        "0",
+        "0.1",
+        "0",
+        "0.1",
+        "1.0"
+      ],
+      [
+        "2016",
+        "0.4",
+        "0.6",
+        "0.8",
+        "0.6",
+        "0.9",
+        "1.0",
+        "0.7",
+        "1.0",
+        "1.0",
+        "1.0",
+        "1.1",
+        "1.0"
+      ],
+      [
+        "2017",
+        "1.2",
+        "1.6",
+        "2.1",
+        "2.5",
+        "2.6",
+        "2.3",
+        "2.0",
+        "1.8",
+        "1.8",
+        "1.6",
+        "1.7",
+        "2.1"
+      ],
+      [
+        "2018",
+        "1.8",
+        "1.6",
+        "1.6",
+        "1.4",
+        "1.7",
+        "1.7",
+        "1.9",
+        "2.2",
+        "2.2",
+        "2.2",
+        "2.2",
+        "2.0"
+      ],
+      [
+        "2019",
+        "2.0",
+        "1.9",
+        "1.6",
+        "1.6",
+        "1.3",
+        "1.6",
+        "1.6",
+        "1.5",
+        "1.7",
+        "1.7",
+        "1.8",
+        "1.4"
+      ],
+      [
+        "2020",
+        "1.5",
+        "1.8",
+        "2.2",
+        "2.5",
+        "2.4",
+        "1.5",
+        "0.3",
+        "TBD",
+        "TBD",
+        "TBD",
+        "TBD",
+        "TBD"
+      ]
+    ]
+  },
+  {
+    "Categories": "Rent Increase FAQ",
+    "Type": "RentControl",
+    "Question": "Can a landlord increase rents if they are not registered with the Rent Control office?",
+    "Answer": "<b>No</b>. Your landlord must register with the Division of Rent Control in order to increase rents."
+  },
+  {
+    "Categories": "Rent Increase FAQ",
+    "Type": "RentControl",
+    "Question": "If a tenant’s rent is increased more than the CPI-U percentage (%) allowed, what should he/she do?",
+    "Answer": "File a petition with Rent Control office for an adjustment in his/her rent."
+  },
+  {
+    "Categories": "Rent Increase FAQ",
+    "Type": "RentControl",
+    "Question": "Can a landlord get more than the allowable CPI-U percentage (%) increase with approval from the rent control board?",
+    "Answer": "<b>Yes</b>. A landlord can apply to the Rent Control Board for additional increases based upon the following: a hardship rental increase, a major new improvement surcharge, a rehabilitation exemption, a tax surcharge, a utilities surcharge and substantial rehabilitation of a vacant dwelling and or unit."
+  },
+  {
+    "Categories": "Rent Increase FAQ",
+    "Type": "RentControl",
+    "Question": "Can a landlord evict a tenant for filing a petition with Rent Control?",
+    "Answer": "<b>No</b>. Your landlord shall not bring action to recover possession of your apartment as a reprisal of your efforts to enforce your rights under Rent Control."
+  },
+  {
+    "Categories": "Rent Increase FAQ",
+    "Type": "RentControl",
+    "Question": "If an owner registers a building with the city clerk’s office, should he also register with the office of rent control?",
+    "Answer": "<b>Yes</b>. The Rent Control Ordinance requires all owners to register their properties with The Office Rent Control. The Board may deny an increase if the property is not registered with Rent Control."
+  },
+  {
+    "Categories": "Rent Increase FAQ",
+    "Type": "RentControl",
+    "Question": "What should i do if i am not satisfied with the board’s decision?",
+    "Answer": "Any landlord or tenant aggrieved by any action, regulation or determination of the Board may appeal that action, regulation or determination of the Rent Control Board to the Law Division of the Superior Court in accordance with New Jersey Court Rules within forty-five (45) days of the action taken by the Board."
+  },
+  {
+    "Categories": "Rent Increase FAQ",
+    "Type": "RentControl",
+    "Question": "If a landlord takes away a service such as heat or hot water, should he arbitrarily adjust the rent on his own?",
+    "Answer": "<b>No</b>. The Board is responsible to grant a rent decrease equal to the cost of providing service of heat, hot water, etc. based on documentation submitted by the landlord."
+  },
+  {
+    "Categories": "Rent Increase FAQ",
+    "Type": "RentControl",
+    "Question": "If a building is converted to a condo, are the tenants still protected by rent control?",
+    "Answer": "<b>Yes</b>. All tenants are protected for a specified period of time as per State statue."
+  }
+]

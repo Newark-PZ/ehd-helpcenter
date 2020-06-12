@@ -1,12 +1,12 @@
 import { PipeTransform, Pipe } from '@angular/core';
-import { TenantFaq, HomeownerFaq, HomeCard } from '../interfaces/other.interface';
+import { HomeCard, Faq } from '../interfaces/other.interface';
 
 @Pipe({
     name: 'FaqCat',
     pure: false
 })
 export class FaqCatPipe implements PipeTransform {
-  transform(items: Array<TenantFaq | HomeownerFaq | HomeCard>, filter: string): any {
+  transform(items: Array<Faq | HomeCard>, filter: string): any {
     if (!items || !filter) {
         return items;
     }
@@ -16,7 +16,7 @@ export class FaqCatPipe implements PipeTransform {
     return items.filter(
         item => (item as any).category
         ? (item as HomeCard).category.indexOf(filter) !== -1
-        : (item as TenantFaq | HomeownerFaq).Categories.indexOf(filter) !== -1
+        : (item as Faq).Categories.indexOf(filter) !== -1
         );
     }
 }

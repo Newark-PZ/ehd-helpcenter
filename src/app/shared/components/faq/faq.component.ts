@@ -1,10 +1,9 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { Store } from '@ngrx/store';
-import { FaqPage, TenantFaq, HomeownerFaq } from '../../interfaces/other.interface';
+import { FaqPage, Faq } from '../../interfaces/other.interface';
 import * as fromStore from '../../../store/store.reducers';
 import { Observable } from 'rxjs';
 import { take } from 'rxjs/operators';
-// import { PopulateService } from '../../services/populate.service';
 
 @Component({
   selector: 'app-faq',
@@ -15,9 +14,10 @@ import { take } from 'rxjs/operators';
 export class FaqComponent implements OnInit {
   document: Document;
   @Input() faqPage: FaqPage;
-  @Input() faqText: Array<TenantFaq | HomeownerFaq>;
+  @Input() faqText: Array<Faq>;
   faqCategories = [];
   currentLanguage$: Observable<string>;
+  selectedCol: number | undefined;
   constructor(
     private store: Store<fromStore.StoreState>
     ) {
@@ -44,9 +44,6 @@ export class FaqComponent implements OnInit {
       .then(response => response.json())
       .then((data) => this.faqText = data);
   }
-  // getFaq(faq: 'Tenant' | 'Homeowners', language?: string) {
-  //   this.getdb.getFaqs(faq).then(resp => this.faqText = resp as Array<HomeownerFaq | TenantFaq>).catch(err => console.error(err));
-  // }
   getCategories(faq: string, language: string): Array<string> {
     let categories = [];
     switch (language) {
@@ -54,30 +51,34 @@ export class FaqComponent implements OnInit {
         (faq === 'Tenant')
         ? categories = ['Lockout', 'Paiements de loyer', 'Audiences judiciaires',
           'Locataires subventionnés', 'Aide au logement supplémentaire',
-          `Assistance d'urgence`, 'Électricité, gaz, eau']
+          `Assistance d'urgence`, 'Électricité, gaz, eau', 'Harcèlement sexuel dans le logement']
         : categories = ['Déménagements', 'Audiences judiciaires'];
         break;
       case 'pr':
         (faq === 'Tenant')
-        ? categories = ['Bloqueio', 'Pagamentos de aluguel', 'Audiências em Tribunal',
+        ? categories = ['Bloqueio', 'Pagamentos de aluguel', 'Audiências',
         'Inquilinos subsidiados', 'Assistência Adicional à Habitação',
-        'Assistência emergencial', 'Eletricidade, Gás, Água']
+        'Assistência emergencial', 'Eletricidade, Gás, Água', 'Assédio sexual em moradias']
         : categories = ['Remoções', 'Audiências em Tribunal'];
         break;
       case 'sp':
         (faq === 'Tenant')
         ? categories = ['Cierres patronales', 'Pago de renta', 'Audiencias judiciales',
         'Inquilinos subsidiados', 'Asistencia de vivienda adicional',
-        'Asistencia de emergencia', 'Electricidad, Gas, Agua']
+        'Asistencia de emergencia', 'Electricidad, Gas, Agua', 'Acoso Sexual en Vivienda']
         : categories = ['Mudanzas', 'Audiencias judiciales'];
         break;
       default:
-        (faq === 'Tenant')
-        ? categories = ['Lockout', 'Rent Payments', 'Court Hearings',
-          'Subsidized Tenants', 'Additional Housing Assistance',
-          'Emergency Assistance', 'Electricity, Gas, Water'
-        ]
-        : categories = ['Removals', 'Court Hearings'];
+        if (faq !== 'RentControl') {
+          (faq === 'Tenant')
+          ? categories = ['Lockout', 'Rent Payments', 'Court Hearings',
+            'Subsidized Tenants', 'Additional Housing Assistance',
+            'Emergency Assistance', 'Electricity, Gas, Water', 'Sexual Harrassment in Housing'
+          ]
+          : categories = ['Removals', 'Court Hearings'];
+        } else {
+          categories = ['Rent Increase FAQ'];
+        }
     }
     return categories;
   }
