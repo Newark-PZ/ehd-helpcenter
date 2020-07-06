@@ -30,7 +30,8 @@
 			"health-info": "Health Information",
 			"homeowner-relief": "Forgiveable Loans for Homeowners and First-Time Buyers",
 			"homeowners": "Homeowners Mortgage Relief and Foreclosure FAQs",
-			"invest-newark": "INVEST NEWARK for Businesses",
+      "invest-newark": "INVEST NEWARK for Businesses",
+      "maskup": "#MaskUPNewark",
       "measuring-covid-impact": "Measuring COVID-19 Impact",
       "newark-municipal-court": "Newark Municipal Court Accepts Online Payments, Video Hearings",
       "newark-news": "More Newark News",
@@ -93,7 +94,8 @@
 		"home": "Home",
 		"homeowner-relief": "Forgivable Loans for Homeowners",
 		"homeowners": "Mortgage Relief & Foreclosure FAQ",
-		"invest-newark": "Invest Newark for Businesses",
+    "invest-newark": "Invest Newark for Businesses",
+    "maskup": "#MaskUPNewark",
     "measuring-covid-impact": "Measuring COVID-19 Impact",
     "newark-reopening-recovery": "Reopening and Recovery Strikeforce",
 		"nha-tenants": "For Housing Authority Tenants",
@@ -122,6 +124,7 @@
     "title": "Real time Information by Gender, Race, and Ward of COVID-19 impact"
   },
   "DOCVIEW": {
+    "maskup": "Time to #MaskUPNewark",
     "reopen-requirements": "Curbside & In-Store Pickup Retail Guidelines for Employers and Employees",
     "reopening": "The Road Back for New Jersey",
     "web-housing-seminar": "Web Seminar for Tenants & Homeowners",
