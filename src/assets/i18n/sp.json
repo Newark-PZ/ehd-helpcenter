@@ -86,7 +86,8 @@
 		"home": "Hogar",
 		"homeowner-relief": "Préstamos perdonables para propietarios de viviendas",
 		"homeowners": "Preguntas frecuentes sobre alivio hipotecario y ejecución hipotecaria",
-		"invest-newark": "Invierta Newark para empresas",
+    "invest-newark": "Invierta Newark para empresas",
+    "maskup": "#MaskUPNewark",
 		"measuring-covid-impact": "Medición del impacto de COVID-19",
 		"nha-tenants": "Para inquilinos de la Autoridad de Vivienda",
 		"nj-small-business-help": "Ayuda financiera de NJ para pequeñas empresas",
@@ -109,6 +110,7 @@
     "title": "Información en tiempo real por género, raza y barrio del impacto COVID-19"
   },
   "DOCVIEW": {
+    "maskup": "Ahora #MaskUPNewark",
     "reopening": "El camino de regreso a Nueva Jersey",
     "web-housing-seminar": "Seminario web para inquilinos y propietarios de viviendas"
   }

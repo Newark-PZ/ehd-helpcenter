@@ -123,6 +123,6 @@ export interface DocPage {
   title: string;
   category?: string;
   icon: 'business_center' | 'people' | 'person' | 'house' | 'color_lens' | 'local_dining' | 'local_hospital' | 'assessment' | string;
-  doc?: string | SafeUrl | SafeResourceUrl;
+  doc?: Array<string | SafeUrl | SafeResourceUrl>;
   type?: 'img' | 'iframe';
 }

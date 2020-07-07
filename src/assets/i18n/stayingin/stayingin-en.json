@@ -86,7 +86,7 @@
       {
         "emphasizeHeader": true,
         "header": "Fill Out and Submit Application to Reopen",
-        "text": "<p><img class='intro-pic contain' src='assets/img/pagePhotos/Flyer Newark Business Reopening Permit.png'>Apply online by clicking 'Online Re-Opening Application' below. Contact us at <a href='mailto:reopeningplan@newarknj.gov'>reopeningplan@newarknj.gov</a> if you have questions or want to submit by Mail/Fax.</p>",
+        "text": "<p><img class='intro-pic contain' src='assets/img/pagePhotos/Flyer Newark Business Reopening Permit.png'>Apply online by clicking 'Online Re-Opening Application' below. Contact us at <a href='mailto:reopeningplan@newarknj.gov'>reopeningplan@newarknj.gov</a> if you have questions or want to submit by Mail/Fax. <i>The PDF is <a href='assets/docs/COVID-19_Business_Re-opening_Permit_Application.pdf'>here</a>, but we advise using the online application below.</i></p>",
         "actionsCol": true,
         "buttons": [{
           "link":"https://seam.ly/2LBnzISE",

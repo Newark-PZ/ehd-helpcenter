@@ -195,6 +195,13 @@ export class HomeComponent implements OnInit {
         extUrl: ''
       },
       {
+        icon: 'campaign',
+        title: '#MaskUPNewark',
+        link: 'maskup',
+        parent: '/docs',
+        category: 'Save Lives. Stay Healthy. Safely Re-Open.'
+      },
+      {
         icon: 'people',
         title: 'Reopening and Recovery Strikeforce',
         link: 'newark-reopening-recovery',
@@ -265,6 +272,13 @@ export class HomeComponent implements OnInit {
         style: {background: 'rgba(144, 238, 144, 0.25)'},
         id: 'updated-list-essential',
         extUrl: 'https://www.nj.gov/governor/news/news/562020/approved/20200427d.shtml'
+      },
+      {
+        icon: 'business_center',
+        title: 'Emergency Fund for Home-Based Businesses',
+        link: 'home-based-business',
+        parent: '/docs',
+        category: 'Small Business',
       },
       {
         icon: 'local_hospital',

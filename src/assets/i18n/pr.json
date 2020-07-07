@@ -28,7 +28,8 @@
 			"health-info": "Informação de saúde",
 			"homeowner-relief": "Empréstimos perdoáveis ​​para proprietários e compradores de primeira viagem",
 			"homeowners": "Perguntas frequentes sobre alívio e encerramento de hipotecas",
-			"invest-newark": "Invista Newark para empresas",
+      "invest-newark": "Invista Newark para empresas",
+      "maskup": "#MaskUPNewark",
       "measuring-covid-impact": "Medindo o impacto do COVID-19",
       "newark-municipal-court": "Tribunal Municipal de Newark aceita pagamentos on-line, audiências em vídeo",
 			"newark-news": "Mais notícias de Newark",
@@ -87,7 +88,8 @@
 		"home": "Casa",
 		"homeowner-relief": "Préstamos perdonables para propietarios de viviendas",
 		"homeowners": "Preguntas frecuentes sobre alivio hipotecario y ejecución hipotecaria",
-		"invest-newark": "Invista Newark para empresas",
+    "invest-newark": "Invista Newark para empresas",
+    "maskup": "#MaskUPNewark",
 		"measuring-covid-impact": "Medindo o impacto do COVID-19",
 		"nha-tenants": "Para inquilinos da Autoridade de Habitação",
 		"nj-small-business-help": "Ayuda financiera de NJ para pequeñas empresas",
@@ -110,6 +112,7 @@
     "title": "Informações em tempo real por gênero, raça e divisão de impacto do COVID-19"
   },
   "DOCVIEW": {
+    "maskup": "#MaskUPNewark",
     "reopening": "O caminho de volta para Nova Jersey",
     "web-housing-seminar": "Seminário na Web para inquilinos e proprietários"
   }
