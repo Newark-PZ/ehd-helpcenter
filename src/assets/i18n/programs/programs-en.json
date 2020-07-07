@@ -1,493 +1,527 @@
 [
-    {
-        "category": "Small Business",
-        "icon": "color_lens",
-        "infoButtons": [
-            {
-                "link": "https://newarkarts.org/creative-catalyst-fund/"
-            }
-        ],
-        "introText": "<p><img class='intro-pic' src='assets/img/pagePhotos/arts.jpg'>Mayor Ras J. Baraka launched the Creative Catalyst Fund to provide artists and art groups with flexible grant support during the Coronavirus crisis and beyond. In January 2020, Mayor Baraka announced a broad vision for the City’s cultural sector to encourage equitable funding for the arts that sustains the creative community and grassroots arts organizations. Since then, the City launched its first arts grant program, the Creative Catalyst Fund, to ensure that the arts continue to thrive. In light of the COVID-19 crisis, the City acted to streamline operations, increasing the flexibility in how grantees may use awarded funds.",
-        "link": "arts-fund",
-        "parent": "/program",
-        "purpose": [
-            {
-                "body": "In collaboration with Newark Arts, the Fund will support the local community of artists as well as small-to-midsize arts and cultural organizations, all of which provide social and economic value to Newark by revitalizing neighborhoods, inspiring students, and improving the quality of life for city residents. The Fund will provide up to $1 million dollars annually for at least the next three years, beginning with $750,000 provided by the City to seed the initiative."
-            }
-        ],
-        "sections": [
-            {
-                "buttons": [
-                    {
-                        "link": "https://newarkarts.org/creative-catalyst-fund/"
-                    }
-                ],
-                "header": "Prospective applicants can choose between two grant streams, based on eligibility:",
-                "text": "<ul><li>General Operating Support</li><p>for Newark-based non-profit arts and cultural organizations with annual operating budgets up to $2 million.  The grant range is $2,500 - $50,000. Grants over $5,000 must be matched by funds raised from other sources.<p><li>Artist Fellowships</li><p>for Newark-based individual artists or unincorporated artist collectives working in any artistic discipline.  The grant range is $1,000 - $10,000. There is no matching requirement.</p></ul><p>For grant applications and more information click apply. Applications will be accepted until Friday, May 1, 2020.</p>"
-            },
-            {
-                "header": "Acknowledgments",
-                "logos": [
-                    "nwkCity",
-                    "nwkArts",
-                    "prudential",
-                    "dodgeFoundation"
-                ],
-                "text": "<p>The Fund aligns with <a href='https://newarkarts.org/newark-creates/'>Newark Creates</a>, a cultural plan researched and developed by Newark Arts, and made final in 2019. Newark Creates is a collaborative plan on behalf of the City. The plan, funded by Prudential and The Geraldine R. Dodge Foundation, details an 18-month organized initiative of community members, nonprofit, for-profit, and governmental stakeholders working together to advance an equitable foundation for Newark to thrive with arts and culture.</p><p>Newark Arts is a 39-year-old, non-profit arts organization with a proven track record and experience with serving as a fund administrator for other grants from the City of Newark and reputable regional and national foundations.</p>"
-            }
-        ],
-        "subtitle": "For Artists and Arts Organizations Impacted By COVID-19",
-        "title": "Creative Catalyst Fund"
-    },
-    {
-        "category": "Small Business",
-        "icon": "business_center",
-        "infoButtons": [
-            {
-                "link": "https://www.surveymonkey.com/r/NewarkSmallBusinessCOVID19Grant"
-            }
-        ],
-        "introText": "<p><img class='intro-pic' src='assets/img/pagePhotos/Newark small business emergency grants.jpeg'> Businesses nationwide are suffering enormous impacts related to COVID-19. As one way to help impacted businesses and Newark families, Mayor Ras J. Baraka has taken the initiative to provide financial help to those who qualify. To mitigate barriers to capital for Newark’s most vulnerable small businesses, the City of Newark has committed $2 million in funding. This program may be used in conjunction with other emergency aid supplied by the State of New Jersey and the federal government.</p>",
-        "link": "small-business-grants",
-        "parent": "/program",
-        "purpose": [
-            {
-                "body": "This grant helps small businesses with losses they have experienced through loss of income, payroll loss, sales, etc. This emergency fund will provide working capital grants in amounts up to Ten Thousand Dollars ($10,000) to qualifying small businesses."
-            }
-        ],
-        "sections": [
-            {
-                "header": "Uses",
-                "text": "Proceeds can be used for most business-related items, including but not limited to, accounts payable, payroll, inventory, equipment, business compliance, licensing renewal, utilities, business capacity, legal, financial services, rent, insurance, business taxes, or supplies, subject to funding availability."
-            },
-            {
-                "header": "Requirements",
-                "text": "<p>If you represent a small business or non-profit organization in the City of Newark, you may be eligible to apply if you meet the following conditions:</p>        <ul><li>A physical establishment located in the City of Newark</li><li>Have ten (10) employees or less</li><li>Experienced a direct loss of income due to COVID-19</li>        </ul>"
-            },
-            {
-                "buttons": [
-                    {
-                        "link": "https://www.surveymonkey.com/r/NewarkSmallBusinessCOVID19Grant"
-                    }
-                ],
-                "header": "Other Information",
-                "text": "<ul><li>The deadline to apply is April 30, 2020</li><li>Applicants will be notified within 14 days of submitting an application as to whether they have been selected to receive a grant</li><li>Those selected will receive their grants within 30 days of submitting an application.</li><li>For more information regarding the necessary documents that must be submitted and to complete an application, click “APPLY NOW” below.</li></ul>"
-            },
-            {
-                "header": "Acknowledgements",
-                "logos": [
-                    "nwkCity",
-                    "prudential",
-                    "unitedWay",
-                    "investNWK"
-                ],
-                "text": "<p>Under the guidance of Mayor Baraka’s, the City of Newark’s Department of Economic and Housing Development Department is collaborating in partnership with Prudential, the United Way of Greater Newark, and Invest Newark in this effort to alleviate the economic impacts of COVID-19 on our small business community.</p>"
-            }
-        ],
-        "title": "Newark 2020 Emergency Fund",
-        "subtitle": "For Small Businesses Impacted by COVID-19"
-    },
-    {
-        "category": "Housing",
-        "icon": "house",
-        "infoButtons": [
-            {
-                "link": "https://www.newarknj.gov/departments/economichousing",
-                "linkText": "Learn More & Apply"
-            }
-        ],
-        "introText": "<p><img class='intro-pic' src='assets/img/pagePhotos/Forgivable loans.jpg'>As part of his ongoing COVID-19 financial stimulus package, Mayor Ras J. Baraka announced that Newark will add an additional $1 million dollars into its “Live Newark” program, designed to give City residents access to home ownership. Home ownership stabilizes neighborhoods. It’s a key component of Mayor Baraka’s equitable growth vision for the City, in terms of safety, education and economic prosperity. When people own their homes, they have a greater investment in the well-being of their neighborhoods. The $1 million in additional funds will make existing programs available to more residents, at a time when homeownership is endangered by the Covid-19 Crisis.</p>",
-        "link": "homeowner-relief",
-        "parent": "/program",
-        "purpose": [
-            {
-                "body": "The program provides $5,000 down payment forgivable loans to first-time home buyers and forgivable loans up to $15,000 for homeowners undertaking external repairs. There are also $5,000 down payment forgivable loans to City employees. The forgivable loan terms all require the recipient to live in the house for at least five years.",
-                "header": "Forgivable Loans",
-                "rows": "1"
-            }
-        ],
-        "sections": [
-            {
-                "buttons": [
-                    {
-                        "link": "https://www.newarknj.gov/departments/economichousing",
-                        "linkText": "Learn More & Apply"
-                    }
-                ],
-                "header": "Programs",
-                "text": "<ul><h3>Closing Cost Program</h3><li>Provides $5000 no interest loans to first-time homebuyers to purchase a home in Newark. The loan is forgiven after the recipient has lived in the home for five years.</li>      <h3>Façade Improvement Program</h3><li>Creates pride in ownership, preserves or increase the value of residential properties, beautifies neighborhoods by helping to fund facade repair and other external improvements such as repairs to or replacement of roofs, porches, driveways, windows and doors; painting or siding; landscaping, etc. It provides up to a $15,000 no interest forgivable loan for owner-occupied homes.</li>      <h3>Municipal Employee Housing Assistance Program</h3><li>Provides $5000 no interest loans to City employees to purchase a home as first-time homebuyers in Newark. The loan is forgiven after the recipient has lived in the home for five years.</li></ul><p>Click 'Learn More' below to find applications for the Live Newark programs and more detailed information</p>"
-            },
-            {
-                "header": "Acknowledgements",
-                "logos": [
-                    "nwkCity",
-                    "usHUD"
-                ],
-                "text": "<p>The funds come from the U.S. Department of Housing and Urban Development (HUD) as part of its Home Investment Partnership Program, designed to help states and cities provide decent and affordable housing for urban Americans.</p>"
-            }
-        ],
-        "subtitle": "For Homeowners & First-Time Buyers",
-        "title": "COVID-19 Relief Program"
-    },
-    {
-        "category": "Housing",
-        "icon": "people",
-        "infoButtons": [
-            {
-                "link": "mailto:EHD@ci.newark.nj.us?subject=Short Term Rapid Housing",
-                "linkText": "Email EHD"
-            }
-        ],
-        "introText": "<p><img class='intro-pic' src='assets/img/pagePhotos/Homeless.jpg'> In keeping with Mayor Ras J. Baraka’s aggressive citywide shelter-in-place order, a $1 million program to immediately house people in need of shelter has been put in place. The City has negotiated with lodging and housing providers to secure temporary emergency shelter for about 300 people without permanent housing and others who may otherwise be unable to self-quarantine, such as elderly people in senior housing who have tested positive for COVID-19 and risk infecting others. These temporary emergency shelters are located locations are throughout Newark and are staffed with on-site medical and food services.</p>",
-        "link": "safe-housing",
-        "parent": "/program",
-        "purpose": [
-            {
-                "body": "This is a public health policy. We also know that many of our residents without permanent addresses are especially vulnerable at this time as they do not have a safe and secure residence to practice social distancing. There are about 400 to 500 chronically unsheltered people in City of Newark. This intervention is not only necessary to ensure their health and safety through the provision of a safe abode equipped with on-site medical services and food, it is also a crucial measure in the City of Newark’s aggressive goal to flatten the curve."
-            }
-        ],
-        "sections": [
-            {
-                "header": "Uses",
-                "text": "<p>Mayor Baraka has placed the entire City of Newark on the state’s most restrictive shelter-in-place order, requiring all persons to stay indoors except for necessary outings, such as shopping for food and medicine, seeing a doctor, dog-walking or for a brief breath of fresh air right outside of one’s home, all while maintaining a distance of at least six feet from one another.</p>      <p>Once the shelter-in-place order was issued, City officials quickly secured housing for residents without indoor options. The City reached out to more than a dozen housing providers and has been able to secure access to more than 200 units or rooms to house persons in need of shelter for up to 90 days.</p>      <p>The provision of emergency temporary housing to an otherwise homeless population keeps them and all other residents safe, and slows the transmission of COVID-19. This effort will continue until all citizens are safely sheltered.</p>"
-            },
-            {
-                "buttons": [
-                    {
-                        "link": "mailto:EHD@ci.newark.nj.us?subject=Short Term Rapid Housing",
-                        "linkText": "Email EHD"
-                    }
-                ],
-                "header": "Information",
-                "text": "<p>For more details on the short-term rapid housing program, please email <a href='mailto:EHD@ci.newark.nj.us?subject=Short Term Rapid Housing'>EHD@ci.newark.nj.us<a> and put 'Short Term Rapid Housing' in the subject line.</p>"
-            }
-        ],
-        "subtitle": "During COVID-19 ‘Shelter in Place’ Enforcement",
-        "title": "Safe Housing for Homeless"
-    },
-    {
-        "category": "Small Business",
-        "icon": "business_center",
-        "infoButtons": [
-            {
-                "link": "assets/docs/Tax Relief applicataion.pdf",
-                "linkText": "Download Application"
-            },
-            {
-                "link": "assets/docs/Tax Liability Relief  Agreement 4.8.20 (002).pdf",
-                "linkText": "Download Agreement"
-            },
-            {
-                "link": "assets/docs/Tax Relief Certifications.pdf",
-                "linkText": "Download Certification"
-            },
-            {
-                "link": "mailto:ehd@ci.newark.nj.us?subject=Application for Commercial Property Tax Relief",
-                "linkText": "Apply via Email"
-            }
-        ],
-        "introText": "<p><img class='intro-pic' src='assets/img/pagePhotos/help for commercial tenants.jpg'> Mayor Ras J. Baraka has launched a program to help commercial property owners and their tenants who have each lost significant income during the COVID-19 crisis to remain solvent and avoid evictions and foreclosures. With this program, Newark is seeking to prevent the loss of jobs and rows of empty storefronts which cause blight and demoralize those who live and work here. The program will help to prevent business tenants from being evicted and commercial owners from suffering foreclosure.</p>",
-        "link": "commercial-prop",
-        "parent": "/program",
-        "purpose": [
-            {
-                "body": "If commercial tenants are no longer able to pay their full rent during the Covid-19 crisis, property owners will be hard-pressed to pay their property taxes and be in danger of losing their buildings. This initiative will help avoid a massive surge in vacancies that could seriously damage the city’s culture, character, economic stability and reverse the extraordinary progress Newark has been making.",
-                "header": "Provides property tax reductions passed along to tenants"
-            }
-        ],
-        "sections": [
-            {
-                "header": "How It Works",
-                "text": "<p>Under the program, property owners and tenants would apply jointly for significant property tax relief in proportion to the property owner’s loss of revenue. In exchange for the property tax relief, the owner would agree to not evict a tenant for non-payment of rent for one year from the date of approval of relief.</p><p>The loss in revenue due to COVID-19 for both landlord and tenant must be greater than 33 percent of regular income for the tenant space and respective business in order to qualify. The City will significantly reduce the property tax of the tenant’s space, through cancellation, depending on the specifics of the arrangement between the tenant and property owner. Depending on the length of the shutdown and extent of income loss, the tenant and property owner may re-apply after 12 months.</p>"
-            },
-            {
-                "buttons": [
-                    {
-                        "link": "assets/docs/Tax Relief applicataion.pdf",
-                        "linkText": "Download Application"
-                    },
-                    {
-                        "link": "assets/docs/Tax Liability Relief  Agreement 4.8.20 (002).pdf",
-                        "linkText": "Download Agreement"
-                    },
-                    {
-                        "link": "assets/docs/Tax Relief Certifications.pdf",
-                        "linkText": "Download Certification"
-                    },
-                    {
-                        "link": "mailto:wilsonaa@ci.newark.nj.us?subject=Application for Commercial Property Tax Relief",
-                        "linkText": "Apply via Email"
-                    }
-                ],
-                "header": "Inquire Today",
-                "text": "To learn more, you can contact Newark's Tax Assesor Aaron Wilson by email at <a href='mailto:wilsonaa@ci.newark.nj.us?subject=Application for Commercial Property Tax Relief'>wilsonaa@ci.newark.nj.us</a> or by phone at <a href='tel:9737338509'>(973) 733-8509</a>. To apply include the completed application and documentation as attachments."
-            }
-        ],
-        "subtitle": "Seriously Harmed by COVID-19 Emergency",
-        "title": "Helping Commercial Property Owners & Tenants"
-    },
-    {
-        "category": "Housing",
-        "icon": "people",
-        "infoButtons": [
-            {
-                "link": "mailto:OTLS@ci.newark.nj.us?subject=Tenant Eviction Moratorium Question",
-                "linkText": "Email EHD To Learn More"
-            }
-        ],
-        "introText": "<p><img class='intro-pic' src='assets/img/pagePhotos/eviction moritorium.jpg'>  'The temporary suspension of evictions does not amount to a rent holiday, but merely allows tenants to remain in their homes during the health crisis. Tenants are reminded of their continued obligation to pay the rent. The program will help to prevent business tenants from being evicted and commercial owners from suffering foreclosure.</p>",
-        "link": "eviction-moratorium",
-        "parent": "/program",
-        "purpose": [
-            {
-                "body": "<p>Pursuant to Governor Murphy’s March 19, 2020 Executive Order, removal of individuals from residential properties through the eviction or foreclosure processes are prohibited until the Governor declares that the public health crisis is officially over.</p><p>Renters may now use security deposits to cover rent as long as landlord is notified.</p>",
-                "header": "Statewide"
-            }
-        ],
-        "sections": [
-            {
-                "buttons": [
-                    {
-                        "link": "https://covid19.nj.gov/forms/renter",
-                        "linkText": "More Info on State Eviction Moratorium"
-                    }
-                ],
-                "header": "Security Deposits",
-                "text": "Tenants may now instruct landlords to use their security deposits to offset rent or back rent. Tenants will not be obligated to make any further security deposit relating to their current lease agreement but would still be responsible for any money landlords expend that would have been reimbursable via the security deposit such as damage to the property. This executive order will be in place until 60 days after the public health emergency is terminated."
-            },
-            {
-                "header": "Newark",
-                "text": "Mayor Baraka has imposed a moratorium on evictions based upon nonpayment of rent. This means that the tenant may cite the moratorium as a defense to an eviction action based upon nonpayment of rent that becomes due during the moratorium, provided the tenant can demonstrate that the nonpayment resulted from the financial hardship caused by the COVID-19 pandemic. In addition, the Essex County Sheriff’s office has confirmed that they will not be executing warrants of removal (“lockouts”) during the current public health emergency"
-            },
-            {
-                "header": "Emergency Court Applications",
-                "text": "The Superior Court in Essex has an emergency judge available to hear emergency applications from tenants. The tenant must go to Room 201 (Customer Service) at the Hall of Records to file the application before 4:30PM. After 4:30PM the tenant must go to the Sheriff's Department, at Veterans Courthouse."
-            },
-            {
-                "buttons": [
-                    {
-                        "link": "mailto:OTLS@ci.newark.nj.us?subject=Tenant Eviction Moratorium Question",
-                        "linkText": "Email EHD To Learn More"
-                    }
-                ],
-                "header": "Questions",
-                "text": "Tenants who have questions about any of the aforementioned may email the City of Newark’s Office of Tenant Legal Services at OTLS@ci.newark.nj.us. All other inquiries should be made to the City of Newark’s Law Department by calling 973-733-3880."
-            }
-        ],
-        "subtitle": "During COVID-19 Emergency",
-        "title": "Tenant Eviction Moratorium"
-    },
-    {
-        "category": "Small Business",
-        "icon": "business_center",
-        "infoButtons": [
-            {
-                "link": "https://bit.ly/CityofNewarkERSU",
-                "linkText": "Learn More & Apply"
-            }
-        ],
-        "introText": "<p><img class='intro-pic hide-sm' src='assets/img/pagePhotos/Essential Workers.jpg'><img class='intro-pic logo-sm' src='assets/img/logos/logo_nwkAlliance.png'> The City of Newark Emergency Response Staffing Unit is a collective recruitment effort by Newark 2020, Newark Workforce Development Board and the workforce ecosystem in the City of Newark in response to the urgent need for essential personnel in the city of Newark. This includes healthcare professionals, food service workers, construction tradesmen, drivers, case workers, mental health professionals, janitorial and maintenance staff.</p>",
-        "link": "recruiting-essential-workers",
-        "parent": "/program",
-        "purpose": [
-            {
-                "body": "The goal is to help reduce the strain on our healthcare professionals by increasing the number of workers in the hospitals and training our homegrown talent in the City.  We are in this together!"
-            }
-        ],
-        "sections": [
-            {
-                "buttons": [
-                    {
-                        "link": "https://bit.ly/CityofNewarkERSU",
-                        "linkText": "Learn More & Apply"
-                    }
-                ],
-                "header": "On the City of Newark Emergency Response Staffing Unit site:",
-                "text": "<ul><li>Job Seekers can:<ul><li>Register and upload their resume to be connected to a hiring employer</li><li>Access resources on virtual technology, labor trends, online tools and mental health resources</li><li>Register for group and individual career coaching sessions</li></ul></li><li>Employers can:<ul><li>Register their business and identify staffing needs</li><li>Connect with a Job Developer or Account Manager to discuss specific sourcing strategies to meet COVID-19 related demands</li><li>Connect furloughed workers to temporary roles within other companies</li><li>Access resources in the following areas (on a rotating basis for now):<ul><li>Government Resources </li><li>COVID-19, Crisis Management, & Leadership During Crisis</li><li>HR & Recruiting During a Crisis </li><li>Mental Health Resources for Organizations</li><li>Financial Resources and Services during COVID-19</li><li>Managing Virtual Teams, Tools, and Best Practices </li><li>Sales and Nurturing Customer Relationships</li><li>Boosting Morale </li><li>Marketing, Branding, and Social Media</li><li>Legal Updates</li></ul></li></ul></ul>"
-            },
-            {
-                "header": "Acknowledgements",
-                "logos": [
-                    "nwkAlliance",
-                    "NRBP",
-                    "nwkCity"
-                ],
-                "text": "<p>This program was made possible by the collaboration of the Newark Alliance, the Workforce Development Board at Newark Regional Business Partnership and the City of Newark</p>"
-            }
-        ],
-        "subtitle": "City of Newark Emergency Response Staffing Unit",
-        "title": "Recruiting Additional Essential Workers"
-    },
-    {
-        "category": "Employment & Wellness",
-        "icon": "business_center",
-        "infoButtons": [
-            {
-                "link": "https://bit.ly/Newark2020COVIDimpacysurvey",
-                "linkText": "Business Impact Survey"
-            },
-            {
-                "link": "https://bit.ly/CandidateNeedsSurvey1",
-                "linkText": "Newark Resident Needs Survey"
-            }
-        ],
-        "introText": "<p><img class='intro-pic hide-sm' src='assets/img/pagePhotos/Measuring Impact.jpeg'><img class='intro-pic logo-sm' src='assets/img/logos/logo_nwkAlliance.png'>Newark Alliance is dedicated to the ongoing economic revitalization of Newark, striving to transform our city into a better and safer place to work, live, learn, play and do business. Supported by corporate and community partners, the Alliance has successfully leveraged Newark's competitive assets to generate economic growth for the city, state, region and beyond. Through innovative partnerships with stakeholders, the Alliance is delivering equitable growth for residents and visitors alike, advancing Newark's renaissance into one of America's great cities. It is now working to survey the impact of the COVID-19 Crisis. If you are an employer or resident, please fill out the appropriate survey below.</p>",
-        "link": "measuring-covid-impact",
-        "parent": "/program",
-        "purpose": [
-            {
-                "body": "It's important that we measure the impact of COVID-19 on Newark residents and businesses so that future employment programs are based on real needs and not assumptions."
-            }
-        ],
-        "sections": [
-            {
-                "buttons": [
-                    {
-                        "link": "https://bit.ly/Newark2020COVIDimpacysurvey",
-                        "linkText": "Business Impact Survey"
-                    }
-                ],
-                "header": "Employer COVID-19 Business Impact Survey",
-                "text": "<h3>Employer’s Share the Impact of COVID-19 on Your Business</h3><p>We recognize the seriousness of the pandemic and many unprecedented challenges that our employer partners face. We are surveying employers to gauge the impact of COVID-19 on our businesses locally, so that we may provide connections to needed information and resources and adjust our talent sourcing strategies to meet the changing needs of our employer partners, and train candidates with new virtual workplace skills and technologies to adapt to this 'next normal.'</p><p>In addition to the high-level survey below, please let us know how we can best support you during this time.</p>"
-            },
-            {
-                "buttons": [
-                    {
-                        "link": "https://bit.ly/CandidateNeedsSurvey1",
-                        "linkText": "Newark Resident Needs Survey"
-                    }
-                ],
-                "header": "Citywide Personal and Professional Needs Assessment",
-                "text": "<h3>Newark Residents, your input is needed!</h3>        <p>We are surveying Newark residents to determine your personal and professional needs in response to COVID-19 so that we can offer services that are in most demand. Please take 3 minutes to complete the survey.</p>"
-            }
-        ],
-        "subtitle": "On Newark Businesses and Residents",
-        "title": "Measuring the Impact of COVID-19"
-    },
-    {
-      "icon": "business_center",
-      "title": "Emergency Fund For 501(c)3 Nonprofits",
-      "link": "non-profit",
-      "subtitle": "Aiding Newark Residents Impacted By Covid-19",
-      "introText": "<p><img class='intro-pic' src='assets/img/pagePhotos/Nonprofit.jpg'> In this time of crisis, communities nationwide are suffering enormous impacts related to COVID-19. The City of Newark is fortunate to have numerous non-profit organizations that have risen to the task of providing vital services to the local community in response to the market distress and upheaval caused by the COVID-19 pandemic. Mayor Ras J. Baraka, in an effort to strengthen and stabilize these non-profit organizations, has created an emergency fund aimed at providing financial relief to eligible Newark-based 501(c)(3) non-profit organizations that provide a direct service related to COVID-19 and/or have expended extra funds in creating new programs or in expanding existing programs to the benefit of Newark’s local economy and community. To apply click the link below and send the email to request an application</p>",
-      "infoButtons": [
-        { "link": "mailto:nonprofitgrant@ci.newark.nj.us?subject=Request for Emergency Non-Profit Grant Application", "linkText": "Request Application for Funds"}
-      ],
-      "purpose": [{
-          "body": "This emergency fund, which will be administered by the City of Newark’s Department of Economic and Housing Development, will provide One Million Dollars ($1,000,000) with grants ranging from $5,000 to $50,000 to qualifying 501(c)(3) non-profit organizations. The application will be made available for qualifying 501(c)(3) non-profit organizations on Monday, April 20, 2020 through Friday, May 22, 2020. During these 30 days the city will provide grants on an ongoing basis in order to meet the financial need of organizations."
-      }],
-      "sections": [
-        {
-          "header": "Applicant Requirements to Apply for this Grant",
-          "text": "<ul><li>Must provide proof of 501(c)(3) non-profit organization status;</li><li>Have a physical location in Newark;</li><li>Have directly provided services/programs unique to the COVID-19 pandemic to Newark residents/communities OR expanded their services/programs to meet the needs of their usual community base;</li><li>Provide copy of most recent audit;</li><li>Provide copy of IRS Form 990;</li><li>Provide documentation of their annual budget;</li><li>At time of submittal of application, you must also provide a letter on your organization’s letterhead with the amount of funding you’re requesting for the fulfillment of your services during this pandemic;</li><li>Provide a letter with a line item cost breakdown of total requested amount of funding with supporting documents of expenses: invoices that have been paid and not paid;</li><li>And finally, a letter with description of beneficiaries served, which includes: (a) name and address, (b) ethnicity, (c) percentage of AMI of individuals served, (d) senior/non senior, and (e) total number of individuals served in households.</li></ul><p>Click the link below to send an email requesting the application. Include information about your non-profit.</p>",
-          "buttons": [{ "link": "mailto:nonprofitgrant@ci.newark.nj.us?subject=Request for Emergency Non-Profit Grant Application", "linkText": "Request Application for Funds"}]
-        }
-      ]
-    },
-    {
-      "category": "Save Lives. Stay Safe.",
-      "link": "be-still-mondays",
-      "parent": "/stayingin",
-      "title": "Be Still Mondays",
-      "icon": "local_hospital",
-      "introContent": [{
-        "text": "<h3><img class='intro-pic' src='assets/img/pagePhotos/mondays.jpg'>Mayor Baraka has asked “everyone to stay home” for a nearly complete shut-down of the City of Newark on Mondays to bring attention to the severity of the COVID-19 spread in the community and help slow the spread. Be Still Mondays” will happen each week for the next month.</h3><h3>If you’re not a police officer, a fireman, a nurse or other frontline medical worker, stay home.</h3>"
-      }],
-      "programs": [{
-        "header": "Exceptions",
-        "text": "<p>The City of Newark’s “Be Still Mondays” is not an executive order, but it’s a request that discourages all businesses except for health, safety, and welfare emergency services to close. For instance, businesses that provide food and shelter for the homeless population may operate but the City is asking soup kitchens to limit their operations from 11:30 a.m. to 2 p.m.</p><p>The City would like businesses deemed “essential” by prior executive orders, such as food stores and pharmacies, to also close, as well as downtown corporations and manufacturing companies.</p><p>The idea is to show community-wide solidarity in the face of the aggressive COVID-19 virus that is especially ravaging black and brown communities nationwide.</p><p>Important: Click below for more information about the Rules",
-        "linkText": "NJ Stay at Home and Essential Business Rules",
-        "link": "https://covid19.nj.gov/faqs/nj-information/general-public/what-are-the-“stay-at-home”-rules-in-new-jersey-what-businesses-are-closed"
-      }]
-    },
-    {
-      "category": "Save Lives. Stay Safe.",
-      "link": "stay-at-home",
-      "parent": "/stayingin",
-      "title": "Shelter-in-Place Order",
-      "icon": "local_hospital",
-      "introContent": [{
-        "text":
-        "<h3><img class='intro-pic' src='assets/img/pagePhotos/shelter-in-place.jpg'>To protect residents against the spread of COVID-19, Mayor Ras J. Baraka has announced a strict City-wide “shelter-in-place” mandate and all-city quarantine that will be strictly enforced by law enforcement.</h3><p>People must stay home and not come out unless it’s an emergency.</p>"
-      }],
-      "programs": [
+  {
+    "category": "Small Business",
+    "icon": "color_lens",
+    "infoButtons": [
       {
-        "header": "Exceptions",
-        "text": "<p>You can still go to the supermarket, local store for essentials, pharmacy, doctor, walk dogs, step out and get fresh air in front or back of home/doorstep/porch/terrace, or if an essential employee. Also, children need to be accompanied by an adult and people should only leave their homes in pairs.</p><p>While out, you must maintain the Center for Disease Control’s (CDC) recommendation of keeping six feet apart.</p><p><b>Residents are urged to call police if they see groups of people hanging out and violating this mandate.</b></p>"
-      }]
-    },
-    {
-      "icon": "business_center",
-      "title": "Emergency Fund For 501(c)3 Nonprofits",
-      "link": "non-profit",
-      "subtitle": "Aiding Newark Residents Impacted By Covid-19",
-      "introText": "<p><img class='intro-pic' src='assets/img/pagePhotos/Nonprofit.jpg'> In this time of crisis, communities nationwide are suffering enormous impacts related to COVID-19. The City of Newark is fortunate to have numerous non-profit organizations that have risen to the task of providing vital services to the local community in response to the market distress and upheaval caused by the COVID-19 pandemic. Mayor Ras J. Baraka, in an effort to strengthen and stabilize these non-profit organizations, has created an emergency fund aimed at providing financial relief to eligible Newark-based 501(c)(3) non-profit organizations that provide a direct service related to COVID-19 and/or have expended extra funds in creating new programs or in expanding existing programs to the benefit of Newark’s local economy and community. To apply click the link below and send the email to request an application</p>",
-      "infoButtons": [
-        { "link": "mailto:nonprofitgrant@ci.newark.nj.us?subject=Request for Emergency Non-Profit Grant Application", "linkText": "Request Application for Funds"}
-      ],
-      "purpose": [{
-          "body": "This emergency fund, which will be administered by the City of Newark’s Department of Economic and Housing Development, will provide One Million Dollars ($1,000,000) with grants ranging from $5,000 to $50,000 to qualifying 501(c)(3) non-profit organizations. The application will be made available for qualifying 501(c)(3) non-profit organizations on Monday, April 20, 2020 through Friday, May 22, 2020. During these 30 days the city will provide grants on an ongoing basis in order to meet the financial need of organizations."
-      }],
-      "sections": [
-        {
-          "header": "Applicant Requirements to Apply for this Grant",
-          "text": "<ul><li>Must provide proof of 501(c)(3) non-profit organization status;</li><li>Have a physical location in Newark;</li><li>Have directly provided services/programs unique to the COVID-19 pandemic to Newark residents/communities OR expanded their services/programs to meet the needs of their usual community base;</li><li>Provide copy of most recent audit;</li><li>Provide copy of IRS Form 990;</li><li>Provide documentation of their annual budget;</li><li>At time of submittal of application, you must also provide a letter on your organization’s letterhead with the amount of funding you’re requesting for the fulfillment of your services during this pandemic;</li><li>Provide a letter with a line item cost breakdown of total requested amount of funding with supporting documents of expenses: invoices that have been paid and not paid;</li><li>And finally, a letter with description of beneficiaries served, which includes: (a) name and address, (b) ethnicity, (c) percentage of AMI of individuals served, (d) senior/non senior, and (e) total number of individuals served in households.</li></ul><p>Click the link below to send an email requesting the application. Include information about your non-profit.</p>",
-          "buttons": [{ "link": "mailto:nonprofitgrant@ci.newark.nj.us?subject=Request for Emergency Non-Profit Grant Application", "linkText": "Request Application for Funds"}]
-        }
-      ]
-    },
-    {
-      "category": "Save Lives. Stay Safe. Reopen.",
-      "link": "testing",
-      "parent": "/programs",
-      "title": "How & Where to Get Tested in Newark",
-      "icon": "local_hospital",
-      "introText": "<p><img class='intro-pic' src='assets/img/pagePhotos/Coronavirus-test.jpg'>At this time, testing is prioritized for individuals who are close contacts of confirmed COVID-19 cases, individuals who traveled to/from highly affected areas, individuals without symptoms who come from racial and ethnic minority groups disproportionately affected by adverse COVID-19 outcomes, or those who are sick and experiencing <b>at least three</b> of the <a href='https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html'>nine CDC-recognized symptoms</a> of COVID-19:</p><b> 1) </b> Cough      <b> 2) </b> Shortness of breath or difficulty breathing<b> 3) </b> Fever (at or above 99.6°F)<b> 4) </b> Chills<b> 5) </b> Repeated shaking with chills<b> 6) </b> Headache<b> 7) </b> Sore throat<b> 8) </b> Muscle pain<b> 9) </b> New loss of taste or smell",
-      "infoButtons": [{
-          "linkText": "Cityplex 12 Location",
-          "link": "https://goo.gl/maps/wukXJVPEx7WXdUJL7"
-        },
-        {
-          "linkText": "Mt Pleasant Location",
-          "link": "https://goo.gl/maps/TLqdHV7mneeXtLdW8"
-        },
-        {
+        "link": "https://newarkarts.org/creative-catalyst-fund/"
+      }
+    ],
+    "introText": "<p><img class='intro-pic' src='assets/img/pagePhotos/arts.jpg'>Mayor Ras J. Baraka launched the Creative Catalyst Fund to provide artists and art groups with flexible grant support during the Coronavirus crisis and beyond. In January 2020, Mayor Baraka announced a broad vision for the City’s cultural sector to encourage equitable funding for the arts that sustains the creative community and grassroots arts organizations. Since then, the City launched its first arts grant program, the Creative Catalyst Fund, to ensure that the arts continue to thrive. In light of the COVID-19 crisis, the City acted to streamline operations, increasing the flexibility in how grantees may use awarded funds.",
+    "link": "arts-fund",
+    "parent": "/program",
+    "purpose": [
+      {
+        "body": "In collaboration with Newark Arts, the Fund will support the local community of artists as well as small-to-midsize arts and cultural organizations, all of which provide social and economic value to Newark by revitalizing neighborhoods, inspiring students, and improving the quality of life for city residents. The Fund will provide up to $1 million dollars annually for at least the next three years, beginning with $750,000 provided by the City to seed the initiative."
+      }
+    ],
+    "sections": [
+      {
+        "buttons": [
+          {
+            "link": "https://newarkarts.org/creative-catalyst-fund/"
+          }
+        ],
+        "header": "Prospective applicants can choose between two grant streams, based on eligibility:",
+        "text": "<ul><li>General Operating Support</li><p>for Newark-based non-profit arts and cultural organizations with annual operating budgets up to $2 million.  The grant range is $2,500 - $50,000. Grants over $5,000 must be matched by funds raised from other sources.<p><li>Artist Fellowships</li><p>for Newark-based individual artists or unincorporated artist collectives working in any artistic discipline.  The grant range is $1,000 - $10,000. There is no matching requirement.</p></ul><p>For grant applications and more information click apply. Applications will be accepted until Friday, May 1, 2020.</p>"
+      },
+      {
+        "header": "Acknowledgments",
+        "logos": [
+          "nwkCity",
+          "nwkArts",
+          "prudential",
+          "dodgeFoundation"
+        ],
+        "text": "<p>The Fund aligns with <a href='https://newarkarts.org/newark-creates/'>Newark Creates</a>, a cultural plan researched and developed by Newark Arts, and made final in 2019. Newark Creates is a collaborative plan on behalf of the City. The plan, funded by Prudential and The Geraldine R. Dodge Foundation, details an 18-month organized initiative of community members, nonprofit, for-profit, and governmental stakeholders working together to advance an equitable foundation for Newark to thrive with arts and culture.</p><p>Newark Arts is a 39-year-old, non-profit arts organization with a proven track record and experience with serving as a fund administrator for other grants from the City of Newark and reputable regional and national foundations.</p>"
+      }
+    ],
+    "subtitle": "For Artists and Arts Organizations Impacted By COVID-19",
+    "title": "Creative Catalyst Fund"
+  },
+  {
+    "category": "Small Business",
+    "icon": "business_center",
+    "infoButtons": [
+      {
+        "link": "https://www.surveymonkey.com/r/NewarkSmallBusinessCOVID19Grant"
+      }
+    ],
+    "introText": "<p><img class='intro-pic' src='assets/img/pagePhotos/Newark small business emergency grants.jpeg'> Businesses nationwide are suffering enormous impacts related to COVID-19. As one way to help impacted businesses and Newark families, Mayor Ras J. Baraka has taken the initiative to provide financial help to those who qualify. To mitigate barriers to capital for Newark’s most vulnerable small businesses, the City of Newark has committed $2 million in funding. This program may be used in conjunction with other emergency aid supplied by the State of New Jersey and the federal government.</p>",
+    "link": "small-business-grants",
+    "parent": "/program",
+    "purpose": [
+      {
+        "body": "This grant helps small businesses with losses they have experienced through loss of income, payroll loss, sales, etc. This emergency fund will provide working capital grants in amounts up to Ten Thousand Dollars ($10,000) to qualifying small businesses."
+      }
+    ],
+    "sections": [
+      {
+        "header": "Uses",
+        "text": "Proceeds can be used for most business-related items, including but not limited to, accounts payable, payroll, inventory, equipment, business compliance, licensing renewal, utilities, business capacity, legal, financial services, rent, insurance, business taxes, or supplies, subject to funding availability."
+      },
+      {
+        "header": "Requirements",
+        "text": "<p>If you represent a small business or non-profit organization in the City of Newark, you may be eligible to apply if you meet the following conditions:</p>        <ul><li>A physical establishment located in the City of Newark</li><li>Have ten (10) employees or less</li><li>Experienced a direct loss of income due to COVID-19</li>        </ul>"
+      },
+      {
+        "buttons": [
+          {
+            "link": "https://www.surveymonkey.com/r/NewarkSmallBusinessCOVID19Grant"
+          }
+        ],
+        "header": "Other Information",
+        "text": "<ul><li>The deadline to apply is April 30, 2020</li><li>Applicants will be notified within 14 days of submitting an application as to whether they have been selected to receive a grant</li><li>Those selected will receive their grants within 30 days of submitting an application.</li><li>For more information regarding the necessary documents that must be submitted and to complete an application, click “APPLY NOW” below.</li></ul>"
+      },
+      {
+        "header": "Acknowledgements",
+        "logos": [
+          "nwkCity",
+          "prudential",
+          "unitedWay",
+          "investNWK"
+        ],
+        "text": "<p>Under the guidance of Mayor Baraka’s, the City of Newark’s Department of Economic and Housing Development Department is collaborating in partnership with Prudential, the United Way of Greater Newark, and Invest Newark in this effort to alleviate the economic impacts of COVID-19 on our small business community.</p>"
+      }
+    ],
+    "title": "Newark 2020 Emergency Fund",
+    "subtitle": "For Small Businesses Impacted by COVID-19"
+  },
+  {
+    "category": "Housing",
+    "icon": "house",
+    "infoButtons": [
+      {
+        "link": "https://www.newarknj.gov/departments/economichousing",
+        "linkText": "Learn More & Apply"
+      }
+    ],
+    "introText": "<p><img class='intro-pic' src='assets/img/pagePhotos/Forgivable loans.jpg'>As part of his ongoing COVID-19 financial stimulus package, Mayor Ras J. Baraka announced that Newark will add an additional $1 million dollars into its “Live Newark” program, designed to give City residents access to home ownership. Home ownership stabilizes neighborhoods. It’s a key component of Mayor Baraka’s equitable growth vision for the City, in terms of safety, education and economic prosperity. When people own their homes, they have a greater investment in the well-being of their neighborhoods. The $1 million in additional funds will make existing programs available to more residents, at a time when homeownership is endangered by the Covid-19 Crisis.</p>",
+    "link": "homeowner-relief",
+    "parent": "/program",
+    "purpose": [
+      {
+        "body": "The program provides $5,000 down payment forgivable loans to first-time home buyers and forgivable loans up to $15,000 for homeowners undertaking external repairs. There are also $5,000 down payment forgivable loans to City employees. The forgivable loan terms all require the recipient to live in the house for at least five years.",
+        "header": "Forgivable Loans",
+        "rows": "1"
+      }
+    ],
+    "sections": [
+      {
+        "buttons": [
+          {
+            "link": "https://www.newarknj.gov/departments/economichousing",
+            "linkText": "Learn More & Apply"
+          }
+        ],
+        "header": "Programs",
+        "text": "<ul><h3>Closing Cost Program</h3><li>Provides $5000 no interest loans to first-time homebuyers to purchase a home in Newark. The loan is forgiven after the recipient has lived in the home for five years.</li>      <h3>Façade Improvement Program</h3><li>Creates pride in ownership, preserves or increase the value of residential properties, beautifies neighborhoods by helping to fund facade repair and other external improvements such as repairs to or replacement of roofs, porches, driveways, windows and doors; painting or siding; landscaping, etc. It provides up to a $15,000 no interest forgivable loan for owner-occupied homes.</li>      <h3>Municipal Employee Housing Assistance Program</h3><li>Provides $5000 no interest loans to City employees to purchase a home as first-time homebuyers in Newark. The loan is forgiven after the recipient has lived in the home for five years.</li></ul><p>Click 'Learn More' below to find applications for the Live Newark programs and more detailed information</p>"
+      },
+      {
+        "header": "Acknowledgements",
+        "logos": [
+          "nwkCity",
+          "usHUD"
+        ],
+        "text": "<p>The funds come from the U.S. Department of Housing and Urban Development (HUD) as part of its Home Investment Partnership Program, designed to help states and cities provide decent and affordable housing for urban Americans.</p>"
+      }
+    ],
+    "subtitle": "For Homeowners & First-Time Buyers",
+    "title": "COVID-19 Relief Program"
+  },
+  {
+    "category": "Housing",
+    "icon": "people",
+    "infoButtons": [
+      {
+        "link": "mailto:EHD@ci.newark.nj.us?subject=Short Term Rapid Housing",
+        "linkText": "Email EHD"
+      }
+    ],
+    "introText": "<p><img class='intro-pic' src='assets/img/pagePhotos/Homeless.jpg'> In keeping with Mayor Ras J. Baraka’s aggressive citywide shelter-in-place order, a $1 million program to immediately house people in need of shelter has been put in place. The City has negotiated with lodging and housing providers to secure temporary emergency shelter for about 300 people without permanent housing and others who may otherwise be unable to self-quarantine, such as elderly people in senior housing who have tested positive for COVID-19 and risk infecting others. These temporary emergency shelters are located locations are throughout Newark and are staffed with on-site medical and food services.</p>",
+    "link": "safe-housing",
+    "parent": "/program",
+    "purpose": [
+      {
+        "body": "This is a public health policy. We also know that many of our residents without permanent addresses are especially vulnerable at this time as they do not have a safe and secure residence to practice social distancing. There are about 400 to 500 chronically unsheltered people in City of Newark. This intervention is not only necessary to ensure their health and safety through the provision of a safe abode equipped with on-site medical services and food, it is also a crucial measure in the City of Newark’s aggressive goal to flatten the curve."
+      }
+    ],
+    "sections": [
+      {
+        "header": "Uses",
+        "text": "<p>Mayor Baraka has placed the entire City of Newark on the state’s most restrictive shelter-in-place order, requiring all persons to stay indoors except for necessary outings, such as shopping for food and medicine, seeing a doctor, dog-walking or for a brief breath of fresh air right outside of one’s home, all while maintaining a distance of at least six feet from one another.</p>      <p>Once the shelter-in-place order was issued, City officials quickly secured housing for residents without indoor options. The City reached out to more than a dozen housing providers and has been able to secure access to more than 200 units or rooms to house persons in need of shelter for up to 90 days.</p>      <p>The provision of emergency temporary housing to an otherwise homeless population keeps them and all other residents safe, and slows the transmission of COVID-19. This effort will continue until all citizens are safely sheltered.</p>"
+      },
+      {
+        "buttons": [
+          {
+            "link": "mailto:EHD@ci.newark.nj.us?subject=Short Term Rapid Housing",
+            "linkText": "Email EHD"
+          }
+        ],
+        "header": "Information",
+        "text": "<p>For more details on the short-term rapid housing program, please email <a href='mailto:EHD@ci.newark.nj.us?subject=Short Term Rapid Housing'>EHD@ci.newark.nj.us<a> and put 'Short Term Rapid Housing' in the subject line.</p>"
+      }
+    ],
+    "subtitle": "During COVID-19 ‘Shelter in Place’ Enforcement",
+    "title": "Safe Housing for Homeless"
+  },
+  {
+    "category": "Small Business",
+    "icon": "business_center",
+    "infoButtons": [
+      {
+        "link": "assets/docs/Tax Relief applicataion.pdf",
+        "linkText": "Download Application"
+      },
+      {
+        "link": "assets/docs/Tax Liability Relief  Agreement 4.8.20 (002).pdf",
+        "linkText": "Download Agreement"
+      },
+      {
+        "link": "assets/docs/Tax Relief Certifications.pdf",
+        "linkText": "Download Certification"
+      },
+      {
+        "link": "mailto:ehd@ci.newark.nj.us?subject=Application for Commercial Property Tax Relief",
+        "linkText": "Apply via Email"
+      }
+    ],
+    "introText": "<p><img class='intro-pic' src='assets/img/pagePhotos/help for commercial tenants.jpg'> Mayor Ras J. Baraka has launched a program to help commercial property owners and their tenants who have each lost significant income during the COVID-19 crisis to remain solvent and avoid evictions and foreclosures. With this program, Newark is seeking to prevent the loss of jobs and rows of empty storefronts which cause blight and demoralize those who live and work here. The program will help to prevent business tenants from being evicted and commercial owners from suffering foreclosure.</p>",
+    "link": "commercial-prop",
+    "parent": "/program",
+    "purpose": [
+      {
+        "body": "If commercial tenants are no longer able to pay their full rent during the Covid-19 crisis, property owners will be hard-pressed to pay their property taxes and be in danger of losing their buildings. This initiative will help avoid a massive surge in vacancies that could seriously damage the city’s culture, character, economic stability and reverse the extraordinary progress Newark has been making.",
+        "header": "Provides property tax reductions passed along to tenants"
+      }
+    ],
+    "sections": [
+      {
+        "header": "How It Works",
+        "text": "<p>Under the program, property owners and tenants would apply jointly for significant property tax relief in proportion to the property owner’s loss of revenue. In exchange for the property tax relief, the owner would agree to not evict a tenant for non-payment of rent for one year from the date of approval of relief.</p><p>The loss in revenue due to COVID-19 for both landlord and tenant must be greater than 33 percent of regular income for the tenant space and respective business in order to qualify. The City will significantly reduce the property tax of the tenant’s space, through cancellation, depending on the specifics of the arrangement between the tenant and property owner. Depending on the length of the shutdown and extent of income loss, the tenant and property owner may re-apply after 12 months.</p>"
+      },
+      {
+        "buttons": [
+          {
+            "link": "assets/docs/Tax Relief applicataion.pdf",
+            "linkText": "Download Application"
+          },
+          {
+            "link": "assets/docs/Tax Liability Relief  Agreement 4.8.20 (002).pdf",
+            "linkText": "Download Agreement"
+          },
+          {
+            "link": "assets/docs/Tax Relief Certifications.pdf",
+            "linkText": "Download Certification"
+          },
+          {
+            "link": "mailto:wilsonaa@ci.newark.nj.us?subject=Application for Commercial Property Tax Relief",
+            "linkText": "Apply via Email"
+          }
+        ],
+        "header": "Inquire Today",
+        "text": "To learn more, you can contact Newark's Tax Assesor Aaron Wilson by email at <a href='mailto:wilsonaa@ci.newark.nj.us?subject=Application for Commercial Property Tax Relief'>wilsonaa@ci.newark.nj.us</a> or by phone at <a href='tel:9737338509'>(973) 733-8509</a>. To apply include the completed application and documentation as attachments."
+      }
+    ],
+    "subtitle": "Seriously Harmed by COVID-19 Emergency",
+    "title": "Helping Commercial Property Owners & Tenants"
+  },
+  {
+    "category": "Housing",
+    "icon": "people",
+    "infoButtons": [
+      {
+        "link": "mailto:OTLS@ci.newark.nj.us?subject=Tenant Eviction Moratorium Question",
+        "linkText": "Email EHD To Learn More"
+      }
+    ],
+    "introText": "<p><img class='intro-pic' src='assets/img/pagePhotos/eviction moritorium.jpg'>  'The temporary suspension of evictions does not amount to a rent holiday, but merely allows tenants to remain in their homes during the health crisis. Tenants are reminded of their continued obligation to pay the rent. The program will help to prevent business tenants from being evicted and commercial owners from suffering foreclosure.</p>",
+    "link": "eviction-moratorium",
+    "parent": "/program",
+    "purpose": [
+      {
+        "body": "<p>Pursuant to Governor Murphy’s March 19, 2020 Executive Order, removal of individuals from residential properties through the eviction or foreclosure processes are prohibited until the Governor declares that the public health crisis is officially over.</p><p>Renters may now use security deposits to cover rent as long as landlord is notified.</p>",
+        "header": "Statewide"
+      }
+    ],
+    "sections": [
+      {
+        "buttons": [
+          {
+            "link": "https://covid19.nj.gov/forms/renter",
+            "linkText": "More Info on State Eviction Moratorium"
+          }
+        ],
+        "header": "Security Deposits",
+        "text": "Tenants may now instruct landlords to use their security deposits to offset rent or back rent. Tenants will not be obligated to make any further security deposit relating to their current lease agreement but would still be responsible for any money landlords expend that would have been reimbursable via the security deposit such as damage to the property. This executive order will be in place until 60 days after the public health emergency is terminated."
+      },
+      {
+        "header": "Newark",
+        "text": "Mayor Baraka has imposed a moratorium on evictions based upon nonpayment of rent. This means that the tenant may cite the moratorium as a defense to an eviction action based upon nonpayment of rent that becomes due during the moratorium, provided the tenant can demonstrate that the nonpayment resulted from the financial hardship caused by the COVID-19 pandemic. In addition, the Essex County Sheriff’s office has confirmed that they will not be executing warrants of removal (“lockouts”) during the current public health emergency"
+      },
+      {
+        "header": "Emergency Court Applications",
+        "text": "Tenants can still file emergency court applications, but must now file them electronically. They can do so through the Judiciary Electronic Document Submission (JEDS) at <a href='https://njcourts.gov/selfhelp/jeds.html'>njcourts.gov/selfhelp/jeds.html</a>."      },
+      {
+        "buttons": [
+          {
+            "link": "mailto:OTLS@ci.newark.nj.us?subject=Tenant Eviction Moratorium Question",
+            "linkText": "Email EHD To Learn More"
+          }
+        ],
+        "header": "Questions",
+        "text": "Tenants who have questions about any of the aforementioned may email the City of Newark’s Office of Tenant Legal Services at OTLS@ci.newark.nj.us. All other inquiries should be made to the City of Newark’s Law Department by calling 973-733-3880."
+      }
+    ],
+    "subtitle": "During COVID-19 Emergency",
+    "title": "Tenant Eviction Moratorium"
+  },
+  {
+    "category": "Small Business",
+    "icon": "business_center",
+    "infoButtons": [
+      {
+        "link": "https://bit.ly/CityofNewarkERSU",
+        "linkText": "Learn More & Apply"
+      }
+    ],
+    "introText": "<p><img class='intro-pic hide-sm' src='assets/img/pagePhotos/Essential Workers.jpg'><img class='intro-pic logo-sm' src='assets/img/logos/logo_nwkAlliance.png'> The City of Newark Emergency Response Staffing Unit is a collective recruitment effort by Newark 2020, Newark Workforce Development Board and the workforce ecosystem in the City of Newark in response to the urgent need for essential personnel in the city of Newark. This includes healthcare professionals, food service workers, construction tradesmen, drivers, case workers, mental health professionals, janitorial and maintenance staff.</p>",
+    "link": "recruiting-essential-workers",
+    "parent": "/program",
+    "purpose": [
+      {
+        "body": "The goal is to help reduce the strain on our healthcare professionals by increasing the number of workers in the hospitals and training our homegrown talent in the City.  We are in this together!"
+      }
+    ],
+    "sections": [
+      {
+        "buttons": [
+          {
+            "link": "https://bit.ly/CityofNewarkERSU",
+            "linkText": "Learn More & Apply"
+          }
+        ],
+        "header": "On the City of Newark Emergency Response Staffing Unit site:",
+        "text": "<ul><li>Job Seekers can:<ul><li>Register and upload their resume to be connected to a hiring employer</li><li>Access resources on virtual technology, labor trends, online tools and mental health resources</li><li>Register for group and individual career coaching sessions</li></ul></li><li>Employers can:<ul><li>Register their business and identify staffing needs</li><li>Connect with a Job Developer or Account Manager to discuss specific sourcing strategies to meet COVID-19 related demands</li><li>Connect furloughed workers to temporary roles within other companies</li><li>Access resources in the following areas (on a rotating basis for now):<ul><li>Government Resources </li><li>COVID-19, Crisis Management, & Leadership During Crisis</li><li>HR & Recruiting During a Crisis </li><li>Mental Health Resources for Organizations</li><li>Financial Resources and Services during COVID-19</li><li>Managing Virtual Teams, Tools, and Best Practices </li><li>Sales and Nurturing Customer Relationships</li><li>Boosting Morale </li><li>Marketing, Branding, and Social Media</li><li>Legal Updates</li></ul></li></ul></ul>"
+      },
+      {
+        "header": "Acknowledgements",
+        "logos": [
+          "nwkAlliance",
+          "NRBP",
+          "nwkCity"
+        ],
+        "text": "<p>This program was made possible by the collaboration of the Newark Alliance, the Workforce Development Board at Newark Regional Business Partnership and the City of Newark</p>"
+      }
+    ],
+    "subtitle": "City of Newark Emergency Response Staffing Unit",
+    "title": "Recruiting Additional Essential Workers"
+  },
+  {
+    "category": "Employment & Wellness",
+    "icon": "business_center",
+    "infoButtons": [
+      {
+        "link": "https://bit.ly/Newark2020COVIDimpacysurvey",
+        "linkText": "Business Impact Survey"
+      },
+      {
+        "link": "https://bit.ly/CandidateNeedsSurvey1",
+        "linkText": "Newark Resident Needs Survey"
+      }
+    ],
+    "introText": "<p><img class='intro-pic hide-sm' src='assets/img/pagePhotos/Measuring Impact.jpeg'><img class='intro-pic logo-sm' src='assets/img/logos/logo_nwkAlliance.png'>Newark Alliance is dedicated to the ongoing economic revitalization of Newark, striving to transform our city into a better and safer place to work, live, learn, play and do business. Supported by corporate and community partners, the Alliance has successfully leveraged Newark's competitive assets to generate economic growth for the city, state, region and beyond. Through innovative partnerships with stakeholders, the Alliance is delivering equitable growth for residents and visitors alike, advancing Newark's renaissance into one of America's great cities. It is now working to survey the impact of the COVID-19 Crisis. If you are an employer or resident, please fill out the appropriate survey below.</p>",
+    "link": "measuring-covid-impact",
+    "parent": "/program",
+    "purpose": [
+      {
+        "body": "It's important that we measure the impact of COVID-19 on Newark residents and businesses so that future employment programs are based on real needs and not assumptions."
+      }
+    ],
+    "sections": [
+      {
+        "buttons": [
+          {
+            "link": "https://bit.ly/Newark2020COVIDimpacysurvey",
+            "linkText": "Business Impact Survey"
+          }
+        ],
+        "header": "Employer COVID-19 Business Impact Survey",
+        "text": "<h3>Employer’s Share the Impact of COVID-19 on Your Business</h3><p>We recognize the seriousness of the pandemic and many unprecedented challenges that our employer partners face. We are surveying employers to gauge the impact of COVID-19 on our businesses locally, so that we may provide connections to needed information and resources and adjust our talent sourcing strategies to meet the changing needs of our employer partners, and train candidates with new virtual workplace skills and technologies to adapt to this 'next normal.'</p><p>In addition to the high-level survey below, please let us know how we can best support you during this time.</p>"
+      },
+      {
+        "buttons": [
+          {
+            "link": "https://bit.ly/CandidateNeedsSurvey1",
+            "linkText": "Newark Resident Needs Survey"
+          }
+        ],
+        "header": "Citywide Personal and Professional Needs Assessment",
+        "text": "<h3>Newark Residents, your input is needed!</h3>        <p>We are surveying Newark residents to determine your personal and professional needs in response to COVID-19 so that we can offer services that are in most demand. Please take 3 minutes to complete the survey.</p>"
+      }
+    ],
+    "subtitle": "On Newark Businesses and Residents",
+    "title": "Measuring the Impact of COVID-19"
+  },
+  {
+    "icon": "business_center",
+    "title": "Emergency Fund For 501(c)3 Nonprofits",
+    "link": "non-profit",
+    "subtitle": "Aiding Newark Residents Impacted By Covid-19",
+    "introText": "<p><img class='intro-pic' src='assets/img/pagePhotos/Nonprofit.jpg'> In this time of crisis, communities nationwide are suffering enormous impacts related to COVID-19. The City of Newark is fortunate to have numerous non-profit organizations that have risen to the task of providing vital services to the local community in response to the market distress and upheaval caused by the COVID-19 pandemic. Mayor Ras J. Baraka, in an effort to strengthen and stabilize these non-profit organizations, has created an emergency fund aimed at providing financial relief to eligible Newark-based 501(c)(3) non-profit organizations that provide a direct service related to COVID-19 and/or have expended extra funds in creating new programs or in expanding existing programs to the benefit of Newark’s local economy and community. To apply click the link below and send the email to request an application</p>",
+    "infoButtons": [
+      {
+        "link": "mailto:nonprofitgrant@ci.newark.nj.us?subject=Request for Emergency Non-Profit Grant Application",
+        "linkText": "Request Application for Funds"
+      }
+    ],
+    "purpose": [
+      {
+        "body": "This emergency fund, which will be administered by the City of Newark’s Department of Economic and Housing Development, will provide One Million Dollars ($1,000,000) with grants ranging from $5,000 to $50,000 to qualifying 501(c)(3) non-profit organizations. The application will be made available for qualifying 501(c)(3) non-profit organizations on Monday, April 20, 2020 through Friday, May 22, 2020. During these 30 days the city will provide grants on an ongoing basis in order to meet the financial need of organizations."
+      }
+    ],
+    "sections": [
+      {
+        "header": "Applicant Requirements to Apply for this Grant",
+        "text": "<ul><li>Must provide proof of 501(c)(3) non-profit organization status;</li><li>Have a physical location in Newark;</li><li>Have directly provided services/programs unique to the COVID-19 pandemic to Newark residents/communities OR expanded their services/programs to meet the needs of their usual community base;</li><li>Provide copy of most recent audit;</li><li>Provide copy of IRS Form 990;</li><li>Provide documentation of their annual budget;</li><li>At time of submittal of application, you must also provide a letter on your organization’s letterhead with the amount of funding you’re requesting for the fulfillment of your services during this pandemic;</li><li>Provide a letter with a line item cost breakdown of total requested amount of funding with supporting documents of expenses: invoices that have been paid and not paid;</li><li>And finally, a letter with description of beneficiaries served, which includes: (a) name and address, (b) ethnicity, (c) percentage of AMI of individuals served, (d) senior/non senior, and (e) total number of individuals served in households.</li></ul><p>Click the link below to send an email requesting the application. Include information about your non-profit.</p>",
+        "buttons": [
+          {
+            "link": "mailto:nonprofitgrant@ci.newark.nj.us?subject=Request for Emergency Non-Profit Grant Application",
+            "linkText": "Request Application for Funds"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Save Lives. Stay Healthy. Safely Re-Open.",
+    "link": "testing",
+    "parent": "/programs",
+    "title": "How & Where to Get Tested in Newark",
+    "icon": "local_hospital",
+    "introText": "<p><img class='intro-pic' src='assets/img/pagePhotos/Coronavirus-test.jpg'>At this time, testing is prioritized for individuals who are close contacts of confirmed COVID-19 cases, individuals who traveled to/from highly affected areas, individuals without symptoms who come from racial and ethnic minority groups disproportionately affected by adverse COVID-19 outcomes, or those who are sick and experiencing <b>at least three</b> of the <a href='https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html'>nine CDC-recognized symptoms</a> of COVID-19:</p><b> 1) </b> Cough      <b> 2) </b> Shortness of breath or difficulty breathing<b> 3) </b> Fever (at or above 99.6°F)<b> 4) </b> Chills<b> 5) </b> Repeated shaking with chills<b> 6) </b> Headache<b> 7) </b> Sore throat<b> 8) </b> Muscle pain<b> 9) </b> New loss of taste or smell",
+    "infoButtons": [
+      {
+        "linkText": "Cityplex 12 Location",
+        "link": "https://goo.gl/maps/wukXJVPEx7WXdUJL7"
+      },
+      {
+        "linkText": "Mt Pleasant Location",
+        "link": "https://goo.gl/maps/TLqdHV7mneeXtLdW8"
+      },
+      {
         "link": "https://g.page/bbpskating?share",
         "linkText": "Branch Brook Location"
-        }],
-        "purpose": [{
+      }
+    ],
+    "purpose": [
+      {
         "header": "There are a growing number of testing sites in Newark open to the public",
-        "body": "See below for more information"
-      }],
-      "sections": [
-        {
-          "header": "1. Testing Sites Available Now or Coming Soon:",
-          "text": "<img class='intro-pic card' src='assets/img/Newark COVID-19 Testing Sites.png'>",
-          "buttons": [
-            {
-              "linkText": "Cityplex 12 Location",
-              "link": "https://goo.gl/maps/wukXJVPEx7WXdUJL7"
-            },
-            {
-              "linkText": "Mt Pleasant Location",
-              "link": "https://goo.gl/maps/TLqdHV7mneeXtLdW8"
-            },
-            {
+        "body": "If you are employed by a business or organization with direct public contact, testing is available and required."
+      }
+    ],
+    "sections": [
+      {
+        "header": "1. Testing Sites Available Now or Coming Soon:",
+        "text": "<img class='intro-pic card' src='assets/img/Newark COVID-19 Testing Sites.png'>",
+        "buttons": [
+          {
+            "linkText": "Cityplex 12 Location",
+            "link": "https://goo.gl/maps/wukXJVPEx7WXdUJL7"
+          },
+          {
+            "linkText": "Mt Pleasant Location",
+            "link": "https://goo.gl/maps/TLqdHV7mneeXtLdW8"
+          },
+          {
             "link": "https://g.page/bbpskating?share",
             "linkText": "Branch Brook Location"
-            }]
-        },
-        {
-          "header": "2. Weequahic Park Drive-Thru Testing",
-          "text": "<h3>Weequahic Park - Drive-Thru - BY APPOINTMENT ONLY</h3><ul><li>Elizabeth Ave & Meeker Ave</li><li>Newark, NJ 07112</li><li>Testing is by appointment only.</li></ul>",
-          "buttons": [{
-          "link": "https://goo.gl/maps/Aqx7HPDxeqtLmbXR6",
-          "linkText": "Get Directions"
-          }]
-        },
-        {
-          "text": "<p>To make an appointment, residents can visit <a href='http://www.essexcovid.org/'>www.EssexCOVID.org</a> or call the Essex County Office of Emergency Management at <a href='tel:9733249950'>973-324-9950</a>. (The call-in center will be open from 7 a.m. to 11 p.m.) Appointments will be scheduled from 9 a.m. to 12 noon. Anyone making an appointment will receive a confirmation number; residents must bring the confirmation number with them to their appointment.</p><p>Tests are being offered free of charge. Having health insurance is not a requirement. Follow up contact will be made to assess the continuing health of the person who completed the screening.</p><p>Medical personnel from RWJBarnabas Health System, Newark Beth Israel Medical Center, University Hospital, Hackensack Hospital, Essex County Hospital and nurses from public schools in Essex County are staffing the testing sites and call-in center.</p><p>Residents must arrive to testing site by car. For the safety of residents and workers, residents who arrive on foot will not be tested.</p>"
-        }
-      ]
-   }
+          }
+        ]
+      },
+      {
+        "header": "2. Weequahic Park Drive-Thru Testing",
+        "emphasizeHeader": true,
+        "text": "<h3>Weequahic Park - Drive-Thru - BY APPOINTMENT ONLY</h3><ul><li>Elizabeth Ave & Meeker Ave</li><li>Newark, NJ 07112</li><li>Testing is by appointment only.</li></ul>",
+        "buttons": [
+          {
+            "link": "https://goo.gl/maps/Aqx7HPDxeqtLmbXR6",
+            "linkText": "Get Directions"
+          }
+        ]
+      },
+      {
+        "text": "<p>To make an appointment, residents can visit <a href='http://www.essexcovid.org/'>www.EssexCOVID.org</a> or call the Essex County Office of Emergency Management at <a href='tel:9733249950'>973-324-9950</a>. (The call-in center will be open from 7 a.m. to 11 p.m.) Appointments will be scheduled from 9 a.m. to 12 noon. Anyone making an appointment will receive a confirmation number; residents must bring the confirmation number with them to their appointment.</p><p>Tests are being offered free of charge. Having health insurance is not a requirement. Follow up contact will be made to assess the continuing health of the person who completed the screening.</p><p>Medical personnel from RWJBarnabas Health System, Newark Beth Israel Medical Center, University Hospital, Hackensack Hospital, Essex County Hospital and nurses from public schools in Essex County are staffing the testing sites and call-in center.</p><p>Residents must arrive to testing site by car. For the safety of residents and workers, residents who arrive on foot will not be tested.</p>"
+      }
+    ]
+  },
+  {
+    "category": "Housing",
+    "link": "emergency-rent-grants",
+    "parent": "/programs",
+    "title": "Emergency Grants of Up to $1,000 for Housing Assistance",
+    "subtitle":"Coming Soon: NJ State Rental Assistance Grants",
+    "icon": "house",
+    "introText": "<p><img class='intro-pic' src='assets/img/pagePhotos/rentdue.jpg'>Newark is a city of renters with only 22 percent of us owning our own homes. The COVID-19 crisis has left many tenants struggling to pay rent. Mayor Baraka created this One Million Dollar Emergency Housing Assistance Fund to supplement his moratorium on evictions and to enable tenants to keep their homes.</p><p>To help Newark residents and their families having difficulty paying rent as a result of COVID-19, the City will provide grants to those who fall under 60 percent of Area Median Income. For example, a single individual with an income of up to $42,300 and a family of 4 with an income up to $60,360 would be eligible to receive help with rental payments.</p>",
+    "infoButtons": [
+      {
+      "linkText": "Grant Application & FAQs",
+      "link": "http://newarkha.org/Housing/Covid19-Emergency-Rental-Assistance",
+      "extraClass": "important"
+    }],
+    "purpose": [
+      {
+        "body": "Applications are open now, click above or below to get started."
+      }
+    ],
+    "sections": [
+      {
+        "header": "More Info",
+        "text": "The City of Newark’s Economic Housing Development Department in partnership with Newark Housing Authority will coordinate this effort. The up to $1,000 grant will help Newark renters that have experienced loss of income, decrease of regular working hours, lay-off, or furlough, etc.",
+        "buttons": [
+          {
+            "link": "http://newarkha.org/Housing/Covid19-Emergency-Rental-Assistance",
+            "linkText": "Grant Application & FAQs"
+          }
+        ]
+      },
+      {
+        "emphasizeHeader": true,
+        "header": "State will Launch Short-Term Rental Assistance to Help Tenants Affected by COVID-19.",
+        "text": "<p>The new program Will Provide at least $100 Million in Temporary Rental Assistance for Low- to Moderate-Income Households, Including the Homeless or Those at Risk of Homelessness</p><p><u>The program will open for applications in July and begin paying rental assistance in September</u>. Qualifying households will be expected to pay 30 percent of their income toward rent, and the program will pay the remainder of their rent up to a fair market rent payment standard. At the three-month mark, the household budget will be reviewed to determine if assistance is still needed. Assistance that is no longer required will be used to serve additional families.</p><p>20 percent of the funding will serve those who are very low income and homeless or at risk of homelessness with up to 12 months of rental assistance. To help families reach self-sufficiency, case management, financial planning, and other assistance will be provided by the program.</p><p>For the remainder of the funding, the State DCA will administer an online lottery. When the lottery is opened, households may submit applications and participants will be selected from the overall pool of applicants through a randomized process based on eligibility and the lottery criteria. Applicants selected through the lottery will be eligible to receive up to six months of short-term rental assistance.</p>",
+        "buttons": [
+          {
+            "link": "https://urldefense.com/v3/__https:/t.e2ma.net/click/b6ct9c/j83xrcb/j051tj__;!!J30X0ZrnC1oQtbA!cEMZjd60VMS0_KmeW-ztpyQxOzL-vj0o-BmShgsWfOj-A1lad9hdlIYN83T71nxmSLw6k_5V$",
+            "linkText": "More Information about NJ Rental Assistance",
+            "extraClass": "important"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Housing",
+    "link": "rent-increase-freeze",
+    "parent": "/programs",
+    "title": "Mayor Baraka’s Moratorium on Rent Increases for Rent Controlled Tenants",
+    "icon": "house",
+    "introText": "<p><img class='intro-pic' src='assets/img/pagePhotos/rent_control.jpg'>Mayor Baraka has issued an executive order imposing a <b>temporary moratorium on residential rent increases for Rent Controlled units</b> until no later than two months following the end of the State of Emergency. The moratorium will prevent any increase in rent including funds for parking, pets, the use of furniture, subletting, and security, damage and cleaning deposits in any property covered by the Newark Rent Control Ordinance.</p><p>This moratorium is <b>retroactive to April 1, 2020</b>, and will remain in effect throughout the State of Emergency declaration in the City of Newark and for a period of two months following the end of the Emergency declaration.</p>",
+    "infoButtons": [
+      {
+      "linkText": "Full Text of Order",
+      "link": "docs/rent-increase-freeze-order",
+      "extraClass": "important"
+    }],
+    "sections": [
+      {
+        "text": "<p>The Rent Control Ordinance was passed by the Newark Municipal Council on November 20, 1973 and amended throughout the years. The most recent overhaul of the Rent Control Ordinance whereas new amendments were adopted became effective on September 11, 2019.</p><p>To determine if your unit is governed by rent control please utilize the FAQ below and/or contact the Rent Control Office at <a href='mailto:rentcontrol@ci.newark.nj.us'>rentcontrol@ci.newark.nj.us</a> or <a href='tel:9737333675'>973-733-3675</a>.</p>",
+        "buttons": [{
+          "link":"assets/docs/The Office of Rent Control - FAQ-2019 (April 2019).pdf",
+          "linkText": "PDF Version of FAQs",
+          "icon": "get_app"
+        }]
+      }
+    ],
+    "hideBottomBar": true
+  }
 ]

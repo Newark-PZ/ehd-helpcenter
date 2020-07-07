@@ -1,13 +1,14 @@
 [
   {
-    "category": "Save Lives. Stay Safe. Reopen.",
+    "category": "Save Lives. Stay Healthy. Safely Re-Open.",
     "link": "newark-reopening-recovery",
     "parent": "/stayingin",
     "title": "Newark Reopening and Recovery Strikeforce",
     "icon": "local_hospital",
-    "introContent": [{
-      "text":
-      "<h3><img class='intro-pic' src='assets/img/pagePhotos/Work from home.jpg'>Mayor Ras J. Baraka has announced the collaboration of city leaders to create policies and strategies on how to continue to move Newark forward when the COVID-19 threat lessens.</h3><p>Called the <b>Newark Reopening and Recovery Strikeforce</b>, the task force will build off the unprecedented cooperation between government, the private sector and organizations during the COVID-19 crisis and continue to work collectively to solve problems.</p>"
+    "infoButtons": [{
+      "linkText": "Strikeforce Recommendations Summary",
+      "link": "assets/docs/NewarkStrikeforceSummaryRecommendations.pdf",
+      "extraClass": "important"
     }],
     "programs": [
     {
@@ -24,36 +25,159 @@
 }
   ]
   },
-    {
-      "category": "Save Lives. Stay Safe.",
-      "link": "be-still-mondays",
-      "parent": "/stayingin",
-      "title": "Be Still Mondays",
-      "icon": "local_hospital",
-      "introContent": [{
-        "text": "<h3><img class='intro-pic' src='assets/img/pagePhotos/mondays.jpg'>Mayor Baraka has asked “everyone to stay home” for a nearly complete shut-down of the City of Newark on Mondays to bring attention to the severity of the COVID-19 spread in the community and help slow the spread. Be Still Mondays” will happen each week for the next month.</h3><h3>If you’re not a police officer, a fireman, a nurse or other frontline medical worker, stay home.</h3>"
-      }],
-      "programs": [{
-        "header": "Exceptions",
-        "text": "<p>The City of Newark’s “Be Still Mondays” is not an executive order, but it’s a request that discourages all businesses except for health, safety, and welfare emergency services to close. For instance, businesses that provide food and shelter for the homeless population may operate but the City is asking soup kitchens to limit their operations from 11:30 a.m. to 2 p.m.</p><p>The City would like businesses deemed “essential” by prior executive orders, such as food stores and pharmacies, to also close, as well as downtown corporations and manufacturing companies.</p><p>The idea is to show community-wide solidarity in the face of the aggressive COVID-19 virus that is especially ravaging black and brown communities nationwide.</p><p>Important: Click below for more information about the Rules",
-        "linkText": "NJ Stay at Home and Essential Business Rules",
-        "link": "https://covid19.nj.gov/faqs/nj-information/general-public/what-are-the-“stay-at-home”-rules-in-new-jersey-what-businesses-are-closed"
-      }]
-    },
-    {
-      "category": "Save Lives. Stay Safe.",
-      "link": "stay-at-home",
-      "parent": "/stayingin",
-      "title": "Shelter-in-Place Order",
-      "icon": "local_hospital",
-      "introContent": [{
-        "text":
-        "<h3><img class='intro-pic' src='assets/img/pagePhotos/shelter-in-place.jpg'>To protect residents against the spread of COVID-19, Mayor Ras J. Baraka has announced a strict City-wide “shelter-in-place” mandate and all-city quarantine that will be strictly enforced by law enforcement.</h3><p>People must stay home and not come out unless it’s an emergency.</p>"
-      }],
-      "programs": [
+  {
+    "category": "Save Lives. Stay Healthy. Safely Re-Open.",
+    "link": "be-still-mondays",
+    "parent": "/stayingin",
+    "title": "Be Still Mondays",
+    "icon": "local_hospital",
+    "introText": "<h3><img class='intro-pic' src='assets/img/pagePhotos/mondays.jpg'>Mayor Baraka has asked “everyone to stay home” for a nearly complete shut-down of the City of Newark on Mondays to bring attention to the severity of the COVID-19 spread in the community and help slow the spread. Be Still Mondays” will happen each week for the next month.</h3><h3>If you’re not a police officer, a fireman, a nurse or other frontline medical worker, stay home.</h3>",
+    "sections": [
       {
         "header": "Exceptions",
-        "text": "<p>You can still go to the supermarket, local store for essentials, pharmacy, doctor, walk dogs, step out and get fresh air in front or back of home/doorstep/porch/terrace, or if an essential employee. Also, children need to be accompanied by an adult and people should only leave their homes in pairs.</p><p>While out, you must maintain the Center for Disease Control’s (CDC) recommendation of keeping six feet apart.</p><p><b>Residents are urged to call police if they see groups of people hanging out and violating this mandate.</b></p>"
-      }]
-    }
+        "text": "<p>The City of Newark’s “Be Still Mondays” is not an executive order, but it’s a request that discourages all businesses except for health, safety, and welfare emergency services to close. For instance, businesses that provide food and shelter for the homeless population may operate but the City is asking soup kitchens to limit their operations from 11:30 a.m. to 2 p.m.</p><p>The City would like businesses deemed “essential” by prior executive orders, such as food stores and pharmacies, to also close, as well as downtown corporations and manufacturing companies.</p><p>The idea is to show community-wide solidarity in the face of the aggressive COVID-19 virus that is especially ravaging black and brown communities nationwide.</p><p>Important: Click below for more information about the Rules",
+        "buttons": [{
+        "linkText": "NJ Stay at Home and Essential Business Rules",
+        "link": "https://covid19.nj.gov/faqs/nj-information/general-public/what-are-the-“stay-at-home”-rules-in-new-jersey-what-businesses-are-closed"
+        }]
+      }
+    ]
+  },
+  {
+    "category": "Save Lives. Stay Healthy. Safely Re-Open.",
+    "link": "phase-one",
+    "parent": "/stayingin",
+    "title": "First Steps in Preparation for Eventual Re-Opening",
+    "icon": "verified_user",
+    "introText": "<p><img class='intro-pic' src='assets/img/pagePhotos/broadmarket.jpg'>Mayor Ras J. Baraka has presented the first phase of the plan to re-open Newark beginning June 1.  Phase One is about us getting Newark prepared to open. We’re advancing, but it also gives us room to retreat if the numbers go back up. Our top priority is the health and safety of Newark residents.</p><p>Phase One is based on data that shows a continued decline in COVID-19 cases and from the recommendations of the Newark Reopening and Recovery Strikeforce. The data collected shows while Newark has increased testing 100 percent, the percentage of people who have tested positive has dropped dramatically, as well as reported cases and deaths.</p>",
+    "sections": [
+      {
+        "text": "<p>As part of Phase One, the City will institute a color-coded system to give people information they need to have to make informed choices about the risks of going to different places. Businesses, restaurants, parks and other public places will display color-coded signage, with red being the highest risk area, yellow more moderate, and green the lowest risk area.</p><p>Other Phase One components include:<ul><li>Recreation centers, parks and playgrounds will remain closed; block parties and special events will remain on hold. All faith-based services can be held via teleconference or virtually.</li><li>Information centers will be established in each ward and 4311 will be expanded to include a dedicated COVID-19 information hotline. Additionally, a technology task force will be created to develop a sustainable citywide strategy for universal access to Wi-Fi and the hardware necessary for remote learning.</li><li>An isolation and quarantine plan will be developed for those who cannot create one themselves. Guidance will be provided around emotional hurdles and fears related to medical mistrust.</li><li>Lastly, letters will be sent to all businesses requesting plans to ensure the safety of their employees and the general public. City licensing, approvals and permitting processes will be adjusted to streamline what can be expedited and waived.</li></ul><p>The Newark Recovery and Reopening Strikeforce, led by Chief of Staff Amiri Baraka, Jr. and Newark Alliance CEO Aisha Glover, will continue to work collaboratively while other phases are rolled out as well.</p>",
+        "buttons": [
+          {
+            "link": "stayingin/newark-reopening-recovery",
+            "linkText": "More Info On Recovery & Reopening Strikeforce"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Save Lives. Stay Healthy. Safely Re-Open.",
+    "link": "reopen-application-requirements",
+    "parent": "/stayingin",
+    "title": "Application and Requirements to Re-Open",
+    "icon": "verified_user",
+    "introText": "<p><img class='intro-pic contain' src='assets/img/pagePhotos/yellowreopeningsign.png'>All Newark businesses must apply for a re-opening permit in order for the City to issue a color-coded safety-level certificate required for reopening.</p><p>All retail businesses must complete an application prior to re-opening. This information is necessary to know how the business will be implementing re-opening. The City of Newark will review applications and within 72 hours notify whether an application has been approved or disapproved. If approved, the business will be inspected to ensure compliance with the requirements</p>",
+    "infoButtons": [
+      {
+        "link":"https://seam.ly/2LBnzISE",
+        "linkText": "Online Reopening Application",
+        "icon": "launch",
+        "extraClass": "important"
+      },
+      {
+      "linkText": "Re-Opening Requirements",
+      "link": "docs/reopen-requirements",
+      "extraClass": "important"
+    }],
+    "sections": [
+      {
+        "header":"Video Instructions for Filling Out Application",
+        "iframeSrc": "https://drive.google.com/file/d/1dwGGp-BL8LE9VGdXYia_RtTAIistwVIK/preview",
+        "iframeClass": "videoEmbed",
+        "emphasizeHeader": true
+      },
+      {
+        "emphasizeHeader": true,
+        "header": "Fill Out and Submit Application to Reopen",
+        "text": "<p><img class='intro-pic contain' src='assets/img/pagePhotos/Flyer Newark Business Reopening Permit.png'>Apply online by clicking 'Online Re-Opening Application' below. Contact us at <a href='mailto:reopeningplan@newarknj.gov'>reopeningplan@newarknj.gov</a> if you have questions or want to submit by Mail/Fax.</p>",
+        "actionsCol": true,
+        "buttons": [{
+          "link":"https://seam.ly/2LBnzISE",
+          "linkText": "Online Reopening Application",
+          "icon": "launch",
+          "extraClass": "important"
+        },
+        {
+          "link":"https://seam.ly/W1tFoA3q",
+          "linkText": "Solicitud en Espanol",
+          "icon": "launch",
+          "extraClass": "important"
+        },
+        {
+          "link":"assets/docs/COVID-19_Business_Re-opening_Permit_Portuguese__05252020.pdf",
+          "linkText": "Aplicação em português",
+          "icon": "launch",
+          "extraClass": "important"
+        }]
+      }
+    ]
+  },
+  {
+    "category": "Save Lives. Stay Healthy. Safely Re-Open.",
+    "link": "strikeforce-reopening-plan",
+    "parent": "/stayingin",
+    "title": "Newark Reopening Guidelines and Summer Activities",
+    "icon": "campaign",
+    "introText": "<img class='intro-pic contain full-top' src='assets/img/pagePhotos/guidanceforreopening.png'>",
+    "sections": [
+      {
+        "headerIcon": "table",
+        "header": "Strikeforce Reopening Guidelines",
+        "iframeSrc": "https://docs.google.com/spreadsheets/d/e/2PACX-1vSKznEJDHUlt1cbkzVihaXk4mSpr91HPmPqOIhobzp7ZiWt482mMW2VC4p94MgZbQEd_l926IKDmEx7/pubhtml?gid=0&single=true&widget=false&chrome=false&headers=false&rm=demo",
+        "iframeClass": "docEmbed",
+        "actionsCol": true,
+        "buttons": [
+          {
+            "linkText": "Strikeforce Recommendations Summary",
+            "link": "assets/docs/NewarkStrikeforceSummaryRecommendations.pdf",
+            "extraClass": "important",
+            "icon": "list_alt"
+          },
+          {
+            "linkText": "About the Reopening & Recovery Strikeforce",
+            "link": "stayingin/newark-reopening-recovery",
+            "icon": "people"
+          }
+        ]
+      },
+      {
+        "headerIcon": "outdoor_grill",
+        "header": "Safe Summer Activities",
+        "buttons": [
+          {
+            "linkText": "Gatherings",
+            "link": "assets/docs/Gatherings_6.2.2020.pdf",
+            "extraClass": "important",
+            "icon": "emoji_people"
+          },
+          {
+            "linkText": "Summer Fun",
+            "link": "assets/docs/Newark Summer Fun 2020_6.1.2020.pdf",
+            "extraClass": "important",
+            "icon": "emoji_emotions"
+          },
+          {
+            "linkText": "Summer Activities",
+            "link": "assets/docs/Newark Summer Activities Guide_6.1.2020.pdf",
+            "extraClass": "important",
+            "icon": "sports_kabaddi"
+          }
+        ]
+      },
+      {
+        "expanded": false,
+        "header": "Executive Order #MEO-20-0005 includes the following:",
+        "headerIcon": "text_snippet",
+        "text": "<ol><li>Outdoor family gatherings should be limited to no more than ten (10) individuals but in no instance more than fifteen (15).</li><li>Individuals must practice social distancing and wear Personal Protective Equipment (PPE), including facial masks and gloves while gathered and around others, especially if the gathering involves individuals the elderly or individuals with pre-existing medical conditions.</li><li>No sharing of utensils, plates, cups, dishes, or any items used for eating or drinking where such use among individuals can transmit and/or spread the virus.</li><li>There shall be no block parties or large gatherings of individuals in parks or on public streets.</li><li>All existing City and County rules and regulations for park use and playing music remain in effect.</li><li>All outdoor family gatherings must end at 9:00 P.M.</li></ol>",
+        "buttons": [{
+          "link":"assets/docs/MEO-20-0004 Executive Order.pdf",
+          "linkText": "Read the Full Order Here",
+          "icon": "launch",
+          "extraClass": "important"
+        }]
+      }
+    ]
+  }
 ]

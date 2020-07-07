@@ -2,18 +2,16 @@
   <mat-icon style="margin-right: .5rem">{{ (resourceContent$ | async).icon }}</mat-icon>
   <h2>{{ (resourceContent$ | async).title }}</h2>
 </mat-toolbar>
-<mat-list class="intro-cards" *ngIf="(resourceContent$ | async).introContent">
-  <mat-list-item class="intro-card" *ngFor="let card of (resourceContent$ | async).introContent">
+<mat-list class="intro-cards">
+  <mat-list-item class="intro-card" *ngIf="(resourceContent$ | async).introText">
     <mat-card>
-      <mat-card-header *ngIf="card.header">
-        <mat-card-title>{{ card.header }}</mat-card-title>
-      </mat-card-header>
-      <div class="card-body" [innerHtml]="card.text"></div>
-      <mat-card-actions align="end" *ngIf="card.link">
-        <a mat-stroked-button class="info-buttons" type="button" target="_self" [href]="card.link">
-          <mat-icon>info</mat-icon>
-          <span *ngIf="card.linkText; else standardText">{{ card.linkText }}</span>
-          <ng-template #standardText>More Info</ng-template>
+      <div class="card-body" [innerHtml]="(resourceContent$ | async).introText"></div>
+      <mat-card-actions align="end" *ngIf="(resourceContent$ | async).infoButtons" [ngClass]="(resourceContent$ | async).introActionsCol ? 'info-buttons actionsCol' : 'info-buttons'">
+        <a mat-stroked-button *ngFor="let button of (resourceContent$ | async).infoButtons"
+          [ngClass]="button.extraClass ? button.extraClass : 'info-buttons'" type="button" target="_self" [href]="button.link">
+          <span *ngIf="button.linkText; else standardText0">{{ button.linkText }}</span>
+          <ng-template #standardText0>Apply</ng-template>
+          <mat-icon>double_arrow</mat-icon>
         </a>
       </mat-card-actions>
     </mat-card>
@@ -24,23 +22,29 @@
   <mat-icon>arrow_downward</mat-icon>
 </section>
 <mat-list class="program-cards">
-    <mat-list-item class="program-card" *ngFor="let card of (resourceContent$ | async).programs">
+    <mat-list-item class="program-card" *ngFor="let card of (resourceContent$ | async).sections">
       <mat-card>
-        <mat-card-header *ngIf="card.header">
-          <mat-card-title>{{ card.header }}</mat-card-title>
+        <mat-card-header *ngIf="card.header" [ngClass]="card.emphasizeHeader ? 'invert-header' : ''">
+          <mat-card-title><mat-icon style="margin-right: 1rem">{{card.headerIcon}}</mat-icon>{{ card.header }}</mat-card-title>
         </mat-card-header>
-        <div class="card-body"><span [innerHtml]="card.text"></span></div>
-        <mat-card-footer *ngIf="card.footer">
-          <span [innerHtml]="card.footer"></span>
+        <iframe *ngIf="card.iframeSrc" [ngClass]="card.iframeClass ? card.iframeClass : ''"
+        [src]="safeUrl(card.iframeSrc)"
+        ></iframe>
+        <div class="card-body" [@showHidePanel]="card.expanded === false ? 'hidden' : 'shown'"><span [innerHtml]="card.text"></span></div>
+        <div class="card-body" style="box-shadow: inset 0px -6px 13px rgba(95, 133, 193,.5);padding: 1rem;" *ngIf="card.expanded === false"><span [innerHtml]="card.text.slice(0,200) + '\<b>.....\</b>'"></span></div>
+        <mat-card-footer>
+          <button *ngIf="card.expanded !== undefined" class="expandButton"
+          mat-stroked-button (click)="card.expanded = !card.expanded">{{card.expanded ? 'Hide ' : 'Read '}}<mat-icon>{{card.expanded ? 'visibility_off' : 'visibility'}}</mat-icon>
+          </button>
         </mat-card-footer>
-        <mat-card-actions align="end" *ngIf="card.link">
-          <a mat-stroked-button class="info-buttons" type="button" target="_blank" [href]="card.link">
-            <mat-icon>info</mat-icon>
-            <span *ngIf="card.linkText; else standardText">{{ card.linkText }}</span>
-            <ng-template #standardText>More Info</ng-template>
+        <mat-card-actions [@showHidePanel]="card.expanded && card.expanded === false ? 'hidden' : 'shown'" align="end" *ngIf="card.buttons" [ngClass]="card.actionsCol ? 'info-buttons actionsCol' : 'info-buttons'">
+          <a mat-stroked-button *ngFor="let button of card.buttons" [ngClass]="button.extraClass ? button.extraClass : 'info-buttons'" type="button" target="_self" [href]="button.link">
+          <span *ngIf="button.linkText; else standardText0">{{ button.linkText }}</span>
+          <ng-template #standardText0>Apply</ng-template>
+          <mat-icon style="margin-left: 1rem">{{ button.icon }}</mat-icon>
           </a>
         </mat-card-actions>
       </mat-card>
     </mat-list-item>
 </mat-list>
-<span class="page-bottom" *ngIf="!(resourceContent$ | async).hideBottomBar"></span>
+<span class="page-bottom" *ngIf="(resourceContent$ | async).hideBottomBar !== true"></span>

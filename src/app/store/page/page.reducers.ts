@@ -1,14 +1,16 @@
 import * as PageActions from './page.actions';
-import { ProgramPage, ResourcePage } from 'src/app/shared/interfaces/other.interface';
+import { Page, DocPage } from 'src/app/shared/interfaces/other.interface';
 
 export interface State {
-  currentProgram?: ProgramPage;
-  currentResource?: ResourcePage;
+  currentProgram?: Page;
+  currentResource?: Page;
+  currentDoc?: DocPage;
 }
 
 const initialState: State = {
-  currentProgram: {title: '', subtitle: '', icon: 'people', introText: ''},
-  currentResource: {title: '', icon: 'assessment'}
+  currentProgram: {title: '', subtitle: '', icon: 'people', introText: '', hideBottomBar: false},
+  currentResource: {title: '', subtitle: '', icon: 'assessment', introText: '', hideBottomBar: false},
+  currentDoc: {title: '', icon: 'file'}
 };
 
 export function pageReducer(
@@ -20,6 +22,8 @@ export function pageReducer(
       return { ...state, currentProgram: action.payload };
     case PageActions.SET_PAGE_RESOURCE_CONTENT:
       return { ...state, currentResource: action.payload };
+    case PageActions.SET_PAGE_DOC_CONTENT:
+      return { ...state, currentDoc: action.payload };
     default:
       return state;
   }

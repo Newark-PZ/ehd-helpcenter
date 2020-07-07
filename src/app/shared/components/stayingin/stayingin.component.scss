@@ -52,14 +52,23 @@ width: 90%;
 margin: 1rem auto;
 }
 .mat-card-header {
-color: rgb(13, 71, 161) !important;
--webkit-text-fill-color: rgb(13, 71, 161) !important;
-border: solid .1rem rgba(13, 71, 161, 0.66);
-border-radius: 0.5rem;
-padding: 0.2rem;
-margin-bottom: 1rem;
-border-width: .1rem 0;
-}
+  border: solid .1rem rgba(13, 71, 161, 0.66);
+  color: rgb(13, 71, 161);
+  -webkit-text-fill-color: rgb(13, 71, 161);
+  padding: 0.2rem;
+  margin-bottom: 1rem;
+  border-width: 0 0 .1rem 0;
+  font-size: 1.5rem;
+  .mat-card-title {
+    font-size: 1.5rem !important;
+    }
+    &.invert-header {
+      color: white;
+      -webkit-text-fill-color: white;
+      background-color: rgb(13, 71, 161);
+      padding: .5rem 0 0 0;
+    }
+  }
 .card-body {
   font-size: 1.3rem !important;
   line-height: 2rem;
@@ -75,6 +84,52 @@ border-width: .1rem 0;
   flex: 1 1 30%;
   justify-content: space-evenly;
   margin: auto .5rem !important;
+  align-content: center;
+  align-items: center;
+  white-space: normal;
+  line-height: normal;
+
+&.actionsCol {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto !important;
+  .important {    width: 100% !important;  }
+  @media screen and (max-width: 576px) {
+    width: 100%;
+  }
+  @media screen and (min-width: 576px) and (max-width: 769px) {
+    width: 75%;
+  }
+  }
+  }
+  .important {
+    font-size: 1.5rem !important;
+    color: white !important;
+    -webkit-text-fill-color: white !important;
+    border-color: rgb(13, 71, 161);
+    background-color: rgb(13, 71, 161, .85);
+    margin: 1% !important;
+    display: flex;
+    flex: 1 1 50%;
+    justify-content: center;
+    box-shadow: .1px .1px 4px rgba(0,0,260,.4);
+    font-weight: 600;
+    height: 3rem;
+    mat-icon {font-size: 2rem; margin-left: 1rem}
+  }
+  .expandButton {
+    display: flex;
+    font-weight: 600;
+    font-size: 1.5rem !important;
+    color: gray;
+    -webkit-text-fill-color: gray;
+    justify-content: space-around;
+    margin: 1rem auto !important;
+    mat-icon {
+      font-size: 1.5rem !important;
+      vertical-align: sub;
+    }
   }
   .full-width-button {
     color: rgb(13, 71, 161) !important;
@@ -87,7 +142,8 @@ border-width: .1rem 0;
     justify-content: center;
     box-shadow: .1px .1px 4px rgba(0,0,260,.4);
     font-weight: 600;
-  }
+    padding: .5rem 0 !important;
+    }
   .content-intro {
   color: white;
   -webkit-text-fill-color: white;
@@ -111,3 +167,20 @@ border-width: .1rem 0;
   }
   }
   .page-bottom {height: 5rem; width: 100%; display: flex; background-color: black;}
+  .splash-image-carousel {
+    height: 66vh !important;
+    width: 100% !important;
+    overflow: hidden;
+    .carousel-img-wrapper  {
+      display: flex;
+      position: relative;
+      padding: 0;
+      height: 100%;
+      width: 100%;
+      img {
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+      }
+    }
+  }

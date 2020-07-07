@@ -4,6 +4,7 @@ import { TenantFAQComponent } from './faqs/tenant.component';
 import { HomeownersFAQComponent } from './faqs/homeowners.component';
 import { DataComponent } from './data/data.component';
 import { DocViewComponent } from './docview/docview.component';
+import { ReopeningListComponent } from './reopeningapp/reopeningapp.component';
 
 export const pageComponents = [
     HomeComponent,
@@ -11,13 +12,15 @@ export const pageComponents = [
     DocViewComponent,
     HelpComponent,
     TenantFAQComponent,
-    HomeownersFAQComponent
+    HomeownersFAQComponent,
+    ReopeningListComponent
 ];
 
 export * from './home/home.component';
 export * from './data/data.component';
 export * from './help/help.component';
 export * from './docview/docview.component';
+export * from './reopeningapp/reopeningapp.component';
 
 export * from './faqs/tenant.component';
 export * from './faqs/homeowners.component';

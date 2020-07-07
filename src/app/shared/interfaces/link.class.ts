@@ -4,7 +4,7 @@ export class Link {
   constructor(
     id: string,
     title: string,
-    group: false | 'resources' | 'programs' | 'faqs' | 'stayingin',
+    group: false | 'resources' | 'programs' | 'faqs' | 'stayingin' | 'docs',
     icon?: string
       | 'subdirectory_arrow_right'
       | 'business_center'
@@ -29,7 +29,7 @@ export class Link {
   title: string;
   icon: string | 'subdirectory_arrow_right' | 'business_center' | 'people' | 'person'
   | 'house' | 'color_lens' | 'local_dining' | 'local_hospital' | 'info';
-  group: false | 'resources' | 'programs' | 'faqs' | 'stayingin';
+  group: false | 'resources' | 'programs' | 'faqs' | 'stayingin' | 'docs';
   children?: Array<Link>;
   component?: Type<any>;
 }

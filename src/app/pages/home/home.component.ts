@@ -1,24 +1,24 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ChangeDetectionStrategy } from '@angular/core';
 import { HomeCard } from 'src/app/shared/interfaces/other.interface';
 import { BreakpointObserver, BreakpointState } from '@angular/cdk/layout';
 import * as fromStore from '../../store/store.reducers';
 import { Observable } from 'rxjs';
 import { Store } from '@ngrx/store';
-import * as HomePanelActions from 'src/app/store/home-panels/home-panels.actions';
+import * as HomePanelActions from '../../store/home-panels/home-panels.actions';
+import { showHidePanel } from '../../shared/animations';
 
 @Component({
+  animations: [showHidePanel],
   selector: 'app-home',
   styleUrls: ['./home.component.scss'],
   templateUrl: './home.component.html'
 })
 // tslint:disable: max-line-length
 export class HomeComponent implements OnInit {
-  colNum;
-  gridRowNum;
   expansionOpen$: Observable<boolean>;
   expansionMulti$: Observable<boolean>;
   expansionDisabled$: Observable<boolean>;
-  categories = ['Save Lives. Stay Safe. Reopen.', 'Small Business', 'Housing', 'Employment & Wellness'];
+  categories$: Observable<Array<{name: string; expanded: boolean; }>>;
   cards: Array<HomeCard> = [{
         icon: 'people',
         title: 'Benefit Eligibility Chart',
@@ -92,6 +92,35 @@ export class HomeComponent implements OnInit {
         extUrl: 'https://myunemployment.nj.gov/labor/myunemployment/independentcontractors.shtml'
       },
       {
+        icon: 'house',
+        title: 'Emergency Rent Grants',
+        link: 'emergency-rent-grants',
+        parent: '/programs',
+        category: 'Housing',
+        style: {background: 'rgba(144, 238, 144, 0.5)'},
+        id: '',
+        extUrl: ''
+      },
+      {
+        icon: 'people',
+        title: 'Rent Increase Freeze for Rent Controlled Tenants',
+        link: 'rent-increase-freeze',
+        parent: '/programs',
+        category: 'Housing',
+        style: {background: 'rgba(144, 238, 144, 0.25)'},
+        id: '',
+        extUrl: ''
+      },
+      {
+        icon: 'people',
+        title: 'Online Seminar for Tenants and Homeowners',
+        link: 'web-housing-seminar',
+        parent: '/docs',
+        category: 'Housing',
+        id: '',
+        extUrl: ''
+      },
+      {
         icon: 'people',
         title: 'For Housing Authority Tenants',
         link: 'nha-tenants',
@@ -146,38 +175,31 @@ export class HomeComponent implements OnInit {
         extUrl: ''
       },
       {
+        icon: 'verified_user',
+        title: 'Application & Requirements to Re-Open',
+        link: 'reopen-application-requirements',
+        parent: '/stayingin',
+        category: 'Save Lives. Stay Healthy. Safely Re-Open.',
+        style: {background: 'rgba(144, 238, 144, 0.5)'},
+        id: '',
+        extUrl: ''
+      },
+      {
+        icon: 'campaign',
+        title: 'Newark Reopening Guidelines and Summer Activities',
+        link: 'strikeforce-reopening-plan',
+        parent: '/stayingin',
+        category: 'Save Lives. Stay Healthy. Safely Re-Open.',
+        style: {background: 'rgba(144, 238, 144, 0.25)'},
+        id: '',
+        extUrl: ''
+      },
+      {
         icon: 'people',
         title: 'Reopening and Recovery Strikeforce',
         link: 'newark-reopening-recovery',
         parent: '/stayingin',
-        category: 'Save Lives. Stay Safe. Reopen.',
-        id: '',
-        extUrl: ''
-      },
-      {
-        icon: 'people',
-        title: 'NJ State Reopening Principles',
-        link: 'reopening',
-        parent: '/',
-        category: 'Save Lives. Stay Safe. Reopen.',
-        id: '',
-        extUrl: ''
-      },
-      {
-        icon: 'local_hospital',
-        title: 'Be Still Mondays',
-        link: 'be-still-mondays',
-        parent: '/stayingin',
-        category: 'Save Lives. Stay Safe. Reopen.',
-        id: '',
-        extUrl: ''
-      },
-      {
-        icon: 'local_hospital',
-        title: 'Stay at Home Orders',
-        link: 'stay-at-home',
-        parent: '/stayingin',
-        category: 'Save Lives. Stay Safe. Reopen.',
+        category: 'Save Lives. Stay Healthy. Safely Re-Open.',
         id: '',
         extUrl: ''
       },
@@ -186,7 +208,25 @@ export class HomeComponent implements OnInit {
         title: 'How to Get Tested',
         link: 'testing',
         parent: '/programs',
-        category: 'Save Lives. Stay Safe. Reopen.',
+        category: 'Save Lives. Stay Healthy. Safely Re-Open.',
+        id: '',
+        extUrl: ''
+      },
+      {
+        icon: 'people',
+        title: 'NJ State Reopening Principles',
+        link: 'reopening',
+        parent: '/docs',
+        category: 'Save Lives. Stay Healthy. Safely Re-Open.',
+        id: '',
+        extUrl: ''
+      },
+      {
+        icon: 'verified_user',
+        title: '"Phase One" Preparation for Eventual Re-Opening',
+        link: 'phase-one',
+        parent: '/stayingin',
+        category: 'Save Lives. Stay Healthy. Safely Re-Open.',
         id: '',
         extUrl: ''
       },
@@ -195,7 +235,7 @@ export class HomeComponent implements OnInit {
         title: 'More Newark News',
         link: '',
         parent: '',
-        category: 'Save Lives. Stay Safe. Reopen.',
+        category: 'Save Lives. Stay Healthy. Safely Re-Open.',
         id: 'newark-news',
         extUrl: 'https://newarknj.gov/news'
       },
@@ -204,7 +244,7 @@ export class HomeComponent implements OnInit {
         title: 'Newark Municipal Court Accepts Online Payments, Video Hearings',
         link: '',
         parent: '',
-        category: 'Save Lives. Stay Safe. Reopen.',
+        category: 'Save Lives. Stay Healthy. Safely Re-Open.',
         id: 'newark-municipal-court',
         extUrl: 'https://www.newarknj.gov/news/newark-municipal-court-now-holding-video-sessions-via-zoom-court-will-also-accept-online-payments-and-dispute-tickets-online'
       },
@@ -225,6 +265,22 @@ export class HomeComponent implements OnInit {
         style: {background: 'rgba(144, 238, 144, 0.25)'},
         id: 'updated-list-essential',
         extUrl: 'https://www.nj.gov/governor/news/news/562020/approved/20200427d.shtml'
+      },
+      {
+        icon: 'local_hospital',
+        title: 'Sell or Buy PPE',
+        link: 'ppe-program',
+        parent: '/resources',
+        category: 'Small Business',
+        id: '',
+        extUrl: ''
+      },
+      {
+        icon: 'info',
+        title: 'Applications for Expanded Small Business Aid Available June 9th',
+        category: 'Small Business',
+        id: 'expanded-business-aid',
+        extUrl: 'https://faq.business.nj.gov/en/articles/3835237-what-is-the-status-of-the-njeda-small-business-emergency-assistance-grant-program-phase-2-application-open-tuesday-june-9-at-9-00-a-m'
       },
       {
         icon: 'color_lens',
@@ -294,6 +350,7 @@ export class HomeComponent implements OnInit {
     public breakpointObserver: BreakpointObserver,
     private store: Store<fromStore.StoreState>,
     ) {
+    this.categories$ = this.store.select(state => state.homePanel.categories);
     this.expansionOpen$ = this.store.select(state => state.homePanel.open);
     this.expansionMulti$ = this.store.select(state => state.homePanel.multi);
     this.expansionDisabled$ = this.store.select(state => state.homePanel.toggleDisabled);
@@ -315,6 +372,9 @@ export class HomeComponent implements OnInit {
   }
   filterCat(category) {
     return category;
+  }
+  expandCat(cat: {name: string; expanded: boolean; }) {
+    this.store.dispatch(new HomePanelActions.SetExpandedCategory(cat.name));
   }
   goTo(url?: string) {
     if (url) {window.open(url, '_self'); }

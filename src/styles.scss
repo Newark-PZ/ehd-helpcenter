@@ -33,11 +33,6 @@ body {
 .mat-button-toggle, .mat-card {
   line-height: 1.5rem !important;
 }
-.program-card {
-  margin: 0.33rem !important;
-  border-width: .1rem !important;
-  padding: .5rem !important;
-}
 .mat-toolbar-row, .mat-toolbar-single-row {
   padding: 0 1rem !important;
   height: 4.6rem !important;
@@ -118,7 +113,7 @@ body {
   display: flex;
   float: left;
   width: 40%;
-  height: 46vh;
+  height: 40vh;
   margin: 1.2rem;
   margin-top: 0px;
   border-radius: 0.2rem;
@@ -133,6 +128,13 @@ body {
     object-fit: contain !important;
     min-height: 80vh !important;
   }
+  &.full-top {
+    background: rgb(49, 183, 255);
+    height: 70vh;
+    width: 100%;
+    margin: auto;
+  }
+  &.contain {object-fit: contain !important;}
   &.card-img {
     height: unset;
     max-height: 43vh;
@@ -208,3 +210,26 @@ body {
     }
   }
   }
+.intro-list {
+  list-style-position: inside !important;
+}
+.docEmbed {
+  width: 100%;
+  height: 70vh;
+  border:none;
+}
+.videoEmbed {
+  width: 62%;
+  height: 50vh;
+  margin: 0 19%;
+  border: .5rem solid black;
+  border-radius: .5rem;
+  &.cover::before {
+    content: "Click to Play";
+    background-color: rgba(0,0,0,.25);
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+}

@@ -70,10 +70,11 @@ export class AppComponent implements OnDestroy, OnInit {
     this.links = [
       new Link('home', 'Home', false, 'house'),
       new Link('data', 'Data Dashboard', false, 'assessment'),
-      new Link('reopening', 'The Road Back for NJ', false, 'info'),
+      new Link('reopening', 'The Road Back for NJ', 'docs', 'info'),
       new Link('stayingin', 'Staying In', 'stayingin', undefined, this.linker.stayingin),
       new Link('programs', 'Our Programs', 'programs',  undefined, this.linker.programs),
       new Link('faqs', 'FAQs', 'faqs',  undefined, this.linker.faqs),
+      new Link('docs', 'Documents', 'docs',  undefined, this.linker.docs),
       new Link('resources', 'Other Resources', 'resources',  undefined, this.linker.resources)
     ];
     this.store.dispatch(new fromStoreActions.ClearState());

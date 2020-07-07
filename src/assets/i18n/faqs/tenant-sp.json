@@ -1,170 +1,418 @@
 [
   {
-    "name": "Lockouts01",
-    "category": "Cierres patronales",
-    "question": "¿Puedo ser excluido de mi casa durante la emergencia COVID-19?",
-    "answer": "<b> No. </b> El 19 de marzo de 2020, el gobernador de Nueva Jersey, Philip Murphy, emitió <a href='https://nj.gov/infobank/eo/056murphy/pdf/EO-106.pdf'> Ejecutivo Orden 106 </a>, que suspende inmediatamente los desalojos en todo el estado. Esto se llama una moratoria de desalojo y significa que, excepto en circunstancias excepcionales, <b> ningún inquilino puede ser removido de su hogar como resultado de un procedimiento de desalojo </b>. Esta moratoria de desalojo estatal <b> no </b> afecta los procedimientos judiciales; en cambio, evita bloqueos y expulsiones. La Corte Suprema de Nueva Jersey controla los procedimientos judiciales relacionados con el desalojo, que están suspendidos por ahora. Más información a continuación.",
-    "info": ""
+    "_id": {
+      "$oid": "Lockouts01"
+    },
+    "Categories": "Cierres patronales",
+    "Question": "¿Puedo ser excluido de mi casa durante la emergencia COVID-19?",
+    "Answer": "<b> No. </b> El 19 de marzo de 2020, el gobernador de Nueva Jersey, Philip Murphy, emitió <a href='https://nj.gov/infobank/eo/056murphy/pdf/EO-106.pdf'> Ejecutivo Orden 106 </a>, que suspende inmediatamente los desalojos en todo el estado. Esto se llama una moratoria de desalojo y significa que, excepto en circunstancias excepcionales, <b> ningún inquilino puede ser removido de su hogar como resultado de un procedimiento de desalojo </b>. Esta moratoria de desalojo estatal <b> no </b> afecta los procedimientos judiciales; en cambio, evita bloqueos y expulsiones. La Corte Suprema de Nueva Jersey controla los procedimientos judiciales relacionados con el desalojo, que están suspendidos por ahora. Más información a continuación.",
+    "createdAt": {
+      "$date": "2020-05-01T01:26:14Z"
+    },
+    "updatedAt": {
+      "$date": "2020-05-01T01:26:14Z"
+    },
+    "__v": 0,
+    "Type": "Tenant"
   },
   {
-    "name": "Lockouts02",
-    "category": "Cierres patronales",
-    "question": "¿Cuánto durará la moratoria de desalojo del estado?",
-    "answer": "La moratoria de desalojo comenzó el 19 de marzo de 2020, y durará hasta dos meses después de que el gobernador Murphy declare el final de la crisis de salud de COVID-19, a menos que el gobernador emita otra orden ejecutiva para terminarla antes.",
-    "info": ""
+    "_id": {
+      "$oid": "Lockouts02"
+    },
+    "Categories": "Cierres patronales",
+    "Question": "¿Cuánto durará la moratoria de desalojo del estado?",
+    "Answer": "La moratoria de desalojo comenzó el 19 de marzo de 2020, y durará hasta dos meses después de que el gobernador Murphy declare el final de la crisis de salud de COVID-19, a menos que el gobernador emita otra orden ejecutiva para terminarla antes.",
+    "createdAt": {
+      "$date": "2020-05-01T01:26:14Z"
+    },
+    "updatedAt": {
+      "$date": "2020-05-01T01:26:14Z"
+    },
+    "__v": 0,
+    "Type": "Tenant"
   },
   {
-    "name": "Lockouts03",
-    "category": "Cierres patronales",
-    "question": "¿Qué pasa si vivo en un hotel/motel? ¿Puedo ser desalojado mientras la Orden Ejecutiva está vigente?",
-    "answer": "<p> <b> Quizás. </b> El gobernador Murphys <a href='https://nj.gov/infobank/eo/056murphy/pdf/EO-106.pdf'> Permiso Ejecutivo 106 </a> permite un hotel o motel para desalojar a un huésped transitorio o inquilino estacional. Sin embargo, los residentes de hoteles y moteles antiguos, junto con muchos otros, no se consideran transitorios o estacionales, y por lo tanto permanecen protegidos contra el desalojo según la Orden. En general, los residentes no pueden ser desalojados si no tienen una vivienda permanente a la que puedan regresar de manera segura o legal y en vivo en un hotel o motel de manera continua. Bajo órdenes administrativas <a href='https://d31hzlhk6di2h5.cloudfront.net/20200404/76/54/49/6d/782ba5a402ce762190ffdf92/AO_2020-8.pdf'>2020-08 </a> y <a href='http://d31hzlhk6di2h5.cloudfront.net/20200424/b7/cb/1b/ce/b43a111240a42d019_ce20/20.PDF'> 2020-09 </a> (emitido por el Director Estatal de Manejo de Emergencias el 4 y 24 de abril), los siguientes residentes de hoteles y moteles generalmente están protegidos contra el desalojo: </p><ul> <li> los que forman parte del estado ini iniciativas destinadas a sacar a la gente de los refugios grupales; </li> <li> aquellos apoyados por un programa gubernamental de asistencia para la vivienda; </li> <li> trabajadores de la salud que necesitan un lugar temporal para quedarse; </li> <li> personas sin hogar; </li> <li> personas afectadas por la violencia doméstica; y </li> <li> aquellos que se alojen en hoteles o moteles en cumplimiento de una orden judicial. </li> </ul>",
-    "info": "<p> Otros también pueden estar protegidos. Para analizar sus circunstancias individuales, comuníquese con una organización de servicios legales como <a href='https://www.lsnj.org/'> Servicios legales de Nueva Jersey </a>, <a href='http://www.vljnj.org/'> Abogados Voluntarios para la Justicia Nueva Jersey </a>, <a href='http://www.chlp.org/'> Proyecto de Ley de Salud Comunitaria </a>, <a href='https://eclaanj.org/'> Asociación de Asistencia Legal del Condado de Essex </a>, o <a href='https://www.newarknj.gov/news/free-legal -ayuda-para-bajos-ingresos-en-riesgo-inquilinos-enfrentando-desalojo-ahora-en-operación-y-tomando-solicitudes'> Oficina de Servicios para Inquilinos de la Ciudad de Newark </a>. </p>"
+    "_id": {
+      "$oid": "Lockouts03"
+    },
+    "Categories": "Cierres patronales",
+    "Question": "¿Qué pasa si vivo en un hotel/motel? ¿Puedo ser desalojado mientras la Orden Ejecutiva está vigente?",
+    "Answer": "<p> <b> Quizás. </b> El gobernador Murphys <a href='https://nj.gov/infobank/eo/056murphy/pdf/EO-106.pdf'> Permiso Ejecutivo 106 </a> permite un hotel o motel para desalojar a un huésped transitorio o inquilino estacional. Sin embargo, los residentes de hoteles y moteles antiguos, junto con muchos otros, no se consideran transitorios o estacionales, y por lo tanto permanecen protegidos contra el desalojo según la Orden. En general, los residentes no pueden ser desalojados si no tienen una vivienda permanente a la que puedan regresar de manera segura o legal y en vivo en un hotel o motel de manera continua. Bajo órdenes administrativas <a href='https://d31hzlhk6di2h5.cloudfront.net/20200404/76/54/49/6d/782ba5a402ce762190ffdf92/AO_2020-8.pdf'>2020-08 </a> y <a href='http://d31hzlhk6di2h5.cloudfront.net/20200424/b7/cb/1b/ce/b43a111240a42d019_ce20/20.PDF'> 2020-09 </a> (emitido por el Director Estatal de Manejo de Emergencias el 4 y 24 de abril), los siguientes residentes de hoteles y moteles generalmente están protegidos contra el desalojo: </p><ul> <li> los que forman parte del estado ini iniciativas destinadas a sacar a la gente de los refugios grupales; </li> <li> aquellos apoyados por un programa gubernamental de asistencia para la vivienda; </li> <li> trabajadores de la salud que necesitan un lugar temporal para quedarse; </li> <li> personas sin hogar; </li> <li> personas afectadas por la violencia doméstica; y </li> <li> aquellos que se alojen en hoteles o moteles en cumplimiento de una orden judicial. </li> </ul><p> Otros también pueden estar protegidos. Para analizar sus circunstancias individuales, comuníquese con una organización de servicios legales como <a href='https://www.lsnj.org/'> Servicios legales de Nueva Jersey </a>, <a href='http://www.vljnj.org/'> Abogados Voluntarios para la Justicia Nueva Jersey </a>, <a href='http://www.chlp.org/'> Proyecto de Ley de Salud Comunitaria </a>, <a href='https://eclaanj.org/'> Asociación de Asistencia Legal del Condado de Essex </a>, o <a href='https://www.newarknj.gov/news/free-legal -ayuda-para-bajos-ingresos-en-riesgo-inquilinos-enfrentando-desalojo-ahora-en-operación-y-tomando-solicitudes'> Oficina de Servicios para Inquilinos de la Ciudad de Newark </a>. </p>",
+    "createdAt": {
+      "$date": "2020-05-01T01:26:14Z"
+    },
+    "updatedAt": {
+      "$date": "2020-05-01T01:26:14Z"
+    },
+    "__v": 0,
+    "Type": "Tenant"
   },
   {
-    "name": "Lockouts04",
-    "category": "Cierres patronales",
-    "question": "¿Qué sucede si ya se emitió un aviso de bloqueo o una orden de expulsión?",
-    "answer": "La moratoria se aplica a todas las órdenes de remoción preexistentes. Cualquier orden de remoción emitida previamente se suspende y no puede ser removido de su hogar durante la moratoria.",
-    "info": ""
+    "_id": {
+      "$oid": "Lockouts04"
+    },
+    "Categories": "Cierres patronales",
+    "Question": "¿Qué sucede si ya se emitió un aviso de bloqueo o una orden de expulsión?",
+    "Answer": "La moratoria se aplica a todas las órdenes de remoción preexistentes. Cualquier orden de remoción emitida previamente se suspende y no puede ser removido de su hogar durante la moratoria.",
+    "createdAt": {
+      "$date": "2020-05-01T01:26:14Z"
+    },
+    "updatedAt": {
+      "$date": "2020-05-01T01:26:14Z"
+    },
+    "__v": 0,
+    "Type": "Tenant"
   },
   {
-    "name": "Lockouts05",
-    "category": "Cierres patronales",
-    "question": "¿Qué pasa si mi arrendador me bloquea ilegalmente?",
-    "answer": "Es un delito que el propietario lo bloquee. Según la ley de Nueva Jersey, solo los tribunales pueden ordenar desalojos, y solo los funcionarios del gobierno pueden sacarlo de su casa. Si el propietario lo bloquea, llame a la policía local de inmediato.",
-    "info": ""
+    "_id": {
+      "$oid": "Lockouts05"
+    },
+    "Categories": "Cierres patronales",
+    "Question": "¿Qué pasa si mi arrendador me bloquea ilegalmente?",
+    "Answer": "Es un delito que el propietario lo bloquee. Según la ley de Nueva Jersey, solo los tribunales pueden ordenar desalojos, y solo los funcionarios del gobierno pueden sacarlo de su casa. Si el propietario lo bloquea, llame a la policía local de inmediato.",
+    "createdAt": {
+      "$date": "2020-05-01T01:26:14Z"
+    },
+    "updatedAt": {
+      "$date": "2020-05-01T01:26:14Z"
+    },
+    "__v": 0,
+    "Type": "Tenant"
   },
   {
-    "name": "Lockouts06",
-    "category": "Cierres patronales",
-    "question": "¿Qué sucede cuando termina la moratoria de desalojo?",
-    "answer": "A menos que lo levante antes, la moratoria terminará dos meses después de que el gobernador Murphy declare que la emergencia ha terminado. Los funcionarios locales continuarán retirando a los inquilinos que están sujetos a las órdenes judiciales finales de desalojo. (Los inquilinos que viven en hogares donde el propietario tiene una hipoteca respaldada por el gobierno federal o que viven en viviendas públicas o subsidiadas pueden tener derecho a protección por un período más largo. Ver más abajo).",
-    "info": ""
+    "_id": {
+      "$oid": "Lockouts06"
+    },
+    "Categories": "Cierres patronales",
+    "Question": "¿Qué sucede cuando termina la moratoria de desalojo?",
+    "Answer": "A menos que lo levante antes, la moratoria terminará dos meses después de que el gobernador Murphy declare que la emergencia ha terminado. Los funcionarios locales continuarán retirando a los inquilinos que están sujetos a las órdenes judiciales finales de desalojo. (Los inquilinos que viven en hogares donde el propietario tiene una hipoteca respaldada por el gobierno federal o que viven en viviendas públicas o subsidiadas pueden tener derecho a protección por un período más largo. Ver más abajo).",
+    "createdAt": {
+      "$date": "2020-05-01T01:26:14Z"
+    },
+    "updatedAt": {
+      "$date": "2020-05-01T01:26:14Z"
+    },
+    "__v": 0,
+    "Type": "Tenant"
   },
   {
-    "name": "Rent01",
-    "category": "Pago de renta",
-    "question": "¿Todavía necesito pagar mi renta?",
-    "answer": "<b> Sí. </b> El alquiler aún se debe y usted debe pagar si puede. Si no paga, el arrendador aún puede exigir el alquiler y presentar una demanda en su contra en el tribunal. El tribunal programará el caso una vez que se levante la suspensión de las audiencias judiciales (ver más abajo). Si necesita orientación sobre cómo abordar su situación de alquiler con el arrendador durante este tiempo, puede llamar a la Agencia de Financiamiento de Hipotecas y Vivienda de Nueva Jersey para obtener asesoramiento gratuito por teléfono. <a href='https://njhousing.gov/foreclosure' target='_blank'> https://njhousing.gov/foreclosure </a> para obtener una lista de consejeros por condado.",
-    "info": ""
+    "_id": {
+      "$oid": "Rent01"
+    },
+    "Categories": "Pago de renta",
+    "Question": "¿Todavía necesito pagar mi renta?",
+    "Answer": "<b> Sí. </b> El alquiler aún se debe y usted debe pagar si puede. Si no paga, el arrendador aún puede exigir el alquiler y presentar una demanda en su contra en el tribunal. El tribunal programará el caso una vez que se levante la suspensión de las audiencias judiciales (ver más abajo). Si necesita orientación sobre cómo abordar su situación de alquiler con el arrendador durante este tiempo, puede llamar a la Agencia de Financiamiento de Hipotecas y Vivienda de Nueva Jersey para obtener asesoramiento gratuito por teléfono. <a href='https://njhousing.gov/foreclosure' target='_blank'> https://njhousing.gov/foreclosure </a> para obtener una lista de consejeros por condado.",
+    "createdAt": {
+      "$date": "2020-05-01T01:26:14Z"
+    },
+    "updatedAt": {
+      "$date": "2020-05-01T01:26:14Z"
+    },
+    "__v": 0,
+    "Type": "Tenant"
   },
   {
-    "name": "Rent02",
-    "category": "Pago de renta",
-    "question": "Si no puedo pagar mi renta y quedarme atrás, ¿tendré que pagar el dinero?",
-    "answer": "<b> Sí. </b> Cualquier pago que pierda ahora se convertirá en una renta atrasada que debe. De una forma u otra, probablemente tendrá que pagar más tarde lo que no pueda pagar ahora, o finalmente enfrentará un posible desalojo. usted se atrasa en sus pagos de alquiler, puede intentar hablar con su arrendador para elaborar un plan de pago para evitar que se presente una acción de desalojo en su contra. Puede haber ayuda adicional disponible para los inquilinos que pierden el pago del alquiler debido a dificultades financieras relacionadas con COVID-19. Consulte el sitio web <a href='https://covid19.nj.gov/'> COVID-19 </a> de los estados y el sitio web de <a href='https://njhousing.gov/foreclosure'> Agencia de Financiamiento de Viviendas e Hipotecas de Nueva Jersey </a> para actualizaciones.",
-    "info": ""
+    "_id": {
+      "$oid": "Rent02"
+    },
+    "Categories": "Pago de renta",
+    "Question": "Si no puedo pagar mi renta y quedarme atrás, ¿tendré que pagar el dinero?",
+    "Answer": "<b> Sí. </b> Cualquier pago que pierda ahora se convertirá en una renta atrasada que debe. De una forma u otra, probablemente tendrá que pagar más tarde lo que no pueda pagar ahora, o finalmente enfrentará un posible desalojo. usted se atrasa en sus pagos de alquiler, puede intentar hablar con su arrendador para elaborar un plan de pago para evitar que se presente una acción de desalojo en su contra. Puede haber ayuda adicional disponible para los inquilinos que pierden el pago del alquiler debido a dificultades financieras relacionadas con COVID-19. Consulte el sitio web <a href='https://covid19.nj.gov/'> COVID-19 </a> de los estados y el sitio web de <a href='https://njhousing.gov/foreclosure'> Agencia de Financiamiento de Viviendas e Hipotecas de Nueva Jersey </a> para actualizaciones.",
+    "createdAt": {
+      "$date": "2020-05-01T01:26:14Z"
+    },
+    "updatedAt": {
+      "$date": "2020-05-01T01:26:14Z"
+    },
+    "__v": 0,
+    "Type": "Tenant"
   },
   {
-    "name": "Rent03",
-    "category": "Pago de renta",
-    "question": "¿Puede el propietario aumentar mi renta durante la crisis de COVID?",
-    "answer": "<<b> Quizás. </b> Hasta ahora, el gobierno no ha prohibido los aumentos de renta durante la crisis. Sin embargo, los inquilinos que viven en viviendas respaldadas o reguladas por la Agencia de Financiamiento de Hipotecas y Vivienda de Nueva Jersey (NJHMFA) tienen protecciones especiales. 16 de abril, <a href='https://www.nj.gov/dca/hmfa/media/news/2020/approved/20200416.html'> El gobernador Murphy anunció </a> que el NJHMFA había votado para prohibir el alquiler aumenta durante la Emergencia de Salud Pública en las 36,000 unidades de alquiler que la agencia supervisa. Después de que finaliza la emergencia, los propietarios de propiedades reguladas por NJHMFA pueden aumentar los alquileres hasta un 1.4% en 30 días para avisos a inquilinos. Los inquilinos que viven en propiedades que no son de NJHMFA todavía tiene las protecciones que ya se hayan aplicado, incluidas las disposiciones de arrendamiento y las ordenanzas de control de alquileres, que normalmente permiten aumentos de alquiler solo una vez al año.",
-    "info": ""
+    "_id": {
+      "$oid": "5eab7c47695972f5c084ed16"
+    },
+    "Categories": "Pago de renta",
+    "Question": "¿Puedo usar mi depósito de seguridad para cubrir parte del alquiler que debo?",
+    "Answer": "<b> Sí </b>. Cualquier pago que pierda ahora se convertirá en una renta atrasada que debe. De una forma u otra, probablemente tendrá que pagar más tarde lo que no pueda pagar ahora, o finalmente enfrenta un posible desalojo. Si se atrasa en sus pagos de alquiler, puede intentar hablar con su arrendador para elaborar un plan de pagos para evitar que se presente una acción de desalojo en su contra. Puede haber ayuda adicional disponible para los inquilinos que pierden los pagos de alquiler debido a COVID -19 dificultades financieras relacionadas. Verifique los estados <a href='https://covid19.nj.gov/'> COVID-19 </a> y el sitio web de <a href='https://njhousing.gov/foreclosure'> Agencia de Financiamiento de Viviendas e Hipotecas de Nueva Jersey </a> para actualizaciones ",
+    "createdAt": {
+      "$date": "2020-05-01T01:26:14Z"
+    },
+    "updatedAt": {
+      "$date": "2020-05-01T01:26:14Z"
+    },
+    "__v": 0,
+    "Type": "Tenant"
+  },{
+    "_id": {
+      "$oid": "5eab7c47695972f5c084ed17"
+    },
+    "Categories": "Pago de renta",
+    "Question": "¿Puede el propietario aumentar mi renta durante la crisis COVID?",
+    "Answer": "<p> Depende del tipo de vivienda que tenga. El 13 de mayo de 2020, el alcalde de la ciudad de Newark, Baraka, emitió una orden ejecutiva que establece una suspensión temporal de los aumentos de alquiler para todas las unidades residenciales de alquiler de la ciudad de Newark cubiertas por la ordenanza de control de rentas de la Ciudad. </p> <p> Si usted es un inquilino de Newark que quiere saber si su vivienda está cubierta por la ordenanza de control de rentas de la Ciudad, visite el sitio web de la Oficina de Control de Rentas de Newark en <a href='https://www.newarknj.gov/departments/rentcontrol'>https://www.newarknj.gov/departments/rentcontrol </a>; también puede comunicarse con la Oficina de Control de Alquileres por correo electrónico a <a href=' mailto: rentcontrol@ci.newark.nj.us '> rentcontrol@ci.newark.nj.us </a> o por teléfono a <a href='tel:9737333675'> 973-733-3675 </a>. </p> <p> Durante la moratoria de desalojo del estado, se suspenden los aumentos de alquiler y los recargos por mora en todas las propiedades de NJ HMFA. Se alienta a los inquilinos a visitar <a href='consultnjhousing.gov/foreclosure'> consultnjhousing.gov/foreclosure</a> para una l completa ist of these properties or to call <a href='tel:+18006546873'> 1-800-NJHOUSE </a> para hablar con un asesor de vivienda de forma gratuita. </p> <p> Los inquilinos con subsidio federal están protegidos de cualquier aumentos de alquiler y recargos (incluidos los honorarios de abogados).</p>",
+    "createdAt": {
+      "$date": "2020-05-01T01:26:14Z"
+    },
+    "updatedAt": {
+      "$date": "2020-05-01T01:26:14Z"
+    },
+    "__v": 0,
+    "Type": "Tenant"
   },
   {
-    "name": "Courts01",
-    "category": "Audiencias judiciales",
-    "question": "¿Qué hay de la corte? ¿Puede el arrendador llevarme a la corte por no pagar el alquiler?",
-    "answer": "<b> No ahora. </b> El 24 de abril, el <a href='https://njcourts.gov/notices/2020/n200424a.pdf'> el Tribunal Supremo de Nueva Jersey ordenó </a> que los juicios en La corte del arrendador-inquilino se suspenderá hasta el 31 de mayo. Esto significa que no habrá juicios de desalojo en ningún lugar del estado hasta el 1 de junio como mínimo, pero la orden permite negociaciones de acuerdos, conferencias de gestión de casos y mociones para avanzar en un esfuerzo por resolver El Tribunal Supremo puede anunciar nuevos aplazamientos de los juicios de desalojo: consulte el <a href='https://njcourts.gov/public/covid19.html'> sitio web de los Tribunales de Nueva Jersey </a> para obtener actualizaciones.",
-    "info": ""
+    "_id": {
+      "$oid": "Courts01"
+    },
+    "Categories": "Audiencias judiciales",
+    "Question": "¿Qué hay de la corte? ¿Puede el arrendador llevarme a la corte por no pagar el alquiler?",
+    "Answer": "<b> No ahora. </b> El 24 de abril, el <a href='https://njcourts.gov/notices/2020/n200424a.pdf'> el Tribunal Supremo de Nueva Jersey ordenó </a> que los juicios en La corte del arrendador-inquilino se suspenderá hasta el 31 de mayo. Esto significa que no habrá juicios de desalojo en ningún lugar del estado hasta el 1 de junio como mínimo, pero la orden permite negociaciones de acuerdos, conferencias de gestión de casos y mociones para avanzar en un esfuerzo por resolver El Tribunal Supremo puede anunciar nuevos aplazamientos de los juicios de desalojo: consulte el <a href='https://njcourts.gov/public/covid19.html'> sitio web de los Tribunales de Nueva Jersey </a> para obtener actualizaciones.",
+    "createdAt": {
+      "$date": "2020-05-01T01:26:14Z"
+    },
+    "updatedAt": {
+      "$date": "2020-05-01T01:26:14Z"
+    },
+    "__v": 0,
+    "Type": "Tenant"
   },
   {
-    "name": "Courts02",
-    "category": "Audiencias judiciales",
-    "question": "¿La ley federal impide que mi arrendador presente un caso de desalojo en mi contra?",
-    "answer": "<p> <b> Quizás. </b> En virtud de la <a href='https://www.congress.gov/116/bills/hr748/BILLS-116hr748eas.pdf'> Ley federal CARES adoptada recientemente</a>, si el arrendador tiene una hipoteca respaldada por el gobierno federal, el arrendador no puede presentar una acción de desalojo en su contra por falta de pago de la renta, o cobrarle tarifas (como tarifas atrasadas o tarifas de abogados) relacionadas con su falta de pago de la renta, durante 120 días a partir de 27 de marzo de 2020 (o hasta el 25 de julio de 2020). Después del 25 de julio, un arrendador con una hipoteca respaldada por el gobierno federal debe notificarlo con 30 días de anticipación antes de presentar una acción de desalojo. </p> <p> Como se explica a continuación en Inquilinos Subsidiados, el La prohibición federal de desalojo de 120 días también se extiende a los inquilinos que viven en viviendas públicas y que participan en varios otros programas de viviendas subsidiadas. </p> <p> Se puede aplicar protección adicional si el edificio donde vive tiene cinco o más unidades y el propietario obtuvo permiso para retrasar los pagos de un préstamo hipotecario respaldado por el gobierno federal. En ese caso, el propietario no puede presentar una acción de desalojo contra usted por falta de pago de la renta, o cobrarle tarifas relacionadas con la falta de pago de la renta, durante el período en que el propietario no realiza los pagos de la hipoteca. Cuando finaliza este período, el propietario debe darle un aviso de 30 días antes de presentar una acción de desalojo en su contra. </p>",
-    "info": "<b> Todavía debe pagar el alquiler </b>, y luego deberá lo que no paga ahora. Al igual que las órdenes estatales, la ley federal lo protege de ser removido de su hogar durante la emergencia, pero aún debe el alquiler"
+    "_id": {
+      "$oid": "Courts02"
+    },
+    "Categories": "Audiencias judiciales",
+    "Question": "¿La ley federal impide que mi arrendador presente un caso de desalojo en mi contra?",
+    "Answer": "<p> <b> Quizás. </b> En virtud de la <a href='https://www.congress.gov/116/bills/hr748/BILLS-116hr748eas.pdf'> Ley federal CARES adoptada recientemente</a>, si el arrendador tiene una hipoteca respaldada por el gobierno federal, el arrendador no puede presentar una acción de desalojo en su contra por falta de pago de la renta, o cobrarle tarifas (como tarifas atrasadas o tarifas de abogados) relacionadas con su falta de pago de la renta, durante 120 días a partir de 27 de marzo de 2020 (o hasta el 25 de julio de 2020). Después del 25 de julio, un arrendador con una hipoteca respaldada por el gobierno federal debe notificarlo con 30 días de anticipación antes de presentar una acción de desalojo. </p> <p> Como se explica a continuación en Inquilinos Subsidiados, el La prohibición federal de desalojo de 120 días también se extiende a los inquilinos que viven en viviendas públicas y que participan en varios otros programas de viviendas subsidiadas. </p> <p> Se puede aplicar protección adicional si el edificio donde vive tiene cinco o más unidades y el propietario obtuvo permiso para retrasar los pagos de un préstamo hipotecario respaldado por el gobierno federal. En ese caso, el propietario no puede presentar una acción de desalojo contra usted por falta de pago de la renta, o cobrarle tarifas relacionadas con la falta de pago de la renta, durante el período en que el propietario no realiza los pagos de la hipoteca. Cuando finaliza este período, el propietario debe darle un aviso de 30 días antes de presentar una acción de desalojo en su contra. </p><p><b> Todavía debe pagar el alquiler </b>, y luego deberá lo que no paga ahora. Al igual que las órdenes estatales, la ley federal lo protege de ser removido de su hogar durante la emergencia, pero aún debe el alquiler</p>",
+    "createdAt": {
+      "$date": "2020-05-01T01:26:14Z"
+    },
+    "updatedAt": {
+      "$date": "2020-05-01T01:26:14Z"
+    },
+    "__v": 0,
+    "Type": "Tenant"
   },
   {
-    "name": "Courts03",
-    "category": "Audiencias judiciales",
-    "question": "¿Qué debo hacer si recibo documentos de la corte?",
-    "answer": "Busque asistencia de una organización de servicios legales. Por ejemplo: <a href='https://www.lsnj.org/'> Servicios legales de Nueva Jersey </a>, <a href='http://www.vljnj.org/'> Abogados Voluntarios para la Justicia - Nueva Jersey </a>, <a href='http://www.chlp.org/'> Proyecto de Ley de Salud Comunitaria </a>, <a href =' https ://eclaanj.org/'> Asociación de Asistencia Legal del Condado de Essex </a>, y <a href =' https://www.newarknj.gov/news/free-legal-help-for-low-income-at -risk-tenants-afrontar-desalojo-ahora-en-operación-y-tomar-aplicaciones'> Oficina de Servicios para Inquilinos de la Ciudad de Newark </a>.",
-    "info": ""
+    "_id": {
+      "$oid": "Courts03"
+    },
+    "Categories": "Audiencias judiciales",
+    "Question": "¿Qué debo hacer si recibo documentos de la corte?",
+    "Answer": "Busque asistencia de una organización de servicios legales. Por ejemplo: <a href='https://www.lsnj.org/'> Servicios legales de Nueva Jersey </a>, <a href='http://www.vljnj.org/'> Abogados Voluntarios para la Justicia - Nueva Jersey </a>, <a href='http://www.chlp.org/'> Proyecto de Ley de Salud Comunitaria </a>, <a href=' https ://eclaanj.org/'> Asociación de Asistencia Legal del Condado de Essex </a>, y <a href=' https://www.newarknj.gov/news/free-legal-help-for-low-income-at -risk-tenants-afrontar-desalojo-ahora-en-operación-y-tomar-aplicaciones'> Oficina de Servicios para Inquilinos de la Ciudad de Newark </a>.",
+    "info": "",
+    "createdAt": {
+      "$date": "2020-05-01T01:26:14Z"
+    },
+    "updatedAt": {
+      "$date": "2020-05-01T01:26:14Z"
+    },
+    "__v": 0,
+    "Type": "Tenant"
   },
   {
-    "name": "Courts04",
-    "category": "Audiencias judiciales",
-    "question": "¿Qué sucede si mi arrendador ya ha comenzado un proceso de desalojo en mi contra en la corte de vivienda y tengo una próxima cita en la corte?",
-    "answer": "Si su fecha de corte está programada durante la suspensión, la corte le enviará un aviso por correo con su nueva fecha de corte. Si bien la corte del arrendador-inquilino está suspendida, no debe ir a la corte, ningún caso avanzará y no será penalizado por no ir a la corte.",
-    "info": ""
+    "_id": {
+      "$oid": "Courts04"
+    },
+    "Categories": "Audiencias judiciales",
+    "Question": "¿Qué sucede si mi arrendador ya ha comenzado un proceso de desalojo en mi contra en la corte de vivienda y tengo una próxima cita en la corte?",
+    "Answer": "Si su fecha de corte está programada durante la suspensión, la corte le enviará un aviso por correo con su nueva fecha de corte. Si bien la corte del arrendador-inquilino está suspendida, no debe ir a la corte, ningún caso avanzará y no será penalizado por no ir a la corte.",
+    "createdAt": {
+      "$date": "2020-05-01T01:26:14Z"
+    },
+    "updatedAt": {
+      "$date": "2020-05-01T01:26:14Z"
+    },
+    "__v": 0,
+    "Type": "Tenant"
   },
   {
-    "name": "Courts05",
-    "category": "Audiencias judiciales",
-    "question": "¿Puedo recibir reparaciones de emergencia en mi departamento?",
-    "answer": "Siempre tiene derecho a <a href='https://www.lsnjlaw.org/Housing/Landlord-Tenant/Repairs-Habitability/Pages/Safe-Decent-Housing.aspx'> vivienda segura y decente </a> Si tiene inquietudes sobre problemas tales como calor inadecuado, exposición al plomo, infestaciones, fugas, paredes y techos desmoronados u otras condiciones peligrosas, debe solicitarle al propietario por escrito que realice reparaciones (conserve una copia). hecho rápidamente, puede llamar al 2-1-1, contactar al estado <a href='https://www.nj.gov/dca/divisions/codes/offices/housinginspection.html'> Oficina de Inspección de Viviendas </a> o llame a su municipio para informar el problema. O bien, si puede administrar las reparaciones por su cuenta, puede hacerlas o pagarle a alguien para que las haga. Luego puede retener el dinero que gastó en las reparaciones de su alquiler (¡guarde todos los recibos de las reparaciones!). Las agencias de cumplimiento pueden estar trabajando con personal limitado y puede llevar más tiempo obtener reparaciones o inspecciones.",
-    "info": ""
+    "_id": {
+      "$oid": "Courts05"
+    },
+    "Categories": "Audiencias judiciales",
+    "Question": "¿Puedo recibir reparaciones de emergencia en mi departamento?",
+    "Answer": "Siempre tiene derecho a <a href='https://www.lsnjlaw.org/Housing/Landlord-Tenant/Repairs-Habitability/Pages/Safe-Decent-Housing.aspx'> vivienda segura y decente </a> Si tiene inquietudes sobre problemas tales como calor inadecuado, exposición al plomo, infestaciones, fugas, paredes y techos desmoronados u otras condiciones peligrosas, debe solicitarle al propietario por escrito que realice reparaciones (conserve una copia). hecho rápidamente, puede llamar al 2-1-1, contactar al estado <a href='https://www.nj.gov/dca/divisions/codes/offices/housinginspection.html'> Oficina de Inspección de Viviendas </a> o llame a su municipio para informar el problema. O bien, si puede administrar las reparaciones por su cuenta, puede hacerlas o pagarle a alguien para que las haga. Luego puede retener el dinero que gastó en las reparaciones de su alquiler (¡guarde todos los recibos de las reparaciones!). Las agencias de cumplimiento pueden estar trabajando con personal limitado y puede llevar más tiempo obtener reparaciones o inspecciones.",
+    "createdAt": {
+      "$date": "2020-05-01T01:26:14Z"
+    },
+    "updatedAt": {
+      "$date": "2020-05-01T01:26:14Z"
+    },
+    "__v": 0,
+    "Type": "Tenant"
   },
   {
-    "name": "Courts06",
-    "category": "Audiencias judiciales",
-    "question": "¿Qué sucede si ya tengo una cita en la corte para una audiencia sobre reparaciones de emergencia?",
-    "answer": "Todos los procedimientos judiciales del propietario/inquilino, incluidos los de reparaciones de emergencia, han sido suspendidos por el momento. Puede encontrar actualizaciones sobre las fechas de las suspensiones en el <a href='https://njcourts.gov/public/covid19.html'> sitio web de los Tribunales de Nueva Jersey </a>. No debe acudir al tribunal de vivienda durante la suspensión, sino que debe esperar la notificación de una fecha reprogramada en el tribunal.",
-    "info": ""
+    "_id": {
+      "$oid": "Courts06"
+    },
+    "Categories": "Audiencias judiciales",
+    "Question": "¿Qué sucede si ya tengo una cita en la corte para una audiencia sobre reparaciones de emergencia?",
+    "Answer": "Todos los procedimientos judiciales del propietario/inquilino, incluidos los de reparaciones de emergencia, han sido suspendidos por el momento. Puede encontrar actualizaciones sobre las fechas de las suspensiones en el <a href='https://njcourts.gov/public/covid19.html'> sitio web de los Tribunales de Nueva Jersey </a>. No debe acudir al tribunal de vivienda durante la suspensión, sino que debe esperar la notificación de una fecha reprogramada en el tribunal.",
+    "createdAt": {
+      "$date": "2020-05-01T01:26:14Z"
+    },
+    "updatedAt": {
+      "$date": "2020-05-01T01:26:14Z"
+    },
+    "__v": 0,
+    "Type": "Tenant"
   },
   {
-    "name": "Subsidized01",
-    "category": "Inquilinos subsidiados",
-    "question": "¿Puede el arrendador presentar una acción de desalojo en mi contra si vivo en una vivienda pública o tengo un Vale de la Sección 8?",
-    "answer": "<p> <b> No. </b> La <a href='https://www.congress.gov/116/bills/hr748/BILLS-116hr748eas.pdf'> Ley CARES federal </a> previene a los propietarios de presentar acciones de desalojo por falta de pago de la renta durante 120 días a partir del 27 de marzo de 2020 (o hasta el 25 de julio de 2020) contra inquilinos que: </p> <ul> <li> viven en viviendas públicas, </li> <li> tener un comprobante de elección de vivienda de la Sección 8, </li> <li> vivir en viviendas basadas en proyectos de la Sección 8, o </li> <li> vivir en otros tipos de viviendas financiadas por el gobierno federal, incluidos, entre otros, ciertos programas de vivienda para personas mayores, personas con discapacidad, personas con VIH/SIDA y personas en riesgo de quedarse sin hogar. </li> </ul>",
-    "info": "Durante este período, el arrendador tampoco puede cobrar honorarios (como los atrasos o los honorarios de abogados) asociados con la falta de pago de la renta, y el arrendador debe avisar a los inquilinos 30 días después del 25 de julio antes de presentar acciones de desalojo."
+    "_id": {
+      "$oid": "Subsidized01"
+    },
+    "Categories": "Inquilinos subsidiados",
+    "Question": "¿Puede el arrendador presentar una acción de desalojo en mi contra si vivo en una vivienda pública o tengo un Vale de la Sección 8?",
+    "Answer": "<p> <b> No. </b> La <a href='https://www.congress.gov/116/bills/hr748/BILLS-116hr748eas.pdf'> Ley CARES federal </a> previene a los propietarios de presentar acciones de desalojo por falta de pago de la renta durante 120 días a partir del 27 de marzo de 2020 (o hasta el 25 de julio de 2020) contra inquilinos que: </p> <ul> <li> viven en viviendas públicas, </li> <li> tener un comprobante de elección de vivienda de la Sección 8, </li> <li> vivir en viviendas basadas en proyectos de la Sección 8, o </li> <li> vivir en otros tipos de viviendas financiadas por el gobierno federal, incluidos, entre otros, ciertos programas de vivienda para personas mayores, personas con discapacidad, personas con VIH/SIDA y personas en riesgo de quedarse sin hogar. </li> </ul><p>Durante este período, el arrendador tampoco puede cobrar honorarios (como los atrasos o los honorarios de abogados) asociados con la falta de pago de la renta, y el arrendador debe avisar a los inquilinos 30 días después del 25 de julio antes de presentar acciones de desalojo.</p>",
+    "createdAt": {
+      "$date": "2020-05-01T01:26:14Z"
+    },
+    "updatedAt": {
+      "$date": "2020-05-01T01:26:14Z"
+    },
+    "__v": 0,
+    "Type": "Tenant"
   },
   {
-    "name": "Subsidized02",
-    "category": "Inquilinos subsidiados",
-    "question": "¿El Departamento de Asuntos de la Comunidad todavía está abierto para los negocios?",
-    "answer": "<b> Sí. </b> El Departamento de Asuntos Comunitarios (DCA) <a href='https://nj.gov/dca/divisions/dhcr/covid19housingassistance.html'> programas de asistencia para la vivienda </a> continúan operar y hacer todo su trabajo básico, incluido el pago de alquileres a los propietarios y establecer el monto de la renta que deben pagar los inquilinos subsidiados. DCA alienta a los inquilinos subsidiados a usar el portal en línea en <a href='https://www.assistancecheck.com/'> assistcheck.com </a> para enviar documentos o enviar documentos por correo (¡conserve copias!) Los inquilinos subsidiados que tengan preguntas pueden comunicarse con las oficinas de campo o usar la línea principal de servicio al cliente: 609-292-4080 o <a href='mailto: customer.service@dca.nj.gov'> customer.service@dca.nj.gov </a>. <a href='https://nj.gov/governor/news/news/562020/aprobó/20200319c.shtml'> DCA ha anunciado </a> que ha tomado una serie de medidas para satisfacer las necesidades actuales de sus clientes y para frenar los desalojos y la falta de vivienda durante el estado de emergencia. Por ejemplo, DCA ha suspendido terminación de su bsidies en la Sección 8 de Vales de Elección de Vivienda y Programas de Asistencia de Alquiler del Estado, a menos que el inquilino haya cometido violencia o amenazas contra otros. DCA también está aceptando a través de su portal en línea nuevas certificaciones de ingresos provisionales para inquilinos que han perdido ingresos debido a la pandemia.",
-    "info": ""
+    "_id": {
+      "$oid": "Subsidized02"
+    },
+    "Categories": "Inquilinos subsidiados",
+    "Question": "¿El Departamento de Asuntos de la Comunidad todavía está abierto para los negocios?",
+    "Answer": "<b> Sí. </b> El Departamento de Asuntos Comunitarios (DCA) <a href='https://nj.gov/dca/divisions/dhcr/covid19housingassistance.html'> programas de asistencia para la vivienda </a> continúan operar y hacer todo su trabajo básico, incluido el pago de alquileres a los propietarios y establecer el monto de la renta que deben pagar los inquilinos subsidiados. DCA alienta a los inquilinos subsidiados a usar el portal en línea en <a href='https://www.assistancecheck.com/'> assistcheck.com </a> para enviar documentos o enviar documentos por correo (¡conserve copias!) Los inquilinos subsidiados que tengan preguntas pueden comunicarse con las oficinas de campo o usar la línea principal de servicio al cliente: 609-292-4080 o <a href='mailto: customer.service@dca.nj.gov'> customer.service@dca.nj.gov </a>. <a href='https://nj.gov/governor/news/news/562020/aprobó/20200319c.shtml'> DCA ha anunciado </a> que ha tomado una serie de medidas para satisfacer las necesidades actuales de sus clientes y para frenar los desalojos y la falta de vivienda durante el estado de emergencia. Por ejemplo, DCA ha suspendido terminación de su bsidies en la Sección 8 de Vales de Elección de Vivienda y Programas de Asistencia de Alquiler del Estado, a menos que el inquilino haya cometido violencia o amenazas contra otros. DCA también está aceptando a través de su portal en línea nuevas certificaciones de ingresos provisionales para inquilinos que han perdido ingresos debido a la pandemia.",
+    "createdAt": {
+      "$date": "2020-05-01T01:26:14Z"
+    },
+    "updatedAt": {
+      "$date": "2020-05-01T01:26:14Z"
+    },
+    "__v": 0,
+    "Type": "Tenant"
   },
   {
-    "name": "Subsidized03",
-    "category": "Inquilinos subsidiados",
-    "question": "¿La Autoridad de Vivienda de Newark tiene permitido desalojarme ahora?",
-    "answer": "<b> No </b>. Como se señaló anteriormente, la <a href='https://www.congress.gov/116/bills/hr748/BILLS-116hr748eas.pdf'> Ley CARES federal </a> previene las autoridades de vivienda pública presenten acciones de desalojo por falta de pago de la renta contra inquilinos de vivienda pública por un período de 120 días a partir del 27 de marzo (o hasta el 25 de julio de 2020). Si el <a href='http://www.newarkha.org/'> La Autoridad de Vivienda de Newark </a> administra su subsidio de alquiler, también está cubierto por las protecciones contra el desalojo a nivel de la ciudad. El 15 de marzo, el alcalde de Newarks Baraka anunció un <a href =' https://www.facebook.com/RasJBaraka/photos/a.319302828206793/1842820932521634/?type=3&theater'> moratoria de 60 días </a> sobre desalojos residenciales para residentes de Newark que no pueden pagar su alquiler debido al impacto financiero de COVID-19.",
-    "info": ""
+    "_id": {
+      "$oid": "Subsidized03"
+    },
+    "Categories": "Inquilinos subsidiados",
+    "Question": "¿La Autoridad de Vivienda de Newark tiene permitido desalojarme ahora?",
+    "Answer": "<b> No </b>. Como se señaló anteriormente, la <a href='https://www.congress.gov/116/bills/hr748/BILLS-116hr748eas.pdf'> Ley CARES federal </a> previene las autoridades de vivienda pública presenten acciones de desalojo por falta de pago de la renta contra inquilinos de vivienda pública por un período de 120 días a partir del 27 de marzo (o hasta el 25 de julio de 2020). Si el <a href='http://www.newarkha.org/'> La Autoridad de Vivienda de Newark </a> administra su subsidio de alquiler, también está cubierto por las protecciones contra el desalojo a nivel de la ciudad. El 15 de marzo, el alcalde de Newarks Baraka anunció un <a href=' https://www.facebook.com/RasJBaraka/photos/a.319302828206793/1842820932521634/?type=3&theater'> moratoria de 60 días </a> sobre desalojos residenciales para residentes de Newark que no pueden pagar su alquiler debido al impacto financiero de COVID-19.",
+    "createdAt": {
+      "$date": "2020-05-01T01:26:14Z"
+    },
+    "updatedAt": {
+      "$date": "2020-05-01T01:26:14Z"
+    },
+    "__v": 0,
+    "Type": "Tenant"
   },
   {
-    "name": "Addtl01",
-    "category": "Asistencia de vivienda adicional",
-    "question": "¿Dónde puedo obtener más información sobre los programas estatales de asistencia para la vivienda?",
-    "answer": "Visite <a href='https://www.nj.gov/dca/dcaid'> nj.gov/dca/dcaid </a> para ver si es elegible para alguno de los programas de asistencia de vivienda del estado. Estos incluyen asistencia temporal a hogares que están siendo desalojados debido a una pérdida de ingresos a corto plazo y asistencia financiera temporal para ayudar a pagar la vivienda y la administración de casos y servicios para mantener la vivienda. También hay programas disponibles para ayudar a veteranos, familias de bajos ingresos, ancianos, padres solteros y más.",
-    "info": ""
+    "_id": {
+      "$oid": "Addtl01"
+    },
+    "Categories": "Asistencia de vivienda adicional",
+    "Question": "¿Dónde puedo obtener más información sobre los programas estatales de asistencia para la vivienda?",
+    "Answer": "Visite <a href='https://www.nj.gov/dca/dcaid'> nj.gov/dca/dcaid </a> para ver si es elegible para alguno de los programas de asistencia de vivienda del estado. Estos incluyen asistencia temporal a hogares que están siendo desalojados debido a una pérdida de ingresos a corto plazo y asistencia financiera temporal para ayudar a pagar la vivienda y la administración de casos y servicios para mantener la vivienda. También hay programas disponibles para ayudar a veteranos, familias de bajos ingresos, ancianos, padres solteros y más.",
+    "createdAt": {
+      "$date": "2020-05-01T01:26:14Z"
+    },
+    "updatedAt": {
+      "$date": "2020-05-01T01:26:14Z"
+    },
+    "__v": 0,
+    "Type": "Tenant"
   },
   {
-    "name": "Addtl02",
-    "category": "Asistencia de vivienda adicional",
-    "question": "¿Hay recursos para ayudarme a discutir estos problemas con mi arrendador o banco?",
-    "answer": "Para ayudar aún más a los propietarios e inquilinos que enfrentan dificultades, la Agencia de Financiamiento de Hipotecas y Vivienda de Nueva Jersey está ampliando su Programa de Asistencia de Mediación de Ejecución Hipotecaria (FMAP, por sus siglas en inglés) para incluir asesoramiento de inquilinos y pre-ejecución hipotecaria a través de una red de asesores de vivienda en cada condado. La asesoría es gratuita, está disponible ahora y se puede proporcionar de forma remota. Los consejeros brindarán asistencia para ayudar a los propietarios a evitar posibles ejecuciones hipotecarias. Al mismo tiempo, el asesoramiento que se pone a disposición de los inquilinos los guiará sobre cómo abordar las conversaciones con sus propietarios sobre cómo lidiar con su situación de alquiler. Para obtener una lista de los asesores de vivienda que participan en FMAP, visite: <a href='https://njhousing.gov/foreclosure'> njhousing.gov/foreclosure </a>",
-    "info": ""
+    "_id": {
+      "$oid": "Addtl02"
+    },
+    "Categories": "Asistencia de vivienda adicional",
+    "Question": "¿Hay recursos para ayudarme a discutir estos problemas con mi arrendador o banco?",
+    "Answer": "Para ayudar aún más a los propietarios e inquilinos que enfrentan dificultades, la Agencia de Financiamiento de Hipotecas y Vivienda de Nueva Jersey está ampliando su Programa de Asistencia de Mediación de Ejecución Hipotecaria (FMAP, por sus siglas en inglés) para incluir asesoramiento de inquilinos y pre-ejecución hipotecaria a través de una red de asesores de vivienda en cada condado. La asesoría es gratuita, está disponible ahora y se puede proporcionar de forma remota. Los consejeros brindarán asistencia para ayudar a los propietarios a evitar posibles ejecuciones hipotecarias. Al mismo tiempo, el asesoramiento que se pone a disposición de los inquilinos los guiará sobre cómo abordar las conversaciones con sus propietarios sobre cómo lidiar con su situación de alquiler. Para obtener una lista de los asesores de vivienda que participan en FMAP, visite: <a href='https://njhousing.gov/foreclosure'> njhousing.gov/foreclosure </a>",
+    "createdAt": {
+      "$date": "2020-05-01T01:26:14Z"
+    },
+    "updatedAt": {
+      "$date": "2020-05-01T01:26:14Z"
+    },
+    "__v": 0,
+    "Type": "Tenant"
   },
   {
-    "name": "Emmerg01",
-    "category": "Asistencia de emergencia",
-    "question": "¿Qué puedo hacer si necesito asistencia de vivienda de emergencia?",
-    "answer": "<b> Llame a <a href='tel:211'> 2-1-1 </a> </b> para obtener recursos. Para saber si usted es elegible para solicitar cualquiera de los <a href='https://nj.gov/dca/divisions/dhcr/covid19housingassistance.html'> programas de asistencia de vivienda de DCA </a>, visite la evaluación anónima en línea de DCA herramienta: <a href='https://www.nj.gov/dca/dcaid'> nj.gov/dca/dcaid </a>.",
-    "info": ""
+    "_id": {
+      "$oid": "Emmerg01"
+    },
+    "Categories": "Asistencia de emergencia",
+    "Question": "¿Qué puedo hacer si necesito asistencia de vivienda de emergencia?",
+    "Answer": "<b> Llame a <a href='tel:211'> 2-1-1 </a> </b> para obtener recursos. Para saber si usted es elegible para solicitar cualquiera de los <a href='https://nj.gov/dca/divisions/dhcr/covid19housingassistance.html'> programas de asistencia de vivienda de DCA </a>, visite la evaluación anónima en línea de DCA herramienta: <a href='https://www.nj.gov/dca/dcaid'> nj.gov/dca/dcaid </a>.",
+    "createdAt": {
+      "$date": "2020-05-01T01:26:14Z"
+    },
+    "updatedAt": {
+      "$date": "2020-05-01T01:26:14Z"
+    },
+    "__v": 0,
+    "Type": "Tenant"
   },
   {
-    "name": "Utility01",
-    "category": "Electricidad, Gas, Agua",
-    "question": "¿Se pueden cerrar mis utilidades durante la crisis de COVID-19?",
-    "answer": "<b> No. </b> Nuevas camisetas <a href='https://www.bpu.state.nj.us/bpu/newsroom/2020/approved/20200313.html'> servicios públicos de electricidad y gas </a> han suspendido voluntariamente los cortes de servicios públicos durante la crisis. Verifique <a href='https://www.bpu.state.nj.us/bpu/newsroom/index.shtml'> sitio web de la Junta de Servicios Públicos de Nueva Jersey </a> para actualizaciones.",
-    "info": ""
+    "_id": {
+      "$oid": "Utility01"
+    },
+    "Categories": "Electricidad, Gas, Agua",
+    "Question": "¿Se pueden cerrar mis utilidades durante la crisis de COVID-19?",
+    "Answer": "<b> No. </b> Nuevas camisetas <a href='https://www.bpu.state.nj.us/bpu/newsroom/2020/approved/20200313.html'> servicios públicos de electricidad y gas </a> han suspendido voluntariamente los cortes de servicios públicos durante la crisis. Verifique <a href='https://www.bpu.state.nj.us/bpu/newsroom/index.shtml'> sitio web de la Junta de Servicios Públicos de Nueva Jersey </a> para actualizaciones.",
+    "createdAt": {
+      "$date": "2020-05-01T01:26:14Z"
+    },
+    "updatedAt": {
+      "$date": "2020-05-01T01:26:14Z"
+    },
+    "__v": 0,
+    "Type": "Tenant"
   },
   {
-    "name": "Utility02",
-    "category": "Electricidad, Gas, Agua",
-    "question": "¿Hay protecciones adicionales en Newark?",
-    "answer": "<b> Sí. </b> El 15 de marzo, el alcalde Baraka firmó la <b> </b> Orden ejecutiva No. MEO-20-0001 que extiende un período de gracia de 60 días para la falta de pago de agua, alcantarillado y recolección de residuos sólidos y los cargos de recaudación de impuestos para los residentes de Newark afectados financieramente por COVID-19. El período de gracia vencerá el 14 de mayo a menos que el Alcalde lo extienda.",
-    "info": ""
+    "_id": {
+      "$oid": "Utility02"
+    },
+    "Categories": "Electricidad, Gas, Agua",
+    "Question": "¿Hay protecciones adicionales en Newark?",
+    "Answer": "<b> Sí. </b> El 15 de marzo, el alcalde Baraka firmó la <b> </b> Orden ejecutiva No. MEO-20-0001 que extiende un período de gracia de 60 días para la falta de pago de agua, alcantarillado y recolección de residuos sólidos y los cargos de recaudación de impuestos para los residentes de Newark afectados financieramente por COVID-19. El período de gracia vencerá el 14 de mayo a menos que el Alcalde lo extienda.",
+    "createdAt": {
+      "$date": "2020-05-01T01:26:14Z"
+    },
+    "updatedAt": {
+      "$date": "2020-05-01T01:26:14Z"
+    },
+    "__v": 0,
+    "Type": "Tenant"
   },
   {
-    "name": "Utility03",
-    "category": "Electricidad, Gas, Agua",
-    "question": "¿Todavía tengo que pagar los servicios públicos y el agua?",
-    "answer": "<b> Sí. </b> todavía tiene que pagar las facturas de electricidad, gas o agua que paga normalmente. Si no puede pagar ahora, tendrá que pagar más tarde. Las empresas de servicios públicos y de agua no están cancelando deudas; solo están posponiendo los cierres por el momento. DCA ofrece a los inquilinos de bajos ingresos <a href='https://www.nj.gov/dca/divisions/dhcr/offices/hea.html'> asistencia con algunas facturas de servicios públicos </a>.",
-    "info": ""
+    "_id": {
+      "$oid": "Utility03"
+    },
+    "Categories": "Electricidad, Gas, Agua",
+    "Question": "¿Todavía tengo que pagar los servicios públicos y el agua?",
+    "Answer": "<b> Sí. </b> todavía tiene que pagar las facturas de electricidad, gas o agua que paga normalmente. Si no puede pagar ahora, tendrá que pagar más tarde. Las empresas de servicios públicos y de agua no están cancelando deudas; solo están posponiendo los cierres por el momento. DCA ofrece a los inquilinos de bajos ingresos <a href='https://www.nj.gov/dca/divisions/dhcr/offices/hea.html'> asistencia con algunas facturas de servicios públicos </a>.",
+    "createdAt": {
+      "$date": "2020-05-01T01:26:14Z"
+    },
+    "updatedAt": {
+      "$date": "2020-05-01T01:26:14Z"
+    },
+    "__v": 0,
+    "Type": "Tenant"
+  },
+  {
+    "_id": {
+      "$oid": "5eab7c47695972f5c084ed26"
+    },
+    "Categories": "Acoso Sexual en Vivienda",
+    "Question": "El propietario sabe que no puedo pagar el alquiler debido a la pérdida de ingresos por la crisis de COVID-19 y ahora me está presionando para que participe en una conducta sexual a cambio del alquiler. ¿Qué debo hacer?",
+    "Answer": "<p> El acoso sexual en la vivienda, que incluye demandas de sexo o actos sexuales para comprar, alquilar o continuar alquilando una casa, es <b> ILEGAL </b> bajo la Ley Federal de Equidad de Vivienda y otras leyes. Si su propietario lo está acosando sexualmente, puede presentar una queja ante HUD en <a href='hud.gov/program_offices/fair_housing_equal_opp/online-complaint'> hud.gov/program_offices/fair_housing_equal_opp/online-complaint</a>. </p> <p> También puede llamar a la oficina de Equidad de Vivienda e Igualdad de Oportunidades al <a href='tel:+18006699777'> 1-800-669-9777</a> o <a href='tel: +18008778339'>1-800-877-8339</a>. </p>",
+    "createdAt": {
+      "$date": "2020-05-01T01:26:14Z"
+    },
+    "updatedAt": {
+      "$date": "2020-05-01T01:26:14Z"
+    },
+    "__v": 0,
+    "Type": "Tenant"
   }
- ]
+]
