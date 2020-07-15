@@ -19,7 +19,7 @@ import { Observable } from 'rxjs';
     <mat-icon style="margin-right: .5rem" [innerHtml]='(docContent | async).icon'></mat-icon>
     <h2 [translate]="'DOCVIEW.' + this.currentLink.id"></h2>
   </mat-toolbar>
-  <div *ngIf="(docContent | async).type === 'img'">
+  <div *ngIf="(docContent | async).type === 'img'" style="display: inline-flex;justify-content: center;flex-wrap: wrap;">
     <img *ngFor="let pic of (docContent | async).doc" (click)="goToUrl()" [src]='pic' class="pic">
   </div>
   <div *ngIf="(docContent | async).type === 'iframe'">
@@ -28,6 +28,17 @@ import { Observable } from 'rxjs';
       [src]='doc'>
     </iframe>\
   </div>
+  <mat-card *ngIf="currentLink.id === 'maskup'">
+    <mat-card-header>
+      <mat-card-title>Spread the Word: Social Media Cards</mat-card-title>
+    </mat-card-header>
+    <p>You can help to protect the lives and health of your family, friends,
+      neighbors and city. Please post these cards on your social media accounts.</p>
+    <div *ngFor="let cat of ['All Newarkers','Students','Teachers','Parents']" class="pic-cat">
+      <h4>#MaskUpNewark Cards for {{ cat }}</h4>
+      <a class="card-container" *ngFor="let pic of filterCat(cat)" [href]="pic.link" download><img [src]='pic.link' class="pic-card"></a>
+  </div>
+  </mat-card>
   </ng-container>`
 })
 export class DocViewComponent {
@@ -41,6 +52,17 @@ export class DocViewComponent {
   id$: Observable<string>;
   @ViewChild('frame') frame: ElementRef;
   docContent: Observable<DocPage>;
+  maskupCards: Array<{ link: string; category: string; }> = [
+    {link: 'assets/img/maskupCards/MaskUpNewark_Social_General_1', category: 'All Newarkers'},
+    {link: 'assets/img/maskupCards/MaskUpNewark_Social_General_2', category: 'All Newarkers'},
+    {link: 'assets/img/maskupCards/MaskUpNewark_Social_Students_1', category: 'Students'},
+    {link: 'assets/img/maskupCards/MaskUpNewark_Social_Students_2', category: 'Students'},
+    {link: 'assets/img/maskupCards/MaskUpNewark_Social_Students_3', category: 'Students'},
+    {link: 'assets/img/maskupCards/MaskUpNewark_Social_Teachers_1', category: 'Teachers'},
+    {link: 'assets/img/maskupCards/MaskUpNewark_Social_Teachers_2', category: 'Teachers'},
+    {link: 'assets/img/maskupCards/MaskUpNewark_Social_Parents_1', category: 'Parents'},
+    {link: 'assets/img/maskupCards/MaskUpNewark_Social_Parents_2', category: 'Parents'}
+  ];
   constructor(
     public sanitizer: DomSanitizer,
     private store: Store<fromStore.StoreState>,
@@ -70,6 +92,8 @@ export class DocViewComponent {
   doctyper(): 'img' | 'iframe' {
       switch (this.currentLink.id) {
         case 'web-housing-seminar': return 'iframe';
+        case 'reopen-requirements': return 'iframe';
+        case 'rent-increase-freeze-order': return 'iframe';
         default: return 'img';
       }
   }
@@ -103,5 +127,12 @@ export class DocViewComponent {
     } else {
       return location.href = 'https://facebook.com/cityofnewark';
     }
+  }
+  filterCat(cat: string): Array<{ link: SafeUrl; category: string; }> {
+    return this.maskupCards.filter(c => c.category === cat).map(
+      c => ({
+        link: this.sanitizer.bypassSecurityTrustUrl(`${c.link}${c.link.endsWith('General_1') ? '.png' : '.jpg'}`), category: c.category
+      })
+    );
   }
 }

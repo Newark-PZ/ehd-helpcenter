@@ -1,6 +1,7 @@
 :host {
   display: flex;
   flex-direction: column;
+  overflow: hidden;
 }
 .mat-toolbar {
   h2 {font-weight: 600 !important; white-space: pre-line; font-size: 2rem !important;}
@@ -21,7 +22,7 @@
 .data-dashboard {
   height: 1200px;
   width: 93vw;
-  margin: auto;
+  margin: 2vw;
   border: none;
   &.multipg {
     width: 95vw !important;
@@ -32,12 +33,85 @@
   }
 }
 .pic {
-display: flex;
+flex: 1 1 auto;
+max-width: 500px;
 width: 75vw;
-margin: auto;
+margin: 1rem;
 margin-top: 0px;
 border-radius: 0.2rem;
 box-shadow: 0.1rem 0.1rem 0.15rem gray;
 margin-bottom: 3rem;
 cursor: pointer;
+  &-card {
+    max-width: 100%;
+    user-select: none;
+    -webkit-user-select: none;
+  }
 }
+.pic-cat {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  h4 {
+    text-align: center;
+    flex: 1 1 100%;
+  }
+}
+.card-container {
+  display: inline-flex;
+  max-width: 15rem;
+  margin: .5rem;
+  margin-bottom: .5rem !important;
+  flex: 1 1 45%;
+  border-radius: 0.2rem;
+  box-shadow: 0.1rem 0.1rem 0.15rem gray;
+  &::after {
+    position: absolute;
+    content: "Download";
+    color: white;
+    -webkit-text-fill-color: white;
+    font: inherit;
+    font-weight: 600;
+    height: 15rem;
+    width: 15rem;
+    opacity: 0;
+    -webkit-transition: opacity ease-out 350ms;
+    transition: opacity ease-out 350ms;
+    background-color: #0d47a1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  &:hover::after {
+    opacity: .85;
+    cursor: pointer;
+  }
+  &:active::after {
+    opacity: .85;
+    background-color: yellow;
+    cursor: pointer;
+  }
+}
+.mat-card {
+  width: 90%;
+  margin: 1rem auto;
+  font-size: 1.3rem !important;
+  }
+  .mat-card-header {
+  border: solid .1rem rgba(13, 71, 161, 0.66);
+  color: rgb(13, 71, 161);
+  -webkit-text-fill-color: rgb(13, 71, 161);
+  padding: 0.2rem;
+  margin-bottom: 1rem;
+  border-width: 0 0 .1rem 0;
+  font-size: 2rem;
+  }
+  .card-body {
+    font-size: 1.3rem !important;
+    line-height: 2rem;
+    margin: 1rem auto;
+  }
