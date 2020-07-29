@@ -1,121 +1,119 @@
 [
-    {
-        "__v": 0,
-        "Answer": "<strong>No.</strong> On March 19, 2020, New Jersey Governor Philip Murphy issued <a href='https://nj.gov/infobank/eo/056murphy/pdf/EO-106.pdf'>Executive Order 106</a>, which immediately suspends evictions and removals throughout the state. This is called an <i>eviction moratorium</i>, and it means that, except in rare circumstances, <strong>no homeowner may be removed from his or her home as a result of a foreclosure proceeding at this time</strong>. You cannot be removed even if a <a href='https://www.lsnjlaw.org/Housing/Home-Ownership/Foreclosure/Pages/Foreclosure-Process.aspx'>final judgment of foreclosure</a> has been entered and a <a href='https://www.lsnjlaw.org/Housing/Home-Ownership/Foreclosure/Pages/Foreclosure-Process.aspx'>sheriff's sale</a> of your property has taken place. The eviction moratorium does <strong>not</strong> affect court proceedings; instead, it prevents removals. More information on court proceedings is below.",
-        "Categories": "Removals",
-        "createdAt": {
-            "$date": "2020-05-01T01:26:14.000Z"
-        },
-        "Postscript": "The eviction moratorium does <b>not</b> affect court proceedings; instead, it prevents removals. More information on court proceedings is below.",
-        "Question": "Can I be removed from my home as a result of a foreclosure proceeding during the COVID-19 emergency?",
-        "Type": "Homeowners",
-        "updatedAt": {
-            "$date": "2020-05-01T01:46:13.372Z"
-        }
+  {
+    "__v": 0,
+    "Answer": "<p><strong>No.</strong> On March 19, 2020, New Jersey Governor Philip Murphy issued <a href='https://nj.gov/infobank/eo/056murphy/pdf/EO-106.pdf'>Executive Order 106</a>, which immediately suspends evictions and removals throughout the state. This is called an “eviction moratorium,” and it means that, except in rare circumstances, <strong>no homeowner may be removed from his or her home as a result of a foreclosure proceeding at this time</strong>. You cannot be removed even if a <a href='https://www.lsnjlaw.org/Housing/Home-Ownership/Foreclosure/Pages/Foreclosure-Process.aspx'>final judgment of foreclosure</a> has been entered and a <a href='https://www.lsnjlaw.org/Housing/Home-Ownership/Foreclosure/Pages/Foreclosure-Process.aspx'>sheriff’s sale</a> of your property has taken place. The eviction moratorium does <strong>not</strong> affect court proceedings; instead, it prevents removals. More information on court proceedings is below.</p>",
+    "Categories": "Removals",
+    "createdAt": {
+      "$date": "2020-05-01T01:26:14.000Z"
     },
-    {
-        "__v": 0,
-        "Answer": "The eviction moratorium began on March 19, 2020, and it will last until two months after Governor Murphy declares an end to the COVID-19 health crisis, unless the Governor issues another Executive Order to end it sooner.",
-        "Categories": "Removals",
-        "createdAt": {
-            "$date": "2020-05-01T01:26:14.000Z"
-        },
-        "Question": "How long will the eviction moratorium last?",
-        "Type": "Homeowners",
-        "updatedAt": {
-            "$date": "2020-05-01T01:46:13.372Z"
-        }
-    },
-    {
-        "__v": 0,
-        "Answer": "<p><strong>Yes.</strong> You will have to make your mortgage payments sooner or later. If you need extra time, however, help is available.</p><p>If you have a federally backed mortgage, you have the right to ask your mortgage servicer for forbearance (a pause on payments) to relieve financial hardship arising from the pandemic. The recently adopted federal <a href='https://www.congress.gov/116/bills/hr748/BILLS-116hr748eas.pdf'>CARES Act</a> requires servicers of federally backed mortgages to give struggling borrowers a 180-day grace period on payments. The borrower may request one extension of up to 180 days. During the grace period, the servicer cannot charge you fees, penalties, or interest other than what you would owe if you had paid on time.</p><p>In addition, Governor Murphy has announced some <a href='https://nj.gov/governor/news/news/562020/approved/20200328c.shtml'>important relief for homeowners with mortgages</a>, including those that are not backed by the federal government. If you contact your mortgage servicer, you may be eligible for: (1) a 90-day grace period for mortgage payments; (2) assurance that the servicer will not report late or missed payments during this period to credit agencies; (3) a 60-day moratorium on servicers' initiation of foreclosure sales or evictions; and (4) relief from certain fees and charges for at least 90 days. For more information, check the <a href='https://www.state.nj.us/dobi/covid/mortgagerelief.html'>FAQs</a> issued by the state. You can also check the website of <a href='https://njhousing.gov/foreclosure'>New Jersey Housing and Mortgage Finance Agency</a> for updates on available help and to access a list of counselors by county.</p>",
-        "Categories": "Removals",
-        "createdAt": {
-            "$date": "2020-05-01T01:26:14.000Z"
-        },
-        "Postscript": "For more information, check the <a href='https://www.state.nj.us/dobi/covid/mortgagerelief.html'>FAQs</a> issued by the state. You can also check the website of <a href='https://njhousing.gov/foreclosure'>New Jersey Housing and Mortgage Finance Agency</a> for updates on available help and to access a list of counselors by county.",
-        "Question": "Do I still need to pay my mortgage?",
-        "Type": "Homeowners",
-        "updatedAt": {
-            "$date": "2020-05-01T01:46:13.372Z"
-        }
-    },
-    {
-        "__v": 0,
-        "Answer": "<strong>Yes, for some homeowners.</strong> On March 18, the U.S. Department of Housing and Urban Development (HUD) announced a <a href='https://www.hud.gov/sites/dfiles/OCHCO/documents/20-04hsgml.pdf'>foreclosure and eviction moratorium</a> that applied to single-family homeowners with Federal Housing Authority (FHA)-insured mortgages for 60 days. <a href='https://www.fhfa.gov/Media/PublicAffairs/Pages/FHFA-Suspends-Foreclosures-and-Evictions-for-Enterprise-Backed-Mortgages.aspx'>Fannie Mae and Freddie Mac</a> also suspended foreclosures and evictions for 60 days for homeowners behind on their mortgages. In addition, the federal CARES Act made it illegal for the servicer of a federally backed mortgage loan to evict you for 60 days from March 18 (in other words, until May 17). On May 14, the <a href='https://www.hud.gov/press/press_releases_media_advisories/HUD_No_20_066'>FHA</a>, <a href='https://www.fhfa.gov/Media/PublicAffairs/Pages/FHFA-Extends-Foreclosure-and-Eviction-Moratorium.aspx'>Fannie Mae, and Freddie Mac</a> extended their foreclosure and eviction moratoriums for single-family mortgages until June 30, 2020. This period could be further extended by additional agency action or legislation. The <a href='https://nlihc.org/coronavirus-and-housing-homelessness'>National Low Income Housing Coalition</a> is tracking federal developments.",
-        "Categories": "Removals",
-        "createdAt": {
-            "$date": "2020-05-01T01:26:14.000Z"
-        },
-        "Question": "Is there a national moratorium on evictions?",
-        "Type": "Homeowners",
-        "updatedAt": {
-            "$date": "2020-05-01T01:46:13.372Z"
-        }
-    },
-    {
-        "__v": 0,
-        "Answer": "<p><strong>Not if you hold a federally backed mortgage.</strong> The federal CARES Act made it illegal for the servicer of a federally backed mortgage loan to begin or move forward with foreclosure proceedings for sixty days from March 18 (until May 17). This period has been extended to June 30, 2020 with respect to federally backed single family mortgages only, and may be further extended by additional agency action or legislation. For updates, check the website of the <a href='https://nlihc.org/coronavirus-and-housing-homelessness'>National Low Income Housing Coalition</a>.</p><p><strong>Yes, if you don't hold a federally backed mortgage.</strong> The state <a href='https://nj.gov/infobank/eo/056murphy/pdf/EO-106.pdf'>Executive Order</a> and <a href='https://www.njleg.state.nj.us/2020/Bills/A4000/3859_I1.PDF'>related legislation</a> specifically state that lenders can bring foreclosure actions during the time the order is in effect. We understand that the Superior Court <a href='https://www.njcourts.gov/courts/superior/foreclosure.html?lang=eng'>Office of Foreclosure</a> is still accepting new cases and electronic filings in existing cases. The portion of the <a href='https://www.state.nj.us/dobi/covid/mortgagerelief.html'>state-negotiated protections</a> under which lenders agreed not to file new foreclosure actions expired on May 27, 60 days from when it was announced.</p>",
-        "Categories": "Court Hearings",
-        "createdAt": {
-            "$date": "2020-05-01T01:26:14.000Z"
-        },
-        "Question": "Can lenders still begin foreclosure proceedings during this period?",
-        "Type": "Homeowners",
-        "updatedAt": {
-            "$date": "2020-05-01T01:46:13.372Z"
-        }
-    },
-    {
-        "__v": 0,
-        "Answer": "<b>That depends</b>. The Foreclosure Office administers parts of most foreclosure cases and manages most of the process when a foreclosure is uncontested, meaning that the homeowner did not file an answer to the complaint. Under an <a href='https://njcourts.gov/notices/2020/n200424a.pdf'>April 24 order</a> issued by the New Jersey Supreme Court, however, the Office of Foreclosure will not review or act on motions or judgments it received after March 1, 2020. Thus, if the lender asks the Foreclosure Office after March 1 to enter a final judgment against the homeowner or seeks other action to advance the foreclosure, the Office will hold those requests for now. The Supreme Courts order will remain in effect until the Court lifts it. Please check the <a href='https://www.njcourts.gov/public/covid19.html'>New Jersey Courts website</a> for updates on court orders affecting how and when uncontested foreclosure cases will proceed. If you have questions about an uncontested foreclosure case that is pending, you can also try contacting the Office of Foreclosure at <a href='tel:6094216100'>609-421-6100</a> or <a href='mailto:SCCO.Mailbox@njcourts.gov'>Scco.Mailbox@njcourts.gov</a>.",
-        "Categories": "Court Hearings",
-        "createdAt": {
-            "$date": "2020-05-01T01:26:14.000Z"
-        },
-        "Question": "Will the Foreclosure Office process cases during this period?",
-        "Type": "Homeowners",
-        "updatedAt": {
-            "$date": "2020-05-01T01:46:13.372Z"
-        }
-    },
-    {
-        "__v": 0,
-        "Answer": "<strong>Yes. </strong>To date, there is no order suspending court hearings in contested foreclosure cases (in which the homeowner answered the complaint). Please note, however, that <a href='https://njcourts.gov/notices/2020/n200529a.pdf?c=vkd'>the most recent Supreme Court order</a> reaffirms that &ldquo;in-person court operations will not resume in full for some time.' Until the Court lifts or amends the order, hearings, conferences, and arguments will be held by video or telephone. Please check with the court where the case is pending if you have questions. Please also check the <a href='https://www.njcourts.gov/public/covid19.html'>New Jersey Courts website</a> for updates on how and when proceedings will take place.",
-        "Categories": "Court Hearings",
-        "createdAt": {
-            "$date": "2020-05-01T01:26:14.000Z"
-        },
-        "Question": "Will the courts hear foreclosure cases during this period?",
-        "Type": "Homeowners",
-        "updatedAt": {
-            "$date": "2020-05-01T01:46:13.372Z"
-        }
-    },
-    {
-        "__v": 0,
-        "Answer": "<strong>No.</strong> As of March 13, New Jersey's <a href='https://www.bpu.state.nj.us/bpu/newsroom/2020/approved/20200313.html'>electric and gas utilities</a> voluntarily suspended utility shut-offs, and that suspension appears to be ongoing. We have heard that some of the utility companies are sending shut-off notices to homeowners, but it seems they are not following through with actual shut-offs.",
-        "Categories": "Court Hearings",
-        "createdAt": {
-            "$date": "2020-05-01T01:26:14.000Z"
-        },
-        "Question": "Can my utilities be shut off during the COVID-19 crisis?",
-        "Type": "Homeowners",
-        "updatedAt": {
-            "$date": "2020-05-01T01:46:13.372Z"
-        }
-    },
-    {
-        "__v": 0,
-        "Answer": "<strong>Yes.</strong> You still have to pay your electric, gas, and water bills. If you cannot pay now, you will have to pay later. The utilities and water companies are not cancelling debts; they are just postponing shutoffs for the time being. DCA offers low-income homeowners <a href='https://www.nj.gov/dca/divisions/dhcr/offices/hea.html'>assistance with some utility bills</a>, and you can call the customer service number on your utility bill to try to work out a payment plan.",
-        "Categories": "Court Hearings",
-        "createdAt": {
-            "$date": "2020-05-01T01:26:14.000Z"
-        },
-        "Question": "Do I still have to pay for utilities and water?",
-        "Type": "Homeowners",
-        "updatedAt": {
-            "$date": "2020-05-01T01:46:13.372Z"
-        }
+    "Question": "Can I be removed from my home as a result of a foreclosure proceeding during the COVID-19 emergency?",
+    "Type": "Homeowners",
+    "updatedAt": {
+      "$date": "2020-07-29T01:26:14Z"
     }
+  },
+  {
+    "__v": 0,
+    "Answer": "<p>The eviction moratorium began on March 19, 2020, and it will last until two months after Governor Murphy declares an end to the COVID-19 health crisis. The Governor has extended the official public health emergency several times, most recently through <a href='https://nj.gov/infobank/eo/056murphy/pdf/EO-162.pdf'>Executive Order 162</a>, which will expire on August 1. Unless the Governor extends the emergency again, or ends it early, the eviction moratorium will expire two months later, on October 1.</p>",
+    "Categories": "Removals",
+    "createdAt": {
+      "$date": "2020-05-01T01:26:14.000Z"
+    },
+    "Question": "How long will the eviction moratorium last?",
+    "Type": "Homeowners",
+    "updatedAt": {
+      "$date": "2020-07-29T01:26:14Z"
+    }
+  },
+  {
+    "__v": 0,
+    "Answer": "<p><strong>Yes.</strong> You will have to make your mortgage payments sooner or later. If you need extra time, however, help is available.</p><p>If you have a federally backed mortgage (including a mortgage from Fannie Mae, Freddie Mac, or the Federal Housing Administration, among others), you have the right to ask your mortgage servicer for forbearance (a pause on payments) to relieve financial hardship arising from the pandemic. If you own a one-to-four-unit residential building, the federal <a href='https://www.govtrack.us/congress/bills/116/hr748/text'>CARES Act</a> requires servicers of federally backed mortgages to give struggling borrowers a 180-day grace period on payments. The borrower may request one extension of up to 180 days. During the grace period, the servicer cannot charge you fees, penalties, or interest other than what you would owe if you had paid on time. If you own a residential building with five or more units and you have suffered financial hardship because of the pandemic, the CARES Act requires servicers of federally backed mortgages to offer you a grace period of up to 90 days, in three 30-day increments. The National Low-Income Housing Coalition has constructed a <a href='https://nlihc.org/federal-moratoriums'>searchable database</a> of many (but not all) of the properties covered by the CARES Act.</p><p>In addition, Governor Murphy has announced some <a href='https://nj.gov/governor/news/news/562020/approved/20200328c.shtml'>important relief for homeowners with mortgages</a><span>, </span><span>including those that are not backed by the federal government</span>. If you contact your mortgage servicer, you may be eligible for: (1) a 90-day grace period for mortgage payments; (2) assurance that the servicer will not report late or missed payments during this period to credit agencies; (3) a 60-day moratorium on servicers’ initiation of foreclosure sales or evictions; and (4) relief from certain fees and charges for at least 90 days. For more information, check the <a href='https://www.state.nj.us/dobi/covid/mortgagerelief.html'>FAQs</a> issued by the state. You can also check the website of <a href='https://njhousing.gov/foreclosure'>New Jersey Housing and Mortgage Finance Agency</a> for updates on available help and to access a list of counselors by county.</p>",
+    "Categories": "Removals",
+    "createdAt": {
+      "$date": "2020-05-01T01:26:14.000Z"
+    },
+    "Question": "Do I still need to pay my mortgage?",
+    "Type": "Homeowners",
+    "updatedAt": {
+      "$date": "2020-07-29T01:26:14Z"
+    }
+  },
+  {
+    "__v": 0,
+    "Answer": "<p><strong>Yes, for some homeowners.</strong> On June 17, the <a href='https://www.hud.gov/press/press_releases_media_advisories/HUD_No_20_081'>Federal Housing Administration (FHA)</a>, <a href='https://www.fhfa.gov/Media/PublicAffairs/Pages/FHFA-Extends-Foreclosure-and-Eviction-Moratorium-6172020.aspx'>Fannie Mae, and Freddie Mac</a> extended their foreclosure and eviction moratoriums for single-family mortgages through August 31, 2020. This period may be further extended by additional agency action or legislation.</p>",
+    "Categories": "Removals",
+    "createdAt": {
+      "$date": "2020-05-01T01:26:14.000Z"
+    },
+    "Question": "Is there a national moratorium on evictions?",
+    "Type": "Homeowners",
+    "updatedAt": {
+      "$date": "2020-07-29T01:26:14Z"
+    }
+  },
+  {
+    "__v": 0,
+    "Answer": "<p><strong>Not if you hold a single-family federally backed mortgage.</strong> The foreclosure moratorium adopted by the FHA, Fannie Mae, and Freddie Mac prevents servicers from filing foreclosure proceedings against homeowners with single-family mortgages through August 31, 2020. This period may be further extended by additional agency action or legislation.</p><p><strong>Yes, if you don’t hold a federally backed mortgage.</strong> The state <a href='https://nj.gov/infobank/eo/056murphy/pdf/EO-106.pdf'>Executive Order</a> and <a href='https://www.njleg.state.nj.us/2020/Bills/A4000/3859_I1.PDF'>related legislation</a> specifically state that lenders can bring foreclosure actions during the time the order is in effect. The Superior Court <a href='https://www.njcourts.gov/courts/superior/foreclosure.html?lang=eng'>Office of Foreclosure</a> is accepting new cases and electronic filings in existing cases. The portion of the <a href='https://www.state.nj.us/dobi/covid/mortgagerelief.html'>state-negotiated protections</a> under which lenders agreed not to file new foreclosure actions expired on May 27, 60 days from when it was announced.</p>",
+    "Categories": "Court Hearings",
+    "createdAt": {
+      "$date": "2020-05-01T01:26:14.000Z"
+    },
+    "Question": "Can lenders still begin foreclosure proceedings during this period?",
+    "Type": "Homeowners",
+    "updatedAt": {
+      "$date": "2020-07-29T01:26:14Z"
+    }
+  },
+  {
+    "__v": 0,
+    "Answer": "<p><strong>Yes.</strong> The Foreclosure Office administers parts of most foreclosure cases and manages most of the process when a foreclosure is “uncontested,” meaning that the homeowner did not file an answer to the complaint. Under a <a href='https://njcourts.gov/notices/2020/n200626a.pdf?c=cXu'>June 25 order</a> issued by the New Jersey Supreme Court, the Office of Foreclosure is processing cases as it normally does. If you have questions about an uncontested foreclosure case that is pending, you can try contacting the Office of Foreclosure at 609-421-6100 or <a href='mailto:SCCO.Mailbox@njcourts.gov'>Scco.Mailbox@njcourts.gov</a>.</p>",
+    "Categories": "Court Hearings",
+    "createdAt": {
+      "$date": "2020-05-01T01:26:14.000Z"
+    },
+    "Question": "Will the Foreclosure Office process cases during this period?",
+    "Type": "Homeowners",
+    "updatedAt": {
+      "$date": "2020-07-29T01:26:14Z"
+    }
+  },
+  {
+    "__v": 0,
+    "Answer": "<p><strong>Yes. </strong>There is no order suspending court hearings in contested foreclosure cases (in which the homeowner answered the complaint). Please note, however, that under a <a href='https://njcourts.gov/notices/2020/n200626a.pdf?c=cXu'>June 25 order</a> (reaffirmed by a <a href='https://njcourts.gov/notices/2020/n200724a.pdf?c=DfF'>July 24 order</a>), “courts at all levels are continuing to operate primarily using remote (video and phone) technologies.” Until the Court lifts or amends the order, most hearings, conferences, and arguments will be held by video or telephone. Please check with the court where the case is pending if you have questions. Please also check the <a href='https://www.njcourts.gov/public/covid19.html'>New Jersey Courts website</a> for updates on how and when proceedings will take place.</p>",
+    "Categories": "Court Hearings",
+    "createdAt": {
+      "$date": "2020-05-01T01:26:14.000Z"
+    },
+    "Question": "Will the courts hear foreclosure cases during this period?",
+    "Type": "Homeowners",
+    "updatedAt": {
+      "$date": "2020-07-29T01:26:14Z"
+    }
+  },
+  {
+    "__v": 0,
+    "Answer": "<p><strong>No.</strong> As of March 13, New Jersey’s <a href='https://www.bpu.state.nj.us/bpu/newsroom/2020/approved/20200313.html'>electric and gas utilities</a> voluntarily suspended utility shut-offs, and that suspension appears to be ongoing. We have heard that some of the utility companies are sending shut-off notices to homeowners, but it seems they are not following through with actual shut-offs.</p>",
+    "Categories": "Court Hearings",
+    "createdAt": {
+      "$date": "2020-05-01T01:26:14.000Z"
+    },
+    "Question": "Can my utilities be shut off during the COVID-19 crisis?",
+    "Type": "Homeowners",
+    "updatedAt": {
+      "$date": "2020-07-29T01:26:14Z"
+    }
+  },
+  {
+    "__v": 0,
+    "Answer": "<p><strong>Yes.</strong> You still have to pay your electric, gas, and water bills. If you cannot pay now, you will have to pay later. The utilities and water companies are not cancelling debts; they are just postponing shutoffs for the time being. DCA offers low-income homeowners <a href='https://www.nj.gov/dca/divisions/dhcr/offices/hea.html'>assistance with some utility bills</a>, and you can call the customer service number on your utility bill to try to work out a payment plan.</p>",
+    "Categories": "Court Hearings",
+    "createdAt": {
+      "$date": "2020-05-01T01:26:14.000Z"
+    },
+    "Question": "Do I still have to pay for utilities and water?",
+    "Type": "Homeowners",
+    "updatedAt": {
+      "$date": "2020-07-29T01:26:14Z"
+    }
+  }
 ]
