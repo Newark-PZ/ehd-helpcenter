@@ -4,13 +4,13 @@
   },
   "Categories": "Lockout",
   "Type": "Tenant",
-  "Answer": "<p><strong>No.</strong> On March 19, 2020, New Jersey Governor Philip Murphy issued <a href='https://nj.gov/infobank/eo/056murphy/pdf/EO-106.pdf'>Executive Order 106</a>, which immediately suspends evictions throughout the state. This is called an “eviction moratorium,” and it means that, except in rare circumstances, <strong>no tenant may be removed from his or her home as a result of an eviction proceeding</strong>. This state eviction moratorium does <strong>not</strong> affect court proceedings; instead, it prevents lockouts and removals. The New Jersey Supreme Court controls court proceedings related to eviction, which are suspended for now. More information is below.</p>",
+  "Answer": "<p><strong>No.</strong>  On March 19, 2020, New Jersey Governor Philip Murphy issued <a href='https://nj.gov/infobank/eo/056murphy/pdf/EO-106.pdf'>Executive Order 106</a>, which immediately suspends evictions throughout the state.  This is called an “eviction moratorium,” and it means that, except in rare circumstances, <strong>no tenant may be removed from his or her home as a result of an eviction proceeding</strong>.  This state eviction moratorium does <strong>not</strong> affect court proceedings; instead, it prevents lockouts and removals.  The New Jersey Supreme Court controls court proceedings related to eviction, which are suspended for now.  More information is below.</p>",
   "Question": "Can I be locked out of my home during the COVID-19 emergency?",
   "createdAt": {
     "$date": "2020-04-30T20:06:30.044Z"
   },
   "updatedAt": {
-    "$date": "2020-07-29T21:00:08.473Z"
+    "$date": "2020-04-30T21:00:08.473Z"
   },
   "__v": 0
 },{
@@ -18,28 +18,45 @@
     "$oid": "5eab7c47695972f5c084ed0f"
   },
   "Categories": "Lockouts",
-  "Answer": "<p>The eviction moratorium began on March 19, 2020, and it will last until two months after Governor Murphy declares an end to the COVID-19 health crisis. The Governor has extended the official public health emergency several times, most recently through <a href='https://nj.gov/infobank/eo/056murphy/pdf/EO-162.pdf'>Executive Order 162</a>, which will expire on August 1. Unless the Governor extends the emergency again, or ends it early, the eviction moratorium will expire two months later, on October 1.</p><p>The moratorium applies to all pre-existing orders for removal. Any previously issued order for removal is suspended, and you cannot be removed from your home during the moratorium.</p>",
+  "Answer": "<p>The eviction moratorium began on March 19, 2020, and it will last until two months after Governor Murphy declares an end to the COVID-19 health crisis.  The Governor has extended the official public health emergency several times, most recently through <a href='https://nj.gov/infobank/eo/056murphy/pdf/EO-171.pdf'>Executive Order 171</a>, which will expire on August 31.  Unless the Governor extends the emergency again, or ends it early, the eviction moratorium will expire two months later, on <strong>October 31</strong>.</p>",
   "Question": "How long will the state eviction moratorium last?",
   "createdAt": {
     "$date": "2020-05-01T01:26:14Z"
   },
   "updatedAt": {
-    "$date": "2020-07-29T01:26:14Z"
+    "$date": "2020-08-06T01:26:14Z"
   },
   "__v": 0,
   "Type": "Tenant"
-},{
+},
+{
+  "_id": {
+    "$oid": "5eab7c47695972f5c084ed0f"
+  },
+  "Categories": "Lockouts",
+  "Answer": "<p>The moratorium applies to all pre-existing orders for removal.  Any previously issued order for removal is suspended, and you cannot be removed from your home during the moratorium.</p>",
+  "Question": "What if a lockout notice or warrant of removal has already been issued?",
+  "createdAt": {
+    "$date": "2020-05-01T01:26:14Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-06T01:26:14Z"
+  },
+  "__v": 0,
+  "Type": "Tenant"
+},
+{
   "_id": {
     "$oid": "5eab7c47695972f5c084ed10"
   },
   "Categories": "Lockouts",
   "Question": "What if I live in a hotel/motel? Can I be evicted while the Executive Order is in place?",
-  "Answer": "<p><strong>Maybe.</strong> Governor Murphy’s <a href='https://nj.gov/infobank/eo/056murphy/pdf/EO-106.pdf'>Executive Order 106</a> <span>permits a hotel or motel to evict </span>a “transient guest or seasonal tenant.” Longtime hotel and motel residents, along with many others, are not considered “transient” or “seasonal,” however, and therefore remain protected from eviction under the Order. In general, residents cannot be evicted if they “have no permanent housing to which they may safely or lawfully return and live at a hotel or motel on a continual basis.” Under Administrative Orders <a href='https://d31hzlhk6di2h5.cloudfront.net/20200404/76/54/49/6d/782ba5a402ce762190ffdf92/AO_2020-8.pdf'>2020-08</a> and <a href='http://d31hzlhk6di2h5.cloudfront.net/20200424/b7/cb/1b/ce/b43a111240a42d0194ce7531/AO_2020-9.PDF'>2020-09</a> (issued by the State Director of Emergency Management on April 4 and April 24), the following hotel and motel residents are generally protected from eviction:</p><ul><li>those who are part of state initiatives aimed at getting people out of group shelters;</li><li>those supported by a governmental housing assistance program;</li><li>health-care workers who need a temporary place to stay;</li><li>homeless people;</li><li>individuals affected by domestic violence; and</li><li>those staying in hotels or motels in compliance with a court order.</li></ul><p>Others may be protected as well. To discuss your individual circumstances, contact a legal services organization such as <a href='https://www.lsnj.org/'>Legal Services of New Jersey</a>, <a href='http://www.vljnj.org/'>Volunteer Lawyers for Justice – New Jersey</a>, <a href='http://www.chlp.org/'>Community Health Law Project</a>, <a href='https://eclaanj.org/'>Essex County Legal Aid Association</a>, or <a href='https://www.newarknj.gov/news/free-legal-help-for-low-income-at-risk-tenants-facing-eviction-now-in-operation-and-taking-applications'>City of Newark Office of Tenant Services</a>.</p>",
+  "Answer": "<p><strong>Maybe.</strong>  Governor Murphy’s <a href='https://nj.gov/infobank/eo/056murphy/pdf/EO-106.pdf'>Executive Order 106</a> <span>permits a hotel or motel to evict </span>a “transient guest or seasonal tenant.”  Longtime hotel and motel residents, along with many others, are not considered “transient” or “seasonal,” however, and therefore remain protected from eviction under the Order.  In general, residents cannot be evicted if they “have no permanent housing to which they may safely or lawfully return and live at a hotel or motel on a continual basis.”  Under Administrative Orders <a href='https://d31hzlhk6di2h5.cloudfront.net/20200404/76/54/49/6d/782ba5a402ce762190ffdf92/AO_2020-8.pdf'>2020-08</a> and <a href='http://d31hzlhk6di2h5.cloudfront.net/20200424/b7/cb/1b/ce/b43a111240a42d0194ce7531/AO_2020-9.PDF'>2020-09</a> (issued by the State Director of Emergency Management on April 4 and April 24), the following hotel and motel residents are generally protected from eviction:</p><ul><li>those who are part of state initiatives aimed at getting people out of group shelters;</li><li>those supported by a governmental housing assistance program;</li><li>health-care workers who need a temporary place to stay;</li><li>homeless people;</li><li>individuals affected by domestic violence; and</li><li>those staying in hotels or motels in compliance with a court order.</li></ul><p>Others may be protected as well.  To discuss your individual circumstances, contact a legal services organization such as <a href='https://www.lsnj.org/'>Legal Services of New Jersey</a>, <a href='http://www.vljnj.org/'>Volunteer Lawyers for Justice – New Jersey</a>, <a href='http://www.chlp.org/'>Community Health Law Project</a>, <a href='https://eclaanj.org/'>Essex County Legal Aid Association</a>, or <a href='https://www.newarknj.gov/news/free-legal-help-for-low-income-at-risk-tenants-facing-eviction-now-in-operation-and-taking-applications'>City of Newark Office of Tenant Services</a>.</p>",
   "createdAt": {
     "$date": "2020-05-01T01:26:14Z"
   },
   "updatedAt": {
-    "$date": "2020-07-29T01:26:14Z"
+    "$date": "2020-08-06T01:26:14Z"
   },
   "__v": 0,
   "Type": "Tenant"
@@ -49,12 +66,12 @@
   },
   "Categories": "Lockouts",
   "Question": "What if my landlord locks me out illegally?",
-  "Answer": "<p>It is a crime for your landlord to lock you out. Under New Jersey law, only the courts can order evictions, and only government officials can remove you from your home. If your landlord locks you out, call the local police. They are required to help you get back into your home. If they tell you this is a “civil” matter that doesn’t involve them, ask them to look at this statute: N.J.S.A. 2C:33-11.1.</p>",
+  "Answer": "<p>It is a crime for your landlord to lock you out.  Under New Jersey law, only the courts can order evictions, and only government officials can remove you from your home.  If your landlord locks you out, call the local police.  They are required to help you get back into your home.  If they tell you this is a “civil” matter that doesn’t involve them, ask them to look at this statute: N.J.S.A. 2C:33-11.1.</p>",
   "createdAt": {
     "$date": "2020-05-01T01:26:14Z"
   },
   "updatedAt": {
-    "$date": "2020-07-29T01:26:14Z"
+    "$date": "2020-08-06T01:26:14Z"
   },
   "__v": 0,
   "Type": "Tenant"
@@ -64,12 +81,12 @@
   },
   "Categories": "Lockouts",
   "Question": "What happens when the eviction moratorium ends?",
-  "Answer": "<p>Unless he lifts it sooner, the moratorium will end two months after Governor Murphy declares that the emergency is over. Local officials will then resume removing tenants who are subject to final court orders of eviction. (Renters who live in homes where the owner has a federally backed mortgage or who live in public or subsidized housing may be entitled to protection for a longer period. See below.)</p>",
+  "Answer": "<p>Unless he lifts it sooner, the moratorium will end two months after Governor Murphy declares that the emergency is over.  Local officials will then resume removing tenants who are subject to final court orders of eviction. </p>",
   "createdAt": {
     "$date": "2020-05-01T01:26:14Z"
   },
   "updatedAt": {
-    "$date": "2020-07-29T01:26:14Z"
+    "$date": "2020-08-06T01:26:14Z"
   },
   "__v": 0,
   "Type": "Tenant"
@@ -79,12 +96,12 @@
   },
   "Categories": "Rent Payments",
   "Question": "Do I still need to pay my rent?",
-  "Answer": "<p><strong>Yes.</strong> Rent is still due, and you should pay if you can. If you do not pay, your landlord can still demand the rent and file an action against you in court (see below). If you need guidance on how to address your rent situation with your landlord during this time, you can call the New Jersey Housing and Mortgage Finance Agency for free counseling over the phone. Visit <a href='https://njhousing.gov/foreclosure'>https://njhousing.gov/foreclosure</a> for a list of counselors by county.</p>",
+  "Answer": "<p><strong>Yes.</strong>  Rent is still due, and you should pay if you can.  If you do not pay, your landlord can still demand the rent and file an action against you in court (see below).  If you need guidance on how to address your rent situation with your landlord during this time, you can call the New Jersey Housing and Mortgage Finance Agency for free counseling over the phone.  Visit <a href='https://njhousing.gov/foreclosure'>https://njhousing.gov/foreclosure</a> for a list of counselors by county.</p>",
   "createdAt": {
     "$date": "2020-05-01T01:26:14Z"
   },
   "updatedAt": {
-    "$date": "2020-07-29T01:26:14Z"
+    "$date": "2020-08-06T01:26:14Z"
   },
   "__v": 0,
   "Type": "Tenant"
@@ -94,12 +111,12 @@
   },
   "Categories": "Rent Payments",
   "Question": "If I can’t afford to pay my rent and fall behind, will I still owe the money?",
-  "Answer": "<p><strong>Yes.</strong> Any payments you miss now will become back-rent that you owe. One way or another, you will probably have to pay later whatever you cannot pay now, or you will ultimately face possible eviction.</p>",
+  "Answer": "<p><strong>Yes.</strong>  Any payments you miss now will become back-rent that you owe.  One way or another, you will probably have to pay later whatever you cannot pay now, or you will ultimately face possible eviction. </p>",
   "createdAt": {
     "$date": "2020-05-01T01:26:14Z"
   },
   "updatedAt": {
-    "$date": "2020-07-29T01:26:14Z"
+    "$date": "2020-08-06T01:26:14Z"
   },
   "__v": 0,
   "Type": "Tenant"
@@ -110,12 +127,12 @@
   },
   "Categories": "Rent Payments",
   "Question": "Is any rental assistance available?",
-  "Answer": "<p><strong>Maybe.</strong> The Department of Community Affairs (DCA) posts <a href='https://nj.gov/dca/divisions/dhcr/covid19housingassistance.html'>summaries of rental assistance programs</a>, and you can use the <a href='https://njdca-housing.dynamics365portals.us/en-US/'>DCAid portal</a> to see if you are eligible. The DCA website also offers <a href='https://covid19.nj.gov/faqs/nj-information/get-assistance/what-if-i-cant-pay-my-rent-can-i-still-get-evicted-is-there-any-rental-relief'>some general answers to questions about rental assistance</a>. To get financial counseling on meeting your rental obligations, check the website of <a href='https://njhousing.gov/foreclosure'>New Jersey Housing and Mortgage Finance Agency</a>, which lists free counselors in every county. If you fall behind on your rent payments, you can also try speaking with your landlord to work out a payment plan to avoid having an eviction action filed against you. For additional resources, try calling 2-1-1.</p>",
+  "Answer": "<p><strong>Maybe.</strong>  The Department of Community Affairs (DCA) posts <a href='https://nj.gov/dca/divisions/dhcr/covid19housingassistance.html'>summaries of rental assistance programs</a>, and you can use the <a href='https://njdca-housing.dynamics365portals.us/en-US/'>DCAid portal</a> to see if you are eligible.  The DCA website also offers <a href='https://covid19.nj.gov/faqs/nj-information/get-assistance/what-if-i-cant-pay-my-rent-can-i-still-get-evicted-is-there-any-rental-relief'>some general answers to questions about rental assistance</a>.  To get financial counseling on meeting your rental obligations, check the website of <a href='https://njhousing.gov/foreclosure'>New Jersey Housing and Mortgage Finance Agency</a>, which lists free counselors in every county.  If you fall behind on your rent payments, you can also try speaking with your landlord to work out a payment plan to avoid having an eviction action filed against you.  For additional resources, try calling 2-1-1. </p>",
   "createdAt": {
     "$date": "2020-05-01T01:26:14Z"
   },
   "updatedAt": {
-    "$date": "2020-07-29T01:26:14Z"
+    "$date": "2020-08-06T01:26:14Z"
   },
   "__v": 0,
   "Type": "Tenant"
@@ -126,12 +143,12 @@
   },
   "Categories": "Rent Payments",
   "Question": "Can I use my security deposit to cover some of the rent I owe?",
-  "Answer": "<p><strong>Yes.</strong> On April 24, Governor Murphy issued <a href='https://nj.gov/infobank/eo/056murphy/pdf/EO-128.pdf'>Executive Order 128</a>, which allows tenants to request in writing (including by email or text) that their landlords apply their security deposits to the rent they owe during the Public Health Emergency and for up to 60 days afterwards. The landlord must comply with such a request. If the tenant causes damage to the apartment (beyond ordinary wear and tear), the landlord may require the tenant to pay for that damage if and when the landlord would otherwise have been entitled to recoup the cost from the security deposit. If the lease is renewed, the landlord may also require the tenant to post a new security deposit either six months after the end of the Public Health Emergency or when the lease is renewed, whichever is later.</p>",
+  "Answer": "<p><strong>Yes.</strong>  On April 24, Governor Murphy issued <a href='https://nj.gov/infobank/eo/056murphy/pdf/EO-128.pdf'>Executive Order 128</a>, which allows tenants to request in writing (including by email or text) that their landlords apply their security deposits to the rent they owe during the Public Health Emergency and for up to 60 days afterwards.  The landlord must comply with such a request.  If the tenant causes damage to the apartment (beyond ordinary wear and tear), the landlord may require the tenant to pay for that damage if and when the landlord would otherwise have been entitled to recoup the cost from the security deposit.  If the lease is renewed, the landlord may also require the tenant to post a new security deposit either six months after the end of the Public Health Emergency or when the lease is renewed, whichever is later. </p>",
   "createdAt": {
     "$date": "2020-05-01T01:26:14Z"
   },
   "updatedAt": {
-    "$date": "2020-07-29T01:26:14Z"
+    "$date": "2020-08-06T01:26:14Z"
   },
   "__v": 0,
   "Type": "Tenant"
@@ -141,12 +158,12 @@
   },
   "Categories": "Rent Payments",
   "Question": "Can my landlord increase my rent during the COVID crisis?",
-  "Answer": "<p><strong>Maybe. </strong>So far, the state government has not banned rent increases during the crisis. In the absence of statewide protection, tenants retain whatever protections may already have applied, including lease provisions and rent control ordinances, which normally permit rent increases only once a year.</p><p>In addition, some tenants have special protections:</p><ul><li>On April 16, <a href='https://www.nj.gov/dca/hmfa/media/news/2020/approved/20200416.html'>Governor Murphy announced</a> that the New Jersey Housing and Mortgage Finance Agency (NJHMFA) had voted to prohibit rent increases for the duration of the Public Health Emergency in the 36,000 rental units the agency oversees. After the emergency ends, landlords in NJHMFA-regulated properties may raise rents up to 1.4% on 30 days’ notice to tenants.</li><li>On May 18, Newark’s Mayor Baraka announced a <a href='https://drive.google.com/file/d/1oH4xOvsE53rc-GPau2CC65KrxWJiML7i/view'>temporary moratorium on all rent increases</a> for tenants living in properties covered by the <a href='https://www.newarknj.gov/departments/rentcontrol'>Newark Rent Control Ordinance</a>. Newark’s prohibition on rent increases is retroactive to April 1 and will last up to two months following the end of Newark’s declared State of Emergency.</li></ul>",
+  "Answer": "<p><strong>Maybe.  </strong>So far, the state government has not banned rent increases during the crisis.  In the absence of statewide protection, tenants retain whatever protections may already have applied, including lease provisions and rent control ordinances, which normally permit rent increases only once a year. </p><p>In addition, some tenants have special protections:</p><ul><li>On April 16, <a href='https://www.nj.gov/dca/hmfa/media/news/2020/approved/20200416.html'>Governor Murphy announced</a> that the New Jersey Housing and Mortgage Finance Agency (NJHMFA) had voted to prohibit rent increases for the duration of the Public Health Emergency in the 36,000 rental units the agency oversees. After the emergency ends, landlords in NJHMFA-regulated properties may raise rents up to 1.4% on 30 days’ notice to tenants.</li><li>On May 18, Newark’s Mayor Baraka announced a <a href='https://drive.google.com/file/d/1oH4xOvsE53rc-GPau2CC65KrxWJiML7i/view'>temporary moratorium on all rent increases</a> for tenants living in properties covered by the <a href='https://www.newarknj.gov/departments/rentcontrol'>Newark Rent Control Ordinance</a>. Newark’s prohibition on rent increases is retroactive to April 1 and will last up to two months following the end of Newark’s declared State of Emergency. </li></ul>",
   "createdAt": {
     "$date": "2020-05-01T01:26:14Z"
   },
   "updatedAt": {
-    "$date": "2020-07-29T01:26:14Z"
+    "$date": "2020-08-06T01:26:14Z"
   },
   "__v": 0,
   "Type": "Tenant"
@@ -155,60 +172,74 @@
     "$oid": "5eab7c47695972f5c084ed18"
   },
   "Categories": "Court Hearings",
-  "Question": "What about court? Can my landlord still take me to court for not paying my rent?",
-  "Answer": "<p><strong>Only in emergency cases.</strong> On July 24, 2020, the <a href='https://njcourts.gov/notices/2020/n200724a.pdf?c=DfF'>New Jersey Supreme Court ordered</a> that most trials in landlord-tenant court continue to be “suspended until further notice<span>.”</span> The order makes clear, however, that trials may proceed when the court determines that there is an emergency. Under the order, nonpayment of rent does not constitute an emergency “except in the case of the death of the tenant.” Check the <a href='https://njcourts.gov/public/covid19.html'>New Jersey Courts website</a> for updates.</p>",
+  "Question": "What about court? Is the court holding eviction trials?",
+  "Answer": "<p><strong>Only in emergency cases.</strong>  On July 24, 2020, the <a href='https://njcourts.gov/notices/2020/n200724a.pdf?c=DfF'>New Jersey Supreme Court ordered</a> that most trials in landlord-tenant court continue to be “suspended until further notice<span>.”</span>  The order makes clear, however, that trials may proceed when the court determines that there is an emergency.  Under the order, nonpayment of rent does not constitute an emergency “except in the case of the death of the tenant.”  The Administrative Office of the Courts issued a <a href='https://njcourts.gov/notices/2020/n200728c.pdf?c=FLj'>directive</a> on July 28 that includes model papers for emergency landlord-tenant filings.  Check the <a href='https://njcourts.gov/public/covid19.html'>New Jersey Courts website</a> for further updates.</p>",
   "createdAt": {
     "$date": "2020-05-01T01:26:14Z"
   },
   "updatedAt": {
-    "$date": "2020-07-29T01:26:14Z"
+    "$date": "2020-08-06T01:26:14Z"
   },
   "__v": 0,
   "Type": "Tenant"
-},{
+},
+{
   "_id": {
     "$oid": "5eab7c47695972f5c084ed18"
   },
   "Categories": "Court Hearings",
   "Question": "Are the courts accepting cases that landlords file against tenants?",
-  "Answer": "<p><strong>Yes.</strong> The <a href='https://njcourts.gov/notices/2020/n200724a.pdf?c=DfF'>July 24 order</a> allows landlords to file eviction complaints against tenants, even though trials will be held only in emergencies at this time. You may therefore receive an eviction complaint in the mail and/or posted at your residence.</p>",
+  "Answer": "<p><strong>Yes.</strong>  The <a href='https://njcourts.gov/notices/2020/n200724a.pdf?c=DfF'>July 24 order</a> allows landlords to file eviction complaints against tenants, even though trials will be held only in emergencies at this time.  You may therefore receive an eviction complaint in the mail and/or posted at your residence. </p>",
   "createdAt": {
     "$date": "2020-05-01T01:26:14Z"
   },
   "updatedAt": {
-    "$date": "2020-07-29T01:26:14Z"
+    "$date": "2020-08-06T01:26:14Z"
   },
   "__v": 0,
   "Type": "Tenant"
-},
-{
+},{
   "_id": {
     "$oid": "5eab7c47695972f5c084ed18"
   },
-  "Categories": "Court Hearings",
-  "Question": "Are the courts holding proceedings other than trials?",
-  "Answer": "<p><strong>Yes.</strong> The <a href='https://www.njcourts.gov/notices/2020/n200612a.pdf?c=NPQ'>July 24 order</a> instructs the landlord-tenant courts to schedule remote “intake and pretrial/settlement conferences.” The process of implementing settlement conferences throughout the state began through a <a href='https://njcourts.gov/notices/2020/n200715b.pdf?c=yFW'>July 15 order</a>. This means you may receive a notice from the court directing you to appear at a video- or telephone-conference to discuss settlement of a case your landlord has filed against you. If you get a notice like this, you should:</p><ul><li>Contact a legal services organization such as <a href='https://www.lsnj.org/'>Legal Services of New Jersey</a>, <a href='http://www.vljnj.org/'>Volunteer Lawyers for Justice – New Jersey</a>, <a href='http://www.chlp.org/'>Community Health Law Project</a>, <a href='https://eclaanj.org/'>Essex County Legal Aid Association</a>, or <a href='https://www.newarknj.gov/news/free-legal-help-for-low-income-at-risk-tenants-facing-eviction-now-in-operation-and-taking-applications'>City of Newark Office of Tenant Services</a>.</li><li>Share the complaint you received with any organization or lawyer who agrees to help you. If you did not receive a complaint, let your lawyer and the court know that.</li><li>Remember that <strong>you do not have to settle your case</strong>! If you do not settle, your case will be scheduled for trial when the courts start holding eviction trials again. But you cannot be locked out and removed from your home until two months after the Governor declares an end to the public health emergency.</li></ul>",
-  "createdAt": {
-    "$date": "2020-05-01T01:26:14Z"
-  },
-  "updatedAt": {
-    "$date": "2020-07-29T01:26:14Z"
-  },
-  "__v": 0,
-  "Type": "Tenant"
+"Categories": "Court Hearings",
+"Question": "Are the courts holding proceedings other than trials?",
+"Answer": "<p><strong>Yes.</strong>  The <a href='https://www.njcourts.gov/notices/2020/n200612a.pdf?c=NPQ'>July 24 order</a> instructs the landlord-tenant courts to schedule remote “intake and pretrial/settlement conferences.”  The <a href='https://njcourts.gov/notices/2020/n200728c.pdf?c=FLj'>July 28 directive</a> instructs the courts on how to implement this process.  You may receive a notice from the court directing you to appear at a “Pretrial/Settlement Conference,” by telephone or video, to discuss settlement of a case your landlord has filed against you.  If you get a notice like this, you should:</p><ul><li>Contact a legal services organization such as <a href='https://www.lsnj.org/'>Legal Services of New Jersey</a>, <a href='http://www.vljnj.org/'>Volunteer Lawyers for Justice – New Jersey</a>, <a href='http://www.chlp.org/'>Community Health Law Project</a>, <a href='https://eclaanj.org/'>Essex County Legal Aid Association</a>, or <a href='https://www.newarknj.gov/news/free-legal-help-for-low-income-at-risk-tenants-facing-eviction-now-in-operation-and-taking-applications'>City of Newark Office of Tenant Services</a>.</li><li>Share the complaint you received with any organization or lawyer who agrees to help you. If you did not receive a complaint, let your lawyer and the court know that.</li><li>Remember that <strong>you do not have to settle your case</strong>! If you do not settle, your case will be scheduled for trial when the courts start holding eviction trials again.  But you cannot be locked out and removed from your home until two months after the Governor declares an end to the public health emergency.</li></ul>",
+"createdAt": {
+  "$date": "2020-05-01T01:26:14Z"
 },
-{
+"updatedAt": {
+  "$date": "2020-05-01T01:26:14Z"
+},
+"__v": 0,
+"Type": "Tenant"
+},{
   "_id": {
     "$oid": "5eab7c47695972f5c084ed19"
   },
   "Categories": "Court Hearings",
   "Question": "Does federal law prevent my landlord from filing an eviction case against me?",
-  "Answer": "<p><strong>Maybe.</strong> The federal <a href='https://www.govtrack.us/congress/bills/116/hr748/text'>CARES Act</a> prohibited covered landlords (see below) from filing an eviction complaint for nonpayment of rent between March 27 and July 25. If a landlord covered by the CARES Act filed such an eviction complaint during this period, the tenant can request that the case be dismissed. A dismissal will not stop the landlord from filing a new complaint, and the court may allow the landlord to certify compliance with the CARES Act to avoid dismissal of the complaint (see below).</p><p>Landlords covered by the CARES Act include:</p><ul><li>Those who hold a federally backed mortgage, such as a mortgage from Fannie Mae, Freddie Mac, or the Federal Housing Administration.</li><li>Those who rent to federally subsidized tenants, including tenants who:</li><li>live in public housing,</li><li>have a Section 8 Housing Choice voucher,</li><li>live in Section 8 project-based housing, or</li><li>live in other types of federally funded housing, including, among others, certain housing programs for seniors, people with disabilities, people with HIV/AIDS, and people at risk of homelessness.</li><li>The National Low-Income Housing Coalition has constructed a <a href='https://nlihc.org/federal-moratoriums'>searchable database</a> of many (but not all) of the properties covered by the CARES Act.</li></ul><p>After July 25, covered landlords who <span>want to evict a tenant for nonpayment of rent must first serve the tenant with a notice giving the tenant 30 days to vacate. The CARES Act states that a landlord</span> may not “require the tenant to vacate” the property until 30 days after giving the tenant a notice to vacate. In New Jersey, a landlord may not require a tenant to leave his or her home except through a court proceeding. Under the CARES Act, therefore, a covered landlord must give New Jersey tenants 30 days’ notice before such a court proceeding. In any case, a lockout cannot happen until the moratorium under <a href='https://nj.gov/infobank/eo/056murphy/pdf/EO-106.pdf'>Executive Order 106</a> is lifted.</p><p>As noted above, the CARES Act ban on eviction filings by covered landlords expired on July 25. Tenants should know, however, that the CARES Act also prohibited covered landlords from charging fees (such as late fees or attorney’s fees) related to nonpayment of rent between March 27 and July 25. Tenants in covered properties do not owe such fees.</p><p>The CARES Act gives tenants additional protection if they live in a building with five or more units and the owner got permission to delay payments on a federally backed mortgage loan. In that case, the owner may not file an eviction action for nonpayment of rent, or charge late fees related to nonpayment of rent, during the period when the owner is not making mortgage payments. When this period ends, the owner must give tenants 30 days’ notice before taking the tenant to court to get an order requiring the tenant to vacate the property (but the lockout cannot happen in any case until the moratorium under <a href='https://nj.gov/infobank/eo/056murphy/pdf/EO-106.pdf'>Executive Order 106</a> is lifted).</p><p>The New Jersey Supreme Court has required landlords to <a href='https://njcourts.gov/notices/2020/n200724a.pdf?c=DfF'>certify their compliance with the CARES Act</a>.</p>",
+  "Answer": "<p><strong>Maybe.</strong>  The federal <a href='https://www.govtrack.us/congress/bills/116/hr748/text'>CARES Act</a> prohibited covered landlords (see below) from filing an eviction complaint for nonpayment of rent between March 27 and July 25.  If a landlord covered by the CARES Act filed such an eviction complaint during this period, the tenant can request that the case be dismissed.  A dismissal will not stop the landlord from filing a new complaint, but the landlord must first the tenant 30 days’ notice (see below).</p><p>Landlords covered by the CARES Act include:</p><ul><li>Those who hold a federally backed mortgage, such as a mortgage from Fannie Mae, Freddie Mac, or the Federal Housing Administration.</li><li>Those who rent to federally subsidized tenants, including tenants who:<ul><li>live in public housing,</li><li>have a Section 8 Housing Choice voucher,</li><li>live in Section 8 project-based housing, or</li><li>live in other types of federally funded housing, including, among others, certain housing programs for seniors, people with disabilities, people with HIV/AIDS, and people at risk of homelessness.</li></ul></li><li>The National Low-Income Housing Coalition has constructed a <a href='https://nlihc.org/federal-moratoriums'>searchable database</a> of many (but not all) of the properties covered by the CARES Act.</li></ul><p>After July 25, covered landlords who <span>want to evict a tenant for nonpayment of rent must first serve the tenant with a notice giving the tenant 30 days to vacate.  The CARES Act states that a landlord</span> may not “require the tenant to vacate” the property until 30 days after giving the tenant a notice to vacate.  In New Jersey, a landlord may not require a tenant to leave his or her home except through a court proceeding.  Under the CARES Act, therefore, a covered landlord must give New Jersey tenants 30 days’ notice before such a court proceeding.  In any case, a lockout cannot happen until the moratorium under <a href='https://nj.gov/infobank/eo/056murphy/pdf/EO-106.pdf'>Executive Order 106</a> is lifted. </p><p>As noted above, the CARES Act ban on eviction filings by covered landlords expired on July 25.  Tenants should know, however, that the CARES Act also prohibited covered landlords from charging fees (such as late fees or attorney’s fees) related to nonpayment of rent between March 27 and July 25.  Tenants in covered properties do not owe such fees.</p><p>The CARES Act gives tenants additional protection if they live in a building with five or more units and the owner got permission to delay payments on a federally backed mortgage loan.  In that case, the owner may not file an eviction action for nonpayment of rent, or charge late fees related to nonpayment of rent, during the period when the owner is not making mortgage payments.  When this period ends, the owner must give tenants 30 days’ notice before taking the tenant to court to get an order requiring the tenant to vacate the property (but the lockout cannot happen in any case until the moratorium under <a href='https://nj.gov/infobank/eo/056murphy/pdf/EO-106.pdf'>Executive Order 106</a> is lifted).</p><p>The state Supreme Court has required landlords to <a href='https://njcourts.gov/notices/2020/n200724a.pdf?c=DfF'>certify their compliance with the CARES Act</a>, and the Administrative Office of the Courts issued a form certification as Attachment 6 to its July 28 directive.</p>",
   "createdAt": {
     "$date": "2020-05-01T01:26:14Z"
   },
   "updatedAt": {
-    "$date": "2020-07-29T01:26:14Z"
+    "$date": "2020-08-06T01:26:14Z"
+  },
+  "__v": 0,
+  "Type": "Tenant"
+},{
+  "_id": {
+    "$oid": "5eab7c47695972f5c084ed1a"
+  },
+  "Categories": "Court Hearings",
+  "Question": "What should I do if I receive court papers?",
+  "Answer": "Find assistance from a legal services organization. For example: <a href='https://www.lsnj.org/'>Legal Services of New Jersey</a>, <a href='http://www.vljnj.org/'>Volunteer Lawyers for Justice -- New Jersey</a>, <a href='http://www.chlp.org/'>Community Health Law Project</a>, <a href='https://eclaanj.org/'>Essex County Legal Aid Association</a>, and <a href='https://www.newarknj.gov/news/free-legal-help-for-low-income-at-risk-tenants-facing-eviction-now-in-operation-and-taking-applications'>City of Newark Office of Tenant Services</a>.",
+  "createdAt": {
+    "$date": "2020-05-01T01:26:14Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-06T01:26:14Z"
   },
   "__v": 0,
   "Type": "Tenant"
@@ -218,12 +249,12 @@
   },
   "Categories": "Court Hearings",
   "Question": "What if my landlord has already started an eviction proceeding against me in housing court and I have an upcoming court date?",
-  "Answer": "<p>While landlord-tenant court is suspended, you should not go to court, and you will not be penalized for not going to court. The court may still send you a notice to appear at a telephone- or video-conference, however (see above).</p>",
+  "Answer": "<p>While landlord-tenant court is suspended, you should not go to court, and you will not be penalized for not going to court.  The court may still send you a notice to appear at a telephone- or video-conference, however (see above). </p>",
   "createdAt": {
     "$date": "2020-05-01T01:26:14Z"
   },
   "updatedAt": {
-    "$date": "2020-07-29T01:26:14Z"
+    "$date": "2020-08-06T01:26:14Z"
   },
   "__v": 0,
   "Type": "Tenant"
@@ -233,12 +264,12 @@
   },
   "Categories": "Court Hearings",
   "Question": "Can I still get emergency repairs in my apartment?",
-  "Answer": "<p>You always have a right to <a href='https://www.lsnjlaw.org/Housing/Landlord-Tenant/Repairs-Habitability/Pages/Safe-Decent-Housing.aspx>safe and decent housing</a>. If you have concerns about issues such as inadequate heat, exposure to lead, infestations, leaks, crumbling walls and ceilings, or other hazardous conditions, you should ask your landlord in writing to make repairs (keep a copy). If repairs are not made quickly, you can call 2-1-1, contact the state <a href='https://www.nj.gov/dca/divisions/codes/offices/housinginspection.html'>Bureau of Housing Inspection</a>, or call your municipality to report the problem. Due to closures, enforcement agencies may be working with limited staff and it may take longer to get repairs or inspections. As an alternative, if you can manage the repairs on your own, and your landlord fails to respond to your requests for repairs, you can make them or pay someone to make them. You can then withhold the money you spent on repairs from your rent (save all receipts for the repairs!).</p>",
+  "Answer": "<p>You always have a right to <a href='https://www.lsnjlaw.org/Housing/Landlord-Tenant/Repairs-Habitability/Pages/Safe-Decent-Housing.aspx'>safe and decent housing</a>.  If you have concerns about issues such as inadequate heat, exposure to lead, infestations, leaks, crumbling walls and ceilings, or other hazardous conditions, you should ask your landlord in writing to make repairs (keep a copy).  If repairs are not made quickly, you can call 2-1-1, contact the state <a href='https://www.nj.gov/dca/divisions/codes/offices/housinginspection.html'>Bureau of Housing Inspection</a>, or call your municipality to report the problem.  Due to closures, enforcement agencies may be working with limited staff and it may take longer to get repairs or inspections.  As an alternative, if you can manage the repairs on your own, and your landlord fails to respond to your requests for repairs, you can make them or pay someone to make them.  You can then withhold the money you spent on repairs from your rent (save all receipts for the repairs!). </p>",
   "createdAt": {
     "$date": "2020-05-01T01:26:14Z"
   },
   "updatedAt": {
-    "$date": "2020-07-29T01:26:14Z"
+    "$date": "2020-08-06T01:26:14Z"
   },
   "__v": 0,
   "Type": "Tenant"
@@ -248,12 +279,12 @@
   },
   "Categories": "Subsidized Tenants",
   "Question": "Can my landlord file an eviction action against me if I live in public housing or have a Section 8 Voucher?",
-  "Answer": "<p><strong>Maybe.</strong> See above on how the federal <a href='https://www.govtrack.us/congress/bills/116/hr748/text'>CARES Act</a> may protect you from eviction filings.</p>",
+  "Answer": "<p><strong>Maybe.</strong>  See above on how the federal <a href='https://www.govtrack.us/congress/bills/116/hr748/text'>CARES Act</a> may protect you from eviction filings.</p>",
   "createdAt": {
     "$date": "2020-05-01T01:26:14Z"
   },
   "updatedAt": {
-    "$date": "2020-07-29T01:26:14Z"
+    "$date": "2020-08-06T01:26:14Z"
   },
   "__v": 0,
   "Type": "Tenant"
@@ -263,12 +294,12 @@
   },
   "Categories": "Subsidized Tenants",
   "Question": "Is the Department of Community Affairs still open for business?",
-  "Answer": "<p><strong>Yes.</strong> The Department of Community Affairs (DCA) <a href='https://nj.gov/dca/divisions/dhcr/covid19housingassistance.html'>housing assistance programs</a> continue to operate and do all their basic work, including paying rent to landlords and setting the amount of rent subsidized tenants must pay. DCA encourages subsidized tenants to use the online portal at <a href='https://www.assistancecheck.com/'>assistancecheck.com</a> to submit documents, or to send documents through the mail (keep copies!). Subsidized tenants who have questions can contact the field offices or use the main customer service line: 609-292-4080 or <a href='mailto:customer.service@dca.nj.gov'>customer.service@dca.nj.gov</a>. <a href='https://nj.gov/governor/news/news/562020/approved/20200319c.shtml'>DCA has announced</a> that it has taken a number of actions to meet the ongoing needs of its clients and to curb evictions and homelessness during the state of emergency. For example, DCA has suspended termination of subsidies in the Section 8 Housing Choice Voucher and State Rental Assistance Programs, unless the tenant has engaged in violence or threats against others. DCA is also accepting through its online portal interim income re-certifications for tenants who have lost income because of the pandemic.</p>",
+  "Answer": "<p><strong>Yes.</strong>  The Department of Community Affairs (DCA) <a href='https://nj.gov/dca/divisions/dhcr/covid19housingassistance.html'>housing assistance programs</a> continue to operate and do all their basic work, including paying rent to landlords and setting the amount of rent subsidized tenants must pay.  DCA encourages subsidized tenants to use the online portal at <a href='https://www.assistancecheck.com/'>assistancecheck.com</a> to submit documents, or to send documents through the mail (keep copies!).  Subsidized tenants who have questions can contact the field offices or use the main customer service line: 609-292-4080 or <a href='mailto:customer.service@dca.nj.gov'>customer.service@dca.nj.gov</a>.  <a href='https://nj.gov/governor/news/news/562020/approved/20200319c.shtml'>DCA has announced</a> that it has taken a number of actions to meet the ongoing needs of its clients and to curb evictions and homelessness during the state of emergency.  For example, DCA has suspended termination of subsidies in the Section 8 Housing Choice Voucher and State Rental Assistance Programs, unless the tenant has engaged in violence or threats against others.  DCA is also accepting through its online portal interim income re-certifications for tenants who have lost income because of the pandemic. </p>",
   "createdAt": {
     "$date": "2020-05-01T01:26:14Z"
   },
   "updatedAt": {
-    "$date": "2020-07-29T01:26:14Z"
+    "$date": "2020-08-06T01:26:14Z"
   },
   "__v": 0,
   "Type": "Tenant"
@@ -278,12 +309,12 @@
   },
   "Categories": "Subsidized Tenants",
   "Question": "Is the Newark Housing Authority allowed to evict me now?",
-  "Answer": "<p><strong>Maybe</strong>. As noted above, the federal <a href='https://www.govtrack.us/congress/bills/116/hr748/text'>CARES Act</a> prevented public housing authorities from filing eviction actions for nonpayment of rent against public housing tenants for a period of 120 days from March 27 (or through July 25, 2020). After July 25, the Act requires public housing authorities to give tenants 30 days’ notice before going to court to require them to leave their homes based on the tenants’ nonpayment of rent between March 27 and July 25. If the <a href='http://www.newarkha.org/'>Newark Housing Authority</a> manages your rental subsidy, you are also covered by city-level anti-eviction protections.</p>",
+  "Answer": "<p><strong>Maybe</strong>.  As noted above, the federal <a href='https://www.govtrack.us/congress/bills/116/hr748/text'>CARES Act</a> prevented public housing authorities from filing eviction actions for nonpayment of rent against public housing tenants for a period of 120 days from March 27 (or through July 25, 2020).  After July 25, the Act requires public housing authorities to give tenants 30 days’ notice before going to court to require them to leave their homes based on the tenants’ nonpayment of rent between March 27 and July 25.  If the <a href='http://www.newarkha.org/'>Newark Housing Authority</a> manages your rental subsidy, you are also covered by city-level anti-eviction protections. </p>",
   "createdAt": {
     "$date": "2020-05-01T01:26:14Z"
   },
   "updatedAt": {
-    "$date": "2020-07-29T01:26:14Z"
+    "$date": "2020-08-06T01:26:14Z"
   },
   "__v": 0,
   "Type": "Tenant"
@@ -293,12 +324,12 @@
   },
   "Categories": "Electricity, Gas, Water",
   "Question": "Can my utilities be shut off during the COVID-19 crisis?",
-  "Answer": "<p><strong>No.</strong> As of March 13, New Jersey’s electric and gas utilities <a href='https://www.bpu.state.nj.us/bpu/newsroom/2020/approved/20200313.html'>voluntarily suspended utility shut-offs</a>, and that suspension appears to be ongoing. Some of the utility companies are sending shut-off notices to residential tenants, but it seems they are not yet following through with actual shut-offs.</p>",
+  "Answer": "<p><strong>No.</strong>  As of March 13, New Jersey’s electric and gas utilities <a href='https://www.bpu.state.nj.us/bpu/newsroom/2020/approved/20200313.html'>voluntarily suspended utility shut-offs</a>, and that suspension appears to be ongoing.  Some of the utility companies are sending shut-off notices to residential tenants, but it seems they are not yet following through with actual shut-offs. </p>",
   "createdAt": {
     "$date": "2020-05-01T01:26:14Z"
   },
   "updatedAt": {
-    "$date": "2020-07-29T01:26:14Z"
+    "$date": "2020-08-06T01:26:14Z"
   },
   "__v": 0,
   "Type": "Tenant"
@@ -308,12 +339,12 @@
   },
   "Categories": "Electricity, Gas, Water",
   "Question": "Do I still have to pay for utilities and water?",
-  "Answer": "<p><strong>Yes.</strong> You still have to pay whatever electric, gas, or water bills you normally pay. If you cannot pay now, you will have to pay later. The utilities and water companies are not cancelling debts; they are just postponing shutoffs for the time being. DCA offers low-income tenants <a href='https://www.nj.gov/dca/divisions/dhcr/offices/hea.html'>assistance with some utility bills</a>, and you can call the customer service number on your utility bill to try to work out a payment plan.</p>",
+  "Answer": "<p><strong>Yes.</strong>  You still have to pay whatever electric, gas, or water bills you normally pay.  If you cannot pay now, you will have to pay later.  The utilities and water companies are not cancelling debts; they are just postponing shutoffs for the time being.  DCA offers low-income tenants <a href='https://www.nj.gov/dca/divisions/dhcr/offices/hea.html'>assistance with some utility bills</a>, and you can call the customer service number on your utility bill to try to work out a payment plan. </p>",
   "createdAt": {
     "$date": "2020-05-01T01:26:14Z"
   },
   "updatedAt": {
-    "$date": "2020-07-29T01:26:14Z"
+    "$date": "2020-08-06T01:26:14Z"
   },
   "__v": 0,
   "Type": "Tenant"
@@ -329,7 +360,7 @@
     "$date": "2020-05-01T01:26:14Z"
   },
   "updatedAt": {
-    "$date": "2020-07-29T01:26:14Z"
+    "$date": "2020-08-06T01:26:14Z"
   },
   "__v": 0,
   "Type": "Tenant"
