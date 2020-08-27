@@ -18,10 +18,16 @@
   }
 }
 .data-dashboard {
-  height: 2400px;
-  width: 93vw;
+  min-height: 3000px;
+  width: 92vw;
   margin: 1.5vw 3vw;
-  @media screen and (max-width: 576px) {
-    height: 3250px !important;
+  @media screen and (max-width: 720px) {
+    height: 3764px !important;
+  }
+  @media screen and (min-width: 720px) and (max-width: 834px) {
+    height: 3400px !important;
+  }
+  @media screen and (min-width: 835px) and (max-width: 1000px) {
+    height: 3200px !important;
   }
 }

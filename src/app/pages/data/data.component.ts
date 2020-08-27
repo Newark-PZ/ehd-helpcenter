@@ -1,4 +1,4 @@
-import { Component,  ViewChild, ElementRef, AfterViewInit, OnInit } from '@angular/core';
+import { Component,  ViewChild, ElementRef } from '@angular/core';
 import { DomSanitizer } from '@angular/platform-browser';
 import { Page } from '../../shared/interfaces/other.interface';
 
@@ -11,23 +11,20 @@ import { Page } from '../../shared/interfaces/other.interface';
   <h2 [translate]="'DATA.title'"></h2>
 </mat-toolbar>
   <iframe #frame class='data-dashboard'
-  [src]='sanitizer.bypassSecurityTrustResourceUrl(dataLink)'
+  [src]='dataLink'
   frameborder='0' [scrolling]="'no'" onmousewheel='' width='100%' style='background: transparent;'>
   </iframe>`
 })
 // tslint:disable: max-line-length
-export class DataComponent implements AfterViewInit {
-  dataLink = 'https://newark-dashboardcovid.trial.opendatasoft.com/pages/covidnewark/';
+export class DataComponent {
+  dataLink = this.sanitizer
+  .bypassSecurityTrustResourceUrl('https://newark-dashboardcovid.trial.opendatasoft.com/pages/covidnewark/');
   @ViewChild('frame') frame: ElementRef;
   resourceContent: Page = {
     title: 'Real time Information by Gender, Race, and Ward of COVID-19 impact',
     icon: 'assessment'
   };
   constructor(
-    public sanitizer: DomSanitizer,
+    public sanitizer: DomSanitizer
     ) {}
-  ngAfterViewInit(): void {
-    const framer = this.frame.nativeElement as HTMLIFrameElement;
-    framer.style.height = framer.firstElementChild.scrollHeight + 'px';
-  }
 }
