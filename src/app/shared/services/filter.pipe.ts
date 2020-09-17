@@ -16,7 +16,7 @@ export class FaqCatPipe implements PipeTransform {
     return items.filter(
         item => (item as any).category
         ? (item as HomeCard).category.indexOf(filter) !== -1
-        : (item as Faq).Categories.indexOf(filter) !== -1
+        : (item as Faq).Category.indexOf(filter) !== -1
         );
     }
 }

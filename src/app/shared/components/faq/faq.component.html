@@ -1,5 +1,5 @@
 <mat-toolbar *ngIf="faqPage.type !== 'RentControl'">
-  <mat-icon style="margin-right: .5rem">{{ faqPage.icon }}</mat-icon>
+  <mat-icon style="margin-right: .85rem">{{ faqPage.icon }}</mat-icon>
   <h2 [translate]="'FAQ.title.' + faqPage.type"></h2>
 </mat-toolbar>
 <section class="content-intro" *ngIf="faqPage.contentIntro">
@@ -35,11 +35,10 @@
             {{ faq.Question }}
           </mat-panel-title>
           <mat-panel-description>
-            {{ faq.Categories }}
+            {{ faq.Category }}
           </mat-panel-description>
         </mat-expansion-panel-header>
         <P [innerHtml]="faq.Answer"></P>
-        <p *ngIf="faq.Postscript" [innerHtml]="faq.Postscript"></p>
         <mat-table *ngIf="faq.tableRows" class="faqTable" [dataSource]="faq.tableRows.slice(1)" (mouseleave)="selectedCol = undefined">
           <ng-container *ngFor="let col of faq.tableRows[0]; let i = index" [matColumnDef]="col" [sticky]="i === 0">
               <mat-header-cell

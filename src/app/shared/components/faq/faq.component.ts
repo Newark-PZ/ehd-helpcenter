@@ -49,7 +49,7 @@ export class FaqComponent implements OnInit {
     switch (language) {
       case 'fr':
         (faq === 'Tenant')
-        ? categories = ['Lockout', 'Paiements de loyer', 'Audiences judiciaires',
+        ? categories = ['Lockouts', 'Paiements de loyer', 'Audiences judiciaires',
           'Locataires subventionnés', 'Électricité, gaz, eau', 'Harcèlement sexuel dans le logement']
         : categories = ['Déménagements', 'Audiences judiciaires'];
         break;
@@ -68,8 +68,8 @@ export class FaqComponent implements OnInit {
       default:
         if (faq !== 'RentControl') {
           (faq === 'Tenant')
-          ? categories = ['Lockout', 'Rent Payments', 'Court Hearings',
-            'Subsidized Tenants', 'Electricity, Gas, Water', 'Sexual Harrassment in Housing'
+          ? categories = ['Lockouts', 'Rent Payments', 'Court Hearings',
+            'Subsidized Tenants', 'Electricity, Gas, Water'
           ]
           : categories = ['Removals', 'Court Hearings'];
         } else {

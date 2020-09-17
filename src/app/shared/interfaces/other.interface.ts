@@ -92,21 +92,11 @@ export interface FaqCategory {
 }
 export interface Faq {
   Answer: string;
-  Categories: string;
-  Postscript?: string;
+  Category: string;
   Question: string;
   tableRows?: Array<Array<string>>;
-  Type: 'Tenant' | 'Homeowner' | 'RentControl';
-  __v?: number;
-  _id?: {
-    id: any
-  };
-  createdAt?: {
-    $date: string;
-  };
-  updatedAt?: {
-    $date: string;
-  };
+  Type?: 'Tenant' | 'Homeowner' | 'RentControl';
+  LastUpdated?: string;
 }
 export interface HomeCard {
   id?: string;

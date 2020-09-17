@@ -22,6 +22,7 @@ import * as fromComponents from './';
 import { FaqCatPipe } from './services/filter.pipe';
 import { TranslateModule } from '@ngx-translate/core';
 import { LinkService } from './services/link.service';
+import { MarkedPipe } from './services/marked.pipe';
 
 const matModules = [
     MatButtonModule,
@@ -43,7 +44,8 @@ const matModules = [
 @NgModule({
     declarations: [
         ...fromComponents.components,
-        FaqCatPipe
+        FaqCatPipe,
+        MarkedPipe
     ],
     exports: [
         FormsModule,
