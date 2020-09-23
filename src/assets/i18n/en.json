@@ -43,6 +43,7 @@
       "ppe-program": "Sell or Buy PPE",
       "phase-one": "'Phase One' Preparation for Eventual Re-Opening",
       "recruiting-essential-workers": "Recruiting Essential Workers",
+      "remote-learning-assistance": "Remote Learning Assistance Program",
       "reopening": "NJ State Reopening Principles",
       "reopen-application-requirements": "Application & Requirements to Re-Open",
       "rent-increase-freeze": "Rent Increase Freeze for Rent Controlled Tenants",
@@ -128,9 +129,10 @@
   "DOCVIEW": {
     "maskup": "Time to #MaskUPNewark",
     "home-based-business": "Emergency Fund for Home-Based Businesses",
+    "remote-learning-assistance": "Remote Learning Assistance Program",
+    "rent-increase-freeze-order": "Rent Increase Freeze for Rent Controlled Tenants",
     "reopen-requirements": "Curbside & In-Store Pickup Retail Guidelines for Employers and Employees",
     "reopening": "The Road Back for New Jersey",
-    "web-housing-seminar": "Web Seminar for Tenants & Homeowners",
-    "rent-increase-freeze-order": "Rent Increase Freeze for Rent Controlled Tenants"
+    "web-housing-seminar": "Web Seminar for Tenants & Homeowners"
   }
 }

@@ -26,7 +26,7 @@ import { Observable } from 'rxjs';
     <iframe [ngClass]="currentLink.id === 'reopening' ? '' : 'multipg'" *ngFor="let doc of (docContent | async).doc"
       #frame class='data-dashboard'  [scrolling]="'no'" onmousewheel=''
       [src]='doc'>
-    </iframe>\
+    </iframe>
   </div>
   <mat-card *ngIf="currentLink.id === 'maskup'">
     <mat-card-header>
@@ -116,6 +116,10 @@ export class DocViewComponent {
       return this.currentImg = [this.sanitizer
         .bypassSecurityTrustUrl('assets/img/pagePhotos/Home-Based Business Flyer.jpg')
       ];
+    } else if (id === 'remote-learning-assistance') {
+      return this.currentImg = [this.sanitizer
+        .bypassSecurityTrustUrl('assets/img/pagePhotos/RemoteLearningAssistance.png')
+      ];
     } else if (id === 'reopen-requirements') {
         return this.currentUrl = [this.sanitizer
           .bypassSecurityTrustResourceUrl('https://drive.google.com/file/d/1O04JFHVrzLeEdhysxRLUWpvohYTA0HNm/preview')];
@@ -124,6 +128,8 @@ export class DocViewComponent {
   goToUrl() {
     if (this.link === 'home-based-business') {
       return location.href = 'http://bit.ly/2VB64Tm';
+    } else if (this.link === 'remote-learning-assistance') {
+      return location.href = 'https://newark.az1.qualtrics.com/jfe/form/SV_3QPABpuSWiVOgPr';
     } else {
       return location.href = 'https://facebook.com/cityofnewark';
     }

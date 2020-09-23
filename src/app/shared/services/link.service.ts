@@ -34,6 +34,7 @@ export class LinkService {
     new Link('non-profit', 'Emergency Fund for 501(c)3 Non-Profits', 'programs')
   ];
   docs = [
+    new Link('remote-learning-assistance', 'Remote Learning Assistance', 'docs'),
     new Link('maskup', '#MaskUPNewark', 'docs', 'campaign'),
     new Link('home-based-business', 'Emergency Aid for Home-Based Businesses', 'docs', 'business_center'),
     new Link('reopen-requirements', 'Reopening Requirements', 'docs', 'info'),

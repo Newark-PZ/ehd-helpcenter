@@ -101,7 +101,7 @@ export interface Faq {
 export interface HomeCard {
   id?: string;
   title: string;
-  icon: 'business_center' | 'people' | 'person' | 'house' | 'color_lens'
+  icon: 'business_center' | 'people' | 'person' | 'house' | 'color_lens' | 'edit'
   | 'local_dining' | 'local_hospital' | 'info'| 'verified_user' | 'campaign';
   link?: string;
   extUrl?: string;

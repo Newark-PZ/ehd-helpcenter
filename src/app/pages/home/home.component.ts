@@ -195,6 +195,16 @@ export class HomeComponent implements OnInit {
         extUrl: ''
       },
       {
+        icon: 'edit',
+        title: 'Remote Learning Assistance Program',
+        category: 'Save Lives. Stay Healthy. Safely Re-Open.',
+        style: {background: 'rgba(144, 238, 144, 0.15)'},
+        link: 'remote-learning-assistance',
+        parent: '/docs',
+        id: '',
+        extUrl: ''
+      },
+      {
         icon: 'campaign',
         title: '#MaskUPNewark',
         link: 'maskup',
