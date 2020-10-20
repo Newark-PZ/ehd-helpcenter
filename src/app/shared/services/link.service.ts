@@ -38,9 +38,7 @@ export class LinkService {
     new Link('maskup', '#MaskUPNewark', 'docs', 'campaign'),
     new Link('home-based-business', 'Emergency Aid for Home-Based Businesses', 'docs', 'business_center'),
     new Link('reopen-requirements', 'Reopening Requirements', 'docs', 'info'),
-    new Link('reopening', 'NJ Reopening Principles', 'docs', 'info'),
     new Link('rent-increase-freeze-order', 'Rent Increase Freeze Order', 'docs', 'info'),
-    new Link('web-housing-seminar', 'Web Seminar for Tenants & Homeowners', 'docs', 'people')
   ];
   faqs = [
     new Link('tenants', 'Tenant FAQS', 'faqs', undefined, undefined, TenantFAQComponent),

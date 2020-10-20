@@ -70,7 +70,6 @@ export class AppComponent implements OnDestroy, OnInit {
     this.links = [
       new Link('home', 'Home', false, 'house'),
       new Link('data', 'Data Dashboard', false, 'assessment'),
-      new Link('reopening', 'The Road Back for NJ', 'docs', 'info'),
       new Link('stayingin', 'Staying In', 'stayingin', undefined, this.linker.stayingin),
       new Link('programs', 'Our Programs', 'programs',  undefined, this.linker.programs),
       new Link('faqs', 'FAQs', 'faqs',  undefined, this.linker.faqs),

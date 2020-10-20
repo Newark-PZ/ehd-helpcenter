@@ -18,15 +18,18 @@
 		"buttons": {
 			"arts-fund": "Fund for Artists and Arts Organizations",
 			"be-still-mondays": "Be Still Mondays",
-			"commercial-prop": "Help for Commercial Tenants and Property Owners",
+      "commercial-prop": "Help for Commercial Tenants and Property Owners",
+      "covid-recovery-consulting": "NJEDA Business Consulting for COVID-19 Recovery",
       "eligibility-benefits": "Eligibility for Benefits",
+      "emergancy-landlord-grants": "Small Landlord Emergency Grant Program (Apply Now, open 9/28-10/13)",
       "emergency-rent-grants": "Emergency Rent Grants",
       "eviction-moratorium": "Tenant Eviction Moratorium",
       "expanded-business-aid": "Applications for Expanded Small Business Aid Available June 9th",
 			"federal-ppp-sba-update": "Updates on Federal PPP & SBA Programs",
 			"federal-us-cares": "Help from Federal “US CARES” Stimulus Package",
 			"finding-essential-jobs": "Finding an Essential Job During Crisis",
-			"food-dist-school-lunches": "Food Distribution and School Lunches",
+      "food-dist-school-lunches": "Food Distribution and School Lunches",
+      "governor-extends-emergency": "Governor Murphy Extended State of Emergency Another 30 Days (9/25)",
       "health-info": "Health Information",
       "home-based-business": "Emergency Fund for Home-Based Businesses",
 			"homeowner-relief": "Forgiveable Loans for Homeowners and First-Time Buyers",
@@ -44,7 +47,6 @@
       "phase-one": "'Phase One' Preparation for Eventual Re-Opening",
       "recruiting-essential-workers": "Recruiting Essential Workers",
       "remote-learning-assistance": "Remote Learning Assistance Program",
-      "reopening": "NJ State Reopening Principles",
       "reopen-application-requirements": "Application & Requirements to Re-Open",
       "rent-increase-freeze": "Rent Increase Freeze for Rent Controlled Tenants",
 			"safe-housing": "Safe Housing for Homeless",
@@ -54,8 +56,7 @@
       "tenants": "Tenant FAQs",
       "testing": "How to Get Tested",
 			"unemployment-benefits": "Unemployment Benefits",
-      "updated-list-essential": "Updates to List of Essential Businesses Permitted to Operate",
-      "web-housing-seminar": "Web Seminar for Tenants & Homeowners"
+      "updated-list-essential": "Updates to List of Essential Businesses Permitted to Operate"
 		},
 		"mayor-blurb": "We created this website to bring together what you need to get help in dealing with the problems created by COVID-19. Here you’ll find about applying for unemployment, rental assistance, small business grants and other City, State and Federal benefits. You’ll find information about housing rights, getting tested, receiving food, avoiding infection and eventual reopening. We are Newark Strong, and we will emerge from this crisis working together for an even stronger city guided by our shared commitment to social, economic and racial justice.",
     "title": "COVID-19 Comprehensive Help for Residents and Small Businesses",
@@ -90,7 +91,7 @@
 		"federal-ppp-sba-update": "Info on Federal PPP & SBA Programs",
 		"federal-us-cares": "Federal 'US Cares' Stimulus Package",
 		"finding-essential-jobs": "Finding an Essential Job During Crisis",
-		"food-dist-school-lunches": "Food Distribution and School Lunches",
+    "food-dist-school-lunches": "Food Distribution and School Lunches",
 		"health-info": "Health Information",
 		"help": "Help",
     "home": "Home",
@@ -108,7 +109,7 @@
     "ppe-program": "Sell or Buy PPE",
     "programs": "Our Programs",
     "recruiting-essential-workers": "Recruiting Essential Workers",
-    "reopening": "The Road Back for NJ",
+    "remote-learning-assistance": "Remote Learning Assistance Program",
     "reopen-application-requirements": "Application & Requirements to Re-Open",
     "reopen-requirements": "Requirements to Re-Open",
     "rent-increase-freeze": "Rent Increase Freeze",
@@ -120,8 +121,7 @@
     "strikeforce-reopening-plan": "Newark Reopening Guidelines and Summer Activities",
     "tenants": "Tenant FAQS",
     "testing": "How to Get Tested",
-    "unemployment-benefits": "Unemployment Benefits",
-    "web-housing-seminar": "Web Seminar for Tenants & Homeowners"
+    "unemployment-benefits": "Unemployment Benefits"
   },
   "DATA": {
     "title": "Real time Information by Gender, Race, and Ward of COVID-19 impact"

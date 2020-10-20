@@ -93,18 +93,18 @@ export class HomeComponent implements OnInit {
       },
       {
         icon: 'house',
-        title: 'Emergency Rent Grants',
-        link: 'emergency-rent-grants',
-        parent: '/programs',
+        title: 'Small Landlord Emergency Grant Program (Apply Now, open 9/28-10/13)',
+        link: '',
+        parent: '',
         category: 'Housing',
         style: {background: 'rgba(144, 238, 144, 0.5)'},
-        id: '',
-        extUrl: ''
+        id: 'emergancy-landlord-grants',
+        extUrl: 'https://nj.gov/dca/hmfa/rentals/sleg2/index.shtml'
       },
       {
-        icon: 'people',
-        title: 'Rent Increase Freeze for Rent Controlled Tenants',
-        link: 'rent-increase-freeze',
+        icon: 'house',
+        title: 'Emergency Rent Grants',
+        link: 'emergency-rent-grants',
         parent: '/programs',
         category: 'Housing',
         style: {background: 'rgba(144, 238, 144, 0.25)'},
@@ -112,10 +112,38 @@ export class HomeComponent implements OnInit {
         extUrl: ''
       },
       {
+        icon: 'notification_important',
+        title: 'Gov. Murphy Extends Residential Utility-Shutoff Moratorium Through March 15th, 2021',
+        link: '',
+        parent: '',
+        category: 'Housing',
+        style: {background: 'rgba(144, 238, 144, 0.15)'},
+        id: 'utility-shutoff-moratorium',
+        extUrl: 'https://nj.gov/infobank/eo/056murphy/pdf/EO-190.pdf'
+      },
+      {
         icon: 'people',
-        title: 'Online Seminar for Tenants and Homeowners',
-        link: 'web-housing-seminar',
-        parent: '/docs',
+        title: 'Rent Increase Freeze for Rent Controlled Tenants',
+        link: 'rent-increase-freeze',
+        parent: '/programs',
+        category: 'Housing',
+        id: '',
+        extUrl: ''
+      },
+      {
+        icon: 'house',
+        title: 'For Homeowners-Mortgage Relief, Foreclosure FAQs, Forbearances',
+        link: 'homeowners',
+        parent: '/faqs',
+        category: 'Housing',
+        id: '',
+        extUrl: ''
+      },
+      {
+        icon: 'people',
+        title: 'Tenant FAQs',
+        link: 'tenants',
+        parent: '/faqs',
         category: 'Housing',
         id: '',
         extUrl: ''
@@ -139,15 +167,6 @@ export class HomeComponent implements OnInit {
         extUrl: ''
       },
       {
-        icon: 'house',
-        title: 'For Homeowners-Mortgage Relief, Foreclosure FAQs, Forbearances',
-        link: 'homeowners',
-        parent: '/faqs',
-        category: 'Housing',
-        id: '',
-        extUrl: ''
-      },
-      {
         icon: 'people',
         title: 'Safe Housing for Homeless',
         link: 'safe-housing',
@@ -166,15 +185,6 @@ export class HomeComponent implements OnInit {
         extUrl: ''
       },
       {
-        icon: 'people',
-        title: 'Tenant FAQs',
-        link: 'tenants',
-        parent: '/faqs',
-        category: 'Housing',
-        id: '',
-        extUrl: ''
-      },
-      {
         icon: 'verified_user',
         title: 'Application & Requirements to Re-Open',
         link: 'reopen-application-requirements',
@@ -186,13 +196,13 @@ export class HomeComponent implements OnInit {
       },
       {
         icon: 'campaign',
-        title: 'Newark Reopening Guidelines and Summer Activities',
-        link: 'strikeforce-reopening-plan',
-        parent: '/stayingin',
+        title: 'Governor Murphy Extended State of Emergency Another 30 Days (9/25)',
+        link: '',
+        parent: '',
         category: 'Save Lives. Stay Healthy. Safely Re-Open.',
         style: {background: 'rgba(144, 238, 144, 0.25)'},
-        id: '',
-        extUrl: ''
+        id: 'governor-extends-emergency',
+        extUrl: 'https://nj.gov/governor/news/news/562020/approved/20200925a.shtml'
       },
       {
         icon: 'edit',
@@ -201,6 +211,24 @@ export class HomeComponent implements OnInit {
         style: {background: 'rgba(144, 238, 144, 0.15)'},
         link: 'remote-learning-assistance',
         parent: '/docs',
+        id: '',
+        extUrl: ''
+      },
+      {
+        icon: 'local_hospital',
+        title: 'How to Get Tested',
+        link: 'testing',
+        parent: '/programs',
+        category: 'Save Lives. Stay Healthy. Safely Re-Open.',
+        id: '',
+        extUrl: ''
+      },
+      {
+        icon: 'campaign',
+        title: 'Newark Reopening Guidelines and Summer Activities',
+        link: 'strikeforce-reopening-plan',
+        parent: '/stayingin',
+        category: 'Save Lives. Stay Healthy. Safely Re-Open.',
         id: '',
         extUrl: ''
       },
@@ -221,24 +249,6 @@ export class HomeComponent implements OnInit {
         extUrl: ''
       },
       {
-        icon: 'local_hospital',
-        title: 'How to Get Tested',
-        link: 'testing',
-        parent: '/programs',
-        category: 'Save Lives. Stay Healthy. Safely Re-Open.',
-        id: '',
-        extUrl: ''
-      },
-      {
-        icon: 'people',
-        title: 'NJ State Reopening Principles',
-        link: 'reopening',
-        parent: '/docs',
-        category: 'Save Lives. Stay Healthy. Safely Re-Open.',
-        id: '',
-        extUrl: ''
-      },
-      {
         icon: 'verified_user',
         title: '"Phase One" Preparation for Eventual Re-Opening',
         link: 'phase-one',
@@ -246,15 +256,6 @@ export class HomeComponent implements OnInit {
         category: 'Save Lives. Stay Healthy. Safely Re-Open.',
         id: '',
         extUrl: ''
-      },
-      {
-        icon: 'info',
-        title: 'More Newark News',
-        link: '',
-        parent: '',
-        category: 'Save Lives. Stay Healthy. Safely Re-Open.',
-        id: 'newark-news',
-        extUrl: 'https://newarknj.gov/news'
       },
       {
         icon: 'info',
@@ -267,11 +268,21 @@ export class HomeComponent implements OnInit {
       },
       {
         icon: 'business_center',
+        title: 'NJEDA Business Consulting for COVID-19 Recovery',
+        link: '',
+        parent: '',
+        category: 'Small Business',
+        style: {background: 'rgba(144, 238, 144, 0.5)'},
+        id: 'covid-recovery-consulting',
+        extUrl: 'https://forms.business.nj.gov/covid-recovery-consulting/'
+      },
+      {
+        icon: 'business_center',
         title: 'Updates on Federal PPP & SBA Programs',
         link: 'federal-ppp-sba-update',
         parent: '/resources',
         category: 'Small Business',
-        style: {background: 'rgba(144, 238, 144, 0.5)'},
+        style: {background: 'rgba(144, 238, 144, 0.25)'},
         id: '',
         extUrl: ''
       },
@@ -279,7 +290,7 @@ export class HomeComponent implements OnInit {
         icon: 'business_center',
         title: 'Updates to List of Essential Businesses Permitted to Operate',
         category: 'Small Business',
-        style: {background: 'rgba(144, 238, 144, 0.25)'},
+        style: {background: 'rgba(144, 238, 144, 0.15)'},
         id: 'updated-list-essential',
         extUrl: 'https://www.nj.gov/governor/news/news/562020/approved/20200427d.shtml'
       },
