@@ -21,6 +21,7 @@
       "commercial-prop": "Help for Commercial Tenants and Property Owners",
       "covid-recovery-consulting": "NJEDA Business Consulting for COVID-19 Recovery",
       "eligibility-benefits": "Eligibility for Benefits",
+      "emergency-help-restaurants": "Emergency Help for Newark Restaurants & Small Businesses",
       "emergancy-landlord-grants": "Small Landlord Emergency Grant Program (Apply Now, open 9/28-10/13)",
       "emergency-rent-grants": "Emergency Rent Grants",
       "eviction-moratorium": "Tenant Eviction Moratorium",
@@ -85,6 +86,7 @@
     "data": "Data Dashboard",
     "docs": "Docs",
     "eligibility-benefits": "Eligibility for Benefits",
+    "emergency-help-restaurants": "Emergency Help for Restaurants & Small Businesses",
     "emergency-rent-grants": "Emergency Rent Grants",
 		"eviction-moratorium": "Tenant Eviction Moratorium",
 		"faqs": "FAQs",
@@ -127,6 +129,7 @@
     "title": "Real time Information by Gender, Race, and Ward of COVID-19 impact"
   },
   "DOCVIEW": {
+    "emergency-help-restaurants": "Emergency Help for Newark Restaurants & Small Businesses",
     "maskup": "Time to #MaskUPNewark",
     "home-based-business": "Emergency Fund for Home-Based Businesses",
     "remote-learning-assistance": "Remote Learning Assistance Program",
