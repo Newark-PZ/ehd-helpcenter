@@ -113,7 +113,7 @@
     "category": "Save Lives. Stay Healthy. Safely Re-Open.",
     "link": "strikeforce-reopening-plan",
     "parent": "/stayingin",
-    "title": "Newark Reopening Guidelines and Summer Activities",
+    "title": "Newark Reopening Guidelines",
     "icon": "campaign",
     "introText": "<img class='intro-pic contain full-top' src='assets/img/pagePhotos/guidanceforreopening.png'>",
     "sections": [
@@ -134,30 +134,6 @@
             "linkText": "About the Reopening & Recovery Strikeforce",
             "link": "stayingin/newark-reopening-recovery",
             "icon": "people"
-          }
-        ]
-      },
-      {
-        "headerIcon": "outdoor_grill",
-        "header": "Safe Summer Activities",
-        "buttons": [
-          {
-            "linkText": "Gatherings",
-            "link": "assets/docs/Gatherings_6.2.2020.pdf",
-            "extraClass": "important",
-            "icon": "emoji_people"
-          },
-          {
-            "linkText": "Summer Fun",
-            "link": "assets/docs/Newark Summer Fun 2020_6.1.2020.pdf",
-            "extraClass": "important",
-            "icon": "emoji_emotions"
-          },
-          {
-            "linkText": "Summer Activities",
-            "link": "assets/docs/Newark Summer Activities Guide_6.1.2020.pdf",
-            "extraClass": "important",
-            "icon": "sports_kabaddi"
           }
         ]
       },
