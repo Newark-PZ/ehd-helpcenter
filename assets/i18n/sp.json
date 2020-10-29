@@ -22,7 +22,8 @@
 			"eligibility-benefits": "Elegibilidad para beneficios",
 			"eviction-moratorium": "Moratoria de desalojo del inquilino",
 			"federal-ppp-sba-update": "Actualizaciones sobre los programas federales PPP y SBA",
-			"federal-us-cares": "Ayuda del paquete de estímulo federal 'US CARES'",
+      "federal-us-cares": "Ayuda del paquete de estímulo federal 'US CARES'",
+      "fight-surge-covid-19": "Nuevas reglas para combatir el aumento en COVID-19",
 			"finding-essential-jobs": "Encontrar un trabajo esencial durante la crisis",
 			"food-dist-school-lunches": "Distribución de alimentos y almuerzos escolares",
 			"health-info": "Información de salud",
@@ -78,7 +79,8 @@
 		"eviction-moratorium": "Moratoria de desalojo del inquilino",
 		"faqs": "Preguntas frecuentes",
 		"federal-ppp-sba-update": "Información sobre programas federales PPP y SBA",
-		"federal-us-cares": "Paquete de estímulo federal 'US Cares'",
+    "federal-us-cares": "Paquete de estímulo federal 'US Cares'",
+    "fight-surge-covid-19": "Nuevas reglas para combatir el aumento en COVID-19",
 		"finding-essential-jobs": "Encontrar un trabajo esencial durante la crisis",
 		"food-dist-school-lunches": "Distribución de alimentos y almuerzos escolares",
 		"health-info": "Información de salud",
@@ -110,7 +112,13 @@
     "title": "Información en tiempo real por género, raza y barrio del impacto COVID-19"
   },
   "DOCVIEW": {
+    "emergency-help-restaurants": "Ayuda de emergencia para restaurantes y pequeñas empresas de Newark",
+    "fight-surge-covid-19": "Nuevas reglas para combatir el aumento en COVID-19",
     "maskup": "Ahora #MaskUPNewark",
+    "home-based-business": "Fondo de Emergencia para Empresas Basadas en el Hogar",
+    "remote-learning-assistance": "Programa de Asistencia al Aprendizaje Remoto",
+    "rent-increase-freeze-order": "Rent Increase Freeze for Rent Controlled Tenants",
+    "reopen-requirements": "El aumento de alquiler se congela para los inquilinos controlados por el alquiler",
     "reopening": "El camino de regreso a Nueva Jersey",
     "web-housing-seminar": "Seminario web para inquilinos y propietarios de viviendas"
   }
