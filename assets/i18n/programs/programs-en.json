@@ -58,7 +58,13 @@
       },
       {
         "header": "FAQs about Small Business Grants",
-        "text": "Coming Soon"
+        "actionsCol": true,
+        "buttons": [{
+          "link":"/programs/small-business-grants-faq/",
+          "linkText": "Small Business Grants FAQ Page",
+          "icon": "launch",
+          "extraClass": "important"
+        }]
       },
       {
         "header": "How to Get Ready to Apply",
@@ -67,10 +73,42 @@
       {
         "header": "Virtual Meeting Monday, December 21st 11am",
         "text": "<h3>How to Apply Facebook/Zoom virtual meeting on Monday, December 21st 11am</h3><ul><li>Facebook Live Meeting Link: <a href='https://facebook.com/cityofnewark'>facebook.com/cityofnewark</a></li><li>Zoom Meeting Link: <a href='https://bit.ly/nwksmallbiz'>https://bit.ly/nwksmallbiz</a></li></ul>"
+      },
+      {
+        "header": "Important Resources",
+        "text": "<p>Local Resources<ul><li>Email for Information – <a href='mailto:ehd@ci.newark.nj.us'>ehd@ci.newark.nj.us</a></li><li>Invest Newark Small Business Information – <a href='https://www.investnewark.org'>www.investnewark.org</a></li><li>Rental Assistance – Newark Housing Authority – <a href='https://www.newarkha.org'>www.newarkha.org</a></li><li>Office of Tenant Legal Services – email <a href='mailtp:otls@ci.newark.nj.us'>otls@ci.newark.nj.us</a></li></ul></p><p>State resources<ul><li>New Jersey COVID-19 Information Hub - <a href='https://covid19.nj.gov'>covid19.nj.gov</a></li><li>New Jersey Business Programs: <a href='https://cv.business.nj.gov'>cv.business.nj.gov</a></li><li>New Jersey Jobs Portal: <a href='https://jobs.covid19.nj.gov'>jobs.covid19.nj.gov</a></li></ul></p>"
       }
     ],
     "title": "Mayor Baraka’s Small Business Emergency Grants",
     "subtitle": "How to Apply & Other Information"
+  },
+  {
+    "category": "Small Business",
+    "icon": "business_center",
+    "introText": "<p><img class='intro-pic' src='assets/img/pagePhotos/help for commercial tenants.jpg'><h3>Online application will be on this page starting Thursday, December 17, 2020.</h3><h3>Deadline to Apply: Thursday, December 31, 2020 at 5pm.</h3><h3>For More Info: Facebook/Zoom virtual meeting on Monday, December 21st 11am.</h3></p>",
+    "link": "small-business-grants-faq",
+    "parent": "/program",
+    "infoButtons": [
+      {
+        "linkText": "PDF of Small Business Grant FAQ",
+        "link": "assets/docs/SmallBusinessGrantFAQ.pdf",
+        "extraClass": "important"
+      }
+    ],
+    "purpose": [
+      {
+        "body": "Frequently Asked Questions About Small Business Emergency Grants"
+      }
+    ],
+    "sections": [
+      {
+        "header": "NOTE",
+        "text": "<h3>Note that non-profits and any businesses that violated the 10-day shutdown are not eligible to apply for this grant.</h3>"
+      }
+    ],
+    "title": "Mayor Baraka’s Small Business Emergency Grants",
+    "subtitle": "Frequently Asked Questions",
+    "hideBottomBar": true
   },
   {
     "category": "Housing",
@@ -444,7 +482,7 @@
     "category": "Housing",
     "link": "emergency-rent-grants",
     "parent": "/programs",
-    "title": "Mayor Baraka’s Emergency Rent Grants",
+    "title": "Mayor Baraka’s Rental Assistance Emergency Grants",
     "subtitle":"How to Apply & Other Information",
     "icon": "house",
     "introText": "<p><img class='intro-pic' src='assets/img/pagePhotos/rentdue.jpg'><h3>Online application will be on this page starting Thursday, December 17, 2020.</h3><h3>Deadline to Apply: Thursday, December 31, 2020 at 5pm.</h3><h3>For More Info: Facebook/Zoom virtual meeting on Saturday, December 19th at 11am</h3></p>",
@@ -461,7 +499,13 @@
         },
         {
           "header": "FAQs about Rental Assistance Grants",
-          "text": "Coming Soon"
+          "actionsCol": true,
+          "buttons": [{
+            "link":"/programs/emergency-rent-grants-faq/",
+            "linkText": "Rental Assistance Grants FAQ Page",
+            "icon": "launch",
+            "extraClass": "important"
+          }]
         },
         {
           "header": "How to Get Ready to Apply",
@@ -470,8 +514,44 @@
         {
           "header": "Virtual Meeting Saturday, December 19th at 11am",
           "text": "<h3>How to Apply Facebook/Zoom virtual meeting on Saturday, December 19th at 11am</h3><ul><li>Facebook Live Meeting Link: <a href='https://facebook.com/cityofnewark'>facebook.com/cityofnewark</a></li><li>Zoom Meeting Link: <a href='https://bit.ly/nwkrenters'>https://bit.ly/nwkrenters</a></li></ul>"
+        },
+        {
+          "header": "Important Resources",
+          "text": "<p>Local Resources<ul><li>Email for Information – <a href='mailto:ehd@ci.newark.nj.us'>ehd@ci.newark.nj.us</a></li><li>Invest Newark Small Business Information – <a href='https://www.investnewark.org'>www.investnewark.org</a></li><li>Rental Assistance – Newark Housing Authority – <a href='https://www.newarkha.org'>www.newarkha.org</a></li><li>Office of Tenant Legal Services – email <a href='mailtp:otls@ci.newark.nj.us'>otls@ci.newark.nj.us</a></li></ul></p><p>State resources<ul><li>New Jersey COVID-19 Information Hub - <a href='https://covid19.nj.gov'>covid19.nj.gov</a></li><li>New Jersey Business Programs: <a href='https://cv.business.nj.gov'>cv.business.nj.gov</a></li><li>New Jersey Jobs Portal: <a href='https://jobs.covid19.nj.gov'>jobs.covid19.nj.gov</a></li></ul></p>"
         }
     ]
+  },
+  {
+    "category": "Housing",
+    "icon": "house",
+    "introText": "<p><img class='intro-pic' src='assets/img/pagePhotos/rentdue.jpg'><h3>Online application will be on this page starting Thursday, December 17, 2020.</h3><h3>Deadline to Apply: Thursday, December 31, 2020 at 5pm.</h3><h3>For More Info: Facebook/Zoom virtual meeting on Saturday, December 19th at 11am</h3></p>",
+    "link": "emergency-rent-grants-faq",
+    "parent": "/program",
+    "infoButtons": [
+      {
+        "linkText": "PDF of Rental Assistance FAQ",
+        "link": "assets/docs/EmergencyRentalAssistanceFAQ.pdf",
+        "extraClass": "important"
+      }
+    ],
+    "purpose": [
+      {
+        "body": "Frequently Asked Questions About Rental Assistance Emergency Grants"
+      }
+    ],
+    "sections": [
+      {
+        "header": "Who is elegible for this progam?",
+        "text": "<ul><li>Applicant must be a Newark resident who pays rent.</li><li>Applicant must show proof that they filed for unemployment insurance or had work hours reduced.</li><li>Applicant’s household must have fallen under the 60% Area Median Income (AMI) level (see chart below) before filing for unemployment insurance or having hours reduced.</li></ul><table class='text-table'><thead><tr><th class='title' colspan='7'><strong>Persons in Household</strong></th></tr></thead><tbody><tr class='bordered'><td class='side-header' rowspan='2'>60% Area Median Income</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td></tr><tr class='bordered'><td>$42,300</td><td>$48,300</td><td>$54,360</td><td>$60,360</td><td>$65,220</td><td>$70,020</td></tr></tbody></table>"
+      },
+      {
+        "header": "What You Will Need To Apply",
+        "text": "<p>For your convenience, required documentation (whole document) can either be scanned using a scanner or photographed using a mobile phone or device and uploaded to this application. Clear, legible, document images must be uploaded at the time of application submission.</p><h3>DOCUMENT REQUIREMENTS CAN BE MET WITH THE FOLLOWING:</h3><h4>INCOME AND UNEMPLOYMENT INFORMATION MUST BE PROVIDED FOR ALL ADULT (18 AND OVER) INCOME EARNERS IN THE HOUSEHOLD</h4><p><u>Income Verification for ALL HOUSEHOLD MEMBERS WHO WERE WORKING</u><ol><li>Copy of most recent paystub OR if paid in cash by employer, then must provide an official document from employer with the following information:<ul><li>Company Name</li><li>Employer TIN #</li><li>Company Address</li><li>Company Tel#</li></ul><br><ul><li>Employee Name</li><li>Hours Worked</li><li>Hourly Rate</li><li>Total pay</li></ul></li><b>AND</b><li>Letter or email of job loss or reduced hours OR Copy of unemployment letter stating unemployment income.</li></ol></p><p><u>Residence Verification</u><ol><li>Copy of executed lease <b>OR</b> (If no formal lease) an official one-page rental agreement with rental terms between landlord and tenant (signed by both parties).</li><b>AND</b><li>Copy of late rent notice from landlord (if available)</li></ol></p><p>You will also need the following information regarding your landlord for this application:<ul><li>Landlord Name: [First Name, Last Name; Company Name (if, applicable)]</li><li>Landlord Address:</li><li>Phone:</li><li>Fax:</li><li>Email:</li></ul></p><p><strong>Once you have this information and these documents are readily available to be uploaded, then you are ready to begin the application.</strong></p>"
+      }
+    ],
+    "title": "Mayor Baraka’s Rental Assistance Emergency Grants",
+    "subtitle": "Frequently Asked Questions",
+    "hideBottomBar": true
   },
   {
     "category": "Housing",
