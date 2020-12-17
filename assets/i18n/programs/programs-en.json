@@ -486,7 +486,13 @@
     "subtitle":"How to Apply & Other Information",
     "icon": "house",
     "introText": "<p><img class='intro-pic' src='assets/img/pagePhotos/rentdue.jpg'><h3>Online application will be on this page starting Thursday, December 17, 2020 at 2pm.</h3><h3>Deadline to Apply: Thursday, December 31, 2020 at 5pm.</h3><h3>For More Info: Facebook/Zoom virtual meeting on Saturday, December 19th at 11am</h3></p>",
-    "infoButtons": [],
+    "infoButtons": [
+      {
+        "linkText": "Tenant Grant Application",
+        "link": "http://newarkha.org/Housing/Covid19-Emergency-Rental-Assistance",
+        "extraClass": "important"
+      }
+      ],
     "purpose": [
       {
         "body": "Mayor Baraka’s Rental Assistance Program, administered in partnership with the Newark Housing Authority, will provide up to three months of support for local tenants and families facing eviction due to COVID-19."
@@ -509,7 +515,14 @@
         },
         {
           "header": "How to Get Ready to Apply",
-          "text": "<p>Gather documents needed to apply<ul><li>Government Issued Photo ID or Driver’s license</li><li>Notice of furlough or reduced hours from employer</li><li>Head of Households most recent paystub</li><li>Head of Households unemployment insurance notice listing unemployment payments</li><li>Most recent lease or rental agreement with current landlord</li><li>Rent receipts for last two rental payments</li><li>Late rental payment notices for months in arrears</li><li>Copies of other income or assistance (SSI, Cash Assistance from NJDHS, other adult members income)</li><li>Name of landlord, company, address, phone number, email</li></ul></p>"
+          "text": "<p>Gather documents needed to apply<ul><li>Government Issued Photo ID or Driver’s license</li><li>Notice of furlough or reduced hours from employer</li><li>Head of Households most recent paystub</li><li>Head of Households unemployment insurance notice listing unemployment payments</li><li>Most recent lease or rental agreement with current landlord</li><li>Rent receipts for last two rental payments</li><li>Late rental payment notices for months in arrears</li><li>Copies of other income or assistance (SSI, Cash Assistance from NJDHS, other adult members income)</li><li>Name of landlord, company, address, phone number, email</li></ul></p>",
+          "actionsCol": true,
+          "buttons": [{
+            "linkText": "Tenant Grant Application",
+            "link": "http://newarkha.org/Housing/Covid19-Emergency-Rental-Assistance",
+            "icon": "launch",
+            "extraClass": "important"
+          }]
         },
         {
           "header": "Virtual Meeting Saturday, December 19th at 11am",
