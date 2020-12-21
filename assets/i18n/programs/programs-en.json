@@ -590,7 +590,7 @@
     "sections": [
       {
         "header": "Who is elegible for this progam?",
-        "text": "<ul><li>Applicant must be a Newark resident who pays rent.</li><li>Applicant must show proof that they filed for unemployment insurance or had work hours reduced.</li><li>Applicant’s household must have fallen under the 60% Area Median Income (AMI) level (see chart below) before filing for unemployment insurance or having hours reduced.</li></ul><table class='text-table'><thead><tr><th class='title' colspan='7'><strong>Persons in Household</strong></th></tr></thead><tbody><tr class='bordered'><td class='side-header' rowspan='2'>60% Area Median Income</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td></tr><tr class='bordered'><td>$42,300</td><td>$48,300</td><td>$54,360</td><td>$60,360</td><td>$65,220</td><td>$70,020</td></tr></tbody></table>"
+        "text": "<ul><li>Applicant must be a Newark resident who pays rent.</li><li>Applicant must show proof that they filed for unemployment insurance or had work hours reduced.</li><li>Applicant’s household must have fallen under the 60% Area Median Income (AMI) level (see chart below) before filing for unemployment insurance or having hours reduced.</li></ul><table class='text-table'><thead><tr><th class='title' colspan='7'><strong>Persons in Household</strong></th></tr></thead><tbody><tr class='bordered'><td class='side-header' rowspan='2'>60% Area Median Income</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td></tr><tr class='bordered'><td>$44,520</td><td>$50,880</td><td>$57,240</td><td>$63,600</td><td>$68,700</td><td>$73,800</td></tr></tbody></table>"
       },
       {
         "header": "What You Will Need To Apply",
