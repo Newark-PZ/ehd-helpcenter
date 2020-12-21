@@ -46,12 +46,18 @@
     "link": "small-business-grants",
     "parent": "/program",
     "infoButtons": [
-      {
-        "link": "https://newark.seamlessdocs.com/f/SBAGrant",
-        "linkText": "Small Business Grants Application",
-        "icon": "launch",
-        "extraClass": "important"
-      }
+          {
+            "link": "https://newark.seamlessdocs.com/f/SBAGrant",
+            "linkText": "Grant Application (english)",
+            "icon": "launch",
+            "extraClass": "important"
+          },
+          {
+            "link": "https://newark.seamlessdocs.com/f/SBAGrantEspanol",
+            "linkText": "Grant Application (español)",
+            "icon": "launch",
+            "extraClass": "important"
+          }
     ],
     "purpose": [
       {
@@ -86,7 +92,7 @@
           },
           {
             "link": "https://newark.seamlessdocs.com/f/SBAGrantEspanol",
-            "linkText": "Grant Application (espa&#241;ol)",
+            "linkText": "Grant Application (español)",
             "icon": "launch",
             "extraClass": "important"
           }
