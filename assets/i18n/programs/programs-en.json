@@ -42,7 +42,7 @@
   {
     "category": "Small Business",
     "icon": "business_center",
-    "introText": "<p><img class='intro-pic' src='assets/img/pagePhotos/Newark small business emergency grants.jpeg'><h3>Online application will be on this page starting Thursday, December 17, 2020 at 2pm.</h3><h3>Deadline to Apply: Thursday, December 31, 2020 at 5pm.</h3><h3>For More Info: Facebook/Zoom virtual meeting on Monday, December 21st 11am.</h3></p>",
+    "introText": "<p><img class='intro-pic' src='assets/img/pagePhotos/Newark small business emergency grants.jpeg'><h3>Online application will be on this page starting Thursday, December 17, 2020 at 2pm.</h3><h3>Deadline to Apply: Thursday, December 31, 2020 at 5pm.</h3><h3>For More Info: Facebook/Zoom virtual meeting on Monday, December 21st 11:30am.</h3></p>",
     "link": "small-business-grants",
     "parent": "/program",
     "infoButtons": [
@@ -87,8 +87,8 @@
         ]
       },
       {
-        "header": "Virtual Meeting Monday, December 21st 11am",
-        "text": "<h3>How to Apply Facebook/Zoom virtual meeting on Monday, December 21st 11am</h3><ul><li>Facebook Live Meeting Link: <a href='https://facebook.com/cityofnewark'>facebook.com/cityofnewark</a></li><li>Zoom Meeting Link: <a href='https://bit.ly/nwksmallbiz'>https://bit.ly/nwksmallbiz</a></li></ul>"
+        "header": "Virtual Meeting Monday, December 21st 11:30am",
+        "text": "<h3>How to Apply Facebook/Zoom virtual meeting on Monday, December 21st 11:30am</h3><ul><li>Facebook Live Meeting Link: <a href='https://facebook.com/cityofnewark'>facebook.com/cityofnewark</a></li><li>Zoom Meeting Link: <a href='https://bit.ly/nwksmallbiz'>https://bit.ly/nwksmallbiz</a></li></ul>"
       },
       {
         "header": "Important Resources",
