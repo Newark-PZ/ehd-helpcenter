@@ -80,7 +80,13 @@
         "buttons": [
           {
             "link": "https://newark.seamlessdocs.com/f/SBAGrant",
-            "linkText": "Small Business Grants Application",
+            "linkText": "Grant Application (english)",
+            "icon": "launch",
+            "extraClass": "important"
+          },
+          {
+            "link": "https://newark.seamlessdocs.com/f/SBAGrantEspanol",
+            "linkText": "Grant Application (espa&#241;ol)",
             "icon": "launch",
             "extraClass": "important"
           }
