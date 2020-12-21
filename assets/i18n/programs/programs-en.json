@@ -101,7 +101,7 @@
   {
     "category": "Small Business",
     "icon": "business_center",
-    "introText": "<p><img class='intro-pic' src='assets/img/pagePhotos/help for commercial tenants.jpg'><h3>Online application will be on this page starting Thursday, December 17, 2020 at 2pm.</h3><h3>Deadline to Apply: Thursday, December 31, 2020 at 5pm.</h3><h3>For More Info: Facebook/Zoom virtual meeting on Monday, December 21st at 11am.</h3></p>",
+    "introText": "<p><img class='intro-pic' src='assets/img/pagePhotos/help for commercial tenants.jpg'><h3>Online application will be on this page starting Thursday, December 17, 2020 at 2pm.</h3><h3>Deadline to Apply: Thursday, December 31, 2020 at 5pm.</h3><h3>For More Info: Facebook/Zoom virtual meeting on Monday, December 21st at 11:30am.</h3></p>",
     "link": "small-business-grants-faq",
     "parent": "/program",
     "infoButtons": [
