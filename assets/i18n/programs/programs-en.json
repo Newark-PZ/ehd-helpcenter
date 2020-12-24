@@ -57,6 +57,12 @@
             "linkText": "Grant Application (español)",
             "icon": "launch",
             "extraClass": "important"
+          },
+          {
+            "link": "https://newark.seamlessdocs.com/f/Portugues",
+            "linkText": "Grant Application (português)",
+            "icon": "launch",
+            "extraClass": "important"
           }
     ],
     "purpose": [
@@ -81,7 +87,7 @@
       },
       {
         "header": "How to Get Ready to Apply",
-        "text": "<ol><li>Gather business documents and paperwork<ul><li>Corporate registration and/or licenses</li><li>Proof of general liability insurance</li><li>Most recent year's corporate tax returns (2019 preferred, 2018 accepted)</li><li>Internal business financials (profit and loss/balance sheet)</li><li>Payroll/employee information (list of names and income)</li><li>Evidence of hardship/loss due to COVID-19 related business disruption (i.e. YOY decrease in orders/sales, loss of revenue, additional costs)</li></ul></li><li>Develop a Budget for how you will use grant funds</li><li>Grant Funds can be used for the following:<ul><li>Accounts payable, Payroll, Inventory, Business compliance, Licensing renewal, Utilities</li></ul></li><li>Create an adaption and recovery plan for next 1-3 years (i.e. digital literacy training, enabling remote working, diversifying products/customers/suppliers, reducing costs, securing mentors)</li></ol>",
+        "text": "<ol><li>Gather business documents and paperwork<ul><li>Corporate registration and/or licenses</li><li>Proof of general liability insurance</li><li>Most recent year's corporate tax returns (2019 preferred, 2018 accepted)</li><li>Internal business financials (profit and loss/balance sheet)</li><li>Payroll/employee information (list of names and income)</li><li>Evidence of hardship/loss due to COVID-19 related business disruption (i.e. YOY decrease in orders/sales, loss of revenue, additional costs)</li></ul></li><li>Develop a Budget for how you will use grant funds</li><li>Grant Funds can be used for the following:<ul><li>Accounts payable, Payroll, Inventory, Business compliance, Licensing renewal, Utilities</li></ul></li><li>Create an adaption and recovery plan for next 1-3 years (i.e. digital literacy training, enabling remote working, diversifying products/customers/suppliers, reducing costs, securing mentors)</li></ol><p>You can view pdfs of the application prior to filling them out here: <a download href='assets/docs/SBAGrantApplication_en'>in english</a>, <a download href='assets/docs/SBAGrantApplication_sp'>en español</a>, <a download href='assets/docs/SBAGrantApplication_pr'>em português</a>",
         "actionsCol": true,
         "buttons": [
           {
@@ -93,6 +99,12 @@
           {
             "link": "https://newark.seamlessdocs.com/f/SBAGrantEspanol",
             "linkText": "Grant Application (español)",
+            "icon": "launch",
+            "extraClass": "important"
+          },
+          {
+            "link": "https://newark.seamlessdocs.com/f/Portugues",
+            "linkText": "Grant Application (português)",
             "icon": "launch",
             "extraClass": "important"
           }
