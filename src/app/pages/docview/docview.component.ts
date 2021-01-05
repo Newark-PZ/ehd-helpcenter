@@ -1,13 +1,13 @@
-import { Component,  ViewChild, ElementRef, ChangeDetectionStrategy } from '@angular/core';
-import { DomSanitizer, SafeUrl, SafeResourceUrl } from '@angular/platform-browser';
+import { ChangeDetectionStrategy, Component, ElementRef, ViewChild } from '@angular/core';
+import { DomSanitizer, SafeResourceUrl, SafeUrl } from '@angular/platform-browser';
 import { ActivatedRoute, ParamMap } from '@angular/router';
 import { Store } from '@ngrx/store';
-import { DocPage } from '../../shared/interfaces/other.interface';
-import * as fromStore from '../../store/store.reducers';
-import * as PageActions from '../../store/page/page.actions';
-import { LinkService } from '../../shared/services/link.service';
-import { Link } from 'src/app/shared/interfaces/link.class';
 import { Observable } from 'rxjs';
+import { Link } from 'src/app/shared/interfaces/link.class';
+import { DocPage } from '../../shared/interfaces/other.interface';
+import { LinkService } from '../../shared/services/link.service';
+import * as PageActions from '../../store/page/page.actions';
+import * as fromStore from '../../store/store.reducers';
 
 @Component({
   changeDetection: ChangeDetectionStrategy.Default,
@@ -91,9 +91,12 @@ export class DocViewComponent {
     }
   doctyper(): 'img' | 'iframe' {
       switch (this.currentLink.id) {
-        case 'web-housing-seminar': return 'iframe';
-        case 'reopen-requirements': return 'iframe';
-        case 'rent-increase-freeze-order': return 'iframe';
+        case 'fight-surge-covid-19':
+        case 'web-housing-seminar':
+        case 'reopen-requirements':
+        case 'rent-increase-freeze-order':
+        case 'emergency-help-restaurants':
+        case 'holiday-executive-order': return 'iframe';
         default: return 'img';
       }
   }
@@ -104,6 +107,14 @@ export class DocViewComponent {
     } else if (id === 'rent-increase-freeze-order') {
         return this.currentUrl = [this.sanitizer
         .bypassSecurityTrustResourceUrl('https://drive.google.com/file/d/1oH4xOvsE53rc-GPau2CC65KrxWJiML7i/preview')];
+    } else if (id === 'fight-surge-covid-19') {
+      const googleId = {
+        en: '1W8Ul5ae1vMD6GyJaaEqXsp7CgMioB_LZ',
+        pr: '11-7NfJIO54zBdpQ-LjeVVmPtS3MZAX9A',
+        sp: '1u6gtlAjSfxWfyAt8Xq9c2uZYeSFPArqj'
+      };
+      return this.currentUrl = [this.sanitizer
+          .bypassSecurityTrustResourceUrl(`https://drive.google.com/file/d/${googleId[lang]}/preview`)];
     } else if (id === 'web-housing-seminar') {
         return this.currentImg = [this.sanitizer
         .bypassSecurityTrustUrl(`assets/docs/KnowYourRights_${lang === 'fr' ? 'en' : lang}_FaceBook.png`)];
@@ -112,23 +123,23 @@ export class DocViewComponent {
           this.sanitizer.bypassSecurityTrustUrl(`assets/img/pagePhotos/MASKUP_${lang === 'fr' ? 'en' : lang}_Page_1.png`),
           this.sanitizer.bypassSecurityTrustUrl(`assets/img/pagePhotos/MASKUP_${lang === 'fr' ? 'en' : lang}_Page_2.png`)
         ];
-    } else if (id === 'home-based-business') {
-      return this.currentImg = [this.sanitizer
-        .bypassSecurityTrustUrl('assets/img/pagePhotos/Home-Based Business Flyer.jpg')
-      ];
     } else if (id === 'remote-learning-assistance') {
       return this.currentImg = [this.sanitizer
         .bypassSecurityTrustUrl('assets/img/pagePhotos/RemoteLearningAssistance.png')
       ];
+    } else if (id === 'emergency-help-restaurants') {
+      return this.currentUrl = [this.sanitizer
+        .bypassSecurityTrustResourceUrl('https://drive.google.com/file/d/1xczk_XzCek4_0-2iPC1qsX9VUYNboN2G/preview')];
     } else if (id === 'reopen-requirements') {
         return this.currentUrl = [this.sanitizer
           .bypassSecurityTrustResourceUrl('https://drive.google.com/file/d/1O04JFHVrzLeEdhysxRLUWpvohYTA0HNm/preview')];
-    }
+    } else if (id === 'holiday-executive-order') {
+      return this.currentUrl = [this.sanitizer
+        .bypassSecurityTrustResourceUrl('https://drive.google.com/file/d/1KA19viZERPyVMVQLEsIBZIEGHR8DsugO/preview')];
+  }
   }
   goToUrl() {
-    if (this.link === 'home-based-business') {
-      return location.href = 'http://bit.ly/2VB64Tm';
-    } else if (this.link === 'remote-learning-assistance') {
+    if (this.link === 'remote-learning-assistance') {
       return location.href = 'https://newark.az1.qualtrics.com/jfe/form/SV_3QPABpuSWiVOgPr';
     } else {
       return location.href = 'https://facebook.com/cityofnewark';

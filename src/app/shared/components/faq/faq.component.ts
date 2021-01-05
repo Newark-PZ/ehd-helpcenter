@@ -66,15 +66,10 @@ export class FaqComponent implements OnInit {
         : categories = ['Mudanzas', 'Audiencias judiciales'];
         break;
       default:
-        if (faq !== 'RentControl') {
-          (faq === 'Tenant')
-          ? categories = ['Lockouts', 'Rent Payments', 'Court Hearings',
-            'Subsidized Tenants', 'Electricity, Gas, Water'
-          ]
-          : categories = ['Removals', 'Court Hearings'];
-        } else {
-          categories = ['Rent Increase FAQ'];
-        }
+        if (faq === 'Tenant') {categories = ['Lockouts', 'Rent Payments', 'Court Hearings','Subsidized Tenants', 'Electricity, Gas, Water'];
+        } else if (faq === 'Homeowners') { categories = ['Removals', 'Court Hearings'];
+        } else if (faq === 'RentControl') { categories = ['Rent Increase FAQ'];
+        } else { categories = ['Other FAQs']; }
     }
     return categories;
   }

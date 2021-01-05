@@ -1,4 +1,4 @@
-import { Component, OnInit, ChangeDetectionStrategy } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { HomeCard } from 'src/app/shared/interfaces/other.interface';
 import { BreakpointObserver, BreakpointState } from '@angular/cdk/layout';
 import * as fromStore from '../../store/store.reducers';
@@ -20,6 +20,45 @@ export class HomeComponent implements OnInit {
   expansionDisabled$: Observable<boolean>;
   categories$: Observable<Array<{name: string; expanded: boolean; }>>;
   cards: Array<HomeCard> = [{
+        icon: 'health_and_safety',
+        title: 'Newark Health and Wellness | Pre-register for COVID-19 Vaccine',
+        link: '',
+        parent: '',
+        category: 'Information About COVID-19 Vaccines',
+        style: {background: 'rgba(144, 238, 144, 0.5)'},
+        id: 'newark-vaccine-preregister',
+        extUrl: 'https://forms.office.com/Pages/ResponsePage.aspx?id=IDqIJHuvrU6bTJAKINqJM725e6R7vRVLusqxgCFeFMFUOE5ERERGRVNPSjFCRFNKNU1OOUhIVEdHWC4u'
+      },
+      {
+        icon: 'health_and_safety',
+        title: 'NJ HEALTH | COVID-19 Vaccines: Know the Facts',
+        link: '',
+        parent: '',
+        category: 'Information About COVID-19 Vaccines',
+        style: {background: 'rgba(144, 238, 144, 0.25)'},
+        id: 'nj-health-facts',
+        extUrl: 'https://www.state.nj.us/health/cd/documents/topics/NCOV/COVID19-Vaccines-Know-the-Facts.pdf'
+      },
+      {
+        icon: 'health_and_safety',
+        title: 'US CDC | Facts about COVID-19 Vaccines',
+        link: '',
+        parent: '',
+        category: 'Information About COVID-19 Vaccines',
+        style: {background: 'rgba(144, 238, 144, 0.15)'},
+        id: 'cdc-facts',
+        extUrl: 'https://www.cdc.gov/coronavirus/2019-ncov/vaccines/vaccine-benefits/facts.html?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fcoronavirus%2F2019-ncov%2Fvaccines%2Fabout-vaccines%2Fvaccine-myths.html'
+      },
+      {
+        icon: 'health_and_safety',
+        title: 'NJ HEALTH | Back to Normal: All of Our Tools',
+        link: '',
+        parent: '',
+        category: 'Information About COVID-19 Vaccines',
+        id: 'nj-health-tools',
+        extUrl: 'https://www.nj.gov/health/cd/documents/topics/NCOV/all-of-our-tools.pdf'
+      },
+      {
         icon: 'people',
         title: 'Benefit Eligibility Chart',
         link: 'eligibility-benefits',
@@ -93,21 +132,11 @@ export class HomeComponent implements OnInit {
       },
       {
         icon: 'house',
-        title: 'Small Landlord Emergency Grant Program (Apply Now, open 9/28-10/13)',
-        link: '',
-        parent: '',
-        category: 'Housing',
-        style: {background: 'rgba(144, 238, 144, 0.5)'},
-        id: 'emergancy-landlord-grants',
-        extUrl: 'https://nj.gov/dca/hmfa/rentals/sleg2/index.shtml'
-      },
-      {
-        icon: 'house',
-        title: 'Emergency Rent Grants',
+        title: 'Mayor Baraka’s Emergency Rent Grants (Deadline: 1/7/21)',
         link: 'emergency-rent-grants',
         parent: '/programs',
         category: 'Housing',
-        style: {background: 'rgba(144, 238, 144, 0.25)'},
+        style: {background: 'rgba(144, 238, 144, 0.5)'},
         id: '',
         extUrl: ''
       },
@@ -117,7 +146,7 @@ export class HomeComponent implements OnInit {
         link: '',
         parent: '',
         category: 'Housing',
-        style: {background: 'rgba(144, 238, 144, 0.15)'},
+        style: {background: 'rgba(144, 238, 144, 0.25)'},
         id: 'utility-shutoff-moratorium',
         extUrl: 'https://nj.gov/infobank/eo/056murphy/pdf/EO-190.pdf'
       },
@@ -127,6 +156,7 @@ export class HomeComponent implements OnInit {
         link: 'rent-increase-freeze',
         parent: '/programs',
         category: 'Housing',
+        style: {background: 'rgba(144, 238, 144, 0.15)'},
         id: '',
         extUrl: ''
       },
@@ -185,32 +215,32 @@ export class HomeComponent implements OnInit {
         extUrl: ''
       },
       {
-        icon: 'verified_user',
-        title: 'Application & Requirements to Re-Open',
-        link: 'reopen-application-requirements',
-        parent: '/stayingin',
+        icon: 'edit',
+        title: 'URGENT- NEW RULES TO FIGHT SURGE IN COVID19',
         category: 'Save Lives. Stay Healthy. Safely Re-Open.',
         style: {background: 'rgba(144, 238, 144, 0.5)'},
+        link: 'fight-surge-covid-19',
+        parent: '/docs',
         id: '',
         extUrl: ''
       },
       {
         icon: 'campaign',
-        title: 'Governor Murphy Extended State of Emergency Another 30 Days (9/25)',
+        title: 'Governor Murphy Extended State of Emergency Another 30 Days (12/21)',
         link: '',
         parent: '',
         category: 'Save Lives. Stay Healthy. Safely Re-Open.',
         style: {background: 'rgba(144, 238, 144, 0.25)'},
         id: 'governor-extends-emergency',
-        extUrl: 'https://nj.gov/governor/news/news/562020/approved/20200925a.shtml'
+        extUrl: 'https://nj.gov/infobank/eo/056murphy/pdf/EO-210.pdf'
       },
       {
         icon: 'edit',
-        title: 'Remote Learning Assistance Program',
+        title: `Mayor's COVID-19 Holiday Executive Order (12/4)`,
+        link: 'holiday-executive-order',
+        parent: '/docs',
         category: 'Save Lives. Stay Healthy. Safely Re-Open.',
         style: {background: 'rgba(144, 238, 144, 0.15)'},
-        link: 'remote-learning-assistance',
-        parent: '/docs',
         id: '',
         extUrl: ''
       },
@@ -224,8 +254,61 @@ export class HomeComponent implements OnInit {
         extUrl: ''
       },
       {
+        icon: 'edit',
+        title: 'Remote Learning Assistance Program',
+        category: 'Save Lives. Stay Healthy. Safely Re-Open.',
+        link: 'remote-learning-assistance',
+        parent: '/docs',
+        id: '',
+        extUrl: ''
+      },
+      {
         icon: 'campaign',
-        title: 'Newark Reopening Guidelines and Summer Activities',
+        title: 'Holiday Season COVID-19 Guidelines (English)',
+        link: '',
+        parent: '',
+        category: 'Save Lives. Stay Healthy. Safely Re-Open.',
+        id: 'covid-holiday-guidelines-en',
+        extUrl: 'https://drive.google.com/file/d/1d8NKwo1pN9Ozr2OyH3SIhO8nuqP4o-nU/view?usp=sharing'
+      },
+      {
+        icon: 'campaign',
+        title: 'Holiday Season COVID-19 Guidelines (Português)',
+        link: '',
+        parent: '',
+        category: 'Save Lives. Stay Healthy. Safely Re-Open.',
+        id: 'covid-holiday-guidelines-pr',
+        extUrl: 'https://drive.google.com/file/d/1Bx9jg6d2Oi9q6U4G4HEzo07T_xJ8wy3L/view?usp=sharing'
+      },
+      {
+        icon: 'campaign',
+        title: 'Holiday Season COVID-19 Guidelines (Español)',
+        link: '',
+        parent: '',
+        category: 'Save Lives. Stay Healthy. Safely Re-Open.',
+        id: 'covid-holiday-guidelines-sp',
+        extUrl: 'https://drive.google.com/file/d/1LcOhXMHESMYMecjJP0ZkTg-MP5Pdwq4t/view?usp=sharing'
+      },
+      {
+        icon: 'verified_user',
+        title: 'Application & Requirements to Re-Open',
+        link: 'reopen-application-requirements',
+        parent: '/stayingin',
+        category: 'Save Lives. Stay Healthy. Safely Re-Open.',
+        id: '',
+        extUrl: ''
+      },
+
+      {
+        icon: 'campaign',
+        title: 'Emergency Help for Newark Restaurants and Small Business',
+        link: 'emergency-help-restaurants',
+        parent: '/docs',
+        category: 'Save Lives. Stay Healthy. Safely Re-Open.'
+      },
+      {
+        icon: 'campaign',
+        title: 'Newark Reopening Guidelines',
         link: 'strikeforce-reopening-plan',
         parent: '/stayingin',
         category: 'Save Lives. Stay Healthy. Safely Re-Open.',
@@ -268,11 +351,21 @@ export class HomeComponent implements OnInit {
       },
       {
         icon: 'business_center',
+        title: 'Mayor Baraka’s Small Business Emergency Grants (Deadline: 1/7/21)',
+        link: 'small-business-grants',
+        parent: '/programs',
+        category: 'Small Business',
+        style: {background: 'rgba(144, 238, 144, 0.5)'},
+        id: '',
+        extUrl: ''
+      },
+      {
+        icon: 'business_center',
         title: 'NJEDA Business Consulting for COVID-19 Recovery',
         link: '',
         parent: '',
         category: 'Small Business',
-        style: {background: 'rgba(144, 238, 144, 0.5)'},
+        style: {background: 'rgba(144, 238, 144, 0.25)'},
         id: 'covid-recovery-consulting',
         extUrl: 'https://forms.business.nj.gov/covid-recovery-consulting/'
       },
@@ -282,7 +375,7 @@ export class HomeComponent implements OnInit {
         link: 'federal-ppp-sba-update',
         parent: '/resources',
         category: 'Small Business',
-        style: {background: 'rgba(144, 238, 144, 0.25)'},
+        style: {background: 'rgba(144, 238, 144, 0.15)'},
         id: '',
         extUrl: ''
       },
@@ -290,16 +383,8 @@ export class HomeComponent implements OnInit {
         icon: 'business_center',
         title: 'Updates to List of Essential Businesses Permitted to Operate',
         category: 'Small Business',
-        style: {background: 'rgba(144, 238, 144, 0.15)'},
         id: 'updated-list-essential',
         extUrl: 'https://www.nj.gov/governor/news/news/562020/approved/20200427d.shtml'
-      },
-      {
-        icon: 'business_center',
-        title: 'Emergency Fund for Home-Based Businesses',
-        link: 'home-based-business',
-        parent: '/docs',
-        category: 'Small Business',
       },
       {
         icon: 'local_hospital',
@@ -358,15 +443,6 @@ export class HomeComponent implements OnInit {
         title: 'N.J. Financial Help for Small Businesses',
         link: 'nj-small-business-help',
         parent: '/resources',
-        category: 'Small Business',
-        id: '',
-        extUrl: ''
-      },
-      {
-        icon: 'business_center',
-        title: 'Newark Small Business Emergency Grants',
-        link: 'small-business-grants',
-        parent: '/programs',
         category: 'Small Business',
         id: '',
         extUrl: ''

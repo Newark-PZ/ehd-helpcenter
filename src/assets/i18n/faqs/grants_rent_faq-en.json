@@ -1,0 +1,107 @@
+[
+  {
+    "Name": "G_Renters_1",
+    "Question": "What expense does the program award cover?",
+    "Answer": "Program awards cover a portion of the rent owed",
+    "Category": "Other FAQs",
+    "LastUpdated": "2020-12-14T07:09:45Z"
+  },
+  {
+    "Name": "G_Renters_2",
+    "Question": "How much can an applicant be awarded?",
+    "Answer": "Program awards can be up to $2,000 per household, covering up to three (3) months of rent arrears.",
+    "Category": "Other FAQs",
+    "LastUpdated": "2020-12-14T07:09:45Z"
+  },
+  {
+    "Name": "G_Renters_3",
+    "Question": "What period of time does the program cover?",
+    "Answer": "Program awards cover rent in arrears (owed) for any period between April and/or December 2020.",
+    "Category": "Other FAQs",
+    "LastUpdated": "2020-12-14T07:09:45Z"
+  },
+  {
+    "Name": "G_Renters_4",
+    "Question": "What is the funding source for this program?",
+    "Answer": "The program is funded with $2 million in CARES Act funding received from the federal government through the U.S. Department of Housing and Urban Development.",
+    "Category": "Other FAQs",
+    "LastUpdated": "2020-12-14T07:09:45Z"
+  },
+  {
+    "Name": "G_Renters_5",
+    "Question": "Who is administering this program?",
+    "Answer": "This rental assistance program is provided by the Department of Economic and Housing Development of the City of Newark and administered in partnership by the Newark Housing Authority.",
+    "Category": "Other FAQs",
+    "LastUpdated": "2020-12-14T07:09:45Z"
+  },
+  {
+    "Name": "G_Renters_6",
+    "Question": "Where can applicants apply?",
+    "Answer": "Eligible Newark renters can apply online via the Newark Housing Authority at <a href='http://newarkha.org/COVID19RentAssist'>newarkha.org/COVID19RentAssist</a>",
+    "Category": "Other FAQs",
+    "LastUpdated": "2020-12-14T07:09:45Z"
+  },
+  {
+    "Name": "G_Renters_7",
+    "Question": "How do applicants apply?",
+    "Answer": "Eligible Newark renters apply by completing the online application at <a href='http://newarkha.org/COVID19RentAssist'>newarkha.org/COVID19RentAssist</a> and uploading all required documents at the end of the application. <strong><u>No applications can be submitted in-person. Only 1 application per household will be accepted.</strong></u> Income and unemployment information for all income earners in the household must be included.",
+    "Category": "Other FAQs",
+    "LastUpdated": "2020-12-14T07:09:45Z"
+  },
+  {
+    "Name": "G_Renters_8",
+    "Question": "When can applicants apply?",
+    "Answer": "Eligible Newark renters will be able to apply online during the period of Thursday, December 17, 2020 beginning at 2pm through Thursday, December 31, 2020 ending at 5pm.",
+    "Category": "Other FAQs",
+    "LastUpdated": "2020-12-14T07:09:45Z"
+  },
+  {
+    "Name": "G_Renters_9",
+    "Question": "What will applicants need to provide to complete an application?",
+    "Answer": "Eligible Newark renters will need to verify their eligibility by uploading proof of residence and proof of loss of income, along with providing the contact information of their landlord. A list of acceptable documents can be found at the program welcome page at <a href='http://newarkha.org/COVID19RentAssist'>newarkha.org/COVID19RentAssist</a>",
+    "Category": "Other FAQs",
+    "LastUpdated": "2020-12-14T07:09:45Z"
+  },
+  {
+    "Name": "G_Renters_10",
+    "Question": "When will applicants be notified?",
+    "Answer": "Selections will be made in January provided that the application is completed with proper documentation.",
+    "Category": "Other FAQs",
+    "LastUpdated": "2020-12-14T07:09:45Z"
+  },
+  {
+    "Name": "G_Renters_11",
+    "Question": "How will applicants be notified?",
+    "Answer": "Applicants will be notified by email as to whether they were awarded.",
+    "Category": "Other FAQs",
+    "LastUpdated": "2020-12-14T07:09:45Z"
+  },
+  {
+    "Name": "G_Renters_12",
+    "Question": "What will applicants need to do if awarded?",
+    "Answer": "The renter/awardee will enter into a rental assistance agreement with the City of Newark for a period of up to three months retroactively beginning as early as April 1, 2020.",
+    "Category": "Other FAQs",
+    "LastUpdated": "2020-12-14T07:09:45Z"
+  },
+  {
+    "Name": "G_Renters_13",
+    "Question": "How will payment be made if awarded?",
+    "Answer": "Rent payment will be made via ACH directly to the landlord only, on behalf of the renter/awardee.",
+    "Category": "Other FAQs",
+    "LastUpdated": "2020-12-14T07:09:45Z"
+  },
+  {
+    "Name": "G_Renters_14",
+    "Question": "Is there any cost associated with this application?",
+    "Answer": "There is absolutely no application fee, cost, or monetary contribution of any kind associated with this program. Please do not pay anyone in connection with this program opportunity. Free information and assistance are available at The Newark Housing Authority at <a href='mailto:COVIDrenthelp@Newarkha.org'>COVIDrenthelp@Newarkha.org</a> and <a href='tel:+19733469432'>(973) 346-9432</a>. No authorized, legitimate source of assistance for this program will ask you for any payment.",
+    "Category": "Other FAQs",
+    "LastUpdated": "2020-12-14T07:09:45Z"
+  },
+  {
+    "Name": "G_Renters_15",
+    "Question": "Who can prospective applicants contact if there are any other questions or if assistance is needed?",
+    "Answer": "The Newark Housing Authority can be contacted at <a href='mailto:COVIDrenthelp@Newarkha.org'>COVIDrenthelp@Newarkha.org</a> and <a href='tel:+19733469432'>(973) 346-9432</a>.",
+    "Category": "Other FAQs",
+    "LastUpdated": "2020-12-14T07:09:45Z"
+  }
+]

@@ -15,7 +15,12 @@ body {
     font-size: calc(6px + .33vw + .85vh) !important;
     line-height: calc(1rem + 1.15vh) !important;
 }
-
+#google_translate_element {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0.25rem 1rem 0.25rem 0;
+  background: lightgrey;
+}
 .mat-expansion-panel-content {
   font: 500 1rem/2rem Segoe UI,sans-serif !important;
 }
@@ -233,3 +238,36 @@ body {
     height: 100%;
   }
 }
+.text-table {
+  width: 100%;
+  overflow-x: auto;
+  border-collapse: collapse;
+  tbody {vertical-align: top;}
+  tr { padding: .5rem;}
+  tr.bordered {
+    td:not(.side-header) {border: .1rem solid lightgrey; text-align: center;}
+  }
+  td {padding: .25rem; vertical-align: middle;}
+  th.title {
+    background-color: grey;
+    border: .1rem solid grey;
+    color: white;
+    -webkit-text-fill-color: white;
+  }
+  td.side-header,th.side-header {
+    background-color: rgba(50,50,50,.1);
+    padding: .5rem;
+    text-align: center;
+    width: 9rem;
+    border: .1rem solid rgba(50,50,50,.1);
+  }
+  td.propVals {
+    display: flex;
+    flex-direction: column;
+    width: 9rem;
+  }
+  @media screen and (max-width: 769px) {
+      display: block;
+  }
+}
+

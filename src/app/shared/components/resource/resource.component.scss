@@ -2,7 +2,7 @@
   h2 {font-weight: 600; font-size: 1.5rem}
   h3 {font-size: 1.2rem; }
   .mat-icon {margin-top: .25rem;}
-  .title {display: flex; height: 2.5rem;}
+  .title {display: flex; min-height: 2.5rem;}
   padding: .5rem 0 .5rem 12.5rem !important;
   align-items: flex-start;
   background: linear-gradient(rgba(183, 28, 28, 0.15) 0%, white 100%);

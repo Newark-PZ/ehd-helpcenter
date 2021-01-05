@@ -42,50 +42,113 @@
   {
     "category": "Small Business",
     "icon": "business_center",
-    "infoButtons": [
-      {
-        "link": "https://www.surveymonkey.com/r/NewarkSmallBusinessCOVID19Grant"
-      }
-    ],
-    "introText": "<p><img class='intro-pic' src='assets/img/pagePhotos/Newark small business emergency grants.jpeg'> Businesses nationwide are suffering enormous impacts related to COVID-19. As one way to help impacted businesses and Newark families, Mayor Ras J. Baraka has taken the initiative to provide financial help to those who qualify. To mitigate barriers to capital for Newark’s most vulnerable small businesses, the City of Newark has committed $2 million in funding. This program may be used in conjunction with other emergency aid supplied by the State of New Jersey and the federal government.</p>",
+    "introText": "<p><img class='intro-pic' src='assets/img/pagePhotos/Newark small business emergency grants.jpeg'><h3>Online application will be on this page starting Thursday, December 17, 2020 at 2pm.</h3><h3>Deadline to Apply: Thursday, January 7th, 2020 at 5pm.</h3><h3>For More Info: Facebook/Zoom virtual meeting on Monday, December 21st 11:30am.</h3></p>",
     "link": "small-business-grants",
     "parent": "/program",
+    "infoButtons": [
+          {
+            "link": "https://newark.seamlessdocs.com/f/SBAGrant",
+            "linkText": "Grant Application (english)",
+            "icon": "launch",
+            "extraClass": "important"
+          },
+          {
+            "link": "https://newark.seamlessdocs.com/f/SBAGrantEspanol",
+            "linkText": "Grant Application (español)",
+            "icon": "launch",
+            "extraClass": "important"
+          },
+          {
+            "link": "https://newark.seamlessdocs.com/f/Portugues",
+            "linkText": "Grant Application (português)",
+            "icon": "launch",
+            "extraClass": "important"
+          }
+    ],
     "purpose": [
       {
-        "body": "This grant helps small businesses with losses they have experienced through loss of income, payroll loss, sales, etc. This emergency fund will provide working capital grants in amounts up to Ten Thousand Dollars ($10,000) to qualifying small businesses."
+        "body": "The Small Business Grant Fund is an initiative of Mayor Baraka to support Newark small businesses financially impacted by COVID-19 and help them to survive the current closure and crisis, retain as many employees as possible, and to adapt and recover."
       }
     ],
     "sections": [
       {
-        "header": "Uses",
-        "text": "Proceeds can be used for most business-related items, including but not limited to, accounts payable, payroll, inventory, equipment, business compliance, licensing renewal, utilities, business capacity, legal, financial services, rent, insurance, business taxes, or supplies, subject to funding availability."
+        "header": "Small Business Grant Fund Overview",
+        "text": "<ul><li>Up to $25,000 grant</li><li>For Businesses with 1 to 25 employees</li><li>Direct loss of income due to COVID-19</li><li>25% reserved for “hardest hit zipcodes” – 07104, 07105, 07107</li><li>Focus on personal services businesses, businesses that employ Newark residents and Minority and Women-Owned Enterprises (MBWE)</li><li>Must have complied with 10 day shutdown – November 25 to December 4, 2020</li><li>Business must have been operational for at least one year</li><li>Must have a physical location within Newark (home-based businesses are also eligible)</li><li>Businesses who have already received previous grant funding from the City are not eligible</li></ul>"
       },
       {
-        "header": "Requirements",
-        "text": "<p>If you represent a small business or non-profit organization in the City of Newark, you may be eligible to apply if you meet the following conditions:</p>        <ul><li>A physical establishment located in the City of Newark</li><li>Have ten (10) employees or less</li><li>Experienced a direct loss of income due to COVID-19</li>        </ul>"
+        "header": "FAQs about Small Business Grants",
+        "actionsCol": true,
+        "buttons": [{
+          "link":"/programs/small-business-grants-faq/",
+          "linkText": "Small Business Grants FAQ Page",
+          "icon": "launch",
+          "extraClass": "important"
+        }]
       },
       {
+        "header": "How to Get Ready to Apply",
+        "text": "<ol><li>Gather business documents and paperwork<ul><li>Corporate registration and/or licenses</li><li>Proof of general liability insurance</li><li>Most recent year's corporate tax returns (2019 preferred, 2018 accepted)</li><li>Internal business financials (profit and loss/balance sheet)</li><li>Payroll/employee information (list of names and income)</li><li>Evidence of hardship/loss due to COVID-19 related business disruption (i.e. YOY decrease in orders/sales, loss of revenue, additional costs)</li></ul></li><li>Develop a Budget for how you will use grant funds</li><li>Grant Funds can be used for the following:<ul><li>Accounts payable, Payroll, Inventory, Business compliance, Licensing renewal, Utilities</li></ul></li><li>Create an adaption and recovery plan for next 1-3 years (i.e. digital literacy training, enabling remote working, diversifying products/customers/suppliers, reducing costs, securing mentors)</li></ol><p>You can view pdfs of the application prior to filling them out here: <a download href='assets/docs/SBAGrantApplication_en.pdf'>in english</a>, <a download href='assets/docs/SBAGrantApplication_sp.pdf'>en español</a>, <a download href='assets/docs/SBAGrantApplication_pr.pdf'>em português</a>",
+        "actionsCol": true,
         "buttons": [
           {
-            "link": "https://www.surveymonkey.com/r/NewarkSmallBusinessCOVID19Grant"
+            "link": "https://newark.seamlessdocs.com/f/SBAGrant",
+            "linkText": "Grant Application (english)",
+            "icon": "launch",
+            "extraClass": "important"
+          },
+          {
+            "link": "https://newark.seamlessdocs.com/f/SBAGrantEspanol",
+            "linkText": "Grant Application (español)",
+            "icon": "launch",
+            "extraClass": "important"
+          },
+          {
+            "link": "https://newark.seamlessdocs.com/f/Portugues",
+            "linkText": "Grant Application (português)",
+            "icon": "launch",
+            "extraClass": "important"
           }
-        ],
-        "header": "Other Information",
-        "text": "<ul><li>The deadline to apply is April 30, 2020</li><li>Applicants will be notified within 14 days of submitting an application as to whether they have been selected to receive a grant</li><li>Those selected will receive their grants within 30 days of submitting an application.</li><li>For more information regarding the necessary documents that must be submitted and to complete an application, click “APPLY NOW” below.</li></ul>"
+        ]
       },
       {
-        "header": "Acknowledgements",
-        "logos": [
-          "nwkCity",
-          "prudential",
-          "unitedWay",
-          "investNWK"
-        ],
-        "text": "<p>Under the guidance of Mayor Baraka’s, the City of Newark’s Department of Economic and Housing Development Department is collaborating in partnership with Prudential, the United Way of Greater Newark, and Invest Newark in this effort to alleviate the economic impacts of COVID-19 on our small business community.</p>"
+        "header": "Virtual Meeting Monday, December 21st 11:30am",
+        "text": "<h3>How to Apply Facebook/Zoom virtual meeting on Monday, December 21st 11:30am</h3><ul><li>Facebook Live Meeting Link: <a href='https://facebook.com/cityofnewark'>facebook.com/cityofnewark</a></li><li>Zoom Meeting Link: <a href='https://bit.ly/nwksmallbiz'>https://bit.ly/nwksmallbiz</a></li></ul>"
+      },
+      {
+        "header": "Important Resources",
+        "text": "<p>Local Resources<ul><li>Email for Information – <a href='mailto:ehd@ci.newark.nj.us'>ehd@ci.newark.nj.us</a></li><li>Invest Newark Small Business Information – <a href='https://www.investnewark.org'>www.investnewark.org</a></li><li>Greater Newark Enterprises Corp – <a href='mailto:info@new.gnecorp.org'>info@new.gnecorp.org</a></li><li>Rental Assistance – Newark Housing Authority – <a href='https://www.newarkha.org'>www.newarkha.org</a></li><li>Office of Tenant Legal Services – email <a href='mailtp:otls@ci.newark.nj.us'>otls@ci.newark.nj.us</a></li></ul></p><p>State resources<ul><li>New Jersey COVID-19 Information Hub - <a href='https://covid19.nj.gov'>covid19.nj.gov</a></li><li>New Jersey Business Programs: <a href='https://cv.business.nj.gov'>cv.business.nj.gov</a></li><li>New Jersey Jobs Portal: <a href='https://jobs.covid19.nj.gov'>jobs.covid19.nj.gov</a></li></ul></p>"
       }
     ],
-    "title": "Newark 2020 Emergency Fund",
-    "subtitle": "For Small Businesses Impacted by COVID-19"
+    "title": "Mayor Baraka’s Small Business Emergency Grants",
+    "subtitle": "How to Apply & Other Information"
+  },
+  {
+    "category": "Small Business",
+    "icon": "business_center",
+    "introText": "<p><img class='intro-pic' src='assets/img/pagePhotos/help for commercial tenants.jpg'><h3>Online application will be on this page starting Thursday, December 17, 2020 at 2pm.</h3><h3>Deadline to Apply: Thursday, January 7th, 2020 at 5pm.</h3><h3>For More Info: Facebook/Zoom virtual meeting on Monday, December 21st at 11:30am.</h3></p>",
+    "link": "small-business-grants-faq",
+    "parent": "/program",
+    "infoButtons": [
+      {
+        "linkText": "Download FAQs (EN)",
+        "link": "assets/docs/SmallBusinessGrantFAQ.pdf",
+        "extraClass": "important"
+      }
+    ],
+    "purpose": [
+      {
+        "body": "Frequently Asked Questions About Small Business Emergency Grants"
+      }
+    ],
+    "sections": [
+      {
+        "header": "NOTE",
+        "text": "<h3>Note that non-profits and any businesses that violated the 10-day shutdown are not eligible to apply for this grant.</h3>"
+      }
+    ],
+    "title": "Mayor Baraka’s Small Business Emergency Grants",
+    "subtitle": "Frequently Asked Questions",
+    "hideBottomBar": true
   },
   {
     "category": "Housing",
@@ -459,45 +522,96 @@
     "category": "Housing",
     "link": "emergency-rent-grants",
     "parent": "/programs",
-    "title": "Emergency Grants of Up to $1,000 for Housing Assistance",
-    "subtitle":"Coming Soon: NJ State Rental Assistance Grants",
+    "title": "Mayor Baraka’s Rental Assistance Emergency Grants",
+    "subtitle":"How to Apply & Other Information",
     "icon": "house",
-    "introText": "<p><img class='intro-pic' src='assets/img/pagePhotos/rentdue.jpg'>Newark is a city of renters with only 22 percent of us owning our own homes. The COVID-19 crisis has left many tenants struggling to pay rent. Mayor Baraka created this One Million Dollar Emergency Housing Assistance Fund to supplement his moratorium on evictions and to enable tenants to keep their homes.</p><p>To help Newark residents and their families having difficulty paying rent as a result of COVID-19, the City will provide grants to those who fall under 60 percent of Area Median Income. For example, a single individual with an income of up to $42,300 and a family of 4 with an income up to $60,360 would be eligible to receive help with rental payments.</p>",
+    "introText": "<p><img class='intro-pic' src='assets/img/pagePhotos/rentdue.jpg'><h3>Online application will be on this page starting Thursday, December 17, 2020 at 2pm.</h3><h3>Deadline to Apply: Thursday, January 7th, 2020 at 5pm.</h3><h3>For More Info: Facebook/Zoom virtual meeting on Saturday, December 19th at 11am</h3></p>",
     "infoButtons": [
-      {
-      "linkText": "Grant Application & FAQs",
-      "link": "http://newarkha.org/Housing/Covid19-Emergency-Rental-Assistance",
-      "extraClass": "important"
-    }],
+        {
+          "linkText": "Tenant Grant Application",
+          "link": "http://newarkha.org/Housing/Covid19-Emergency-Rental-Assistance",
+          "extraClass": "important"
+        }
+      ],
     "purpose": [
       {
-        "body": "Applications are open now, click above or below to get started."
+        "body": "Mayor Baraka’s Rental Assistance Program, administered in partnership with the Newark Housing Authority, will provide up to three months of support for local tenants and families facing eviction due to COVID-19."
+      }
+    ],
+    "sections": [
+        {
+          "header": "Rental Assistance Program Overview",
+          "text": "<ul><li>Funds paid directly to landlords</li><li>Up to 3 months of assistance or $2,000 maximum</li><li>Loss of income due to COVID-19</li><li>Household income must be below 60 percent of area median income</li><li>Free legal assistance may be provided to tenants facing eviction through the City’s Office of Tenant Legal Services</li></ul>"
+        },
+        {
+          "header": "FAQs about Rental Assistance Grants",
+          "actionsCol": true,
+          "buttons": [
+            {
+              "link":"/programs/emergency-rent-grants-faq/",
+              "linkText": "Rental Assistance Grants FAQ Page",
+              "icon": "launch",
+              "extraClass": "important"
+            }
+          ]
+        },
+        {
+          "header": "How to Get Ready to Apply",
+          "text": "<p>Gather documents needed to apply<ul><li>Government Issued Photo ID or Driver’s license</li><li>Notice of furlough or reduced hours from employer</li><li>Head of Households most recent paystub</li><li>Head of Households unemployment insurance notice listing unemployment payments</li><li>Most recent lease or rental agreement with current landlord</li><li>Rent receipts for last two rental payments</li><li>Late rental payment notices for months in arrears</li><li>Copies of other income or assistance (SSI, Cash Assistance from NJDHS, other adult members income)</li><li>Name of landlord, company, address, phone number, email</li></ul></p>",
+          "actionsCol": true,
+          "buttons": [{
+            "linkText": "Tenant Grant Application",
+            "link": "http://newarkha.org/Housing/Covid19-Emergency-Rental-Assistance",
+            "icon": "launch",
+            "extraClass": "important"
+          }]
+        },
+        {
+          "header": "Virtual Meeting Saturday, December 19th at 11am",
+          "text": "<h3>How to Apply Facebook/Zoom virtual meeting on Saturday, December 19th at 11am</h3><ul><li>Facebook Live Meeting Link: <a href='https://facebook.com/cityofnewark'>facebook.com/cityofnewark</a></li><li>Zoom Meeting Link: <a href='https://bit.ly/nwkrenters'>https://bit.ly/nwkrenters</a></li></ul>"
+        },
+        {
+          "header": "Important Resources",
+          "text": "<p>Local Resources<ul><li>Email for Information – <a href='mailto:ehd@ci.newark.nj.us'>ehd@ci.newark.nj.us</a></li><li>Invest Newark Small Business Information – <a href='https://www.investnewark.org'>www.investnewark.org</a></li><li>Rental Assistance – Newark Housing Authority – <a href='https://www.newarkha.org'>www.newarkha.org</a></li><li>Office of Tenant Legal Services – email <a href='mailtp:otls@ci.newark.nj.us'>otls@ci.newark.nj.us</a></li></ul></p><p>State resources<ul><li>New Jersey COVID-19 Information Hub - <a href='https://covid19.nj.gov'>covid19.nj.gov</a></li><li>New Jersey Business Programs: <a href='https://cv.business.nj.gov'>cv.business.nj.gov</a></li><li>New Jersey Jobs Portal: <a href='https://jobs.covid19.nj.gov'>jobs.covid19.nj.gov</a></li></ul></p>"
+        }
+    ]
+  },
+  {
+    "category": "Housing",
+    "icon": "house",
+    "introText": "<p><img class='intro-pic' src='assets/img/pagePhotos/RentalAssistanceGrantsFAQ.jpg'><h3>Online application will be on this page starting Thursday, December 17, 2020 at 2pm.</h3><h3>Deadline to Apply: Thursday, January 7th, 2020 at 5pm.</h3><h3>For More Info: Facebook/Zoom virtual meeting on Saturday, December 19th at 11am</h3></p>",
+    "link": "emergency-rent-grants-faq",
+    "parent": "/program",
+    "infoButtons": [
+      {
+        "linkText": "Download FAQs (EN)",
+        "link": "assets/docs/EmergencyRentalAssistanceFAQ_en.pdf",
+        "extraClass": "important"
+      },
+      {
+        "linkText": "Download FAQs (SP)",
+        "link": "assets/docs/EmergencyRentalAssistanceFAQ_sp.pdf",
+        "extraClass": "important"
+      }
+    ],
+    "purpose": [
+      {
+        "body": "Frequently Asked Questions About Rental Assistance Emergency Grants"
       }
     ],
     "sections": [
       {
-        "header": "More Info",
-        "text": "The City of Newark’s Economic Housing Development Department in partnership with Newark Housing Authority will coordinate this effort. The up to $1,000 grant will help Newark renters that have experienced loss of income, decrease of regular working hours, lay-off, or furlough, etc.",
-        "buttons": [
-          {
-            "link": "http://newarkha.org/Housing/Covid19-Emergency-Rental-Assistance",
-            "linkText": "Grant Application & FAQs"
-          }
-        ]
+        "header": "Who is elegible for this progam?",
+        "text": "<ul><li>Applicant must be a Newark resident who pays rent.</li><li>Applicant must show proof that they filed for unemployment insurance or had work hours reduced.</li><li>Applicant’s household must have fallen under the 60% Area Median Income (AMI) level (see chart below) before filing for unemployment insurance or having hours reduced.</li></ul><table class='text-table'><thead><tr><th class='title' colspan='7'><strong>Persons in Household</strong></th></tr></thead><tbody><tr class='bordered'><td class='side-header' rowspan='2'>60% Area Median Income</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td></tr><tr class='bordered'><td>$44,520</td><td>$50,880</td><td>$57,240</td><td>$63,600</td><td>$68,700</td><td>$73,800</td></tr></tbody></table>"
       },
       {
-        "emphasizeHeader": true,
-        "header": "State will Launch Short-Term Rental Assistance to Help Tenants Affected by COVID-19.",
-        "text": "<p>The new program Will Provide at least $100 Million in Temporary Rental Assistance for Low- to Moderate-Income Households, Including the Homeless or Those at Risk of Homelessness</p><p><u>The program will open for applications in July and begin paying rental assistance in September</u>. Qualifying households will be expected to pay 30 percent of their income toward rent, and the program will pay the remainder of their rent up to a fair market rent payment standard. At the three-month mark, the household budget will be reviewed to determine if assistance is still needed. Assistance that is no longer required will be used to serve additional families.</p><p>20 percent of the funding will serve those who are very low income and homeless or at risk of homelessness with up to 12 months of rental assistance. To help families reach self-sufficiency, case management, financial planning, and other assistance will be provided by the program.</p><p>For the remainder of the funding, the State DCA will administer an online lottery. When the lottery is opened, households may submit applications and participants will be selected from the overall pool of applicants through a randomized process based on eligibility and the lottery criteria. Applicants selected through the lottery will be eligible to receive up to six months of short-term rental assistance.</p>",
-        "buttons": [
-          {
-            "link": "https://urldefense.com/v3/__https:/t.e2ma.net/click/b6ct9c/j83xrcb/j051tj__;!!J30X0ZrnC1oQtbA!cEMZjd60VMS0_KmeW-ztpyQxOzL-vj0o-BmShgsWfOj-A1lad9hdlIYN83T71nxmSLw6k_5V$",
-            "linkText": "More Information about NJ Rental Assistance",
-            "extraClass": "important"
-          }
-        ]
+        "header": "What You Will Need To Apply",
+        "text": "<p>For your convenience, required documentation (whole document) can either be scanned using a scanner or photographed using a mobile phone or device and uploaded to this application. Clear, legible, document images must be uploaded at the time of application submission.</p><h3>DOCUMENT REQUIREMENTS CAN BE MET WITH THE FOLLOWING:</h3><h4>INCOME AND UNEMPLOYMENT INFORMATION MUST BE PROVIDED FOR ALL ADULT (18 AND OVER) INCOME EARNERS IN THE HOUSEHOLD</h4><p><u>Income Verification for ALL HOUSEHOLD MEMBERS WHO WERE WORKING</u><ol><li>Copy of most recent paystub OR if paid in cash by employer, then must provide an official document from employer with the following information:<ul><li>Company Name</li><li>Employer TIN #</li><li>Company Address</li><li>Company Tel#</li></ul><br><ul><li>Employee Name</li><li>Hours Worked</li><li>Hourly Rate</li><li>Total pay</li></ul></li><b>AND</b><li>Letter or email of job loss or reduced hours OR Copy of unemployment letter stating unemployment income.</li></ol></p><p><u>Residence Verification</u><ol><li>Copy of executed lease <b>OR</b> (If no formal lease) an official one-page rental agreement with rental terms between landlord and tenant (signed by both parties).</li><b>AND</b><li>Copy of late rent notice from landlord (if available)</li></ol></p><p>You will also need the following information regarding your landlord for this application:<ul><li>Landlord Name: [First Name, Last Name; Company Name (if, applicable)]</li><li>Landlord Address:</li><li>Phone:</li><li>Fax:</li><li>Email:</li></ul></p><p><strong>Once you have this information and these documents are readily available to be uploaded, then you are ready to begin the application.</strong></p>"
       }
-    ]
+    ],
+    "title": "Mayor Baraka’s Rental Assistance Emergency Grants",
+    "subtitle": "Frequently Asked Questions",
+    "hideBottomBar": true
   },
   {
     "category": "Housing",

@@ -1,4 +1,4 @@
-<mat-toolbar *ngIf="faqPage.type !== 'RentControl'">
+<mat-toolbar *ngIf="['Tenant','Homeowners'].includes(faqPage.type)">
   <mat-icon style="margin-right: .85rem">{{ faqPage.icon }}</mat-icon>
   <h2 [translate]="'FAQ.title.' + faqPage.type"></h2>
 </mat-toolbar>
@@ -14,7 +14,7 @@
     </ng-template>
   </button>
 </section>
-<mat-card class="categories-card" *ngIf="faqPage.type !== 'RentControl'">
+<mat-card class="categories-card"  *ngIf="['Tenant','Homeowners'].includes(faqPage.type)">
   <mat-card-subtitle [translate]="'FAQ.clickText.'+faqPage.type"></mat-card-subtitle>
   <mat-list class="categories">
     <mat-list-item class="categories-item" *ngFor="let cat of faqCategories; let i=index">

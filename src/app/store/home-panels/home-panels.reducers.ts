@@ -13,6 +13,7 @@ const initialState: State = {
   multi: true,
   toggleDisabled: false,
   categories: [
+    {name: 'Information About COVID-19 Vaccines', expanded: false},
     {name: 'Save Lives. Stay Healthy. Safely Re-Open.', expanded: false},
     {name: 'Small Business', expanded: false},
     {name: 'Housing', expanded: false},

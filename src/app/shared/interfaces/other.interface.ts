@@ -56,6 +56,8 @@ export interface Page {
       fullWidth?: boolean;
       extraClass?: string;
       icon?: string | 'double_arrow';
+      disabled?: boolean;
+      disabledTime?: string;
     }>;
     iframeSrc?: string;
     iframeClass?: string;
@@ -68,7 +70,7 @@ export interface Page {
   hideBottomBar?: boolean | false;
 }
 export interface FaqPage {
-  type: 'Tenant' | 'Homeowners' | 'RentControl';
+  type: 'Tenant' | 'Homeowners' | 'RentControl' | 'Grants_Biz_FAQ' | 'Grants_Rent_FAQ' | string;
   icon: 'business_center' | 'people' | 'person' | 'house' | 'color_lens' | 'local_dining' | 'local_hospital';
   contentIntro?: {
     right?: {text: string; };
@@ -102,12 +104,13 @@ export interface HomeCard {
   id?: string;
   title: string;
   icon: 'business_center' | 'people' | 'person' | 'house' | 'color_lens' | 'edit' | 'notification_important'
-  | 'local_dining' | 'local_hospital' | 'info'| 'verified_user' | 'campaign';
+  | 'local_dining' | 'local_hospital' | 'info'| 'verified_user' | 'campaign' | 'health_and_safety';
   link?: string;
   extUrl?: string;
   parent?: string;
   style?: object;
-  category: 'Small Business' | 'Housing' | 'Employment & Wellness' | 'Save Lives. Stay Healthy. Safely Re-Open.';
+  category: 'Small Business' | 'Housing' | 'Employment & Wellness'
+  | 'Save Lives. Stay Healthy. Safely Re-Open.' | 'Information About COVID-19 Vaccines';
 }
 export interface DocPage {
   title: string;

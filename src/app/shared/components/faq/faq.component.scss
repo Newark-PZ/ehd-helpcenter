@@ -17,10 +17,8 @@
     font-size: 2rem !important;
   }
 
-  .title {
-    display: flex;
-    height: 2.5rem;
-  }
+  .title {display: flex; min-height: 2.5rem;}
+
 
   padding: .5rem 0 .5rem 12.5rem !important;
   align-items: flex-start;

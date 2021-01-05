@@ -31,12 +31,16 @@ export class LinkService {
     new Link('eviction-moratorium', 'Tenant Eviction Moratorium', 'programs'),
     new Link('recruiting-essential-workers', 'Recruiting Essential Workers', 'programs'),
     new Link('measuring-covid-impact', 'Measuring COVID-19 Impact', 'programs'),
-    new Link('non-profit', 'Emergency Fund for 501(c)3 Non-Profits', 'programs')
+    new Link('non-profit', 'Emergency Fund for 501(c)3 Non-Profits', 'programs'),
+    new Link('small-business-grants-faq', 'Small Busines Grants FAQ', 'programs'),
+    new Link('emergency-rent-grants-faq', 'Emergency Rent Grants FAQ', 'programs')
   ];
   docs = [
+    new Link('holiday-executive-order', 'COVID-19 Holiday Executive Order (12/4)', 'docs'),
+    new Link('fight-surge-covid-19', 'New Rules to Fight Surge in COVID-19', 'docs'),
     new Link('remote-learning-assistance', 'Remote Learning Assistance', 'docs'),
     new Link('maskup', '#MaskUPNewark', 'docs', 'campaign'),
-    new Link('home-based-business', 'Emergency Aid for Home-Based Businesses', 'docs', 'business_center'),
+    new Link('emergency-help-restaurants', 'Emergency Help for Restaurants & Small Business', 'docs', 'campaign'),
     new Link('reopen-requirements', 'Reopening Requirements', 'docs', 'info'),
     new Link('rent-increase-freeze-order', 'Rent Increase Freeze Order', 'docs', 'info'),
   ];
