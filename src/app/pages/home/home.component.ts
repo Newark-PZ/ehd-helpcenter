@@ -1,11 +1,11 @@
-import { Component, OnInit } from '@angular/core';
-import { HomeCard } from 'src/app/shared/interfaces/other.interface';
 import { BreakpointObserver, BreakpointState } from '@angular/cdk/layout';
-import * as fromStore from '../../store/store.reducers';
-import { Observable } from 'rxjs';
+import { Component, OnInit } from '@angular/core';
 import { Store } from '@ngrx/store';
-import * as HomePanelActions from '../../store/home-panels/home-panels.actions';
+import { Observable } from 'rxjs';
+import { HomeCard } from 'src/app/shared/interfaces/other.interface';
 import { showHidePanel } from '../../shared/animations';
+import * as HomePanelActions from '../../store/home-panels/home-panels.actions';
+import * as fromStore from '../../store/store.reducers';
 
 @Component({
   animations: [showHidePanel],
@@ -31,11 +31,19 @@ export class HomeComponent implements OnInit {
       },
       {
         icon: 'health_and_safety',
+        title: 'Vaccine Eligibility and Locations',
+        link: 'newark-vaccine-sites',
+        parent: '/docs',
+        category: 'Information About COVID-19 Vaccines',
+        style: {background: 'rgba(144, 238, 144, 0.25)'}
+      },
+      {
+        icon: 'health_and_safety',
         title: 'NJ HEALTH | COVID-19 Vaccines: Know the Facts',
         link: '',
         parent: '',
         category: 'Information About COVID-19 Vaccines',
-        style: {background: 'rgba(144, 238, 144, 0.25)'},
+        style: {background: 'rgba(144, 238, 144, 0.15)'},
         id: 'nj-health-facts',
         extUrl: 'https://www.state.nj.us/health/cd/documents/topics/NCOV/COVID19-Vaccines-Know-the-Facts.pdf'
       },
@@ -45,7 +53,6 @@ export class HomeComponent implements OnInit {
         link: '',
         parent: '',
         category: 'Information About COVID-19 Vaccines',
-        style: {background: 'rgba(144, 238, 144, 0.15)'},
         id: 'cdc-facts',
         extUrl: 'https://www.cdc.gov/coronavirus/2019-ncov/vaccines/vaccine-benefits/facts.html?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fcoronavirus%2F2019-ncov%2Fvaccines%2Fabout-vaccines%2Fvaccine-myths.html'
       },

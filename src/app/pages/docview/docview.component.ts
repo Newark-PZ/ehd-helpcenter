@@ -136,11 +136,17 @@ export class DocViewComponent {
     } else if (id === 'holiday-executive-order') {
       return this.currentUrl = [this.sanitizer
         .bypassSecurityTrustResourceUrl('https://drive.google.com/file/d/1KA19viZERPyVMVQLEsIBZIEGHR8DsugO/preview')];
-  }
+    } else if (id === 'newark-vaccine-sites') {
+      return this.currentImg = [
+        this.sanitizer.bypassSecurityTrustUrl(`assets/img/pagePhotos/COVID19_Vaccine_Info_2020_01_20.png`)
+      ];
+    }
   }
   goToUrl() {
     if (this.link === 'remote-learning-assistance') {
       return location.href = 'https://newark.az1.qualtrics.com/jfe/form/SV_3QPABpuSWiVOgPr';
+    } else if (this.link === 'newark-vaccine-sites') {
+        return location.href = 'tel:+19737335728';
     } else {
       return location.href = 'https://facebook.com/cityofnewark';
     }

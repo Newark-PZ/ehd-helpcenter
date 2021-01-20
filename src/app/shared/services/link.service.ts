@@ -36,6 +36,7 @@ export class LinkService {
     new Link('emergency-rent-grants-faq', 'Emergency Rent Grants FAQ', 'programs')
   ];
   docs = [
+    new Link('newark-vaccine-sites', 'Vaccine Eligibility and Locations', 'docs', 'health_and_safety'),
     new Link('holiday-executive-order', 'COVID-19 Holiday Executive Order (12/4)', 'docs'),
     new Link('fight-surge-covid-19', 'New Rules to Fight Surge in COVID-19', 'docs'),
     new Link('remote-learning-assistance', 'Remote Learning Assistance', 'docs'),
