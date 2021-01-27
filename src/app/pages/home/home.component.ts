@@ -233,13 +233,13 @@ export class HomeComponent implements OnInit {
       },
       {
         icon: 'campaign',
-        title: 'Governor Murphy Extended State of Emergency Another 30 Days (12/21)',
+        title: 'Governor Murphy Extended State of Emergency Another 30 Days (1/19)',
         link: '',
         parent: '',
         category: 'Save Lives. Stay Healthy. Safely Re-Open.',
         style: {background: 'rgba(144, 238, 144, 0.25)'},
         id: 'governor-extends-emergency',
-        extUrl: 'https://nj.gov/infobank/eo/056murphy/pdf/EO-210.pdf'
+        extUrl: 'https://www.nj.gov/infobank/eo/056murphy/pdf/EO-215.pdf'
       },
       {
         icon: 'edit',
