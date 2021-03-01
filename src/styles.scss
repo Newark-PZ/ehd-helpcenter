@@ -242,12 +242,23 @@ body {
   width: 100%;
   overflow-x: auto;
   border-collapse: collapse;
+  &.normal-size {
+    max-height: 60vh;
+    font-size: 1rem;
+    line-height: normal;
+    text-align: left;
+    display: block;
+    td {
+      border-bottom: rgba(0, 0, 0, .12) 0.5px solid;
+    }
+  }
   tbody {vertical-align: top;}
   tr { padding: .5rem;}
   tr.bordered {
     td:not(.side-header) {border: .1rem solid lightgrey; text-align: center;}
   }
   td {padding: .25rem; vertical-align: middle;}
+  th, td { min-width: 20rem; }
   th.title {
     background-color: grey;
     border: .1rem solid grey;

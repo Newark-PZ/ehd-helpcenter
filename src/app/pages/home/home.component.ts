@@ -159,11 +159,20 @@ export class HomeComponent implements OnInit {
       },
       {
         icon: 'people',
+        title: 'Know Your Rights: Housing Discrimination is Illegal',
+        link: '',
+        parent: '',
+        category: 'Housing',
+        style: {background: 'rgba(144, 238, 144, 0.15)'},
+        id: 'housing-discrimination',
+        extUrl: 'https://drive.google.com/file/d/1FVZzT20wTGv_NNJ0antOCFP-fFFQqvqB/view?usp=sharing'
+      },
+      {
+        icon: 'people',
         title: 'Rent Increase Freeze for Rent Controlled Tenants',
         link: 'rent-increase-freeze',
         parent: '/programs',
         category: 'Housing',
-        style: {background: 'rgba(144, 238, 144, 0.15)'},
         id: '',
         extUrl: ''
       },
@@ -233,13 +242,13 @@ export class HomeComponent implements OnInit {
       },
       {
         icon: 'campaign',
-        title: 'Governor Murphy Extended State of Emergency Another 30 Days (1/19)',
+        title: 'Governor Murphy Extended State of Emergency Another 30 Days (2/17)',
         link: '',
         parent: '',
         category: 'Save Lives. Stay Healthy. Safely Re-Open.',
         style: {background: 'rgba(144, 238, 144, 0.25)'},
         id: 'governor-extends-emergency',
-        extUrl: 'https://www.nj.gov/infobank/eo/056murphy/pdf/EO-215.pdf'
+        extUrl: 'https://d31hzlhk6di2h5.cloudfront.net/20210217/70/d0/6b/db/4ece0a3831b35ca039b280f0/EO-222.pdf'
       },
       {
         icon: 'edit',
@@ -358,7 +367,7 @@ export class HomeComponent implements OnInit {
       },
       {
         icon: 'business_center',
-        title: 'Mayor Baraka’s Small Business Emergency Grants (Deadline: 1/7/21)',
+        title: 'Recipients of Mayor Baraka\'s Small Business Emergency Grants 3rd Round',
         link: 'small-business-grants',
         parent: '/programs',
         category: 'Small Business',
