@@ -96,7 +96,8 @@ export class DocViewComponent {
         case 'reopen-requirements':
         case 'rent-increase-freeze-order':
         case 'emergency-help-restaurants':
-        case 'holiday-executive-order': return 'iframe';
+        case 'holiday-executive-order':
+        case 'free-vaccine-sites': return 'iframe';
         default: return 'img';
       }
   }
@@ -138,8 +139,11 @@ export class DocViewComponent {
         .bypassSecurityTrustResourceUrl('https://drive.google.com/file/d/1KA19viZERPyVMVQLEsIBZIEGHR8DsugO/preview')];
     } else if (id === 'newark-vaccine-sites') {
       return this.currentImg = [
-        this.sanitizer.bypassSecurityTrustUrl(`assets/img/pagePhotos/COVID19_Vaccine_Info_2020_01_20.png`)
+        this.sanitizer.bypassSecurityTrustUrl(`assets/img/pagePhotos/COVID19_Vaccine_Sites_2021_03_26.png`)
       ];
+    } else if (id === 'free-vaccine-sites') {
+      return this.currentUrl = [this.sanitizer
+        .bypassSecurityTrustResourceUrl('https://drive.google.com/file/d/19q9GmfGuNjEzx0soT49opRMF5B4lG9FC/view?usp=sharing')];
     }
   }
   goToUrl() {

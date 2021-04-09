@@ -39,11 +39,20 @@ export class HomeComponent implements OnInit {
       },
       {
         icon: 'health_and_safety',
-        title: 'NJ HEALTH | COVID-19 Vaccines: Know the Facts',
+        title: 'Newark CVC | Free COVID-19 Vaccination',
         link: '',
         parent: '',
         category: 'Information About COVID-19 Vaccines',
         style: {background: 'rgba(144, 238, 144, 0.15)'},
+        id: 'free-vaccine-sites',
+        extUrl: 'https://drive.google.com/file/d/19q9GmfGuNjEzx0soT49opRMF5B4lG9FC/view?usp=sharing'
+      },
+      {
+        icon: 'health_and_safety',
+        title: 'NJ HEALTH | COVID-19 Vaccines: Know the Facts',
+        link: '',
+        parent: '',
+        category: 'Information About COVID-19 Vaccines',
         id: 'nj-health-facts',
         extUrl: 'https://www.state.nj.us/health/cd/documents/topics/NCOV/COVID19-Vaccines-Know-the-Facts.pdf'
       },
@@ -377,11 +386,21 @@ export class HomeComponent implements OnInit {
       },
       {
         icon: 'business_center',
-        title: 'NJEDA Business Consulting for COVID-19 Recovery',
+        title: 'US SBA | Emergency Assistance for Shuttered Venues Affected by COVID-19',
         link: '',
         parent: '',
         category: 'Small Business',
         style: {background: 'rgba(144, 238, 144, 0.25)'},
+        id: 'sba-svo-grant',
+        extUrl: 'https://www.sba.gov/svogrant'
+      },
+      {
+        icon: 'business_center',
+        title: 'NJEDA Business Consulting for COVID-19 Recovery',
+        link: '',
+        parent: '',
+        category: 'Small Business',
+        style: {background: 'rgba(144, 238, 144, 0.15)'},
         id: 'covid-recovery-consulting',
         extUrl: 'https://forms.business.nj.gov/covid-recovery-consulting/'
       },
@@ -391,7 +410,6 @@ export class HomeComponent implements OnInit {
         link: 'federal-ppp-sba-update',
         parent: '/resources',
         category: 'Small Business',
-        style: {background: 'rgba(144, 238, 144, 0.15)'},
         id: '',
         extUrl: ''
       },
