@@ -32,14 +32,16 @@ export class HomeComponent implements OnInit {
       {
         icon: 'health_and_safety',
         title: 'Vaccine Eligibility and Locations',
-        link: 'newark-vaccine-sites',
-        parent: '/docs',
+        link: '',
+        parent: '',
         category: 'Information About COVID-19 Vaccines',
-        style: {background: 'rgba(144, 238, 144, 0.25)'}
+        style: {background: 'rgba(144, 238, 144, 0.25)'},
+        id: 'newark-vaccine-sites',
+        extUrl: 'https://drive.google.com/file/d/1ZOSQlRvbYREOzbwhEn8cqsmSOqexOoSf/view?usp=sharing'
       },
       {
         icon: 'health_and_safety',
-        title: 'Newark CVC | Free COVID-19 Vaccination',
+        title: 'FEMA | Community Vaccination Center',
         link: '',
         parent: '',
         category: 'Information About COVID-19 Vaccines',
@@ -375,14 +377,20 @@ export class HomeComponent implements OnInit {
         extUrl: 'https://www.newarknj.gov/news/newark-municipal-court-now-holding-video-sessions-via-zoom-court-will-also-accept-online-payments-and-dispute-tickets-online'
       },
       {
+        icon: 'info',
+        title: 'Pre-register for New State Small Business Aid',
+        category: 'Small Business',
+        id: 'expanded-business-aid',
+        extUrl: 'https://business.nj.gov/covid/check-status-njeda-small-business-emergency-assistance-grant-program?locale=en',
+        style: {background: 'rgba(144, 238, 144, 0.5)'}
+      },
+      {
         icon: 'business_center',
         title: 'Recipients of Mayor Baraka\'s Small Business Emergency Grants 3rd Round',
         link: 'small-business-grants',
         parent: '/programs',
         category: 'Small Business',
-        style: {background: 'rgba(144, 238, 144, 0.5)'},
-        id: '',
-        extUrl: ''
+        style: {background: 'rgba(144, 238, 144, 0.25)'}
       },
       {
         icon: 'business_center',
@@ -390,19 +398,9 @@ export class HomeComponent implements OnInit {
         link: '',
         parent: '',
         category: 'Small Business',
-        style: {background: 'rgba(144, 238, 144, 0.25)'},
+        style: {background: 'rgba(144, 238, 144, 0.15)'},
         id: 'sba-svo-grant',
         extUrl: 'https://www.sba.gov/svogrant'
-      },
-      {
-        icon: 'business_center',
-        title: 'NJEDA Business Consulting for COVID-19 Recovery',
-        link: '',
-        parent: '',
-        category: 'Small Business',
-        style: {background: 'rgba(144, 238, 144, 0.15)'},
-        id: 'covid-recovery-consulting',
-        extUrl: 'https://forms.business.nj.gov/covid-recovery-consulting/'
       },
       {
         icon: 'business_center',
@@ -414,13 +412,6 @@ export class HomeComponent implements OnInit {
         extUrl: ''
       },
       {
-        icon: 'business_center',
-        title: 'Updates to List of Essential Businesses Permitted to Operate',
-        category: 'Small Business',
-        id: 'updated-list-essential',
-        extUrl: 'https://www.nj.gov/governor/news/news/562020/approved/20200427d.shtml'
-      },
-      {
         icon: 'local_hospital',
         title: 'Sell or Buy PPE',
         link: 'ppe-program',
@@ -430,35 +421,10 @@ export class HomeComponent implements OnInit {
         extUrl: ''
       },
       {
-        icon: 'info',
-        title: 'Applications for Expanded Small Business Aid Available June 9th',
-        category: 'Small Business',
-        id: 'expanded-business-aid',
-        extUrl: 'https://faq.business.nj.gov/en/articles/3835237-what-is-the-status-of-the-njeda-small-business-emergency-assistance-grant-program-phase-2-application-open-tuesday-june-9-at-9-00-a-m'
-      },
-      {
-        icon: 'color_lens',
-        title: 'Fund for Artists and Arts Organizations',
-        link: 'arts-fund',
-        parent: '/programs',
-        category: 'Small Business',
-        id: '',
-        extUrl: ''
-      },
-      {
         icon: 'business_center',
         title: 'Help for Commercial Tenants and Property Owners',
         link: 'commercial-prop',
         parent: '/programs',
-        category: 'Small Business',
-        id: '',
-        extUrl: ''
-      },
-      {
-        icon: 'people',
-        title: 'Help from Federal “US CARES” Stimulus Package',
-        link: 'federal-us-cares',
-        parent: '/resources',
         category: 'Small Business',
         id: '',
         extUrl: ''
