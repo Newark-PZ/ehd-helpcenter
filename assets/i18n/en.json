@@ -63,13 +63,14 @@
             "sba-svo-grant": "US SBA | Emergency Assistance for Shuttered Venues Affected by COVID-19",
             "self-employed": "Unemployment Benefits for Self-Employed",
             "small-business-grants": "Recipients of Mayor Baraka’s Small Business Emergency Grants 3rd Round",
+            "small-business-survey": "Small Business Recovery Survey",
             "strikeforce-reopening-plan": "Newark Reopening Guidelines",
             "tenants": "Tenant FAQs",
             "testing": "How to Get Tested",
             "unemployment-benefits": "Unemployment Benefits",
             "utility-shutoff-moratorium": "Gov. Murphy Extends Residential Utility-Shutoff Moratorium Through March 15th, 2021"
         },
-        "mayor-blurb": "We created this website to bring together what you need to get help in dealing with the problems created by COVID-19. Here you’ll find about vaccines and how to become vaccinated, applying for unemployment, rental assistance, small business grants and other City, State and Federal benefits. You’ll find information about housing rights, getting tested, receiving food, avoiding infection and eventual reopening. We are Newark Strong, and we will emerge from this crisis working together for an even stronger city guided by our shared commitment to social, economic and racial justice.",
+        "mayor-blurb": "We created this website to bring together what you need to get help in dealing with the problems created by COVID-19. Here you’ll find about applying for unemployment, rental assistance, small business grants and other City, State and Federal benefits. You’ll find information about housing rights, getting tested, receiving food, avoiding infection and eventual reopening. We are Newark Strong, and we will emerge from this crisis working together for an even stronger city guided by our shared commitment to social, economic and racial justice.",
         "title": "COVID-19 Comprehensive Help for Residents and Small Businesses",
         "categories": {
             "Infor": "Information About COVID-19 Vaccines",
