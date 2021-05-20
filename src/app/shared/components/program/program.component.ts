@@ -7,6 +7,7 @@ import * as fromStore from '../../../store/store.reducers';
 import * as PageActions from '../../../store/page/page.actions';
 import { ActivatedRoute, ParamMap } from '@angular/router';
 import { LinkService } from '../../services/link.service';
+import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 
 @Component({
   changeDetection: ChangeDetectionStrategy.Default,
@@ -20,10 +21,12 @@ export class ProgramComponent {
   programPage$: Observable<Page>;
   currentLanguage$: Observable<string>;
   id$: Observable<string>;
+  iframeUrl: SafeResourceUrl;
   constructor(
-    private store: Store<fromStore.StoreState>,
-    private route: ActivatedRoute,
-    private linker: LinkService
+    private readonly store: Store<fromStore.StoreState>,
+    private readonly route: ActivatedRoute,
+    private readonly linker: LinkService,
+    private readonly sanitizer: DomSanitizer
     ) {
     this.programPage$ = this.store.select(state => state.page.currentProgram);
     this.currentLanguage$ = this.store.select(state => state.i18n.currentLanguage);
@@ -37,6 +40,7 @@ export class ProgramComponent {
           this.linker.getPage(this.link, currentLang, 'programs')
           .subscribe(p => {
             this.store.dispatch(new PageActions.SetPageProgramContent(p));
+            this.iframeUrl = this.setIframeUrl(this.link);
           });
         }
       });
@@ -73,5 +77,14 @@ export class ProgramComponent {
   checkTime(time: string): boolean {
     const timeLeft = new Date(time).valueOf() - new Date().valueOf();
     return timeLeft <= 0
+  }
+  setIframeUrl(link: string): SafeResourceUrl {
+    const sanitizeThis = (baseLink: string): SafeResourceUrl => this.sanitizer.bypassSecurityTrustResourceUrl(baseLink);
+    const linkObj = {
+      'small-business-survey': 'https://www.surveymonkey.com/r/newarksmallbiz'
+    };
+
+    return Object.keys(linkObj)
+      .includes(link) ? sanitizeThis(linkObj[link]) : undefined;
   }
 }

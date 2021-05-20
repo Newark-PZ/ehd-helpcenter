@@ -24,6 +24,7 @@ export class LinkService {
     new Link('rent-increase-freeze', 'Rent Increase Freeze', 'programs'),
     new Link('testing', 'How to Get Tested', 'programs'),
     new Link('small-business-grants', 'Small Business Emergency Grants', 'programs'),
+    new Link('small-business-survey', 'Small Business Recovery Survey', 'programs'),
     new Link('homeowner-relief', 'Forgivable Loans for Homeowners', 'programs'),
     new Link('arts-fund', 'Artists & Arts Organization Fund', 'programs'),
     new Link('safe-housing', 'Safe Housing for Homeless', 'programs'),

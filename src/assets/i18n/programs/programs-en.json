@@ -578,5 +578,37 @@
       }
     ],
     "hideBottomBar": true
+  },
+  {
+    "category": "Small Business",
+    "icon": "house",
+    "introText": "<p><img class='intro-pic' src='assets/img/pagePhotos/help for commercial tenants.jpg'><h3>The City of Newark is launching the Newark Small Business Recovery Survey, an initiative to help guide the City in its plans to help small businesses regain their strength as Newark recovers from the COVID-19 pandemic</h3></p>",
+    "link": "small-business-survey",
+    "parent": "/program",
+    "infoButtons": [
+      {
+        "linkText": "Survey (All Languages)",
+        "link": "https://www.surveymonkey.com/r/newarksmallbiz",
+        "extraClass": "important"
+      }
+    ],
+    "purpose": [
+      {
+        "body": "The survey will be open starting today, May 12, for a period of two weeks until May 26, and will be available in English, Spanish, and Portuguese."
+      }
+    ],
+    "sections": [
+      {
+        "header": "About this Survey",
+        "text": "<p>By hearing directly from small businesses, the survey will help the City get a better understanding of their condition, challenges they’ve experienced over the past year, their experience interfacing with government, and how the City of Newark can better serve them. The survey is available to all Newark small businesses and can be accessed <a href='https://www.surveymonkey.com/r/newarksmallbiz'>here</a>.</p><p>“We need to hear directly from small businesses about how the City can best support them. COVID-19 has presented small businesses with unprecedented challenges, and now it's important to look ahead to the future,” Mayor Baraka said. “By creating emergency funds to help our small businesses survive over the last year, we have worked to keep Newark strong. Businesses are resilient and ready to bounce back. This survey will enable us to find the best ways to help them recover, grow stronger and prosper.”</p><p>“No ward is identical, but one thing’s for sure: our neighborhoods are struggling. We are grateful to have a good partner in the City, and we commend the Mayor for taking the opportunity to take a data-driven approach,” said Anthony McMillian, CEO of Newark Downtown District. “I call on every small business in Newark to do their part and make their voices heard. In only 10 minutes, you can help shape how the City will allocate its resources to help your business and neighborhood thrive.”</p><p>The survey was developed in collaboration with Bloomberg Associates, a pro-bono consultancy which works with cities and mayors around the world. The survey’s results will help the City better determine how businesses and different industries across the city were impacted and what kinds of City actions will be most helpful for small businesses to recover and thrive. It will provide guidance in how to spend new federal dollars coming from President Biden’s recovery legislation.</p><p>The City will seek information on such topics as the most important COVID-19 challenges, changes in sales and income, and how the City could strengthen services and best help with recovery. All small Newark small business are encouraged to respond. The survey will be open starting today, May 12, for a period of two weeks until May 26, and will be available in English, Spanish, and Portuguese.  It is being distributed online and by business and community organizations.</p><p>If you have any questions you may contact Jay Lee, Small Business Development Officer at <a href='mailto:smallbiz@ci.newark.nj.us'>smallbiz@ci.newark.nj.us</a>.</p>"
+      },
+      {
+        "header": "Survey Flyer",
+        "text": "<a href='https://www.surveymonkey.com/r/newarksmallbiz'><img class='intro-pic card' src='assets/img/pagePhotos/SmallBusinessSurveyFlyer.png'></a>"
+      }
+    ],
+    "title": "Newark Small Business Survey",
+    "subtitle": "To Improve the City's Recovery",
+    "hideBottomBar": true
   }
 ]

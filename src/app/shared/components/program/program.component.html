@@ -34,6 +34,7 @@
         <mat-card-title>{{ card.header }}</mat-card-title>
       </mat-card-header>
       <div class="card-body" [innerHtml]="card.text"></div>
+      <iframe *ngIf="card.iframe" style="border-width:0;border-width: 0;height: 25rem;padding: 1rem;margin: auto;" frameborder="0" scrolling="no" [src]="iframeUrl" [height]="card.iframe.height ? card.iframe.height : 400" [width]="card.iframe.width ? card.iframe.width : '90%'"></iframe>
       <div class="logos" *ngIf="card.logos">
         <img *ngFor="let logo of card.logos" [src]="'assets/img/logos/logo_' + logo + '.png'">
       </div>

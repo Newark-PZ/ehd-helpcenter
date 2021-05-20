@@ -378,11 +378,19 @@ export class HomeComponent implements OnInit {
       },
       {
         icon: 'info',
+        title: 'Small Business Recovery Survey',
+        link: 'small-business-survey',
+        category: 'Small Business',
+        parent: '/programs',
+        style: {background: 'rgba(144, 238, 144, 0.5)'}
+      },
+      {
+        icon: 'info',
         title: 'Pre-register for New State Small Business Aid',
         category: 'Small Business',
         id: 'expanded-business-aid',
         extUrl: 'https://business.nj.gov/covid/check-status-njeda-small-business-emergency-assistance-grant-program?locale=en',
-        style: {background: 'rgba(144, 238, 144, 0.5)'}
+        style: {background: 'rgba(144, 238, 144, 0.25)'}
       },
       {
         icon: 'business_center',
@@ -390,7 +398,7 @@ export class HomeComponent implements OnInit {
         link: 'small-business-grants',
         parent: '/programs',
         category: 'Small Business',
-        style: {background: 'rgba(144, 238, 144, 0.25)'}
+        style: {background: 'rgba(144, 238, 144, 0.15)'}
       },
       {
         icon: 'business_center',
@@ -398,7 +406,6 @@ export class HomeComponent implements OnInit {
         link: '',
         parent: '',
         category: 'Small Business',
-        style: {background: 'rgba(144, 238, 144, 0.15)'},
         id: 'sba-svo-grant',
         extUrl: 'https://www.sba.gov/svogrant'
       },
