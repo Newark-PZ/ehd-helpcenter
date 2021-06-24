@@ -273,12 +273,12 @@ export class HomeComponent implements OnInit {
       },
       {
         icon: 'local_hospital',
-        title: 'How to Get Tested',
-        link: 'testing',
-        parent: '/programs',
+        title: 'COVID-19 Testing Sites',
+        link: '',
+        parent: '',
         category: 'Save Lives. Stay Healthy. Safely Re-Open.',
-        id: '',
-        extUrl: ''
+        id: 'testingflyer',
+        extUrl: 'https://drive.google.com/file/d/1loEWk96vint1JdpfBNMBre-KVdduS0V0/view'
       },
       {
         icon: 'edit',
