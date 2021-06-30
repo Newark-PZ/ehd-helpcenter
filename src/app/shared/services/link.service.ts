@@ -34,7 +34,8 @@ export class LinkService {
     new Link('measuring-covid-impact', 'Measuring COVID-19 Impact', 'programs'),
     new Link('non-profit', 'Emergency Fund for 501(c)3 Non-Profits', 'programs'),
     new Link('small-business-grants-faq', 'Small Busines Grants FAQ', 'programs'),
-    new Link('emergency-rent-grants-faq', 'Emergency Rent Grants FAQ', 'programs')
+    new Link('erap-renter-faq', 'Emergency Rental Assistance - Renter FAQ', 'programs'),
+    new Link('erap-landlord-faq', 'Emergency Rental Assistance - Landlord FAQ', 'programs')
   ];
   docs = [
     new Link('newark-vaccine-sites', 'Vaccine Eligibility and Locations', 'docs', 'health_and_safety'),

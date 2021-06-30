@@ -150,7 +150,7 @@ export class HomeComponent implements OnInit {
       },
       {
         icon: 'house',
-        title: 'Mayor Baraka’s Emergency Rent Grants (Deadline: 1/7/21)',
+        title: 'Mayor Baraka’s Emergency Rental Assistance Round 3',
         link: 'emergency-rent-grants',
         parent: '/programs',
         category: 'Housing',

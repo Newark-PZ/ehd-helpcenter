@@ -468,90 +468,111 @@
     "category": "Housing",
     "link": "emergency-rent-grants",
     "parent": "/programs",
-    "title": "Mayor Baraka’s Rental Assistance Emergency Grants",
+    "title": "Mayor Baraka’s Emergency Rental Assistance Program",
     "subtitle":"How to Apply & Other Information",
     "icon": "house",
-    "introText": "<p><img class='intro-pic' src='assets/img/pagePhotos/rentdue.jpg'><h3>Online application will be on this page starting Thursday, December 17, 2020 at 2pm.</h3><h3>Deadline to Apply: Thursday, January 7th, 2020 at 5pm.</h3><h3>For More Info: Facebook/Zoom virtual meeting on Saturday, December 19th at 11am</h3></p>",
+    "introText": "<p><img class='intro-pic' src='assets/img/pagePhotos/rentdue.jpg'><h3>Emergency Rental Assistance Program funds will be for payment towards past-due rent up to twelve (12) months and up to three (3) months of prospective rent, which is considered on a case-by-case basis, if applicable.<br>This round landlords will have the ability to pre-register in order to facilitate quick processing of tenant applications</h3></p>",
     "infoButtons": [
       ],
     "purpose": [
       {
-        "body": "Mayor Baraka’s Rental Assistance Program, administered in partnership with the Newark Housing Authority, will provide up to three months of support for local tenants and families facing eviction due to COVID-19."
+        "body": "Information About Mayor Baraka’s Emergency Rental Assistance Program (ERAP)"
       }
     ],
     "sections": [
         {
-          "header": "Rental Assistance Program Overview",
-          "text": "<ul><li>Funds paid directly to landlords</li><li>Up to 3 months of assistance or $2,000 maximum</li><li>Loss of income due to COVID-19</li><li>Household income must be below 60 percent of area median income</li><li>Free legal assistance may be provided to tenants facing eviction through the City’s Office of Tenant Legal Services</li></ul>"
+          "header": "Key Dates & Other Information",
+          "text": "<ul><li>Monday, July 19th: Landlord Pre-registration begins</li><li>Monday, July 26th through Friday, September 10th: Applications made available to tenants/application review period begins</li><li>Awards received between 30 – 60 days after application</li><li>Pre-registering and applying will be available online using a link that will be available at <a href='https://www.NewarkCOVID19.com'>NewarkCOVID19.com</a></li><li>Will be able get assistance via call center by calling (866)-484-9033 or in-person at select community based organizations throughout the city. Locations will be available online by July 16th</li></ul>"
         },
         {
-          "header": "FAQs about Rental Assistance Grants",
+          "header": "Who Will Be Eligible",
+          "text": "<p>To qualify, you and/or your household must meet all of the following:<ul><li>Be a Newark resident,</li><li>Have a 2020 household income at or below 80% of the Area Median Income (AMI) in the City of Newark</li><li>One or more members of your household qualifies for unemployment benefits or experienced a reduction in household income, incurred significant costs, or experienced other financial hardship due directly or indirectly to COVID-19</li><li>One or more members of your household can demonstrate a risk of experiencing homelessness or housing instability</li><li>Be currently responsible for paying rent at your primary residence</li></ul></p>"
+        },
+        {
+          "header": "FAQs about Emergency Rental Assistance Program",
           "actionsCol": true,
           "buttons": [
             {
-              "link":"/programs/emergency-rent-grants-faq/",
-              "linkText": "Rental Assistance Grants FAQ Page",
+              "link":"/programs/erap-landlord-faq/",
+              "linkText": "Landlord Info & FAQs",
+              "icon": "launch",
+              "extraClass": "important"
+            },
+            {
+              "link":"/programs/erap-renter-faq/",
+              "linkText": "Renter Info & FAQs",
               "icon": "launch",
               "extraClass": "important"
             }
           ]
-        },
-        {
-          "header": "How to Get Ready to Apply",
-          "text": "<p>Gather documents needed to apply<ul><li>Government Issued Photo ID or Driver’s license</li><li>Notice of furlough or reduced hours from employer</li><li>Head of Households most recent paystub</li><li>Head of Households unemployment insurance notice listing unemployment payments</li><li>Most recent lease or rental agreement with current landlord</li><li>Rent receipts for last two rental payments</li><li>Late rental payment notices for months in arrears</li><li>Copies of other income or assistance (SSI, Cash Assistance from NJDHS, other adult members income)</li><li>Name of landlord, company, address, phone number, email</li></ul></p>",
-          "actionsCol": true,
-          "buttons": [{
-            "linkText": "Tenant Grant Application",
-            "link": "http://newarkha.org/Housing/Covid19-Emergency-Rental-Assistance",
-            "icon": "launch",
-            "extraClass": "important"
-          }]
-        },
-        {
-          "header": "Virtual Meeting Saturday, December 19th at 11am",
-          "text": "<h3>How to Apply Facebook/Zoom virtual meeting on Saturday, December 19th at 11am</h3><ul><li>Facebook Live Meeting Link: <a href='https://facebook.com/cityofnewark'>facebook.com/cityofnewark</a></li><li>Zoom Meeting Link: <a href='https://bit.ly/nwkrenters'>https://bit.ly/nwkrenters</a></li></ul>"
-        },
-        {
-          "header": "Important Resources",
-          "text": "<p>Local Resources<ul><li>Email for Information – <a href='mailto:ehd@ci.newark.nj.us'>ehd@ci.newark.nj.us</a></li><li>Invest Newark Small Business Information – <a href='https://www.investnewark.org'>www.investnewark.org</a></li><li>Rental Assistance – Newark Housing Authority – <a href='https://www.newarkha.org'>www.newarkha.org</a></li><li>Office of Tenant Legal Services – email <a href='mailtp:otls@ci.newark.nj.us'>otls@ci.newark.nj.us</a></li></ul></p><p>State resources<ul><li>New Jersey COVID-19 Information Hub - <a href='https://covid19.nj.gov'>covid19.nj.gov</a></li><li>New Jersey Business Programs: <a href='https://cv.business.nj.gov'>cv.business.nj.gov</a></li><li>New Jersey Jobs Portal: <a href='https://jobs.covid19.nj.gov'>jobs.covid19.nj.gov</a></li></ul></p>"
         }
     ]
   },
   {
     "category": "Housing",
     "icon": "house",
-    "introText": "<p><img class='intro-pic' src='assets/img/pagePhotos/RentalAssistanceGrantsFAQ.jpg'><h3>Online application will be on this page starting Thursday, December 17, 2020 at 2pm.</h3><h3>Deadline to Apply: Thursday, January 7th, 2020 at 5pm.</h3><h3>For More Info: Facebook/Zoom virtual meeting on Saturday, December 19th at 11am</h3></p>",
-    "link": "emergency-rent-grants-faq",
+    "link": "erap-renter-faq",
     "parent": "/program",
-    "infoButtons": [
-      {
-        "linkText": "Download FAQs (EN)",
-        "link": "assets/docs/EmergencyRentalAssistanceFAQ_en.pdf",
-        "extraClass": "important"
-      },
-      {
-        "linkText": "Download FAQs (SP)",
-        "link": "assets/docs/EmergencyRentalAssistanceFAQ_sp.pdf",
-        "extraClass": "important"
-      }
-    ],
     "purpose": [
       {
-        "body": "Frequently Asked Questions About Rental Assistance Emergency Grants"
+        "body": "Frequently Asked Questions About Emergency Rental Assistance Program (ERAP)"
       }
     ],
     "sections": [
       {
-        "header": "Who is elegible for this progam?",
-        "text": "<ul><li>Applicant must be a Newark resident who pays rent.</li><li>Applicant must show proof that they filed for unemployment insurance or had work hours reduced.</li><li>Applicant’s household must have fallen under the 60% Area Median Income (AMI) level (see chart below) before filing for unemployment insurance or having hours reduced.</li></ul><table class='text-table'><thead><tr><th class='title' colspan='7'><strong>Persons in Household</strong></th></tr></thead><tbody><tr class='bordered'><td class='side-header' rowspan='2'>60% Area Median Income</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td></tr><tr class='bordered'><td>$44,520</td><td>$50,880</td><td>$57,240</td><td>$63,600</td><td>$68,700</td><td>$73,800</td></tr></tbody></table>"
+        "header":"Who is eligible for Emergency Rental Assistance Program (ERAP)?",
+        "text":"<p>Residents who meet the following criteria are eligible:<ul><li>Rent in City of Newark<ul><li>Cannot be renting a homesteaded property</li><li>Cannot be related to their landlord</li><li>Cannot be relocating to new location</li></ul></li><li>Financially impacted due to the COVID-19 pandemic starting March 13, 2020. Examples of COVID-19 impact:<ul><li>Qualified for unemployment compensation benefits</li><li>Experienced a reduction in income</li><li>Incurred significant costs or experienced other financial hardship, due directly or indirectly to COVID-19, that threaten the household’s ability to pay the costs of the rental property</li></ul></li><li>Households seeking rental assistance must have an active lease with past-due payment</li><li>Household income must be at or below 80% Area Median Income (AMI) as reported on 2020 Federal Income Tax filing (IRS form 1040 Adjusted Gross Income), or as calculated across all W-2 and/or 1099 forms. Priority access will be given to eligible households at or below 50% AMI or households with one or more individuals that have not been employed for 90 days prior to the application date.</li></ul></p><table class='text-table'><thead><tr><th class='title'>Household Size<br>(2020 Tax Returns)</th><th class='title'>Max 30% Annual Income<br>(2020 AGI)</th><th class='title'>Max 50% Annual Income<br>(2020 AGI)</th><th class='title'>Max 80% Annual Income<br>(2020 AGI)</th></tr></thead><tbody><tr class='bordered'><td class='side-header'>1 person</td><td>up to $22,300</td><td>up to $37,100</td><td>up to $54,950</td></tr><tr class='bordered'><td class='side-header'>2 persons</td><td>up to $25,450</td><td>up to $42,400</td><td>up to $62,800</td></tr><tr class='bordered'><td class='side-header'>3 persons</td><td>up to $28,650</td><td>up to $47,700</td><td>up to $70,650</td></tr><tr class='bordered'><td class='side-header'>4 persons</td><td>up to $31,800</td><td>up to $53,000</td><td>up to $78,500</td></tr><tr class='bordered'><td class='side-header'>5 persons</td><td>up to $34,350</td><td>up to $57,250</td><td>up to $84,800</td></tr><tr class='bordered'><td class='side-header'>6 persons</td><td>up to $36,900</td><td>up to $61,500</td><td>up to $91,100</td></tr><tr class='bordered'><td class='side-header'>7 persons</td><td>up to $39,640</td><td>up to $65,750</td><td>up to $97,350</td></tr><tr class='bordered'><td class='side-header'>8 persons</td><td>up to $44,120</td><td>up to $70,000</td><td>up to $103,650</td></tr><tr class='bordered'><td class='side-header'>9 persons</td><td>up to $48,600</td><td>up to $74,200</td><td>up to $109,900</td></tr><tr class='bordered'><td class='side-header'>10 persons</td><td>up to 53,080</td><td>up to $78,450</td><td>up to $116,200</td></tr></tbody></table>"
       },
       {
-        "header": "What You Will Need To Apply",
-        "text": "<p>For your convenience, required documentation (whole document) can either be scanned using a scanner or photographed using a mobile phone or device and uploaded to this application. Clear, legible, document images must be uploaded at the time of application submission.</p><h3>DOCUMENT REQUIREMENTS CAN BE MET WITH THE FOLLOWING:</h3><h4>INCOME AND UNEMPLOYMENT INFORMATION MUST BE PROVIDED FOR ALL ADULT (18 AND OVER) INCOME EARNERS IN THE HOUSEHOLD</h4><p><u>Income Verification for ALL HOUSEHOLD MEMBERS WHO WERE WORKING</u><ol><li>Copy of most recent paystub OR if paid in cash by employer, then must provide an official document from employer with the following information:<ul><li>Company Name</li><li>Employer TIN #</li><li>Company Address</li><li>Company Tel#</li></ul><br><ul><li>Employee Name</li><li>Hours Worked</li><li>Hourly Rate</li><li>Total pay</li></ul></li><b>AND</b><li>Letter or email of job loss or reduced hours OR Copy of unemployment letter stating unemployment income.</li></ol></p><p><u>Residence Verification</u><ol><li>Copy of executed lease <b>OR</b> (If no formal lease) an official one-page rental agreement with rental terms between landlord and tenant (signed by both parties).</li><b>AND</b><li>Copy of late rent notice from landlord (if available)</li></ol></p><p>You will also need the following information regarding your landlord for this application:<ul><li>Landlord Name: [First Name, Last Name; Company Name (if, applicable)]</li><li>Landlord Address:</li><li>Phone:</li><li>Fax:</li><li>Email:</li></ul></p><p><strong>Once you have this information and these documents are readily available to be uploaded, then you are ready to begin the application.</strong></p>"
+        "header": "What documents do I need to apply for assistance?",
+        "text": "<p>You will need all of the following when applying:<ul><li>Identification for all members of the household:<ul><li>Copy of valid (not expired) New Jersey driver’s license, ID card, Newark Municipal ID or passport for all adult household members, including yourself</li><li>Copy of identification for all minor household members (birth certificate, school records, or immunization records)</li></ul></li><li>Signed 2020 IRS Tax Return(s) or 2020 W-2 and/or 1099 forms<ul><li>Depending on household makeup, multiple tax returns, W-2s and/or 1099 forms may be required</li><li>Need to file your taxes? Check out the Free Tax Preparation Program at Newark Asset Building Coalition <a href='www.nabcnj.org/newark-free-tax-prep/'>www.nabcnj.org/newark-free-tax-prep/</a></li><li>For any households exempt from tax returns, other documentation explaining income status or waiver will be acceptable upon review.</li></ul></li><li>Copy of your active lease – must include pages showing lease agreement, applicant’s name, names of any other tenants (residing in home), leased property address, landlord’s name and address, amount of monthly rent (payment obligation), frequency of payments, lease start and end dates, clause related to non-compliance with lease terms (example termination/eviction clause), to whom rent is paid (if not landlord named), how and where rent is to be paid, and signatures of landlord and adult tenant(s).  Other documentation may be acceptable upon review in the absence of a formal lease agreement.</li><li>Although no assistance is available for this round, if you’d like to be considered for past-due gas and/or electricity if the City is able to provide the assistance in the future, a copy of your latest past-due gas and/or electricity statement with a monthly breakdown or a monthly billing summary, if applicable (must have your name or the name of someone who is in your household)</li></ul></p><p>These attachments may be in the following formats when uploaded: PDF, JPG, PNG, or Word document.</p><p>Note: If you do not attach all necessary files, your application will not be accepted, and you will not receive financial assistance.</p>"
+      },
+      {
+        "header": "How do I apply for assistance?",
+        "text": "<p>The Emergency Rental Assistance Program online application portal is open for eligible residents at or below 80% Area Media Income (AMI) or households with one or more individuals that have not been employed for 90 days prior to the application date. Review eligibility criteria and requirements before applying.</p><p>If you experience problems when applying or have questions about the program, you may call <a href='tel:+18664849033'>(866) 484-9033</a> to speak with a Customer Call Center Representative who will provide support and guidance. The call center is open from 9 AM until 6 PM est Monday through Friday.</p><p><strong>Important Notice</strong>: Applying for the ERAP is free and one-on-one application assistance for tenants is available in English, Spanish, and Portuguese by contacting the ERAP Call Center at the number listed above. Tenants should be wary of anyone requesting payment to complete an ERAP application.</p>"
       }
     ],
-    "title": "Mayor Baraka’s Rental Assistance Emergency Grants",
-    "subtitle": "Frequently Asked Questions",
+    "title": "Mayor Baraka’s Emergency Rental Assistance Program",
+    "subtitle": "Renter Information & Frequently Asked Questions",
+    "hideBottomBar": true
+  },
+  {
+    "category": "Housing",
+    "icon": "house",
+    "link": "erap-landlord-faq",
+    "parent": "/program",
+    "purpose": [
+      {
+        "body": "Landlord Information & FAQs About Emergency Rental Assistance Program (ERAP)"
+      }
+    ],
+    "sections": [
+      {
+        "text":"<p>As a landlord, you play an essential role in the ERAP and are encouraged to actively participate to be eligible for funding. Registration is required for landlords to participate as a vendor in the program and receive funds directly on behalf of their approved tenants.</p>"
+      },
+      {
+        "header": "How do I register for ERAP?",
+        "text": "<p>Online registration is open for landlords with properties within the City of Newark.</p><p>Registration allows tenants and landlords to be matched up within the system and for landlords to see the status of tenant applications. If a landlord is not registered, the landlord will receive a registration invitation when a tenant applies to the program and provides landlord information on the application.</p><p>If you experience problems when registering or have questions about the program, you may call <a href='tel:+18664849033'>(866) 484-9033</a> to speak with a Customer Call Center Representative who will provide support and guidance. The call center is open from 9 AM until 6 PM est. Monday through Friday.</p>"
+      },
+      {
+        "header": "What information do I need to collect for tenants and what documents must I upload to register myself?",
+        "text": "<p>You will need all of the following when registering:<ul><li>Completed W9 form</li><li>Payment details, if approved, including bank account information via voided check and mailing address for all of your rental properties applicable to the program</li><li>Electronic signature acceptance of the program’s terms and conditions</li></ul></p><p>If your tenant submits an application, you will be required to provide:<ul><li>Verification of tenant(s) residing at the property, as needed, and relationship with tenant(s)</li><li>Complete the Rental ledger form listing past-due rental payments for each tenant who applies</li></ul></p>"
+      },
+      {
+        "header": "What does the assistance pay for?",
+        "text": "<p>The funds are for payment towards past-due rent up to twelve (12) months and up to three (3) months of prospective rent. Funding must be applied to the months approved by the program. If you are registered and your tenant is approved for funding, you will receive the payments directly.  At this time, payments for utilities will not be covered, but may be considered at a future date.</p><p>If an approved tenant received previous shelter assistance from the City for a month that remains past due, the program will not be able to duplicate the eligibility payment for that month(s).</p>"
+      },
+      {
+        "header": "Is there a funding limit to what landlords can receive?",
+        "text": "<p>There is no limit to what landlords can receive as the funding will be covering households. Landlords could have multiple households approved for funding because of the number of properties they have within City of Newark.</p><p>Assistance provided can be up to 12 months of past-due rent from March 13, 2020 or later, per household. It may also cover the current month and prospective month, which is considered on a case-by-case basis, if applicable.</p>"
+      },
+      {
+        "header": "Who is eligible for ERAP?",
+        "text": "<p>Residents who meet the following criteria are eligible:<ul><li>Rent in City of Newark<ul><li>Cannot be renting a homesteaded property</li><li>Cannot be related to their landlord</li><li>Cannot be relocating to new location</li></ul></li><li>Household income must be at or below 80% Area Median Income (AMI) as reported on 2020 Federal Income Tax filing (IRS form 1040 Adjusted Gross Income), or as calculated across all W-2 and/or 1099 forms. Priority access will be given to eligible households at or below 50% AMI or with zero income the 90 days prior to the application date</li><li>Financially impacted due to the COVID-19 pandemic starting March 13, 2020. Examples of COVID-19 impacts include:<ul><li>Qualified for unemployment compensation benefits</li><li>Experienced a reduction in income</li><li>Incurred significant costs or experienced other financial hardship, due directly or indirectly to COVID-19, that threaten the household’s ability to pay the costs of the rental property</li></ul></li><li>Households seeking rental assistance must have an active lease with past-due payment</li></ul></p>"
+      }
+    ],
+    "title": "Mayor Baraka’s Emergency Rental Assistance Program",
+    "subtitle": "Landlord Information & Frequently Asked Questions",
     "hideBottomBar": true
   },
   {

@@ -48,7 +48,7 @@
       </mat-card-actions>
     </mat-card>
   </mat-list-item>
-  <mat-list-item *ngIf="['rent-increase-freeze', 'emergency-rent-grants-faq', 'small-business-grants-faq'].includes((programPage$ | async).link)">
+  <mat-list-item *ngIf="['rent-increase-freeze', 'erap-renter-faq', 'small-business-grants-faq'].includes((programPage$ | async).link)">
     <app-faq [faqPage]="faqPage()"></app-faq>
   </mat-list-item>
 </mat-list>

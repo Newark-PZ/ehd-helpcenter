@@ -64,7 +64,7 @@ export class ProgramComponent {
   faqPage = (): FaqPage => {
     let typeText: string;
     switch (this.link) {
-      case 'emergency-rent-grants-faq': typeText = 'Grants_Rent_FAQ'; break;
+      case 'erap-renter-faq': typeText = 'Grants_Rent_FAQ'; break;
       case 'small-business-grants-faq': typeText = 'Grants_Biz_FAQ'; break;
       default: typeText = 'RentControl'; break;
     }
@@ -72,7 +72,7 @@ export class ProgramComponent {
     return { type: typeText, icon: 'people', title: '' };
   }
   checkFAQ(page: string): boolean {
-    return ['rent-increase-freeze', 'emergency-rent-grants-faq', 'small-business-grants-faq'].includes(page);
+    return ['rent-increase-freeze', 'erap-renter-faq', 'small-business-grants-faq'].includes(page);
   }
   checkTime(time: string): boolean {
     const timeLeft = new Date(time).valueOf() - new Date().valueOf();
