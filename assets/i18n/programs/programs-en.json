@@ -476,7 +476,7 @@
       ],
     "purpose": [
       {
-        "body": "Mayor Baraka’s Rental Assistance Program, administered in partnership with the Newark Housing Authority, will provide up to three months of support for local tenants and families facing eviction due to COVID-19."
+        "body": "Information About Mayor Baraka’s Emergency Rental Assistance Program (ERAP)"
       }
     ],
     "sections": [
@@ -494,13 +494,13 @@
           "buttons": [
             {
               "link":"/programs/erap-landlord-faq/",
-              "linkText": "Landlords Information & FAQs",
+              "linkText": "Landlord Info & FAQs",
               "icon": "launch",
               "extraClass": "important"
             },
             {
               "link":"/programs/erap-renter-faq/",
-              "linkText": "Renters Information & FAQs",
+              "linkText": "Renter Info & FAQs",
               "icon": "launch",
               "extraClass": "important"
             }
