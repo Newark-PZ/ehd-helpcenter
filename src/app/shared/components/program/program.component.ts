@@ -76,7 +76,7 @@ export class ProgramComponent {
   }
   checkTime(time: string): boolean {
     const timeLeft = new Date(time).valueOf() - new Date().valueOf();
-    return timeLeft <= 0
+    return timeLeft <= 0;
   }
   setIframeUrl(link: string): SafeResourceUrl {
     const sanitizeThis = (baseLink: string): SafeResourceUrl => this.sanitizer.bypassSecurityTrustResourceUrl(baseLink);
