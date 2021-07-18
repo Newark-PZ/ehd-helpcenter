@@ -36,6 +36,17 @@
     <img class="mat-icon" src="../../../assets/img/pagePhotos/exit_to_app_assessment-black.svg">
   </div>
 </section>
+<button class="banner-button" [routerLink]="['/programs','emergency-rent-grants']">
+  <div>
+    <mat-icon class="icon-fix">info</mat-icon>
+  </div>
+  <div>
+  Information about Mayor Baraka's Emergency Rental Assistance Program (ERAP)
+  </div>
+  <div>
+    <mat-icon class="icon-fix">launch</mat-icon>
+  </div>
+</button>
 <mat-list class="program-cats">
   <mat-list-item>
     <mat-accordion [multi]="expansionMulti$ | async" >
