@@ -397,7 +397,7 @@
         "title": "Mayor Baraka’s Emergency Rental Assistance Program",
         "subtitle": "How to Apply & Other Information",
         "icon": "house",
-        "introText": "<p><img class='intro-pic' src='assets/img/pagePhotos/rentdue.jpg'>Emergency Rental Assistance Program funds will be for payment towards past-due rent up to twelve (12) months and up to three (3) months of prospective rent, which is considered on a case-by-case basis, if applicable.</p><p>This round landlords will have the ability to pre-register in order to facilitate quick processing of tenant applications</p><p><strong>Tenant Applications available here starting Monday, July 26th</strong></p>",
+        "introText": "<p><img class='intro-pic' src='assets/img/pagePhotos/rentdue.jpg'>Emergency Rental Assistance Program funds will be for payment towards past-due rent up to twelve (12) months and up to three (3) months of prospective rent, which is considered on a case-by-case basis, if applicable.</p><p>This round landlords will have the ability to pre-register in order to facilitate quick processing of tenant applications</p>",
         "infoButtons": [{
             "linkText": "Tenant Application and Landlord Pre-registration",
             "link": "https://apply.recovernj.org/en-US/?county=newark",
