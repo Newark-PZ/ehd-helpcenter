@@ -377,12 +377,12 @@ export class HomeComponent implements OnInit {
         extUrl: 'https://www.newarknj.gov/news/newark-municipal-court-now-holding-video-sessions-via-zoom-court-will-also-accept-online-payments-and-dispute-tickets-online'
       },
       {
-        icon: 'info',
-        title: 'Small Business Recovery Survey',
-        link: 'small-business-survey',
-        category: 'Small Business',
+        icon: 'business_center',
+        title: 'Mayor Baraka\'s Small Business Emergency Grants Round 4',
+        link: 'small-business-grants',
         parent: '/programs',
-        style: {background: 'rgba(144, 238, 144, 0.5)'}
+        category: 'Small Business',
+        style: {background: 'rgba(144, 238, 144, 0.25)'}
       },
       {
         icon: 'info',
@@ -390,14 +390,6 @@ export class HomeComponent implements OnInit {
         category: 'Small Business',
         id: 'expanded-business-aid',
         extUrl: 'https://business.nj.gov/covid/check-status-njeda-small-business-emergency-assistance-grant-program?locale=en',
-        style: {background: 'rgba(144, 238, 144, 0.25)'}
-      },
-      {
-        icon: 'business_center',
-        title: 'Recipients of Mayor Baraka\'s Small Business Emergency Grants 3rd Round',
-        link: 'small-business-grants',
-        parent: '/programs',
-        category: 'Small Business',
         style: {background: 'rgba(144, 238, 144, 0.15)'}
       },
       {
