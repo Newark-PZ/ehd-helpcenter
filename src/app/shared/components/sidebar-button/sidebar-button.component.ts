@@ -1,7 +1,7 @@
 import { Component, Input } from '@angular/core';
 import { Store } from '@ngrx/store';
+import { TranslateService } from '@ngx-translate/core';
 import { Observable } from 'rxjs';
-
 import {
   shownStateTrigger,
   sidebarButtonStateTrigger
@@ -10,7 +10,6 @@ import * as fromStore from '../../../store/store.reducers';
 import * as SidebarActions from './../../../store/sidebar/sidebar.actions';
 import * as RightSidebarActions from './../../../store/sidebarRight/sidebar.actions';
 import * as i18nActions from './../../../store/i18n/i18n.actions';
-import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-sidebar-button',
@@ -19,7 +18,7 @@ import { TranslateService } from '@ngx-translate/core';
   animations: [sidebarButtonStateTrigger, shownStateTrigger]
 })
 export class SidebarButtonComponent {
-  @Input() iconName;
+  @Input() iconName: string;
   @Input() treeControl;
   sidebarOpened$: Observable<boolean>;
   sidebarRightOpened$: Observable<boolean>;

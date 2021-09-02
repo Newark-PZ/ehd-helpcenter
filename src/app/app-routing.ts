@@ -1,5 +1,5 @@
-import * as pageComponents from './pages';
 import { Routes } from '@angular/router';
+import * as pageComponents from './pages';
 import { ResourceComponent, ProgramComponent, FaqComponent, StayinginComponent } from './shared';
 import { HomeownersFAQComponent, TenantFAQComponent, ReopeningListComponent } from './pages';
 

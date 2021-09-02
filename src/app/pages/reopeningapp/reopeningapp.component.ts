@@ -67,7 +67,7 @@ export class ReopeningListComponent implements AfterViewInit {
     this.textHide = !this.textHide;
   }
   setExpanded(row: BizData): void {
-    // tslint:disable-next-line: no-null-keyword
+    // eslint-disable-next-line no-null/no-null
     this.expandedElement === row ? this.expandedElement = null : this.expandedElement = row;
   }
 }

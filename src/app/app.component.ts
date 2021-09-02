@@ -1,18 +1,18 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
+import { BreakpointObserver, BreakpointState } from '@angular/cdk/layout';
+import { NestedTreeControl } from '@angular/cdk/tree';
+import { MatTreeNestedDataSource } from '@angular/material/tree';
 import { Store } from '@ngrx/store';
+import { TranslateService } from '@ngx-translate/core';
 import { Observable, Subscription } from 'rxjs';
+import { take } from 'rxjs/operators';
 import { StoreConfig } from './shared/interfaces/config.interface';
 import * as fromStore from './store/store.reducers';
 import * as fromStoreActions from './store/store.actions';
 import * as SidebarActions from './store/sidebar/sidebar.actions';
 import * as RightSidebarActions from './store/sidebarRight/sidebar.actions';
 import * as ConfigActions from './store/config/config.actions';
-import { take } from 'rxjs/operators';
-import { BreakpointObserver, BreakpointState } from '@angular/cdk/layout';
-import {routes} from './app-routing';
-import { NestedTreeControl } from '@angular/cdk/tree';
-import { MatTreeNestedDataSource } from '@angular/material/tree';
-import { TranslateService } from '@ngx-translate/core';
+
 import { LinkService } from './shared/services/link.service';
 import { Link } from './shared/interfaces/link.class';
 
@@ -28,7 +28,6 @@ export class AppComponent implements OnDestroy, OnInit {
   deptDisplay: boolean;
   mayorDisplay: boolean;
   selectedModule$: Observable<string>;
-
   title$: Observable<string>;
   hasSidebar$: Observable<boolean>;
   sidebarOpened$: Observable<boolean>;
@@ -39,7 +38,6 @@ export class AppComponent implements OnDestroy, OnInit {
   links: Array<Link> = [];
   treeControl = new NestedTreeControl<Link>(node => node.children);
   dataSource = new MatTreeNestedDataSource<Link>();
-  hasChild = (_: number, node: Link) => !!node.children && node.children.length > 0;
   constructor(
     private store: Store<fromStore.StoreState>,
     public breakpointObserver: BreakpointObserver,
@@ -59,13 +57,15 @@ export class AppComponent implements OnDestroy, OnInit {
     this.sidebarRightOpened$ = this.store.select(state => state.sidebarRight.opened);
     this.sidebarRightMode$ = this.store.select(state => state.sidebarRight.mode);
   }
-
-  ngOnInit() {
+  ngOnInit(): void {
     this.breakpointObserver
       .observe(['(max-width: 767px)'])
       .subscribe((state: BreakpointState) => {
-        if (state.matches) {this.mayorDisplay = true; this.deptDisplay = true;
-        } else {this.mayorDisplay = false; this.deptDisplay = false; }
+        if (state.matches) {
+          this.mayorDisplay = true; this.deptDisplay = true;
+        } else {
+          this.mayorDisplay = false; this.deptDisplay = false;
+        }
     });
     this.links = [
       new Link('home', 'Home', false, 'house'),
@@ -152,21 +152,25 @@ export class AppComponent implements OnDestroy, OnInit {
     }
   }
 
-  toggleSidebar() {
+  hasChild(_: number, node: Link): boolean {
+    return node.children && node.children.length > 0;
+  }
+
+  toggleSidebar(): void {
     this.store.dispatch(new SidebarActions.Toggle());
   }
 
-  toggleRightSidebar() {
+  toggleRightSidebar(): void {
     this.store.dispatch(new RightSidebarActions.Toggle());
   }
 
-
-  ngOnDestroy() {
+  ngOnDestroy(): void {
     if (this.sidebarOpenedSubscription) {
       this.sidebarOpenedSubscription.unsubscribe();
     }
   }
-  onOpenedChange(evt: boolean) {
+
+  onOpenedChange(evt: boolean): void {
     this.store
       .select(state => state.sidebar.opened)
       .pipe(take(1))
@@ -177,7 +181,8 @@ export class AppComponent implements OnDestroy, OnInit {
         }
       });
   }
-  onRightOpenedChange(evt: boolean) {
+
+  onRightOpenedChange(evt: boolean): void {
     this.store
       .select(state => state.sidebarRight.opened)
       .pipe(take(1))
@@ -187,7 +192,8 @@ export class AppComponent implements OnDestroy, OnInit {
         }
       });
   }
-  goTo(url) {
+
+  goTo(url: string): void {
     window.open(url, '_self');
   }
 }

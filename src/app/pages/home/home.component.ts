@@ -13,7 +13,7 @@ import * as fromStore from '../../store/store.reducers';
   styleUrls: ['./home.component.scss'],
   templateUrl: './home.component.html'
 })
-// tslint:disable: max-line-length
+/* eslint-disable max-len */
 export class HomeComponent implements OnInit {
   expansionOpen$: Observable<boolean>;
   expansionMulti$: Observable<boolean>;

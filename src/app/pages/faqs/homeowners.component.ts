@@ -5,7 +5,7 @@ import {FaqPage} from '../../shared/interfaces/other.interface';
   selector: 'app-faq-tenant',
   template: `<app-faq [faqPage]="faqPage"></app-faq>`
 })
-// tslint:disable: max-line-length
+/* eslint-disable max-len */
 export class HomeownersFAQComponent {
   faqPage: FaqPage = {
     type: 'Homeowners',

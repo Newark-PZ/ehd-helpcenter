@@ -17,12 +17,12 @@ import { MatDividerModule } from '@angular/material/divider';
 import { MatExpansionModule } from '@angular/material/expansion';
 import { MatTreeModule } from '@angular/material/tree';
 import { MatDialogModule } from '@angular/material/dialog';
-
-import * as fromComponents from './';
-import { FaqCatPipe } from './services/filter.pipe';
 import { TranslateModule } from '@ngx-translate/core';
+
+import { FaqCatPipe } from './services/filter.pipe';
 import { LinkService } from './services/link.service';
 import { MarkedPipe } from './services/marked.pipe';
+import * as fromComponents from './';
 
 const matModules = [
     MatButtonModule,

@@ -1,33 +1,51 @@
 :host {
-  display: block;
+    display: block;
 }
+
 .mat-toolbar {
-  h2 {font-weight: 600 !important; white-space: pre-line; font-size: 2rem !important;}
-  .mat-icon {margin-top: .25rem; margin-right: 1rem !important; font-size: 2rem !important;}
-  .title {display: flex; height: 2.5rem;}
-  padding: .5rem 0 .5rem 13rem !important;
-  align-items: flex-start;
-  background: linear-gradient(rgba(183, 28, 28, 0.15) 0%, white 100%);
-  @media screen and (max-width: 769px) {
-    padding: .5rem 1rem !important;
-    height: unset !important;
-    flex-direction: row;
-    white-space: normal !important;
-    line-height: normal !important;
-    h2 {font-size: 1.15rem;}
-  }
+    h2 {
+        font-weight: 600 !important;
+        white-space: pre-line;
+        font-size: 2rem !important;
+    }
+    .mat-icon {
+        margin-top: .25rem;
+        margin-right: 1rem !important;
+        font-size: 2rem !important;
+    }
+    .title {
+        display: flex;
+        height: 2.5rem;
+    }
+    padding: .5rem 0 .5rem 13rem !important;
+    align-items: flex-start;
+    background: linear-gradient(rgba(183, 28, 28, 0.15) 0%, white 100%);
+    @media screen and (max-width: 769px) {
+        display: none;
+    }
 }
+
 .data-dashboard {
-  min-height: 3000px;
-  width: 92vw;
-  margin: 1.5vw 3vw;
-  @media screen and (max-width: 720px) {
-    height: 3764px !important;
-  }
-  @media screen and (min-width: 720px) and (max-width: 834px) {
-    height: 3400px !important;
-  }
-  @media screen and (min-width: 835px) and (max-width: 1000px) {
-    height: 3200px !important;
-  }
+    min-height: 3000px;
+    width: 92vw;
+    margin: 1.5vw 3vw;
+    @media screen and (max-width: 720px) {
+        height: 3764px !important;
+    }
+    @media screen and (min-width: 720px) and (max-width: 834px) {
+        height: 3400px !important;
+    }
+    @media screen and (min-width: 835px) and (max-width: 1000px) {
+        height: 3200px !important;
+    }
+}
+
+.tableauViz {
+    display: flex !important;
+    width: 100%;
+    max-width: 100vw;
+    min-height: 78vh;
+    @media screen and (max-width: 769px) {
+        min-height: 85vh;
+    }
 }
