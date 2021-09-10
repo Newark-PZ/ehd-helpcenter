@@ -59,8 +59,17 @@
                 "text": "<ul><li>A physical location in Newark</li><li>Twenty-five (25) employees or less.</li><li>A valid business license or demonstrate exemption.</li><li>Experienced a direct loss of revenue due to COVID-19</li><li>NOT been awarded a grant from the City in 2021</li><li>NOT already received COVID-19 related financial assistance (grant, loans, etc.) from any other federal, state, or local program to pay for the same expenses.</li></ul><p>Priority will be given to MWBE businesses and those with employees.</p>"
             },
             {
-                "header": "Applications Available Here on Friday, September 10th.",
-                "emphasizeHeader": true
+                "header": "Applications Are Available Now",
+                "emphasizeHeader": true,"buttons":[{
+            "linkText": "Apply Now",
+            "link": "https://newark.seamlessdocs.com/f/SBAGrant",
+            "extraClass": "important"
+        },{
+            "linkText": "Frequently Asked Questions",
+            "link": "https://drive.google.com/file/d/1UD39WujW69QqJwghRDPCsR6n_iJREmd7/view?usp=drivesdk",
+            "extraClass": "important"
+        }]
+
             }
         ],
         "title": "Mayor Baraka’s Small Business Emergency Grants Round 4",
