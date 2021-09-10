@@ -37,7 +37,16 @@
         "introText": "<p><img class='intro-pic' src='assets/img/pagePhotos/help for commercial tenants.jpg'>Newark’s small businesses have been devastated by COVID-19. With limited funds, Mayor Baraka is working to help our businesses, tenants, artists and others facing financial ruin from COVID-19 to survive and recover. The Small Business Emergency Fund is one of the many ways that we are pulling together as a community to fight the virus and restore our economy.</p>",
         "link": "small-business-grants",
         "parent": "/program",
-        "infoButtons": [],
+        "infoButtons": [{
+            "linkText": "Apply Now",
+            "link": "https://newark.seamlessdocs.com/f/SBAGrant",
+            "extraClass": "important"
+        },{
+            "linkText": "Frequently Asked Questions",
+            "link": "",
+            "extraClass": "important"
+        }
+],
         "purpose": [{
             "body": "In collaboration with President Biden, our federal, state and city legislators and our philanthropic community, we are working to expand the help that we can provide to Newark’s small businesses."
         }],
