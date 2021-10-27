@@ -41,12 +41,11 @@
             "linkText": "Apply Now",
             "link": "https://newark.seamlessdocs.com/f/SBAGrant",
             "extraClass": "important"
-        },{
+        }, {
             "linkText": "Frequently Asked Questions",
             "link": "https://drive.google.com/file/d/1UD39WujW69QqJwghRDPCsR6n_iJREmd7/view?usp=drivesdk",
             "extraClass": "important"
-        }
-],
+        }],
         "purpose": [{
             "body": "In collaboration with President Biden, our federal, state and city legislators and our philanthropic community, we are working to expand the help that we can provide to Newark’s small businesses."
         }],
@@ -60,16 +59,27 @@
             },
             {
                 "header": "Applications Are Available Now",
-                "emphasizeHeader": true,"buttons":[{
-            "linkText": "Apply Now",
-            "link": "https://newark.seamlessdocs.com/f/SBAGrant",
-            "extraClass": "important"
-        },{
-            "linkText": "Frequently Asked Questions",
-            "link": "https://drive.google.com/file/d/1UD39WujW69QqJwghRDPCsR6n_iJREmd7/view?usp=drivesdk",
-            "extraClass": "important"
-        }]
+                "emphasizeHeader": true,
+                "buttons": [{
+                    "linkText": "Apply Now",
+                    "link": "https://newark.seamlessdocs.com/f/SBAGrant",
+                    "extraClass": "important"
+                }, {
+                    "linkText": "Frequently Asked Questions",
+                    "link": "https://drive.google.com/file/d/1UD39WujW69QqJwghRDPCsR6n_iJREmd7/view?usp=drivesdk",
+                    "extraClass": "important"
+                }]
 
+            },
+            {
+                "header": "Social Clubs Relief Grant",
+                "text": "<p>The COVID-19 crisis has devastated  businesses nationwide. In an effort to help Newark businesses and organizations who may be experiencing economic hardship due to the COVID-19 pandemic, the City of Newark, under Mayor Ras J. Baraka’s leadership, is providing financial help to qualifying businesses using funding from the federal American Rescue Plan Act.</p><p>The Department of Economic and Housing Development (EHD) created the Social Clubs Relief Grant to provide grant assistance to the social clubs in the City that have suffered adverse economic impacts related to COVID-19.</p><p>The Social Clubs Relief Grant aims to provide working capital of up to three thousand dollars ($3,000) to qualifying social clubs to cover shortfalls resulting from loss of income, payroll loss, stagnant sales, etc.  Proceeds of the grant can be utilized at the grantee’s discretion to fund expenses such as accounts payable, payroll, inventory, equipment, utilities, rent or mortgage payments.</p>",
+                "emphasizeHeader": true,
+                "buttons": [{
+                    "linkText": "Apply Now",
+                    "link": "https://newark.seamlessdocs.com/f/SocialClubs",
+                    "extraClass": "important"
+                }]
             }
         ],
         "title": "Mayor Baraka’s Small Business Emergency Grants Round 4",
@@ -441,13 +451,13 @@
                     }
                 ]
             },
-                     {
+            {
                 "header": "Applying for Additional Funds",
                 "text": "<ol><li><strong>Who is eligible to apply for additional funds?</strong><ul><p>Applicants who have already applied for the Emergency Rental Assistance Program since July 26th and have their applications in Approved, Denied, Payment Processing or Paid status are eligible to apply for additional funds.</p><p>Those who have not applied for funds since this round of ERAP began, July 26 for tenants, can still apply for the first time for up to twelve (12) months back rent and three (3) months future rent, up until the application deadline for all of November 5, 2021.</p></ul></li><li><strong>When are additional funds available?</strong><ul><p>Additional funds for the Emergency Rental Assistance Program are available now and the application period is through November 5, 2021.</p></ul></li><li><strong>How do I apply for additional funds?</strong><ul><p><u>To apply for additional funds, follow these steps:</u></p><ul><li>Log in to the portal</li><li>Click <b>Manage Existing Applications</b> and locate your initial application</li><li>If your initial Application is in Approved, Denied, Processing Payment or Paid status, click the <b>Actions</b> button</li><li>Click <b>Apply for Additional Funds</b> and you will be redirected to the application form</li><li>Your application for additional funds will be pre-populated with some information and will also include the documentation from your initial application. Review all the fields, verify the information is correct and complete any required information in each section.</li><li>Once you have verified all the information is correct and complete, and have hit the <b>Save and Continue</b> button for each section, submit the application.</li></ul></ul></li></ol>"
             },
             {
                 "header": "Key Dates & Other Information",
-                "text": "<ul><li>Monday, July 19th: Landlord Pre-registration begins 9am online at <a href='https://apply.recovernj.org/en-US/?county=newark'>https://apply.recovernj.org/en-US/?county=newark</a> (Landlords Only)</li><li>Monday, July 26th: Tenant Application Opens</li><li>Landlords and tenants can both apply through Tuesday, November 5th at 6pm.</li><li>Monday, July 26th Application review period begins</li><li>Awards received between 30 – 60 days after application</li><li>Landlords can get pre-registration assistance via call center by calling <a href='tel:+18664849033'>(866)-484-9033</a>.</li></ul><p>Tenants can get application assistance via call center and/or in-person at select community-based organizations throughout the city. Current Locations are: <ul><li>Clinton Hill Community Action (404 Hawthorne Avenue) <ul><li>Mondays, Wednesdays, and Fridays from 10am - 5pm (By appointment only)</li><li>Call <a href='tel:+12012280757'>201-228-0757</a> or email <a href='mailto:support@clintonhillaction.org'>support@clintonhillaction.org</a> to schedule an in-person appointment</li></ul></li><li>Ironbound Community Corporation (317 Elm Street) <ul><li>Monday - 11am-4pm</li><li>Tuesday - 11am-4pm</li><li>Wednesday - 2pm-7pm</li><li>Thursday - 11am-4pm</li><li>Saturday August 14 and 28th - 11am to 2pm</li><li>Call <a href='tel:+18623346466'>862-334-6466</a> to schedule an in-person appointment</li></ul></li><li>La Casa de Don Pedro (Multiple Locations) <ul><li>76 Clinton Avenue, Newark, NJ 07114 <ul><li>Open Monday-Friday, 8am-3:30pm</li><li>Call <a href='tel:+19736244222'>973-624-4222</a> to schedule an in-person appointment at this location</li></ul></li><li>23 Broadway, Newark, NJ 07104 <ul><li>Monday-Friday, 8am-3:30pm</li><li>Call <a href='tel:+19734832703'>973-483-2703</a></li></ul></li><li>317 Roseville Avenue, Newark, NJ 07107 <ul><li>Monday, Tuesday, Thursday, and Friday 9am-5pm</li><li>Wednesdays 11am-7pm</li><li>Call <a href='tel:+19734850701'>973-485-0701</a> to schedule an in-person appointment at this location</li></ul></li></ul></li><li>New Community Corporation (274 South Orange Avenue) <ul><li>Monday – Friday, 9am – 6pm</li><li>Call <a href='tel:+19738246484'>973-824-6484</a> to schedule an in-person appointment</li></ul></li><li>Unified Vailsburg Services Organization (1044 South Orange Avenue) <ul><li>Call <a href='tel:+19733742000,1100'>973-374-2000 ext. 1100</a> to schedule an in-person appointment</li></ul></li></ul></p>"
+                "text": "<ul><li>Monday, July 19th: Landlord Pre-registration begins 9am online at <a href='https://apply.recovernj.org/en-US/?county=newark'>https://apply.recovernj.org/en-US/?county=newark</a> (Landlords Only)</li><li>Monday, July 26th: Tenant Application Opens</li><li>Landlords and tenants can both apply through Tuesday, November 5th at 6pm.</li><li>Monday, July 26th Application review period begins</li><li>Awards received between 30 – 60 days after application</li><li>Landlords can get pre-registration assistance via call center by calling <a href='tel:+18664849033'>(866)-484-9033</a>.</li></ul><p>Tenants can get application assistance via call center and/or in-person at select community-based organizations throughout the city. Current Locations are: <ul><li>Clinton Hill Community Action (404 Hawthorne Avenue) <ul><li>Mondays, Wednesdays, and Fridays from 10am - 5pm (By appointment only)</li><li>Call <a href='tel:+12012280757'>201-228-0757</a> or email <a href='mailto:support@clintonhillaction.org'>support@clintonhillaction.org</a> to schedule an in-person appointment</li></ul></li><li>Ironbound Community Corporation (317 Elm Street) <ul><li>Monday - 11am-4pm</li><li>Tuesday - 11am-4pm</li><li>Wednesday - 2pm-7pm</li><li>Thursday - 11am-4pm</li><li>Saturday August 14 and 28th - 11am to 2pm</li><li>Call <a href='tel:+18623346466'>862-334-6466</a> to schedule an in-person appointment</li></ul></li><li>La Casa de Don Pedro (Multiple Locations) <ul><li>76 Clinton Avenue, Newark, NJ 07114 <ul><li>Open Monday-Friday, 8am-3:30pm</li><li>Call <a href='tel:+19736244222'>973-624-4222</a> to schedule an in-person appointment at this location</li></ul></li><li>23 Broadway, Newark, NJ 07104 <ul><li>Monday-Friday, 8am-3:30pm</li><li>Call <a href='tel:+19734832703'>973-483-2703</a></li></ul></li><li>317 Roseville Avenue, Newark, NJ 07107 <ul><li>Monday, Tuesday, Thursday, and Friday 9am-5pm</li><li>Wednesdays 11am-7pm</li><li>Call <a href='tel:+19734850701'>973-485-0701</a> to schedule an in-person appointment at this location</li></ul></li></ul></li><li>New Community Corporation (274 South Orange Avenue) <ul><li>Monday – Friday, 9am – 6pm</li><li>Call <a href='tel:+19738246484'>973-824-6484</a> to schedule an in-person appointment</li></ul></li><li>Unified Vailsburg Services Organization (1044 South Orange Avenue)<ul><li>Call <a href='tel:+19733742000,1100'>973-374-2000 ext. 1100</a> to schedule an in-person appointment</li></ul></li></ul></p>"
             },
             {
                 "header": "Who Will Be Eligible",
