@@ -425,66 +425,14 @@
         "title": "Mayor Baraka’s Emergency Rental Assistance Program",
         "subtitle": "How to Apply & Other Information",
         "icon": "house",
-        "introText": "<p><img class='intro-pic' src='assets/img/pagePhotos/rentdue.jpg'><strong>City ERAP Portal Closing December 10th at 6pm EST (see below)</strong><br>Emergency Rental Assistance Program funds will be for payment towards past-due rent up to twelve (12) months and up to three (3) months of prospective rent, which is considered on a case-by-case basis, if applicable.</p><p>This round landlords will have the ability to pre-register in order to facilitate quick processing of tenant applications</p>",
-        "infoButtons": [{
-            "linkText": "Tenant Application and Landlord Pre-registration",
-            "link": "https://apply.recovernj.org/en-US/?county=newark",
-            "extraClass": "important"
-        }],
+        "introText": "<p><img class='intro-pic' src='assets/img/pagePhotos/rentdue.jpg'><strong>City ERAP Portal Closing December 10th at 6pm EST</strong><br>In the interim, you can apply to the Essex County ERAP program via its online portal at <a href='https://portal.neighborlysoftware.com/ERAP-ESSEXCOUNTYNJ/Participant'>https://portal.neighborlysoftware.com/ERAP-ESSEXCOUNTYNJ/Participant</a> or receive in-person application assistance. See below for more information.</p>",
         "purpose": [{
             "body": "Information About Mayor Baraka’s Emergency Rental Assistance Program (ERAP)"
         }],
         "sections": [{
                 "header": "City ERAP Portal Closing December 10th at 6pm EST",
                 "text": "<p>Due to the success of the program and expenditure of allocated funds from the Treasury, the City of Newark has announced that it had to <b>move up its deadline for submitting applications from January 7, 2022 to December 10, 2021</b>. As of <b>December 10, 2021 at 6pm EST</b>, the City of Newark Emergency Rental Assistance Program portal is <b>closed</b> and will no longer accept new applications. The portal will remain closed indefinitely to new applications until additional funds are allocated to the City of Newark.</p><p>Applicants that have already submitted an application <b>still</b> have access to the portal and should continue to login and check the status of applications at <a href='https://apply.recovernj.org/'>apply.recovernj.org</a>. Such applicants may also still submit additional documentation as requested. Applications will be reviewed on a first come first serve basis. Landlords may continue to register and update their profiles. The City of Newark Emergency Rental Assistance Program Support Line will remain available through January 7, 2022 to review questions you may have for additional information requested on your application. Approved applications are expected to receive payment within three weeks of being noted as PAID.  The City of Newark will issue notifications through their website, email, social media and the application portal. In the interim, you can apply to the Essex County ERAP program via its online portal at <a href='https://portal.neighborlysoftware.com/ERAP-ESSEXCOUNTYNJ/Participant'>https://portal.neighborlysoftware.com/ERAP-ESSEXCOUNTYNJ/Participant</a> or receive in-person application assistance at:<ul>Newark Emergency Services for Families<ul><li><a href='https://goo.gl/maps/L71xhTh3JHJ44F3D9'>982 Broad Street, Newark, NJ</a></li><li>Mon – Fri, 9am – 3pm</li><li><a href='tel:+19736392100'>(973) 639-2100</a></li><li><a href='mailto:acody@nesfnj.org'>acody@nesfnj.org</a></li></ul></ul><ul>Essex County<ul><li>Division of Community Action</li><li><a href='https://goo.gl/maps/uwhS8hcrEbszPHn99'>50 South Clinton St, East Orange, NJ</a></li></ul></ul></p>"
-            },
-            {
-                "header": "How to Apply or Pre-Register Videos",
-                "actionsCol": true,
-                "buttons": [{
-                        "link": "https://youtu.be/EZ2m1ivfb9Y",
-                        "linkText": "How to Apply Video for Tenants",
-                        "icon": "launch",
-                        "extraClass": "important"
-                    },
-                    {
-                        "link": "https://youtu.be/87oQ4PhmeYk",
-                        "linkText": "How to Pre-Register Video for Landlords",
-                        "icon": "launch",
-                        "extraClass": "important"
-                    }
-                ]
-            },
-            {
-                "header": "Applying for Additional Funds",
-                "text": "<ol><li><strong>Who is eligible to apply for additional funds?</strong><ul><p>Applicants who have already applied for the Emergency Rental Assistance Program since July 26th and have their applications in Approved, Denied, Payment Processing or Paid status are eligible to apply for additional funds.</p><p>Those who have not applied for funds since this round of ERAP began, July 26 for tenants, can still apply for the first time for up to twelve (12) months back rent and three (3) months future rent, up until the application deadline for all of November 5, 2021.</p></ul></li><li><strong>When are additional funds available?</strong><ul><p>Additional funds for the Emergency Rental Assistance Program are available now and the application period is through November 5, 2021.</p></ul></li><li><strong>How do I apply for additional funds?</strong><ul><p><u>To apply for additional funds, follow these steps:</u></p><ul><li>Log in to the portal</li><li>Click <b>Manage Existing Applications</b> and locate your initial application</li><li>If your initial Application is in Approved, Denied, Processing Payment or Paid status, click the <b>Actions</b> button</li><li>Click <b>Apply for Additional Funds</b> and you will be redirected to the application form</li><li>Your application for additional funds will be pre-populated with some information and will also include the documentation from your initial application. Review all the fields, verify the information is correct and complete any required information in each section.</li><li>Once you have verified all the information is correct and complete, and have hit the <b>Save and Continue</b> button for each section, submit the application.</li></ul></ul></li></ol>"
-            },
-            {
-                "header": "Key Dates & Other Information",
-                "text": "<ul><li>Monday, July 19th: Landlord Pre-registration begins 9am online at <a href='https://apply.recovernj.org/en-US/?county=newark'>https://apply.recovernj.org/en-US/?county=newark</a> (Landlords Only)</li><li>Monday, July 26th: Tenant Application Opens</li><li>Landlords and tenants can both apply through Tuesday, November 5th at 6pm.</li><li>Monday, July 26th Application review period begins</li><li>Awards received between 30 – 60 days after application</li><li>Landlords can get pre-registration assistance via call center by calling <a href='tel:+18664849033'>(866)-484-9033</a>.</li></ul><p>Tenants can get application assistance via call center and/or in-person at select community-based organizations throughout the city. Current Locations are: <ul><li>Clinton Hill Community Action (404 Hawthorne Avenue) <ul><li>Mondays, Wednesdays, and Fridays from 10am - 5pm (By appointment only)</li><li>Call <a href='tel:+12012280757'>201-228-0757</a> or email <a href='mailto:support@clintonhillaction.org'>support@clintonhillaction.org</a> to schedule an in-person appointment</li></ul></li><li>Ironbound Community Corporation (317 Elm Street) <ul><li>Monday - 11am-4pm</li><li>Tuesday - 11am-4pm</li><li>Wednesday - 2pm-7pm</li><li>Thursday - 11am-4pm</li><li>Saturday August 14 and 28th - 11am to 2pm</li><li>Call <a href='tel:+18623346466'>862-334-6466</a> to schedule an in-person appointment</li></ul></li><li>La Casa de Don Pedro (Multiple Locations) <ul><li>76 Clinton Avenue, Newark, NJ 07114 <ul><li>Open Monday-Friday, 8am-3:30pm</li><li>Call <a href='tel:+19736244222'>973-624-4222</a> to schedule an in-person appointment at this location</li></ul></li><li>23 Broadway, Newark, NJ 07104 <ul><li>Monday-Friday, 8am-3:30pm</li><li>Call <a href='tel:+19734832703'>973-483-2703</a></li></ul></li><li>317 Roseville Avenue, Newark, NJ 07107 <ul><li>Monday, Tuesday, Thursday, and Friday 9am-5pm</li><li>Wednesdays 11am-7pm</li><li>Call <a href='tel:+19734850701'>973-485-0701</a> to schedule an in-person appointment at this location</li></ul></li></ul></li><li>New Community Corporation (274 South Orange Avenue) <ul><li>Monday – Friday, 9am – 6pm</li><li>Call <a href='tel:+19738246484'>973-824-6484</a> to schedule an in-person appointment</li></ul></li><li>Unified Vailsburg Services Organization (1044 South Orange Avenue)<ul><li>Call <a href='tel:+19733742000,1100'>973-374-2000 ext. 1100</a> to schedule an in-person appointment</li></ul></li></ul></p>"
-            },
-            {
-                "header": "Who Will Be Eligible",
-                "text": "<p>To qualify, you and/or your household must meet all of the following:<ul><li>Be a Newark resident,</li><li>Have a 2020 household income at or below 80% of the Area Median Income (AMI) in the City of Newark</li><li>One or more members of your household qualifies for unemployment benefits or experienced a reduction in household income, incurred significant costs, or experienced other financial hardship due directly or indirectly to COVID-19</li><li>One or more members of your household can demonstrate a risk of experiencing homelessness or housing instability</li><li>Be currently responsible for paying rent at your primary residence</li></ul></p>"
-            },
-            {
-                "header": "FAQs about Emergency Rental Assistance Program",
-                "actionsCol": true,
-                "buttons": [{
-                        "link": "/programs/erap-landlord-faq/",
-                        "linkText": "Landlord Info & FAQs",
-                        "icon": "launch",
-                        "extraClass": "important"
-                    },
-                    {
-                        "link": "/programs/erap-renter-faq/",
-                        "linkText": "Renter Info & FAQs",
-                        "icon": "launch",
-                        "extraClass": "important"
-                    }
-                ]
             }
-        ]
     },
     {
         "category": "Housing",
