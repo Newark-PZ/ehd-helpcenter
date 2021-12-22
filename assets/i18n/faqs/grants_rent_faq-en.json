@@ -1,74 +1,73 @@
-[
-  {
-    "Question": "If I’ve received assistance from Social Services in the past, can I still apply?",
-    "Answer": "<p>If you have received assistance from City of Newark Social Services, you are still eligible to apply for financial assistance, however your ERAP benefit may be reduced to reflect duplicative assistance. Applicants cannot receive funds from the City’s ERAP for periods that have already been covered by state and county ERAP.</p>",
-    "Category": "Other FAQs",
-    "Name": "ERAP_Renter_1"
-  },
-  {
-    "Question": "What does the assistance pay for?",
-    "Answer": "<p>The funds are for payment towards past-due rent up to twelve (12) months and up to three (3) months of prospective rent. Funding must be applied to the months approved by the program. If your landlord is registered through ERAP, your landlord will receive the payments directly.  At this time, payments for utilities will not be covered, but may be considered at a future date.",
-    "Category": "Other FAQs",
-    "Name": "ERAP_Renter_2"
-  },
-  {
-    "Question": "If I pay with a housing benefit like in an income restricted affordable housing complex, can I apply for assistance?",
-    "Answer": "<p>Tenants who receive other housing benefits, like Section 8 or other housing vouchers, are eligible for assistance. The Emergency Rental Assistance Program cannot duplicate housing benefits already being provided to residents. The ERAP will only cover the tenant’s required rental contribution and not the federal portion.</p>",
-    "Category": "Other FAQs",
-    "Name": "ERAP_Renter_2"
-  },
-  {
-    "Question": "If I have a roommate, can we both apply for assistance?",
-    "Answer": "<p>The program will only accept one application per household, including roommates. Roommates should submit one application together with all their supporting documents, including individual tax returns.</p>",
-    "Category": "Other FAQs",
-    "Name": "ERAP_Renter_3"
-  },
-  {
-    "Question": "What is the deadline to apply?",
-    "Answer": "<p>Financial assistance is awarded on a first-come basis and while funding remains available. It is recommended you complete your application all at once to ensure your application is submitted before the funding is accounted for. The application window will be open between July 26, 2021 – January 7, 2022 (as long as funds are available).",
-    "Category": "Other FAQs",
-    "Name": "ERAP_Renter_4"
-  },
-  {
-    "Question": "Who in the household can apply for assistance?",
-    "Answer": "Only one application per household will be accepted and must be in the name of the person affected by COVID-19.",
-    "Category": "Other FAQs",
-    "Name": "ERAP_Renter_5"
-  },
-  {
-    "Question": "What if I have a baby but they aren’t included on my lease agreement? Do they count towards my household size?",
-    "Answer": "Eligibility and household size will be based off your lease agreement and/or supporting documents from your landlord, if needed. An eligibility specialist will be able to assist in the determination of household size.",
-    "Category": "Other FAQs",
-    "Name": "ERAP_Renter_6"
-  },
-  {
-    "Question": "Am I eligible if I meet some, but not all, of the eligibility requirements?",
-    "Answer": "No. You must meet ALL eligibility requirements to be eligible.",
-    "Category": "Other FAQs",
-    "Name": "ERAP_Renter_7"
-  },
-  {
-    "Question": "How much will I get if I’m approved for assistance?",
-    "Answer": "<p>Once your application is accepted and you are determined eligible, your financial assistance amount for rental assistance will depend on the number of persons in your household and when your loss of wages began. Rental assistance payments will be provided directly to your landlord, if your landlord is registered with ERAP. Assistance provided can be up to twelve (12) months of past-due rent from March 13, 2020 or later and three (3) months of prospective rent, per household.</p><p>Although awards are for rent only, past-due electric or gas assistance may be a possibility in the future. There are questions on the application simply to help us determine the need for such assistance in the future, should additional funds be made available to the City.</p>",
-    "Category": "Other FAQs",
-    "Name": "ERAP_Renter_8"
-  },
-  {
-    "Question": "If I’m approved for assistance, how long will it take to receive my money?",
-    "Answer": "<p>Every request is unique and processing eligibility and payment time will vary. Your payment could take several weeks to arrive, but you will be able to track the status of your application online. Payments will be made directly to your landlord if your landlord is registered through ERAP.</p>",
-    "Category": "Other FAQs",
-    "Name": "ERAP_Renter_9"
-  },
-  {
-    "Question": "What happens if my landlord declines to participate in the program?",
-    "Answer": "If you are approved for funding and your landlord has opted out of the program, payments may be provided directly to the tenant via preferred option of ACH to the bank account provided when you apply or via check. Note that by accepting the terms and conditions for this program, you are obligated to use the funds towards your past-due rent.",
-    "Category": "Other FAQs",
-    "Name": "ERAP_Renter_10"
-  },
-  {
-    "Question": "If I have been experiencing illegal eviction activity at my residence, what should I do?",
-    "Answer": "<p>The Governor has extended the eviction moratorium in New Jersey to December 31, 2021. If you are under the threat of illegal eviction activity you should call the Newark police at <a href='tel:+19737336000'>973-733-6000</a>. Newark tenants facing the threat of eviction may also visit <a href='https://www.newarknj.gov/departments/office-of-tenant-legal-services>https://www.newarknj.gov/departments/office-of-tenant-legal-services'>https://www.newarknj.gov/departments/office-of-tenant-legal-services</a> or call <a href='tel:+19738779424'>973-877-9424</a> to see if they are eligible for free legal assistance from the Office of Tenant Legal Services.</p><p>If you have any questions about this program, call the ERAP Call Center at <a href='+18664849033'>(866) 484-9033</a> to speak with a representative. The call center is open from 9 AM until 6 PM est Monday through Friday.</p>",
-    "Category": "Other FAQs",
-    "Name": "ERAP_Renter_11"
-  }
+[{
+        "Question": "If I’ve received assistance from Social Services in the past, can I still apply?",
+        "Answer": "<p>If you have received assistance from City of Newark Social Services, you are still eligible to apply for financial assistance, however your ERAP benefit may be reduced to reflect duplicative assistance. Applicants cannot receive funds from the City’s ERAP for periods that have already been covered by state and county ERAP.</p>",
+        "Category": "Other FAQs",
+        "Name": "ERAP_Renter_1"
+    },
+    {
+        "Question": "What does the assistance pay for?",
+        "Answer": "<p>The funds are for payment towards past-due rent up to twelve (12) months and up to three (3) months of prospective rent. Funding must be applied to the months approved by the program. If your landlord is registered through ERAP, your landlord will receive the payments directly.  At this time, payments for utilities will not be covered, but may be considered at a future date.",
+        "Category": "Other FAQs",
+        "Name": "ERAP_Renter_2"
+    },
+    {
+        "Question": "If I pay with a housing benefit like in an income restricted affordable housing complex, can I apply for assistance?",
+        "Answer": "<p>Tenants who receive other housing benefits, like Section 8 or other housing vouchers, are eligible for assistance. The Emergency Rental Assistance Program cannot duplicate housing benefits already being provided to residents. The ERAP will only cover the tenant’s required rental contribution and not the federal portion.</p>",
+        "Category": "Other FAQs",
+        "Name": "ERAP_Renter_2"
+    },
+    {
+        "Question": "If I have a roommate, can we both apply for assistance?",
+        "Answer": "<p>The program will only accept one application per household, including roommates. Roommates should submit one application together with all their supporting documents, including individual tax returns.</p>",
+        "Category": "Other FAQs",
+        "Name": "ERAP_Renter_3"
+    },
+    {
+        "Question": "What is the deadline to apply?",
+        "Answer": "<p>Financial assistance is awarded on a first-come basis and while funding remains available. It is recommended you complete your application all at once to ensure your application is submitted before the funding is accounted for. The application window will be open between July 26, 2021 – November 5, 2021 (as long as funds are available).",
+        "Category": "Other FAQs",
+        "Name": "ERAP_Renter_4"
+    },
+    {
+        "Question": "Who in the household can apply for assistance?",
+        "Answer": "Only one application per household will be accepted and must be in the name of the person affected by COVID-19.",
+        "Category": "Other FAQs",
+        "Name": "ERAP_Renter_5"
+    },
+    {
+        "Question": "What if I have a baby but they aren’t included on my lease agreement? Do they count towards my household size?",
+        "Answer": "Eligibility and household size will be based off your lease agreement and/or supporting documents from your landlord, if needed. An eligibility specialist will be able to assist in the determination of household size.",
+        "Category": "Other FAQs",
+        "Name": "ERAP_Renter_6"
+    },
+    {
+        "Question": "Am I eligible if I meet some, but not all, of the eligibility requirements?",
+        "Answer": "No. You must meet ALL eligibility requirements to be eligible.",
+        "Category": "Other FAQs",
+        "Name": "ERAP_Renter_7"
+    },
+    {
+        "Question": "How much will I get if I’m approved for assistance?",
+        "Answer": "<p>Once your application is accepted and you are determined eligible, your financial assistance amount for rental assistance will depend on the number of persons in your household and when your loss of wages began. Rental assistance payments will be provided directly to your landlord, if your landlord is registered with ERAP. Assistance provided can be up to twelve (12) months of past-due rent from March 13, 2020 or later and three (3) months of prospective rent, per household.</p><p>Although awards are for rent only, past-due electric or gas assistance may be a possibility in the future. There are questions on the application simply to help us determine the need for such assistance in the future, should additional funds be made available to the City.</p>",
+        "Category": "Other FAQs",
+        "Name": "ERAP_Renter_8"
+    },
+    {
+        "Question": "If I’m approved for assistance, how long will it take to receive my money?",
+        "Answer": "<p>Every request is unique and processing eligibility and payment time will vary. Your payment could take several weeks to arrive, but you will be able to track the status of your application online. Payments will be made directly to your landlord if your landlord is registered through ERAP.</p>",
+        "Category": "Other FAQs",
+        "Name": "ERAP_Renter_9"
+    },
+    {
+        "Question": "What happens if my landlord declines to participate in the program?",
+        "Answer": "If you are approved for funding and your landlord has opted out of the program, payments may be provided directly to the tenant via preferred option of ACH to the bank account provided when you apply or via check. Note that by accepting the terms and conditions for this program, you are obligated to use the funds towards your past-due rent.",
+        "Category": "Other FAQs",
+        "Name": "ERAP_Renter_10"
+    },
+    {
+        "Question": "If I have been experiencing illegal eviction activity at my residence, what should I do?",
+        "Answer": "<p>The Governor has extended the eviction moratorium in New Jersey to December 31, 2021. If you are under the threat of illegal eviction activity you should call the Newark police at <a href='tel:+19737336000'>973-733-6000</a>. Newark tenants facing the threat of eviction may also visit <a href='https://www.newarknj.gov/departments/office-of-tenant-legal-services>https://www.newarknj.gov/departments/office-of-tenant-legal-services'>https://www.newarknj.gov/departments/office-of-tenant-legal-services</a> or call <a href='tel:+19738779424'>973-877-9424</a> to see if they are eligible for free legal assistance from the Office of Tenant Legal Services.</p><p>If you have any questions about this program, call the ERAP Call Center at <a href='+18664849033'>(866) 484-9033</a> to speak with a representative. The call center is open from 9 AM until 6 PM est Monday through Friday.</p>",
+        "Category": "Other FAQs",
+        "Name": "ERAP_Renter_11"
+    }
 ]
