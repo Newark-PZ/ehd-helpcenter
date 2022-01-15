@@ -28,7 +28,7 @@
         "@ngx-translate/core": "^12.1.2",
         "@ngx-translate/http-loader": "^4.0.0",
         "dompurify": "^2.0.14",
-        "marked": "2.0.0",
+        "marked": "4.0.10",
         "rxjs": "~6.5.4",
         "tslib": "^1.10.0",
         "zone.js": "~0.10.3"
