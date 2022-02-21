@@ -143,7 +143,7 @@ export class DocViewComponent {
       ];
     } else if (id === 'free-vaccine-sites') {
       return this.currentUrl = [this.sanitizer
-        .bypassSecurityTrustResourceUrl('https://drive.google.com/file/d/19q9GmfGuNjEzx0soT49opRMF5B4lG9FC/view?usp=sharing')];
+        .bypassSecurityTrustResourceUrl('https://drive.google.com/file/d/12nYcTx6m7nLWzbGmvlH4RL1flFWhbGEz/view?usp=sharing')];
     }
   }
   goToUrl() {
